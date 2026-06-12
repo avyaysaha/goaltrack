@@ -1660,7 +1660,8 @@ if (standingsUpdateButton) {
 
     try {
       await refreshLiveData();
-      standingsUpdateButton.classList.add("is-updated");
+      standingsUpdateStatus.textContent = "Update complete. Reloading page...";
+      window.location.reload();
     } catch (error) {
       standingsUpdateStatus.textContent = error.message;
     } finally {
@@ -1679,8 +1680,8 @@ if (statsUpdateButton) {
 
     try {
       await refreshLiveData();
-      renderStatsDashboard();
-      statsUpdateButton.classList.add("is-updated");
+      statsUpdateStatus.textContent = "Update complete. Reloading page...";
+      window.location.reload();
     } catch (error) {
       statsUpdateStatus.textContent = error.message;
     } finally {
@@ -1785,7 +1786,8 @@ if (scheduleList) {
 
       try {
         await refreshLiveData();
-        updateDataButton.classList.add("is-updated");
+        updateStatus.textContent = "Update complete. Reloading page...";
+        window.location.reload();
       } catch (error) {
         updateStatus.textContent = error.message;
       } finally {
