@@ -105,19 +105,24 @@
       <p><strong>GoalTrack</strong> · A sample learning project</p>
       <p>Not affiliated with FIFA.</p>
     </div>
-    <details class="api-setup footer-api-setup">
-      <summary>Live API setup</summary>
-      <div class="api-setup-content">
-        <label>
-          API-Football key
-          <input class="api-key-input" type="password" autocomplete="off" placeholder="Paste your API key">
-        </label>
-        <button class="api-save-button" type="button">Save key</button>
-        <a href="https://dashboard.api-football.com/register" target="_blank" rel="noreferrer">Get a free key ↗</a>
-        <span class="api-message" role="status"></span>
-      </div>
-    </details>
+    <button class="api-popup-button" type="button">API key setup</button>
   </footer>
+
+  <dialog class="api-dialog" aria-labelledby="api-dialog-title">
+    <div class="api-dialog-heading">
+      <div><span>LIVE DATA</span><h2 id="api-dialog-title">API key setup</h2></div>
+      <button class="api-dialog-close" type="button" aria-label="Close API key setup">×</button>
+    </div>
+    <div class="api-setup-content">
+      <label>
+        API-Football key
+        <input class="api-key-input" type="password" autocomplete="off" placeholder="Paste your API key">
+      </label>
+      <button class="api-save-button" type="button">Save key</button>
+      <a href="https://dashboard.api-football.com/register" target="_blank" rel="noreferrer">Get a free key ↗</a>
+      <span class="api-message" role="status"></span>
+    </div>
+  </dialog>
 
   <button id="chat-toggle" class="chat-toggle" type="button" aria-expanded="false" aria-controls="chat-panel">
     <span aria-hidden="true">?</span> Ask Track
