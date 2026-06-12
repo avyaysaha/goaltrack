@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T22:22:42.553Z",
+  "updatedAt": "2026-06-12T22:35:25.782Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -697,7 +697,7 @@
       "status": "FT",
       "homeScore": 2,
       "awayScore": 0,
-      "elapsed": 90,
+      "elapsed": 97,
       "scorers": [
         {
           "player": "Julián Quiñones",
@@ -710,8 +710,40 @@
           "match": "Mexico vs South Africa"
         }
       ],
-      "yellowCards": [],
-      "redCards": [],
+      "yellowCards": [
+        {
+          "player": "Teboho Mokoena",
+          "team": "South Africa",
+          "match": "Mexico vs South Africa"
+        },
+        {
+          "player": "Carlos Gutiérrez",
+          "team": "Mexico",
+          "match": "Mexico vs South Africa"
+        },
+        {
+          "player": "Nkosinathi Sibisi",
+          "team": "South Africa",
+          "match": "Mexico vs South Africa"
+        }
+      ],
+      "redCards": [
+        {
+          "player": "Sphephelo Sithole",
+          "team": "South Africa",
+          "match": "Mexico vs South Africa"
+        },
+        {
+          "player": "Themba Zwane",
+          "team": "South Africa",
+          "match": "Mexico vs South Africa"
+        },
+        {
+          "player": "César Montes",
+          "team": "Mexico",
+          "match": "Mexico vs South Africa"
+        }
+      ],
       "penalties": 0,
       "homeKeeper": "Raúl Rangel",
       "awayKeeper": "Ronwen Williams"
@@ -1391,7 +1423,7 @@
       "awayFlag": "RSA",
       "location": "Estadio Azteca · Mexico City",
       "status": "FT",
-      "elapsed": 90,
+      "elapsed": 97,
       "homeScore": 2,
       "awayScore": 0,
       "scorers": [
@@ -1406,8 +1438,40 @@
           "match": "Mexico vs South Africa"
         }
       ],
-      "yellowCards": [],
-      "redCards": [],
+      "yellowCards": [
+        {
+          "player": "Teboho Mokoena",
+          "team": "South Africa",
+          "match": "Mexico vs South Africa"
+        },
+        {
+          "player": "Carlos Gutiérrez",
+          "team": "Mexico",
+          "match": "Mexico vs South Africa"
+        },
+        {
+          "player": "Nkosinathi Sibisi",
+          "team": "South Africa",
+          "match": "Mexico vs South Africa"
+        }
+      ],
+      "redCards": [
+        {
+          "player": "Sphephelo Sithole",
+          "team": "South Africa",
+          "match": "Mexico vs South Africa"
+        },
+        {
+          "player": "Themba Zwane",
+          "team": "South Africa",
+          "match": "Mexico vs South Africa"
+        },
+        {
+          "player": "César Montes",
+          "team": "Mexico",
+          "match": "Mexico vs South Africa"
+        }
+      ],
       "penalties": 0,
       "homeKeeper": "Raúl Rangel",
       "awayKeeper": "Ronwen Williams"
@@ -1545,36 +1609,77 @@
       {
         "name": "Raúl Rangel",
         "value": 1,
-        "detail": "Mexico · 0 goals conceded"
+        "detail": "Mexico · 0 goals conceded in 1 appearance"
       },
       {
         "name": "Kim Seung-gyu",
         "value": 0,
-        "detail": "Korea Republic · 1 goals conceded"
+        "detail": "Korea Republic · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Matěj Kovář",
         "value": 0,
-        "detail": "Czechia · 2 goals conceded"
+        "detail": "Czechia · 2 goals conceded in 1 appearance"
       },
       {
         "name": "Maxime Crépeau",
         "value": 0,
-        "detail": "Canada · 1 goals conceded"
+        "detail": "Canada · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Nikola Vasilj",
         "value": 0,
-        "detail": "Bosnia and Herzegovina · 1 goals conceded"
+        "detail": "Bosnia and Herzegovina · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Ronwen Williams",
         "value": 0,
-        "detail": "South Africa · 2 goals conceded"
+        "detail": "South Africa · 2 goals conceded in 1 appearance"
       }
     ],
-    "redCardEvents": [],
+    "redCards": {
+      "South Africa": 2,
+      "Mexico": 1
+    },
+    "yellowCards": {
+      "South Africa": 2,
+      "Mexico": 1,
+      "Canada": 1,
+      "Bosnia and Herzegovina": 3
+    },
+    "redCardEvents": [
+      {
+        "player": "Sphephelo Sithole",
+        "team": "South Africa",
+        "match": "Mexico vs South Africa"
+      },
+      {
+        "player": "Themba Zwane",
+        "team": "South Africa",
+        "match": "Mexico vs South Africa"
+      },
+      {
+        "player": "César Montes",
+        "team": "Mexico",
+        "match": "Mexico vs South Africa"
+      }
+    ],
     "yellowCardEvents": [
+      {
+        "player": "Teboho Mokoena",
+        "team": "South Africa",
+        "match": "Mexico vs South Africa"
+      },
+      {
+        "player": "Carlos Gutiérrez",
+        "team": "Mexico",
+        "match": "Mexico vs South Africa"
+      },
+      {
+        "player": "Nkosinathi Sibisi",
+        "team": "South Africa",
+        "match": "Mexico vs South Africa"
+      },
       {
         "player": "Alistair Johnston",
         "team": "Canada",
@@ -1600,10 +1705,10 @@
     "matchStats": [
       {
         "match": "Mexico vs South Africa",
-        "redCards": 0,
-        "yellowCards": 0,
+        "redCards": 3,
+        "yellowCards": 3,
         "penalties": 0,
-        "elapsed": 90
+        "elapsed": 97
       },
       {
         "match": "Korea Republic vs Czechia",
