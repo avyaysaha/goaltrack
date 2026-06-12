@@ -109,10 +109,16 @@ function extraValue(name) {
   return extraDetails[name] || "";
 }
 
-const data = JSON.parse(fs.readFileSync(jsonPath, "utf8"));
+const data = JSON.parse(fs.readFileSync(jsonPath, "utf8").replace(/^\uFEFF/, ""));
 const home = resolveTeam(required("HOME_TEAM"));
 const away = resolveTeam(required("AWAY_TEAM"));
 if (home === away) throw new Error("Home and away teams must be different.");
+
+const key = (match) => `${normalize(match.home)}|${normalize(match.away)}`;
+const existingIndex = data.matchUpdates.findIndex((match) => key(match) === key({ home, away }));
+const existingMatch = existingIndex >= 0 ? data.matchUpdates[existingIndex] : {};
+const hasExtra = (name) => Object.prototype.hasOwnProperty.call(extraDetails, name);
+const scorersWereSupplied = String(process.env.SCORERS || "").trim().length > 0;
 
 const homeScore = number("HOME_SCORE");
 const awayScore = number("AWAY_SCORE");
@@ -121,29 +127,39 @@ const update = {
   date: required("MATCH_DATE").replace(/\s+/g, " ").replace(/\s+,/g, ","),
   stage: String(process.env.STAGE || "Group Stage"),
   group: String(process.env.GROUP_OR_ROUND || `Group ${teams[home][0]}`),
-  time: extraValue("time") || "TBD",
+  time: hasExtra("time") ? extraValue("time") : (existingMatch.time || "TBD"),
   home,
   homeFlag: teams[home][1],
   away,
   awayFlag: teams[away][1],
-  location: extraValue("venue") || "Venue TBD",
+  location: hasExtra("venue") ? extraValue("venue") : (existingMatch.location || "Venue TBD"),
   status: "FT",
   elapsed: number("ELAPSED", 90),
   homeScore,
   awayScore,
-  scorers: namedEvents(process.env.SCORERS, matchLabel),
-  yellowCards: namedEvents(extraValue("yellow"), matchLabel),
-  redCards: namedEvents(extraValue("red"), matchLabel),
-  penalties: Number(extraValue("penalties") || 0),
-  homeKeeper: extraValue("home_keeper"),
-  awayKeeper: extraValue("away_keeper")
+  scorers: scorersWereSupplied
+    ? namedEvents(process.env.SCORERS, matchLabel)
+    : (existingMatch.scorers || []),
+  yellowCards: hasExtra("yellow")
+    ? namedEvents(extraValue("yellow"), matchLabel)
+    : (existingMatch.yellowCards || []),
+  redCards: hasExtra("red")
+    ? namedEvents(extraValue("red"), matchLabel)
+    : (existingMatch.redCards || []),
+  penalties: hasExtra("penalties")
+    ? Number(extraValue("penalties") || 0)
+    : (existingMatch.penalties || 0),
+  homeKeeper: hasExtra("home_keeper")
+    ? extraValue("home_keeper")
+    : (existingMatch.homeKeeper || ""),
+  awayKeeper: hasExtra("away_keeper")
+    ? extraValue("away_keeper")
+    : (existingMatch.awayKeeper || "")
 };
 if (!Number.isFinite(update.penalties) || update.penalties < 0) {
   throw new Error("penalties in extra details must be zero or greater.");
 }
 
-const key = (match) => `${normalize(match.home)}|${normalize(match.away)}`;
-const existingIndex = data.matchUpdates.findIndex((match) => key(match) === key(update));
 if (existingIndex >= 0) data.matchUpdates[existingIndex] = update;
 else data.matchUpdates.push(update);
 
@@ -195,21 +211,48 @@ for (const event of allScorers) {
   scorerTotals.set(id, row);
 }
 
-const keepers = [];
+const keeperTotals = new Map();
 for (const match of data.matchUpdates) {
-  if (match.homeKeeper) {
-    keepers.push({ name: match.homeKeeper, value: match.awayScore === 0 ? 1 : 0, detail: `${match.home} · ${match.awayScore} goals conceded` });
-  }
-  if (match.awayKeeper) {
-    keepers.push({ name: match.awayKeeper, value: match.homeScore === 0 ? 1 : 0, detail: `${match.away} · ${match.homeScore} goals conceded` });
+  const keeperEntries = [
+    { name: match.homeKeeper, team: match.home, conceded: match.awayScore },
+    { name: match.awayKeeper, team: match.away, conceded: match.homeScore }
+  ];
+  for (const entry of keeperEntries) {
+    if (!entry.name) continue;
+    const id = `${entry.name}|${entry.team}`;
+    const keeper = keeperTotals.get(id) || {
+      name: entry.name, team: entry.team, cleanSheets: 0, conceded: 0, appearances: 0
+    };
+    keeper.cleanSheets += entry.conceded === 0 ? 1 : 0;
+    keeper.conceded += entry.conceded;
+    keeper.appearances += 1;
+    keeperTotals.set(id, keeper);
   }
 }
+
+function countEventsByTeam(eventKey) {
+  const totals = {};
+  for (const match of data.matchUpdates) {
+    for (const event of match[eventKey] || []) {
+      if (event.team) totals[event.team] = (totals[event.team] || 0) + 1;
+    }
+  }
+  return totals;
+}
+
+const keepers = [...keeperTotals.values()].map((keeper) => ({
+  name: keeper.name,
+  value: keeper.cleanSheets,
+  detail: `${keeper.team} · ${keeper.conceded} goals conceded in ${keeper.appearances} appearance${keeper.appearances === 1 ? "" : "s"}`
+}));
 
 data.updatedAt = new Date().toISOString();
 data.standings = standings;
 data.detailedStats = {
   scorers: [...scorerTotals.values()].sort((a, b) => b.value - a.value || a.name.localeCompare(b.name)),
   keepers: keepers.sort((a, b) => b.value - a.value || a.name.localeCompare(b.name)),
+  redCards: countEventsByTeam("redCards"),
+  yellowCards: countEventsByTeam("yellowCards"),
   redCardEvents: data.matchUpdates.flatMap((match) => match.redCards || []),
   yellowCardEvents: data.matchUpdates.flatMap((match) => match.yellowCards || []),
   penaltyEvents: data.matchUpdates.flatMap((match) =>
