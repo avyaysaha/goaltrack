@@ -1092,6 +1092,42 @@ tbody tr:hover {
   color: var(--white);
 }
 
+.site-footer-api {
+  align-items: flex-start;
+}
+
+.footer-copy {
+  display: grid;
+  gap: 5px;
+  flex: 0 0 auto;
+}
+
+.footer-api-setup {
+  width: min(720px, 68vw);
+  margin: 0;
+  border-color: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.footer-api-setup summary {
+  color: #8db9ff;
+}
+
+.footer-api-setup label,
+.footer-api-setup .api-message {
+  color: #b9c6c1;
+}
+
+.footer-api-setup .api-key-input {
+  border-color: rgba(255, 255, 255, 0.24);
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--white);
+}
+
+.footer-api-setup a {
+  color: #8db9ff;
+}
+
 /* ---------- 9. Stats dashboard ---------- */
 .stats-intro {
   display: flex;
@@ -2045,5 +2081,9 @@ tbody tr:hover {
   .site-footer {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .footer-api-setup {
+    width: 100%;
   }
 }
