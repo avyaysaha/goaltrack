@@ -1,0 +1,15 @@
+{
+  "updatedAt": null,
+  "standings": null,
+  "matches": [],
+  "detailedStats": {
+    "fixtureEvents": {},
+    "fixturePlayers": {},
+    "scorers": [],
+    "keepers": [],
+    "redCardEvents": [],
+    "yellowCardEvents": [],
+    "penaltyEvents": [],
+    "matchStats": []
+  }
+}
