@@ -1093,7 +1093,9 @@ tbody tr:hover {
 }
 
 .site-footer-api {
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
 }
 
 .footer-copy {
@@ -1103,6 +1105,7 @@ tbody tr:hover {
 }
 
 .api-popup-button {
+  grid-column: 2;
   min-height: 42px;
   padding: 0 17px;
   border: 1px solid rgba(255, 255, 255, 0.28);
@@ -2122,7 +2125,16 @@ tbody tr:hover {
     flex-direction: column;
   }
 
+  .site-footer-api {
+    padding-bottom: 86px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: stretch;
+  }
+
   .api-popup-button {
-    width: 100%;
+    grid-column: 1;
+    width: min(240px, 100%);
+    justify-self: center;
   }
 }
