@@ -1102,30 +1102,69 @@ tbody tr:hover {
   flex: 0 0 auto;
 }
 
-.footer-api-setup {
-  width: min(720px, 68vw);
-  margin: 0;
-  border-color: rgba(255, 255, 255, 0.2);
-  background: rgba(255, 255, 255, 0.07);
-}
-
-.footer-api-setup summary {
-  color: #8db9ff;
-}
-
-.footer-api-setup label,
-.footer-api-setup .api-message {
-  color: #b9c6c1;
-}
-
-.footer-api-setup .api-key-input {
-  border-color: rgba(255, 255, 255, 0.24);
-  background: rgba(255, 255, 255, 0.1);
+.api-popup-button {
+  min-height: 42px;
+  padding: 0 17px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.08);
   color: var(--white);
+  font-size: 0.74rem;
+  font-weight: 900;
+  cursor: pointer;
 }
 
-.footer-api-setup a {
-  color: #8db9ff;
+.api-popup-button:hover {
+  border-color: var(--green);
+  background: rgba(25, 189, 104, 0.16);
+}
+
+.api-dialog {
+  width: min(570px, calc(100vw - 30px));
+  padding: 0;
+  border: 0;
+  background: var(--white);
+  color: var(--ink);
+  box-shadow: 0 28px 90px rgba(8, 15, 30, 0.45);
+}
+
+.api-dialog::backdrop {
+  background: rgba(8, 15, 30, 0.75);
+  backdrop-filter: blur(4px);
+}
+
+.api-dialog-heading {
+  padding: 20px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 1px solid var(--line);
+}
+
+.api-dialog-heading span {
+  color: var(--blue);
+  font-size: 0.63rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+}
+
+.api-dialog-heading h2 {
+  margin: 2px 0 0;
+  font-size: 1.45rem;
+}
+
+.api-dialog-close {
+  width: 38px;
+  height: 38px;
+  border: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font-size: 1.45rem;
+  cursor: pointer;
+}
+
+.api-dialog .api-setup-content {
+  padding: 22px;
 }
 
 /* ---------- 9. Stats dashboard ---------- */
@@ -2083,7 +2122,7 @@ tbody tr:hover {
     flex-direction: column;
   }
 
-  .footer-api-setup {
+  .api-popup-button {
     width: 100%;
   }
 }
