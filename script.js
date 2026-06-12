@@ -1032,12 +1032,6 @@ matches = matches.map(function (match) {
 const scheduleList = document.querySelector("#schedule-list");
 const emptyMessage = document.querySelector("#empty-message");
 const teamSearch = document.querySelector("#team-search");
-const updateDataButton = document.querySelector("#update-data-button");
-const updateStatus = document.querySelector("#update-status");
-const standingsUpdateButton = document.querySelector("#standings-update-button");
-const standingsUpdateStatus = document.querySelector("#standings-update-status");
-const statsUpdateButton = document.querySelector("#stats-update-button");
-const statsUpdateStatus = document.querySelector("#stats-update-status");
 const apiKeyInputs = document.querySelectorAll(".api-key-input");
 const apiSaveButtons = document.querySelectorAll(".api-save-button");
 const apiMessages = document.querySelectorAll(".api-message");
@@ -1662,55 +1656,6 @@ function showUpdateTime(isoTime) {
     timeStyle: "short"
   });
 
-  if (updateStatus) {
-    updateStatus.textContent = `Schedule and standings updated ${readableTime}.`;
-  }
-  if (standingsUpdateStatus) {
-    standingsUpdateStatus.textContent = `Schedule, standings, and stats updated ${readableTime}.`;
-  }
-  if (statsUpdateStatus) {
-    statsUpdateStatus.textContent = `Player goals and stats updated ${readableTime}.`;
-  }
-}
-
-// The standings page uses the same live update and fallback data.
-if (standingsUpdateButton) {
-  showUpdateTime(localStorage.getItem("goalTrackLastUpdate"));
-
-  standingsUpdateButton.addEventListener("click", async function () {
-    standingsUpdateButton.disabled = true;
-    standingsUpdateStatus.textContent = "Updating schedule and standings...";
-
-    try {
-      await refreshLiveData();
-      standingsUpdateStatus.textContent = "Update complete. Reloading page...";
-      window.location.reload();
-    } catch (error) {
-      standingsUpdateStatus.textContent = error.message;
-    } finally {
-      standingsUpdateButton.disabled = false;
-    }
-  });
-}
-
-if (statsUpdateButton) {
-  showUpdateTime(localStorage.getItem("goalTrackLastUpdate"));
-
-  statsUpdateButton.addEventListener("click", async function () {
-    statsUpdateButton.disabled = true;
-    statsUpdateButton.classList.remove("is-updated");
-    statsUpdateStatus.textContent = "Updating player goals and tournament stats...";
-
-    try {
-      await refreshLiveData();
-      statsUpdateStatus.textContent = "Update complete. Reloading page...";
-      window.location.reload();
-    } catch (error) {
-      statsUpdateStatus.textContent = error.message;
-    } finally {
-      statsUpdateButton.disabled = false;
-    }
-  });
 }
 
 function renderSchedule() {
@@ -1796,28 +1741,6 @@ if (scheduleList) {
   teamSearch.addEventListener("input", renderSchedule);
   renderSchedule();
 
-  // Fetch live API data when a key is configured. Bundled data remains visible
-  // if the service is unavailable or the account has reached its request limit.
-  if (updateDataButton) {
-    const previousUpdate = localStorage.getItem("goalTrackLastUpdate");
-    showUpdateTime(previousUpdate);
-
-    updateDataButton.addEventListener("click", async function () {
-      updateDataButton.disabled = true;
-      updateDataButton.classList.remove("is-updated");
-      updateStatus.textContent = "Updating schedule and standings...";
-
-      try {
-        await refreshLiveData();
-        updateStatus.textContent = "Update complete. Reloading page...";
-        window.location.reload();
-      } catch (error) {
-        updateStatus.textContent = error.message;
-      } finally {
-        updateDataButton.disabled = false;
-      }
-    });
-  }
 }
 
 // ---------- 5. Stats dashboard ----------
