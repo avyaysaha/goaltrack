@@ -244,18 +244,30 @@ function buildKeepers(fixturePlayers) {
 
 const query = `league=${LEAGUE_ID}&season=${SEASON}`;
 const previous = await readPreviousData();
-const [fixtures, standingsResponse, topScorersResponse] = await Promise.all([
-  api(`/fixtures?${query}`),
-  api(`/standings?${query}`),
-  optionalApi(`/players/topscorers?${query}`)
-]);
+const fixtures = await api(`/fixtures?${query}`);
 
 const matches = buildMatches(fixtures);
 const completed = fixtures.filter((item) => FINISHED.has(item.fixture.status.short));
+const previousFinishedIds = new Set(
+  (previous.matches || [])
+    .filter((match) => FINISHED.has(match.status))
+    .map((match) => String(match.fixtureId))
+);
+const newlyCompleted = completed.filter((item) =>
+  !previousFinishedIds.has(String(item.fixture.id))
+);
+const needsFullRefresh = !previous.standings || newlyCompleted.length > 0;
+const standingsResponse = needsFullRefresh
+  ? await api(`/standings?${query}`)
+  : null;
+const topScorersResponse = needsFullRefresh
+  ? await optionalApi(`/players/topscorers?${query}`)
+  : null;
 const fixtureEvents = { ...(previous.detailedStats?.fixtureEvents || {}) };
 const fixturePlayers = { ...(previous.detailedStats?.fixturePlayers || {}) };
 
-for (const item of completed) {
+const detailFixtures = previous.updatedAt ? newlyCompleted : completed;
+for (const item of detailFixtures) {
   const id = String(item.fixture.id);
   if (!Array.isArray(fixtureEvents[id]) || fixtureEvents[id].length === 0) {
     const events = await optionalApi(`/fixtures/events?fixture=${item.fixture.id}`);
@@ -279,12 +291,16 @@ const topScorers = (topScorersResponse || []).map((entry) => {
 
 const data = {
   updatedAt: new Date().toISOString(),
-  standings: buildStandings(standingsResponse),
+  standings: standingsResponse
+    ? buildStandings(standingsResponse)
+    : previous.standings,
   matches,
   detailedStats: {
     fixtureEvents,
     fixturePlayers,
-    scorers: topScorers.length ? topScorers : eventStats.scorers,
+    scorers: topScorers.length
+      ? topScorers
+      : (eventStats.scorers.length ? eventStats.scorers : previous.detailedStats?.scorers || []),
     keepers: buildKeepers(fixturePlayers),
     redCardEvents: eventStats.redCardEvents,
     yellowCardEvents: eventStats.yellowCardEvents,
