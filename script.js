@@ -91,6 +91,11 @@ function team(name, flag, fifaRank) {
   };
 }
 
+// GitHub Actions replaces live-data.js after scheduled API updates. Keeping
+// this separate from the main script lets the site update without rebuilding
+// the beginner-friendly application code.
+const publishedLiveData = window.GOALTRACK_LIVE_DATA || {};
+
 let standingsData = {
   A: [
     { name: "Mexico", flag: "🇲🇽", fifaRank: 15, played: 1, won: 1, drawn: 0, lost: 0, gd: 2, points: 3 },
@@ -175,6 +180,10 @@ try {
   }
 } catch (error) {
   // Invalid cache data is ignored and the bundled standings remain available.
+}
+
+if (publishedLiveData.standings) {
+  standingsData = { ...standingsData, ...publishedLiveData.standings };
 }
 
 // Do not let an older browser cache erase the confirmed opening result.
@@ -1029,6 +1038,16 @@ matches = matches.map(function (match) {
   };
 });
 
+if (Array.isArray(publishedLiveData.matches) && publishedLiveData.matches.length) {
+  matches = publishedLiveData.matches.map(function (match) {
+    return {
+      ...match,
+      homeFlag: getTeamCountryCode(match.home, match.homeFlag || match.home.slice(0, 3).toUpperCase()),
+      awayFlag: getTeamCountryCode(match.away, match.awayFlag || match.away.slice(0, 3).toUpperCase())
+    };
+  });
+}
+
 const scheduleList = document.querySelector("#schedule-list");
 const emptyMessage = document.querySelector("#empty-message");
 const teamSearch = document.querySelector("#team-search");
@@ -1232,11 +1251,15 @@ function applyLiveFixtures(apiFixtures) {
 }
 
 function readDetailedStatsCache() {
+  let cached = {};
   try {
-    return JSON.parse(localStorage.getItem("goalTrackDetailedStats") || "{}");
+    cached = JSON.parse(localStorage.getItem("goalTrackDetailedStats") || "{}");
   } catch (error) {
-    return {};
+    cached = {};
   }
+
+  const publishedStats = publishedLiveData.detailedStats || {};
+  return { ...cached, ...publishedStats };
 }
 
 function saveFixtureEvents(fixtureEventResults) {
