@@ -1,13 +1,671 @@
 {
-  "updatedAt": null,
-  "matchUpdates": [],
-  "standings": null,
+  "updatedAt": "2026-06-12T21:40:00.203Z",
+  "matchUpdates": [
+    {
+      "date": "Friday, June 12, 2026",
+      "stage": "Group Stage",
+      "group": "Group B",
+      "time": "TBD",
+      "home": "Canada",
+      "homeFlag": "CAN",
+      "away": "Bosnia and Herzegovina",
+      "awayFlag": "BIH",
+      "location": "Venue TBD",
+      "status": "FT",
+      "elapsed": 96,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Cyle Larin",
+          "team": "Canada",
+          "match": "Canada vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Jovo Lukić",
+          "team": "Bosnia and Herzegovina",
+          "match": "Canada vs Bosnia and Herzegovina"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "B",
+          "team": "Canada",
+          "match": "Canada vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "C",
+          "team": "Bosnia and Herzegovina",
+          "match": "Canada vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Bo",
+          "team": "Canada",
+          "match": "Canada vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Ca",
+          "team": "Bosnia and Herzegovina",
+          "match": "Canada vs Bosnia and Herzegovina"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Maxime Crépeau",
+      "awayKeeper": "Nikola Vasilj"
+    }
+  ],
+  "standings": {
+    "A": [
+      {
+        "name": "Czechia",
+        "flag": "CZE",
+        "fifaRank": 44,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Korea Republic",
+        "flag": "KOR",
+        "fifaRank": 22,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Mexico",
+        "flag": "MEX",
+        "fifaRank": 15,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "South Africa",
+        "flag": "RSA",
+        "fifaRank": 61,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      }
+    ],
+    "B": [
+      {
+        "name": "Bosnia and Herzegovina",
+        "flag": "BIH",
+        "fifaRank": 71,
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gd": 0,
+        "points": 1
+      },
+      {
+        "name": "Canada",
+        "flag": "CAN",
+        "fifaRank": 27,
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gd": 0,
+        "points": 1
+      },
+      {
+        "name": "Qatar",
+        "flag": "QAT",
+        "fifaRank": 51,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Switzerland",
+        "flag": "SUI",
+        "fifaRank": 17,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      }
+    ],
+    "C": [
+      {
+        "name": "Brazil",
+        "flag": "BRA",
+        "fifaRank": 5,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Haiti",
+        "flag": "HAI",
+        "fifaRank": 84,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Morocco",
+        "flag": "MAR",
+        "fifaRank": 11,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Scotland",
+        "flag": "SCO",
+        "fifaRank": 36,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      }
+    ],
+    "D": [
+      {
+        "name": "Australia",
+        "flag": "AUS",
+        "fifaRank": 26,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Paraguay",
+        "flag": "PAR",
+        "fifaRank": 39,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Türkiye",
+        "flag": "TUR",
+        "fifaRank": 25,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "United States",
+        "flag": "USA",
+        "fifaRank": 14,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      }
+    ],
+    "E": [
+      {
+        "name": "Côte d'Ivoire",
+        "flag": "CIV",
+        "fifaRank": 42,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Curaçao",
+        "flag": "CUW",
+        "fifaRank": 82,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Ecuador",
+        "flag": "ECU",
+        "fifaRank": 23,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Germany",
+        "flag": "GER",
+        "fifaRank": 9,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      }
+    ],
+    "F": [
+      {
+        "name": "Japan",
+        "flag": "JPN",
+        "fifaRank": 18,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Netherlands",
+        "flag": "NED",
+        "fifaRank": 7,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Sweden",
+        "flag": "SWE",
+        "fifaRank": 43,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Tunisia",
+        "flag": "TUN",
+        "fifaRank": 40,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      }
+    ],
+    "G": [
+      {
+        "name": "Belgium",
+        "flag": "BEL",
+        "fifaRank": 8,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Egypt",
+        "flag": "EGY",
+        "fifaRank": 34,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "IR Iran",
+        "flag": "IRN",
+        "fifaRank": 20,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "New Zealand",
+        "flag": "NZL",
+        "fifaRank": 86,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      }
+    ],
+    "H": [
+      {
+        "name": "Cabo Verde",
+        "flag": "CPV",
+        "fifaRank": 68,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Saudi Arabia",
+        "flag": "KSA",
+        "fifaRank": 60,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Spain",
+        "flag": "ESP",
+        "fifaRank": 1,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Uruguay",
+        "flag": "URU",
+        "fifaRank": 16,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      }
+    ],
+    "I": [
+      {
+        "name": "France",
+        "flag": "FRA",
+        "fifaRank": 3,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Iraq",
+        "flag": "IRQ",
+        "fifaRank": 58,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Norway",
+        "flag": "NOR",
+        "fifaRank": 29,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Senegal",
+        "flag": "SEN",
+        "fifaRank": 19,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      }
+    ],
+    "J": [
+      {
+        "name": "Algeria",
+        "flag": "ALG",
+        "fifaRank": 35,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Argentina",
+        "flag": "ARG",
+        "fifaRank": 2,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Austria",
+        "flag": "AUT",
+        "fifaRank": 24,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Jordan",
+        "flag": "JOR",
+        "fifaRank": 66,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      }
+    ],
+    "K": [
+      {
+        "name": "Colombia",
+        "flag": "COL",
+        "fifaRank": 13,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "DR Congo",
+        "flag": "COD",
+        "fifaRank": 56,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Portugal",
+        "flag": "POR",
+        "fifaRank": 6,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Uzbekistan",
+        "flag": "UZB",
+        "fifaRank": 50,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      }
+    ],
+    "L": [
+      {
+        "name": "Croatia",
+        "flag": "CRO",
+        "fifaRank": 10,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "England",
+        "flag": "ENG",
+        "fifaRank": 4,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Ghana",
+        "flag": "GHA",
+        "fifaRank": 72,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Panama",
+        "flag": "PAN",
+        "fifaRank": 30,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      }
+    ]
+  },
   "detailedStats": {
-    "scorers": [],
-    "keepers": [],
+    "scorers": [
+      {
+        "name": "Cyle Larin",
+        "value": 1,
+        "detail": "Canada"
+      },
+      {
+        "name": "Jovo Lukić",
+        "value": 1,
+        "detail": "Bosnia and Herzegovina"
+      }
+    ],
+    "keepers": [
+      {
+        "name": "Maxime Crépeau",
+        "value": 0,
+        "detail": "Canada · 1 goals conceded"
+      },
+      {
+        "name": "Nikola Vasilj",
+        "value": 0,
+        "detail": "Bosnia and Herzegovina · 1 goals conceded"
+      }
+    ],
     "redCardEvents": [],
-    "yellowCardEvents": [],
+    "yellowCardEvents": [
+      {
+        "player": "B",
+        "team": "Canada",
+        "match": "Canada vs Bosnia and Herzegovina"
+      },
+      {
+        "player": "C",
+        "team": "Bosnia and Herzegovina",
+        "match": "Canada vs Bosnia and Herzegovina"
+      },
+      {
+        "player": "Bo",
+        "team": "Canada",
+        "match": "Canada vs Bosnia and Herzegovina"
+      },
+      {
+        "player": "Ca",
+        "team": "Bosnia and Herzegovina",
+        "match": "Canada vs Bosnia and Herzegovina"
+      }
+    ],
     "penaltyEvents": [],
-    "matchStats": []
+    "matchStats": [
+      {
+        "match": "Canada vs Bosnia and Herzegovina",
+        "redCards": 0,
+        "yellowCards": 4,
+        "penalties": 0,
+        "elapsed": 96
+      }
+    ]
   }
 }
