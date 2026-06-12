@@ -46,19 +46,6 @@
       <!-- JavaScript creates the group buttons inside this container. -->
       <div id="group-tabs" class="group-tabs" aria-label="Choose a group"></div>
 
-      <details class="api-setup">
-        <summary>Live API setup</summary>
-        <div class="api-setup-content">
-          <label>
-            API-Football key
-            <input class="api-key-input" type="password" autocomplete="off" placeholder="Paste your API key">
-          </label>
-          <button class="api-save-button" type="button">Save key</button>
-          <a href="https://dashboard.api-football.com/register" target="_blank" rel="noreferrer">Get a free key ↗</a>
-          <span class="api-message" role="status"></span>
-        </div>
-      </details>
-
       <div class="standings-update">
         <div>
           <strong>Standings are shown after completed matches only</strong>
@@ -113,9 +100,23 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <p><strong>GoalTrack</strong> · A sample learning project</p>
-    <p>Not affiliated with FIFA.</p>
+  <footer class="site-footer site-footer-api">
+    <div class="footer-copy">
+      <p><strong>GoalTrack</strong> · A sample learning project</p>
+      <p>Not affiliated with FIFA.</p>
+    </div>
+    <details class="api-setup footer-api-setup">
+      <summary>Live API setup</summary>
+      <div class="api-setup-content">
+        <label>
+          API-Football key
+          <input class="api-key-input" type="password" autocomplete="off" placeholder="Paste your API key">
+        </label>
+        <button class="api-save-button" type="button">Save key</button>
+        <a href="https://dashboard.api-football.com/register" target="_blank" rel="noreferrer">Get a free key ↗</a>
+        <span class="api-message" role="status"></span>
+      </div>
+    </details>
   </footer>
 
   <button id="chat-toggle" class="chat-toggle" type="button" aria-expanded="false" aria-controls="chat-panel">
