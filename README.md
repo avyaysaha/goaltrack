@@ -13,8 +13,8 @@ The website stores any optional API-Football key only in the visitor's browser.
 
 ## Automatic updates
 
-GitHub Actions runs `scripts/update-world-cup.mjs` every 10 minutes. It writes
-the latest public tournament data to `live-data.js`, which the pages load before
-the main application script.
+GitHub Actions checks fixtures every 30 minutes. When a newly completed match is
+found, it also refreshes standings, scorers, cards, and goalkeeper data. It
+writes the public data to `live-data.js`, which loads before the main script.
 
 The repository needs an Actions secret named `API_FOOTBALL_KEY`.
