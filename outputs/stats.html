@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="World Cup team and player statistics dashboard.">
+  <title>Stats | GoalTrack</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="GoalTrack home">
+      <span class="brand-ball" aria-hidden="true">⚽</span>
+      <span>Goal<span>Track</span></span>
+    </a>
+    <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="standings.html">Standings</a>
+      <a href="schedule.html">Match Schedule</a>
+      <a class="active" href="stats.html">Stats</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">TOURNAMENT NUMBERS</p>
+      <h1>Stats</h1>
+      <p>Compare team performance and follow the tournament leaders.</p>
+    </section>
+
+    <section class="content-section page-content">
+      <div class="stats-intro">
+        <div>
+          <p class="section-kicker">CURRENT TRACKER DATA</p>
+          <h2>Tournament trends and comparisons</h2>
+        </div>
+        <p id="stats-data-note">Charts use completed results and verified match reports. Unpublished statistics are clearly marked as unavailable.</p>
+      </div>
+
+      <div id="stats-chart-grid" class="stats-chart-grid" aria-label="Tournament statistic charts"></div>
+
+      <div class="leaderboard-heading">
+        <p class="section-kicker">TOURNAMENT LEADERS</p>
+        <h2>Top five</h2>
+      </div>
+
+      <div class="leaderboard-grid">
+        <section class="leaderboard-card">
+          <div class="leaderboard-title"><span>01</span><h3>Player Goals</h3></div>
+          <div id="scorer-leaderboard" class="leaderboard-list"></div>
+        </section>
+        <section class="leaderboard-card">
+          <div class="leaderboard-title"><span>02</span><h3>Team Goals</h3></div>
+          <div id="team-goals-leaderboard" class="leaderboard-list"></div>
+        </section>
+        <section class="leaderboard-card">
+          <div class="leaderboard-title"><span>03</span><h3>Goalkeepers</h3></div>
+          <div id="keeper-leaderboard" class="leaderboard-list"></div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer site-footer-api">
+    <div class="footer-copy">
+      <p><strong>GoalTrack</strong> · A sample learning project</p>
+      <p>Not affiliated with FIFA.</p>
+    </div>
+    <button class="api-popup-button" type="button">API key setup</button>
+  </footer>
+
+  <dialog class="api-dialog" aria-labelledby="api-dialog-title">
+    <div class="api-dialog-heading">
+      <div><span>LIVE DATA</span><h2 id="api-dialog-title">API key setup</h2></div>
+      <button class="api-dialog-close" type="button" aria-label="Close API key setup">×</button>
+    </div>
+    <div class="api-setup-content">
+      <label>
+        API-Football key
+        <input class="api-key-input" type="password" autocomplete="off" placeholder="Paste your API key">
+      </label>
+      <button class="api-save-button" type="button">Save key</button>
+      <a href="https://dashboard.api-football.com/register" target="_blank" rel="noreferrer">Get a free key ↗</a>
+      <span class="api-message" role="status"></span>
+    </div>
+  </dialog>
+
+  <button id="chat-toggle" class="chat-toggle" type="button" aria-expanded="false" aria-controls="chat-panel">
+    <span aria-hidden="true">?</span> Ask Track
+  </button>
+  <aside id="chat-panel" class="chat-panel" aria-label="Track data assistant" aria-hidden="true">
+    <div class="chat-header">
+      <div><strong>Track</strong><span>Answers from this tracker</span></div>
+      <button id="chat-close" type="button" aria-label="Close assistant">×</button>
+    </div>
+    <div id="chat-messages" class="chat-messages" aria-live="polite">
+      <div class="chat-message assistant">Ask me about groups, standings, rankings, fixtures, results, or venues.</div>
+    </div>
+    <div class="chat-suggestions" aria-label="Suggested questions">
+      <button type="button">When does Mexico play?</button>
+      <button type="button">Show Group A</button>
+      <button type="button">Who is ranked first?</button>
+    </div>
+    <form id="chat-form" class="chat-form">
+      <label class="sr-only" for="chat-input">Ask Track a question</label>
+      <input id="chat-input" type="text" autocomplete="off" placeholder="Ask about the tournament...">
+      <button type="submit">Send</button>
+    </form>
+  </aside>
+
+  <script src="live-data.js"></script>
+  <script src="manual-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
