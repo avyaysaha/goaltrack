@@ -1,0 +1,83 @@
+name: Update Match Manually
+
+on:
+  workflow_dispatch:
+    inputs:
+      home_team:
+        description: "Home team (use the exact standings-page name)"
+        required: true
+        type: string
+      away_team:
+        description: "Away team (use the exact standings-page name)"
+        required: true
+        type: string
+      home_score:
+        description: "Home score"
+        required: true
+        type: string
+      away_score:
+        description: "Away score"
+        required: true
+        type: string
+      match_date:
+        description: "Display date, for example: Friday, June 12, 2026"
+        required: true
+        type: string
+      group_or_round:
+        description: "For example: Group B or Match 73 · Round of 32"
+        required: true
+        type: string
+      stage:
+        description: "Tournament stage"
+        required: true
+        default: "Group Stage"
+        type: choice
+        options:
+          - Group Stage
+          - Knockout
+      elapsed:
+        description: "Minutes played, including stoppage time"
+        required: true
+        default: "90"
+        type: string
+      scorers:
+        description: "Player|Team; Player|Team (repeat a player for each goal)"
+        required: false
+        type: string
+      extra_details:
+        description: "Optional lines: time=, venue=, yellow=Player|Team, red=Player|Team, penalties=, home_keeper=, away_keeper="
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the website
+        uses: actions/checkout@v4
+
+      - name: Update match data
+        env:
+          HOME_TEAM: ${{ inputs.home_team }}
+          AWAY_TEAM: ${{ inputs.away_team }}
+          HOME_SCORE: ${{ inputs.home_score }}
+          AWAY_SCORE: ${{ inputs.away_score }}
+          MATCH_DATE: ${{ inputs.match_date }}
+          GROUP_OR_ROUND: ${{ inputs.group_or_round }}
+          STAGE: ${{ inputs.stage }}
+          ELAPSED: ${{ inputs.elapsed }}
+          SCORERS: ${{ inputs.scorers }}
+          EXTRA_DETAILS: ${{ inputs.extra_details }}
+        run: node scripts/update-match.mjs
+
+      - name: Publish the update
+        run: |
+          git config user.name "goaltrack-update"
+          git config user.email "actions@users.noreply.github.com"
+          git add outputs/data/manual-data.json outputs/manual-data.js
+          git diff --cached --quiet && exit 0
+          git commit -m "Update ${{ inputs.home_team }} vs ${{ inputs.away_team }}"
+          git push
