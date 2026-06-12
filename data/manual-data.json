@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T21:58:33.895Z",
+  "updatedAt": "2026-06-12T22:22:42.553Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -132,47 +132,47 @@
   "standings": {
     "A": [
       {
-        "name": "Czechia",
-        "flag": "CZE",
-        "fifaRank": 44,
-        "played": 0,
-        "won": 0,
+        "name": "Mexico",
+        "flag": "MEX",
+        "fifaRank": 15,
+        "played": 1,
+        "won": 1,
         "drawn": 0,
         "lost": 0,
-        "gd": 0,
-        "points": 0
+        "gd": 2,
+        "points": 3
       },
       {
         "name": "Korea Republic",
         "flag": "KOR",
         "fifaRank": 22,
-        "played": 0,
-        "won": 0,
+        "played": 1,
+        "won": 1,
         "drawn": 0,
         "lost": 0,
-        "gd": 0,
-        "points": 0
+        "gd": 1,
+        "points": 3
       },
       {
-        "name": "Mexico",
-        "flag": "MEX",
-        "fifaRank": 15,
-        "played": 0,
+        "name": "Czechia",
+        "flag": "CZE",
+        "fifaRank": 44,
+        "played": 1,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "gd": 0,
+        "lost": 1,
+        "gd": -1,
         "points": 0
       },
       {
         "name": "South Africa",
         "flag": "RSA",
         "fifaRank": 61,
-        "played": 0,
+        "played": 1,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "gd": 0,
+        "lost": 1,
+        "gd": -2,
         "points": 0
       }
     ],
@@ -1543,9 +1543,14 @@
     ],
     "keepers": [
       {
+        "name": "Raúl Rangel",
+        "value": 1,
+        "detail": "Mexico · 0 goals conceded"
+      },
+      {
         "name": "Kim Seung-gyu",
         "value": 0,
-        "detail": "Korea Republic · 1 goal conceded"
+        "detail": "Korea Republic · 1 goals conceded"
       },
       {
         "name": "Matěj Kovář",
@@ -1555,17 +1560,12 @@
       {
         "name": "Maxime Crépeau",
         "value": 0,
-        "detail": "Canada · 1 goal conceded"
+        "detail": "Canada · 1 goals conceded"
       },
       {
         "name": "Nikola Vasilj",
         "value": 0,
-        "detail": "Bosnia and Herzegovina · 1 goal conceded"
-      },
-      {
-        "name": "Raúl Rangel",
-        "value": 1,
-        "detail": "Mexico · 0 goals conceded"
+        "detail": "Bosnia and Herzegovina · 1 goals conceded"
       },
       {
         "name": "Ronwen Williams",
@@ -1598,6 +1598,20 @@
     ],
     "penaltyEvents": [],
     "matchStats": [
+      {
+        "match": "Mexico vs South Africa",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 90
+      },
+      {
+        "match": "Korea Republic vs Czechia",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 96
+      },
       {
         "match": "Canada vs Bosnia and Herzegovina",
         "redCards": 0,
