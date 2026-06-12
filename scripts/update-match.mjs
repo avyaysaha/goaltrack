@@ -48,34 +48,76 @@ function number(name, fallback = 0) {
 }
 
 function list(value) {
-  return String(value || "").split(";").map((item) => item.trim()).filter(Boolean);
+  return String(value || "").split(/[;,]/).map((item) => item.trim()).filter(Boolean);
 }
 
 function namedEvents(value, match) {
   return list(value).map((item) => {
     const [player = "", team = ""] = item.split("|").map((part) => part.trim());
-    return { player, team, match };
+    return { player, team: resolveTeam(team, false) || team, match };
   });
 }
 
+function normalize(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function editDistance(left, right) {
+  const rows = Array.from({ length: left.length + 1 }, (_, index) => [index]);
+  for (let column = 1; column <= right.length; column += 1) rows[0][column] = column;
+  for (let row = 1; row <= left.length; row += 1) {
+    for (let column = 1; column <= right.length; column += 1) {
+      rows[row][column] = Math.min(
+        rows[row - 1][column] + 1,
+        rows[row][column - 1] + 1,
+        rows[row - 1][column - 1] + (left[row - 1] === right[column - 1] ? 0 : 1)
+      );
+    }
+  }
+  return rows[left.length][right.length];
+}
+
+function resolveTeam(value, requiredTeam = true) {
+  const entered = normalize(value);
+  if (!entered) return "";
+  const exact = Object.keys(teams).find((name) => normalize(name) === entered);
+  if (exact) return exact;
+
+  const closest = Object.keys(teams)
+    .map((name) => ({ name, distance: editDistance(entered, normalize(name)) }))
+    .sort((a, b) => a.distance - b.distance)[0];
+  if (closest && closest.distance <= 4) return closest.name;
+  if (requiredTeam) throw new Error(`Team "${value}" was not recognized. Use the name shown on the standings page.`);
+  return "";
+}
+
+const extraDetails = {};
+const extraPattern = /(?:^|[\n,]\s*)(time|venue|yellow|red|penalties|home_keeper|away_keeper)\s*=\s*(.*?)(?=(?:[\n,]\s*)(?:time|venue|yellow|red|penalties|home_keeper|away_keeper)\s*=|$)/gis;
+for (const match of String(process.env.EXTRA_DETAILS || "").matchAll(extraPattern)) {
+  const name = match[1].toLowerCase();
+  const value = match[2].trim();
+  extraDetails[name] = extraDetails[name] ? `${extraDetails[name]}; ${value}` : value;
+}
+
 function extraValue(name) {
-  const line = String(process.env.EXTRA_DETAILS || "")
-    .split(/\r?\n/)
-    .find((entry) => entry.toLowerCase().startsWith(`${name.toLowerCase()}=`));
-  return line ? line.slice(line.indexOf("=") + 1).trim() : "";
+  return extraDetails[name] || "";
 }
 
 const data = JSON.parse(fs.readFileSync(jsonPath, "utf8"));
-const home = required("HOME_TEAM");
-const away = required("AWAY_TEAM");
-if (!teams[home] || !teams[away]) throw new Error("Use team names exactly as shown on the standings page.");
+const home = resolveTeam(required("HOME_TEAM"));
+const away = resolveTeam(required("AWAY_TEAM"));
 if (home === away) throw new Error("Home and away teams must be different.");
 
 const homeScore = number("HOME_SCORE");
 const awayScore = number("AWAY_SCORE");
 const matchLabel = `${home} vs ${away}`;
 const update = {
-  date: required("MATCH_DATE"),
+  date: required("MATCH_DATE").replace(/\s+/g, " ").replace(/\s+,/g, ","),
   stage: String(process.env.STAGE || "Group Stage"),
   group: String(process.env.GROUP_OR_ROUND || `Group ${teams[home][0]}`),
   time: extraValue("time") || "TBD",
@@ -99,7 +141,7 @@ if (!Number.isFinite(update.penalties) || update.penalties < 0) {
   throw new Error("penalties in extra details must be zero or greater.");
 }
 
-const key = (match) => `${match.home.toLowerCase()}|${match.away.toLowerCase()}|${match.date}`;
+const key = (match) => `${normalize(match.home)}|${normalize(match.away)}`;
 const existingIndex = data.matchUpdates.findIndex((match) => key(match) === key(update));
 if (existingIndex >= 0) data.matchUpdates[existingIndex] = update;
 else data.matchUpdates.push(update);
