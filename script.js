@@ -1041,6 +1041,9 @@ const statsUpdateStatus = document.querySelector("#stats-update-status");
 const apiKeyInputs = document.querySelectorAll(".api-key-input");
 const apiSaveButtons = document.querySelectorAll(".api-save-button");
 const apiMessages = document.querySelectorAll(".api-message");
+const apiPopupButtons = document.querySelectorAll(".api-popup-button");
+const apiDialogs = document.querySelectorAll(".api-dialog");
+const apiDialogCloseButtons = document.querySelectorAll(".api-dialog-close");
 let currentFilter = "all";
 
 const API_BASE_URL = "https://v3.football.api-sports.io";
@@ -1440,9 +1443,7 @@ async function updateLiveFixtureDetails(apiFixtures) {
 async function refreshLiveData() {
   const apiKey = localStorage.getItem("goalTrackApiKey");
   if (!apiKey) {
-    document.querySelectorAll(".api-setup").forEach(function (details) {
-      details.open = true;
-    });
+    apiDialogs[0]?.showModal();
     showApiMessage("Paste a key, save it, then press update again.");
     throw new Error("Live API key required.");
   }
@@ -1487,6 +1488,28 @@ async function refreshLiveData() {
 
 apiKeyInputs.forEach(function (input) {
   input.value = localStorage.getItem("goalTrackApiKey") || "";
+});
+
+apiPopupButtons.forEach(function (button, index) {
+  button.addEventListener("click", function () {
+    const dialog = apiDialogs[index] || apiDialogs[0];
+    dialog?.showModal();
+    dialog?.querySelector(".api-key-input")?.focus();
+  });
+});
+
+apiDialogCloseButtons.forEach(function (button) {
+  button.addEventListener("click", function () {
+    button.closest(".api-dialog")?.close();
+  });
+});
+
+apiDialogs.forEach(function (dialog) {
+  dialog.addEventListener("click", function (event) {
+    if (event.target === dialog) {
+      dialog.close();
+    }
+  });
 });
 
 apiSaveButtons.forEach(function (button) {
