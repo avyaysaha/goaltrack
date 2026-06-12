@@ -95,6 +95,7 @@ function team(name, flag, fifaRank) {
 // this separate from the main script lets the site update without rebuilding
 // the beginner-friendly application code.
 const publishedLiveData = window.GOALTRACK_LIVE_DATA || {};
+const publishedManualData = window.GOALTRACK_MANUAL_DATA || {};
 
 let standingsData = {
   A: [
@@ -184,6 +185,11 @@ try {
 
 if (publishedLiveData.standings) {
   standingsData = { ...standingsData, ...publishedLiveData.standings };
+}
+
+// Manual GitHub updates take priority because they are entered after a match.
+if (publishedManualData.standings) {
+  standingsData = { ...standingsData, ...publishedManualData.standings };
 }
 
 // Do not let an older browser cache erase the confirmed opening result.
@@ -1048,6 +1054,28 @@ if (Array.isArray(publishedLiveData.matches) && publishedLiveData.matches.length
   });
 }
 
+// Merge completed manual results into matching fixtures. If a fixture is not
+// in the selected schedule yet, add it so it still appears on the website.
+if (Array.isArray(publishedManualData.matchUpdates)) {
+  publishedManualData.matchUpdates.forEach(function (update) {
+    const index = matches.findIndex(function (match) {
+      return match.home === update.home &&
+        match.away === update.away &&
+        match.date === update.date;
+    });
+    const normalized = {
+      ...update,
+      homeFlag: getTeamCountryCode(update.home, update.homeFlag),
+      awayFlag: getTeamCountryCode(update.away, update.awayFlag)
+    };
+    if (index >= 0) {
+      matches[index] = { ...matches[index], ...normalized };
+    } else {
+      matches.push(normalized);
+    }
+  });
+}
+
 const scheduleList = document.querySelector("#schedule-list");
 const emptyMessage = document.querySelector("#empty-message");
 const teamSearch = document.querySelector("#team-search");
@@ -1259,7 +1287,8 @@ function readDetailedStatsCache() {
   }
 
   const publishedStats = publishedLiveData.detailedStats || {};
-  return { ...cached, ...publishedStats };
+  const manualStats = publishedManualData.detailedStats || {};
+  return { ...cached, ...publishedStats, ...manualStats };
 }
 
 function saveFixtureEvents(fixtureEventResults) {
