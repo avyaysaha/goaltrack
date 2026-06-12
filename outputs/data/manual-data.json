@@ -1,60 +1,134 @@
 {
-  "updatedAt": "2026-06-12T21:44:34.069Z",
-  "matchUpdates": [
-    {
-      "date": "Friday, June 12, 2026",
-      "stage": "Group Stage",
-      "group": "Group B",
-      "time": "3:00 PM local",
-      "home": "Canada",
-      "homeFlag": "CAN",
-      "away": "Bosnia and Herzegovina",
-      "awayFlag": "BIH",
-      "location": "BMO Field · Toronto",
-      "status": "FT",
-      "elapsed": 96,
-      "homeScore": 1,
-      "awayScore": 1,
-      "scorers": [
-        {
-          "player": "Cyle Larin",
-          "team": "Canada",
-          "match": "Canada vs Bosnia and Herzegovina"
-        },
-        {
-          "player": "Jovo Lukić",
-          "team": "Bosnia and Herzegovina",
-          "match": "Canada vs Bosnia and Herzegovina"
-        }
-      ],
-      "yellowCards": [
-        {
-          "player": "Alistair Johnston",
-          "team": "Canada",
-          "match": "Canada vs Bosnia and Herzegovina"
-        },
-        {
-          "player": "Ermedin Demirović",
-          "team": "Bosnia and Herzegovina",
-          "match": "Canada vs Bosnia and Herzegovina"
-        },
-        {
-          "player": "Jovo Lukić",
-          "team": "Bosnia and Herzegovina",
-          "match": "Canada vs Bosnia and Herzegovina"
-        },
-        {
-          "player": "Nikola Katić",
-          "team": "Bosnia and Herzegovina",
-          "match": "Canada vs Bosnia and Herzegovina"
-        }
-      ],
-      "redCards": [],
-      "penalties": 0,
-      "homeKeeper": "Maxime Crépeau",
-      "awayKeeper": "Nikola Vasilj"
-    }
-  ],
+  "updatedAt": "2026-06-12T21:58:33.895Z",
+  "tournament": {
+    "name": "FIFA World Cup 2026",
+    "finalKickoff": "2026-07-19T15:00:00-04:00"
+  },
+  "teamCountryCodes": {
+    "Mexico": "MEX",
+    "Korea Republic": "KOR",
+    "Czechia": "CZE",
+    "South Africa": "RSA",
+    "Canada": "CAN",
+    "Bosnia and Herzegovina": "BIH",
+    "Qatar": "QAT",
+    "Switzerland": "SUI",
+    "Brazil": "BRA",
+    "Morocco": "MAR",
+    "Haiti": "HAI",
+    "Scotland": "SCO",
+    "United States": "USA",
+    "Paraguay": "PAR",
+    "Australia": "AUS",
+    "Türkiye": "TUR",
+    "Germany": "GER",
+    "Curaçao": "CUW",
+    "Côte d'Ivoire": "CIV",
+    "Ecuador": "ECU",
+    "Netherlands": "NED",
+    "Japan": "JPN",
+    "Sweden": "SWE",
+    "Tunisia": "TUN",
+    "Belgium": "BEL",
+    "Egypt": "EGY",
+    "IR Iran": "IRN",
+    "New Zealand": "NZL",
+    "Spain": "ESP",
+    "Cabo Verde": "CPV",
+    "Saudi Arabia": "KSA",
+    "Uruguay": "URU",
+    "France": "FRA",
+    "Senegal": "SEN",
+    "Iraq": "IRQ",
+    "Norway": "NOR",
+    "Argentina": "ARG",
+    "Algeria": "ALG",
+    "Austria": "AUT",
+    "Jordan": "JOR",
+    "Portugal": "POR",
+    "DR Congo": "COD",
+    "Uzbekistan": "UZB",
+    "Colombia": "COL",
+    "England": "ENG",
+    "Croatia": "CRO",
+    "Ghana": "GHA",
+    "Panama": "PAN"
+  },
+  "nationalColors": {
+    "Mexico": "#006847",
+    "South Africa": "#007749",
+    "Korea Republic": "#cd2e3a",
+    "Czechia": "#11457e",
+    "Canada": "#d80621",
+    "Bosnia and Herzegovina": "#002395",
+    "Qatar": "#8a1538",
+    "Switzerland": "#d52b1e",
+    "Brazil": "#ffdf00",
+    "Morocco": "#c1272d",
+    "Haiti": "#00209f",
+    "Scotland": "#005eb8",
+    "United States": "#3c3b6e",
+    "Paraguay": "#d52b1e",
+    "Australia": "#ffcd00",
+    "Türkiye": "#e30a17",
+    "Germany": "#f2c500",
+    "Curaçao": "#002b7f",
+    "Côte d'Ivoire": "#f77f00",
+    "Ecuador": "#ffdd00",
+    "Netherlands": "#f36c21",
+    "Japan": "#bc002d",
+    "Sweden": "#006aa7",
+    "Tunisia": "#e70013",
+    "Belgium": "#ef3340",
+    "Egypt": "#ce1126",
+    "IR Iran": "#239f40",
+    "New Zealand": "#151515",
+    "Spain": "#aa151b",
+    "Cabo Verde": "#003893",
+    "Saudi Arabia": "#006c35",
+    "Uruguay": "#5bc0eb",
+    "France": "#002654",
+    "Senegal": "#00853f",
+    "Iraq": "#ce1126",
+    "Norway": "#ba0c2f",
+    "Argentina": "#75aadb",
+    "Algeria": "#006233",
+    "Austria": "#ed2939",
+    "Jordan": "#ce1126",
+    "Portugal": "#046a38",
+    "DR Congo": "#007fff",
+    "Uzbekistan": "#0099b5",
+    "Colombia": "#fcd116",
+    "England": "#c8102e",
+    "Croatia": "#ff0000",
+    "Ghana": "#fcd116",
+    "Panama": "#da121a"
+  },
+  "venueTimeZones": {
+    "Mexico City": "America/Mexico_City",
+    "Guadalajara": "America/Mexico_City",
+    "Monterrey": "America/Monterrey",
+    "Toronto": "America/Toronto",
+    "Inglewood": "America/Los_Angeles",
+    "Los Angeles": "America/Los_Angeles",
+    "Santa Clara": "America/Los_Angeles",
+    "San Francisco Bay Area": "America/Los_Angeles",
+    "Foxborough": "America/New_York",
+    "Boston": "America/New_York",
+    "East Rutherford": "America/New_York",
+    "New York": "America/New_York",
+    "New York/New Jersey": "America/New_York",
+    "Vancouver": "America/Vancouver",
+    "Houston": "America/Chicago",
+    "Arlington": "America/Chicago",
+    "Dallas": "America/Chicago",
+    "Seattle": "America/Los_Angeles",
+    "Atlanta": "America/New_York",
+    "Kansas City": "America/Chicago",
+    "Philadelphia": "America/New_York",
+    "Miami Gardens": "America/New_York",
+    "Miami": "America/New_York"
+  },
   "standings": {
     "A": [
       {
@@ -609,6 +683,826 @@
       }
     ]
   },
+  "matches": [
+    {
+      "date": "Thursday, June 11, 2026",
+      "stage": "Group Stage",
+      "group": "Group A",
+      "time": "1:00 PM local",
+      "home": "Mexico",
+      "homeFlag": "MEX",
+      "away": "South Africa",
+      "awayFlag": "RSA",
+      "location": "Estadio Azteca · Mexico City",
+      "status": "FT",
+      "homeScore": 2,
+      "awayScore": 0,
+      "elapsed": 90,
+      "scorers": [
+        {
+          "player": "Julián Quiñones",
+          "team": "Mexico",
+          "match": "Mexico vs South Africa"
+        },
+        {
+          "player": "Raúl Jiménez",
+          "team": "Mexico",
+          "match": "Mexico vs South Africa"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Raúl Rangel",
+      "awayKeeper": "Ronwen Williams"
+    },
+    {
+      "date": "Thursday, June 11, 2026",
+      "stage": "Group Stage",
+      "group": "Group A",
+      "time": "8:00 PM local",
+      "home": "Korea Republic",
+      "homeFlag": "KOR",
+      "away": "Czechia",
+      "awayFlag": "CZE",
+      "location": "Estadio Akron · Guadalajara",
+      "status": "FT",
+      "elapsed": 96,
+      "homeScore": 2,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Hwang In-beom",
+          "team": "Korea Republic",
+          "match": "Korea Republic vs Czechia"
+        },
+        {
+          "player": "Oh Hyeon-gyu",
+          "team": "Korea Republic",
+          "match": "Korea Republic vs Czechia"
+        },
+        {
+          "player": "Ladislav Krejčí",
+          "team": "Czechia",
+          "match": "Korea Republic vs Czechia"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Kim Seung-gyu",
+      "awayKeeper": "Matěj Kovář"
+    },
+    {
+      "date": "Friday, June 12, 2026",
+      "stage": "Group Stage",
+      "group": "Group B",
+      "time": "3:00 PM local",
+      "home": "Canada",
+      "homeFlag": "CAN",
+      "away": "Bosnia and Herzegovina",
+      "awayFlag": "BIH",
+      "location": "BMO Field · Toronto",
+      "status": "FT",
+      "elapsed": 96,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Cyle Larin",
+          "team": "Canada",
+          "match": "Canada vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Jovo Lukić",
+          "team": "Bosnia and Herzegovina",
+          "match": "Canada vs Bosnia and Herzegovina"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Alistair Johnston",
+          "team": "Canada",
+          "match": "Canada vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Ermedin Demirović",
+          "team": "Bosnia and Herzegovina",
+          "match": "Canada vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Jovo Lukić",
+          "team": "Bosnia and Herzegovina",
+          "match": "Canada vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Nikola Katić",
+          "team": "Bosnia and Herzegovina",
+          "match": "Canada vs Bosnia and Herzegovina"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Maxime Crépeau",
+      "awayKeeper": "Nikola Vasilj"
+    },
+    {
+      "date": "Friday, June 12, 2026",
+      "stage": "Group Stage",
+      "group": "Group D",
+      "time": "6:00 PM local",
+      "home": "United States",
+      "homeFlag": "🇺🇸",
+      "away": "Paraguay",
+      "awayFlag": "🇵🇾",
+      "location": "SoFi Stadium · Los Angeles"
+    },
+    {
+      "date": "Saturday, June 13, 2026",
+      "stage": "Group Stage",
+      "group": "Group B",
+      "time": "12:00 PM local",
+      "home": "Qatar",
+      "homeFlag": "🇶🇦",
+      "away": "Switzerland",
+      "awayFlag": "🇨🇭",
+      "location": "Levi's Stadium · San Francisco Bay Area"
+    },
+    {
+      "date": "Saturday, June 13, 2026",
+      "stage": "Group Stage",
+      "group": "Group C",
+      "time": "6:00 PM local",
+      "home": "Brazil",
+      "homeFlag": "🇧🇷",
+      "away": "Morocco",
+      "awayFlag": "🇲🇦",
+      "location": "Gillette Stadium · Boston"
+    },
+    {
+      "date": "Saturday, June 13, 2026",
+      "stage": "Group Stage",
+      "group": "Group C",
+      "time": "9:00 PM local",
+      "home": "Haiti",
+      "homeFlag": "🇭🇹",
+      "away": "Scotland",
+      "awayFlag": "SCO",
+      "location": "MetLife Stadium · New York/New Jersey"
+    },
+    {
+      "date": "Saturday, June 13, 2026",
+      "stage": "Group Stage",
+      "group": "Group D",
+      "time": "9:00 PM local",
+      "home": "Australia",
+      "homeFlag": "🇦🇺",
+      "away": "Türkiye",
+      "awayFlag": "🇹🇷",
+      "location": "BC Place · Vancouver"
+    },
+    {
+      "date": "Sunday, June 14, 2026",
+      "stage": "Group Stage",
+      "group": "Group E",
+      "time": "12:00 PM local",
+      "home": "Germany",
+      "homeFlag": "🇩🇪",
+      "away": "Curaçao",
+      "awayFlag": "🇨🇼",
+      "location": "NRG Stadium · Houston"
+    },
+    {
+      "date": "Sunday, June 14, 2026",
+      "stage": "Group Stage",
+      "group": "Group F",
+      "time": "3:00 PM local",
+      "home": "Netherlands",
+      "homeFlag": "🇳🇱",
+      "away": "Japan",
+      "awayFlag": "🇯🇵",
+      "location": "AT&T Stadium · Dallas"
+    },
+    {
+      "date": "Monday, June 15, 2026",
+      "stage": "Group Stage",
+      "group": "Group G",
+      "time": "12:00 PM local",
+      "home": "Belgium",
+      "homeFlag": "🇧🇪",
+      "away": "Egypt",
+      "awayFlag": "🇪🇬",
+      "location": "Lumen Field · Seattle"
+    },
+    {
+      "date": "Monday, June 15, 2026",
+      "stage": "Group Stage",
+      "group": "Group H",
+      "time": "12:00 PM local",
+      "home": "Spain",
+      "homeFlag": "🇪🇸",
+      "away": "Cabo Verde",
+      "awayFlag": "🇨🇻",
+      "location": "Mercedes-Benz Stadium · Atlanta"
+    },
+    {
+      "date": "Tuesday, June 16, 2026",
+      "stage": "Group Stage",
+      "group": "Group I",
+      "time": "3:00 PM local",
+      "home": "France",
+      "homeFlag": "🇫🇷",
+      "away": "Senegal",
+      "awayFlag": "🇸🇳",
+      "location": "MetLife Stadium · New York/New Jersey"
+    },
+    {
+      "date": "Tuesday, June 16, 2026",
+      "stage": "Group Stage",
+      "group": "Group I",
+      "time": "TBD",
+      "home": "Iraq",
+      "homeFlag": "IRQ",
+      "away": "Norway",
+      "awayFlag": "NOR",
+      "location": "Gillette Stadium · Boston"
+    },
+    {
+      "date": "Tuesday, June 16, 2026",
+      "stage": "Group Stage",
+      "group": "Group J",
+      "time": "8:00 PM local",
+      "home": "Argentina",
+      "homeFlag": "🇦🇷",
+      "away": "Algeria",
+      "awayFlag": "🇩🇿",
+      "location": "Arrowhead Stadium · Kansas City"
+    },
+    {
+      "date": "Wednesday, June 17, 2026",
+      "stage": "Group Stage",
+      "group": "Group K",
+      "time": "12:00 PM local",
+      "home": "Portugal",
+      "homeFlag": "🇵🇹",
+      "away": "DR Congo",
+      "awayFlag": "🇨🇩",
+      "location": "NRG Stadium · Houston"
+    },
+    {
+      "date": "Wednesday, June 17, 2026",
+      "stage": "Group Stage",
+      "group": "Group L",
+      "time": "3:00 PM local",
+      "home": "England",
+      "homeFlag": "ENG",
+      "away": "Croatia",
+      "awayFlag": "🇭🇷",
+      "location": "AT&T Stadium · Dallas"
+    },
+    {
+      "date": "Thursday, June 18, 2026",
+      "stage": "Group Stage",
+      "group": "Group B",
+      "time": "3:00 PM local",
+      "home": "Canada",
+      "homeFlag": "🇨🇦",
+      "away": "Qatar",
+      "awayFlag": "🇶🇦",
+      "location": "BC Place · Vancouver"
+    },
+    {
+      "date": "Friday, June 19, 2026",
+      "stage": "Group Stage",
+      "group": "Group D",
+      "time": "12:00 PM local",
+      "home": "United States",
+      "homeFlag": "🇺🇸",
+      "away": "Australia",
+      "awayFlag": "🇦🇺",
+      "location": "Lumen Field · Seattle"
+    },
+    {
+      "date": "Monday, June 22, 2026",
+      "stage": "Group Stage",
+      "group": "Group I",
+      "time": "TBD",
+      "home": "Norway",
+      "homeFlag": "NOR",
+      "away": "Senegal",
+      "awayFlag": "SEN",
+      "location": "MetLife Stadium · New York/New Jersey"
+    },
+    {
+      "date": "Wednesday, June 24, 2026",
+      "stage": "Group Stage",
+      "group": "Group B",
+      "time": "12:00 PM local",
+      "home": "Switzerland",
+      "homeFlag": "🇨🇭",
+      "away": "Canada",
+      "awayFlag": "🇨🇦",
+      "location": "BC Place · Vancouver"
+    },
+    {
+      "date": "Thursday, June 25, 2026",
+      "stage": "Group Stage",
+      "group": "Group D",
+      "time": "7:00 PM local",
+      "home": "Türkiye",
+      "homeFlag": "🇹🇷",
+      "away": "United States",
+      "awayFlag": "🇺🇸",
+      "location": "SoFi Stadium · Los Angeles"
+    },
+    {
+      "date": "Friday, June 26, 2026",
+      "stage": "Group Stage",
+      "group": "Group I",
+      "time": "TBD",
+      "home": "Norway",
+      "homeFlag": "NOR",
+      "away": "France",
+      "awayFlag": "FRA",
+      "location": "Gillette Stadium · Boston"
+    },
+    {
+      "date": "Sunday, June 28, 2026",
+      "stage": "Knockout",
+      "group": "Match 73 · Round of 32",
+      "time": "12:00 PM local",
+      "home": "Runner-up Group A",
+      "homeFlag": "A2",
+      "away": "Runner-up Group B",
+      "awayFlag": "B2",
+      "location": "SoFi Stadium · Los Angeles"
+    },
+    {
+      "date": "Monday, June 29, 2026",
+      "stage": "Knockout",
+      "group": "Match 74 · Round of 32",
+      "time": "1:00 PM local",
+      "home": "Winner Group E",
+      "homeFlag": "E1",
+      "away": "Best third-place team A/B/C/D/F",
+      "awayFlag": "3rd",
+      "location": "Gillette Stadium · Boston"
+    },
+    {
+      "date": "Monday, June 29, 2026",
+      "stage": "Knockout",
+      "group": "Match 75 · Round of 32",
+      "time": "2:30 PM local",
+      "home": "Winner Group F",
+      "homeFlag": "F1",
+      "away": "Runner-up Group C",
+      "awayFlag": "C2",
+      "location": "Estadio BBVA · Monterrey"
+    },
+    {
+      "date": "Monday, June 29, 2026",
+      "stage": "Knockout",
+      "group": "Match 76 · Round of 32",
+      "time": "8:00 PM local",
+      "home": "Winner Group C",
+      "homeFlag": "C1",
+      "away": "Runner-up Group F",
+      "awayFlag": "F2",
+      "location": "NRG Stadium · Houston"
+    },
+    {
+      "date": "Tuesday, June 30, 2026",
+      "stage": "Knockout",
+      "group": "Match 78 · Round of 32",
+      "time": "12:00 PM local",
+      "home": "Runner-up Group E",
+      "homeFlag": "E2",
+      "away": "Runner-up Group I",
+      "awayFlag": "I2",
+      "location": "AT&T Stadium · Dallas"
+    },
+    {
+      "date": "Tuesday, June 30, 2026",
+      "stage": "Knockout",
+      "group": "Match 77 · Round of 32",
+      "time": "5:00 PM local",
+      "home": "Winner Group I",
+      "homeFlag": "I1",
+      "away": "Best third-place team C/D/F/G/H",
+      "awayFlag": "3rd",
+      "location": "MetLife Stadium · New York/New Jersey"
+    },
+    {
+      "date": "Tuesday, June 30, 2026",
+      "stage": "Knockout",
+      "group": "Match 79 · Round of 32",
+      "time": "8:00 PM local",
+      "home": "Winner Group A",
+      "homeFlag": "A1",
+      "away": "Best third-place team C/E/F/H/I",
+      "awayFlag": "3rd",
+      "location": "Estadio Azteca · Mexico City"
+    },
+    {
+      "date": "Wednesday, July 1, 2026",
+      "stage": "Knockout",
+      "group": "Match 80 · Round of 32",
+      "time": "12:00 PM local",
+      "home": "Winner Group L",
+      "homeFlag": "L1",
+      "away": "Best third-place team E/H/I/J/K",
+      "awayFlag": "3rd",
+      "location": "Mercedes-Benz Stadium · Atlanta"
+    },
+    {
+      "date": "Wednesday, July 1, 2026",
+      "stage": "Knockout",
+      "group": "Match 82 · Round of 32",
+      "time": "1:00 PM local",
+      "home": "Winner Group G",
+      "homeFlag": "G1",
+      "away": "Best third-place team A/E/H/I/J",
+      "awayFlag": "3rd",
+      "location": "Lumen Field · Seattle"
+    },
+    {
+      "date": "Wednesday, July 1, 2026",
+      "stage": "Knockout",
+      "group": "Match 81 · Round of 32",
+      "time": "5:00 PM local",
+      "home": "Winner Group D",
+      "homeFlag": "D1",
+      "away": "Best third-place team B/E/F/I/J",
+      "awayFlag": "3rd",
+      "location": "Levi's Stadium · San Francisco Bay Area"
+    },
+    {
+      "date": "Thursday, July 2, 2026",
+      "stage": "Knockout",
+      "group": "Match 84 · Round of 32",
+      "time": "12:00 PM local",
+      "home": "Winner Group H",
+      "homeFlag": "H1",
+      "away": "Runner-up Group J",
+      "awayFlag": "J2",
+      "location": "SoFi Stadium · Los Angeles"
+    },
+    {
+      "date": "Thursday, July 2, 2026",
+      "stage": "Knockout",
+      "group": "Match 83 · Round of 32",
+      "time": "7:00 PM local",
+      "home": "Runner-up Group K",
+      "homeFlag": "K2",
+      "away": "Runner-up Group L",
+      "awayFlag": "L2",
+      "location": "BMO Field · Toronto"
+    },
+    {
+      "date": "Thursday, July 2, 2026",
+      "stage": "Knockout",
+      "group": "Match 85 · Round of 32",
+      "time": "8:00 PM local",
+      "home": "Winner Group B",
+      "homeFlag": "B1",
+      "away": "Best third-place team E/F/G/I/J",
+      "awayFlag": "3rd",
+      "location": "BC Place · Vancouver"
+    },
+    {
+      "date": "Friday, July 3, 2026",
+      "stage": "Knockout",
+      "group": "Match 88 · Round of 32",
+      "time": "1:00 PM local",
+      "home": "Runner-up Group D",
+      "homeFlag": "D2",
+      "away": "Runner-up Group G",
+      "awayFlag": "G2",
+      "location": "AT&T Stadium · Dallas"
+    },
+    {
+      "date": "Friday, July 3, 2026",
+      "stage": "Knockout",
+      "group": "Match 86 · Round of 32",
+      "time": "6:00 PM local",
+      "home": "Winner Group J",
+      "homeFlag": "J1",
+      "away": "Runner-up Group H",
+      "awayFlag": "H2",
+      "location": "Hard Rock Stadium · Miami"
+    },
+    {
+      "date": "Friday, July 3, 2026",
+      "stage": "Knockout",
+      "group": "Match 87 · Round of 32",
+      "time": "8:30 PM local",
+      "home": "Winner Group K",
+      "homeFlag": "K1",
+      "away": "Best third-place team D/E/I/J/L",
+      "awayFlag": "3rd",
+      "location": "Arrowhead Stadium · Kansas City"
+    },
+    {
+      "date": "Saturday, July 4, 2026",
+      "stage": "Knockout",
+      "group": "Match 89 · Round of 16",
+      "time": "1:00 PM local",
+      "home": "Winner Match 73",
+      "homeFlag": "73",
+      "away": "Winner Match 75",
+      "awayFlag": "75",
+      "location": "Lincoln Financial Field · Philadelphia"
+    },
+    {
+      "date": "Saturday, July 4, 2026",
+      "stage": "Knockout",
+      "group": "Match 90 · Round of 16",
+      "time": "5:00 PM local",
+      "home": "Winner Match 74",
+      "homeFlag": "74",
+      "away": "Winner Match 77",
+      "awayFlag": "77",
+      "location": "NRG Stadium · Houston"
+    },
+    {
+      "date": "Sunday, July 5, 2026",
+      "stage": "Knockout",
+      "group": "Match 91 · Round of 16",
+      "time": "4:00 PM local",
+      "home": "Winner Match 76",
+      "homeFlag": "76",
+      "away": "Winner Match 78",
+      "awayFlag": "78",
+      "location": "MetLife Stadium · New York/New Jersey"
+    },
+    {
+      "date": "Sunday, July 5, 2026",
+      "stage": "Knockout",
+      "group": "Match 92 · Round of 16",
+      "time": "7:00 PM local",
+      "home": "Winner Match 79",
+      "homeFlag": "79",
+      "away": "Winner Match 80",
+      "awayFlag": "80",
+      "location": "Estadio Azteca · Mexico City"
+    },
+    {
+      "date": "Monday, July 6, 2026",
+      "stage": "Knockout",
+      "group": "Match 93 · Round of 16",
+      "time": "2:00 PM local",
+      "home": "Winner Match 83",
+      "homeFlag": "83",
+      "away": "Winner Match 84",
+      "awayFlag": "84",
+      "location": "AT&T Stadium · Dallas"
+    },
+    {
+      "date": "Monday, July 6, 2026",
+      "stage": "Knockout",
+      "group": "Match 94 · Round of 16",
+      "time": "5:00 PM local",
+      "home": "Winner Match 81",
+      "homeFlag": "81",
+      "away": "Winner Match 82",
+      "awayFlag": "82",
+      "location": "Lumen Field · Seattle"
+    },
+    {
+      "date": "Tuesday, July 7, 2026",
+      "stage": "Knockout",
+      "group": "Match 95 · Round of 16",
+      "time": "12:00 PM local",
+      "home": "Winner Match 86",
+      "homeFlag": "86",
+      "away": "Winner Match 88",
+      "awayFlag": "88",
+      "location": "Mercedes-Benz Stadium · Atlanta"
+    },
+    {
+      "date": "Tuesday, July 7, 2026",
+      "stage": "Knockout",
+      "group": "Match 96 · Round of 16",
+      "time": "1:00 PM local",
+      "home": "Winner Match 85",
+      "homeFlag": "85",
+      "away": "Winner Match 87",
+      "awayFlag": "87",
+      "location": "BC Place · Vancouver"
+    },
+    {
+      "date": "Thursday, July 9, 2026",
+      "stage": "Knockout",
+      "group": "Match 97 · Quarterfinal",
+      "time": "4:00 PM local",
+      "home": "Winner Match 89",
+      "homeFlag": "89",
+      "away": "Winner Match 90",
+      "awayFlag": "90",
+      "location": "Gillette Stadium · Boston"
+    },
+    {
+      "date": "Friday, July 10, 2026",
+      "stage": "Knockout",
+      "group": "Match 98 · Quarterfinal",
+      "time": "12:00 PM local",
+      "home": "Winner Match 93",
+      "homeFlag": "93",
+      "away": "Winner Match 94",
+      "awayFlag": "94",
+      "location": "SoFi Stadium · Los Angeles"
+    },
+    {
+      "date": "Saturday, July 11, 2026",
+      "stage": "Knockout",
+      "group": "Match 99 · Quarterfinal",
+      "time": "5:00 PM local",
+      "home": "Winner Match 91",
+      "homeFlag": "91",
+      "away": "Winner Match 92",
+      "awayFlag": "92",
+      "location": "Hard Rock Stadium · Miami"
+    },
+    {
+      "date": "Saturday, July 11, 2026",
+      "stage": "Knockout",
+      "group": "Match 100 · Quarterfinal",
+      "time": "8:00 PM local",
+      "home": "Winner Match 95",
+      "homeFlag": "95",
+      "away": "Winner Match 96",
+      "awayFlag": "96",
+      "location": "Arrowhead Stadium · Kansas City"
+    },
+    {
+      "date": "Tuesday, July 14, 2026",
+      "stage": "Knockout",
+      "group": "Match 101 · Semifinal",
+      "time": "2:00 PM local",
+      "home": "Winner Match 97",
+      "homeFlag": "97",
+      "away": "Winner Match 98",
+      "awayFlag": "98",
+      "location": "AT&T Stadium · Dallas"
+    },
+    {
+      "date": "Wednesday, July 15, 2026",
+      "stage": "Knockout",
+      "group": "Match 102 · Semifinal",
+      "time": "3:00 PM local",
+      "home": "Winner Match 99",
+      "homeFlag": "99",
+      "away": "Winner Match 100",
+      "awayFlag": "100",
+      "location": "Mercedes-Benz Stadium · Atlanta"
+    },
+    {
+      "date": "Saturday, July 18, 2026",
+      "stage": "Knockout",
+      "group": "Match 103 · Third-place match",
+      "time": "5:00 PM local",
+      "home": "Loser Match 101",
+      "homeFlag": "101",
+      "away": "Loser Match 102",
+      "awayFlag": "102",
+      "location": "Hard Rock Stadium · Miami"
+    },
+    {
+      "date": "Sunday, July 19, 2026",
+      "stage": "Knockout",
+      "group": "Match 104 · Final",
+      "time": "3:00 PM local",
+      "home": "Winner Match 101",
+      "homeFlag": "101",
+      "away": "Winner Match 102",
+      "awayFlag": "102",
+      "location": "MetLife Stadium · New York/New Jersey"
+    }
+  ],
+  "matchUpdates": [
+    {
+      "date": "Thursday, June 11, 2026",
+      "stage": "Group Stage",
+      "group": "Group A",
+      "time": "1:00 PM local",
+      "home": "Mexico",
+      "homeFlag": "MEX",
+      "away": "South Africa",
+      "awayFlag": "RSA",
+      "location": "Estadio Azteca · Mexico City",
+      "status": "FT",
+      "elapsed": 90,
+      "homeScore": 2,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Julián Quiñones",
+          "team": "Mexico",
+          "match": "Mexico vs South Africa"
+        },
+        {
+          "player": "Raúl Jiménez",
+          "team": "Mexico",
+          "match": "Mexico vs South Africa"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Raúl Rangel",
+      "awayKeeper": "Ronwen Williams"
+    },
+    {
+      "date": "Thursday, June 11, 2026",
+      "stage": "Group Stage",
+      "group": "Group A",
+      "time": "8:00 PM local",
+      "home": "Korea Republic",
+      "homeFlag": "KOR",
+      "away": "Czechia",
+      "awayFlag": "CZE",
+      "location": "Estadio Akron · Guadalajara",
+      "status": "FT",
+      "elapsed": 96,
+      "homeScore": 2,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Hwang In-beom",
+          "team": "Korea Republic",
+          "match": "Korea Republic vs Czechia"
+        },
+        {
+          "player": "Oh Hyeon-gyu",
+          "team": "Korea Republic",
+          "match": "Korea Republic vs Czechia"
+        },
+        {
+          "player": "Ladislav Krejčí",
+          "team": "Czechia",
+          "match": "Korea Republic vs Czechia"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Kim Seung-gyu",
+      "awayKeeper": "Matěj Kovář"
+    },
+    {
+      "date": "Friday, June 12, 2026",
+      "stage": "Group Stage",
+      "group": "Group B",
+      "time": "3:00 PM local",
+      "home": "Canada",
+      "homeFlag": "CAN",
+      "away": "Bosnia and Herzegovina",
+      "awayFlag": "BIH",
+      "location": "BMO Field · Toronto",
+      "status": "FT",
+      "elapsed": 96,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Cyle Larin",
+          "team": "Canada",
+          "match": "Canada vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Jovo Lukić",
+          "team": "Bosnia and Herzegovina",
+          "match": "Canada vs Bosnia and Herzegovina"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Alistair Johnston",
+          "team": "Canada",
+          "match": "Canada vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Ermedin Demirović",
+          "team": "Bosnia and Herzegovina",
+          "match": "Canada vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Jovo Lukić",
+          "team": "Bosnia and Herzegovina",
+          "match": "Canada vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Nikola Katić",
+          "team": "Bosnia and Herzegovina",
+          "match": "Canada vs Bosnia and Herzegovina"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Maxime Crépeau",
+      "awayKeeper": "Nikola Vasilj"
+    }
+  ],
   "detailedStats": {
     "scorers": [
       {
@@ -617,21 +1511,66 @@
         "detail": "Canada"
       },
       {
+        "name": "Hwang In-beom",
+        "value": 1,
+        "detail": "Korea Republic"
+      },
+      {
         "name": "Jovo Lukić",
         "value": 1,
         "detail": "Bosnia and Herzegovina"
+      },
+      {
+        "name": "Julián Quiñones",
+        "value": 1,
+        "detail": "Mexico"
+      },
+      {
+        "name": "Ladislav Krejčí",
+        "value": 1,
+        "detail": "Czechia"
+      },
+      {
+        "name": "Oh Hyeon-gyu",
+        "value": 1,
+        "detail": "Korea Republic"
+      },
+      {
+        "name": "Raúl Jiménez",
+        "value": 1,
+        "detail": "Mexico"
       }
     ],
     "keepers": [
       {
+        "name": "Kim Seung-gyu",
+        "value": 0,
+        "detail": "Korea Republic · 1 goal conceded"
+      },
+      {
+        "name": "Matěj Kovář",
+        "value": 0,
+        "detail": "Czechia · 2 goals conceded"
+      },
+      {
         "name": "Maxime Crépeau",
         "value": 0,
-        "detail": "Canada · 1 goals conceded"
+        "detail": "Canada · 1 goal conceded"
       },
       {
         "name": "Nikola Vasilj",
         "value": 0,
-        "detail": "Bosnia and Herzegovina · 1 goals conceded"
+        "detail": "Bosnia and Herzegovina · 1 goal conceded"
+      },
+      {
+        "name": "Raúl Rangel",
+        "value": 1,
+        "detail": "Mexico · 0 goals conceded"
+      },
+      {
+        "name": "Ronwen Williams",
+        "value": 0,
+        "detail": "South Africa · 2 goals conceded"
       }
     ],
     "redCardEvents": [],
