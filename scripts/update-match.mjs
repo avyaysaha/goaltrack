@@ -54,8 +54,9 @@ function list(value) {
 function namedEvents(value, match) {
   return list(value).map((item) => {
     const [player = "", team = ""] = item.split("|").map((part) => part.trim());
-    return { player, team: resolveTeam(team, false) || team, match };
-  });
+    const resolvedTeam = resolveTeam(team, false);
+    return player && resolvedTeam ? { player, team: resolvedTeam, match } : null;
+  }).filter(Boolean);
 }
 
 function normalize(value) {
