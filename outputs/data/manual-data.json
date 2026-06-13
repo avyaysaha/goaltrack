@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T22:35:25.782Z",
+  "updatedAt": "2026-06-13T04:26:09.390Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -270,20 +270,20 @@
     ],
     "D": [
       {
+        "name": "United States",
+        "flag": "USA",
+        "fifaRank": 14,
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 3,
+        "points": 3
+      },
+      {
         "name": "Australia",
         "flag": "AUS",
         "fifaRank": 26,
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 0,
-        "points": 0
-      },
-      {
-        "name": "Paraguay",
-        "flag": "PAR",
-        "fifaRank": 39,
         "played": 0,
         "won": 0,
         "drawn": 0,
@@ -303,14 +303,14 @@
         "points": 0
       },
       {
-        "name": "United States",
-        "flag": "USA",
-        "fifaRank": 14,
-        "played": 0,
+        "name": "Paraguay",
+        "flag": "PAR",
+        "fifaRank": 39,
+        "played": 1,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "gd": 0,
+        "lost": 1,
+        "gd": -3,
         "points": 0
       }
     ],
@@ -842,12 +842,79 @@
       "date": "Friday, June 12, 2026",
       "stage": "Group Stage",
       "group": "Group D",
-      "time": "6:00 PM local",
+      "time": "TBD",
       "home": "United States",
-      "homeFlag": "🇺🇸",
+      "homeFlag": "USA",
       "away": "Paraguay",
-      "awayFlag": "🇵🇾",
-      "location": "SoFi Stadium · Los Angeles"
+      "awayFlag": "PAR",
+      "location": "Venue TBD",
+      "status": "FT",
+      "elapsed": 102,
+      "homeScore": 4,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Damián Bobadilla (OG)",
+          "team": "United States",
+          "match": "United States vs Paraguay"
+        },
+        {
+          "player": "Folarin Balogun",
+          "team": "United States",
+          "match": "United States vs Paraguay"
+        },
+        {
+          "player": "Folarin Balogun",
+          "team": "United States",
+          "match": "United States vs Paraguay"
+        },
+        {
+          "player": "Maurício",
+          "team": "Paraguay",
+          "match": "United States vs Paraguay"
+        },
+        {
+          "player": "Gio Reyna",
+          "team": "United States",
+          "match": "United States vs Paraguay"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Juan José Cáceres",
+          "team": "Paraguay",
+          "match": "United States vs Paraguay"
+        },
+        {
+          "player": "Miguel Almirón",
+          "team": "Paraguay",
+          "match": "United States vs Paraguay"
+        },
+        {
+          "player": "Tyler Adams",
+          "team": "United States",
+          "match": "United States vs Paraguay"
+        },
+        {
+          "player": "Diego Gómez",
+          "team": "Paraguay",
+          "match": "United States vs Paraguay"
+        },
+        {
+          "player": "Álex Arce",
+          "team": "Paraguay",
+          "match": "United States vs Paraguay"
+        },
+        {
+          "player": "Júnior Alonso",
+          "team": "Paraguay",
+          "match": "United States vs Paraguay"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Matt Freese",
+      "awayKeeper": "Orlando Gill"
     },
     {
       "date": "Saturday, June 13, 2026",
@@ -1565,14 +1632,107 @@
       "penalties": 0,
       "homeKeeper": "Maxime Crépeau",
       "awayKeeper": "Nikola Vasilj"
+    },
+    {
+      "date": "Friday, June 12, 2026",
+      "stage": "Group Stage",
+      "group": "Group D",
+      "time": "TBD",
+      "home": "United States",
+      "homeFlag": "USA",
+      "away": "Paraguay",
+      "awayFlag": "PAR",
+      "location": "Venue TBD",
+      "status": "FT",
+      "elapsed": 102,
+      "homeScore": 4,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Damián Bobadilla (OG)",
+          "team": "United States",
+          "match": "United States vs Paraguay"
+        },
+        {
+          "player": "Folarin Balogun",
+          "team": "United States",
+          "match": "United States vs Paraguay"
+        },
+        {
+          "player": "Folarin Balogun",
+          "team": "United States",
+          "match": "United States vs Paraguay"
+        },
+        {
+          "player": "Maurício",
+          "team": "Paraguay",
+          "match": "United States vs Paraguay"
+        },
+        {
+          "player": "Gio Reyna",
+          "team": "United States",
+          "match": "United States vs Paraguay"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Juan José Cáceres",
+          "team": "Paraguay",
+          "match": "United States vs Paraguay"
+        },
+        {
+          "player": "Miguel Almirón",
+          "team": "Paraguay",
+          "match": "United States vs Paraguay"
+        },
+        {
+          "player": "Tyler Adams",
+          "team": "United States",
+          "match": "United States vs Paraguay"
+        },
+        {
+          "player": "Diego Gómez",
+          "team": "Paraguay",
+          "match": "United States vs Paraguay"
+        },
+        {
+          "player": "Álex Arce",
+          "team": "Paraguay",
+          "match": "United States vs Paraguay"
+        },
+        {
+          "player": "Júnior Alonso",
+          "team": "Paraguay",
+          "match": "United States vs Paraguay"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Matt Freese",
+      "awayKeeper": "Orlando Gill"
     }
   ],
   "detailedStats": {
     "scorers": [
       {
+        "name": "Folarin Balogun",
+        "value": 2,
+        "detail": "United States"
+      },
+      {
         "name": "Cyle Larin",
         "value": 1,
         "detail": "Canada"
+      },
+      {
+        "name": "Damián Bobadilla (OG)",
+        "value": 1,
+        "detail": "United States"
+      },
+      {
+        "name": "Gio Reyna",
+        "value": 1,
+        "detail": "United States"
       },
       {
         "name": "Hwang In-beom",
@@ -1593,6 +1753,11 @@
         "name": "Ladislav Krejčí",
         "value": 1,
         "detail": "Czechia"
+      },
+      {
+        "name": "Maurício",
+        "value": 1,
+        "detail": "Paraguay"
       },
       {
         "name": "Oh Hyeon-gyu",
@@ -1622,6 +1787,11 @@
         "detail": "Czechia · 2 goals conceded in 1 appearance"
       },
       {
+        "name": "Matt Freese",
+        "value": 0,
+        "detail": "United States · 1 goals conceded in 1 appearance"
+      },
+      {
         "name": "Maxime Crépeau",
         "value": 0,
         "detail": "Canada · 1 goals conceded in 1 appearance"
@@ -1630,6 +1800,11 @@
         "name": "Nikola Vasilj",
         "value": 0,
         "detail": "Bosnia and Herzegovina · 1 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Orlando Gill",
+        "value": 0,
+        "detail": "Paraguay · 4 goals conceded in 1 appearance"
       },
       {
         "name": "Ronwen Williams",
@@ -1645,7 +1820,9 @@
       "South Africa": 2,
       "Mexico": 1,
       "Canada": 1,
-      "Bosnia and Herzegovina": 3
+      "Bosnia and Herzegovina": 3,
+      "Paraguay": 5,
+      "United States": 1
     },
     "redCardEvents": [
       {
@@ -1699,6 +1876,36 @@
         "player": "Nikola Katić",
         "team": "Bosnia and Herzegovina",
         "match": "Canada vs Bosnia and Herzegovina"
+      },
+      {
+        "player": "Juan José Cáceres",
+        "team": "Paraguay",
+        "match": "United States vs Paraguay"
+      },
+      {
+        "player": "Miguel Almirón",
+        "team": "Paraguay",
+        "match": "United States vs Paraguay"
+      },
+      {
+        "player": "Tyler Adams",
+        "team": "United States",
+        "match": "United States vs Paraguay"
+      },
+      {
+        "player": "Diego Gómez",
+        "team": "Paraguay",
+        "match": "United States vs Paraguay"
+      },
+      {
+        "player": "Álex Arce",
+        "team": "Paraguay",
+        "match": "United States vs Paraguay"
+      },
+      {
+        "player": "Júnior Alonso",
+        "team": "Paraguay",
+        "match": "United States vs Paraguay"
       }
     ],
     "penaltyEvents": [],
@@ -1723,6 +1930,13 @@
         "yellowCards": 4,
         "penalties": 0,
         "elapsed": 96
+      },
+      {
+        "match": "United States vs Paraguay",
+        "redCards": 0,
+        "yellowCards": 6,
+        "penalties": 0,
+        "elapsed": 102
       }
     ]
   }
