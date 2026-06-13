@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T21:35:10.286Z",
+  "updatedAt": "2026-06-13T22:02:08.697Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -920,22 +920,49 @@
       "date": "Saturday, June 13, 2026",
       "stage": "Group Stage",
       "group": "Group B",
-      "time": "12:00 PM local",
+      "time": "2:00",
       "home": "Qatar",
       "homeFlag": "QAT",
       "away": "Switzerland",
       "awayFlag": "SUI",
-      "location": "Levi's Stadium · San Francisco Bay Area",
+      "location": "Levi's Stadium",
       "status": "FT",
       "elapsed": 94,
       "homeScore": 1,
       "awayScore": 1,
-      "scorers": [],
-      "yellowCards": [],
+      "scorers": [
+        {
+          "player": "Breel Embolo",
+          "team": "Switzerland",
+          "match": "Qatar vs Switzerland"
+        },
+        {
+          "player": "Boulem Khouki",
+          "team": "Qatar",
+          "match": "Qatar vs Switzerland"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Mahmoud Abunda",
+          "team": "Qatar",
+          "match": "Qatar vs Switzerland"
+        },
+        {
+          "player": "Jassem Gaber",
+          "team": "Qatar",
+          "match": "Qatar vs Switzerland"
+        },
+        {
+          "player": "Denis Zakaria",
+          "team": "Switzerland",
+          "match": "Qatar vs Switzerland"
+        }
+      ],
       "redCards": [],
-      "penalties": 0,
-      "homeKeeper": "",
-      "awayKeeper": ""
+      "penalties": 1,
+      "homeKeeper": "Mahmoud Abunada",
+      "awayKeeper": "Gregor Kobel"
     },
     {
       "date": "Saturday, June 13, 2026",
@@ -1725,22 +1752,49 @@
       "date": "Saturday, June 13, 2026",
       "stage": "Group Stage",
       "group": "Group B",
-      "time": "12:00 PM local",
+      "time": "2:00",
       "home": "Qatar",
       "homeFlag": "QAT",
       "away": "Switzerland",
       "awayFlag": "SUI",
-      "location": "Levi's Stadium · San Francisco Bay Area",
+      "location": "Levi's Stadium",
       "status": "FT",
       "elapsed": 94,
       "homeScore": 1,
       "awayScore": 1,
-      "scorers": [],
-      "yellowCards": [],
+      "scorers": [
+        {
+          "player": "Breel Embolo",
+          "team": "Switzerland",
+          "match": "Qatar vs Switzerland"
+        },
+        {
+          "player": "Boulem Khouki",
+          "team": "Qatar",
+          "match": "Qatar vs Switzerland"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Mahmoud Abunda",
+          "team": "Qatar",
+          "match": "Qatar vs Switzerland"
+        },
+        {
+          "player": "Jassem Gaber",
+          "team": "Qatar",
+          "match": "Qatar vs Switzerland"
+        },
+        {
+          "player": "Denis Zakaria",
+          "team": "Switzerland",
+          "match": "Qatar vs Switzerland"
+        }
+      ],
       "redCards": [],
-      "penalties": 0,
-      "homeKeeper": "",
-      "awayKeeper": ""
+      "penalties": 1,
+      "homeKeeper": "Mahmoud Abunada",
+      "awayKeeper": "Gregor Kobel"
     }
   ],
   "detailedStats": {
@@ -1749,6 +1803,16 @@
         "name": "Folarin Balogun",
         "value": 2,
         "detail": "United States"
+      },
+      {
+        "name": "Boulem Khouki",
+        "value": 1,
+        "detail": "Qatar"
+      },
+      {
+        "name": "Breel Embolo",
+        "value": 1,
+        "detail": "Switzerland"
       },
       {
         "name": "Cyle Larin",
@@ -1808,9 +1872,19 @@
         "detail": "Mexico · 0 goals conceded in 1 appearance"
       },
       {
+        "name": "Gregor Kobel",
+        "value": 0,
+        "detail": "Switzerland · 1 goals conceded in 1 appearance"
+      },
+      {
         "name": "Kim Seung-gyu",
         "value": 0,
         "detail": "Korea Republic · 1 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Mahmoud Abunada",
+        "value": 0,
+        "detail": "Qatar · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Matěj Kovář",
@@ -1853,7 +1927,9 @@
       "Canada": 1,
       "Bosnia and Herzegovina": 3,
       "Paraguay": 5,
-      "United States": 1
+      "United States": 1,
+      "Qatar": 2,
+      "Switzerland": 1
     },
     "redCardEvents": [
       {
@@ -1937,9 +2013,28 @@
         "player": "Júnior Alonso",
         "team": "Paraguay",
         "match": "United States vs Paraguay"
+      },
+      {
+        "player": "Mahmoud Abunda",
+        "team": "Qatar",
+        "match": "Qatar vs Switzerland"
+      },
+      {
+        "player": "Jassem Gaber",
+        "team": "Qatar",
+        "match": "Qatar vs Switzerland"
+      },
+      {
+        "player": "Denis Zakaria",
+        "team": "Switzerland",
+        "match": "Qatar vs Switzerland"
       }
     ],
-    "penaltyEvents": [],
+    "penaltyEvents": [
+      {
+        "match": "Qatar vs Switzerland"
+      }
+    ],
     "matchStats": [
       {
         "match": "Mexico vs South Africa",
@@ -1972,8 +2067,8 @@
       {
         "match": "Qatar vs Switzerland",
         "redCards": 0,
-        "yellowCards": 0,
-        "penalties": 0,
+        "yellowCards": 3,
+        "penalties": 1,
         "elapsed": 94
       }
     ]
