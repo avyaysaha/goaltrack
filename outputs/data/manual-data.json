@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T04:45:17.630Z",
+  "updatedAt": "2026-06-13T04:53:35.553Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -842,7 +842,7 @@
       "date": "Friday, June 12, 2026",
       "stage": "Group Stage",
       "group": "Group D",
-      "time": "TBD",
+      "time": "6:00 PM local",
       "home": "United States",
       "homeFlag": "USA",
       "away": "Paraguay",
@@ -1637,7 +1637,7 @@
       "date": "Friday, June 12, 2026",
       "stage": "Group Stage",
       "group": "Group D",
-      "time": "TBD",
+      "time": "6:00 PM local",
       "home": "United States",
       "homeFlag": "USA",
       "away": "Paraguay",
