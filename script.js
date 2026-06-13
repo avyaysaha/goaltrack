@@ -1172,19 +1172,40 @@ function getTimePlayedTrendData() {
 
 function getCompletedMatches() {
   return matches
+    .map(function (match, sourceIndex) {
+      return { ...match, sourceIndex };
+    })
     .filter(function (match) {
       return ["FT", "AET", "PEN"].includes(match.status) &&
         Number.isInteger(match.homeScore) &&
         Number.isInteger(match.awayScore);
     })
     .sort(function (a, b) {
+      // Compare the published fixture dates first. If a workflow update omits
+      // the kickoff time, preserve the schedule's original fixture order
+      // instead of treating the missing time as January 1, 1970.
+      const fixtureDay = function (match) {
+        const dateText = match.date.replace(/^[A-Za-z]+,\s*/, "");
+        const timestamp = Date.parse(`${dateText} 00:00:00 UTC`);
+        return Number.isFinite(timestamp) ? timestamp : Number.MAX_SAFE_INTEGER;
+      };
+      const dayDifference = fixtureDay(a) - fixtureDay(b);
+      if (dayDifference !== 0) {
+        return dayDifference;
+      }
+
       const aDate = a.kickoffISO
         ? new Date(a.kickoffISO)
         : venueLocalToDate(a.date, a.time, a.venueTimeZone || getVenueTimeZone(a.location));
       const bDate = b.kickoffISO
         ? new Date(b.kickoffISO)
         : venueLocalToDate(b.date, b.time, b.venueTimeZone || getVenueTimeZone(b.location));
-      return (aDate?.getTime() || 0) - (bDate?.getTime() || 0);
+      const aTime = aDate?.getTime();
+      const bTime = bDate?.getTime();
+      if (Number.isFinite(aTime) && Number.isFinite(bTime)) {
+        return aTime - bTime;
+      }
+      return a.sourceIndex - b.sourceIndex;
     });
 }
 
