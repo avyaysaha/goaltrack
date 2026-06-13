@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T04:53:35.553Z",
+  "updatedAt": "2026-06-13T21:35:10.286Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -203,23 +203,23 @@
         "name": "Qatar",
         "flag": "QAT",
         "fifaRank": 51,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 0,
         "gd": 0,
-        "points": 0
+        "points": 1
       },
       {
         "name": "Switzerland",
         "flag": "SUI",
         "fifaRank": 17,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 0,
         "gd": 0,
-        "points": 0
+        "points": 1
       }
     ],
     "C": [
@@ -922,10 +922,20 @@
       "group": "Group B",
       "time": "12:00 PM local",
       "home": "Qatar",
-      "homeFlag": "🇶🇦",
+      "homeFlag": "QAT",
       "away": "Switzerland",
-      "awayFlag": "🇨🇭",
-      "location": "Levi's Stadium · San Francisco Bay Area"
+      "awayFlag": "SUI",
+      "location": "Levi's Stadium · San Francisco Bay Area",
+      "status": "FT",
+      "elapsed": 94,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "",
+      "awayKeeper": ""
     },
     {
       "date": "Saturday, June 13, 2026",
@@ -1710,6 +1720,27 @@
       "penalties": 0,
       "homeKeeper": "Matt Freese",
       "awayKeeper": "Orlando Gill"
+    },
+    {
+      "date": "Saturday, June 13, 2026",
+      "stage": "Group Stage",
+      "group": "Group B",
+      "time": "12:00 PM local",
+      "home": "Qatar",
+      "homeFlag": "QAT",
+      "away": "Switzerland",
+      "awayFlag": "SUI",
+      "location": "Levi's Stadium · San Francisco Bay Area",
+      "status": "FT",
+      "elapsed": 94,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "",
+      "awayKeeper": ""
     }
   ],
   "detailedStats": {
@@ -1937,6 +1968,13 @@
         "yellowCards": 6,
         "penalties": 0,
         "elapsed": 102
+      },
+      {
+        "match": "Qatar vs Switzerland",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 94
       }
     ]
   }
