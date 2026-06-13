@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T04:26:09.390Z",
+  "updatedAt": "2026-06-13T04:45:17.630Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -847,7 +847,7 @@
       "homeFlag": "USA",
       "away": "Paraguay",
       "awayFlag": "PAR",
-      "location": "Venue TBD",
+      "location": "SoFi Stadium · Los Angeles",
       "status": "FT",
       "elapsed": 102,
       "homeScore": 4,
@@ -1642,7 +1642,7 @@
       "homeFlag": "USA",
       "away": "Paraguay",
       "awayFlag": "PAR",
-      "location": "Venue TBD",
+      "location": "SoFi Stadium · Los Angeles",
       "status": "FT",
       "elapsed": 102,
       "homeScore": 4,
