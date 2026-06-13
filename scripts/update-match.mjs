@@ -117,6 +117,8 @@ if (home === away) throw new Error("Home and away teams must be different.");
 const key = (match) => `${normalize(match.home)}|${normalize(match.away)}`;
 const existingIndex = data.matchUpdates.findIndex((match) => key(match) === key({ home, away }));
 const existingMatch = existingIndex >= 0 ? data.matchUpdates[existingIndex] : {};
+const scheduledMatch = (data.matches || []).find((match) => key(match) === key({ home, away })) || {};
+const previousMatch = { ...scheduledMatch, ...existingMatch };
 const hasExtra = (name) => Object.prototype.hasOwnProperty.call(extraDetails, name);
 const scorersWereSupplied = String(process.env.SCORERS || "").trim().length > 0;
 
@@ -127,34 +129,34 @@ const update = {
   date: required("MATCH_DATE").replace(/\s+/g, " ").replace(/\s+,/g, ","),
   stage: String(process.env.STAGE || "Group Stage"),
   group: String(process.env.GROUP_OR_ROUND || `Group ${teams[home][0]}`),
-  time: hasExtra("time") ? extraValue("time") : (existingMatch.time || "TBD"),
+  time: hasExtra("time") ? extraValue("time") : (previousMatch.time || "TBD"),
   home,
   homeFlag: teams[home][1],
   away,
   awayFlag: teams[away][1],
-  location: hasExtra("venue") ? extraValue("venue") : (existingMatch.location || "Venue TBD"),
+  location: hasExtra("venue") ? extraValue("venue") : (previousMatch.location || "Venue TBD"),
   status: "FT",
   elapsed: number("ELAPSED", 90),
   homeScore,
   awayScore,
   scorers: scorersWereSupplied
     ? namedEvents(process.env.SCORERS, matchLabel)
-    : (existingMatch.scorers || []),
+    : (previousMatch.scorers || []),
   yellowCards: hasExtra("yellow")
     ? namedEvents(extraValue("yellow"), matchLabel)
-    : (existingMatch.yellowCards || []),
+    : (previousMatch.yellowCards || []),
   redCards: hasExtra("red")
     ? namedEvents(extraValue("red"), matchLabel)
-    : (existingMatch.redCards || []),
+    : (previousMatch.redCards || []),
   penalties: hasExtra("penalties")
     ? Number(extraValue("penalties") || 0)
-    : (existingMatch.penalties || 0),
+    : (previousMatch.penalties || 0),
   homeKeeper: hasExtra("home_keeper")
     ? extraValue("home_keeper")
-    : (existingMatch.homeKeeper || ""),
+    : (previousMatch.homeKeeper || ""),
   awayKeeper: hasExtra("away_keeper")
     ? extraValue("away_keeper")
-    : (existingMatch.awayKeeper || "")
+    : (previousMatch.awayKeeper || "")
 };
 if (!Number.isFinite(update.penalties) || update.penalties < 0) {
   throw new Error("penalties in extra details must be zero or greater.");
