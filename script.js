@@ -841,12 +841,24 @@ function renderSchedule() {
   const searchText = teamSearch.value.trim().toLowerCase();
 
   // filter() keeps only matches that meet both the stage and search rules.
-  const visibleMatches = matches.filter(function (match) {
-    const matchesStage = currentFilter === "all" || match.stage === currentFilter;
-    const teams = `${match.home} ${match.away}`.toLowerCase();
-    const matchesSearch = teams.includes(searchText);
-    return matchesStage && matchesSearch;
-  });
+  const visibleMatches = matches
+    .filter(function (match) {
+      const matchesStage = currentFilter === "all" || match.stage === currentFilter;
+      const teams = `${match.home} ${match.away}`.toLowerCase();
+      const matchesSearch = teams.includes(searchText);
+      return matchesStage && matchesSearch;
+    })
+    // FIFA's match numbers are not always in kickoff order. Sort by the real
+    // kickoff timestamp so each date and match card appears chronologically.
+    .sort(function (a, b) {
+      const aKickoff = a.kickoffISO
+        ? new Date(a.kickoffISO)
+        : venueLocalToDate(a.date, a.time, a.venueTimeZone || getVenueTimeZone(a.location));
+      const bKickoff = b.kickoffISO
+        ? new Date(b.kickoffISO)
+        : venueLocalToDate(b.date, b.time, b.venueTimeZone || getVenueTimeZone(b.location));
+      return aKickoff - bKickoff;
+    });
 
   // Group matches by the visitor's local date. A late match may appear under a
   // different calendar day than the stadium date in another part of the world.

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T18:17:48.755Z",
+  "updatedAt": "2026-06-14T18:28:25.276Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -927,6 +927,101 @@
     {
       "date": "Saturday, June 13, 2026",
       "stage": "Group Stage",
+      "group": "Group B",
+      "time": "12:00 PM local",
+      "kickoffISO": "2026-06-13T19:00:00Z",
+      "home": "Qatar",
+      "homeFlag": "QAT",
+      "away": "Switzerland",
+      "awayFlag": "SUI",
+      "location": "San Francisco Bay Area Stadium · San Francisco Bay Area",
+      "venueTimeZone": "America/Los_Angeles",
+      "status": "FT",
+      "elapsed": 94,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Breel Embolo",
+          "team": "Switzerland",
+          "match": "Qatar vs Switzerland"
+        },
+        {
+          "player": "Boulem Khouki",
+          "team": "Qatar",
+          "match": "Qatar vs Switzerland"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Mahmoud Abunda",
+          "team": "Qatar",
+          "match": "Qatar vs Switzerland"
+        },
+        {
+          "player": "Jassem Gaber",
+          "team": "Qatar",
+          "match": "Qatar vs Switzerland"
+        },
+        {
+          "player": "Denis Zakaria",
+          "team": "Switzerland",
+          "match": "Qatar vs Switzerland"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Mahmoud Abunada",
+      "awayKeeper": "Gregor Kobel"
+    },
+    {
+      "date": "Saturday, June 13, 2026",
+      "stage": "Group Stage",
+      "group": "Group C",
+      "time": "6:00 PM local",
+      "kickoffISO": "2026-06-13T22:00:00Z",
+      "home": "Brazil",
+      "homeFlag": "BRA",
+      "away": "Morocco",
+      "awayFlag": "MAR",
+      "location": "New York/New Jersey Stadium · New Jersey",
+      "venueTimeZone": "America/New_York",
+      "status": "FT",
+      "elapsed": 104,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Ismael Saibari",
+          "team": "Morocco",
+          "match": "Brazil vs Morocco"
+        },
+        {
+          "player": "Vinícius Júnior",
+          "team": "Brazil",
+          "match": "Brazil vs Morocco"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Casemiro",
+          "team": "Brazil",
+          "match": "Brazil vs Morocco"
+        },
+        {
+          "player": "Roger Ibanez",
+          "team": "Brazil",
+          "match": "Brazil vs Morocco"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Alisson Becker",
+      "awayKeeper": "Yassine Bounou"
+    },
+    {
+      "date": "Saturday, June 13, 2026",
+      "stage": "Group Stage",
       "group": "Group C",
       "time": "9:00 PM local",
       "kickoffISO": "2026-06-14T01:00:00Z",
@@ -1015,114 +1110,6 @@
       "awayKeeper": "Uğurcan Çakır"
     },
     {
-      "date": "Saturday, June 13, 2026",
-      "stage": "Group Stage",
-      "group": "Group C",
-      "time": "6:00 PM local",
-      "kickoffISO": "2026-06-13T22:00:00Z",
-      "home": "Brazil",
-      "homeFlag": "BRA",
-      "away": "Morocco",
-      "awayFlag": "MAR",
-      "location": "New York/New Jersey Stadium · New Jersey",
-      "venueTimeZone": "America/New_York",
-      "status": "FT",
-      "elapsed": 104,
-      "homeScore": 1,
-      "awayScore": 1,
-      "scorers": [
-        {
-          "player": "Ismael Saibari",
-          "team": "Morocco",
-          "match": "Brazil vs Morocco"
-        },
-        {
-          "player": "Vinícius Júnior",
-          "team": "Brazil",
-          "match": "Brazil vs Morocco"
-        }
-      ],
-      "yellowCards": [
-        {
-          "player": "Casemiro",
-          "team": "Brazil",
-          "match": "Brazil vs Morocco"
-        },
-        {
-          "player": "Roger Ibanez",
-          "team": "Brazil",
-          "match": "Brazil vs Morocco"
-        }
-      ],
-      "redCards": [],
-      "penalties": 0,
-      "homeKeeper": "Alisson Becker",
-      "awayKeeper": "Yassine Bounou"
-    },
-    {
-      "date": "Saturday, June 13, 2026",
-      "stage": "Group Stage",
-      "group": "Group B",
-      "time": "12:00 PM local",
-      "kickoffISO": "2026-06-13T19:00:00Z",
-      "home": "Qatar",
-      "homeFlag": "QAT",
-      "away": "Switzerland",
-      "awayFlag": "SUI",
-      "location": "San Francisco Bay Area Stadium · San Francisco Bay Area",
-      "venueTimeZone": "America/Los_Angeles",
-      "status": "FT",
-      "elapsed": 94,
-      "homeScore": 1,
-      "awayScore": 1,
-      "scorers": [
-        {
-          "player": "Breel Embolo",
-          "team": "Switzerland",
-          "match": "Qatar vs Switzerland"
-        },
-        {
-          "player": "Boulem Khouki",
-          "team": "Qatar",
-          "match": "Qatar vs Switzerland"
-        }
-      ],
-      "yellowCards": [
-        {
-          "player": "Mahmoud Abunda",
-          "team": "Qatar",
-          "match": "Qatar vs Switzerland"
-        },
-        {
-          "player": "Jassem Gaber",
-          "team": "Qatar",
-          "match": "Qatar vs Switzerland"
-        },
-        {
-          "player": "Denis Zakaria",
-          "team": "Switzerland",
-          "match": "Qatar vs Switzerland"
-        }
-      ],
-      "redCards": [],
-      "penalties": 1,
-      "homeKeeper": "Mahmoud Abunada",
-      "awayKeeper": "Gregor Kobel"
-    },
-    {
-      "date": "Sunday, June 14, 2026",
-      "stage": "Group Stage",
-      "group": "Group E",
-      "time": "7:00 PM local",
-      "kickoffISO": "2026-06-14T23:00:00Z",
-      "home": "Côte d'Ivoire",
-      "homeFlag": "CIV",
-      "away": "Ecuador",
-      "awayFlag": "ECU",
-      "location": "Philadelphia Stadium · Philadelphia",
-      "venueTimeZone": "America/New_York"
-    },
-    {
       "date": "Sunday, June 14, 2026",
       "stage": "Group Stage",
       "group": "Group E",
@@ -1151,6 +1138,19 @@
     {
       "date": "Sunday, June 14, 2026",
       "stage": "Group Stage",
+      "group": "Group E",
+      "time": "7:00 PM local",
+      "kickoffISO": "2026-06-14T23:00:00Z",
+      "home": "Côte d'Ivoire",
+      "homeFlag": "CIV",
+      "away": "Ecuador",
+      "awayFlag": "ECU",
+      "location": "Philadelphia Stadium · Philadelphia",
+      "venueTimeZone": "America/New_York"
+    },
+    {
+      "date": "Sunday, June 14, 2026",
+      "stage": "Group Stage",
       "group": "Group F",
       "time": "8:00 PM local",
       "kickoffISO": "2026-06-15T02:00:00Z",
@@ -1160,19 +1160,6 @@
       "awayFlag": "TUN",
       "location": "Monterrey Stadium · Monterrey",
       "venueTimeZone": "America/Monterrey"
-    },
-    {
-      "date": "Monday, June 15, 2026",
-      "stage": "Group Stage",
-      "group": "Group H",
-      "time": "6:00 PM local",
-      "kickoffISO": "2026-06-15T22:00:00Z",
-      "home": "Saudi Arabia",
-      "homeFlag": "KSA",
-      "away": "Uruguay",
-      "awayFlag": "URU",
-      "location": "Miami Stadium · Miami",
-      "venueTimeZone": "America/New_York"
     },
     {
       "date": "Monday, June 15, 2026",
@@ -1191,19 +1178,6 @@
       "date": "Monday, June 15, 2026",
       "stage": "Group Stage",
       "group": "Group G",
-      "time": "6:00 PM local",
-      "kickoffISO": "2026-06-16T01:00:00Z",
-      "home": "IR Iran",
-      "homeFlag": "IRN",
-      "away": "New Zealand",
-      "awayFlag": "NZL",
-      "location": "Los Angeles Stadium · Los Angeles",
-      "venueTimeZone": "America/Los_Angeles"
-    },
-    {
-      "date": "Monday, June 15, 2026",
-      "stage": "Group Stage",
-      "group": "Group G",
       "time": "12:00 PM local",
       "kickoffISO": "2026-06-15T19:00:00Z",
       "home": "Belgium",
@@ -1211,6 +1185,32 @@
       "away": "Egypt",
       "awayFlag": "EGY",
       "location": "Seattle Stadium · Seattle",
+      "venueTimeZone": "America/Los_Angeles"
+    },
+    {
+      "date": "Monday, June 15, 2026",
+      "stage": "Group Stage",
+      "group": "Group H",
+      "time": "6:00 PM local",
+      "kickoffISO": "2026-06-15T22:00:00Z",
+      "home": "Saudi Arabia",
+      "homeFlag": "KSA",
+      "away": "Uruguay",
+      "awayFlag": "URU",
+      "location": "Miami Stadium · Miami",
+      "venueTimeZone": "America/New_York"
+    },
+    {
+      "date": "Monday, June 15, 2026",
+      "stage": "Group Stage",
+      "group": "Group G",
+      "time": "6:00 PM local",
+      "kickoffISO": "2026-06-16T01:00:00Z",
+      "home": "IR Iran",
+      "homeFlag": "IRN",
+      "away": "New Zealand",
+      "awayFlag": "NZL",
+      "location": "Los Angeles Stadium · Los Angeles",
       "venueTimeZone": "America/Los_Angeles"
     },
     {
@@ -1268,15 +1268,15 @@
     {
       "date": "Wednesday, June 17, 2026",
       "stage": "Group Stage",
-      "group": "Group L",
-      "time": "7:00 PM local",
-      "kickoffISO": "2026-06-17T23:00:00Z",
-      "home": "Ghana",
-      "homeFlag": "GHA",
-      "away": "Panama",
-      "awayFlag": "PAN",
-      "location": "Toronto Stadium · Toronto",
-      "venueTimeZone": "America/Toronto"
+      "group": "Group K",
+      "time": "12:00 PM local",
+      "kickoffISO": "2026-06-17T17:00:00Z",
+      "home": "Portugal",
+      "homeFlag": "POR",
+      "away": "DR Congo",
+      "awayFlag": "COD",
+      "location": "Houston Stadium · Houston",
+      "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Wednesday, June 17, 2026",
@@ -1294,15 +1294,15 @@
     {
       "date": "Wednesday, June 17, 2026",
       "stage": "Group Stage",
-      "group": "Group K",
-      "time": "12:00 PM local",
-      "kickoffISO": "2026-06-17T17:00:00Z",
-      "home": "Portugal",
-      "homeFlag": "POR",
-      "away": "DR Congo",
-      "awayFlag": "COD",
-      "location": "Houston Stadium · Houston",
-      "venueTimeZone": "America/Chicago"
+      "group": "Group L",
+      "time": "7:00 PM local",
+      "kickoffISO": "2026-06-17T23:00:00Z",
+      "home": "Ghana",
+      "homeFlag": "GHA",
+      "away": "Panama",
+      "awayFlag": "PAN",
+      "location": "Toronto Stadium · Toronto",
+      "venueTimeZone": "America/Toronto"
     },
     {
       "date": "Wednesday, June 17, 2026",
@@ -1372,15 +1372,15 @@
     {
       "date": "Friday, June 19, 2026",
       "stage": "Group Stage",
-      "group": "Group C",
-      "time": "8:30 PM local",
-      "kickoffISO": "2026-06-20T00:30:00Z",
-      "home": "Brazil",
-      "homeFlag": "BRA",
-      "away": "Haiti",
-      "awayFlag": "HAI",
-      "location": "Philadelphia Stadium · Philadelphia",
-      "venueTimeZone": "America/New_York"
+      "group": "Group D",
+      "time": "12:00 PM local",
+      "kickoffISO": "2026-06-19T19:00:00Z",
+      "home": "United States",
+      "homeFlag": "USA",
+      "away": "Australia",
+      "awayFlag": "AUS",
+      "location": "Seattle Stadium · Seattle",
+      "venueTimeZone": "America/Los_Angeles"
     },
     {
       "date": "Friday, June 19, 2026",
@@ -1398,6 +1398,19 @@
     {
       "date": "Friday, June 19, 2026",
       "stage": "Group Stage",
+      "group": "Group C",
+      "time": "8:30 PM local",
+      "kickoffISO": "2026-06-20T00:30:00Z",
+      "home": "Brazil",
+      "homeFlag": "BRA",
+      "away": "Haiti",
+      "awayFlag": "HAI",
+      "location": "Philadelphia Stadium · Philadelphia",
+      "venueTimeZone": "America/New_York"
+    },
+    {
+      "date": "Friday, June 19, 2026",
+      "stage": "Group Stage",
       "group": "Group D",
       "time": "8:00 PM local",
       "kickoffISO": "2026-06-20T03:00:00Z",
@@ -1409,17 +1422,17 @@
       "venueTimeZone": "America/Los_Angeles"
     },
     {
-      "date": "Friday, June 19, 2026",
+      "date": "Saturday, June 20, 2026",
       "stage": "Group Stage",
-      "group": "Group D",
+      "group": "Group F",
       "time": "12:00 PM local",
-      "kickoffISO": "2026-06-19T19:00:00Z",
-      "home": "United States",
-      "homeFlag": "USA",
-      "away": "Australia",
-      "awayFlag": "AUS",
-      "location": "Seattle Stadium · Seattle",
-      "venueTimeZone": "America/Los_Angeles"
+      "kickoffISO": "2026-06-20T17:00:00Z",
+      "home": "Netherlands",
+      "homeFlag": "NED",
+      "away": "Sweden",
+      "awayFlag": "SWE",
+      "location": "Houston Stadium · Houston",
+      "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Saturday, June 20, 2026",
@@ -1451,19 +1464,6 @@
       "date": "Saturday, June 20, 2026",
       "stage": "Group Stage",
       "group": "Group F",
-      "time": "12:00 PM local",
-      "kickoffISO": "2026-06-20T17:00:00Z",
-      "home": "Netherlands",
-      "homeFlag": "NED",
-      "away": "Sweden",
-      "awayFlag": "SWE",
-      "location": "Houston Stadium · Houston",
-      "venueTimeZone": "America/Chicago"
-    },
-    {
-      "date": "Saturday, June 20, 2026",
-      "stage": "Group Stage",
-      "group": "Group F",
       "time": "10:00 PM local",
       "kickoffISO": "2026-06-21T04:00:00Z",
       "home": "Tunisia",
@@ -1472,19 +1472,6 @@
       "awayFlag": "JPN",
       "location": "Monterrey Stadium · Monterrey",
       "venueTimeZone": "America/Monterrey"
-    },
-    {
-      "date": "Sunday, June 21, 2026",
-      "stage": "Group Stage",
-      "group": "Group H",
-      "time": "6:00 PM local",
-      "kickoffISO": "2026-06-21T22:00:00Z",
-      "home": "Uruguay",
-      "homeFlag": "URU",
-      "away": "Cabo Verde",
-      "awayFlag": "CPV",
-      "location": "Miami Stadium · Miami",
-      "venueTimeZone": "America/New_York"
     },
     {
       "date": "Sunday, June 21, 2026",
@@ -1515,6 +1502,19 @@
     {
       "date": "Sunday, June 21, 2026",
       "stage": "Group Stage",
+      "group": "Group H",
+      "time": "6:00 PM local",
+      "kickoffISO": "2026-06-21T22:00:00Z",
+      "home": "Uruguay",
+      "homeFlag": "URU",
+      "away": "Cabo Verde",
+      "awayFlag": "CPV",
+      "location": "Miami Stadium · Miami",
+      "venueTimeZone": "America/New_York"
+    },
+    {
+      "date": "Sunday, June 21, 2026",
+      "stage": "Group Stage",
       "group": "Group G",
       "time": "6:00 PM local",
       "kickoffISO": "2026-06-22T01:00:00Z",
@@ -1524,32 +1524,6 @@
       "awayFlag": "EGY",
       "location": "BC Place Vancouver · Vancouver",
       "venueTimeZone": "America/Vancouver"
-    },
-    {
-      "date": "Monday, June 22, 2026",
-      "stage": "Group Stage",
-      "group": "Group I",
-      "time": "8:00 PM local",
-      "kickoffISO": "2026-06-23T00:00:00Z",
-      "home": "Norway",
-      "homeFlag": "NOR",
-      "away": "Senegal",
-      "awayFlag": "SEN",
-      "location": "New York/New Jersey Stadium · New Jersey",
-      "venueTimeZone": "America/New_York"
-    },
-    {
-      "date": "Monday, June 22, 2026",
-      "stage": "Group Stage",
-      "group": "Group I",
-      "time": "5:00 PM local",
-      "kickoffISO": "2026-06-22T21:00:00Z",
-      "home": "France",
-      "homeFlag": "FRA",
-      "away": "Iraq",
-      "awayFlag": "IRQ",
-      "location": "Philadelphia Stadium · Philadelphia",
-      "venueTimeZone": "America/New_York"
     },
     {
       "date": "Monday, June 22, 2026",
@@ -1567,6 +1541,32 @@
     {
       "date": "Monday, June 22, 2026",
       "stage": "Group Stage",
+      "group": "Group I",
+      "time": "5:00 PM local",
+      "kickoffISO": "2026-06-22T21:00:00Z",
+      "home": "France",
+      "homeFlag": "FRA",
+      "away": "Iraq",
+      "awayFlag": "IRQ",
+      "location": "Philadelphia Stadium · Philadelphia",
+      "venueTimeZone": "America/New_York"
+    },
+    {
+      "date": "Monday, June 22, 2026",
+      "stage": "Group Stage",
+      "group": "Group I",
+      "time": "8:00 PM local",
+      "kickoffISO": "2026-06-23T00:00:00Z",
+      "home": "Norway",
+      "homeFlag": "NOR",
+      "away": "Senegal",
+      "awayFlag": "SEN",
+      "location": "New York/New Jersey Stadium · New Jersey",
+      "venueTimeZone": "America/New_York"
+    },
+    {
+      "date": "Monday, June 22, 2026",
+      "stage": "Group Stage",
       "group": "Group J",
       "time": "8:00 PM local",
       "kickoffISO": "2026-06-23T03:00:00Z",
@@ -1576,6 +1576,19 @@
       "awayFlag": "ALG",
       "location": "San Francisco Bay Area Stadium · San Francisco Bay Area",
       "venueTimeZone": "America/Los_Angeles"
+    },
+    {
+      "date": "Tuesday, June 23, 2026",
+      "stage": "Group Stage",
+      "group": "Group K",
+      "time": "12:00 PM local",
+      "kickoffISO": "2026-06-23T17:00:00Z",
+      "home": "Portugal",
+      "homeFlag": "POR",
+      "away": "Uzbekistan",
+      "awayFlag": "UZB",
+      "location": "Houston Stadium · Houston",
+      "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Tuesday, June 23, 2026",
@@ -1607,19 +1620,6 @@
       "date": "Tuesday, June 23, 2026",
       "stage": "Group Stage",
       "group": "Group K",
-      "time": "12:00 PM local",
-      "kickoffISO": "2026-06-23T17:00:00Z",
-      "home": "Portugal",
-      "homeFlag": "POR",
-      "away": "Uzbekistan",
-      "awayFlag": "UZB",
-      "location": "Houston Stadium · Houston",
-      "venueTimeZone": "America/Chicago"
-    },
-    {
-      "date": "Tuesday, June 23, 2026",
-      "stage": "Group Stage",
-      "group": "Group K",
       "time": "8:00 PM local",
       "kickoffISO": "2026-06-24T02:00:00Z",
       "home": "Colombia",
@@ -1628,32 +1628,6 @@
       "awayFlag": "COD",
       "location": "Guadalajara Stadium · Guadalajara",
       "venueTimeZone": "America/Mexico_City"
-    },
-    {
-      "date": "Wednesday, June 24, 2026",
-      "stage": "Group Stage",
-      "group": "Group C",
-      "time": "6:00 PM local",
-      "kickoffISO": "2026-06-24T22:00:00Z",
-      "home": "Scotland",
-      "homeFlag": "SCO",
-      "away": "Brazil",
-      "awayFlag": "BRA",
-      "location": "Miami Stadium · Miami",
-      "venueTimeZone": "America/New_York"
-    },
-    {
-      "date": "Wednesday, June 24, 2026",
-      "stage": "Group Stage",
-      "group": "Group C",
-      "time": "6:00 PM local",
-      "kickoffISO": "2026-06-24T22:00:00Z",
-      "home": "Morocco",
-      "homeFlag": "MAR",
-      "away": "Haiti",
-      "awayFlag": "HAI",
-      "location": "Atlanta Stadium · Atlanta",
-      "venueTimeZone": "America/New_York"
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -1680,6 +1654,32 @@
       "awayFlag": "QAT",
       "location": "Seattle Stadium · Seattle",
       "venueTimeZone": "America/Los_Angeles"
+    },
+    {
+      "date": "Wednesday, June 24, 2026",
+      "stage": "Group Stage",
+      "group": "Group C",
+      "time": "6:00 PM local",
+      "kickoffISO": "2026-06-24T22:00:00Z",
+      "home": "Scotland",
+      "homeFlag": "SCO",
+      "away": "Brazil",
+      "awayFlag": "BRA",
+      "location": "Miami Stadium · Miami",
+      "venueTimeZone": "America/New_York"
+    },
+    {
+      "date": "Wednesday, June 24, 2026",
+      "stage": "Group Stage",
+      "group": "Group C",
+      "time": "6:00 PM local",
+      "kickoffISO": "2026-06-24T22:00:00Z",
+      "home": "Morocco",
+      "homeFlag": "MAR",
+      "away": "Haiti",
+      "awayFlag": "HAI",
+      "location": "Atlanta Stadium · Atlanta",
+      "venueTimeZone": "America/New_York"
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -1814,32 +1814,6 @@
     {
       "date": "Friday, June 26, 2026",
       "stage": "Group Stage",
-      "group": "Group G",
-      "time": "8:00 PM local",
-      "kickoffISO": "2026-06-27T03:00:00Z",
-      "home": "Egypt",
-      "homeFlag": "EGY",
-      "away": "IR Iran",
-      "awayFlag": "IRN",
-      "location": "Seattle Stadium · Seattle",
-      "venueTimeZone": "America/Los_Angeles"
-    },
-    {
-      "date": "Friday, June 26, 2026",
-      "stage": "Group Stage",
-      "group": "Group G",
-      "time": "8:00 PM local",
-      "kickoffISO": "2026-06-27T03:00:00Z",
-      "home": "New Zealand",
-      "homeFlag": "NZL",
-      "away": "Belgium",
-      "awayFlag": "BEL",
-      "location": "BC Place Vancouver · Vancouver",
-      "venueTimeZone": "America/Vancouver"
-    },
-    {
-      "date": "Friday, June 26, 2026",
-      "stage": "Group Stage",
       "group": "Group H",
       "time": "7:00 PM local",
       "kickoffISO": "2026-06-27T00:00:00Z",
@@ -1862,6 +1836,32 @@
       "awayFlag": "ESP",
       "location": "Guadalajara Stadium · Guadalajara",
       "venueTimeZone": "America/Mexico_City"
+    },
+    {
+      "date": "Friday, June 26, 2026",
+      "stage": "Group Stage",
+      "group": "Group G",
+      "time": "8:00 PM local",
+      "kickoffISO": "2026-06-27T03:00:00Z",
+      "home": "Egypt",
+      "homeFlag": "EGY",
+      "away": "IR Iran",
+      "awayFlag": "IRN",
+      "location": "Seattle Stadium · Seattle",
+      "venueTimeZone": "America/Los_Angeles"
+    },
+    {
+      "date": "Friday, June 26, 2026",
+      "stage": "Group Stage",
+      "group": "Group G",
+      "time": "8:00 PM local",
+      "kickoffISO": "2026-06-27T03:00:00Z",
+      "home": "New Zealand",
+      "homeFlag": "NZL",
+      "away": "Belgium",
+      "awayFlag": "BEL",
+      "location": "BC Place Vancouver · Vancouver",
+      "venueTimeZone": "America/Vancouver"
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -1892,32 +1892,6 @@
     {
       "date": "Saturday, June 27, 2026",
       "stage": "Group Stage",
-      "group": "Group J",
-      "time": "9:00 PM local",
-      "kickoffISO": "2026-06-28T02:00:00Z",
-      "home": "Algeria",
-      "homeFlag": "ALG",
-      "away": "Austria",
-      "awayFlag": "AUT",
-      "location": "Kansas City Stadium · Kansas City",
-      "venueTimeZone": "America/Chicago"
-    },
-    {
-      "date": "Saturday, June 27, 2026",
-      "stage": "Group Stage",
-      "group": "Group J",
-      "time": "9:00 PM local",
-      "kickoffISO": "2026-06-28T02:00:00Z",
-      "home": "Jordan",
-      "homeFlag": "JOR",
-      "away": "Argentina",
-      "awayFlag": "ARG",
-      "location": "Dallas Stadium · Dallas",
-      "venueTimeZone": "America/Chicago"
-    },
-    {
-      "date": "Saturday, June 27, 2026",
-      "stage": "Group Stage",
       "group": "Group K",
       "time": "7:30 PM local",
       "kickoffISO": "2026-06-27T23:30:00Z",
@@ -1942,6 +1916,32 @@
       "venueTimeZone": "America/New_York"
     },
     {
+      "date": "Saturday, June 27, 2026",
+      "stage": "Group Stage",
+      "group": "Group J",
+      "time": "9:00 PM local",
+      "kickoffISO": "2026-06-28T02:00:00Z",
+      "home": "Algeria",
+      "homeFlag": "ALG",
+      "away": "Austria",
+      "awayFlag": "AUT",
+      "location": "Kansas City Stadium · Kansas City",
+      "venueTimeZone": "America/Chicago"
+    },
+    {
+      "date": "Saturday, June 27, 2026",
+      "stage": "Group Stage",
+      "group": "Group J",
+      "time": "9:00 PM local",
+      "kickoffISO": "2026-06-28T02:00:00Z",
+      "home": "Jordan",
+      "homeFlag": "JOR",
+      "away": "Argentina",
+      "awayFlag": "ARG",
+      "location": "Dallas Stadium · Dallas",
+      "venueTimeZone": "America/Chicago"
+    },
+    {
       "date": "Sunday, June 28, 2026",
       "stage": "Knockout",
       "group": "Match 73 · Round of 32",
@@ -1953,6 +1953,19 @@
       "awayFlag": "2B",
       "location": "Los Angeles Stadium · Los Angeles",
       "venueTimeZone": "America/Los_Angeles"
+    },
+    {
+      "date": "Monday, June 29, 2026",
+      "stage": "Knockout",
+      "group": "Match 76 · Round of 32",
+      "time": "12:00 PM local",
+      "kickoffISO": "2026-06-29T17:00:00Z",
+      "home": "Winner Group C",
+      "homeFlag": "1C",
+      "away": "Runner-up Group F",
+      "awayFlag": "2F",
+      "location": "Houston Stadium · Houston",
+      "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Monday, June 29, 2026",
@@ -1981,16 +1994,16 @@
       "venueTimeZone": "America/Monterrey"
     },
     {
-      "date": "Monday, June 29, 2026",
+      "date": "Tuesday, June 30, 2026",
       "stage": "Knockout",
-      "group": "Match 76 · Round of 32",
+      "group": "Match 78 · Round of 32",
       "time": "12:00 PM local",
-      "kickoffISO": "2026-06-29T17:00:00Z",
-      "home": "Winner Group C",
-      "homeFlag": "1C",
-      "away": "Runner-up Group F",
-      "awayFlag": "2F",
-      "location": "Houston Stadium · Houston",
+      "kickoffISO": "2026-06-30T17:00:00Z",
+      "home": "Runner-up Group E",
+      "homeFlag": "2E",
+      "away": "Runner-up Group I",
+      "awayFlag": "2I",
+      "location": "Dallas Stadium · Dallas",
       "venueTimeZone": "America/Chicago"
     },
     {
@@ -2005,19 +2018,6 @@
       "awayFlag": "3CDFGH",
       "location": "New York/New Jersey Stadium · New Jersey",
       "venueTimeZone": "America/New_York"
-    },
-    {
-      "date": "Tuesday, June 30, 2026",
-      "stage": "Knockout",
-      "group": "Match 78 · Round of 32",
-      "time": "12:00 PM local",
-      "kickoffISO": "2026-06-30T17:00:00Z",
-      "home": "Runner-up Group E",
-      "homeFlag": "2E",
-      "away": "Runner-up Group I",
-      "awayFlag": "2I",
-      "location": "Dallas Stadium · Dallas",
-      "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Tuesday, June 30, 2026",
@@ -2048,6 +2048,19 @@
     {
       "date": "Wednesday, July 1, 2026",
       "stage": "Knockout",
+      "group": "Match 82 · Round of 32",
+      "time": "1:00 PM local",
+      "kickoffISO": "2026-07-01T20:00:00Z",
+      "home": "Winner Group G",
+      "homeFlag": "1G",
+      "away": "Best third-place team A/E/H/I/J",
+      "awayFlag": "3AEHIJ",
+      "location": "Seattle Stadium · Seattle",
+      "venueTimeZone": "America/Los_Angeles"
+    },
+    {
+      "date": "Wednesday, July 1, 2026",
+      "stage": "Knockout",
       "group": "Match 81 · Round of 32",
       "time": "5:00 PM local",
       "kickoffISO": "2026-07-02T00:00:00Z",
@@ -2059,16 +2072,16 @@
       "venueTimeZone": "America/Los_Angeles"
     },
     {
-      "date": "Wednesday, July 1, 2026",
+      "date": "Thursday, July 2, 2026",
       "stage": "Knockout",
-      "group": "Match 82 · Round of 32",
-      "time": "1:00 PM local",
-      "kickoffISO": "2026-07-01T20:00:00Z",
-      "home": "Winner Group G",
-      "homeFlag": "1G",
-      "away": "Best third-place team A/E/H/I/J",
-      "awayFlag": "3AEHIJ",
-      "location": "Seattle Stadium · Seattle",
+      "group": "Match 84 · Round of 32",
+      "time": "12:00 PM local",
+      "kickoffISO": "2026-07-02T19:00:00Z",
+      "home": "Winner Group H",
+      "homeFlag": "1H",
+      "away": "Runner-up Group J",
+      "awayFlag": "2J",
+      "location": "Los Angeles Stadium · Los Angeles",
       "venueTimeZone": "America/Los_Angeles"
     },
     {
@@ -2087,19 +2100,6 @@
     {
       "date": "Thursday, July 2, 2026",
       "stage": "Knockout",
-      "group": "Match 84 · Round of 32",
-      "time": "12:00 PM local",
-      "kickoffISO": "2026-07-02T19:00:00Z",
-      "home": "Winner Group H",
-      "homeFlag": "1H",
-      "away": "Runner-up Group J",
-      "awayFlag": "2J",
-      "location": "Los Angeles Stadium · Los Angeles",
-      "venueTimeZone": "America/Los_Angeles"
-    },
-    {
-      "date": "Thursday, July 2, 2026",
-      "stage": "Knockout",
       "group": "Match 85 · Round of 32",
       "time": "8:00 PM local",
       "kickoffISO": "2026-07-03T03:00:00Z",
@@ -2109,6 +2109,19 @@
       "awayFlag": "3EFGIJ",
       "location": "BC Place Vancouver · Vancouver",
       "venueTimeZone": "America/Vancouver"
+    },
+    {
+      "date": "Friday, July 3, 2026",
+      "stage": "Knockout",
+      "group": "Match 88 · Round of 32",
+      "time": "1:00 PM local",
+      "kickoffISO": "2026-07-03T18:00:00Z",
+      "home": "Runner-up Group D",
+      "homeFlag": "2D",
+      "away": "Runner-up Group G",
+      "awayFlag": "2G",
+      "location": "Dallas Stadium · Dallas",
+      "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Friday, July 3, 2026",
@@ -2137,16 +2150,16 @@
       "venueTimeZone": "America/Chicago"
     },
     {
-      "date": "Friday, July 3, 2026",
+      "date": "Saturday, July 4, 2026",
       "stage": "Knockout",
-      "group": "Match 88 · Round of 32",
-      "time": "1:00 PM local",
-      "kickoffISO": "2026-07-03T18:00:00Z",
-      "home": "Runner-up Group D",
-      "homeFlag": "2D",
-      "away": "Runner-up Group G",
-      "awayFlag": "2G",
-      "location": "Dallas Stadium · Dallas",
+      "group": "Match 90 · Round of 16",
+      "time": "12:00 PM local",
+      "kickoffISO": "2026-07-04T17:00:00Z",
+      "home": "Winner Match 73",
+      "homeFlag": "W73",
+      "away": "Winner Match 75",
+      "awayFlag": "W75",
+      "location": "Houston Stadium · Houston",
       "venueTimeZone": "America/Chicago"
     },
     {
@@ -2161,19 +2174,6 @@
       "awayFlag": "W77",
       "location": "Philadelphia Stadium · Philadelphia",
       "venueTimeZone": "America/New_York"
-    },
-    {
-      "date": "Saturday, July 4, 2026",
-      "stage": "Knockout",
-      "group": "Match 90 · Round of 16",
-      "time": "12:00 PM local",
-      "kickoffISO": "2026-07-04T17:00:00Z",
-      "home": "Winner Match 73",
-      "homeFlag": "W73",
-      "away": "Winner Match 75",
-      "awayFlag": "W75",
-      "location": "Houston Stadium · Houston",
-      "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Sunday, July 5, 2026",
