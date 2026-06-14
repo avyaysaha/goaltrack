@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T18:36:59.262Z",
+  "updatedAt": "2026-06-14T19:06:22.756Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -316,20 +316,20 @@
     ],
     "E": [
       {
+        "name": "Germany",
+        "flag": "GER",
+        "fifaRank": 9,
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 6,
+        "points": 3
+      },
+      {
         "name": "Côte d'Ivoire",
         "flag": "CIV",
         "fifaRank": 42,
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 0,
-        "points": 0
-      },
-      {
-        "name": "Curaçao",
-        "flag": "CUW",
-        "fifaRank": 82,
         "played": 0,
         "won": 0,
         "drawn": 0,
@@ -349,14 +349,14 @@
         "points": 0
       },
       {
-        "name": "Germany",
-        "flag": "GER",
-        "fifaRank": 9,
-        "played": 0,
+        "name": "Curaçao",
+        "flag": "CUW",
+        "fifaRank": 82,
+        "played": 1,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "gd": 0,
+        "lost": 1,
+        "gd": -6,
         "points": 0
       }
     ],
@@ -1113,14 +1113,65 @@
       "date": "Sunday, June 14, 2026",
       "stage": "Group Stage",
       "group": "Group E",
-      "time": "12:00 PM local",
+      "time": "12:00 PM CDT (12:00 PM CDT venue local)",
       "kickoffISO": "2026-06-14T17:00:00Z",
       "home": "Germany",
       "homeFlag": "GER",
       "away": "Curaçao",
       "awayFlag": "CUW",
       "location": "NRG Stadium · Houston",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "status": "FT",
+      "elapsed": 90,
+      "homeScore": 7,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Felix Nmecha",
+          "team": "Germany",
+          "match": "Germany vs Curaçao"
+        },
+        {
+          "player": "Livano Comenencia",
+          "team": "Curaçao",
+          "match": "Germany vs Curaçao"
+        },
+        {
+          "player": "Nico Schlotberbeck",
+          "team": "Germany",
+          "match": "Germany vs Curaçao"
+        },
+        {
+          "player": "Kai Havertz",
+          "team": "Germany",
+          "match": "Germany vs Curaçao"
+        },
+        {
+          "player": "Jamal Musiala",
+          "team": "Germany",
+          "match": "Germany vs Curaçao"
+        },
+        {
+          "player": "Nathaniel Brown",
+          "team": "Germany",
+          "match": "Germany vs Curaçao"
+        },
+        {
+          "player": "Deniz Undav",
+          "team": "Germany",
+          "match": "Germany vs Curaçao"
+        },
+        {
+          "player": "Kai Havertz",
+          "team": "Germany",
+          "match": "Germany vs Curaçao"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Manuel Neuer",
+      "awayKeeper": "Eloy Room"
     },
     {
       "date": "Sunday, June 14, 2026",
@@ -2767,6 +2818,68 @@
       "penalties": 0,
       "homeKeeper": "Patrick Beach",
       "awayKeeper": "Uğurcan Çakır"
+    },
+    {
+      "date": "Sunday, June 14, 2026",
+      "stage": "Group Stage",
+      "group": "Group E",
+      "time": "12:00 PM CDT (12:00 PM CDT venue local)",
+      "home": "Germany",
+      "homeFlag": "GER",
+      "away": "Curaçao",
+      "awayFlag": "CUW",
+      "location": "NRG Stadium · Houston",
+      "status": "FT",
+      "elapsed": 90,
+      "homeScore": 7,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Felix Nmecha",
+          "team": "Germany",
+          "match": "Germany vs Curaçao"
+        },
+        {
+          "player": "Livano Comenencia",
+          "team": "Curaçao",
+          "match": "Germany vs Curaçao"
+        },
+        {
+          "player": "Nico Schlotberbeck",
+          "team": "Germany",
+          "match": "Germany vs Curaçao"
+        },
+        {
+          "player": "Kai Havertz",
+          "team": "Germany",
+          "match": "Germany vs Curaçao"
+        },
+        {
+          "player": "Jamal Musiala",
+          "team": "Germany",
+          "match": "Germany vs Curaçao"
+        },
+        {
+          "player": "Nathaniel Brown",
+          "team": "Germany",
+          "match": "Germany vs Curaçao"
+        },
+        {
+          "player": "Deniz Undav",
+          "team": "Germany",
+          "match": "Germany vs Curaçao"
+        },
+        {
+          "player": "Kai Havertz",
+          "team": "Germany",
+          "match": "Germany vs Curaçao"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Manuel Neuer",
+      "awayKeeper": "Eloy Room"
     }
   ],
   "detailedStats": {
@@ -2775,6 +2888,11 @@
         "name": "Folarin Balogun",
         "value": 2,
         "detail": "United States"
+      },
+      {
+        "name": "Kai Havertz",
+        "value": 2,
+        "detail": "Germany"
       },
       {
         "name": "Boulem Khouki",
@@ -2802,6 +2920,16 @@
         "detail": "United States"
       },
       {
+        "name": "Deniz Undav",
+        "value": 1,
+        "detail": "Germany"
+      },
+      {
+        "name": "Felix Nmecha",
+        "value": 1,
+        "detail": "Germany"
+      },
+      {
         "name": "Gio Reyna",
         "value": 1,
         "detail": "United States"
@@ -2815,6 +2943,11 @@
         "name": "Ismael Saibari",
         "value": 1,
         "detail": "Morocco"
+      },
+      {
+        "name": "Jamal Musiala",
+        "value": 1,
+        "detail": "Germany"
       },
       {
         "name": "John McGinn",
@@ -2837,14 +2970,29 @@
         "detail": "Czechia"
       },
       {
+        "name": "Livano Comenencia",
+        "value": 1,
+        "detail": "Curaçao"
+      },
+      {
         "name": "Maurício",
         "value": 1,
         "detail": "Paraguay"
       },
       {
+        "name": "Nathaniel Brown",
+        "value": 1,
+        "detail": "Germany"
+      },
+      {
         "name": "Nestory Irankunda",
         "value": 1,
         "detail": "Australia"
+      },
+      {
+        "name": "Nico Schlotberbeck",
+        "value": 1,
+        "detail": "Germany"
       },
       {
         "name": "Oh Hyeon-gyu",
@@ -2884,6 +3032,11 @@
         "detail": "Brazil · 1 goals conceded in 1 appearance"
       },
       {
+        "name": "Eloy Room",
+        "value": 0,
+        "detail": "Curaçao · 7 goals conceded in 1 appearance"
+      },
+      {
         "name": "Gregor Kobel",
         "value": 0,
         "detail": "Switzerland · 1 goals conceded in 1 appearance"
@@ -2902,6 +3055,11 @@
         "name": "Mahmoud Abunada",
         "value": 0,
         "detail": "Qatar · 1 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Manuel Neuer",
+        "value": 0,
+        "detail": "Germany · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Matěj Kovář",
@@ -3099,6 +3257,9 @@
     "penaltyEvents": [
       {
         "match": "Qatar vs Switzerland"
+      },
+      {
+        "match": "Germany vs Curaçao"
       }
     ],
     "matchStats": [
@@ -3157,6 +3318,13 @@
         "yellowCards": 1,
         "penalties": 0,
         "elapsed": 100
+      },
+      {
+        "match": "Germany vs Curaçao",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 1,
+        "elapsed": 90
       }
     ]
   }
