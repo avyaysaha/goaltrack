@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T19:16:46.579Z",
+  "updatedAt": "2026-06-14T22:06:52.117Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -365,23 +365,23 @@
         "name": "Japan",
         "flag": "JPN",
         "fifaRank": 18,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 0,
         "gd": 0,
-        "points": 0
+        "points": 1
       },
       {
         "name": "Netherlands",
         "flag": "NED",
         "fifaRank": 7,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 0,
         "gd": 0,
-        "points": 0
+        "points": 1
       },
       {
         "name": "Sweden",
@@ -1177,14 +1177,61 @@
       "date": "Sunday, June 14, 2026",
       "stage": "Group Stage",
       "group": "Group F",
-      "time": "3:00 PM local",
+      "time": "3:00 PM(3:00 PM local)",
       "kickoffISO": "2026-06-14T20:00:00Z",
       "home": "Netherlands",
       "homeFlag": "NED",
       "away": "Japan",
       "awayFlag": "JPN",
-      "location": "AT&T Stadium · Dallas",
-      "venueTimeZone": "America/Chicago"
+      "location": "⌖AT&T Stadium • Dallas",
+      "venueTimeZone": "America/Chicago",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 2,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Virgil van Dijk",
+          "team": "Netherlands",
+          "match": "Netherlands vs Japan"
+        },
+        {
+          "player": "Keito Nakamura",
+          "team": "Japan",
+          "match": "Netherlands vs Japan"
+        },
+        {
+          "player": "Crysencio Summerville",
+          "team": "Netherlands",
+          "match": "Netherlands vs Japan"
+        },
+        {
+          "player": "Daichi Kamada",
+          "team": "Japan",
+          "match": "Netherlands vs Japan"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Crysencio Summerville",
+          "team": "Netherlands",
+          "match": "Netherlands vs Japan"
+        },
+        {
+          "player": "Memphis Depay",
+          "team": "Netherlands",
+          "match": "Netherlands vs Japan"
+        },
+        {
+          "player": "Micky van de Ven",
+          "team": "Netherlands",
+          "match": "Netherlands vs Japan"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Bart Verbruggen",
+      "awayKeeper": "Zion Suzuki"
     },
     {
       "date": "Sunday, June 14, 2026",
@@ -2880,6 +2927,64 @@
       "penalties": 1,
       "homeKeeper": "Manuel Neuer",
       "awayKeeper": "Eloy Room"
+    },
+    {
+      "date": "Sunday, June 14, 2026",
+      "stage": "Group Stage",
+      "group": "Group F",
+      "time": "3:00 PM(3:00 PM local)",
+      "home": "Netherlands",
+      "homeFlag": "NED",
+      "away": "Japan",
+      "awayFlag": "JPN",
+      "location": "⌖AT&T Stadium • Dallas",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 2,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Virgil van Dijk",
+          "team": "Netherlands",
+          "match": "Netherlands vs Japan"
+        },
+        {
+          "player": "Keito Nakamura",
+          "team": "Japan",
+          "match": "Netherlands vs Japan"
+        },
+        {
+          "player": "Crysencio Summerville",
+          "team": "Netherlands",
+          "match": "Netherlands vs Japan"
+        },
+        {
+          "player": "Daichi Kamada",
+          "team": "Japan",
+          "match": "Netherlands vs Japan"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Crysencio Summerville",
+          "team": "Netherlands",
+          "match": "Netherlands vs Japan"
+        },
+        {
+          "player": "Memphis Depay",
+          "team": "Netherlands",
+          "match": "Netherlands vs Japan"
+        },
+        {
+          "player": "Micky van de Ven",
+          "team": "Netherlands",
+          "match": "Netherlands vs Japan"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Bart Verbruggen",
+      "awayKeeper": "Zion Suzuki"
     }
   ],
   "detailedStats": {
@@ -2910,9 +3015,19 @@
         "detail": "Australia"
       },
       {
+        "name": "Crysencio Summerville",
+        "value": 1,
+        "detail": "Netherlands"
+      },
+      {
         "name": "Cyle Larin",
         "value": 1,
         "detail": "Canada"
+      },
+      {
+        "name": "Daichi Kamada",
+        "value": 1,
+        "detail": "Japan"
       },
       {
         "name": "Damián Bobadilla (OG)",
@@ -2965,6 +3080,11 @@
         "detail": "Mexico"
       },
       {
+        "name": "Keito Nakamura",
+        "value": 1,
+        "detail": "Japan"
+      },
+      {
         "name": "Ladislav Krejčí",
         "value": 1,
         "detail": "Czechia"
@@ -3008,6 +3128,11 @@
         "name": "Vinícius Júnior",
         "value": 1,
         "detail": "Brazil"
+      },
+      {
+        "name": "Virgil van Dijk",
+        "value": 1,
+        "detail": "Netherlands"
       }
     ],
     "keepers": [
@@ -3030,6 +3155,11 @@
         "name": "Alisson Becker",
         "value": 0,
         "detail": "Brazil · 1 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Bart Verbruggen",
+        "value": 0,
+        "detail": "Netherlands · 2 goals conceded in 1 appearance"
       },
       {
         "name": "Eloy Room",
@@ -3100,6 +3230,11 @@
         "name": "Yassine Bounou",
         "value": 0,
         "detail": "Morocco · 1 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Zion Suzuki",
+        "value": 0,
+        "detail": "Japan · 2 goals conceded in 1 appearance"
       }
     ],
     "redCards": {
@@ -3118,7 +3253,8 @@
       "Brazil": 2,
       "Haiti": 1,
       "Scotland": 3,
-      "Türkiye": 1
+      "Türkiye": 1,
+      "Netherlands": 3
     },
     "redCardEvents": [
       {
@@ -3252,6 +3388,21 @@
         "player": "Yunus Akgün",
         "team": "Türkiye",
         "match": "Australia vs Türkiye"
+      },
+      {
+        "player": "Crysencio Summerville",
+        "team": "Netherlands",
+        "match": "Netherlands vs Japan"
+      },
+      {
+        "player": "Memphis Depay",
+        "team": "Netherlands",
+        "match": "Netherlands vs Japan"
+      },
+      {
+        "player": "Micky van de Ven",
+        "team": "Netherlands",
+        "match": "Netherlands vs Japan"
       }
     ],
     "penaltyEvents": [
@@ -3324,6 +3475,13 @@
         "redCards": 0,
         "yellowCards": 0,
         "penalties": 1,
+        "elapsed": 100
+      },
+      {
+        "match": "Netherlands vs Japan",
+        "redCards": 0,
+        "yellowCards": 3,
+        "penalties": 0,
         "elapsed": 100
       }
     ]
