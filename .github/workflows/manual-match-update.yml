@@ -52,6 +52,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: manual-match-update
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -80,4 +84,5 @@ jobs:
           git add outputs/data/manual-data.json data/manual-data.json
           git diff --cached --quiet && exit 0
           git commit -m "Update ${{ inputs.home_team }} vs ${{ inputs.away_team }}"
+          git pull --rebase origin main
           git push

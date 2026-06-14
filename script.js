@@ -886,7 +886,7 @@ function renderSchedule() {
           : match.displayTime;
 
       return `
-        <article class="match-card">
+        <article class="match-card${finished ? " match-card-finished" : ""}">
           <div class="match-meta">
             <span>${match.group}</span>
             <span class="${live ? "live-badge" : ""}">${statusLabel}</span>
