@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T15:05:31.192Z",
+  "updatedAt": "2026-06-14T16:00:10.526Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -284,22 +284,22 @@
         "name": "Australia",
         "flag": "AUS",
         "fifaRank": 26,
-        "played": 0,
-        "won": 0,
+        "played": 1,
+        "won": 1,
         "drawn": 0,
         "lost": 0,
-        "gd": 0,
-        "points": 0
+        "gd": 2,
+        "points": 3
       },
       {
         "name": "Türkiye",
         "flag": "TUR",
         "fifaRank": 25,
-        "played": 0,
+        "played": 1,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "gd": 0,
+        "lost": 1,
+        "gd": -2,
         "points": 0
       },
       {
@@ -1059,12 +1059,39 @@
       "date": "Saturday, June 13, 2026",
       "stage": "Group Stage",
       "group": "Group D",
-      "time": "9:00 PM local",
+      "time": "11:00",
       "home": "Australia",
-      "homeFlag": "🇦🇺",
+      "homeFlag": "AUS",
       "away": "Türkiye",
-      "awayFlag": "🇹🇷",
-      "location": "BC Place · Vancouver"
+      "awayFlag": "TUR",
+      "location": "BC Place • Vancouver",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 2,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Nestory Irankunda",
+          "team": "Australia",
+          "match": "Australia vs Türkiye"
+        },
+        {
+          "player": "Connor Metcalfe",
+          "team": "Australia",
+          "match": "Australia vs Türkiye"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Yunus Akgün",
+          "team": "Türkiye",
+          "match": "Australia vs Türkiye"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Patrick Beach",
+      "awayKeeper": "Uğurcan Çakır"
     },
     {
       "date": "Sunday, June 14, 2026",
@@ -1955,6 +1982,44 @@
       "penalties": 0,
       "homeKeeper": "Johny Placide",
       "awayKeeper": "Angus Gunn"
+    },
+    {
+      "date": "Saturday, June 13, 2026",
+      "stage": "Group Stage",
+      "group": "Group D",
+      "time": "11:00",
+      "home": "Australia",
+      "homeFlag": "AUS",
+      "away": "Türkiye",
+      "awayFlag": "TUR",
+      "location": "BC Place • Vancouver",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 2,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Nestory Irankunda",
+          "team": "Australia",
+          "match": "Australia vs Türkiye"
+        },
+        {
+          "player": "Connor Metcalfe",
+          "team": "Australia",
+          "match": "Australia vs Türkiye"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Yunus Akgün",
+          "team": "Türkiye",
+          "match": "Australia vs Türkiye"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Patrick Beach",
+      "awayKeeper": "Uğurcan Çakır"
     }
   ],
   "detailedStats": {
@@ -1973,6 +2038,11 @@
         "name": "Breel Embolo",
         "value": 1,
         "detail": "Switzerland"
+      },
+      {
+        "name": "Connor Metcalfe",
+        "value": 1,
+        "detail": "Australia"
       },
       {
         "name": "Cyle Larin",
@@ -2025,6 +2095,11 @@
         "detail": "Paraguay"
       },
       {
+        "name": "Nestory Irankunda",
+        "value": 1,
+        "detail": "Australia"
+      },
+      {
         "name": "Oh Hyeon-gyu",
         "value": 1,
         "detail": "Korea Republic"
@@ -2045,6 +2120,11 @@
         "name": "Angus Gunn",
         "value": 1,
         "detail": "Scotland · 0 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Patrick Beach",
+        "value": 1,
+        "detail": "Australia · 0 goals conceded in 1 appearance"
       },
       {
         "name": "Raúl Rangel",
@@ -2107,6 +2187,11 @@
         "detail": "South Africa · 2 goals conceded in 1 appearance"
       },
       {
+        "name": "Uğurcan Çakır",
+        "value": 0,
+        "detail": "Türkiye · 2 goals conceded in 1 appearance"
+      },
+      {
         "name": "Yassine Bounou",
         "value": 0,
         "detail": "Morocco · 1 goals conceded in 1 appearance"
@@ -2127,7 +2212,8 @@
       "Switzerland": 1,
       "Brazil": 2,
       "Haiti": 1,
-      "Scotland": 3
+      "Scotland": 3,
+      "Türkiye": 1
     },
     "redCardEvents": [
       {
@@ -2256,6 +2342,11 @@
         "player": "Kenny McLean",
         "team": "Scotland",
         "match": "Haiti vs Scotland"
+      },
+      {
+        "player": "Yunus Akgün",
+        "team": "Türkiye",
+        "match": "Australia vs Türkiye"
       }
     ],
     "penaltyEvents": [
@@ -2310,6 +2401,13 @@
         "match": "Haiti vs Scotland",
         "redCards": 0,
         "yellowCards": 4,
+        "penalties": 0,
+        "elapsed": 100
+      },
+      {
+        "match": "Australia vs Türkiye",
+        "redCards": 0,
+        "yellowCards": 1,
         "penalties": 0,
         "elapsed": 100
       }
