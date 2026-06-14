@@ -34,6 +34,25 @@ const TIME_ZONES = {
   "New Jersey": "America/New_York"
 };
 
+const STADIUM_NAMES = {
+  "Atlanta Stadium": "Mercedes-Benz Stadium",
+  "BC Place Vancouver": "BC Place",
+  "Boston Stadium": "Gillette Stadium",
+  "Dallas Stadium": "AT&T Stadium",
+  "Guadalajara Stadium": "Estadio Akron",
+  "Houston Stadium": "NRG Stadium",
+  "Kansas City Stadium": "GEHA Field at Arrowhead Stadium",
+  "Los Angeles Stadium": "SoFi Stadium",
+  "Mexico City Stadium": "Estadio Azteca",
+  "Miami Stadium": "Hard Rock Stadium",
+  "Monterrey Stadium": "Estadio BBVA",
+  "New York/New Jersey Stadium": "MetLife Stadium",
+  "Philadelphia Stadium": "Lincoln Financial Field",
+  "San Francisco Bay Area Stadium": "Levi's Stadium",
+  "Seattle Stadium": "Lumen Field",
+  "Toronto Stadium": "BMO Field"
+};
+
 function localizedText(items) {
   return items?.find((item) => item.Locale === "en-GB")?.Description
     || items?.[0]?.Description
@@ -98,7 +117,8 @@ function officialFixture(item) {
   const stage = localizedText(item.StageName);
   const group = localizedText(item.GroupName);
   const city = localizedText(item.Stadium?.CityName);
-  const stadium = localizedText(item.Stadium?.Name);
+  const fifaStadium = localizedText(item.Stadium?.Name);
+  const stadium = STADIUM_NAMES[fifaStadium] || fifaStadium;
   const home = item.Home ? teamName(item.Home) : placeholderName(item.PlaceHolderA);
   const away = item.Away ? teamName(item.Away) : placeholderName(item.PlaceHolderB);
 
