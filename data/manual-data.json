@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T22:02:08.697Z",
+  "updatedAt": "2026-06-14T00:16:25.991Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -227,28 +227,28 @@
         "name": "Brazil",
         "flag": "BRA",
         "fifaRank": 5,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 0,
         "gd": 0,
-        "points": 0
-      },
-      {
-        "name": "Haiti",
-        "flag": "HAI",
-        "fifaRank": 84,
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 0,
-        "points": 0
+        "points": 1
       },
       {
         "name": "Morocco",
         "flag": "MAR",
         "fifaRank": 11,
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gd": 0,
+        "points": 1
+      },
+      {
+        "name": "Haiti",
+        "flag": "HAI",
+        "fifaRank": 84,
         "played": 0,
         "won": 0,
         "drawn": 0,
@@ -970,10 +970,42 @@
       "group": "Group C",
       "time": "6:00 PM local",
       "home": "Brazil",
-      "homeFlag": "🇧🇷",
+      "homeFlag": "BRA",
       "away": "Morocco",
-      "awayFlag": "🇲🇦",
-      "location": "Gillette Stadium · Boston"
+      "awayFlag": "MAR",
+      "location": "MetLife Stadium• New Jersey",
+      "status": "FT",
+      "elapsed": 104,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Ismael Saibari",
+          "team": "Morocco",
+          "match": "Brazil vs Morocco"
+        },
+        {
+          "player": "Vinícius Júnior",
+          "team": "Brazil",
+          "match": "Brazil vs Morocco"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Casemiro",
+          "team": "Brazil",
+          "match": "Brazil vs Morocco"
+        },
+        {
+          "player": "Roger Ibanez",
+          "team": "Brazil",
+          "match": "Brazil vs Morocco"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Alisson Becker",
+      "awayKeeper": "Yassine Bounou"
     },
     {
       "date": "Saturday, June 13, 2026",
@@ -1795,6 +1827,49 @@
       "penalties": 1,
       "homeKeeper": "Mahmoud Abunada",
       "awayKeeper": "Gregor Kobel"
+    },
+    {
+      "date": "Saturday, June 13, 2026",
+      "stage": "Group Stage",
+      "group": "Group C",
+      "time": "6:00 PM local",
+      "home": "Brazil",
+      "homeFlag": "BRA",
+      "away": "Morocco",
+      "awayFlag": "MAR",
+      "location": "MetLife Stadium• New Jersey",
+      "status": "FT",
+      "elapsed": 104,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Ismael Saibari",
+          "team": "Morocco",
+          "match": "Brazil vs Morocco"
+        },
+        {
+          "player": "Vinícius Júnior",
+          "team": "Brazil",
+          "match": "Brazil vs Morocco"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Casemiro",
+          "team": "Brazil",
+          "match": "Brazil vs Morocco"
+        },
+        {
+          "player": "Roger Ibanez",
+          "team": "Brazil",
+          "match": "Brazil vs Morocco"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Alisson Becker",
+      "awayKeeper": "Yassine Bounou"
     }
   ],
   "detailedStats": {
@@ -1835,6 +1910,11 @@
         "detail": "Korea Republic"
       },
       {
+        "name": "Ismael Saibari",
+        "value": 1,
+        "detail": "Morocco"
+      },
+      {
         "name": "Jovo Lukić",
         "value": 1,
         "detail": "Bosnia and Herzegovina"
@@ -1863,6 +1943,11 @@
         "name": "Raúl Jiménez",
         "value": 1,
         "detail": "Mexico"
+      },
+      {
+        "name": "Vinícius Júnior",
+        "value": 1,
+        "detail": "Brazil"
       }
     ],
     "keepers": [
@@ -1870,6 +1955,11 @@
         "name": "Raúl Rangel",
         "value": 1,
         "detail": "Mexico · 0 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Alisson Becker",
+        "value": 0,
+        "detail": "Brazil · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Gregor Kobel",
@@ -1915,6 +2005,11 @@
         "name": "Ronwen Williams",
         "value": 0,
         "detail": "South Africa · 2 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Yassine Bounou",
+        "value": 0,
+        "detail": "Morocco · 1 goals conceded in 1 appearance"
       }
     ],
     "redCards": {
@@ -1929,7 +2024,8 @@
       "Paraguay": 5,
       "United States": 1,
       "Qatar": 2,
-      "Switzerland": 1
+      "Switzerland": 1,
+      "Brazil": 2
     },
     "redCardEvents": [
       {
@@ -2028,6 +2124,16 @@
         "player": "Denis Zakaria",
         "team": "Switzerland",
         "match": "Qatar vs Switzerland"
+      },
+      {
+        "player": "Casemiro",
+        "team": "Brazil",
+        "match": "Brazil vs Morocco"
+      },
+      {
+        "player": "Roger Ibanez",
+        "team": "Brazil",
+        "match": "Brazil vs Morocco"
       }
     ],
     "penaltyEvents": [
@@ -2070,6 +2176,13 @@
         "yellowCards": 3,
         "penalties": 1,
         "elapsed": 94
+      },
+      {
+        "match": "Brazil vs Morocco",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 104
       }
     ]
   }
