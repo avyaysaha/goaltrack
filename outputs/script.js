@@ -960,6 +960,36 @@ function compareGoalLeaders(a, b) {
     a.name.localeCompare(b.name, "en", { sensitivity: "base" });
 }
 
+function getKeeperResultTotals() {
+  const totals = new Map();
+
+  matches.forEach(function (match) {
+    if (!["FT", "AET", "PEN"].includes(match.status)) {
+      return;
+    }
+
+    [
+      { name: match.homeKeeper, team: match.home, conceded: match.awayScore },
+      { name: match.awayKeeper, team: match.away, conceded: match.homeScore }
+    ].forEach(function (entry) {
+      if (!entry.name || !Number.isInteger(entry.conceded)) {
+        return;
+      }
+
+      const total = totals.get(entry.name) || {
+        team: entry.team,
+        appearances: 0,
+        goalsConceded: 0
+      };
+      total.appearances += 1;
+      total.goalsConceded += entry.conceded;
+      totals.set(entry.name, total);
+    });
+  });
+
+  return totals;
+}
+
 function getDetailedStats() {
   const emptyTeamValues = {};
   getAllTeams().forEach(function (entry) {
@@ -990,9 +1020,25 @@ function getDetailedStats() {
       keeperMap.set(keeper.name, keeper);
     }
   });
-  const keepers = [...keeperMap.values()].sort(function (a, b) {
-    return b.value - a.value || a.name.localeCompare(b.name);
-  });
+  const keeperResults = getKeeperResultTotals();
+  const keepers = [...keeperMap.values()]
+    .map(function (keeper) {
+      const result = keeperResults.get(keeper.name);
+      if (!result) {
+        return keeper;
+      }
+      return {
+        ...keeper,
+        goalsConceded: result.goalsConceded,
+        detail: `${result.team} · ${result.goalsConceded} goals conceded in ${result.appearances} appearance${result.appearances === 1 ? "" : "s"}`
+      };
+    })
+    .sort(function (a, b) {
+      return b.value - a.value ||
+        (a.goalsConceded ?? Number.POSITIVE_INFINITY) -
+          (b.goalsConceded ?? Number.POSITIVE_INFINITY) ||
+        a.name.localeCompare(b.name, "en", { sensitivity: "base" });
+    });
 
   return {
     goals: getTeamGoalsFromResults(),
