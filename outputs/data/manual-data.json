@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T19:06:22.756Z",
+  "updatedAt": "2026-06-14T19:16:46.579Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -1122,7 +1122,7 @@
       "location": "NRG Stadium · Houston",
       "venueTimeZone": "America/Chicago",
       "status": "FT",
-      "elapsed": 90,
+      "elapsed": 100,
       "homeScore": 7,
       "awayScore": 1,
       "scorers": [
@@ -2830,7 +2830,7 @@
       "awayFlag": "CUW",
       "location": "NRG Stadium · Houston",
       "status": "FT",
-      "elapsed": 90,
+      "elapsed": 100,
       "homeScore": 7,
       "awayScore": 1,
       "scorers": [
@@ -3324,7 +3324,7 @@
         "redCards": 0,
         "yellowCards": 0,
         "penalties": 1,
-        "elapsed": 90
+        "elapsed": 100
       }
     ]
   }
