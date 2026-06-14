@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T00:16:25.991Z",
+  "updatedAt": "2026-06-14T15:01:51.339Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -224,6 +224,17 @@
     ],
     "C": [
       {
+        "name": "Scotland",
+        "flag": "SCO",
+        "fifaRank": 36,
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 1,
+        "points": 3
+      },
+      {
         "name": "Brazil",
         "flag": "BRA",
         "fifaRank": 5,
@@ -249,22 +260,11 @@
         "name": "Haiti",
         "flag": "HAI",
         "fifaRank": 84,
-        "played": 0,
+        "played": 1,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "gd": 0,
-        "points": 0
-      },
-      {
-        "name": "Scotland",
-        "flag": "SCO",
-        "fifaRank": 36,
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 0,
+        "lost": 1,
+        "gd": -1,
         "points": 0
       }
     ],
@@ -1008,15 +1008,52 @@
       "awayKeeper": "Yassine Bounou"
     },
     {
-      "date": "Saturday, June 13, 2026",
+      "date": "Saturday, June 13, 2026.",
       "stage": "Group Stage",
       "group": "Group C",
       "time": "9:00 PM local",
       "home": "Haiti",
-      "homeFlag": "🇭🇹",
+      "homeFlag": "HAI",
       "away": "Scotland",
       "awayFlag": "SCO",
-      "location": "MetLife Stadium · New York/New Jersey"
+      "location": "Gillette Stadium • Boston",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 0,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "John McGinn",
+          "team": "Scotland",
+          "match": "Haiti vs Scotland"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Jean-Ricner Bellegarde",
+          "team": "Haiti",
+          "match": "Haiti vs Scotland"
+        },
+        {
+          "player": "Aaron Hickey",
+          "team": "Scotland",
+          "match": "Haiti vs Scotland"
+        },
+        {
+          "player": "Findlay Curtis",
+          "team": "Scotland",
+          "match": "Haiti vs Scotland"
+        },
+        {
+          "player": "Kenny McLean",
+          "team": "Scotland",
+          "match": "Haiti vs Scotland"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Johny Placide",
+      "awayKeeper": "Angus Gunn"
     },
     {
       "date": "Saturday, June 13, 2026",
@@ -1870,6 +1907,54 @@
       "penalties": 0,
       "homeKeeper": "Alisson Becker",
       "awayKeeper": "Yassine Bounou"
+    },
+    {
+      "date": "Saturday, June 13, 2026.",
+      "stage": "Group Stage",
+      "group": "Group C",
+      "time": "9:00 PM local",
+      "home": "Haiti",
+      "homeFlag": "HAI",
+      "away": "Scotland",
+      "awayFlag": "SCO",
+      "location": "Gillette Stadium • Boston",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 0,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "John McGinn",
+          "team": "Scotland",
+          "match": "Haiti vs Scotland"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Jean-Ricner Bellegarde",
+          "team": "Haiti",
+          "match": "Haiti vs Scotland"
+        },
+        {
+          "player": "Aaron Hickey",
+          "team": "Scotland",
+          "match": "Haiti vs Scotland"
+        },
+        {
+          "player": "Findlay Curtis",
+          "team": "Scotland",
+          "match": "Haiti vs Scotland"
+        },
+        {
+          "player": "Kenny McLean",
+          "team": "Scotland",
+          "match": "Haiti vs Scotland"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Johny Placide",
+      "awayKeeper": "Angus Gunn"
     }
   ],
   "detailedStats": {
@@ -1915,6 +2000,11 @@
         "detail": "Morocco"
       },
       {
+        "name": "John McGinn",
+        "value": 1,
+        "detail": "Scotland"
+      },
+      {
         "name": "Jovo Lukić",
         "value": 1,
         "detail": "Bosnia and Herzegovina"
@@ -1952,6 +2042,11 @@
     ],
     "keepers": [
       {
+        "name": "Angus Gunn",
+        "value": 1,
+        "detail": "Scotland · 0 goals conceded in 1 appearance"
+      },
+      {
         "name": "Raúl Rangel",
         "value": 1,
         "detail": "Mexico · 0 goals conceded in 1 appearance"
@@ -1965,6 +2060,11 @@
         "name": "Gregor Kobel",
         "value": 0,
         "detail": "Switzerland · 1 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Johny Placide",
+        "value": 0,
+        "detail": "Haiti · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Kim Seung-gyu",
@@ -2025,7 +2125,9 @@
       "United States": 1,
       "Qatar": 2,
       "Switzerland": 1,
-      "Brazil": 2
+      "Brazil": 2,
+      "Haiti": 1,
+      "Scotland": 3
     },
     "redCardEvents": [
       {
@@ -2134,6 +2236,26 @@
         "player": "Roger Ibanez",
         "team": "Brazil",
         "match": "Brazil vs Morocco"
+      },
+      {
+        "player": "Jean-Ricner Bellegarde",
+        "team": "Haiti",
+        "match": "Haiti vs Scotland"
+      },
+      {
+        "player": "Aaron Hickey",
+        "team": "Scotland",
+        "match": "Haiti vs Scotland"
+      },
+      {
+        "player": "Findlay Curtis",
+        "team": "Scotland",
+        "match": "Haiti vs Scotland"
+      },
+      {
+        "player": "Kenny McLean",
+        "team": "Scotland",
+        "match": "Haiti vs Scotland"
       }
     ],
     "penaltyEvents": [
@@ -2183,6 +2305,13 @@
         "yellowCards": 2,
         "penalties": 0,
         "elapsed": 104
+      },
+      {
+        "match": "Haiti vs Scotland",
+        "redCards": 0,
+        "yellowCards": 4,
+        "penalties": 0,
+        "elapsed": 100
       }
     ]
   }
