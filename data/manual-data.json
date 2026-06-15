@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T04:11:21.544Z",
+  "updatedAt": "2026-06-15T18:04:14.845Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -457,28 +457,28 @@
         "name": "Cabo Verde",
         "flag": "CPV",
         "fifaRank": 68,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 0,
         "gd": 0,
-        "points": 0
-      },
-      {
-        "name": "Saudi Arabia",
-        "flag": "KSA",
-        "fifaRank": 60,
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 0,
-        "points": 0
+        "points": 1
       },
       {
         "name": "Spain",
         "flag": "ESP",
         "fifaRank": 1,
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gd": 0,
+        "points": 1
+      },
+      {
+        "name": "Saudi Arabia",
+        "flag": "KSA",
+        "fifaRank": 60,
         "played": 0,
         "won": 0,
         "drawn": 0,
@@ -1347,14 +1347,35 @@
       "date": "Monday, June 15, 2026",
       "stage": "Group Stage",
       "group": "Group H",
-      "time": "12:00 PM local",
+      "time": "11:00 AM CDT (12:00 PM EDT venue local)",
       "kickoffISO": "2026-06-15T16:00:00Z",
       "home": "Spain",
       "homeFlag": "ESP",
       "away": "Cabo Verde",
       "awayFlag": "CPV",
       "location": "Mercedes-Benz Stadium · Atlanta",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 0,
+      "awayScore": 0,
+      "scorers": [],
+      "yellowCards": [
+        {
+          "player": "Pedri",
+          "team": "Spain",
+          "match": "Spain vs Cabo Verde"
+        },
+        {
+          "player": "Sidny Lopes Cabral",
+          "team": "Cabo Verde",
+          "match": "Spain vs Cabo Verde"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Unai Simónaway",
+      "awayKeeper": "Vozinha"
     },
     {
       "date": "Monday, June 15, 2026",
@@ -3175,6 +3196,38 @@
       "penalties": 0,
       "homeKeeper": "Kristoffer Nordfeldt",
       "awayKeeper": "Mouhib Chamakh"
+    },
+    {
+      "date": "Monday, June 15, 2026",
+      "stage": "Group Stage",
+      "group": "Group H",
+      "time": "11:00 AM CDT (12:00 PM EDT venue local)",
+      "home": "Spain",
+      "homeFlag": "ESP",
+      "away": "Cabo Verde",
+      "awayFlag": "CPV",
+      "location": "Mercedes-Benz Stadium · Atlanta",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 0,
+      "awayScore": 0,
+      "scorers": [],
+      "yellowCards": [
+        {
+          "player": "Pedri",
+          "team": "Spain",
+          "match": "Spain vs Cabo Verde"
+        },
+        {
+          "player": "Sidny Lopes Cabral",
+          "team": "Cabo Verde",
+          "match": "Spain vs Cabo Verde"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Unai Simónaway",
+      "awayKeeper": "Vozinha"
     }
   ],
   "detailedStats": {
@@ -3372,6 +3425,16 @@
         "detail": "Mexico · 0 goals conceded in 1 appearance"
       },
       {
+        "name": "Unai Simónaway",
+        "value": 1,
+        "detail": "Spain · 0 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Vozinha",
+        "value": 1,
+        "detail": "Cabo Verde · 0 goals conceded in 1 appearance"
+      },
+      {
         "name": "Yahia Fofana",
         "value": 1,
         "detail": "Côte d'Ivoire · 0 goals conceded in 1 appearance"
@@ -3497,7 +3560,9 @@
       "Netherlands": 3,
       "Côte d'Ivoire": 3,
       "Ecuador": 1,
-      "Tunisia": 1
+      "Tunisia": 1,
+      "Spain": 1,
+      "Cabo Verde": 1
     },
     "redCardEvents": [
       {
@@ -3671,6 +3736,16 @@
         "player": "Rani Khedira",
         "team": "Tunisia",
         "match": "Sweden vs Tunisia"
+      },
+      {
+        "player": "Pedri",
+        "team": "Spain",
+        "match": "Spain vs Cabo Verde"
+      },
+      {
+        "player": "Sidny Lopes Cabral",
+        "team": "Cabo Verde",
+        "match": "Spain vs Cabo Verde"
       }
     ],
     "penaltyEvents": [
@@ -3765,6 +3840,13 @@
         "yellowCards": 1,
         "penalties": 0,
         "elapsed": 100
+      },
+      {
+        "match": "Spain vs Cabo Verde",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 99
       }
     ]
   }
