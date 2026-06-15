@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T18:04:14.845Z",
+  "updatedAt": "2026-06-15T21:42:31.345Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -411,23 +411,23 @@
         "name": "Belgium",
         "flag": "BEL",
         "fifaRank": 8,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 0,
         "gd": 0,
-        "points": 0
+        "points": 1
       },
       {
         "name": "Egypt",
         "flag": "EGY",
         "fifaRank": 34,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 0,
         "gd": 0,
-        "points": 0
+        "points": 1
       },
       {
         "name": "IR Iran",
@@ -1380,15 +1380,57 @@
     {
       "date": "Monday, June 15, 2026",
       "stage": "Group Stage",
-      "group": "Group G",
-      "time": "12:00 PM local",
+      "group": "Group H",
+      "time": "2:00 PM CDT (12:00 PM PDT venue local)",
       "kickoffISO": "2026-06-15T19:00:00Z",
       "home": "Belgium",
       "homeFlag": "BEL",
       "away": "Egypt",
       "awayFlag": "EGY",
       "location": "Lumen Field · Seattle",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Emam Ashour",
+          "team": "Egypt",
+          "match": "Belgium vs Egypt"
+        },
+        {
+          "player": "Mohamed Hany(OG)",
+          "team": "Belgium",
+          "match": "Belgium vs Egypt"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Marwan Attia",
+          "team": "Egypt",
+          "match": "Belgium vs Egypt"
+        },
+        {
+          "player": "Timothy Castagne",
+          "team": "Belgium",
+          "match": "Belgium vs Egypt"
+        },
+        {
+          "player": "Ahmed Fatouh",
+          "team": "Egypt",
+          "match": "Belgium vs Egypt"
+        },
+        {
+          "player": "Maxim De Cuyper",
+          "team": "Belgium",
+          "match": "Belgium vs Egypt"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Thibaut Courtois",
+      "awayKeeper": "Mostafa Shobeir"
     },
     {
       "date": "Monday, June 15, 2026",
@@ -3228,6 +3270,59 @@
       "penalties": 0,
       "homeKeeper": "Unai Simónaway",
       "awayKeeper": "Vozinha"
+    },
+    {
+      "date": "Monday, June 15, 2026",
+      "stage": "Group Stage",
+      "group": "Group H",
+      "time": "2:00 PM CDT (12:00 PM PDT venue local)",
+      "home": "Belgium",
+      "homeFlag": "BEL",
+      "away": "Egypt",
+      "awayFlag": "EGY",
+      "location": "Lumen Field · Seattle",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Emam Ashour",
+          "team": "Egypt",
+          "match": "Belgium vs Egypt"
+        },
+        {
+          "player": "Mohamed Hany(OG)",
+          "team": "Belgium",
+          "match": "Belgium vs Egypt"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Marwan Attia",
+          "team": "Egypt",
+          "match": "Belgium vs Egypt"
+        },
+        {
+          "player": "Timothy Castagne",
+          "team": "Belgium",
+          "match": "Belgium vs Egypt"
+        },
+        {
+          "player": "Ahmed Fatouh",
+          "team": "Egypt",
+          "match": "Belgium vs Egypt"
+        },
+        {
+          "player": "Maxim De Cuyper",
+          "team": "Belgium",
+          "match": "Belgium vs Egypt"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Thibaut Courtois",
+      "awayKeeper": "Mostafa Shobeir"
     }
   ],
   "detailedStats": {
@@ -3298,6 +3393,11 @@
         "detail": "Germany"
       },
       {
+        "name": "Emam Ashour",
+        "value": 1,
+        "detail": "Egypt"
+      },
+      {
         "name": "Felix Nmecha",
         "value": 1,
         "detail": "Germany"
@@ -3361,6 +3461,11 @@
         "name": "Maurício",
         "value": 1,
         "detail": "Paraguay"
+      },
+      {
+        "name": "Mohamed Hany(OG)",
+        "value": 1,
+        "detail": "Belgium"
       },
       {
         "name": "Nathaniel Brown",
@@ -3505,6 +3610,11 @@
         "detail": "Canada · 1 goals conceded in 1 appearance"
       },
       {
+        "name": "Mostafa Shobeir",
+        "value": 0,
+        "detail": "Egypt · 1 goals conceded in 1 appearance"
+      },
+      {
         "name": "Mouhib Chamakh",
         "value": 0,
         "detail": "Tunisia · 5 goals conceded in 1 appearance"
@@ -3523,6 +3633,11 @@
         "name": "Ronwen Williams",
         "value": 0,
         "detail": "South Africa · 2 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Thibaut Courtois",
+        "value": 0,
+        "detail": "Belgium · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Uğurcan Çakır",
@@ -3562,7 +3677,9 @@
       "Ecuador": 1,
       "Tunisia": 1,
       "Spain": 1,
-      "Cabo Verde": 1
+      "Cabo Verde": 1,
+      "Egypt": 2,
+      "Belgium": 2
     },
     "redCardEvents": [
       {
@@ -3746,6 +3863,26 @@
         "player": "Sidny Lopes Cabral",
         "team": "Cabo Verde",
         "match": "Spain vs Cabo Verde"
+      },
+      {
+        "player": "Marwan Attia",
+        "team": "Egypt",
+        "match": "Belgium vs Egypt"
+      },
+      {
+        "player": "Timothy Castagne",
+        "team": "Belgium",
+        "match": "Belgium vs Egypt"
+      },
+      {
+        "player": "Ahmed Fatouh",
+        "team": "Egypt",
+        "match": "Belgium vs Egypt"
+      },
+      {
+        "player": "Maxim De Cuyper",
+        "team": "Belgium",
+        "match": "Belgium vs Egypt"
       }
     ],
     "penaltyEvents": [
@@ -3845,6 +3982,13 @@
         "match": "Spain vs Cabo Verde",
         "redCards": 0,
         "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 99
+      },
+      {
+        "match": "Belgium vs Egypt",
+        "redCards": 0,
+        "yellowCards": 4,
         "penalties": 0,
         "elapsed": 99
       }
