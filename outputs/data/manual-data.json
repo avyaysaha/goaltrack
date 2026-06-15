@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T03:35:08.886Z",
+  "updatedAt": "2026-06-15T03:42:20.509Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -1257,6 +1257,21 @@
         }
       ],
       "yellowCards": [
+        {
+          "player": "Seko Fofana",
+          "team": "Côte d'Ivoire",
+          "match": "Côte d'Ivoire vs Ecuador"
+        },
+        {
+          "player": "Franck Kessié",
+          "team": "Côte d'Ivoire",
+          "match": "Côte d'Ivoire vs Ecuador"
+        },
+        {
+          "player": "Guéla Doué",
+          "team": "Côte d'Ivoire",
+          "match": "Côte d'Ivoire vs Ecuador"
+        },
         {
           "player": "Jackson Porozo",
           "team": "Ecuador",
@@ -3031,6 +3046,21 @@
       ],
       "yellowCards": [
         {
+          "player": "Seko Fofana",
+          "team": "Côte d'Ivoire",
+          "match": "Côte d'Ivoire vs Ecuador"
+        },
+        {
+          "player": "Franck Kessié",
+          "team": "Côte d'Ivoire",
+          "match": "Côte d'Ivoire vs Ecuador"
+        },
+        {
+          "player": "Guéla Doué",
+          "team": "Côte d'Ivoire",
+          "match": "Côte d'Ivoire vs Ecuador"
+        },
+        {
           "player": "Jackson Porozo",
           "team": "Ecuador",
           "match": "Côte d'Ivoire vs Ecuador"
@@ -3325,6 +3355,7 @@
       "Scotland": 3,
       "Türkiye": 1,
       "Netherlands": 3,
+      "Côte d'Ivoire": 3,
       "Ecuador": 1
     },
     "redCardEvents": [
@@ -3476,6 +3507,21 @@
         "match": "Netherlands vs Japan"
       },
       {
+        "player": "Seko Fofana",
+        "team": "Côte d'Ivoire",
+        "match": "Côte d'Ivoire vs Ecuador"
+      },
+      {
+        "player": "Franck Kessié",
+        "team": "Côte d'Ivoire",
+        "match": "Côte d'Ivoire vs Ecuador"
+      },
+      {
+        "player": "Guéla Doué",
+        "team": "Côte d'Ivoire",
+        "match": "Côte d'Ivoire vs Ecuador"
+      },
+      {
         "player": "Jackson Porozo",
         "team": "Ecuador",
         "match": "Côte d'Ivoire vs Ecuador"
@@ -3563,7 +3609,7 @@
       {
         "match": "Côte d'Ivoire vs Ecuador",
         "redCards": 0,
-        "yellowCards": 1,
+        "yellowCards": 4,
         "penalties": 0,
         "elapsed": 102
       }
