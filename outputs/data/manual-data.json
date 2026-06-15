@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T03:42:20.509Z",
+  "updatedAt": "2026-06-15T04:11:21.544Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -362,6 +362,17 @@
     ],
     "F": [
       {
+        "name": "Sweden",
+        "flag": "SWE",
+        "fifaRank": 43,
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 4,
+        "points": 3
+      },
+      {
         "name": "Japan",
         "flag": "JPN",
         "fifaRank": 18,
@@ -384,25 +395,14 @@
         "points": 1
       },
       {
-        "name": "Sweden",
-        "flag": "SWE",
-        "fifaRank": 43,
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 0,
-        "points": 0
-      },
-      {
         "name": "Tunisia",
         "flag": "TUN",
         "fifaRank": 40,
-        "played": 0,
+        "played": 1,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "gd": 0,
+        "lost": 1,
+        "gd": -4,
         "points": 0
       }
     ],
@@ -1294,7 +1294,54 @@
       "away": "Tunisia",
       "awayFlag": "TUN",
       "location": "Estadio BBVA · Monterrey",
-      "venueTimeZone": "America/Monterrey"
+      "venueTimeZone": "America/Monterrey",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 5,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Yasin Ayari",
+          "team": "Sweden",
+          "match": "Sweden vs Tunisia"
+        },
+        {
+          "player": "Alexander Isak",
+          "team": "Sweden",
+          "match": "Sweden vs Tunisia"
+        },
+        {
+          "player": "Viktor Gyökeres",
+          "team": "Sweden",
+          "match": "Sweden vs Tunisia"
+        },
+        {
+          "player": "Mattias Svanberg",
+          "team": "Sweden",
+          "match": "Sweden vs Tunisia"
+        },
+        {
+          "player": "Yasin Ayari",
+          "team": "Sweden",
+          "match": "Sweden vs Tunisia"
+        },
+        {
+          "player": "Omar Rekik",
+          "team": "Tunisia",
+          "match": "Sweden vs Tunisia"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Rani Khedira",
+          "team": "Tunisia",
+          "match": "Sweden vs Tunisia"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Kristoffer Nordfeldt",
+      "awayKeeper": "Mouhib Chamakh"
     },
     {
       "date": "Monday, June 15, 2026",
@@ -3070,6 +3117,64 @@
       "penalties": 0,
       "homeKeeper": "Yahia Fofana",
       "awayKeeper": "Hernán Galíndez"
+    },
+    {
+      "date": "Sunday, June 14, 2026",
+      "stage": "Group Stage",
+      "group": "Group F",
+      "time": "8:00 PM local",
+      "home": "Sweden",
+      "homeFlag": "SWE",
+      "away": "Tunisia",
+      "awayFlag": "TUN",
+      "location": "Estadio BBVA · Monterrey",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 5,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Yasin Ayari",
+          "team": "Sweden",
+          "match": "Sweden vs Tunisia"
+        },
+        {
+          "player": "Alexander Isak",
+          "team": "Sweden",
+          "match": "Sweden vs Tunisia"
+        },
+        {
+          "player": "Viktor Gyökeres",
+          "team": "Sweden",
+          "match": "Sweden vs Tunisia"
+        },
+        {
+          "player": "Mattias Svanberg",
+          "team": "Sweden",
+          "match": "Sweden vs Tunisia"
+        },
+        {
+          "player": "Yasin Ayari",
+          "team": "Sweden",
+          "match": "Sweden vs Tunisia"
+        },
+        {
+          "player": "Omar Rekik",
+          "team": "Tunisia",
+          "match": "Sweden vs Tunisia"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Rani Khedira",
+          "team": "Tunisia",
+          "match": "Sweden vs Tunisia"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Kristoffer Nordfeldt",
+      "awayKeeper": "Mouhib Chamakh"
     }
   ],
   "detailedStats": {
@@ -3083,6 +3188,16 @@
         "name": "Kai Havertz",
         "value": 2,
         "detail": "Germany"
+      },
+      {
+        "name": "Yasin Ayari",
+        "value": 2,
+        "detail": "Sweden"
+      },
+      {
+        "name": "Alexander Isak",
+        "value": 1,
+        "detail": "Sweden"
       },
       {
         "name": "Amad Diallo",
@@ -3185,6 +3300,11 @@
         "detail": "Curaçao"
       },
       {
+        "name": "Mattias Svanberg",
+        "value": 1,
+        "detail": "Sweden"
+      },
+      {
         "name": "Maurício",
         "value": 1,
         "detail": "Paraguay"
@@ -3210,9 +3330,19 @@
         "detail": "Korea Republic"
       },
       {
+        "name": "Omar Rekik",
+        "value": 1,
+        "detail": "Tunisia"
+      },
+      {
         "name": "Raúl Jiménez",
         "value": 1,
         "detail": "Mexico"
+      },
+      {
+        "name": "Viktor Gyökeres",
+        "value": 1,
+        "detail": "Sweden"
       },
       {
         "name": "Vinícius Júnior",
@@ -3282,6 +3412,11 @@
         "detail": "Korea Republic · 1 goals conceded in 1 appearance"
       },
       {
+        "name": "Kristoffer Nordfeldt",
+        "value": 0,
+        "detail": "Sweden · 1 goals conceded in 1 appearance"
+      },
+      {
         "name": "Mahmoud Abunada",
         "value": 0,
         "detail": "Qatar · 1 goals conceded in 1 appearance"
@@ -3305,6 +3440,11 @@
         "name": "Maxime Crépeau",
         "value": 0,
         "detail": "Canada · 1 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Mouhib Chamakh",
+        "value": 0,
+        "detail": "Tunisia · 5 goals conceded in 1 appearance"
       },
       {
         "name": "Nikola Vasilj",
@@ -3356,7 +3496,8 @@
       "Türkiye": 1,
       "Netherlands": 3,
       "Côte d'Ivoire": 3,
-      "Ecuador": 1
+      "Ecuador": 1,
+      "Tunisia": 1
     },
     "redCardEvents": [
       {
@@ -3525,6 +3666,11 @@
         "player": "Jackson Porozo",
         "team": "Ecuador",
         "match": "Côte d'Ivoire vs Ecuador"
+      },
+      {
+        "player": "Rani Khedira",
+        "team": "Tunisia",
+        "match": "Sweden vs Tunisia"
       }
     ],
     "penaltyEvents": [
@@ -3612,6 +3758,13 @@
         "yellowCards": 4,
         "penalties": 0,
         "elapsed": 102
+      },
+      {
+        "match": "Sweden vs Tunisia",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 100
       }
     ]
   }
