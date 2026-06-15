@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T22:06:52.117Z",
+  "updatedAt": "2026-06-15T03:35:08.886Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -330,22 +330,22 @@
         "name": "Côte d'Ivoire",
         "flag": "CIV",
         "fifaRank": 42,
-        "played": 0,
-        "won": 0,
+        "played": 1,
+        "won": 1,
         "drawn": 0,
         "lost": 0,
-        "gd": 0,
-        "points": 0
+        "gd": 1,
+        "points": 3
       },
       {
         "name": "Ecuador",
         "flag": "ECU",
         "fifaRank": 23,
-        "played": 0,
+        "played": 1,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "gd": 0,
+        "lost": 1,
+        "gd": -1,
         "points": 0
       },
       {
@@ -1237,14 +1237,36 @@
       "date": "Sunday, June 14, 2026",
       "stage": "Group Stage",
       "group": "Group E",
-      "time": "7:00 PM local",
+      "time": "6:00 PM CDT (7:00 PM EDT venue local)",
       "kickoffISO": "2026-06-14T23:00:00Z",
       "home": "Côte d'Ivoire",
       "homeFlag": "CIV",
       "away": "Ecuador",
       "awayFlag": "ECU",
       "location": "Lincoln Financial Field · Philadelphia",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "status": "FT",
+      "elapsed": 102,
+      "homeScore": 1,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Amad Diallo",
+          "team": "Côte d'Ivoire",
+          "match": "Côte d'Ivoire vs Ecuador"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Jackson Porozo",
+          "team": "Ecuador",
+          "match": "Côte d'Ivoire vs Ecuador"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Yahia Fofana",
+      "awayKeeper": "Hernán Galíndez"
     },
     {
       "date": "Sunday, June 14, 2026",
@@ -2985,6 +3007,39 @@
       "penalties": 0,
       "homeKeeper": "Bart Verbruggen",
       "awayKeeper": "Zion Suzuki"
+    },
+    {
+      "date": "Sunday, June 14, 2026",
+      "stage": "Group Stage",
+      "group": "Group E",
+      "time": "6:00 PM CDT (7:00 PM EDT venue local)",
+      "home": "Côte d'Ivoire",
+      "homeFlag": "CIV",
+      "away": "Ecuador",
+      "awayFlag": "ECU",
+      "location": "Lincoln Financial Field · Philadelphia",
+      "status": "FT",
+      "elapsed": 102,
+      "homeScore": 1,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Amad Diallo",
+          "team": "Côte d'Ivoire",
+          "match": "Côte d'Ivoire vs Ecuador"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Jackson Porozo",
+          "team": "Ecuador",
+          "match": "Côte d'Ivoire vs Ecuador"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Yahia Fofana",
+      "awayKeeper": "Hernán Galíndez"
     }
   ],
   "detailedStats": {
@@ -2998,6 +3053,11 @@
         "name": "Kai Havertz",
         "value": 2,
         "detail": "Germany"
+      },
+      {
+        "name": "Amad Diallo",
+        "value": 1,
+        "detail": "Côte d'Ivoire"
       },
       {
         "name": "Boulem Khouki",
@@ -3152,6 +3212,11 @@
         "detail": "Mexico · 0 goals conceded in 1 appearance"
       },
       {
+        "name": "Yahia Fofana",
+        "value": 1,
+        "detail": "Côte d'Ivoire · 0 goals conceded in 1 appearance"
+      },
+      {
         "name": "Alisson Becker",
         "value": 0,
         "detail": "Brazil · 1 goals conceded in 1 appearance"
@@ -3170,6 +3235,11 @@
         "name": "Gregor Kobel",
         "value": 0,
         "detail": "Switzerland · 1 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Hernán Galíndez",
+        "value": 0,
+        "detail": "Ecuador · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Johny Placide",
@@ -3254,7 +3324,8 @@
       "Haiti": 1,
       "Scotland": 3,
       "Türkiye": 1,
-      "Netherlands": 3
+      "Netherlands": 3,
+      "Ecuador": 1
     },
     "redCardEvents": [
       {
@@ -3403,6 +3474,11 @@
         "player": "Micky van de Ven",
         "team": "Netherlands",
         "match": "Netherlands vs Japan"
+      },
+      {
+        "player": "Jackson Porozo",
+        "team": "Ecuador",
+        "match": "Côte d'Ivoire vs Ecuador"
       }
     ],
     "penaltyEvents": [
@@ -3483,6 +3559,13 @@
         "yellowCards": 3,
         "penalties": 0,
         "elapsed": 100
+      },
+      {
+        "match": "Côte d'Ivoire vs Ecuador",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 102
       }
     ]
   }
