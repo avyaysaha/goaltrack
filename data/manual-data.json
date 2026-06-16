@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T03:09:34.219Z",
+  "updatedAt": "2026-06-16T03:15:57.984Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -2640,7 +2640,7 @@
       "awayFlag": "NZL",
       "location": "SoFi Stadium · Los Angeles",
       "status": "FT",
-      "elapsed": 90,
+      "elapsed": 99,
       "homeScore": 2,
       "awayScore": 2,
       "scorers": [
@@ -3448,7 +3448,7 @@
       "awayFlag": "NZL",
       "location": "SoFi Stadium · Los Angeles",
       "status": "FT",
-      "elapsed": 90,
+      "elapsed": 99,
       "homeScore": 2,
       "awayScore": 2,
       "scorers": [
@@ -4222,7 +4222,7 @@
         "redCards": 0,
         "yellowCards": 1,
         "penalties": 0,
-        "elapsed": 90
+        "elapsed": 99
       }
     ]
   }
