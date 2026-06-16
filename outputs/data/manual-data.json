@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T01:19:08.433Z",
+  "updatedAt": "2026-06-16T01:26:58.474Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -465,6 +465,17 @@
         "points": 1
       },
       {
+        "name": "Saudi Arabia",
+        "flag": "KSA",
+        "fifaRank": 60,
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gd": 0,
+        "points": 1
+      },
+      {
         "name": "Spain",
         "flag": "ESP",
         "fifaRank": 1,
@@ -476,26 +487,15 @@
         "points": 1
       },
       {
-        "name": "Saudi Arabia",
-        "flag": "KSA",
-        "fifaRank": 60,
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 0,
-        "points": 0
-      },
-      {
         "name": "Uruguay",
         "flag": "URU",
         "fifaRank": 16,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 0,
         "gd": 0,
-        "points": 0
+        "points": 1
       }
     ],
     "I": [
@@ -1436,14 +1436,41 @@
       "date": "Monday, June 15, 2026",
       "stage": "Group Stage",
       "group": "Group H",
-      "time": "6:00 PM local",
+      "time": "5:00 PM CDT (6:00 PM EDT venue local)",
       "kickoffISO": "2026-06-15T22:00:00Z",
       "home": "Saudi Arabia",
       "homeFlag": "KSA",
       "away": "Uruguay",
       "awayFlag": "URU",
       "location": "Hard Rock Stadium · Miami",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Abdulelah Al-Amri",
+          "team": "Saudi Arabia",
+          "match": "Saudi Arabia vs Uruguay"
+        },
+        {
+          "player": "Maxi Araújo",
+          "team": "Uruguay",
+          "match": "Saudi Arabia vs Uruguay"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Abdulelah Al-Amri",
+          "team": "Saudi Arabia",
+          "match": "Saudi Arabia vs Uruguay"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Mohammed Al-Owais",
+      "awayKeeper": "Fernando Muslera"
     },
     {
       "date": "Monday, June 15, 2026",
@@ -3323,6 +3350,44 @@
       "penalties": 0,
       "homeKeeper": "Thibaut Courtois",
       "awayKeeper": "Mostafa Shobeir"
+    },
+    {
+      "date": "Monday, June 15, 2026",
+      "stage": "Group Stage",
+      "group": "Group H",
+      "time": "5:00 PM CDT (6:00 PM EDT venue local)",
+      "home": "Saudi Arabia",
+      "homeFlag": "KSA",
+      "away": "Uruguay",
+      "awayFlag": "URU",
+      "location": "Hard Rock Stadium · Miami",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Abdulelah Al-Amri",
+          "team": "Saudi Arabia",
+          "match": "Saudi Arabia vs Uruguay"
+        },
+        {
+          "player": "Maxi Araújo",
+          "team": "Uruguay",
+          "match": "Saudi Arabia vs Uruguay"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Abdulelah Al-Amri",
+          "team": "Saudi Arabia",
+          "match": "Saudi Arabia vs Uruguay"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Mohammed Al-Owais",
+      "awayKeeper": "Fernando Muslera"
     }
   ],
   "detailedStats": {
@@ -3341,6 +3406,11 @@
         "name": "Yasin Ayari",
         "value": 2,
         "detail": "Sweden"
+      },
+      {
+        "name": "Abdulelah Al-Amri",
+        "value": 1,
+        "detail": "Saudi Arabia"
       },
       {
         "name": "Alexander Isak",
@@ -3463,6 +3533,11 @@
         "detail": "Paraguay"
       },
       {
+        "name": "Maxi Araújo",
+        "value": 1,
+        "detail": "Uruguay"
+      },
+      {
         "name": "Mohamed Hany(OG)",
         "value": 1,
         "detail": "Belgium"
@@ -3560,6 +3635,11 @@
         "detail": "Curaçao · 7 goals conceded in 1 appearance"
       },
       {
+        "name": "Fernando Muslera",
+        "value": 0,
+        "detail": "Uruguay · 1 goals conceded in 1 appearance"
+      },
+      {
         "name": "Gregor Kobel",
         "value": 0,
         "detail": "Switzerland · 1 goals conceded in 1 appearance"
@@ -3608,6 +3688,11 @@
         "name": "Maxime Crépeau",
         "value": 0,
         "detail": "Canada · 1 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Mohammed Al-Owais",
+        "value": 0,
+        "detail": "Saudi Arabia · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Mostafa Shobeir",
@@ -3679,7 +3764,8 @@
       "Spain": 1,
       "Cabo Verde": 1,
       "Egypt": 2,
-      "Belgium": 2
+      "Belgium": 2,
+      "Saudi Arabia": 1
     },
     "redCardEvents": [
       {
@@ -3883,6 +3969,11 @@
         "player": "Maxim De Cuyper",
         "team": "Belgium",
         "match": "Belgium vs Egypt"
+      },
+      {
+        "player": "Abdulelah Al-Amri",
+        "team": "Saudi Arabia",
+        "match": "Saudi Arabia vs Uruguay"
       }
     ],
     "penaltyEvents": [
@@ -3989,6 +4080,13 @@
         "match": "Belgium vs Egypt",
         "redCards": 0,
         "yellowCards": 4,
+        "penalties": 0,
+        "elapsed": 99
+      },
+      {
+        "match": "Saudi Arabia vs Uruguay",
+        "redCards": 0,
+        "yellowCards": 1,
         "penalties": 0,
         "elapsed": 99
       }
