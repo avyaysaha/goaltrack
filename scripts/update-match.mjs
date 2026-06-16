@@ -16,13 +16,13 @@ const teams = {
   "Brazil": ["C", "BRA", 5], "Morocco": ["C", "MAR", 11],
   "Haiti": ["C", "HAI", 84], "Scotland": ["C", "SCO", 36],
   "United States": ["D", "USA", 14], "Paraguay": ["D", "PAR", 39],
-  "Australia": ["D", "AUS", 26], "Türkiye": ["D", "TUR", 25],
-  "Germany": ["E", "GER", 9], "Curaçao": ["E", "CUW", 82],
-  "Côte d'Ivoire": ["E", "CIV", 42], "Ecuador": ["E", "ECU", 23],
+  "Australia": ["D", "AUS", 26], "TÃ¼rkiye": ["D", "TUR", 25],
+  "Germany": ["E", "GER", 9], "Curacao": ["E", "CUW", 82],
+  "Cote d'Ivoire": ["E", "CIV", 42], "Ecuador": ["E", "ECU", 23],
   "Netherlands": ["F", "NED", 7], "Japan": ["F", "JPN", 18],
   "Sweden": ["F", "SWE", 43], "Tunisia": ["F", "TUN", 40],
   "Belgium": ["G", "BEL", 8], "Egypt": ["G", "EGY", 34],
-  "IR Iran": ["G", "IRN", 20], "New Zealand": ["G", "NZL", 86],
+  "Iran": ["G", "IRN", 20], "New Zealand": ["G", "NZL", 86],
   "Spain": ["H", "ESP", 1], "Cabo Verde": ["H", "CPV", 68],
   "Saudi Arabia": ["H", "KSA", 60], "Uruguay": ["H", "URU", 16],
   "France": ["I", "FRA", 3], "Senegal": ["I", "SEN", 19],
@@ -245,7 +245,7 @@ function countEventsByTeam(eventKey) {
 const keepers = [...keeperTotals.values()].map((keeper) => ({
   name: keeper.name,
   value: keeper.cleanSheets,
-  detail: `${keeper.team} · ${keeper.conceded} goals conceded in ${keeper.appearances} appearance${keeper.appearances === 1 ? "" : "s"}`
+  detail: `${keeper.team} Â· ${keeper.conceded} goals conceded in ${keeper.appearances} appearance${keeper.appearances === 1 ? "" : "s"}`
 }));
 
 data.updatedAt = new Date().toISOString();
