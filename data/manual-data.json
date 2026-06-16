@@ -22,8 +22,8 @@
     "Australia": "AUS",
     "TÃ¼rkiye": "TUR",
     "Germany": "GER",
-    "CuraÃ§ao": "CUW",
-    "CÃ´te d'Ivoire": "CIV",
+    "Curacao": "CUW",
+    "Cote d'Ivoire": "CIV",
     "Ecuador": "ECU",
     "Netherlands": "NED",
     "Japan": "JPN",
@@ -72,8 +72,8 @@
     "Australia": "#ffcd00",
     "TÃ¼rkiye": "#e30a17",
     "Germany": "#f2c500",
-    "CuraÃ§ao": "#002b7f",
-    "CÃ´te d'Ivoire": "#f77f00",
+    "Curacao": "#002b7f",
+    "Cote d'Ivoire": "#f77f00",
     "Ecuador": "#ffdd00",
     "Netherlands": "#f36c21",
     "Japan": "#bc002d",
@@ -327,7 +327,7 @@
         "points": 3
       },
       {
-        "name": "CÃ´te d'Ivoire",
+        "name": "Cote d'Ivoire",
         "flag": "CIV",
         "fifaRank": 42,
         "played": 1,
@@ -349,7 +349,7 @@
         "points": 0
       },
       {
-        "name": "CuraÃ§ao",
+        "name": "Curacao",
         "flag": "CUW",
         "fifaRank": 82,
         "played": 1,
@@ -1117,7 +1117,7 @@
       "kickoffISO": "2026-06-14T17:00:00Z",
       "home": "Germany",
       "homeFlag": "GER",
-      "away": "CuraÃ§ao",
+      "away": "Curacao",
       "awayFlag": "CUW",
       "location": "NRG Stadium Â· Houston",
       "venueTimeZone": "America/Chicago",
@@ -1129,42 +1129,42 @@
         {
           "player": "Felix Nmecha",
           "team": "Germany",
-          "match": "Germany vs CuraÃ§ao"
+          "match": "Germany vs Curacao"
         },
         {
           "player": "Livano Comenencia",
-          "team": "CuraÃ§ao",
-          "match": "Germany vs CuraÃ§ao"
+          "team": "Curacao",
+          "match": "Germany vs Curacao"
         },
         {
           "player": "Nico Schlotberbeck",
           "team": "Germany",
-          "match": "Germany vs CuraÃ§ao"
+          "match": "Germany vs Curacao"
         },
         {
           "player": "Kai Havertz",
           "team": "Germany",
-          "match": "Germany vs CuraÃ§ao"
+          "match": "Germany vs Curacao"
         },
         {
           "player": "Jamal Musiala",
           "team": "Germany",
-          "match": "Germany vs CuraÃ§ao"
+          "match": "Germany vs Curacao"
         },
         {
           "player": "Nathaniel Brown",
           "team": "Germany",
-          "match": "Germany vs CuraÃ§ao"
+          "match": "Germany vs Curacao"
         },
         {
           "player": "Deniz Undav",
           "team": "Germany",
-          "match": "Germany vs CuraÃ§ao"
+          "match": "Germany vs Curacao"
         },
         {
           "player": "Kai Havertz",
           "team": "Germany",
-          "match": "Germany vs CuraÃ§ao"
+          "match": "Germany vs Curacao"
         }
       ],
       "yellowCards": [],
@@ -1239,7 +1239,7 @@
       "group": "Group E",
       "time": "6:00 PM CDT (7:00 PM EDT venue local)",
       "kickoffISO": "2026-06-14T23:00:00Z",
-      "home": "CÃ´te d'Ivoire",
+      "home": "Cote d'Ivoire",
       "homeFlag": "CIV",
       "away": "Ecuador",
       "awayFlag": "ECU",
@@ -1252,30 +1252,30 @@
       "scorers": [
         {
           "player": "Amad Diallo",
-          "team": "CÃ´te d'Ivoire",
-          "match": "CÃ´te d'Ivoire vs Ecuador"
+          "team": "Cote d'Ivoire",
+          "match": "Cote d'Ivoire vs Ecuador"
         }
       ],
       "yellowCards": [
         {
           "player": "Seko Fofana",
-          "team": "CÃ´te d'Ivoire",
-          "match": "CÃ´te d'Ivoire vs Ecuador"
+          "team": "Cote d'Ivoire",
+          "match": "Cote d'Ivoire vs Ecuador"
         },
         {
           "player": "Franck KessiÃ©",
-          "team": "CÃ´te d'Ivoire",
-          "match": "CÃ´te d'Ivoire vs Ecuador"
+          "team": "Cote d'Ivoire",
+          "match": "Cote d'Ivoire vs Ecuador"
         },
         {
           "player": "GuÃ©la DouÃ©",
-          "team": "CÃ´te d'Ivoire",
-          "match": "CÃ´te d'Ivoire vs Ecuador"
+          "team": "Cote d'Ivoire",
+          "match": "Cote d'Ivoire vs Ecuador"
         },
         {
           "player": "Jackson Porozo",
           "team": "Ecuador",
-          "match": "CÃ´te d'Ivoire vs Ecuador"
+          "match": "Cote d'Ivoire vs Ecuador"
         }
       ],
       "redCards": [],
@@ -1751,7 +1751,7 @@
       "kickoffISO": "2026-06-20T20:00:00Z",
       "home": "Germany",
       "homeFlag": "GER",
-      "away": "CÃ´te d'Ivoire",
+      "away": "Cote d'Ivoire",
       "awayFlag": "CIV",
       "location": "BMO Field Â· Toronto",
       "venueTimeZone": "America/Toronto"
@@ -1764,7 +1764,7 @@
       "kickoffISO": "2026-06-21T00:00:00Z",
       "home": "Ecuador",
       "homeFlag": "ECU",
-      "away": "CuraÃ§ao",
+      "away": "Curacao",
       "awayFlag": "CUW",
       "location": "GEHA Field at Arrowhead Stadium Â· Kansas City",
       "venueTimeZone": "America/Chicago"
@@ -2022,9 +2022,9 @@
       "group": "Group E",
       "time": "4:00 PM local",
       "kickoffISO": "2026-06-25T20:00:00Z",
-      "home": "CuraÃ§ao",
+      "home": "Curacao",
       "homeFlag": "CUW",
-      "away": "CÃ´te d'Ivoire",
+      "away": "Cote d'Ivoire",
       "awayFlag": "CIV",
       "location": "Lincoln Financial Field Â· Philadelphia",
       "venueTimeZone": "America/New_York"
@@ -3084,7 +3084,7 @@
       "time": "12:00 PM CDT (12:00 PM CDT venue local)",
       "home": "Germany",
       "homeFlag": "GER",
-      "away": "CuraÃ§ao",
+      "away": "Curacao",
       "awayFlag": "CUW",
       "location": "NRG Stadium Â· Houston",
       "status": "FT",
@@ -3095,42 +3095,42 @@
         {
           "player": "Felix Nmecha",
           "team": "Germany",
-          "match": "Germany vs CuraÃ§ao"
+          "match": "Germany vs Curacao"
         },
         {
           "player": "Livano Comenencia",
-          "team": "CuraÃ§ao",
-          "match": "Germany vs CuraÃ§ao"
+          "team": "Curacao",
+          "match": "Germany vs Curacao"
         },
         {
           "player": "Nico Schlotberbeck",
           "team": "Germany",
-          "match": "Germany vs CuraÃ§ao"
+          "match": "Germany vs Curacao"
         },
         {
           "player": "Kai Havertz",
           "team": "Germany",
-          "match": "Germany vs CuraÃ§ao"
+          "match": "Germany vs Curacao"
         },
         {
           "player": "Jamal Musiala",
           "team": "Germany",
-          "match": "Germany vs CuraÃ§ao"
+          "match": "Germany vs Curacao"
         },
         {
           "player": "Nathaniel Brown",
           "team": "Germany",
-          "match": "Germany vs CuraÃ§ao"
+          "match": "Germany vs Curacao"
         },
         {
           "player": "Deniz Undav",
           "team": "Germany",
-          "match": "Germany vs CuraÃ§ao"
+          "match": "Germany vs Curacao"
         },
         {
           "player": "Kai Havertz",
           "team": "Germany",
-          "match": "Germany vs CuraÃ§ao"
+          "match": "Germany vs Curacao"
         }
       ],
       "yellowCards": [],
@@ -3202,7 +3202,7 @@
       "stage": "Group Stage",
       "group": "Group E",
       "time": "6:00 PM CDT (7:00 PM EDT venue local)",
-      "home": "CÃ´te d'Ivoire",
+      "home": "Cote d'Ivoire",
       "homeFlag": "CIV",
       "away": "Ecuador",
       "awayFlag": "ECU",
@@ -3214,30 +3214,30 @@
       "scorers": [
         {
           "player": "Amad Diallo",
-          "team": "CÃ´te d'Ivoire",
-          "match": "CÃ´te d'Ivoire vs Ecuador"
+          "team": "Cote d'Ivoire",
+          "match": "Cote d'Ivoire vs Ecuador"
         }
       ],
       "yellowCards": [
         {
           "player": "Seko Fofana",
-          "team": "CÃ´te d'Ivoire",
-          "match": "CÃ´te d'Ivoire vs Ecuador"
+          "team": "Cote d'Ivoire",
+          "match": "Cote d'Ivoire vs Ecuador"
         },
         {
           "player": "Franck KessiÃ©",
-          "team": "CÃ´te d'Ivoire",
-          "match": "CÃ´te d'Ivoire vs Ecuador"
+          "team": "Cote d'Ivoire",
+          "match": "Cote d'Ivoire vs Ecuador"
         },
         {
           "player": "GuÃ©la DouÃ©",
-          "team": "CÃ´te d'Ivoire",
-          "match": "CÃ´te d'Ivoire vs Ecuador"
+          "team": "Cote d'Ivoire",
+          "match": "Cote d'Ivoire vs Ecuador"
         },
         {
           "player": "Jackson Porozo",
           "team": "Ecuador",
-          "match": "CÃ´te d'Ivoire vs Ecuador"
+          "match": "Cote d'Ivoire vs Ecuador"
         }
       ],
       "redCards": [],
@@ -3510,7 +3510,7 @@
       {
         "name": "Amad Diallo",
         "value": 1,
-        "detail": "CÃ´te d'Ivoire"
+        "detail": "Cote d'Ivoire"
       },
       {
         "name": "Boulem Khouki",
@@ -3610,7 +3610,7 @@
       {
         "name": "Livano Comenencia",
         "value": 1,
-        "detail": "CuraÃ§ao"
+        "detail": "Curacao"
       },
       {
         "name": "Mattias Svanberg",
@@ -3723,7 +3723,7 @@
         "name": "Yahia Fofana",
         "value": 1,
         "goalsConceded": 0,
-        "detail": "CÃ´te d'Ivoire Â· 0 goals conceded in 1 appearance"
+        "detail": "Cote d'Ivoire Â· 0 goals conceded in 1 appearance"
       },
       {
         "name": "Alisson Becker",
@@ -3879,7 +3879,7 @@
         "name": "Eloy Room",
         "value": 0,
         "goalsConceded": 7,
-        "detail": "CuraÃ§ao Â· 7 goals conceded in 1 appearance"
+        "detail": "Curacao Â· 7 goals conceded in 1 appearance"
       }
     ],
     "redCards": {
@@ -3900,7 +3900,7 @@
       "Scotland": 3,
       "TÃ¼rkiye": 1,
       "Netherlands": 3,
-      "CÃ´te d'Ivoire": 3,
+      "Cote d'Ivoire": 3,
       "Ecuador": 1,
       "Tunisia": 1,
       "Spain": 1,
@@ -4060,23 +4060,23 @@
       },
       {
         "player": "Seko Fofana",
-        "team": "CÃ´te d'Ivoire",
-        "match": "CÃ´te d'Ivoire vs Ecuador"
+        "team": "Cote d'Ivoire",
+        "match": "Cote d'Ivoire vs Ecuador"
       },
       {
         "player": "Franck KessiÃ©",
-        "team": "CÃ´te d'Ivoire",
-        "match": "CÃ´te d'Ivoire vs Ecuador"
+        "team": "Cote d'Ivoire",
+        "match": "Cote d'Ivoire vs Ecuador"
       },
       {
         "player": "GuÃ©la DouÃ©",
-        "team": "CÃ´te d'Ivoire",
-        "match": "CÃ´te d'Ivoire vs Ecuador"
+        "team": "Cote d'Ivoire",
+        "match": "Cote d'Ivoire vs Ecuador"
       },
       {
         "player": "Jackson Porozo",
         "team": "Ecuador",
-        "match": "CÃ´te d'Ivoire vs Ecuador"
+        "match": "Cote d'Ivoire vs Ecuador"
       },
       {
         "player": "Rani Khedira",
@@ -4129,7 +4129,7 @@
         "match": "Qatar vs Switzerland"
       },
       {
-        "match": "Germany vs CuraÃ§ao"
+        "match": "Germany vs Curacao"
       }
     ],
     "matchStats": [
@@ -4190,7 +4190,7 @@
         "elapsed": 100
       },
       {
-        "match": "Germany vs CuraÃ§ao",
+        "match": "Germany vs Curacao",
         "redCards": 0,
         "yellowCards": 0,
         "penalties": 1,
@@ -4204,7 +4204,7 @@
         "elapsed": 100
       },
       {
-        "match": "CÃ´te d'Ivoire vs Ecuador",
+        "match": "Cote d'Ivoire vs Ecuador",
         "redCards": 0,
         "yellowCards": 4,
         "penalties": 0,
