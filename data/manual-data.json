@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T03:20:15.042Z",
+  "updatedAt": "2026-06-16T03:33:06.303Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -20,10 +20,10 @@
     "United States": "USA",
     "Paraguay": "PAR",
     "Australia": "AUS",
-    "Türkiye": "TUR",
+    "TÃ¼rkiye": "TUR",
     "Germany": "GER",
-    "Curaçao": "CUW",
-    "Côte d'Ivoire": "CIV",
+    "CuraÃ§ao": "CUW",
+    "CÃ´te d'Ivoire": "CIV",
     "Ecuador": "ECU",
     "Netherlands": "NED",
     "Japan": "JPN",
@@ -31,7 +31,7 @@
     "Tunisia": "TUN",
     "Belgium": "BEL",
     "Egypt": "EGY",
-    "IR Iran": "IRN",
+    "Iran": "IRN",
     "New Zealand": "NZL",
     "Spain": "ESP",
     "Cabo Verde": "CPV",
@@ -70,10 +70,10 @@
     "United States": "#3c3b6e",
     "Paraguay": "#d52b1e",
     "Australia": "#ffcd00",
-    "Türkiye": "#e30a17",
+    "TÃ¼rkiye": "#e30a17",
     "Germany": "#f2c500",
-    "Curaçao": "#002b7f",
-    "Côte d'Ivoire": "#f77f00",
+    "CuraÃ§ao": "#002b7f",
+    "CÃ´te d'Ivoire": "#f77f00",
     "Ecuador": "#ffdd00",
     "Netherlands": "#f36c21",
     "Japan": "#bc002d",
@@ -81,7 +81,7 @@
     "Tunisia": "#e70013",
     "Belgium": "#ef3340",
     "Egypt": "#ce1126",
-    "IR Iran": "#239f40",
+    "Iran": "#239f40",
     "New Zealand": "#151515",
     "Spain": "#aa151b",
     "Cabo Verde": "#003893",
@@ -292,7 +292,7 @@
         "points": 3
       },
       {
-        "name": "Türkiye",
+        "name": "TÃ¼rkiye",
         "flag": "TUR",
         "fifaRank": 25,
         "played": 1,
@@ -327,7 +327,7 @@
         "points": 3
       },
       {
-        "name": "Côte d'Ivoire",
+        "name": "CÃ´te d'Ivoire",
         "flag": "CIV",
         "fifaRank": 42,
         "played": 1,
@@ -349,7 +349,7 @@
         "points": 0
       },
       {
-        "name": "Curaçao",
+        "name": "CuraÃ§ao",
         "flag": "CUW",
         "fifaRank": 82,
         "played": 1,
@@ -430,7 +430,7 @@
         "points": 1
       },
       {
-        "name": "IR Iran",
+        "name": "Iran",
         "flag": "IRN",
         "fifaRank": 20,
         "played": 1,
@@ -694,7 +694,7 @@
       "homeFlag": "MEX",
       "away": "South Africa",
       "awayFlag": "RSA",
-      "location": "Estadio Azteca · Mexico City",
+      "location": "Estadio Azteca Â· Mexico City",
       "venueTimeZone": "America/Mexico_City",
       "status": "FT",
       "homeScore": 2,
@@ -702,12 +702,12 @@
       "elapsed": 97,
       "scorers": [
         {
-          "player": "Julián Quiñones",
+          "player": "JuliÃ¡n QuiÃ±ones",
           "team": "Mexico",
           "match": "Mexico vs South Africa"
         },
         {
-          "player": "Raúl Jiménez",
+          "player": "RaÃºl JimÃ©nez",
           "team": "Mexico",
           "match": "Mexico vs South Africa"
         }
@@ -719,7 +719,7 @@
           "match": "Mexico vs South Africa"
         },
         {
-          "player": "Carlos Gutiérrez",
+          "player": "Carlos GutiÃ©rrez",
           "team": "Mexico",
           "match": "Mexico vs South Africa"
         },
@@ -741,13 +741,13 @@
           "match": "Mexico vs South Africa"
         },
         {
-          "player": "César Montes",
+          "player": "CÃ©sar Montes",
           "team": "Mexico",
           "match": "Mexico vs South Africa"
         }
       ],
       "penalties": 0,
-      "homeKeeper": "Raúl Rangel",
+      "homeKeeper": "RaÃºl Rangel",
       "awayKeeper": "Ronwen Williams"
     },
     {
@@ -760,7 +760,7 @@
       "homeFlag": "KOR",
       "away": "Czechia",
       "awayFlag": "CZE",
-      "location": "Estadio Akron · Guadalajara",
+      "location": "Estadio Akron Â· Guadalajara",
       "venueTimeZone": "America/Mexico_City",
       "status": "FT",
       "elapsed": 96,
@@ -778,7 +778,7 @@
           "match": "Korea Republic vs Czechia"
         },
         {
-          "player": "Ladislav Krejčí",
+          "player": "Ladislav KrejÄÃ­",
           "team": "Czechia",
           "match": "Korea Republic vs Czechia"
         }
@@ -787,7 +787,7 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Kim Seung-gyu",
-      "awayKeeper": "Matěj Kovář"
+      "awayKeeper": "MatÄ›j KovÃ¡Å™"
     },
     {
       "date": "Friday, June 12, 2026",
@@ -799,7 +799,7 @@
       "homeFlag": "CAN",
       "away": "Bosnia and Herzegovina",
       "awayFlag": "BIH",
-      "location": "BMO Field · Toronto",
+      "location": "BMO Field Â· Toronto",
       "venueTimeZone": "America/Toronto",
       "status": "FT",
       "elapsed": 96,
@@ -812,7 +812,7 @@
           "match": "Canada vs Bosnia and Herzegovina"
         },
         {
-          "player": "Jovo Lukić",
+          "player": "Jovo LukiÄ‡",
           "team": "Bosnia and Herzegovina",
           "match": "Canada vs Bosnia and Herzegovina"
         }
@@ -824,24 +824,24 @@
           "match": "Canada vs Bosnia and Herzegovina"
         },
         {
-          "player": "Ermedin Demirović",
+          "player": "Ermedin DemiroviÄ‡",
           "team": "Bosnia and Herzegovina",
           "match": "Canada vs Bosnia and Herzegovina"
         },
         {
-          "player": "Jovo Lukić",
+          "player": "Jovo LukiÄ‡",
           "team": "Bosnia and Herzegovina",
           "match": "Canada vs Bosnia and Herzegovina"
         },
         {
-          "player": "Nikola Katić",
+          "player": "Nikola KatiÄ‡",
           "team": "Bosnia and Herzegovina",
           "match": "Canada vs Bosnia and Herzegovina"
         }
       ],
       "redCards": [],
       "penalties": 0,
-      "homeKeeper": "Maxime Crépeau",
+      "homeKeeper": "Maxime CrÃ©peau",
       "awayKeeper": "Nikola Vasilj"
     },
     {
@@ -854,7 +854,7 @@
       "homeFlag": "USA",
       "away": "Paraguay",
       "awayFlag": "PAR",
-      "location": "SoFi Stadium · Los Angeles",
+      "location": "SoFi Stadium Â· Los Angeles",
       "venueTimeZone": "America/Los_Angeles",
       "status": "FT",
       "elapsed": 102,
@@ -862,7 +862,7 @@
       "awayScore": 1,
       "scorers": [
         {
-          "player": "Damián Bobadilla (OG)",
+          "player": "DamiÃ¡n Bobadilla (OG)",
           "team": "United States",
           "match": "United States vs Paraguay"
         },
@@ -877,7 +877,7 @@
           "match": "United States vs Paraguay"
         },
         {
-          "player": "Maurício",
+          "player": "MaurÃ­cio",
           "team": "Paraguay",
           "match": "United States vs Paraguay"
         },
@@ -889,12 +889,12 @@
       ],
       "yellowCards": [
         {
-          "player": "Juan José Cáceres",
+          "player": "Juan JosÃ© CÃ¡ceres",
           "team": "Paraguay",
           "match": "United States vs Paraguay"
         },
         {
-          "player": "Miguel Almirón",
+          "player": "Miguel AlmirÃ³n",
           "team": "Paraguay",
           "match": "United States vs Paraguay"
         },
@@ -904,17 +904,17 @@
           "match": "United States vs Paraguay"
         },
         {
-          "player": "Diego Gómez",
+          "player": "Diego GÃ³mez",
           "team": "Paraguay",
           "match": "United States vs Paraguay"
         },
         {
-          "player": "Álex Arce",
+          "player": "Ãlex Arce",
           "team": "Paraguay",
           "match": "United States vs Paraguay"
         },
         {
-          "player": "Júnior Alonso",
+          "player": "JÃºnior Alonso",
           "team": "Paraguay",
           "match": "United States vs Paraguay"
         }
@@ -934,7 +934,7 @@
       "homeFlag": "QAT",
       "away": "Switzerland",
       "awayFlag": "SUI",
-      "location": "Levi's Stadium · San Francisco Bay Area",
+      "location": "Levi's Stadium Â· San Francisco Bay Area",
       "venueTimeZone": "America/Los_Angeles",
       "status": "FT",
       "elapsed": 94,
@@ -984,7 +984,7 @@
       "homeFlag": "BRA",
       "away": "Morocco",
       "awayFlag": "MAR",
-      "location": "MetLife Stadium · New Jersey",
+      "location": "MetLife Stadium Â· New Jersey",
       "venueTimeZone": "America/New_York",
       "status": "FT",
       "elapsed": 104,
@@ -997,7 +997,7 @@
           "match": "Brazil vs Morocco"
         },
         {
-          "player": "Vinícius Júnior",
+          "player": "VinÃ­cius JÃºnior",
           "team": "Brazil",
           "match": "Brazil vs Morocco"
         }
@@ -1029,7 +1029,7 @@
       "homeFlag": "HAI",
       "away": "Scotland",
       "awayFlag": "SCO",
-      "location": "Gillette Stadium · Boston",
+      "location": "Gillette Stadium Â· Boston",
       "venueTimeZone": "America/New_York",
       "status": "FT",
       "elapsed": 100,
@@ -1077,9 +1077,9 @@
       "kickoffISO": "2026-06-14T04:00:00Z",
       "home": "Australia",
       "homeFlag": "AUS",
-      "away": "Türkiye",
+      "away": "TÃ¼rkiye",
       "awayFlag": "TUR",
-      "location": "BC Place · Vancouver",
+      "location": "BC Place Â· Vancouver",
       "venueTimeZone": "America/Vancouver",
       "status": "FT",
       "elapsed": 100,
@@ -1089,25 +1089,25 @@
         {
           "player": "Nestory Irankunda",
           "team": "Australia",
-          "match": "Australia vs Türkiye"
+          "match": "Australia vs TÃ¼rkiye"
         },
         {
           "player": "Connor Metcalfe",
           "team": "Australia",
-          "match": "Australia vs Türkiye"
+          "match": "Australia vs TÃ¼rkiye"
         }
       ],
       "yellowCards": [
         {
-          "player": "Yunus Akgün",
-          "team": "Türkiye",
-          "match": "Australia vs Türkiye"
+          "player": "Yunus AkgÃ¼n",
+          "team": "TÃ¼rkiye",
+          "match": "Australia vs TÃ¼rkiye"
         }
       ],
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Patrick Beach",
-      "awayKeeper": "Uğurcan Çakır"
+      "awayKeeper": "UÄŸurcan Ã‡akÄ±r"
     },
     {
       "date": "Sunday, June 14, 2026",
@@ -1117,9 +1117,9 @@
       "kickoffISO": "2026-06-14T17:00:00Z",
       "home": "Germany",
       "homeFlag": "GER",
-      "away": "Curaçao",
+      "away": "CuraÃ§ao",
       "awayFlag": "CUW",
-      "location": "NRG Stadium · Houston",
+      "location": "NRG Stadium Â· Houston",
       "venueTimeZone": "America/Chicago",
       "status": "FT",
       "elapsed": 100,
@@ -1129,42 +1129,42 @@
         {
           "player": "Felix Nmecha",
           "team": "Germany",
-          "match": "Germany vs Curaçao"
+          "match": "Germany vs CuraÃ§ao"
         },
         {
           "player": "Livano Comenencia",
-          "team": "Curaçao",
-          "match": "Germany vs Curaçao"
+          "team": "CuraÃ§ao",
+          "match": "Germany vs CuraÃ§ao"
         },
         {
           "player": "Nico Schlotberbeck",
           "team": "Germany",
-          "match": "Germany vs Curaçao"
+          "match": "Germany vs CuraÃ§ao"
         },
         {
           "player": "Kai Havertz",
           "team": "Germany",
-          "match": "Germany vs Curaçao"
+          "match": "Germany vs CuraÃ§ao"
         },
         {
           "player": "Jamal Musiala",
           "team": "Germany",
-          "match": "Germany vs Curaçao"
+          "match": "Germany vs CuraÃ§ao"
         },
         {
           "player": "Nathaniel Brown",
           "team": "Germany",
-          "match": "Germany vs Curaçao"
+          "match": "Germany vs CuraÃ§ao"
         },
         {
           "player": "Deniz Undav",
           "team": "Germany",
-          "match": "Germany vs Curaçao"
+          "match": "Germany vs CuraÃ§ao"
         },
         {
           "player": "Kai Havertz",
           "team": "Germany",
-          "match": "Germany vs Curaçao"
+          "match": "Germany vs CuraÃ§ao"
         }
       ],
       "yellowCards": [],
@@ -1183,7 +1183,7 @@
       "homeFlag": "NED",
       "away": "Japan",
       "awayFlag": "JPN",
-      "location": "⌖AT&T Stadium • Dallas",
+      "location": "âŒ–AT&T Stadium â€¢ Dallas",
       "venueTimeZone": "America/Chicago",
       "status": "FT",
       "elapsed": 100,
@@ -1239,11 +1239,11 @@
       "group": "Group E",
       "time": "6:00 PM CDT (7:00 PM EDT venue local)",
       "kickoffISO": "2026-06-14T23:00:00Z",
-      "home": "Côte d'Ivoire",
+      "home": "CÃ´te d'Ivoire",
       "homeFlag": "CIV",
       "away": "Ecuador",
       "awayFlag": "ECU",
-      "location": "Lincoln Financial Field · Philadelphia",
+      "location": "Lincoln Financial Field Â· Philadelphia",
       "venueTimeZone": "America/New_York",
       "status": "FT",
       "elapsed": 102,
@@ -1252,36 +1252,36 @@
       "scorers": [
         {
           "player": "Amad Diallo",
-          "team": "Côte d'Ivoire",
-          "match": "Côte d'Ivoire vs Ecuador"
+          "team": "CÃ´te d'Ivoire",
+          "match": "CÃ´te d'Ivoire vs Ecuador"
         }
       ],
       "yellowCards": [
         {
           "player": "Seko Fofana",
-          "team": "Côte d'Ivoire",
-          "match": "Côte d'Ivoire vs Ecuador"
+          "team": "CÃ´te d'Ivoire",
+          "match": "CÃ´te d'Ivoire vs Ecuador"
         },
         {
-          "player": "Franck Kessié",
-          "team": "Côte d'Ivoire",
-          "match": "Côte d'Ivoire vs Ecuador"
+          "player": "Franck KessiÃ©",
+          "team": "CÃ´te d'Ivoire",
+          "match": "CÃ´te d'Ivoire vs Ecuador"
         },
         {
-          "player": "Guéla Doué",
-          "team": "Côte d'Ivoire",
-          "match": "Côte d'Ivoire vs Ecuador"
+          "player": "GuÃ©la DouÃ©",
+          "team": "CÃ´te d'Ivoire",
+          "match": "CÃ´te d'Ivoire vs Ecuador"
         },
         {
           "player": "Jackson Porozo",
           "team": "Ecuador",
-          "match": "Côte d'Ivoire vs Ecuador"
+          "match": "CÃ´te d'Ivoire vs Ecuador"
         }
       ],
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Yahia Fofana",
-      "awayKeeper": "Hernán Galíndez"
+      "awayKeeper": "HernÃ¡n GalÃ­ndez"
     },
     {
       "date": "Sunday, June 14, 2026",
@@ -1293,7 +1293,7 @@
       "homeFlag": "SWE",
       "away": "Tunisia",
       "awayFlag": "TUN",
-      "location": "Estadio BBVA · Monterrey",
+      "location": "Estadio BBVA Â· Monterrey",
       "venueTimeZone": "America/Monterrey",
       "status": "FT",
       "elapsed": 100,
@@ -1311,7 +1311,7 @@
           "match": "Sweden vs Tunisia"
         },
         {
-          "player": "Viktor Gyökeres",
+          "player": "Viktor GyÃ¶keres",
           "team": "Sweden",
           "match": "Sweden vs Tunisia"
         },
@@ -1353,7 +1353,7 @@
       "homeFlag": "ESP",
       "away": "Cabo Verde",
       "awayFlag": "CPV",
-      "location": "Mercedes-Benz Stadium · Atlanta",
+      "location": "Mercedes-Benz Stadium Â· Atlanta",
       "venueTimeZone": "America/New_York",
       "status": "FT",
       "elapsed": 99,
@@ -1374,7 +1374,7 @@
       ],
       "redCards": [],
       "penalties": 0,
-      "homeKeeper": "Unai Simónaway",
+      "homeKeeper": "Unai SimÃ³naway",
       "awayKeeper": "Vozinha"
     },
     {
@@ -1387,7 +1387,7 @@
       "homeFlag": "BEL",
       "away": "Egypt",
       "awayFlag": "EGY",
-      "location": "Lumen Field · Seattle",
+      "location": "Lumen Field Â· Seattle",
       "venueTimeZone": "America/Los_Angeles",
       "status": "FT",
       "elapsed": 99,
@@ -1442,7 +1442,7 @@
       "homeFlag": "KSA",
       "away": "Uruguay",
       "awayFlag": "URU",
-      "location": "Hard Rock Stadium · Miami",
+      "location": "Hard Rock Stadium Â· Miami",
       "venueTimeZone": "America/New_York",
       "status": "FT",
       "elapsed": 99,
@@ -1455,7 +1455,7 @@
           "match": "Saudi Arabia vs Uruguay"
         },
         {
-          "player": "Maxi Araújo",
+          "player": "Maxi AraÃºjo",
           "team": "Uruguay",
           "match": "Saudi Arabia vs Uruguay"
         }
@@ -1478,11 +1478,11 @@
       "group": "Group G",
       "time": "8:00 PM CDT (6:00 PM PDT venue local)",
       "kickoffISO": "2026-06-16T01:00:00Z",
-      "home": "IR Iran",
+      "home": "Iran",
       "homeFlag": "IRN",
       "away": "New Zealand",
       "awayFlag": "NZL",
-      "location": "SoFi Stadium · Los Angeles",
+      "location": "SoFi Stadium Â· Los Angeles",
       "venueTimeZone": "America/Los_Angeles",
       "status": "FT",
       "elapsed": 99,
@@ -1492,29 +1492,29 @@
         {
           "player": "Elijah Just",
           "team": "New Zealand",
-          "match": "IR Iran vs New Zealand"
+          "match": "Iran vs New Zealand"
         },
         {
           "player": "Elijah Just",
           "team": "New Zealand",
-          "match": "IR Iran vs New Zealand"
+          "match": "Iran vs New Zealand"
         },
         {
           "player": "Ramin Rezaeian",
-          "team": "IR Iran",
-          "match": "IR Iran vs New Zealand"
+          "team": "Iran",
+          "match": "Iran vs New Zealand"
         },
         {
           "player": "Mohammad Mohebi",
-          "team": "IR Iran",
-          "match": "IR Iran vs New Zealand"
+          "team": "Iran",
+          "match": "Iran vs New Zealand"
         }
       ],
       "yellowCards": [
         {
           "player": "Ehsan Hajsafi",
-          "team": "IR Iran",
-          "match": "IR Iran vs New Zealand"
+          "team": "Iran",
+          "match": "Iran vs New Zealand"
         }
       ],
       "redCards": [],
@@ -1532,7 +1532,7 @@
       "homeFlag": "FRA",
       "away": "Senegal",
       "awayFlag": "SEN",
-      "location": "MetLife Stadium · New Jersey",
+      "location": "MetLife Stadium Â· New Jersey",
       "venueTimeZone": "America/New_York"
     },
     {
@@ -1545,7 +1545,7 @@
       "homeFlag": "IRQ",
       "away": "Norway",
       "awayFlag": "NOR",
-      "location": "Gillette Stadium · Boston",
+      "location": "Gillette Stadium Â· Boston",
       "venueTimeZone": "America/New_York"
     },
     {
@@ -1558,7 +1558,7 @@
       "homeFlag": "ARG",
       "away": "Algeria",
       "awayFlag": "ALG",
-      "location": "GEHA Field at Arrowhead Stadium · Kansas City",
+      "location": "GEHA Field at Arrowhead Stadium Â· Kansas City",
       "venueTimeZone": "America/Chicago"
     },
     {
@@ -1571,7 +1571,7 @@
       "homeFlag": "AUT",
       "away": "Jordan",
       "awayFlag": "JOR",
-      "location": "Levi's Stadium · San Francisco Bay Area",
+      "location": "Levi's Stadium Â· San Francisco Bay Area",
       "venueTimeZone": "America/Los_Angeles"
     },
     {
@@ -1584,7 +1584,7 @@
       "homeFlag": "POR",
       "away": "DR Congo",
       "awayFlag": "COD",
-      "location": "NRG Stadium · Houston",
+      "location": "NRG Stadium Â· Houston",
       "venueTimeZone": "America/Chicago"
     },
     {
@@ -1597,7 +1597,7 @@
       "homeFlag": "ENG",
       "away": "Croatia",
       "awayFlag": "CRO",
-      "location": "AT&T Stadium · Dallas",
+      "location": "AT&T Stadium Â· Dallas",
       "venueTimeZone": "America/Chicago"
     },
     {
@@ -1610,7 +1610,7 @@
       "homeFlag": "GHA",
       "away": "Panama",
       "awayFlag": "PAN",
-      "location": "BMO Field · Toronto",
+      "location": "BMO Field Â· Toronto",
       "venueTimeZone": "America/Toronto"
     },
     {
@@ -1623,7 +1623,7 @@
       "homeFlag": "UZB",
       "away": "Colombia",
       "awayFlag": "COL",
-      "location": "Estadio Azteca · Mexico City",
+      "location": "Estadio Azteca Â· Mexico City",
       "venueTimeZone": "America/Mexico_City"
     },
     {
@@ -1636,7 +1636,7 @@
       "homeFlag": "CZE",
       "away": "South Africa",
       "awayFlag": "RSA",
-      "location": "Mercedes-Benz Stadium · Atlanta",
+      "location": "Mercedes-Benz Stadium Â· Atlanta",
       "venueTimeZone": "America/New_York"
     },
     {
@@ -1649,7 +1649,7 @@
       "homeFlag": "SUI",
       "away": "Bosnia and Herzegovina",
       "awayFlag": "BIH",
-      "location": "SoFi Stadium · Los Angeles",
+      "location": "SoFi Stadium Â· Los Angeles",
       "venueTimeZone": "America/Los_Angeles"
     },
     {
@@ -1662,7 +1662,7 @@
       "homeFlag": "CAN",
       "away": "Qatar",
       "awayFlag": "QAT",
-      "location": "BC Place · Vancouver",
+      "location": "BC Place Â· Vancouver",
       "venueTimeZone": "America/Vancouver"
     },
     {
@@ -1675,7 +1675,7 @@
       "homeFlag": "MEX",
       "away": "Korea Republic",
       "awayFlag": "KOR",
-      "location": "Estadio Akron · Guadalajara",
+      "location": "Estadio Akron Â· Guadalajara",
       "venueTimeZone": "America/Mexico_City"
     },
     {
@@ -1688,7 +1688,7 @@
       "homeFlag": "USA",
       "away": "Australia",
       "awayFlag": "AUS",
-      "location": "Lumen Field · Seattle",
+      "location": "Lumen Field Â· Seattle",
       "venueTimeZone": "America/Los_Angeles"
     },
     {
@@ -1701,7 +1701,7 @@
       "homeFlag": "SCO",
       "away": "Morocco",
       "awayFlag": "MAR",
-      "location": "Gillette Stadium · Boston",
+      "location": "Gillette Stadium Â· Boston",
       "venueTimeZone": "America/New_York"
     },
     {
@@ -1714,7 +1714,7 @@
       "homeFlag": "BRA",
       "away": "Haiti",
       "awayFlag": "HAI",
-      "location": "Lincoln Financial Field · Philadelphia",
+      "location": "Lincoln Financial Field Â· Philadelphia",
       "venueTimeZone": "America/New_York"
     },
     {
@@ -1723,11 +1723,11 @@
       "group": "Group D",
       "time": "8:00 PM local",
       "kickoffISO": "2026-06-20T03:00:00Z",
-      "home": "Türkiye",
+      "home": "TÃ¼rkiye",
       "homeFlag": "TUR",
       "away": "Paraguay",
       "awayFlag": "PAR",
-      "location": "Levi's Stadium · San Francisco Bay Area",
+      "location": "Levi's Stadium Â· San Francisco Bay Area",
       "venueTimeZone": "America/Los_Angeles"
     },
     {
@@ -1740,7 +1740,7 @@
       "homeFlag": "NED",
       "away": "Sweden",
       "awayFlag": "SWE",
-      "location": "NRG Stadium · Houston",
+      "location": "NRG Stadium Â· Houston",
       "venueTimeZone": "America/Chicago"
     },
     {
@@ -1751,9 +1751,9 @@
       "kickoffISO": "2026-06-20T20:00:00Z",
       "home": "Germany",
       "homeFlag": "GER",
-      "away": "Côte d'Ivoire",
+      "away": "CÃ´te d'Ivoire",
       "awayFlag": "CIV",
-      "location": "BMO Field · Toronto",
+      "location": "BMO Field Â· Toronto",
       "venueTimeZone": "America/Toronto"
     },
     {
@@ -1764,9 +1764,9 @@
       "kickoffISO": "2026-06-21T00:00:00Z",
       "home": "Ecuador",
       "homeFlag": "ECU",
-      "away": "Curaçao",
+      "away": "CuraÃ§ao",
       "awayFlag": "CUW",
-      "location": "GEHA Field at Arrowhead Stadium · Kansas City",
+      "location": "GEHA Field at Arrowhead Stadium Â· Kansas City",
       "venueTimeZone": "America/Chicago"
     },
     {
@@ -1779,7 +1779,7 @@
       "homeFlag": "TUN",
       "away": "Japan",
       "awayFlag": "JPN",
-      "location": "Estadio BBVA · Monterrey",
+      "location": "Estadio BBVA Â· Monterrey",
       "venueTimeZone": "America/Monterrey"
     },
     {
@@ -1792,7 +1792,7 @@
       "homeFlag": "ESP",
       "away": "Saudi Arabia",
       "awayFlag": "KSA",
-      "location": "Mercedes-Benz Stadium · Atlanta",
+      "location": "Mercedes-Benz Stadium Â· Atlanta",
       "venueTimeZone": "America/New_York"
     },
     {
@@ -1803,9 +1803,9 @@
       "kickoffISO": "2026-06-21T19:00:00Z",
       "home": "Belgium",
       "homeFlag": "BEL",
-      "away": "IR Iran",
+      "away": "Iran",
       "awayFlag": "IRN",
-      "location": "SoFi Stadium · Los Angeles",
+      "location": "SoFi Stadium Â· Los Angeles",
       "venueTimeZone": "America/Los_Angeles"
     },
     {
@@ -1818,7 +1818,7 @@
       "homeFlag": "URU",
       "away": "Cabo Verde",
       "awayFlag": "CPV",
-      "location": "Hard Rock Stadium · Miami",
+      "location": "Hard Rock Stadium Â· Miami",
       "venueTimeZone": "America/New_York"
     },
     {
@@ -1831,7 +1831,7 @@
       "homeFlag": "NZL",
       "away": "Egypt",
       "awayFlag": "EGY",
-      "location": "BC Place · Vancouver",
+      "location": "BC Place Â· Vancouver",
       "venueTimeZone": "America/Vancouver"
     },
     {
@@ -1844,7 +1844,7 @@
       "homeFlag": "ARG",
       "away": "Austria",
       "awayFlag": "AUT",
-      "location": "AT&T Stadium · Dallas",
+      "location": "AT&T Stadium Â· Dallas",
       "venueTimeZone": "America/Chicago"
     },
     {
@@ -1857,7 +1857,7 @@
       "homeFlag": "FRA",
       "away": "Iraq",
       "awayFlag": "IRQ",
-      "location": "Lincoln Financial Field · Philadelphia",
+      "location": "Lincoln Financial Field Â· Philadelphia",
       "venueTimeZone": "America/New_York"
     },
     {
@@ -1870,7 +1870,7 @@
       "homeFlag": "NOR",
       "away": "Senegal",
       "awayFlag": "SEN",
-      "location": "MetLife Stadium · New Jersey",
+      "location": "MetLife Stadium Â· New Jersey",
       "venueTimeZone": "America/New_York"
     },
     {
@@ -1883,7 +1883,7 @@
       "homeFlag": "JOR",
       "away": "Algeria",
       "awayFlag": "ALG",
-      "location": "Levi's Stadium · San Francisco Bay Area",
+      "location": "Levi's Stadium Â· San Francisco Bay Area",
       "venueTimeZone": "America/Los_Angeles"
     },
     {
@@ -1896,7 +1896,7 @@
       "homeFlag": "POR",
       "away": "Uzbekistan",
       "awayFlag": "UZB",
-      "location": "NRG Stadium · Houston",
+      "location": "NRG Stadium Â· Houston",
       "venueTimeZone": "America/Chicago"
     },
     {
@@ -1909,7 +1909,7 @@
       "homeFlag": "ENG",
       "away": "Ghana",
       "awayFlag": "GHA",
-      "location": "Gillette Stadium · Boston",
+      "location": "Gillette Stadium Â· Boston",
       "venueTimeZone": "America/New_York"
     },
     {
@@ -1922,7 +1922,7 @@
       "homeFlag": "PAN",
       "away": "Croatia",
       "awayFlag": "CRO",
-      "location": "BMO Field · Toronto",
+      "location": "BMO Field Â· Toronto",
       "venueTimeZone": "America/Toronto"
     },
     {
@@ -1935,7 +1935,7 @@
       "homeFlag": "COL",
       "away": "DR Congo",
       "awayFlag": "COD",
-      "location": "Estadio Akron · Guadalajara",
+      "location": "Estadio Akron Â· Guadalajara",
       "venueTimeZone": "America/Mexico_City"
     },
     {
@@ -1948,7 +1948,7 @@
       "homeFlag": "SUI",
       "away": "Canada",
       "awayFlag": "CAN",
-      "location": "BC Place · Vancouver",
+      "location": "BC Place Â· Vancouver",
       "venueTimeZone": "America/Vancouver"
     },
     {
@@ -1961,7 +1961,7 @@
       "homeFlag": "BIH",
       "away": "Qatar",
       "awayFlag": "QAT",
-      "location": "Lumen Field · Seattle",
+      "location": "Lumen Field Â· Seattle",
       "venueTimeZone": "America/Los_Angeles"
     },
     {
@@ -1974,7 +1974,7 @@
       "homeFlag": "SCO",
       "away": "Brazil",
       "awayFlag": "BRA",
-      "location": "Hard Rock Stadium · Miami",
+      "location": "Hard Rock Stadium Â· Miami",
       "venueTimeZone": "America/New_York"
     },
     {
@@ -1987,7 +1987,7 @@
       "homeFlag": "MAR",
       "away": "Haiti",
       "awayFlag": "HAI",
-      "location": "Mercedes-Benz Stadium · Atlanta",
+      "location": "Mercedes-Benz Stadium Â· Atlanta",
       "venueTimeZone": "America/New_York"
     },
     {
@@ -2000,7 +2000,7 @@
       "homeFlag": "CZE",
       "away": "Mexico",
       "awayFlag": "MEX",
-      "location": "Estadio Azteca · Mexico City",
+      "location": "Estadio Azteca Â· Mexico City",
       "venueTimeZone": "America/Mexico_City"
     },
     {
@@ -2013,7 +2013,7 @@
       "homeFlag": "RSA",
       "away": "Korea Republic",
       "awayFlag": "KOR",
-      "location": "Estadio BBVA · Monterrey",
+      "location": "Estadio BBVA Â· Monterrey",
       "venueTimeZone": "America/Monterrey"
     },
     {
@@ -2022,11 +2022,11 @@
       "group": "Group E",
       "time": "4:00 PM local",
       "kickoffISO": "2026-06-25T20:00:00Z",
-      "home": "Curaçao",
+      "home": "CuraÃ§ao",
       "homeFlag": "CUW",
-      "away": "Côte d'Ivoire",
+      "away": "CÃ´te d'Ivoire",
       "awayFlag": "CIV",
-      "location": "Lincoln Financial Field · Philadelphia",
+      "location": "Lincoln Financial Field Â· Philadelphia",
       "venueTimeZone": "America/New_York"
     },
     {
@@ -2039,7 +2039,7 @@
       "homeFlag": "ECU",
       "away": "Germany",
       "awayFlag": "GER",
-      "location": "MetLife Stadium · New Jersey",
+      "location": "MetLife Stadium Â· New Jersey",
       "venueTimeZone": "America/New_York"
     },
     {
@@ -2052,7 +2052,7 @@
       "homeFlag": "JPN",
       "away": "Sweden",
       "awayFlag": "SWE",
-      "location": "AT&T Stadium · Dallas",
+      "location": "AT&T Stadium Â· Dallas",
       "venueTimeZone": "America/Chicago"
     },
     {
@@ -2065,7 +2065,7 @@
       "homeFlag": "TUN",
       "away": "Netherlands",
       "awayFlag": "NED",
-      "location": "GEHA Field at Arrowhead Stadium · Kansas City",
+      "location": "GEHA Field at Arrowhead Stadium Â· Kansas City",
       "venueTimeZone": "America/Chicago"
     },
     {
@@ -2074,11 +2074,11 @@
       "group": "Group D",
       "time": "7:00 PM local",
       "kickoffISO": "2026-06-26T02:00:00Z",
-      "home": "Türkiye",
+      "home": "TÃ¼rkiye",
       "homeFlag": "TUR",
       "away": "United States",
       "awayFlag": "USA",
-      "location": "SoFi Stadium · Los Angeles",
+      "location": "SoFi Stadium Â· Los Angeles",
       "venueTimeZone": "America/Los_Angeles"
     },
     {
@@ -2091,7 +2091,7 @@
       "homeFlag": "PAR",
       "away": "Australia",
       "awayFlag": "AUS",
-      "location": "Levi's Stadium · San Francisco Bay Area",
+      "location": "Levi's Stadium Â· San Francisco Bay Area",
       "venueTimeZone": "America/Los_Angeles"
     },
     {
@@ -2104,7 +2104,7 @@
       "homeFlag": "NOR",
       "away": "France",
       "awayFlag": "FRA",
-      "location": "Gillette Stadium · Boston",
+      "location": "Gillette Stadium Â· Boston",
       "venueTimeZone": "America/New_York"
     },
     {
@@ -2117,7 +2117,7 @@
       "homeFlag": "SEN",
       "away": "Iraq",
       "awayFlag": "IRQ",
-      "location": "BMO Field · Toronto",
+      "location": "BMO Field Â· Toronto",
       "venueTimeZone": "America/Toronto"
     },
     {
@@ -2130,7 +2130,7 @@
       "homeFlag": "CPV",
       "away": "Saudi Arabia",
       "awayFlag": "KSA",
-      "location": "NRG Stadium · Houston",
+      "location": "NRG Stadium Â· Houston",
       "venueTimeZone": "America/Chicago"
     },
     {
@@ -2143,7 +2143,7 @@
       "homeFlag": "URU",
       "away": "Spain",
       "awayFlag": "ESP",
-      "location": "Estadio Akron · Guadalajara",
+      "location": "Estadio Akron Â· Guadalajara",
       "venueTimeZone": "America/Mexico_City"
     },
     {
@@ -2154,9 +2154,9 @@
       "kickoffISO": "2026-06-27T03:00:00Z",
       "home": "Egypt",
       "homeFlag": "EGY",
-      "away": "IR Iran",
+      "away": "Iran",
       "awayFlag": "IRN",
-      "location": "Lumen Field · Seattle",
+      "location": "Lumen Field Â· Seattle",
       "venueTimeZone": "America/Los_Angeles"
     },
     {
@@ -2169,7 +2169,7 @@
       "homeFlag": "NZL",
       "away": "Belgium",
       "awayFlag": "BEL",
-      "location": "BC Place · Vancouver",
+      "location": "BC Place Â· Vancouver",
       "venueTimeZone": "America/Vancouver"
     },
     {
@@ -2182,7 +2182,7 @@
       "homeFlag": "PAN",
       "away": "England",
       "awayFlag": "ENG",
-      "location": "MetLife Stadium · New Jersey",
+      "location": "MetLife Stadium Â· New Jersey",
       "venueTimeZone": "America/New_York"
     },
     {
@@ -2195,7 +2195,7 @@
       "homeFlag": "CRO",
       "away": "Ghana",
       "awayFlag": "GHA",
-      "location": "Lincoln Financial Field · Philadelphia",
+      "location": "Lincoln Financial Field Â· Philadelphia",
       "venueTimeZone": "America/New_York"
     },
     {
@@ -2208,7 +2208,7 @@
       "homeFlag": "COL",
       "away": "Portugal",
       "awayFlag": "POR",
-      "location": "Hard Rock Stadium · Miami",
+      "location": "Hard Rock Stadium Â· Miami",
       "venueTimeZone": "America/New_York"
     },
     {
@@ -2221,7 +2221,7 @@
       "homeFlag": "COD",
       "away": "Uzbekistan",
       "awayFlag": "UZB",
-      "location": "Mercedes-Benz Stadium · Atlanta",
+      "location": "Mercedes-Benz Stadium Â· Atlanta",
       "venueTimeZone": "America/New_York"
     },
     {
@@ -2234,7 +2234,7 @@
       "homeFlag": "ALG",
       "away": "Austria",
       "awayFlag": "AUT",
-      "location": "GEHA Field at Arrowhead Stadium · Kansas City",
+      "location": "GEHA Field at Arrowhead Stadium Â· Kansas City",
       "venueTimeZone": "America/Chicago"
     },
     {
@@ -2247,472 +2247,424 @@
       "homeFlag": "JOR",
       "away": "Argentina",
       "awayFlag": "ARG",
-      "location": "AT&T Stadium · Dallas",
+      "location": "AT&T Stadium Â· Dallas",
       "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Sunday, June 28, 2026",
       "stage": "Knockout",
-      "group": "Match 73 · Round of 32",
+      "group": "Match 73 Â· Round of 32",
       "time": "12:00 PM local",
       "kickoffISO": "2026-06-28T19:00:00Z",
       "home": "Runner-up Group A",
       "homeFlag": "2A",
       "away": "Runner-up Group B",
       "awayFlag": "2B",
-      "location": "SoFi Stadium · Los Angeles",
+      "location": "SoFi Stadium Â· Los Angeles",
       "venueTimeZone": "America/Los_Angeles"
     },
     {
       "date": "Monday, June 29, 2026",
       "stage": "Knockout",
-      "group": "Match 76 · Round of 32",
+      "group": "Match 76 Â· Round of 32",
       "time": "12:00 PM local",
       "kickoffISO": "2026-06-29T17:00:00Z",
       "home": "Winner Group C",
       "homeFlag": "1C",
       "away": "Runner-up Group F",
       "awayFlag": "2F",
-      "location": "NRG Stadium · Houston",
+      "location": "NRG Stadium Â· Houston",
       "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Monday, June 29, 2026",
       "stage": "Knockout",
-      "group": "Match 74 · Round of 32",
+      "group": "Match 74 Â· Round of 32",
       "time": "4:30 PM local",
       "kickoffISO": "2026-06-29T20:30:00Z",
       "home": "Winner Group E",
       "homeFlag": "1E",
       "away": "Best third-place team A/B/C/D/F",
       "awayFlag": "3ABCDF",
-      "location": "Gillette Stadium · Boston",
+      "location": "Gillette Stadium Â· Boston",
       "venueTimeZone": "America/New_York"
     },
     {
       "date": "Monday, June 29, 2026",
       "stage": "Knockout",
-      "group": "Match 75 · Round of 32",
+      "group": "Match 75 Â· Round of 32",
       "time": "7:00 PM local",
       "kickoffISO": "2026-06-30T01:00:00Z",
       "home": "Winner Group F",
       "homeFlag": "1F",
       "away": "Runner-up Group C",
       "awayFlag": "2C",
-      "location": "Estadio BBVA · Monterrey",
+      "location": "Estadio BBVA Â· Monterrey",
       "venueTimeZone": "America/Monterrey"
     },
     {
       "date": "Tuesday, June 30, 2026",
       "stage": "Knockout",
-      "group": "Match 78 · Round of 32",
+      "group": "Match 78 Â· Round of 32",
       "time": "12:00 PM local",
       "kickoffISO": "2026-06-30T17:00:00Z",
       "home": "Runner-up Group E",
       "homeFlag": "2E",
       "away": "Runner-up Group I",
       "awayFlag": "2I",
-      "location": "AT&T Stadium · Dallas",
+      "location": "AT&T Stadium Â· Dallas",
       "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Tuesday, June 30, 2026",
       "stage": "Knockout",
-      "group": "Match 77 · Round of 32",
+      "group": "Match 77 Â· Round of 32",
       "time": "5:00 PM local",
       "kickoffISO": "2026-06-30T21:00:00Z",
       "home": "Winner Group I",
       "homeFlag": "1I",
       "away": "Best third-place team C/D/F/G/H",
       "awayFlag": "3CDFGH",
-      "location": "MetLife Stadium · New Jersey",
+      "location": "MetLife Stadium Â· New Jersey",
       "venueTimeZone": "America/New_York"
     },
     {
       "date": "Tuesday, June 30, 2026",
       "stage": "Knockout",
-      "group": "Match 79 · Round of 32",
+      "group": "Match 79 Â· Round of 32",
       "time": "7:00 PM local",
       "kickoffISO": "2026-07-01T01:00:00Z",
       "home": "Winner Group A",
       "homeFlag": "1A",
       "away": "Best third-place team C/E/F/H/I",
       "awayFlag": "3CEFHI",
-      "location": "Estadio Azteca · Mexico City",
+      "location": "Estadio Azteca Â· Mexico City",
       "venueTimeZone": "America/Mexico_City"
     },
     {
       "date": "Wednesday, July 1, 2026",
       "stage": "Knockout",
-      "group": "Match 80 · Round of 32",
+      "group": "Match 80 Â· Round of 32",
       "time": "12:00 PM local",
       "kickoffISO": "2026-07-01T16:00:00Z",
       "home": "Winner Group L",
       "homeFlag": "1L",
       "away": "Best third-place team E/H/I/J/K",
       "awayFlag": "3EHIJK",
-      "location": "Mercedes-Benz Stadium · Atlanta",
+      "location": "Mercedes-Benz Stadium Â· Atlanta",
       "venueTimeZone": "America/New_York"
     },
     {
       "date": "Wednesday, July 1, 2026",
       "stage": "Knockout",
-      "group": "Match 82 · Round of 32",
+      "group": "Match 82 Â· Round of 32",
       "time": "1:00 PM local",
       "kickoffISO": "2026-07-01T20:00:00Z",
       "home": "Winner Group G",
       "homeFlag": "1G",
       "away": "Best third-place team A/E/H/I/J",
       "awayFlag": "3AEHIJ",
-      "location": "Lumen Field · Seattle",
+      "location": "Lumen Field Â· Seattle",
       "venueTimeZone": "America/Los_Angeles"
     },
     {
       "date": "Wednesday, July 1, 2026",
       "stage": "Knockout",
-      "group": "Match 81 · Round of 32",
+      "group": "Match 81 Â· Round of 32",
       "time": "5:00 PM local",
       "kickoffISO": "2026-07-02T00:00:00Z",
       "home": "Winner Group D",
       "homeFlag": "1D",
       "away": "Best third-place team B/E/F/I/J",
       "awayFlag": "3BEFIJ",
-      "location": "Levi's Stadium · San Francisco Bay Area",
+      "location": "Levi's Stadium Â· San Francisco Bay Area",
       "venueTimeZone": "America/Los_Angeles"
     },
     {
       "date": "Thursday, July 2, 2026",
       "stage": "Knockout",
-      "group": "Match 84 · Round of 32",
+      "group": "Match 84 Â· Round of 32",
       "time": "12:00 PM local",
       "kickoffISO": "2026-07-02T19:00:00Z",
       "home": "Winner Group H",
       "homeFlag": "1H",
       "away": "Runner-up Group J",
       "awayFlag": "2J",
-      "location": "SoFi Stadium · Los Angeles",
+      "location": "SoFi Stadium Â· Los Angeles",
       "venueTimeZone": "America/Los_Angeles"
     },
     {
       "date": "Thursday, July 2, 2026",
       "stage": "Knockout",
-      "group": "Match 83 · Round of 32",
+      "group": "Match 83 Â· Round of 32",
       "time": "7:00 PM local",
       "kickoffISO": "2026-07-02T23:00:00Z",
       "home": "Runner-up Group K",
       "homeFlag": "2K",
       "away": "Runner-up Group L",
       "awayFlag": "2L",
-      "location": "BMO Field · Toronto",
+      "location": "BMO Field Â· Toronto",
       "venueTimeZone": "America/Toronto"
     },
     {
       "date": "Thursday, July 2, 2026",
       "stage": "Knockout",
-      "group": "Match 85 · Round of 32",
+      "group": "Match 85 Â· Round of 32",
       "time": "8:00 PM local",
       "kickoffISO": "2026-07-03T03:00:00Z",
       "home": "Winner Group B",
       "homeFlag": "1B",
       "away": "Best third-place team E/F/G/I/J",
       "awayFlag": "3EFGIJ",
-      "location": "BC Place · Vancouver",
+      "location": "BC Place Â· Vancouver",
       "venueTimeZone": "America/Vancouver"
     },
     {
       "date": "Friday, July 3, 2026",
       "stage": "Knockout",
-      "group": "Match 88 · Round of 32",
+      "group": "Match 88 Â· Round of 32",
       "time": "1:00 PM local",
       "kickoffISO": "2026-07-03T18:00:00Z",
       "home": "Runner-up Group D",
       "homeFlag": "2D",
       "away": "Runner-up Group G",
       "awayFlag": "2G",
-      "location": "AT&T Stadium · Dallas",
+      "location": "AT&T Stadium Â· Dallas",
       "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Friday, July 3, 2026",
       "stage": "Knockout",
-      "group": "Match 86 · Round of 32",
+      "group": "Match 86 Â· Round of 32",
       "time": "6:00 PM local",
       "kickoffISO": "2026-07-03T22:00:00Z",
       "home": "Winner Group J",
       "homeFlag": "1J",
       "away": "Runner-up Group H",
       "awayFlag": "2H",
-      "location": "Hard Rock Stadium · Miami",
+      "location": "Hard Rock Stadium Â· Miami",
       "venueTimeZone": "America/New_York"
     },
     {
       "date": "Friday, July 3, 2026",
       "stage": "Knockout",
-      "group": "Match 87 · Round of 32",
+      "group": "Match 87 Â· Round of 32",
       "time": "8:30 PM local",
       "kickoffISO": "2026-07-04T01:30:00Z",
       "home": "Winner Group K",
       "homeFlag": "1K",
       "away": "Best third-place team D/E/I/J/L",
       "awayFlag": "3DEIJL",
-      "location": "GEHA Field at Arrowhead Stadium · Kansas City",
+      "location": "GEHA Field at Arrowhead Stadium Â· Kansas City",
       "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Saturday, July 4, 2026",
       "stage": "Knockout",
-      "group": "Match 90 · Round of 16",
+      "group": "Match 90 Â· Round of 16",
       "time": "12:00 PM local",
       "kickoffISO": "2026-07-04T17:00:00Z",
       "home": "Winner Match 73",
       "homeFlag": "W73",
       "away": "Winner Match 75",
       "awayFlag": "W75",
-      "location": "NRG Stadium · Houston",
+      "location": "NRG Stadium Â· Houston",
       "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Saturday, July 4, 2026",
       "stage": "Knockout",
-      "group": "Match 89 · Round of 16",
+      "group": "Match 89 Â· Round of 16",
       "time": "5:00 PM local",
       "kickoffISO": "2026-07-04T21:00:00Z",
       "home": "Winner Match 74",
       "homeFlag": "W74",
       "away": "Winner Match 77",
       "awayFlag": "W77",
-      "location": "Lincoln Financial Field · Philadelphia",
+      "location": "Lincoln Financial Field Â· Philadelphia",
       "venueTimeZone": "America/New_York"
     },
     {
       "date": "Sunday, July 5, 2026",
       "stage": "Knockout",
-      "group": "Match 91 · Round of 16",
+      "group": "Match 91 Â· Round of 16",
       "time": "4:00 PM local",
       "kickoffISO": "2026-07-05T20:00:00Z",
       "home": "Winner Match 76",
       "homeFlag": "W76",
       "away": "Winner Match 78",
       "awayFlag": "W78",
-      "location": "MetLife Stadium · New Jersey",
+      "location": "MetLife Stadium Â· New Jersey",
       "venueTimeZone": "America/New_York"
     },
     {
       "date": "Sunday, July 5, 2026",
       "stage": "Knockout",
-      "group": "Match 92 · Round of 16",
+      "group": "Match 92 Â· Round of 16",
       "time": "6:00 PM local",
       "kickoffISO": "2026-07-06T00:00:00Z",
       "home": "Winner Match 79",
       "homeFlag": "W79",
       "away": "Winner Match 80",
       "awayFlag": "W80",
-      "location": "Estadio Azteca · Mexico City",
+      "location": "Estadio Azteca Â· Mexico City",
       "venueTimeZone": "America/Mexico_City"
     },
     {
       "date": "Monday, July 6, 2026",
       "stage": "Knockout",
-      "group": "Match 93 · Round of 16",
+      "group": "Match 93 Â· Round of 16",
       "time": "2:00 PM local",
       "kickoffISO": "2026-07-06T19:00:00Z",
       "home": "Winner Match 83",
       "homeFlag": "W83",
       "away": "Winner Match 84",
       "awayFlag": "W84",
-      "location": "AT&T Stadium · Dallas",
+      "location": "AT&T Stadium Â· Dallas",
       "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Monday, July 6, 2026",
       "stage": "Knockout",
-      "group": "Match 94 · Round of 16",
+      "group": "Match 94 Â· Round of 16",
       "time": "5:00 PM local",
       "kickoffISO": "2026-07-07T00:00:00Z",
       "home": "Winner Match 81",
       "homeFlag": "W81",
       "away": "Winner Match 82",
       "awayFlag": "W82",
-      "location": "Lumen Field · Seattle",
+      "location": "Lumen Field Â· Seattle",
       "venueTimeZone": "America/Los_Angeles"
     },
     {
       "date": "Tuesday, July 7, 2026",
       "stage": "Knockout",
-      "group": "Match 95 · Round of 16",
+      "group": "Match 95 Â· Round of 16",
       "time": "12:00 PM local",
       "kickoffISO": "2026-07-07T16:00:00Z",
       "home": "Winner Match 86",
       "homeFlag": "W86",
       "away": "Winner Match 88",
       "awayFlag": "W88",
-      "location": "Mercedes-Benz Stadium · Atlanta",
+      "location": "Mercedes-Benz Stadium Â· Atlanta",
       "venueTimeZone": "America/New_York"
     },
     {
       "date": "Tuesday, July 7, 2026",
       "stage": "Knockout",
-      "group": "Match 96 · Round of 16",
+      "group": "Match 96 Â· Round of 16",
       "time": "1:00 PM local",
       "kickoffISO": "2026-07-07T20:00:00Z",
       "home": "Winner Match 85",
       "homeFlag": "W85",
       "away": "Winner Match 87",
       "awayFlag": "W87",
-      "location": "BC Place · Vancouver",
+      "location": "BC Place Â· Vancouver",
       "venueTimeZone": "America/Vancouver"
     },
     {
       "date": "Thursday, July 9, 2026",
       "stage": "Knockout",
-      "group": "Match 97 · Quarter-final",
+      "group": "Match 97 Â· Quarter-final",
       "time": "4:00 PM local",
       "kickoffISO": "2026-07-09T20:00:00Z",
       "home": "Winner Match 89",
       "homeFlag": "W89",
       "away": "Winner Match 90",
       "awayFlag": "W90",
-      "location": "Gillette Stadium · Boston",
+      "location": "Gillette Stadium Â· Boston",
       "venueTimeZone": "America/New_York"
     },
     {
       "date": "Friday, July 10, 2026",
       "stage": "Knockout",
-      "group": "Match 98 · Quarter-final",
+      "group": "Match 98 Â· Quarter-final",
       "time": "12:00 PM local",
       "kickoffISO": "2026-07-10T19:00:00Z",
       "home": "Winner Match 93",
       "homeFlag": "W93",
       "away": "Winner Match 94",
       "awayFlag": "W94",
-      "location": "SoFi Stadium · Los Angeles",
+      "location": "SoFi Stadium Â· Los Angeles",
       "venueTimeZone": "America/Los_Angeles"
     },
     {
       "date": "Saturday, July 11, 2026",
       "stage": "Knockout",
-      "group": "Match 99 · Quarter-final",
+      "group": "Match 99 Â· Quarter-final",
       "time": "5:00 PM local",
       "kickoffISO": "2026-07-11T21:00:00Z",
       "home": "Winner Match 91",
       "homeFlag": "W91",
       "away": "Winner Match 92",
       "awayFlag": "W92",
-      "location": "Hard Rock Stadium · Miami",
+      "location": "Hard Rock Stadium Â· Miami",
       "venueTimeZone": "America/New_York"
     },
     {
       "date": "Saturday, July 11, 2026",
       "stage": "Knockout",
-      "group": "Match 100 · Quarter-final",
+      "group": "Match 100 Â· Quarter-final",
       "time": "8:00 PM local",
       "kickoffISO": "2026-07-12T01:00:00Z",
       "home": "Winner Match 95",
       "homeFlag": "W95",
       "away": "Winner Match 96",
       "awayFlag": "W96",
-      "location": "GEHA Field at Arrowhead Stadium · Kansas City",
+      "location": "GEHA Field at Arrowhead Stadium Â· Kansas City",
       "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Tuesday, July 14, 2026",
       "stage": "Knockout",
-      "group": "Match 101 · Semi-final",
+      "group": "Match 101 Â· Semi-final",
       "time": "2:00 PM local",
       "kickoffISO": "2026-07-14T19:00:00Z",
       "home": "Winner Match 97",
       "homeFlag": "W97",
       "away": "Winner Match 98",
       "awayFlag": "W98",
-      "location": "AT&T Stadium · Dallas",
+      "location": "AT&T Stadium Â· Dallas",
       "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Wednesday, July 15, 2026",
       "stage": "Knockout",
-      "group": "Match 102 · Semi-final",
+      "group": "Match 102 Â· Semi-final",
       "time": "3:00 PM local",
       "kickoffISO": "2026-07-15T19:00:00Z",
       "home": "Winner Match 99",
       "homeFlag": "W99",
       "away": "Winner Match 100",
       "awayFlag": "W100",
-      "location": "Mercedes-Benz Stadium · Atlanta",
+      "location": "Mercedes-Benz Stadium Â· Atlanta",
       "venueTimeZone": "America/New_York"
     },
     {
       "date": "Saturday, July 18, 2026",
       "stage": "Knockout",
-      "group": "Match 103 · Play-off for third place",
+      "group": "Match 103 Â· Play-off for third place",
       "time": "5:00 PM local",
       "kickoffISO": "2026-07-18T21:00:00Z",
       "home": "Runner-up Match 101",
       "homeFlag": "RU101",
       "away": "Runner-up Match 102",
       "awayFlag": "RU102",
-      "location": "Hard Rock Stadium · Miami",
+      "location": "Hard Rock Stadium Â· Miami",
       "venueTimeZone": "America/New_York"
     },
     {
       "date": "Sunday, July 19, 2026",
       "stage": "Knockout",
-      "group": "Match 104 · Final",
+      "group": "Match 104 Â· Final",
       "time": "3:00 PM local",
       "kickoffISO": "2026-07-19T19:00:00Z",
       "home": "Winner Match 101",
       "homeFlag": "W101",
       "away": "Winner Match 102",
       "awayFlag": "W102",
-      "location": "MetLife Stadium · New Jersey",
+      "location": "MetLife Stadium Â· New Jersey",
       "venueTimeZone": "America/New_York"
-    },
-    {
-      "date": "Monday, June 15, 2026",
-      "stage": "Group Stage",
-      "group": "Group G",
-      "time": "8:00 PM CDT (6:00 PM PDT venue local)",
-      "home": "Iraq",
-      "homeFlag": "IRQ",
-      "away": "New Zealand",
-      "awayFlag": "NZL",
-      "location": "SoFi Stadium · Los Angeles",
-      "status": "FT",
-      "elapsed": 99,
-      "homeScore": 2,
-      "awayScore": 2,
-      "scorers": [
-        {
-          "player": "Elijah Just",
-          "team": "New Zealand",
-          "match": "Iraq vs New Zealand"
-        },
-        {
-          "player": "Elijah Just",
-          "team": "New Zealand",
-          "match": "Iraq vs New Zealand"
-        },
-        {
-          "player": "Ramin Rezaeian",
-          "team": "Iraq",
-          "match": "Iraq vs New Zealand"
-        },
-        {
-          "player": "Mohammad Mohebi",
-          "team": "Iraq",
-          "match": "Iraq vs New Zealand"
-        }
-      ],
-      "yellowCards": [
-        {
-          "player": "Ehsan Hajsafi",
-          "team": "Iraq",
-          "match": "Iraq vs New Zealand"
-        }
-      ],
-      "redCards": [],
-      "penalties": 0,
-      "homeKeeper": "Alireza Beiranvand",
-      "awayKeeper": "Max Crocombe"
     }
   ],
   "matchUpdates": [
@@ -2725,19 +2677,19 @@
       "homeFlag": "MEX",
       "away": "South Africa",
       "awayFlag": "RSA",
-      "location": "Estadio Azteca · Mexico City",
+      "location": "Estadio Azteca Â· Mexico City",
       "status": "FT",
       "elapsed": 97,
       "homeScore": 2,
       "awayScore": 0,
       "scorers": [
         {
-          "player": "Julián Quiñones",
+          "player": "JuliÃ¡n QuiÃ±ones",
           "team": "Mexico",
           "match": "Mexico vs South Africa"
         },
         {
-          "player": "Raúl Jiménez",
+          "player": "RaÃºl JimÃ©nez",
           "team": "Mexico",
           "match": "Mexico vs South Africa"
         }
@@ -2749,7 +2701,7 @@
           "match": "Mexico vs South Africa"
         },
         {
-          "player": "Carlos Gutiérrez",
+          "player": "Carlos GutiÃ©rrez",
           "team": "Mexico",
           "match": "Mexico vs South Africa"
         },
@@ -2771,13 +2723,13 @@
           "match": "Mexico vs South Africa"
         },
         {
-          "player": "César Montes",
+          "player": "CÃ©sar Montes",
           "team": "Mexico",
           "match": "Mexico vs South Africa"
         }
       ],
       "penalties": 0,
-      "homeKeeper": "Raúl Rangel",
+      "homeKeeper": "RaÃºl Rangel",
       "awayKeeper": "Ronwen Williams"
     },
     {
@@ -2789,7 +2741,7 @@
       "homeFlag": "KOR",
       "away": "Czechia",
       "awayFlag": "CZE",
-      "location": "Estadio Akron · Guadalajara",
+      "location": "Estadio Akron Â· Guadalajara",
       "status": "FT",
       "elapsed": 96,
       "homeScore": 2,
@@ -2806,7 +2758,7 @@
           "match": "Korea Republic vs Czechia"
         },
         {
-          "player": "Ladislav Krejčí",
+          "player": "Ladislav KrejÄÃ­",
           "team": "Czechia",
           "match": "Korea Republic vs Czechia"
         }
@@ -2815,7 +2767,7 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Kim Seung-gyu",
-      "awayKeeper": "Matěj Kovář"
+      "awayKeeper": "MatÄ›j KovÃ¡Å™"
     },
     {
       "date": "Friday, June 12, 2026",
@@ -2826,7 +2778,7 @@
       "homeFlag": "CAN",
       "away": "Bosnia and Herzegovina",
       "awayFlag": "BIH",
-      "location": "BMO Field · Toronto",
+      "location": "BMO Field Â· Toronto",
       "status": "FT",
       "elapsed": 96,
       "homeScore": 1,
@@ -2838,7 +2790,7 @@
           "match": "Canada vs Bosnia and Herzegovina"
         },
         {
-          "player": "Jovo Lukić",
+          "player": "Jovo LukiÄ‡",
           "team": "Bosnia and Herzegovina",
           "match": "Canada vs Bosnia and Herzegovina"
         }
@@ -2850,24 +2802,24 @@
           "match": "Canada vs Bosnia and Herzegovina"
         },
         {
-          "player": "Ermedin Demirović",
+          "player": "Ermedin DemiroviÄ‡",
           "team": "Bosnia and Herzegovina",
           "match": "Canada vs Bosnia and Herzegovina"
         },
         {
-          "player": "Jovo Lukić",
+          "player": "Jovo LukiÄ‡",
           "team": "Bosnia and Herzegovina",
           "match": "Canada vs Bosnia and Herzegovina"
         },
         {
-          "player": "Nikola Katić",
+          "player": "Nikola KatiÄ‡",
           "team": "Bosnia and Herzegovina",
           "match": "Canada vs Bosnia and Herzegovina"
         }
       ],
       "redCards": [],
       "penalties": 0,
-      "homeKeeper": "Maxime Crépeau",
+      "homeKeeper": "Maxime CrÃ©peau",
       "awayKeeper": "Nikola Vasilj"
     },
     {
@@ -2879,14 +2831,14 @@
       "homeFlag": "USA",
       "away": "Paraguay",
       "awayFlag": "PAR",
-      "location": "SoFi Stadium · Los Angeles",
+      "location": "SoFi Stadium Â· Los Angeles",
       "status": "FT",
       "elapsed": 102,
       "homeScore": 4,
       "awayScore": 1,
       "scorers": [
         {
-          "player": "Damián Bobadilla (OG)",
+          "player": "DamiÃ¡n Bobadilla (OG)",
           "team": "United States",
           "match": "United States vs Paraguay"
         },
@@ -2901,7 +2853,7 @@
           "match": "United States vs Paraguay"
         },
         {
-          "player": "Maurício",
+          "player": "MaurÃ­cio",
           "team": "Paraguay",
           "match": "United States vs Paraguay"
         },
@@ -2913,12 +2865,12 @@
       ],
       "yellowCards": [
         {
-          "player": "Juan José Cáceres",
+          "player": "Juan JosÃ© CÃ¡ceres",
           "team": "Paraguay",
           "match": "United States vs Paraguay"
         },
         {
-          "player": "Miguel Almirón",
+          "player": "Miguel AlmirÃ³n",
           "team": "Paraguay",
           "match": "United States vs Paraguay"
         },
@@ -2928,17 +2880,17 @@
           "match": "United States vs Paraguay"
         },
         {
-          "player": "Diego Gómez",
+          "player": "Diego GÃ³mez",
           "team": "Paraguay",
           "match": "United States vs Paraguay"
         },
         {
-          "player": "Álex Arce",
+          "player": "Ãlex Arce",
           "team": "Paraguay",
           "match": "United States vs Paraguay"
         },
         {
-          "player": "Júnior Alonso",
+          "player": "JÃºnior Alonso",
           "team": "Paraguay",
           "match": "United States vs Paraguay"
         }
@@ -3005,7 +2957,7 @@
       "homeFlag": "BRA",
       "away": "Morocco",
       "awayFlag": "MAR",
-      "location": "MetLife Stadium• New Jersey",
+      "location": "MetLife Stadiumâ€¢ New Jersey",
       "status": "FT",
       "elapsed": 104,
       "homeScore": 1,
@@ -3017,7 +2969,7 @@
           "match": "Brazil vs Morocco"
         },
         {
-          "player": "Vinícius Júnior",
+          "player": "VinÃ­cius JÃºnior",
           "team": "Brazil",
           "match": "Brazil vs Morocco"
         }
@@ -3048,7 +3000,7 @@
       "homeFlag": "HAI",
       "away": "Scotland",
       "awayFlag": "SCO",
-      "location": "Gillette Stadium • Boston",
+      "location": "Gillette Stadium â€¢ Boston",
       "status": "FT",
       "elapsed": 100,
       "homeScore": 0,
@@ -3094,9 +3046,9 @@
       "time": "11:00",
       "home": "Australia",
       "homeFlag": "AUS",
-      "away": "Türkiye",
+      "away": "TÃ¼rkiye",
       "awayFlag": "TUR",
-      "location": "BC Place • Vancouver",
+      "location": "BC Place â€¢ Vancouver",
       "status": "FT",
       "elapsed": 100,
       "homeScore": 2,
@@ -3105,25 +3057,25 @@
         {
           "player": "Nestory Irankunda",
           "team": "Australia",
-          "match": "Australia vs Türkiye"
+          "match": "Australia vs TÃ¼rkiye"
         },
         {
           "player": "Connor Metcalfe",
           "team": "Australia",
-          "match": "Australia vs Türkiye"
+          "match": "Australia vs TÃ¼rkiye"
         }
       ],
       "yellowCards": [
         {
-          "player": "Yunus Akgün",
-          "team": "Türkiye",
-          "match": "Australia vs Türkiye"
+          "player": "Yunus AkgÃ¼n",
+          "team": "TÃ¼rkiye",
+          "match": "Australia vs TÃ¼rkiye"
         }
       ],
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Patrick Beach",
-      "awayKeeper": "Uğurcan Çakır"
+      "awayKeeper": "UÄŸurcan Ã‡akÄ±r"
     },
     {
       "date": "Sunday, June 14, 2026",
@@ -3132,9 +3084,9 @@
       "time": "12:00 PM CDT (12:00 PM CDT venue local)",
       "home": "Germany",
       "homeFlag": "GER",
-      "away": "Curaçao",
+      "away": "CuraÃ§ao",
       "awayFlag": "CUW",
-      "location": "NRG Stadium · Houston",
+      "location": "NRG Stadium Â· Houston",
       "status": "FT",
       "elapsed": 100,
       "homeScore": 7,
@@ -3143,42 +3095,42 @@
         {
           "player": "Felix Nmecha",
           "team": "Germany",
-          "match": "Germany vs Curaçao"
+          "match": "Germany vs CuraÃ§ao"
         },
         {
           "player": "Livano Comenencia",
-          "team": "Curaçao",
-          "match": "Germany vs Curaçao"
+          "team": "CuraÃ§ao",
+          "match": "Germany vs CuraÃ§ao"
         },
         {
           "player": "Nico Schlotberbeck",
           "team": "Germany",
-          "match": "Germany vs Curaçao"
+          "match": "Germany vs CuraÃ§ao"
         },
         {
           "player": "Kai Havertz",
           "team": "Germany",
-          "match": "Germany vs Curaçao"
+          "match": "Germany vs CuraÃ§ao"
         },
         {
           "player": "Jamal Musiala",
           "team": "Germany",
-          "match": "Germany vs Curaçao"
+          "match": "Germany vs CuraÃ§ao"
         },
         {
           "player": "Nathaniel Brown",
           "team": "Germany",
-          "match": "Germany vs Curaçao"
+          "match": "Germany vs CuraÃ§ao"
         },
         {
           "player": "Deniz Undav",
           "team": "Germany",
-          "match": "Germany vs Curaçao"
+          "match": "Germany vs CuraÃ§ao"
         },
         {
           "player": "Kai Havertz",
           "team": "Germany",
-          "match": "Germany vs Curaçao"
+          "match": "Germany vs CuraÃ§ao"
         }
       ],
       "yellowCards": [],
@@ -3196,7 +3148,7 @@
       "homeFlag": "NED",
       "away": "Japan",
       "awayFlag": "JPN",
-      "location": "⌖AT&T Stadium • Dallas",
+      "location": "âŒ–AT&T Stadium â€¢ Dallas",
       "status": "FT",
       "elapsed": 100,
       "homeScore": 2,
@@ -3250,11 +3202,11 @@
       "stage": "Group Stage",
       "group": "Group E",
       "time": "6:00 PM CDT (7:00 PM EDT venue local)",
-      "home": "Côte d'Ivoire",
+      "home": "CÃ´te d'Ivoire",
       "homeFlag": "CIV",
       "away": "Ecuador",
       "awayFlag": "ECU",
-      "location": "Lincoln Financial Field · Philadelphia",
+      "location": "Lincoln Financial Field Â· Philadelphia",
       "status": "FT",
       "elapsed": 102,
       "homeScore": 1,
@@ -3262,36 +3214,36 @@
       "scorers": [
         {
           "player": "Amad Diallo",
-          "team": "Côte d'Ivoire",
-          "match": "Côte d'Ivoire vs Ecuador"
+          "team": "CÃ´te d'Ivoire",
+          "match": "CÃ´te d'Ivoire vs Ecuador"
         }
       ],
       "yellowCards": [
         {
           "player": "Seko Fofana",
-          "team": "Côte d'Ivoire",
-          "match": "Côte d'Ivoire vs Ecuador"
+          "team": "CÃ´te d'Ivoire",
+          "match": "CÃ´te d'Ivoire vs Ecuador"
         },
         {
-          "player": "Franck Kessié",
-          "team": "Côte d'Ivoire",
-          "match": "Côte d'Ivoire vs Ecuador"
+          "player": "Franck KessiÃ©",
+          "team": "CÃ´te d'Ivoire",
+          "match": "CÃ´te d'Ivoire vs Ecuador"
         },
         {
-          "player": "Guéla Doué",
-          "team": "Côte d'Ivoire",
-          "match": "Côte d'Ivoire vs Ecuador"
+          "player": "GuÃ©la DouÃ©",
+          "team": "CÃ´te d'Ivoire",
+          "match": "CÃ´te d'Ivoire vs Ecuador"
         },
         {
           "player": "Jackson Porozo",
           "team": "Ecuador",
-          "match": "Côte d'Ivoire vs Ecuador"
+          "match": "CÃ´te d'Ivoire vs Ecuador"
         }
       ],
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Yahia Fofana",
-      "awayKeeper": "Hernán Galíndez"
+      "awayKeeper": "HernÃ¡n GalÃ­ndez"
     },
     {
       "date": "Sunday, June 14, 2026",
@@ -3302,7 +3254,7 @@
       "homeFlag": "SWE",
       "away": "Tunisia",
       "awayFlag": "TUN",
-      "location": "Estadio BBVA · Monterrey",
+      "location": "Estadio BBVA Â· Monterrey",
       "status": "FT",
       "elapsed": 100,
       "homeScore": 5,
@@ -3319,7 +3271,7 @@
           "match": "Sweden vs Tunisia"
         },
         {
-          "player": "Viktor Gyökeres",
+          "player": "Viktor GyÃ¶keres",
           "team": "Sweden",
           "match": "Sweden vs Tunisia"
         },
@@ -3360,7 +3312,7 @@
       "homeFlag": "ESP",
       "away": "Cabo Verde",
       "awayFlag": "CPV",
-      "location": "Mercedes-Benz Stadium · Atlanta",
+      "location": "Mercedes-Benz Stadium Â· Atlanta",
       "status": "FT",
       "elapsed": 99,
       "homeScore": 0,
@@ -3380,7 +3332,7 @@
       ],
       "redCards": [],
       "penalties": 0,
-      "homeKeeper": "Unai Simónaway",
+      "homeKeeper": "Unai SimÃ³naway",
       "awayKeeper": "Vozinha"
     },
     {
@@ -3392,7 +3344,7 @@
       "homeFlag": "BEL",
       "away": "Egypt",
       "awayFlag": "EGY",
-      "location": "Lumen Field · Seattle",
+      "location": "Lumen Field Â· Seattle",
       "status": "FT",
       "elapsed": 99,
       "homeScore": 1,
@@ -3445,7 +3397,7 @@
       "homeFlag": "KSA",
       "away": "Uruguay",
       "awayFlag": "URU",
-      "location": "Hard Rock Stadium · Miami",
+      "location": "Hard Rock Stadium Â· Miami",
       "status": "FT",
       "elapsed": 99,
       "homeScore": 1,
@@ -3457,7 +3409,7 @@
           "match": "Saudi Arabia vs Uruguay"
         },
         {
-          "player": "Maxi Araújo",
+          "player": "Maxi AraÃºjo",
           "team": "Uruguay",
           "match": "Saudi Arabia vs Uruguay"
         }
@@ -3479,59 +3431,11 @@
       "stage": "Group Stage",
       "group": "Group G",
       "time": "8:00 PM CDT (6:00 PM PDT venue local)",
-      "home": "Iraq",
-      "homeFlag": "IRQ",
-      "away": "New Zealand",
-      "awayFlag": "NZL",
-      "location": "SoFi Stadium · Los Angeles",
-      "status": "FT",
-      "elapsed": 99,
-      "homeScore": 2,
-      "awayScore": 2,
-      "scorers": [
-        {
-          "player": "Elijah Just",
-          "team": "New Zealand",
-          "match": "Iraq vs New Zealand"
-        },
-        {
-          "player": "Elijah Just",
-          "team": "New Zealand",
-          "match": "Iraq vs New Zealand"
-        },
-        {
-          "player": "Ramin Rezaeian",
-          "team": "Iraq",
-          "match": "Iraq vs New Zealand"
-        },
-        {
-          "player": "Mohammad Mohebi",
-          "team": "Iraq",
-          "match": "Iraq vs New Zealand"
-        }
-      ],
-      "yellowCards": [
-        {
-          "player": "Ehsan Hajsafi",
-          "team": "Iraq",
-          "match": "Iraq vs New Zealand"
-        }
-      ],
-      "redCards": [],
-      "penalties": 0,
-      "homeKeeper": "Alireza Beiranvand",
-      "awayKeeper": "Max Crocombe"
-    },
-    {
-      "date": "Monday, June 15, 2026",
-      "stage": "Group Stage",
-      "group": "Group G",
-      "time": "8:00 PM CDT (6:00 PM PDT venue local)",
-      "home": "IR Iran",
+      "home": "Iran",
       "homeFlag": "IRN",
       "away": "New Zealand",
       "awayFlag": "NZL",
-      "location": "SoFi Stadium · Los Angeles",
+      "location": "SoFi Stadium Â· Los Angeles",
       "status": "FT",
       "elapsed": 99,
       "homeScore": 2,
@@ -3540,29 +3444,29 @@
         {
           "player": "Elijah Just",
           "team": "New Zealand",
-          "match": "IR Iran vs New Zealand"
+          "match": "Iran vs New Zealand"
         },
         {
           "player": "Elijah Just",
           "team": "New Zealand",
-          "match": "IR Iran vs New Zealand"
+          "match": "Iran vs New Zealand"
         },
         {
           "player": "Ramin Rezaeian",
-          "team": "IR Iran",
-          "match": "IR Iran vs New Zealand"
+          "team": "Iran",
+          "match": "Iran vs New Zealand"
         },
         {
           "player": "Mohammad Mohebi",
-          "team": "IR Iran",
-          "match": "IR Iran vs New Zealand"
+          "team": "Iran",
+          "match": "Iran vs New Zealand"
         }
       ],
       "yellowCards": [
         {
           "player": "Ehsan Hajsafi",
-          "team": "IR Iran",
-          "match": "IR Iran vs New Zealand"
+          "team": "Iran",
+          "match": "Iran vs New Zealand"
         }
       ],
       "redCards": [],
@@ -3575,7 +3479,7 @@
     "scorers": [
       {
         "name": "Elijah Just",
-        "value": 4,
+        "value": 2,
         "detail": "New Zealand"
       },
       {
@@ -3606,7 +3510,7 @@
       {
         "name": "Amad Diallo",
         "value": 1,
-        "detail": "Côte d'Ivoire"
+        "detail": "CÃ´te d'Ivoire"
       },
       {
         "name": "Boulem Khouki",
@@ -3639,7 +3543,7 @@
         "detail": "Japan"
       },
       {
-        "name": "Damián Bobadilla (OG)",
+        "name": "DamiÃ¡n Bobadilla (OG)",
         "value": 1,
         "detail": "United States"
       },
@@ -3684,12 +3588,12 @@
         "detail": "Scotland"
       },
       {
-        "name": "Jovo Lukić",
+        "name": "Jovo LukiÄ‡",
         "value": 1,
         "detail": "Bosnia and Herzegovina"
       },
       {
-        "name": "Julián Quiñones",
+        "name": "JuliÃ¡n QuiÃ±ones",
         "value": 1,
         "detail": "Mexico"
       },
@@ -3699,14 +3603,14 @@
         "detail": "Japan"
       },
       {
-        "name": "Ladislav Krejčí",
+        "name": "Ladislav KrejÄÃ­",
         "value": 1,
         "detail": "Czechia"
       },
       {
         "name": "Livano Comenencia",
         "value": 1,
-        "detail": "Curaçao"
+        "detail": "CuraÃ§ao"
       },
       {
         "name": "Mattias Svanberg",
@@ -3714,12 +3618,12 @@
         "detail": "Sweden"
       },
       {
-        "name": "Maurício",
+        "name": "MaurÃ­cio",
         "value": 1,
         "detail": "Paraguay"
       },
       {
-        "name": "Maxi Araújo",
+        "name": "Maxi AraÃºjo",
         "value": 1,
         "detail": "Uruguay"
       },
@@ -3731,12 +3635,7 @@
       {
         "name": "Mohammad Mohebi",
         "value": 1,
-        "detail": "Iraq"
-      },
-      {
-        "name": "Mohammad Mohebi",
-        "value": 1,
-        "detail": "IR Iran"
+        "detail": "Iran"
       },
       {
         "name": "Nathaniel Brown",
@@ -3766,25 +3665,20 @@
       {
         "name": "Ramin Rezaeian",
         "value": 1,
-        "detail": "Iraq"
+        "detail": "Iran"
       },
       {
-        "name": "Ramin Rezaeian",
-        "value": 1,
-        "detail": "IR Iran"
-      },
-      {
-        "name": "Raúl Jiménez",
+        "name": "RaÃºl JimÃ©nez",
         "value": 1,
         "detail": "Mexico"
       },
       {
-        "name": "Viktor Gyökeres",
+        "name": "Viktor GyÃ¶keres",
         "value": 1,
         "detail": "Sweden"
       },
       {
-        "name": "Vinícius Júnior",
+        "name": "VinÃ­cius JÃºnior",
         "value": 1,
         "detail": "Brazil"
       },
@@ -3798,167 +3692,194 @@
       {
         "name": "Angus Gunn",
         "value": 1,
-        "detail": "Scotland · 0 goals conceded in 1 appearance"
+        "goalsConceded": 0,
+        "detail": "Scotland Â· 0 goals conceded in 1 appearance"
       },
       {
         "name": "Patrick Beach",
         "value": 1,
-        "detail": "Australia · 0 goals conceded in 1 appearance"
+        "goalsConceded": 0,
+        "detail": "Australia Â· 0 goals conceded in 1 appearance"
       },
       {
-        "name": "Raúl Rangel",
+        "name": "RaÃºl Rangel",
         "value": 1,
-        "detail": "Mexico · 0 goals conceded in 1 appearance"
+        "goalsConceded": 0,
+        "detail": "Mexico Â· 0 goals conceded in 1 appearance"
       },
       {
-        "name": "Unai Simónaway",
+        "name": "Unai SimÃ³naway",
         "value": 1,
-        "detail": "Spain · 0 goals conceded in 1 appearance"
+        "goalsConceded": 0,
+        "detail": "Spain Â· 0 goals conceded in 1 appearance"
       },
       {
         "name": "Vozinha",
         "value": 1,
-        "detail": "Cabo Verde · 0 goals conceded in 1 appearance"
+        "goalsConceded": 0,
+        "detail": "Cabo Verde Â· 0 goals conceded in 1 appearance"
       },
       {
         "name": "Yahia Fofana",
         "value": 1,
-        "detail": "Côte d'Ivoire · 0 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Alireza Beiranvand",
-        "value": 0,
-        "detail": "Iraq · 2 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Alireza Beiranvand",
-        "value": 0,
-        "detail": "IR Iran · 2 goals conceded in 1 appearance"
+        "goalsConceded": 0,
+        "detail": "CÃ´te d'Ivoire Â· 0 goals conceded in 1 appearance"
       },
       {
         "name": "Alisson Becker",
         "value": 0,
-        "detail": "Brazil · 1 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Bart Verbruggen",
-        "value": 0,
-        "detail": "Netherlands · 2 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Eloy Room",
-        "value": 0,
-        "detail": "Curaçao · 7 goals conceded in 1 appearance"
+        "goalsConceded": 1,
+        "detail": "Brazil Â· 1 goals conceded in 1 appearance"
       },
       {
         "name": "Fernando Muslera",
         "value": 0,
-        "detail": "Uruguay · 1 goals conceded in 1 appearance"
+        "goalsConceded": 1,
+        "detail": "Uruguay Â· 1 goals conceded in 1 appearance"
       },
       {
         "name": "Gregor Kobel",
         "value": 0,
-        "detail": "Switzerland · 1 goals conceded in 1 appearance"
+        "goalsConceded": 1,
+        "detail": "Switzerland Â· 1 goals conceded in 1 appearance"
       },
       {
-        "name": "Hernán Galíndez",
+        "name": "HernÃ¡n GalÃ­ndez",
         "value": 0,
-        "detail": "Ecuador · 1 goals conceded in 1 appearance"
+        "goalsConceded": 1,
+        "detail": "Ecuador Â· 1 goals conceded in 1 appearance"
       },
       {
         "name": "Johny Placide",
         "value": 0,
-        "detail": "Haiti · 1 goals conceded in 1 appearance"
+        "goalsConceded": 1,
+        "detail": "Haiti Â· 1 goals conceded in 1 appearance"
       },
       {
         "name": "Kim Seung-gyu",
         "value": 0,
-        "detail": "Korea Republic · 1 goals conceded in 1 appearance"
+        "goalsConceded": 1,
+        "detail": "Korea Republic Â· 1 goals conceded in 1 appearance"
       },
       {
         "name": "Kristoffer Nordfeldt",
         "value": 0,
-        "detail": "Sweden · 1 goals conceded in 1 appearance"
+        "goalsConceded": 1,
+        "detail": "Sweden Â· 1 goals conceded in 1 appearance"
       },
       {
         "name": "Mahmoud Abunada",
         "value": 0,
-        "detail": "Qatar · 1 goals conceded in 1 appearance"
+        "goalsConceded": 1,
+        "detail": "Qatar Â· 1 goals conceded in 1 appearance"
       },
       {
         "name": "Manuel Neuer",
         "value": 0,
-        "detail": "Germany · 1 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Matěj Kovář",
-        "value": 0,
-        "detail": "Czechia · 2 goals conceded in 1 appearance"
+        "goalsConceded": 1,
+        "detail": "Germany Â· 1 goals conceded in 1 appearance"
       },
       {
         "name": "Matt Freese",
         "value": 0,
-        "detail": "United States · 1 goals conceded in 1 appearance"
+        "goalsConceded": 1,
+        "detail": "United States Â· 1 goals conceded in 1 appearance"
       },
       {
-        "name": "Max Crocombe",
+        "name": "Maxime CrÃ©peau",
         "value": 0,
-        "detail": "New Zealand · 4 goals conceded in 2 appearances"
-      },
-      {
-        "name": "Maxime Crépeau",
-        "value": 0,
-        "detail": "Canada · 1 goals conceded in 1 appearance"
+        "goalsConceded": 1,
+        "detail": "Canada Â· 1 goals conceded in 1 appearance"
       },
       {
         "name": "Mohammed Al-Owais",
         "value": 0,
-        "detail": "Saudi Arabia · 1 goals conceded in 1 appearance"
+        "goalsConceded": 1,
+        "detail": "Saudi Arabia Â· 1 goals conceded in 1 appearance"
       },
       {
         "name": "Mostafa Shobeir",
         "value": 0,
-        "detail": "Egypt · 1 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Mouhib Chamakh",
-        "value": 0,
-        "detail": "Tunisia · 5 goals conceded in 1 appearance"
+        "goalsConceded": 1,
+        "detail": "Egypt Â· 1 goals conceded in 1 appearance"
       },
       {
         "name": "Nikola Vasilj",
         "value": 0,
-        "detail": "Bosnia and Herzegovina · 1 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Orlando Gill",
-        "value": 0,
-        "detail": "Paraguay · 4 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Ronwen Williams",
-        "value": 0,
-        "detail": "South Africa · 2 goals conceded in 1 appearance"
+        "goalsConceded": 1,
+        "detail": "Bosnia and Herzegovina Â· 1 goals conceded in 1 appearance"
       },
       {
         "name": "Thibaut Courtois",
         "value": 0,
-        "detail": "Belgium · 1 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Uğurcan Çakır",
-        "value": 0,
-        "detail": "Türkiye · 2 goals conceded in 1 appearance"
+        "goalsConceded": 1,
+        "detail": "Belgium Â· 1 goals conceded in 1 appearance"
       },
       {
         "name": "Yassine Bounou",
         "value": 0,
-        "detail": "Morocco · 1 goals conceded in 1 appearance"
+        "goalsConceded": 1,
+        "detail": "Morocco Â· 1 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Alireza Beiranvand",
+        "value": 0,
+        "goalsConceded": 2,
+        "detail": "Iran Â· 2 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Bart Verbruggen",
+        "value": 0,
+        "goalsConceded": 2,
+        "detail": "Netherlands Â· 2 goals conceded in 1 appearance"
+      },
+      {
+        "name": "MatÄ›j KovÃ¡Å™",
+        "value": 0,
+        "goalsConceded": 2,
+        "detail": "Czechia Â· 2 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Max Crocombe",
+        "value": 0,
+        "goalsConceded": 2,
+        "detail": "New Zealand Â· 2 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Ronwen Williams",
+        "value": 0,
+        "goalsConceded": 2,
+        "detail": "South Africa Â· 2 goals conceded in 1 appearance"
+      },
+      {
+        "name": "UÄŸurcan Ã‡akÄ±r",
+        "value": 0,
+        "goalsConceded": 2,
+        "detail": "TÃ¼rkiye Â· 2 goals conceded in 1 appearance"
       },
       {
         "name": "Zion Suzuki",
         "value": 0,
-        "detail": "Japan · 2 goals conceded in 1 appearance"
+        "goalsConceded": 2,
+        "detail": "Japan Â· 2 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Orlando Gill",
+        "value": 0,
+        "goalsConceded": 4,
+        "detail": "Paraguay Â· 4 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Mouhib Chamakh",
+        "value": 0,
+        "goalsConceded": 5,
+        "detail": "Tunisia Â· 5 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Eloy Room",
+        "value": 0,
+        "goalsConceded": 7,
+        "detail": "CuraÃ§ao Â· 7 goals conceded in 1 appearance"
       }
     ],
     "redCards": {
@@ -3977,9 +3898,9 @@
       "Brazil": 2,
       "Haiti": 1,
       "Scotland": 3,
-      "Türkiye": 1,
+      "TÃ¼rkiye": 1,
       "Netherlands": 3,
-      "Côte d'Ivoire": 3,
+      "CÃ´te d'Ivoire": 3,
       "Ecuador": 1,
       "Tunisia": 1,
       "Spain": 1,
@@ -3987,8 +3908,7 @@
       "Egypt": 2,
       "Belgium": 2,
       "Saudi Arabia": 1,
-      "Iraq": 1,
-      "IR Iran": 1
+      "Iran": 1
     },
     "redCardEvents": [
       {
@@ -4002,7 +3922,7 @@
         "match": "Mexico vs South Africa"
       },
       {
-        "player": "César Montes",
+        "player": "CÃ©sar Montes",
         "team": "Mexico",
         "match": "Mexico vs South Africa"
       }
@@ -4014,7 +3934,7 @@
         "match": "Mexico vs South Africa"
       },
       {
-        "player": "Carlos Gutiérrez",
+        "player": "Carlos GutiÃ©rrez",
         "team": "Mexico",
         "match": "Mexico vs South Africa"
       },
@@ -4029,27 +3949,27 @@
         "match": "Canada vs Bosnia and Herzegovina"
       },
       {
-        "player": "Ermedin Demirović",
+        "player": "Ermedin DemiroviÄ‡",
         "team": "Bosnia and Herzegovina",
         "match": "Canada vs Bosnia and Herzegovina"
       },
       {
-        "player": "Jovo Lukić",
+        "player": "Jovo LukiÄ‡",
         "team": "Bosnia and Herzegovina",
         "match": "Canada vs Bosnia and Herzegovina"
       },
       {
-        "player": "Nikola Katić",
+        "player": "Nikola KatiÄ‡",
         "team": "Bosnia and Herzegovina",
         "match": "Canada vs Bosnia and Herzegovina"
       },
       {
-        "player": "Juan José Cáceres",
+        "player": "Juan JosÃ© CÃ¡ceres",
         "team": "Paraguay",
         "match": "United States vs Paraguay"
       },
       {
-        "player": "Miguel Almirón",
+        "player": "Miguel AlmirÃ³n",
         "team": "Paraguay",
         "match": "United States vs Paraguay"
       },
@@ -4059,17 +3979,17 @@
         "match": "United States vs Paraguay"
       },
       {
-        "player": "Diego Gómez",
+        "player": "Diego GÃ³mez",
         "team": "Paraguay",
         "match": "United States vs Paraguay"
       },
       {
-        "player": "Álex Arce",
+        "player": "Ãlex Arce",
         "team": "Paraguay",
         "match": "United States vs Paraguay"
       },
       {
-        "player": "Júnior Alonso",
+        "player": "JÃºnior Alonso",
         "team": "Paraguay",
         "match": "United States vs Paraguay"
       },
@@ -4119,9 +4039,9 @@
         "match": "Haiti vs Scotland"
       },
       {
-        "player": "Yunus Akgün",
-        "team": "Türkiye",
-        "match": "Australia vs Türkiye"
+        "player": "Yunus AkgÃ¼n",
+        "team": "TÃ¼rkiye",
+        "match": "Australia vs TÃ¼rkiye"
       },
       {
         "player": "Crysencio Summerville",
@@ -4140,23 +4060,23 @@
       },
       {
         "player": "Seko Fofana",
-        "team": "Côte d'Ivoire",
-        "match": "Côte d'Ivoire vs Ecuador"
+        "team": "CÃ´te d'Ivoire",
+        "match": "CÃ´te d'Ivoire vs Ecuador"
       },
       {
-        "player": "Franck Kessié",
-        "team": "Côte d'Ivoire",
-        "match": "Côte d'Ivoire vs Ecuador"
+        "player": "Franck KessiÃ©",
+        "team": "CÃ´te d'Ivoire",
+        "match": "CÃ´te d'Ivoire vs Ecuador"
       },
       {
-        "player": "Guéla Doué",
-        "team": "Côte d'Ivoire",
-        "match": "Côte d'Ivoire vs Ecuador"
+        "player": "GuÃ©la DouÃ©",
+        "team": "CÃ´te d'Ivoire",
+        "match": "CÃ´te d'Ivoire vs Ecuador"
       },
       {
         "player": "Jackson Porozo",
         "team": "Ecuador",
-        "match": "Côte d'Ivoire vs Ecuador"
+        "match": "CÃ´te d'Ivoire vs Ecuador"
       },
       {
         "player": "Rani Khedira",
@@ -4200,13 +4120,8 @@
       },
       {
         "player": "Ehsan Hajsafi",
-        "team": "Iraq",
-        "match": "Iraq vs New Zealand"
-      },
-      {
-        "player": "Ehsan Hajsafi",
-        "team": "IR Iran",
-        "match": "IR Iran vs New Zealand"
+        "team": "Iran",
+        "match": "Iran vs New Zealand"
       }
     ],
     "penaltyEvents": [
@@ -4214,7 +4129,7 @@
         "match": "Qatar vs Switzerland"
       },
       {
-        "match": "Germany vs Curaçao"
+        "match": "Germany vs CuraÃ§ao"
       }
     ],
     "matchStats": [
@@ -4268,14 +4183,14 @@
         "elapsed": 100
       },
       {
-        "match": "Australia vs Türkiye",
+        "match": "Australia vs TÃ¼rkiye",
         "redCards": 0,
         "yellowCards": 1,
         "penalties": 0,
         "elapsed": 100
       },
       {
-        "match": "Germany vs Curaçao",
+        "match": "Germany vs CuraÃ§ao",
         "redCards": 0,
         "yellowCards": 0,
         "penalties": 1,
@@ -4289,7 +4204,7 @@
         "elapsed": 100
       },
       {
-        "match": "Côte d'Ivoire vs Ecuador",
+        "match": "CÃ´te d'Ivoire vs Ecuador",
         "redCards": 0,
         "yellowCards": 4,
         "penalties": 0,
@@ -4324,14 +4239,7 @@
         "elapsed": 99
       },
       {
-        "match": "Iraq vs New Zealand",
-        "redCards": 0,
-        "yellowCards": 1,
-        "penalties": 0,
-        "elapsed": 99
-      },
-      {
-        "match": "IR Iran vs New Zealand",
+        "match": "Iran vs New Zealand",
         "redCards": 0,
         "yellowCards": 1,
         "penalties": 0,
