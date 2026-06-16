@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T03:15:57.984Z",
+  "updatedAt": "2026-06-16T03:20:15.042Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -433,23 +433,23 @@
         "name": "IR Iran",
         "flag": "IRN",
         "fifaRank": 20,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 0,
         "gd": 0,
-        "points": 0
+        "points": 1
       },
       {
         "name": "New Zealand",
         "flag": "NZL",
         "fifaRank": 86,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 0,
         "gd": 0,
-        "points": 0
+        "points": 1
       }
     ],
     "H": [
@@ -1476,14 +1476,51 @@
       "date": "Monday, June 15, 2026",
       "stage": "Group Stage",
       "group": "Group G",
-      "time": "6:00 PM local",
+      "time": "8:00 PM CDT (6:00 PM PDT venue local)",
       "kickoffISO": "2026-06-16T01:00:00Z",
       "home": "IR Iran",
       "homeFlag": "IRN",
       "away": "New Zealand",
       "awayFlag": "NZL",
       "location": "SoFi Stadium · Los Angeles",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 2,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Elijah Just",
+          "team": "New Zealand",
+          "match": "IR Iran vs New Zealand"
+        },
+        {
+          "player": "Elijah Just",
+          "team": "New Zealand",
+          "match": "IR Iran vs New Zealand"
+        },
+        {
+          "player": "Ramin Rezaeian",
+          "team": "IR Iran",
+          "match": "IR Iran vs New Zealand"
+        },
+        {
+          "player": "Mohammad Mohebi",
+          "team": "IR Iran",
+          "match": "IR Iran vs New Zealand"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Ehsan Hajsafi",
+          "team": "IR Iran",
+          "match": "IR Iran vs New Zealand"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Alireza Beiranvand",
+      "awayKeeper": "Max Crocombe"
     },
     {
       "date": "Tuesday, June 16, 2026",
@@ -3484,13 +3521,61 @@
       "penalties": 0,
       "homeKeeper": "Alireza Beiranvand",
       "awayKeeper": "Max Crocombe"
+    },
+    {
+      "date": "Monday, June 15, 2026",
+      "stage": "Group Stage",
+      "group": "Group G",
+      "time": "8:00 PM CDT (6:00 PM PDT venue local)",
+      "home": "IR Iran",
+      "homeFlag": "IRN",
+      "away": "New Zealand",
+      "awayFlag": "NZL",
+      "location": "SoFi Stadium · Los Angeles",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 2,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Elijah Just",
+          "team": "New Zealand",
+          "match": "IR Iran vs New Zealand"
+        },
+        {
+          "player": "Elijah Just",
+          "team": "New Zealand",
+          "match": "IR Iran vs New Zealand"
+        },
+        {
+          "player": "Ramin Rezaeian",
+          "team": "IR Iran",
+          "match": "IR Iran vs New Zealand"
+        },
+        {
+          "player": "Mohammad Mohebi",
+          "team": "IR Iran",
+          "match": "IR Iran vs New Zealand"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Ehsan Hajsafi",
+          "team": "IR Iran",
+          "match": "IR Iran vs New Zealand"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Alireza Beiranvand",
+      "awayKeeper": "Max Crocombe"
     }
   ],
   "detailedStats": {
     "scorers": [
       {
         "name": "Elijah Just",
-        "value": 2,
+        "value": 4,
         "detail": "New Zealand"
       },
       {
@@ -3649,6 +3734,11 @@
         "detail": "Iraq"
       },
       {
+        "name": "Mohammad Mohebi",
+        "value": 1,
+        "detail": "IR Iran"
+      },
+      {
         "name": "Nathaniel Brown",
         "value": 1,
         "detail": "Germany"
@@ -3677,6 +3767,11 @@
         "name": "Ramin Rezaeian",
         "value": 1,
         "detail": "Iraq"
+      },
+      {
+        "name": "Ramin Rezaeian",
+        "value": 1,
+        "detail": "IR Iran"
       },
       {
         "name": "Raúl Jiménez",
@@ -3734,6 +3829,11 @@
         "name": "Alireza Beiranvand",
         "value": 0,
         "detail": "Iraq · 2 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Alireza Beiranvand",
+        "value": 0,
+        "detail": "IR Iran · 2 goals conceded in 1 appearance"
       },
       {
         "name": "Alisson Becker",
@@ -3803,7 +3903,7 @@
       {
         "name": "Max Crocombe",
         "value": 0,
-        "detail": "New Zealand · 2 goals conceded in 1 appearance"
+        "detail": "New Zealand · 4 goals conceded in 2 appearances"
       },
       {
         "name": "Maxime Crépeau",
@@ -3887,7 +3987,8 @@
       "Egypt": 2,
       "Belgium": 2,
       "Saudi Arabia": 1,
-      "Iraq": 1
+      "Iraq": 1,
+      "IR Iran": 1
     },
     "redCardEvents": [
       {
@@ -4101,6 +4202,11 @@
         "player": "Ehsan Hajsafi",
         "team": "Iraq",
         "match": "Iraq vs New Zealand"
+      },
+      {
+        "player": "Ehsan Hajsafi",
+        "team": "IR Iran",
+        "match": "IR Iran vs New Zealand"
       }
     ],
     "penaltyEvents": [
@@ -4219,6 +4325,13 @@
       },
       {
         "match": "Iraq vs New Zealand",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 99
+      },
+      {
+        "match": "IR Iran vs New Zealand",
         "redCards": 0,
         "yellowCards": 1,
         "penalties": 0,
