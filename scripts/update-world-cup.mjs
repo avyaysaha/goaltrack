@@ -13,10 +13,10 @@ if (!key) {
 const aliases = {
   "South Korea": "Korea Republic",
   "USA": "United States",
-  "Ivory Coast": "Côte d'Ivoire",
-  "Iran": "IR Iran",
+  "Ivory Coast": "Cote d'Ivoire",
+  "IR Iran": "Iran",
   "Cape Verde": "Cabo Verde",
-  "Turkey": "Türkiye",
+  "Turkey": "TÃ¼rkiye",
   "Congo DR": "DR Congo"
 };
 
@@ -24,10 +24,10 @@ const countryCodes = {
   "Mexico": "MEX", "Korea Republic": "KOR", "Czechia": "CZE", "South Africa": "RSA",
   "Canada": "CAN", "Bosnia and Herzegovina": "BIH", "Qatar": "QAT", "Switzerland": "SUI",
   "Brazil": "BRA", "Morocco": "MAR", "Haiti": "HAI", "Scotland": "SCO",
-  "United States": "USA", "Paraguay": "PAR", "Australia": "AUS", "Türkiye": "TUR",
-  "Germany": "GER", "Curaçao": "CUW", "Côte d'Ivoire": "CIV", "Ecuador": "ECU",
+  "United States": "USA", "Paraguay": "PAR", "Australia": "AUS", "TÃ¼rkiye": "TUR",
+  "Germany": "GER", "Curacao": "CUW", "Cote d'Ivoire": "CIV", "Ecuador": "ECU",
   "Netherlands": "NED", "Japan": "JPN", "Sweden": "SWE", "Tunisia": "TUN",
-  "Belgium": "BEL", "Egypt": "EGY", "IR Iran": "IRN", "New Zealand": "NZL",
+  "Belgium": "BEL", "Egypt": "EGY", "Iran": "IRN", "New Zealand": "NZL",
   "Spain": "ESP", "Cabo Verde": "CPV", "Saudi Arabia": "KSA", "Uruguay": "URU",
   "France": "FRA", "Senegal": "SEN", "Iraq": "IRQ", "Norway": "NOR",
   "Argentina": "ARG", "Algeria": "ALG", "Austria": "AUT", "Jordan": "JOR",
@@ -39,13 +39,13 @@ const rankings = {
   "Spain": 1, "Argentina": 2, "France": 3, "England": 4, "Brazil": 5, "Portugal": 6,
   "Netherlands": 7, "Belgium": 8, "Germany": 9, "Croatia": 10, "Morocco": 11,
   "Colombia": 13, "United States": 14, "Mexico": 15, "Uruguay": 16, "Switzerland": 17,
-  "Japan": 18, "Senegal": 19, "IR Iran": 20, "Korea Republic": 22, "Ecuador": 23,
-  "Austria": 24, "Türkiye": 25, "Australia": 26, "Canada": 27, "Norway": 29,
+  "Japan": 18, "Senegal": 19, "Iran": 20, "Korea Republic": 22, "Ecuador": 23,
+  "Austria": 24, "TÃ¼rkiye": 25, "Australia": 26, "Canada": 27, "Norway": 29,
   "Panama": 30, "Egypt": 34, "Algeria": 35, "Scotland": 36, "Paraguay": 39,
-  "Tunisia": 40, "Côte d'Ivoire": 42, "Sweden": 43, "Czechia": 44,
+  "Tunisia": 40, "Cote d'Ivoire": 42, "Sweden": 43, "Czechia": 44,
   "Uzbekistan": 50, "Qatar": 51, "DR Congo": 56, "Iraq": 58, "Saudi Arabia": 60,
   "South Africa": 61, "Jordan": 66, "Cabo Verde": 68, "Bosnia and Herzegovina": 71,
-  "Ghana": 72, "Curaçao": 82, "Haiti": 84, "New Zealand": 86
+  "Ghana": 72, "Curacao": 82, "Haiti": 84, "New Zealand": 86
 };
 
 function normalizeName(name = "") {
@@ -97,7 +97,7 @@ function buildStandings(response) {
       return {
         name,
         flag: countryCodes[name] || name.slice(0, 3).toUpperCase(),
-        fifaRank: rankings[name] || "—",
+        fifaRank: rankings[name] || "â€”",
         played: row.all.played,
         won: row.all.win,
         drawn: row.all.draw,
@@ -131,7 +131,7 @@ function buildMatches(fixtures) {
       homeFlag: countryCodes[home] || home.slice(0, 3).toUpperCase(),
       away,
       awayFlag: countryCodes[away] || away.slice(0, 3).toUpperCase(),
-      location: [item.fixture.venue?.name, item.fixture.venue?.city].filter(Boolean).join(" · ") || "Venue TBD",
+      location: [item.fixture.venue?.name, item.fixture.venue?.city].filter(Boolean).join(" Â· ") || "Venue TBD",
       fixtureId: item.fixture.id,
       status: item.fixture.status.short,
       elapsed: item.fixture.status.elapsed,
@@ -238,7 +238,7 @@ function buildKeepers(fixturePlayers) {
     .map((keeper) => ({
       name: keeper.name,
       value: keeper.cleanSheets,
-      detail: `${keeper.team} · ${keeper.saves} saves`
+      detail: `${keeper.team} Â· ${keeper.saves} saves`
     }));
 }
 
