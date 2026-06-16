@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T21:42:31.345Z",
+  "updatedAt": "2026-06-16T01:19:08.433Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -1380,7 +1380,7 @@
     {
       "date": "Monday, June 15, 2026",
       "stage": "Group Stage",
-      "group": "Group H",
+      "group": "Group G",
       "time": "2:00 PM CDT (12:00 PM PDT venue local)",
       "kickoffISO": "2026-06-15T19:00:00Z",
       "home": "Belgium",
@@ -3274,7 +3274,7 @@
     {
       "date": "Monday, June 15, 2026",
       "stage": "Group Stage",
-      "group": "Group H",
+      "group": "Group G",
       "time": "2:00 PM CDT (12:00 PM PDT venue local)",
       "home": "Belgium",
       "homeFlag": "BEL",
