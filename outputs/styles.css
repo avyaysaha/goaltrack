@@ -237,6 +237,22 @@ a {
   min-height: 420px;
 }
 
+.hero-visual::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow:
+    0 35px 70px rgba(0, 0, 0, 0.45),
+    0 0 34px rgba(255, 204, 61, 0.18);
+  transform: translate(-50%, -50%);
+}
+
 .football {
   position: absolute;
   top: 50%;
@@ -247,7 +263,7 @@ a {
   display: block;
   border: 12px solid rgba(255, 255, 255, 0.08);
   border-radius: 50%;
-  background: #ffffff;
+  background: transparent;
   box-shadow:
     0 35px 60px rgba(0, 0, 0, 0.35);
   transform: translate(-50%, -50%) rotate(-9deg);
@@ -259,6 +275,7 @@ a {
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
+  mix-blend-mode: multiply;
 }
 
 .trophy-overlay {
