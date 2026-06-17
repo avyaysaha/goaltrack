@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T03:19:06.262Z",
+  "updatedAt": "2026-06-17T15:59:39.132Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -560,22 +560,22 @@
         "name": "Austria",
         "flag": "AUT",
         "fifaRank": 24,
-        "played": 0,
-        "won": 0,
+        "played": 1,
+        "won": 1,
         "drawn": 0,
         "lost": 0,
-        "gd": 0,
-        "points": 0
+        "gd": 2,
+        "points": 3
       },
       {
         "name": "Jordan",
         "flag": "JOR",
         "fifaRank": 66,
-        "played": 0,
+        "played": 1,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "gd": 0,
+        "lost": 1,
+        "gd": -2,
         "points": 0
       },
       {
@@ -1651,14 +1651,51 @@
       "date": "Tuesday, June 16, 2026",
       "stage": "Group Stage",
       "group": "Group J",
-      "time": "9:00 PM local",
+      "time": "11:00 PM CDT (9:00 PM PDT venue local)",
       "kickoffISO": "2026-06-17T04:00:00Z",
       "home": "Austria",
       "homeFlag": "AUT",
       "away": "Jordan",
       "awayFlag": "JOR",
       "location": "Levi's Stadium · San Francisco Bay Area",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "status": "FT",
+      "elapsed": 108,
+      "homeScore": 3,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Romano Schmid",
+          "team": "Austria",
+          "match": "Austria vs Jordan"
+        },
+        {
+          "player": "Yazan Al-Arab(OG)",
+          "team": "Austria",
+          "match": "Austria vs Jordan"
+        },
+        {
+          "player": "Marko Arnautović",
+          "team": "Austria",
+          "match": "Austria vs Jordan"
+        },
+        {
+          "player": "Ali Olwan",
+          "team": "Jordan",
+          "match": "Austria vs Jordan"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Marcel Sabitzer",
+          "team": "Austria",
+          "match": "Austria vs Jordan"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Alexander Schlager",
+      "awayKeeper": "Yazeed Abulaila"
     },
     {
       "date": "Wednesday, June 17, 2026",
@@ -3596,6 +3633,54 @@
       "penalties": 0,
       "homeKeeper": "Emiliano Martínez",
       "awayKeeper": "Luca Zidane"
+    },
+    {
+      "date": "Tuesday, June 16, 2026",
+      "stage": "Group Stage",
+      "group": "Group J",
+      "time": "11:00 PM CDT (9:00 PM PDT venue local)",
+      "home": "Austria",
+      "homeFlag": "AUT",
+      "away": "Jordan",
+      "awayFlag": "JOR",
+      "location": "Levi's Stadium · San Francisco Bay Area",
+      "status": "FT",
+      "elapsed": 108,
+      "homeScore": 3,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Romano Schmid",
+          "team": "Austria",
+          "match": "Austria vs Jordan"
+        },
+        {
+          "player": "Yazan Al-Arab(OG)",
+          "team": "Austria",
+          "match": "Austria vs Jordan"
+        },
+        {
+          "player": "Marko Arnautović",
+          "team": "Austria",
+          "match": "Austria vs Jordan"
+        },
+        {
+          "player": "Ali Olwan",
+          "team": "Jordan",
+          "match": "Austria vs Jordan"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Marcel Sabitzer",
+          "team": "Austria",
+          "match": "Austria vs Jordan"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Alexander Schlager",
+      "awayKeeper": "Yazeed Abulaila"
     }
   ],
   "detailedStats": {
@@ -3634,6 +3719,11 @@
         "name": "Alexander Isak",
         "value": 1,
         "detail": "Sweden"
+      },
+      {
+        "name": "Ali Olwan",
+        "value": 1,
+        "detail": "Jordan"
       },
       {
         "name": "Amad Diallo",
@@ -3741,6 +3831,11 @@
         "detail": "Curaçao"
       },
       {
+        "name": "Marko Arnautović",
+        "value": 1,
+        "detail": "Austria"
+      },
+      {
         "name": "Mattias Svanberg",
         "value": 1,
         "detail": "Sweden"
@@ -3801,6 +3896,11 @@
         "detail": "Mexico"
       },
       {
+        "name": "Romano Schmid",
+        "value": 1,
+        "detail": "Austria"
+      },
+      {
         "name": "Viktor Gyökeres",
         "value": 1,
         "detail": "Sweden"
@@ -3814,6 +3914,11 @@
         "name": "Virgil van Dijk",
         "value": 1,
         "detail": "Netherlands"
+      },
+      {
+        "name": "Yazan Al-Arab(OG)",
+        "value": 1,
+        "detail": "Austria"
       }
     ],
     "keepers": [
@@ -3851,6 +3956,11 @@
         "name": "Yahia Fofana",
         "value": 1,
         "detail": "Cote d'Ivoire · 0 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Alexander Schlager",
+        "value": 0,
+        "detail": "Austria · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Alireza Beiranvand",
@@ -3983,6 +4093,11 @@
         "detail": "Morocco · 1 goals conceded in 1 appearance"
       },
       {
+        "name": "Yazeed Abulaila",
+        "value": 0,
+        "detail": "Jordan · 3 goals conceded in 1 appearance"
+      },
+      {
         "name": "Zion Suzuki",
         "value": 0,
         "detail": "Japan · 2 goals conceded in 1 appearance"
@@ -4014,7 +4129,8 @@
       "Egypt": 2,
       "Belgium": 2,
       "Saudi Arabia": 1,
-      "Iran": 1
+      "Iran": 1,
+      "Austria": 1
     },
     "redCardEvents": [
       {
@@ -4228,6 +4344,11 @@
         "player": "Ehsan Hajsafi",
         "team": "Iran",
         "match": "Iran vs New Zealand"
+      },
+      {
+        "player": "Marcel Sabitzer",
+        "team": "Austria",
+        "match": "Austria vs Jordan"
       }
     ],
     "penaltyEvents": [
@@ -4236,6 +4357,9 @@
       },
       {
         "match": "Germany vs Curaçao"
+      },
+      {
+        "match": "Austria vs Jordan"
       }
     ],
     "matchStats": [
@@ -4357,6 +4481,13 @@
         "yellowCards": 0,
         "penalties": 0,
         "elapsed": 100
+      },
+      {
+        "match": "Austria vs Jordan",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 1,
+        "elapsed": 108
       }
     ]
   }
