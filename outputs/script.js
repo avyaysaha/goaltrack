@@ -1031,10 +1031,11 @@ function getDetailedStats() {
   const verifiedKeepers = [];
   const fallbackMatchStats = [];
 
-  // Merge verified scorers with cached API data. This also upgrades browsers
-  // that saved the leaderboard before the second completed match.
+  // Prefer scorer totals from finished match records. The saved/API list can
+  // drift after workflow updates, so use it only before match scorers exist.
+  const scorerSource = verifiedScorers.length ? verifiedScorers : (cached.scorers || []);
   const scorerMap = new Map();
-  [...verifiedScorers, ...(cached.scorers || [])].forEach(function (scorer) {
+  scorerSource.forEach(function (scorer) {
     const existing = scorerMap.get(scorer.name);
     if (!existing || scorer.value > existing.value) {
       scorerMap.set(scorer.name, scorer);
