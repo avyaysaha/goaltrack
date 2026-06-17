@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T02:13:18.660Z",
+  "updatedAt": "2026-06-17T02:22:35.683Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -500,6 +500,17 @@
     ],
     "I": [
       {
+        "name": "Norway",
+        "flag": "NOR",
+        "fifaRank": 29,
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 3,
+        "points": 3
+      },
+      {
         "name": "France",
         "flag": "FRA",
         "fifaRank": 3,
@@ -511,28 +522,6 @@
         "points": 3
       },
       {
-        "name": "Iraq",
-        "flag": "IRQ",
-        "fifaRank": 58,
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 0,
-        "points": 0
-      },
-      {
-        "name": "Norway",
-        "flag": "NOR",
-        "fifaRank": 29,
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 0,
-        "points": 0
-      },
-      {
         "name": "Senegal",
         "flag": "SEN",
         "fifaRank": 19,
@@ -541,6 +530,17 @@
         "drawn": 0,
         "lost": 1,
         "gd": -2,
+        "points": 0
+      },
+      {
+        "name": "Iraq",
+        "flag": "IRQ",
+        "fifaRank": 58,
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "gd": -3,
         "points": 0
       }
     ],
@@ -1577,7 +1577,17 @@
       "away": "Norway",
       "awayFlag": "NOR",
       "location": "Gillette Stadium · Boston",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 1,
+      "awayScore": 4,
+      "scorers": [],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "",
+      "awayKeeper": ""
     },
     {
       "date": "Tuesday, June 16, 2026",
@@ -3546,6 +3556,27 @@
       "penalties": 0,
       "homeKeeper": "Mike Maignan",
       "awayKeeper": "Édouard Mendy"
+    },
+    {
+      "date": "Tuesday, June 16, 2026",
+      "stage": "Group Stage",
+      "group": "Group I",
+      "time": "6:00 PM local",
+      "home": "Iraq",
+      "homeFlag": "IRQ",
+      "away": "Norway",
+      "awayFlag": "NOR",
+      "location": "Gillette Stadium · Boston",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 1,
+      "awayScore": 4,
+      "scorers": [],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "",
+      "awayKeeper": ""
     }
   ],
   "detailedStats": {
@@ -4317,6 +4348,13 @@
         "yellowCards": 0,
         "penalties": 0,
         "elapsed": 101
+      },
+      {
+        "match": "Iraq vs Norway",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 99
       }
     ]
   }
