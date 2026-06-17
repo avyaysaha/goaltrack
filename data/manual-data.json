@@ -500,28 +500,6 @@
     ],
     "I": [
       {
-        "name": "France",
-        "flag": "FRA",
-        "fifaRank": 3,
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 0,
-        "points": 0
-      },
-      {
-        "name": "Iraq",
-        "flag": "IRQ",
-        "fifaRank": 58,
-        "played": 1,
-        "won": 0,
-        "drawn": 0,
-        "lost": 1,
-        "gd": -3,
-        "points": 0
-      },
-      {
         "name": "Norway",
         "flag": "NOR",
         "fifaRank": 29,
@@ -533,14 +511,36 @@
         "points": 3
       },
       {
+        "name": "France",
+        "flag": "FRA",
+        "fifaRank": 3,
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 2,
+        "points": 3
+      },
+      {
         "name": "Senegal",
         "flag": "SEN",
         "fifaRank": 19,
-        "played": 0,
+        "played": 1,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "gd": 0,
+        "lost": 1,
+        "gd": -2,
+        "points": 0
+      },
+      {
+        "name": "Iraq",
+        "flag": "IRQ",
+        "fifaRank": 58,
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "gd": -3,
         "points": 0
       }
     ],
@@ -1533,7 +1533,38 @@
       "away": "Senegal",
       "awayFlag": "SEN",
       "location": "MetLife Stadium · New Jersey",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 3,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Kylian Mbappé",
+          "team": "France",
+          "match": "France vs Senegal"
+        },
+        {
+          "player": "Bradley Barcola",
+          "team": "France",
+          "match": "France vs Senegal"
+        },
+        {
+          "player": "Ibrahim Mbaye",
+          "team": "Senegal",
+          "match": "France vs Senegal"
+        },
+        {
+          "player": "Kylian Mbappé",
+          "team": "France",
+          "match": "France vs Senegal"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Mike Maignan",
+      "awayKeeper": "Édouard Mendy"
     },
     {
       "date": "Tuesday, June 16, 2026",
@@ -3527,6 +3558,11 @@
         "detail": "Germany"
       },
       {
+        "name": "Kylian Mbappé",
+        "value": 2,
+        "detail": "France"
+      },
+      {
         "name": "Yasin Ayari",
         "value": 2,
         "detail": "Sweden"
@@ -3555,6 +3591,11 @@
         "name": "Boulem Khouki",
         "value": 1,
         "detail": "Qatar"
+      },
+      {
+        "name": "Bradley Barcola",
+        "value": 1,
+        "detail": "France"
       },
       {
         "name": "Breel Embolo",
@@ -3610,6 +3651,11 @@
         "name": "Hwang In-beom",
         "value": 1,
         "detail": "Korea Republic"
+      },
+      {
+        "name": "Ibrahim Mbaye",
+        "value": 1,
+        "detail": "Senegal"
       },
       {
         "name": "Ismael Saibari",
@@ -4295,6 +4341,13 @@
         "yellowCards": 0,
         "penalties": 0,
         "elapsed": 99
+      },
+      {
+        "match": "France vs Senegal",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 100
       }
     ]
   }
