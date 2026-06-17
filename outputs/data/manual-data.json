@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T03:33:06.303Z",
+  "updatedAt": "2026-06-17T03:19:06.262Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -500,55 +500,20 @@
     ],
     "I": [
       {
-        "name": "Norway",
-        "flag": "NOR",
-        "fifaRank": 29,
-        "played": 1,
-        "won": 1,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 3,
-        "points": 3
-      },
-      {
         "name": "France",
         "flag": "FRA",
         "fifaRank": 3,
-        "played": 1,
-        "won": 1,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 2,
-        "points": 3
-      },
-      {
-        "name": "Senegal",
-        "flag": "SEN",
-        "fifaRank": 19,
-        "played": 1,
+        "played": 0,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
-        "gd": -2,
+        "lost": 0,
+        "gd": 0,
         "points": 0
       },
       {
         "name": "Iraq",
         "flag": "IRQ",
         "fifaRank": 58,
-        "played": 1,
-        "won": 0,
-        "drawn": 0,
-        "lost": 1,
-        "gd": -3,
-        "points": 0
-      }
-    ],
-    "J": [
-      {
-        "name": "Algeria",
-        "flag": "ALG",
-        "fifaRank": 35,
         "played": 0,
         "won": 0,
         "drawn": 0,
@@ -557,15 +522,39 @@
         "points": 0
       },
       {
-        "name": "Argentina",
-        "flag": "ARG",
-        "fifaRank": 2,
+        "name": "Norway",
+        "flag": "NOR",
+        "fifaRank": 29,
         "played": 0,
         "won": 0,
         "drawn": 0,
         "lost": 0,
         "gd": 0,
         "points": 0
+      },
+      {
+        "name": "Senegal",
+        "flag": "SEN",
+        "fifaRank": 19,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      }
+    ],
+    "J": [
+      {
+        "name": "Argentina",
+        "flag": "ARG",
+        "fifaRank": 2,
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 3,
+        "points": 3
       },
       {
         "name": "Austria",
@@ -587,6 +576,17 @@
         "drawn": 0,
         "lost": 0,
         "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Algeria",
+        "flag": "ALG",
+        "fifaRank": 35,
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "gd": -3,
         "points": 0
       }
     ],
@@ -1612,14 +1612,40 @@
       "date": "Tuesday, June 16, 2026",
       "stage": "Group Stage",
       "group": "Group J",
-      "time": "8:00 PM local",
+      "time": "8:00 PM CDT (8:00 PM CDT venue local)",
       "kickoffISO": "2026-06-17T01:00:00Z",
       "home": "Argentina",
       "homeFlag": "ARG",
       "away": "Algeria",
       "awayFlag": "ALG",
       "location": "GEHA Field at Arrowhead Stadium · Kansas City",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 3,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Lionel Messi",
+          "team": "Argentina",
+          "match": "Argentina vs Algeria"
+        },
+        {
+          "player": "Lionel Messi",
+          "team": "Argentina",
+          "match": "Argentina vs Algeria"
+        },
+        {
+          "player": "Lionel Messi",
+          "team": "Argentina",
+          "match": "Argentina vs Algeria"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Emiliano Martínez",
+      "awayKeeper": "Luca Zidane"
     },
     {
       "date": "Tuesday, June 16, 2026",
@@ -3533,19 +3559,56 @@
       "penalties": 0,
       "homeKeeper": "Alireza Beiranvand",
       "awayKeeper": "Max Crocombe"
+    },
+    {
+      "date": "Tuesday, June 16, 2026",
+      "stage": "Group Stage",
+      "group": "Group J",
+      "time": "8:00 PM CDT (8:00 PM CDT venue local)",
+      "home": "Argentina",
+      "homeFlag": "ARG",
+      "away": "Algeria",
+      "awayFlag": "ALG",
+      "location": "GEHA Field at Arrowhead Stadium · Kansas City",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 3,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Lionel Messi",
+          "team": "Argentina",
+          "match": "Argentina vs Algeria"
+        },
+        {
+          "player": "Lionel Messi",
+          "team": "Argentina",
+          "match": "Argentina vs Algeria"
+        },
+        {
+          "player": "Lionel Messi",
+          "team": "Argentina",
+          "match": "Argentina vs Algeria"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Emiliano Martínez",
+      "awayKeeper": "Luca Zidane"
     }
   ],
   "detailedStats": {
     "scorers": [
       {
+        "name": "Lionel Messi",
+        "value": 3,
+        "detail": "Argentina"
+      },
+      {
         "name": "Elijah Just",
         "value": 2,
         "detail": "New Zealand"
-      },
-      {
-        "name": "Erling Haaland",
-        "value": 2,
-        "detail": "Norway"
       },
       {
         "name": "Folarin Balogun",
@@ -3556,11 +3619,6 @@
         "name": "Kai Havertz",
         "value": 2,
         "detail": "Germany"
-      },
-      {
-        "name": "Kylian Mbappé",
-        "value": 2,
-        "detail": "France"
       },
       {
         "name": "Yasin Ayari",
@@ -3583,19 +3641,9 @@
         "detail": "Cote d'Ivoire"
       },
       {
-        "name": "Aymen Hussein",
-        "value": 1,
-        "detail": "Iraq"
-      },
-      {
         "name": "Boulem Khouki",
         "value": 1,
         "detail": "Qatar"
-      },
-      {
-        "name": "Bradley Barcola",
-        "value": 1,
-        "detail": "France"
       },
       {
         "name": "Breel Embolo",
@@ -3653,11 +3701,6 @@
         "detail": "Korea Republic"
       },
       {
-        "name": "Ibrahim Mbaye",
-        "value": 1,
-        "detail": "Senegal"
-      },
-      {
         "name": "Ismael Saibari",
         "value": 1,
         "detail": "Morocco"
@@ -3691,11 +3734,6 @@
         "name": "Ladislav Krejčí",
         "value": 1,
         "detail": "Czechia"
-      },
-      {
-        "name": "Leo Østigård",
-        "value": 1,
-        "detail": "Norway"
       },
       {
         "name": "Livano Comenencia",
@@ -3782,194 +3820,172 @@
       {
         "name": "Angus Gunn",
         "value": 1,
-        "goalsConceded": 0,
         "detail": "Scotland · 0 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Emiliano Martínez",
+        "value": 1,
+        "detail": "Argentina · 0 goals conceded in 1 appearance"
       },
       {
         "name": "Patrick Beach",
         "value": 1,
-        "goalsConceded": 0,
         "detail": "Australia · 0 goals conceded in 1 appearance"
       },
       {
         "name": "Raúl Rangel",
         "value": 1,
-        "goalsConceded": 0,
         "detail": "Mexico · 0 goals conceded in 1 appearance"
       },
       {
         "name": "Unai Simón",
         "value": 1,
-        "goalsConceded": 0,
         "detail": "Spain · 0 goals conceded in 1 appearance"
       },
       {
         "name": "Vozinha",
         "value": 1,
-        "goalsConceded": 0,
         "detail": "Cabo Verde · 0 goals conceded in 1 appearance"
       },
       {
         "name": "Yahia Fofana",
         "value": 1,
-        "goalsConceded": 0,
         "detail": "Cote d'Ivoire · 0 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Alireza Beiranvand",
+        "value": 0,
+        "detail": "Iran · 2 goals conceded in 1 appearance"
       },
       {
         "name": "Alisson Becker",
         "value": 0,
-        "goalsConceded": 1,
         "detail": "Brazil · 1 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Bart Verbruggen",
+        "value": 0,
+        "detail": "Netherlands · 2 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Eloy Room",
+        "value": 0,
+        "detail": "Curaçao · 7 goals conceded in 1 appearance"
       },
       {
         "name": "Fernando Muslera",
         "value": 0,
-        "goalsConceded": 1,
         "detail": "Uruguay · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Gregor Kobel",
         "value": 0,
-        "goalsConceded": 1,
         "detail": "Switzerland · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Hernán Galíndez",
         "value": 0,
-        "goalsConceded": 1,
         "detail": "Ecuador · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Johny Placide",
         "value": 0,
-        "goalsConceded": 1,
         "detail": "Haiti · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Kim Seung-gyu",
         "value": 0,
-        "goalsConceded": 1,
         "detail": "Korea Republic · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Kristoffer Nordfeldt",
         "value": 0,
-        "goalsConceded": 1,
         "detail": "Sweden · 1 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Luca Zidane",
+        "value": 0,
+        "detail": "Algeria · 3 goals conceded in 1 appearance"
       },
       {
         "name": "Mahmoud Abunada",
         "value": 0,
-        "goalsConceded": 1,
         "detail": "Qatar · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Manuel Neuer",
         "value": 0,
-        "goalsConceded": 1,
         "detail": "Germany · 1 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Matěj Kovář",
+        "value": 0,
+        "detail": "Czechia · 2 goals conceded in 1 appearance"
       },
       {
         "name": "Matt Freese",
         "value": 0,
-        "goalsConceded": 1,
         "detail": "United States · 1 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Max Crocombe",
+        "value": 0,
+        "detail": "New Zealand · 2 goals conceded in 1 appearance"
       },
       {
         "name": "Maxime Crépeau",
         "value": 0,
-        "goalsConceded": 1,
         "detail": "Canada · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Mohammed Al-Owais",
         "value": 0,
-        "goalsConceded": 1,
         "detail": "Saudi Arabia · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Mostafa Shobeir",
         "value": 0,
-        "goalsConceded": 1,
         "detail": "Egypt · 1 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Nikola Vasilj",
-        "value": 0,
-        "goalsConceded": 1,
-        "detail": "Bosnia and Herzegovina · 1 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Thibaut Courtois",
-        "value": 0,
-        "goalsConceded": 1,
-        "detail": "Belgium · 1 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Yassine Bounou",
-        "value": 0,
-        "goalsConceded": 1,
-        "detail": "Morocco · 1 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Alireza Beiranvand",
-        "value": 0,
-        "goalsConceded": 2,
-        "detail": "Iran · 2 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Bart Verbruggen",
-        "value": 0,
-        "goalsConceded": 2,
-        "detail": "Netherlands · 2 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Matěj Kovář",
-        "value": 0,
-        "goalsConceded": 2,
-        "detail": "Czechia · 2 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Max Crocombe",
-        "value": 0,
-        "goalsConceded": 2,
-        "detail": "New Zealand · 2 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Ronwen Williams",
-        "value": 0,
-        "goalsConceded": 2,
-        "detail": "South Africa · 2 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Uğurcan Çakır",
-        "value": 0,
-        "goalsConceded": 2,
-        "detail": "Türkiye · 2 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Zion Suzuki",
-        "value": 0,
-        "goalsConceded": 2,
-        "detail": "Japan · 2 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Orlando Gill",
-        "value": 0,
-        "goalsConceded": 4,
-        "detail": "Paraguay · 4 goals conceded in 1 appearance"
       },
       {
         "name": "Mouhib Chamakh",
         "value": 0,
-        "goalsConceded": 5,
         "detail": "Tunisia · 5 goals conceded in 1 appearance"
       },
       {
-        "name": "Eloy Room",
+        "name": "Nikola Vasilj",
         "value": 0,
-        "goalsConceded": 7,
-        "detail": "Curaçao · 7 goals conceded in 1 appearance"
+        "detail": "Bosnia and Herzegovina · 1 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Orlando Gill",
+        "value": 0,
+        "detail": "Paraguay · 4 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Ronwen Williams",
+        "value": 0,
+        "detail": "South Africa · 2 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Thibaut Courtois",
+        "value": 0,
+        "detail": "Belgium · 1 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Uğurcan Çakır",
+        "value": 0,
+        "detail": "Türkiye · 2 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Yassine Bounou",
+        "value": 0,
+        "detail": "Morocco · 1 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Zion Suzuki",
+        "value": 0,
+        "detail": "Japan · 2 goals conceded in 1 appearance"
       }
     ],
     "redCards": {
@@ -4336,14 +4352,7 @@
         "elapsed": 99
       },
       {
-        "match": "Iraq vs Norway",
-        "redCards": 0,
-        "yellowCards": 0,
-        "penalties": 0,
-        "elapsed": 99
-      },
-      {
-        "match": "France vs Senegal",
+        "match": "Argentina vs Algeria",
         "redCards": 0,
         "yellowCards": 0,
         "penalties": 0,
