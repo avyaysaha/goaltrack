@@ -960,35 +960,6 @@ function compareGoalLeaders(a, b) {
     a.name.localeCompare(b.name, "en", { sensitivity: "base" });
 }
 
-function getVerifiedScorersFromMatches() {
-  const totals = new Map();
-
-  matches.forEach(function (match) {
-    if (!["FT", "AET", "PEN"].includes(match.status)) {
-      return;
-    }
-
-    (match.scorers || []).forEach(function (scorer) {
-      const playerName = scorer.player || scorer.name;
-      const teamName = scorer.team || "Team unavailable";
-      if (!playerName || /\bOG\b|own goal/i.test(playerName)) {
-        return;
-      }
-
-      const key = `${playerName}|${teamName}`;
-      const total = totals.get(key) || {
-        name: playerName,
-        value: 0,
-        detail: teamName
-      };
-      total.value += Number(scorer.goals || scorer.value || 1);
-      totals.set(key, total);
-    });
-  });
-
-  return [...totals.values()];
-}
-
 function getKeeperResultTotals() {
   const totals = new Map();
 
@@ -1027,15 +998,14 @@ function getDetailedStats() {
 
   const cached = readDetailedStatsCache();
 
-  const verifiedScorers = getVerifiedScorersFromMatches();
+  const verifiedScorers = [];
   const verifiedKeepers = [];
   const fallbackMatchStats = [];
 
-  // Prefer scorer totals from finished match records. The saved/API list can
-  // drift after workflow updates, so use it only before match scorers exist.
-  const scorerSource = verifiedScorers.length ? verifiedScorers : (cached.scorers || []);
+  // Merge verified scorers with cached API data. This also upgrades browsers
+  // that saved the leaderboard before the second completed match.
   const scorerMap = new Map();
-  scorerSource.forEach(function (scorer) {
+  [...verifiedScorers, ...(cached.scorers || [])].forEach(function (scorer) {
     const existing = scorerMap.get(scorer.name);
     if (!existing || scorer.value > existing.value) {
       scorerMap.set(scorer.name, scorer);
