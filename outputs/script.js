@@ -1,4 +1,4 @@
-﻿/*
+/*
   GoalTrack JavaScript
   --------------------
   This file is shared by all three pages. Each section first checks whether
@@ -960,6 +960,35 @@ function compareGoalLeaders(a, b) {
     a.name.localeCompare(b.name, "en", { sensitivity: "base" });
 }
 
+function getVerifiedScorersFromMatches() {
+  const totals = new Map();
+
+  matches.forEach(function (match) {
+    if (!["FT", "AET", "PEN"].includes(match.status)) {
+      return;
+    }
+
+    (match.scorers || []).forEach(function (scorer) {
+      const playerName = scorer.player || scorer.name;
+      const teamName = scorer.team || "Team unavailable";
+      if (!playerName || /\bOG\b|own goal/i.test(playerName)) {
+        return;
+      }
+
+      const key = `${playerName}|${teamName}`;
+      const total = totals.get(key) || {
+        name: playerName,
+        value: 0,
+        detail: teamName
+      };
+      total.value += Number(scorer.goals || scorer.value || 1);
+      totals.set(key, total);
+    });
+  });
+
+  return [...totals.values()];
+}
+
 function getKeeperResultTotals() {
   const totals = new Map();
 
@@ -998,7 +1027,7 @@ function getDetailedStats() {
 
   const cached = readDetailedStatsCache();
 
-  const verifiedScorers = [];
+  const verifiedScorers = getVerifiedScorersFromMatches();
   const verifiedKeepers = [];
   const fallbackMatchStats = [];
 
