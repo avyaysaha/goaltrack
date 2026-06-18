@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T21:24:04.748Z",
+  "updatedAt": "2026-06-18T21:36:22.499Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -178,15 +178,15 @@
     ],
     "B": [
       {
-        "name": "Bosnia and Herzegovina",
-        "flag": "BIH",
-        "fifaRank": 71,
-        "played": 1,
-        "won": 0,
+        "name": "Switzerland",
+        "flag": "SUI",
+        "fifaRank": 17,
+        "played": 2,
+        "won": 1,
         "drawn": 1,
         "lost": 0,
-        "gd": 0,
-        "points": 1
+        "gd": 3,
+        "points": 4
       },
       {
         "name": "Canada",
@@ -211,14 +211,14 @@
         "points": 1
       },
       {
-        "name": "Switzerland",
-        "flag": "SUI",
-        "fifaRank": 17,
-        "played": 1,
+        "name": "Bosnia and Herzegovina",
+        "flag": "BIH",
+        "fifaRank": 71,
+        "played": 2,
         "won": 0,
         "drawn": 1,
-        "lost": 0,
-        "gd": 0,
+        "lost": 1,
+        "gd": -3,
         "points": 1
       }
     ],
@@ -1945,14 +1945,72 @@
       "date": "Thursday, June 18, 2026",
       "stage": "Group Stage",
       "group": "Group B",
-      "time": "12:00 PM local",
+      "time": "2:00 PM CDT (12:00 PM PDT venue local)",
       "kickoffISO": "2026-06-18T19:00:00Z",
       "home": "Switzerland",
       "homeFlag": "SUI",
       "away": "Bosnia and Herzegovina",
       "awayFlag": "BIH",
       "location": "SoFi Stadium · Los Angeles",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 4,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Johan Manzambi",
+          "team": "Switzerland",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Johan Manzambi",
+          "team": "Switzerland",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Rubén Vargas",
+          "team": "Switzerland",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Granit Xhaka",
+          "team": "Switzerland",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Ermin Mahmić",
+          "team": "Bosnia and Herzegovina",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Nico Elvedi",
+          "team": "Switzerland",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Amar Dedić",
+          "team": "Bosnia and Herzegovina",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Edin Džeko",
+          "team": "Bosnia and Herzegovina",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        }
+      ],
+      "redCards": [
+        {
+          "player": "Tarik Muharemović",
+          "team": "Bosnia and Herzegovina",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        }
+      ],
+      "penalties": 1,
+      "homeKeeper": "Gregor Kobel",
+      "awayKeeper": "Nikola Vasilj"
     },
     {
       "date": "Thursday, June 18, 2026",
@@ -4094,6 +4152,75 @@
       "penalties": 0,
       "homeKeeper": "Matěj Kovář",
       "awayKeeper": "Ronwen Williams"
+    },
+    {
+      "date": "Thursday, June 18, 2026",
+      "stage": "Group Stage",
+      "group": "Group B",
+      "time": "2:00 PM CDT (12:00 PM PDT venue local)",
+      "home": "Switzerland",
+      "homeFlag": "SUI",
+      "away": "Bosnia and Herzegovina",
+      "awayFlag": "BIH",
+      "location": "SoFi Stadium · Los Angeles",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 4,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Johan Manzambi",
+          "team": "Switzerland",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Johan Manzambi",
+          "team": "Switzerland",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Rubén Vargas",
+          "team": "Switzerland",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Granit Xhaka",
+          "team": "Switzerland",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Ermin Mahmić",
+          "team": "Bosnia and Herzegovina",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Nico Elvedi",
+          "team": "Switzerland",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Amar Dedić",
+          "team": "Bosnia and Herzegovina",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Edin Džeko",
+          "team": "Bosnia and Herzegovina",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        }
+      ],
+      "redCards": [
+        {
+          "player": "Tarik Muharemović",
+          "team": "Bosnia and Herzegovina",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        }
+      ],
+      "penalties": 1,
+      "homeKeeper": "Gregor Kobel",
+      "awayKeeper": "Nikola Vasilj"
     }
   ],
   "detailedStats": {
@@ -4117,6 +4244,11 @@
         "name": "Harry Kane",
         "value": 2,
         "detail": "England"
+      },
+      {
+        "name": "Johan Manzambi",
+        "value": 2,
+        "detail": "Switzerland"
       },
       {
         "name": "Kai Havertz",
@@ -4209,6 +4341,11 @@
         "detail": "Egypt"
       },
       {
+        "name": "Ermin Mahmić",
+        "value": 1,
+        "detail": "Bosnia and Herzegovina"
+      },
+      {
         "name": "Felix Nmecha",
         "value": 1,
         "detail": "Germany"
@@ -4217,6 +4354,11 @@
         "name": "Gio Reyna",
         "value": 1,
         "detail": "United States"
+      },
+      {
+        "name": "Granit Xhaka",
+        "value": 1,
+        "detail": "Switzerland"
       },
       {
         "name": "Hwang In-beom",
@@ -4374,6 +4516,11 @@
         "detail": "Austria"
       },
       {
+        "name": "Rubén Vargas",
+        "value": 1,
+        "detail": "Switzerland"
+      },
+      {
         "name": "Teboho Mokoena",
         "value": 1,
         "detail": "South Africa"
@@ -4493,7 +4640,7 @@
       {
         "name": "Gregor Kobel",
         "value": 0,
-        "detail": "Switzerland · 1 goals conceded in 1 appearance"
+        "detail": "Switzerland · 2 goals conceded in 2 appearances"
       },
       {
         "name": "Hernán Galíndez",
@@ -4578,7 +4725,7 @@
       {
         "name": "Nikola Vasilj",
         "value": 0,
-        "detail": "Bosnia and Herzegovina · 1 goals conceded in 1 appearance"
+        "detail": "Bosnia and Herzegovina · 5 goals conceded in 2 appearances"
       },
       {
         "name": "Orlando Gill",
@@ -4629,17 +4776,18 @@
     "redCards": {
       "South Africa": 2,
       "Mexico": 1,
-      "Iran": 2
+      "Iran": 2,
+      "Bosnia and Herzegovina": 1
     },
     "yellowCards": {
       "South Africa": 3,
       "Mexico": 1,
       "Canada": 1,
-      "Bosnia and Herzegovina": 3,
+      "Bosnia and Herzegovina": 5,
       "Paraguay": 5,
       "United States": 1,
       "Qatar": 2,
-      "Switzerland": 1,
+      "Switzerland": 2,
       "Brazil": 2,
       "Haiti": 1,
       "Scotland": 3,
@@ -4686,6 +4834,11 @@
         "player": "Player",
         "team": "Iran",
         "match": "Portugal vs DR Congo"
+      },
+      {
+        "player": "Tarik Muharemović",
+        "team": "Bosnia and Herzegovina",
+        "match": "Switzerland vs Bosnia and Herzegovina"
       }
     ],
     "yellowCardEvents": [
@@ -4923,6 +5076,21 @@
         "player": "Bathusi Aubaas",
         "team": "South Africa",
         "match": "Czechia vs South Africa"
+      },
+      {
+        "player": "Nico Elvedi",
+        "team": "Switzerland",
+        "match": "Switzerland vs Bosnia and Herzegovina"
+      },
+      {
+        "player": "Amar Dedić",
+        "team": "Bosnia and Herzegovina",
+        "match": "Switzerland vs Bosnia and Herzegovina"
+      },
+      {
+        "player": "Edin Džeko",
+        "team": "Bosnia and Herzegovina",
+        "match": "Switzerland vs Bosnia and Herzegovina"
       }
     ],
     "penaltyEvents": [
@@ -4940,6 +5108,9 @@
       },
       {
         "match": "Ghana vs Panama"
+      },
+      {
+        "match": "Switzerland vs Bosnia and Herzegovina"
       }
     ],
     "matchStats": [
@@ -5103,6 +5274,13 @@
         "yellowCards": 2,
         "penalties": 0,
         "elapsed": 101
+      },
+      {
+        "match": "Switzerland vs Bosnia and Herzegovina",
+        "redCards": 1,
+        "yellowCards": 3,
+        "penalties": 1,
+        "elapsed": 99
       }
     ]
   }
