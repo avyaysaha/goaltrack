@@ -833,6 +833,25 @@ function showUpdateTime(isoTime) {
 
 }
 
+function cleanMatchLocation(location) {
+  return String(location || "Venue TBD")
+    .replace(/^\s*⌖\s*/u, "")
+    .replace(/\s*,?\s*You said:.*$/i, "")
+    .replace(/\s*,?\s*yellow=Player\|Team.*$/i, "")
+    .replace(/\s*[•]\s*/gu, " · ")
+    .replace(/\s*·\s*/g, " · ")
+    .trim();
+}
+
+function getDisplayGroup(match) {
+  if (match.group && match.group !== "Group") {
+    return match.group;
+  }
+
+  const team = findBundledTeam(match.home) || findBundledTeam(match.away);
+  return team ? `Group ${team.group}` : (match.group || "Group");
+}
+
 function renderSchedule() {
   if (!scheduleList) {
     return;
@@ -884,11 +903,13 @@ function renderSchedule() {
         : live
           ? `${match.elapsed || ""}' LIVE · ${match.displayTime}`
           : match.displayTime;
+      const displayLocation = cleanMatchLocation(match.location);
+      const displayGroup = getDisplayGroup(match);
 
       return `
         <article class="match-card${finished ? " match-card-finished" : ""}">
           <div class="match-meta">
-            <span>${match.group}</span>
+            <span>${displayGroup}</span>
             <span class="${live ? "live-badge" : ""}">${statusLabel}</span>
           </div>
           <div class="teams">
@@ -896,7 +917,7 @@ function renderSchedule() {
             ${scoreOrVersus}
             <div class="team">${match.away}<span class="${/^[A-Z0-9]{2,3}$/.test(match.awayFlag) ? "team-code" : ""}">${match.awayFlag}</span></div>
           </div>
-          <p class="match-location">⌖ ${match.location}</p>
+          <p class="match-location">⌖ ${displayLocation}</p>
         </article>
       `;
     }).join("");
