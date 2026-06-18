@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T21:15:03.816Z",
+  "updatedAt": "2026-06-18T21:24:04.748Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -157,23 +157,23 @@
         "name": "Czechia",
         "flag": "CZE",
         "fifaRank": 44,
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 1,
         "gd": -1,
-        "points": 0
+        "points": 1
       },
       {
         "name": "South Africa",
         "flag": "RSA",
         "fifaRank": 61,
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 1,
         "gd": -2,
-        "points": 0
+        "points": 1
       }
     ],
     "B": [
@@ -1900,14 +1900,46 @@
       "date": "Thursday, June 18, 2026",
       "stage": "Group Stage",
       "group": "Group A",
-      "time": "12:00 PM local",
+      "time": "11:00 AM CDT (12:00 PM EDT venue local)",
       "kickoffISO": "2026-06-18T16:00:00Z",
       "home": "Czechia",
       "homeFlag": "CZE",
       "away": "South Africa",
       "awayFlag": "RSA",
       "location": "Mercedes-Benz Stadium · Atlanta",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Michal Sadílek",
+          "team": "Czechia",
+          "match": "Czechia vs South Africa"
+        },
+        {
+          "player": "Teboho Mokoena",
+          "team": "South Africa",
+          "match": "Czechia vs South Africa"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Ladislav Krejčí",
+          "team": "Czechia",
+          "match": "Czechia vs South Africa"
+        },
+        {
+          "player": "Bathusi Aubaas",
+          "team": "South Africa",
+          "match": "Czechia vs South Africa"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Matěj Kovář",
+      "awayKeeper": "Ronwen Williams"
     },
     {
       "date": "Thursday, June 18, 2026",
@@ -4019,6 +4051,49 @@
       "penalties": 0,
       "homeKeeper": "Utkir Yusupov",
       "awayKeeper": "Camilo Vargas"
+    },
+    {
+      "date": "Thursday, June 18, 2026",
+      "stage": "Group Stage",
+      "group": "Group A",
+      "time": "11:00 AM CDT (12:00 PM EDT venue local)",
+      "home": "Czechia",
+      "homeFlag": "CZE",
+      "away": "South Africa",
+      "awayFlag": "RSA",
+      "location": "Mercedes-Benz Stadium · Atlanta",
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Michal Sadílek",
+          "team": "Czechia",
+          "match": "Czechia vs South Africa"
+        },
+        {
+          "player": "Teboho Mokoena",
+          "team": "South Africa",
+          "match": "Czechia vs South Africa"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Ladislav Krejčí",
+          "team": "Czechia",
+          "match": "Czechia vs South Africa"
+        },
+        {
+          "player": "Bathusi Aubaas",
+          "team": "South Africa",
+          "match": "Czechia vs South Africa"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Matěj Kovář",
+      "awayKeeper": "Ronwen Williams"
     }
   ],
   "detailedStats": {
@@ -4239,6 +4314,11 @@
         "detail": "Uruguay"
       },
       {
+        "name": "Michal Sadílek",
+        "value": 1,
+        "detail": "Czechia"
+      },
+      {
         "name": "Mohamed Hany(OG)",
         "value": 1,
         "detail": "Belgium"
@@ -4292,6 +4372,11 @@
         "name": "Romano Schmid",
         "value": 1,
         "detail": "Austria"
+      },
+      {
+        "name": "Teboho Mokoena",
+        "value": 1,
+        "detail": "South Africa"
       },
       {
         "name": "Viktor Gyökeres",
@@ -4458,7 +4543,7 @@
       {
         "name": "Matěj Kovář",
         "value": 0,
-        "detail": "Czechia · 2 goals conceded in 1 appearance"
+        "detail": "Czechia · 3 goals conceded in 2 appearances"
       },
       {
         "name": "Matt Freese",
@@ -4508,7 +4593,7 @@
       {
         "name": "Ronwen Williams",
         "value": 0,
-        "detail": "South Africa · 2 goals conceded in 1 appearance"
+        "detail": "South Africa · 3 goals conceded in 2 appearances"
       },
       {
         "name": "Thibaut Courtois",
@@ -4547,7 +4632,7 @@
       "Iran": 2
     },
     "yellowCards": {
-      "South Africa": 2,
+      "South Africa": 3,
       "Mexico": 1,
       "Canada": 1,
       "Bosnia and Herzegovina": 3,
@@ -4573,7 +4658,8 @@
       "Ghana": 1,
       "Panama": 2,
       "Colombia": 1,
-      "Uzbekistan": 1
+      "Uzbekistan": 1,
+      "Czechia": 1
     },
     "redCardEvents": [
       {
@@ -4827,6 +4913,16 @@
         "player": "Abdukodir Khusanov",
         "team": "Uzbekistan",
         "match": "Uzbekistan vs Colombia"
+      },
+      {
+        "player": "Ladislav Krejčí",
+        "team": "Czechia",
+        "match": "Czechia vs South Africa"
+      },
+      {
+        "player": "Bathusi Aubaas",
+        "team": "South Africa",
+        "match": "Czechia vs South Africa"
       }
     ],
     "penaltyEvents": [
@@ -5000,6 +5096,13 @@
         "yellowCards": 2,
         "penalties": 0,
         "elapsed": 103
+      },
+      {
+        "match": "Czechia vs South Africa",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 101
       }
     ]
   }
