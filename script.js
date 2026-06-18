@@ -1167,7 +1167,7 @@ function renderCoordinateChart(config) {
         <div><span>${config.number}</span><h3>${config.title}</h3></div>
         <b>${hasData ? "Top 5 teams" : "Awaiting data"}</b>
       </div>
-      <div class="coordinate-chart" role="img" aria-label="${config.title} comparison chart">
+      <div class="coordinate-chart" role="img" aria-label="${config.title} trend chart">
         <div class="chart-axis-label">Teams</div>
         ${entries.map(function ([teamName, value], index) {
           const team = findBundledTeam(teamName);
