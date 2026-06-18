@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T18:56:20.071Z",
+  "updatedAt": "2026-06-18T20:48:41.045Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -638,26 +638,15 @@
     ],
     "L": [
       {
-        "name": "Croatia",
-        "flag": "CRO",
-        "fifaRank": 10,
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 0,
-        "points": 0
-      },
-      {
         "name": "England",
         "flag": "ENG",
         "fifaRank": 4,
-        "played": 0,
-        "won": 0,
+        "played": 1,
+        "won": 1,
         "drawn": 0,
         "lost": 0,
-        "gd": 0,
-        "points": 0
+        "gd": 2,
+        "points": 3
       },
       {
         "name": "Ghana",
@@ -679,6 +668,17 @@
         "drawn": 0,
         "lost": 0,
         "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Croatia",
+        "flag": "CRO",
+        "fifaRank": 10,
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "gd": -2,
         "points": 0
       }
     ]
@@ -1746,14 +1746,55 @@
       "date": "Wednesday, June 17, 2026",
       "stage": "Group Stage",
       "group": "Group L",
-      "time": "3:00 PM local",
+      "time": "3:00 PM CDT (3:00 PM CDT venue local)",
       "kickoffISO": "2026-06-17T20:00:00Z",
       "home": "England",
       "homeFlag": "ENG",
       "away": "Croatia",
       "awayFlag": "CRO",
       "location": "AT&T Stadium · Dallas",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 4,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Harry Kane",
+          "team": "England",
+          "match": "England vs Croatia"
+        },
+        {
+          "player": "Harry Kane",
+          "team": "England",
+          "match": "England vs Croatia"
+        },
+        {
+          "player": "Jude Bellingham",
+          "team": "England",
+          "match": "England vs Croatia"
+        },
+        {
+          "player": "Marcus Rashford",
+          "team": "England",
+          "match": "England vs Croatia"
+        },
+        {
+          "player": "Martin Baturina",
+          "team": "Croatia",
+          "match": "England vs Croatia"
+        },
+        {
+          "player": "Petar Musa",
+          "team": "Croatia",
+          "match": "England vs Croatia"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Jordan Pickford",
+      "awayKeeper": "Dominik Livaković"
     },
     {
       "date": "Wednesday, June 17, 2026",
@@ -3756,6 +3797,58 @@
       "penalties": 0,
       "homeKeeper": "Diogo Costa",
       "awayKeeper": "It looks like you are setting up a template to log live football (soccer) match statistics, but the details are currently blank.Here is how you can fill out each field during a match:Match Log Templateyellow: Record the minute, player name, and team for yellow cards (e.g., 45' J. Smith | Team A).red: Record the minute, player name, and team for red cards (e.g., 89' M. Jones | Team B).penalties: List any penalty shoot-out results or in-game penalties scored/missed.home_keeper: Enter the name of the starting goalkeeper for the home team.away_keeper: Enter the name of the starting goalkeeper for the away team.If you want to automate this or need the stats for a specific historical or live match, tell me which match (teams and date) you are looking for.Would you like me to help you find the real-time stats for a current game, or would you like a Python script to help you format this data automatically?2 sitesEssential Soccer Rules for Fun and Fair PlayThe referee will turn in an official score sheet recording the name(s) of the yellow (and red) carded player(s). Players and cards...Cities Sports ConnectionSoccer Rules And How To Play - Apps on Google PlaVerification point 2: the app/game should show field markings (center line, penalty areas) and goal areas; missing or mis-scaled b...Govt of RajasthanYou said: portugal vs dr congoThe FIFA World Cup Group K match between Portugal and DR Congo on June 17, 2026, ended in a shocking 1-1 draw at Houston Stadium. Portugal opened the scoring early with a header from João Neves, but DR Congo equalized just before halftime through Yoane Wissa to claim a historic first-ever World Cup point.Here is the completed match data for your template based on the official ESPN Match Tracker and FIFA Match Logs:yellow=13' Bernardo Silva | Portugal, 32' Chancel Mbemba | DR Congo, 88' Nélson Semedo | Portugal, 90+2' Tomás Araújo | Portugalred=Nonepenalties=None (Game ended in a standard group-stage tie)home_keeper=Diogo Costaaway_keeper=Lionel MpasiMatch Statistics OverviewStatisticPortugalDR CongoGoals1 (João Neves 6')1 (Yoane Wissa 45+4')Possession75%25%Shots (On Target)7 (1)8 (2)Fouls910Corner Kicks54Watch the full tactical breakdown and highlights of how DR Congo frustrated Cristiano Ronaldo's squad:57sPortugal vs DR Congo | Full Highlights | FIFA World Cup 2026 ...tapmadYouTube · Jun 17, 2026Would you like to generate another template for a different Group K fixture, or see the updated group standings?10 sitesPortugal 1-1 Congo DR: Cristiano Ronaldo frustrated ... - ESPNJun 17, 2026 — Open Extended Reactions. Portugal have been held by Democratic Republic of Congo with a 1-1 draw in Houston to open Group K. It wa...ESPNPortugal 1-1 DR Congo Stats: Wissa Earns ... - Opta AnalystJun 17, 2026 — The Oldest Players in World Cup History. 9 hours ago Graham Bell. While all eyes were on the veteran, it was one of his younger co...Opta AnalystPortugal vs DR Congo Results Today: FIFA World Cup 2026 Live ...Jun 17, 2026 — Portugal vs DR Congo Results Today: Half-Time Update Portugal and DR Congo went into the halftime break level at 1-1 after a drama...heavy.comShow allYou said: yellow=Player|Team; yellow=13' Bernardo Silva | Portugal, 32' Chancel Mbemba | DR Congo, 88' Nélson Semedo | Portugal, 90+2' Tomás Araújo | Portugalred=Nonepenalties=Nonehome_keeper=Diogo Costaaway_keeper=Lionel Mpasi Portugal1Full-timeWed, Jun 17FIFA World Cup 2026™Group K1 DR CongoJ. Neves 6'Y. Wissa 45'+5'Match ContextThe data above captures the action from the 1-1 draw between Portugal and DR Congo during their opening World Cup Group K fixture at Houston Stadium.Would you like to generate the same data sheet for Portugal's upcoming match against Uzbekistan, or look at the current Group K standings?1 siteGoogle Sports DataThis response uses data provided by Google SportsGoogleYou said: No timesyellow=Bernardo Silva | Portugal, Chancel Mbemba | DR Congo, Nélson Semedo | Portugal, Tomás Araújo | Portugal; Lionel Mpasi"
+    },
+    {
+      "date": "Wednesday, June 17, 2026",
+      "stage": "Group Stage",
+      "group": "Group L",
+      "time": "3:00 PM CDT (3:00 PM CDT venue local)",
+      "home": "England",
+      "homeFlag": "ENG",
+      "away": "Croatia",
+      "awayFlag": "CRO",
+      "location": "AT&T Stadium · Dallas",
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 4,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Harry Kane",
+          "team": "England",
+          "match": "England vs Croatia"
+        },
+        {
+          "player": "Harry Kane",
+          "team": "England",
+          "match": "England vs Croatia"
+        },
+        {
+          "player": "Jude Bellingham",
+          "team": "England",
+          "match": "England vs Croatia"
+        },
+        {
+          "player": "Marcus Rashford",
+          "team": "England",
+          "match": "England vs Croatia"
+        },
+        {
+          "player": "Martin Baturina",
+          "team": "Croatia",
+          "match": "England vs Croatia"
+        },
+        {
+          "player": "Petar Musa",
+          "team": "Croatia",
+          "match": "England vs Croatia"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Jordan Pickford",
+      "awayKeeper": "Dominik Livaković"
     }
   ],
   "detailedStats": {
@@ -3774,6 +3867,11 @@
         "name": "Folarin Balogun",
         "value": 2,
         "detail": "United States"
+      },
+      {
+        "name": "Harry Kane",
+        "value": 2,
+        "detail": "England"
       },
       {
         "name": "Kai Havertz",
@@ -3891,6 +3989,11 @@
         "detail": "Bosnia and Herzegovina"
       },
       {
+        "name": "Jude Bellingham",
+        "value": 1,
+        "detail": "England"
+      },
+      {
         "name": "Julián Quiñones",
         "value": 1,
         "detail": "Mexico"
@@ -3911,9 +4014,19 @@
         "detail": "Curaçao"
       },
       {
+        "name": "Marcus Rashford",
+        "value": 1,
+        "detail": "England"
+      },
+      {
         "name": "Marko Arnautović",
         "value": 1,
         "detail": "Austria"
+      },
+      {
+        "name": "Martin Baturina",
+        "value": 1,
+        "detail": "Croatia"
       },
       {
         "name": "Mattias Svanberg",
@@ -3964,6 +4077,11 @@
         "name": "Omar Rekik",
         "value": 1,
         "detail": "Tunisia"
+      },
+      {
+        "name": "Petar Musa",
+        "value": 1,
+        "detail": "Croatia"
       },
       {
         "name": "Ramin Rezaeian",
@@ -4068,6 +4186,11 @@
         "detail": "Portugal · 1 goals conceded in 1 appearance"
       },
       {
+        "name": "Dominik Livaković",
+        "value": 0,
+        "detail": "Croatia · 4 goals conceded in 1 appearance"
+      },
+      {
         "name": "Eloy Room",
         "value": 0,
         "detail": "Curaçao · 7 goals conceded in 1 appearance"
@@ -4096,6 +4219,11 @@
         "name": "Johny Placide",
         "value": 0,
         "detail": "Haiti · 1 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Jordan Pickford",
+        "value": 0,
+        "detail": "England · 2 goals conceded in 1 appearance"
       },
       {
         "name": "Kim Seung-gyu",
@@ -4466,6 +4594,9 @@
       },
       {
         "match": "Austria vs Jordan"
+      },
+      {
+        "match": "England vs Croatia"
       }
     ],
     "matchStats": [
@@ -4601,6 +4732,13 @@
         "yellowCards": 0,
         "penalties": 0,
         "elapsed": 99
+      },
+      {
+        "match": "England vs Croatia",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 1,
+        "elapsed": 101
       }
     ]
   }
