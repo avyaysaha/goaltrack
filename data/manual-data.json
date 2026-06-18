@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T15:59:39.132Z",
+  "updatedAt": "2026-06-18T18:56:20.071Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -500,47 +500,47 @@
     ],
     "I": [
       {
-        "name": "Norway",
-        "flag": "NOR",
-        "fifaRank": 29,
-        "played": 1,
-        "won": 1,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 3,
-        "points": 3
-      },
-      {
         "name": "France",
         "flag": "FRA",
         "fifaRank": 3,
-        "played": 1,
-        "won": 1,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 2,
-        "points": 3
-      },
-      {
-        "name": "Senegal",
-        "flag": "SEN",
-        "fifaRank": 19,
-        "played": 1,
+        "played": 0,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
-        "gd": -2,
+        "lost": 0,
+        "gd": 0,
         "points": 0
       },
       {
         "name": "Iraq",
         "flag": "IRQ",
         "fifaRank": 58,
-        "played": 1,
+        "played": 0,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
-        "gd": -3,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Norway",
+        "flag": "NOR",
+        "fifaRank": 29,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Senegal",
+        "flag": "SEN",
+        "fifaRank": 19,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
         "points": 0
       }
     ],
@@ -592,31 +592,31 @@
     ],
     "K": [
       {
-        "name": "Colombia",
-        "flag": "COL",
-        "fifaRank": 13,
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 0,
-        "points": 0
-      },
-      {
         "name": "DR Congo",
         "flag": "COD",
         "fifaRank": 56,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 0,
         "gd": 0,
-        "points": 0
+        "points": 1
       },
       {
         "name": "Portugal",
         "flag": "POR",
         "fifaRank": 6,
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gd": 0,
+        "points": 1
+      },
+      {
+        "name": "Colombia",
+        "flag": "COL",
+        "fifaRank": 13,
         "played": 0,
         "won": 0,
         "drawn": 0,
@@ -1700,15 +1700,47 @@
     {
       "date": "Wednesday, June 17, 2026",
       "stage": "Group Stage",
-      "group": "Group K",
-      "time": "12:00 PM local",
+      "group": "Group ",
+      "time": "12:00 PM CDT (12:00 PM CDT venue local)",
       "kickoffISO": "2026-06-17T17:00:00Z",
       "home": "Portugal",
       "homeFlag": "POR",
       "away": "DR Congo",
       "awayFlag": "COD",
-      "location": "NRG Stadium · Houston",
-      "venueTimeZone": "America/Chicago"
+      "location": "NRG Stadium · Houston, You said: yellow=Player|Team",
+      "venueTimeZone": "America/Chicago",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "João Neves",
+          "team": "Portugal",
+          "match": "Portugal vs DR Congo"
+        },
+        {
+          "player": "Yoane Wissa",
+          "team": "DR Congo",
+          "match": "Portugal vs DR Congo"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [
+        {
+          "player": "Player",
+          "team": "Iran",
+          "match": "Portugal vs DR Congo"
+        },
+        {
+          "player": "Player",
+          "team": "Iran",
+          "match": "Portugal vs DR Congo"
+        }
+      ],
+      "penalties": 0,
+      "homeKeeper": "Diogo Costa",
+      "awayKeeper": "It looks like you are setting up a template to log live football (soccer) match statistics, but the details are currently blank.Here is how you can fill out each field during a match:Match Log Templateyellow: Record the minute, player name, and team for yellow cards (e.g., 45' J. Smith | Team A).red: Record the minute, player name, and team for red cards (e.g., 89' M. Jones | Team B).penalties: List any penalty shoot-out results or in-game penalties scored/missed.home_keeper: Enter the name of the starting goalkeeper for the home team.away_keeper: Enter the name of the starting goalkeeper for the away team.If you want to automate this or need the stats for a specific historical or live match, tell me which match (teams and date) you are looking for.Would you like me to help you find the real-time stats for a current game, or would you like a Python script to help you format this data automatically?2 sitesEssential Soccer Rules for Fun and Fair PlayThe referee will turn in an official score sheet recording the name(s) of the yellow (and red) carded player(s). Players and cards...Cities Sports ConnectionSoccer Rules And How To Play - Apps on Google PlaVerification point 2: the app/game should show field markings (center line, penalty areas) and goal areas; missing or mis-scaled b...Govt of RajasthanYou said: portugal vs dr congoThe FIFA World Cup Group K match between Portugal and DR Congo on June 17, 2026, ended in a shocking 1-1 draw at Houston Stadium. Portugal opened the scoring early with a header from João Neves, but DR Congo equalized just before halftime through Yoane Wissa to claim a historic first-ever World Cup point.Here is the completed match data for your template based on the official ESPN Match Tracker and FIFA Match Logs:yellow=13' Bernardo Silva | Portugal, 32' Chancel Mbemba | DR Congo, 88' Nélson Semedo | Portugal, 90+2' Tomás Araújo | Portugalred=Nonepenalties=None (Game ended in a standard group-stage tie)home_keeper=Diogo Costaaway_keeper=Lionel MpasiMatch Statistics OverviewStatisticPortugalDR CongoGoals1 (João Neves 6')1 (Yoane Wissa 45+4')Possession75%25%Shots (On Target)7 (1)8 (2)Fouls910Corner Kicks54Watch the full tactical breakdown and highlights of how DR Congo frustrated Cristiano Ronaldo's squad:57sPortugal vs DR Congo | Full Highlights | FIFA World Cup 2026 ...tapmadYouTube · Jun 17, 2026Would you like to generate another template for a different Group K fixture, or see the updated group standings?10 sitesPortugal 1-1 Congo DR: Cristiano Ronaldo frustrated ... - ESPNJun 17, 2026 — Open Extended Reactions. Portugal have been held by Democratic Republic of Congo with a 1-1 draw in Houston to open Group K. It wa...ESPNPortugal 1-1 DR Congo Stats: Wissa Earns ... - Opta AnalystJun 17, 2026 — The Oldest Players in World Cup History. 9 hours ago Graham Bell. While all eyes were on the veteran, it was one of his younger co...Opta AnalystPortugal vs DR Congo Results Today: FIFA World Cup 2026 Live ...Jun 17, 2026 — Portugal vs DR Congo Results Today: Half-Time Update Portugal and DR Congo went into the halftime break level at 1-1 after a drama...heavy.comShow allYou said: yellow=Player|Team; yellow=13' Bernardo Silva | Portugal, 32' Chancel Mbemba | DR Congo, 88' Nélson Semedo | Portugal, 90+2' Tomás Araújo | Portugalred=Nonepenalties=Nonehome_keeper=Diogo Costaaway_keeper=Lionel Mpasi Portugal1Full-timeWed, Jun 17FIFA World Cup 2026™Group K1 DR CongoJ. Neves 6'Y. Wissa 45'+5'Match ContextThe data above captures the action from the 1-1 draw between Portugal and DR Congo during their opening World Cup Group K fixture at Houston Stadium.Would you like to generate the same data sheet for Portugal's upcoming match against Uzbekistan, or look at the current Group K standings?1 siteGoogle Sports DataThis response uses data provided by Google SportsGoogleYou said: No timesyellow=Bernardo Silva | Portugal, Chancel Mbemba | DR Congo, Nélson Semedo | Portugal, Tomás Araújo | Portugal; Lionel Mpasi"
     },
     {
       "date": "Wednesday, June 17, 2026",
@@ -3681,6 +3713,49 @@
       "penalties": 1,
       "homeKeeper": "Alexander Schlager",
       "awayKeeper": "Yazeed Abulaila"
+    },
+    {
+      "date": "Wednesday, June 17, 2026",
+      "stage": "Group Stage",
+      "group": "Group ",
+      "time": "12:00 PM CDT (12:00 PM CDT venue local)",
+      "home": "Portugal",
+      "homeFlag": "POR",
+      "away": "DR Congo",
+      "awayFlag": "COD",
+      "location": "NRG Stadium · Houston, You said: yellow=Player|Team",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "João Neves",
+          "team": "Portugal",
+          "match": "Portugal vs DR Congo"
+        },
+        {
+          "player": "Yoane Wissa",
+          "team": "DR Congo",
+          "match": "Portugal vs DR Congo"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [
+        {
+          "player": "Player",
+          "team": "Iran",
+          "match": "Portugal vs DR Congo"
+        },
+        {
+          "player": "Player",
+          "team": "Iran",
+          "match": "Portugal vs DR Congo"
+        }
+      ],
+      "penalties": 0,
+      "homeKeeper": "Diogo Costa",
+      "awayKeeper": "It looks like you are setting up a template to log live football (soccer) match statistics, but the details are currently blank.Here is how you can fill out each field during a match:Match Log Templateyellow: Record the minute, player name, and team for yellow cards (e.g., 45' J. Smith | Team A).red: Record the minute, player name, and team for red cards (e.g., 89' M. Jones | Team B).penalties: List any penalty shoot-out results or in-game penalties scored/missed.home_keeper: Enter the name of the starting goalkeeper for the home team.away_keeper: Enter the name of the starting goalkeeper for the away team.If you want to automate this or need the stats for a specific historical or live match, tell me which match (teams and date) you are looking for.Would you like me to help you find the real-time stats for a current game, or would you like a Python script to help you format this data automatically?2 sitesEssential Soccer Rules for Fun and Fair PlayThe referee will turn in an official score sheet recording the name(s) of the yellow (and red) carded player(s). Players and cards...Cities Sports ConnectionSoccer Rules And How To Play - Apps on Google PlaVerification point 2: the app/game should show field markings (center line, penalty areas) and goal areas; missing or mis-scaled b...Govt of RajasthanYou said: portugal vs dr congoThe FIFA World Cup Group K match between Portugal and DR Congo on June 17, 2026, ended in a shocking 1-1 draw at Houston Stadium. Portugal opened the scoring early with a header from João Neves, but DR Congo equalized just before halftime through Yoane Wissa to claim a historic first-ever World Cup point.Here is the completed match data for your template based on the official ESPN Match Tracker and FIFA Match Logs:yellow=13' Bernardo Silva | Portugal, 32' Chancel Mbemba | DR Congo, 88' Nélson Semedo | Portugal, 90+2' Tomás Araújo | Portugalred=Nonepenalties=None (Game ended in a standard group-stage tie)home_keeper=Diogo Costaaway_keeper=Lionel MpasiMatch Statistics OverviewStatisticPortugalDR CongoGoals1 (João Neves 6')1 (Yoane Wissa 45+4')Possession75%25%Shots (On Target)7 (1)8 (2)Fouls910Corner Kicks54Watch the full tactical breakdown and highlights of how DR Congo frustrated Cristiano Ronaldo's squad:57sPortugal vs DR Congo | Full Highlights | FIFA World Cup 2026 ...tapmadYouTube · Jun 17, 2026Would you like to generate another template for a different Group K fixture, or see the updated group standings?10 sitesPortugal 1-1 Congo DR: Cristiano Ronaldo frustrated ... - ESPNJun 17, 2026 — Open Extended Reactions. Portugal have been held by Democratic Republic of Congo with a 1-1 draw in Houston to open Group K. It wa...ESPNPortugal 1-1 DR Congo Stats: Wissa Earns ... - Opta AnalystJun 17, 2026 — The Oldest Players in World Cup History. 9 hours ago Graham Bell. While all eyes were on the veteran, it was one of his younger co...Opta AnalystPortugal vs DR Congo Results Today: FIFA World Cup 2026 Live ...Jun 17, 2026 — Portugal vs DR Congo Results Today: Half-Time Update Portugal and DR Congo went into the halftime break level at 1-1 after a drama...heavy.comShow allYou said: yellow=Player|Team; yellow=13' Bernardo Silva | Portugal, 32' Chancel Mbemba | DR Congo, 88' Nélson Semedo | Portugal, 90+2' Tomás Araújo | Portugalred=Nonepenalties=Nonehome_keeper=Diogo Costaaway_keeper=Lionel Mpasi Portugal1Full-timeWed, Jun 17FIFA World Cup 2026™Group K1 DR CongoJ. Neves 6'Y. Wissa 45'+5'Match ContextThe data above captures the action from the 1-1 draw between Portugal and DR Congo during their opening World Cup Group K fixture at Houston Stadium.Would you like to generate the same data sheet for Portugal's upcoming match against Uzbekistan, or look at the current Group K standings?1 siteGoogle Sports DataThis response uses data provided by Google SportsGoogleYou said: No timesyellow=Bernardo Silva | Portugal, Chancel Mbemba | DR Congo, Nélson Semedo | Portugal, Tomás Araújo | Portugal; Lionel Mpasi"
     }
   ],
   "detailedStats": {
@@ -3696,11 +3771,6 @@
         "detail": "New Zealand"
       },
       {
-        "name": "Erling Haaland",
-        "value": 2,
-        "detail": "Norway"
-      },
-      {
         "name": "Folarin Balogun",
         "value": 2,
         "detail": "United States"
@@ -3709,11 +3779,6 @@
         "name": "Kai Havertz",
         "value": 2,
         "detail": "Germany"
-      },
-      {
-        "name": "Kylian Mbappé",
-        "value": 2,
-        "detail": "France"
       },
       {
         "name": "Yasin Ayari",
@@ -3741,19 +3806,9 @@
         "detail": "Cote d'Ivoire"
       },
       {
-        "name": "Aymen Hussein",
-        "value": 1,
-        "detail": "Iraq"
-      },
-      {
         "name": "Boulem Khouki",
         "value": 1,
         "detail": "Qatar"
-      },
-      {
-        "name": "Bradley Barcola",
-        "value": 1,
-        "detail": "France"
       },
       {
         "name": "Breel Embolo",
@@ -3811,11 +3866,6 @@
         "detail": "Korea Republic"
       },
       {
-        "name": "Ibrahim Mbaye",
-        "value": 1,
-        "detail": "Senegal"
-      },
-      {
         "name": "Ismael Saibari",
         "value": 1,
         "detail": "Morocco"
@@ -3824,6 +3874,11 @@
         "name": "Jamal Musiala",
         "value": 1,
         "detail": "Germany"
+      },
+      {
+        "name": "João Neves",
+        "value": 1,
+        "detail": "Portugal"
       },
       {
         "name": "John McGinn",
@@ -3849,11 +3904,6 @@
         "name": "Ladislav Krejčí",
         "value": 1,
         "detail": "Czechia"
-      },
-      {
-        "name": "Leo Østigård",
-        "value": 1,
-        "detail": "Norway"
       },
       {
         "name": "Livano Comenencia",
@@ -3949,6 +3999,11 @@
         "name": "Yazan Al-Arab(OG)",
         "value": 1,
         "detail": "Austria"
+      },
+      {
+        "name": "Yoane Wissa",
+        "value": 1,
+        "detail": "DR Congo"
       }
     ],
     "keepers": [
@@ -4008,6 +4063,11 @@
         "detail": "Netherlands · 2 goals conceded in 1 appearance"
       },
       {
+        "name": "Diogo Costa",
+        "value": 0,
+        "detail": "Portugal · 1 goals conceded in 1 appearance"
+      },
+      {
         "name": "Eloy Room",
         "value": 0,
         "detail": "Curaçao · 7 goals conceded in 1 appearance"
@@ -4026,6 +4086,11 @@
         "name": "Hernán Galíndez",
         "value": 0,
         "detail": "Ecuador · 1 goals conceded in 1 appearance"
+      },
+      {
+        "name": "It looks like you are setting up a template to log live football (soccer) match statistics, but the details are currently blank.Here is how you can fill out each field during a match:Match Log Templateyellow: Record the minute, player name, and team for yellow cards (e.g., 45' J. Smith | Team A).red: Record the minute, player name, and team for red cards (e.g., 89' M. Jones | Team B).penalties: List any penalty shoot-out results or in-game penalties scored/missed.home_keeper: Enter the name of the starting goalkeeper for the home team.away_keeper: Enter the name of the starting goalkeeper for the away team.If you want to automate this or need the stats for a specific historical or live match, tell me which match (teams and date) you are looking for.Would you like me to help you find the real-time stats for a current game, or would you like a Python script to help you format this data automatically?2 sitesEssential Soccer Rules for Fun and Fair PlayThe referee will turn in an official score sheet recording the name(s) of the yellow (and red) carded player(s). Players and cards...Cities Sports ConnectionSoccer Rules And How To Play - Apps on Google PlaVerification point 2: the app/game should show field markings (center line, penalty areas) and goal areas; missing or mis-scaled b...Govt of RajasthanYou said: portugal vs dr congoThe FIFA World Cup Group K match between Portugal and DR Congo on June 17, 2026, ended in a shocking 1-1 draw at Houston Stadium. Portugal opened the scoring early with a header from João Neves, but DR Congo equalized just before halftime through Yoane Wissa to claim a historic first-ever World Cup point.Here is the completed match data for your template based on the official ESPN Match Tracker and FIFA Match Logs:yellow=13' Bernardo Silva | Portugal, 32' Chancel Mbemba | DR Congo, 88' Nélson Semedo | Portugal, 90+2' Tomás Araújo | Portugalred=Nonepenalties=None (Game ended in a standard group-stage tie)home_keeper=Diogo Costaaway_keeper=Lionel MpasiMatch Statistics OverviewStatisticPortugalDR CongoGoals1 (João Neves 6')1 (Yoane Wissa 45+4')Possession75%25%Shots (On Target)7 (1)8 (2)Fouls910Corner Kicks54Watch the full tactical breakdown and highlights of how DR Congo frustrated Cristiano Ronaldo's squad:57sPortugal vs DR Congo | Full Highlights | FIFA World Cup 2026 ...tapmadYouTube · Jun 17, 2026Would you like to generate another template for a different Group K fixture, or see the updated group standings?10 sitesPortugal 1-1 Congo DR: Cristiano Ronaldo frustrated ... - ESPNJun 17, 2026 — Open Extended Reactions. Portugal have been held by Democratic Republic of Congo with a 1-1 draw in Houston to open Group K. It wa...ESPNPortugal 1-1 DR Congo Stats: Wissa Earns ... - Opta AnalystJun 17, 2026 — The Oldest Players in World Cup History. 9 hours ago Graham Bell. While all eyes were on the veteran, it was one of his younger co...Opta AnalystPortugal vs DR Congo Results Today: FIFA World Cup 2026 Live ...Jun 17, 2026 — Portugal vs DR Congo Results Today: Half-Time Update Portugal and DR Congo went into the halftime break level at 1-1 after a drama...heavy.comShow allYou said: yellow=Player|Team; yellow=13' Bernardo Silva | Portugal, 32' Chancel Mbemba | DR Congo, 88' Nélson Semedo | Portugal, 90+2' Tomás Araújo | Portugalred=Nonepenalties=Nonehome_keeper=Diogo Costaaway_keeper=Lionel Mpasi Portugal1Full-timeWed, Jun 17FIFA World Cup 2026™Group K1 DR CongoJ. Neves 6'Y. Wissa 45'+5'Match ContextThe data above captures the action from the 1-1 draw between Portugal and DR Congo during their opening World Cup Group K fixture at Houston Stadium.Would you like to generate the same data sheet for Portugal's upcoming match against Uzbekistan, or look at the current Group K standings?1 siteGoogle Sports DataThis response uses data provided by Google SportsGoogleYou said: No timesyellow=Bernardo Silva | Portugal, Chancel Mbemba | DR Congo, Nélson Semedo | Portugal, Tomás Araújo | Portugal; Lionel Mpasi",
+        "value": 0,
+        "detail": "DR Congo · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Johny Placide",
@@ -4135,7 +4200,8 @@
     ],
     "redCards": {
       "South Africa": 2,
-      "Mexico": 1
+      "Mexico": 1,
+      "Iran": 2
     },
     "yellowCards": {
       "South Africa": 2,
@@ -4177,6 +4243,16 @@
         "player": "César Montes",
         "team": "Mexico",
         "match": "Mexico vs South Africa"
+      },
+      {
+        "player": "Player",
+        "team": "Iran",
+        "match": "Portugal vs DR Congo"
+      },
+      {
+        "player": "Player",
+        "team": "Iran",
+        "match": "Portugal vs DR Congo"
       }
     ],
     "yellowCardEvents": [
@@ -4520,18 +4596,11 @@
         "elapsed": 108
       },
       {
-        "match": "Iraq vs Norway",
-        "redCards": 0,
+        "match": "Portugal vs DR Congo",
+        "redCards": 2,
         "yellowCards": 0,
         "penalties": 0,
         "elapsed": 99
-      },
-      {
-        "match": "France vs Senegal",
-        "redCards": 0,
-        "yellowCards": 0,
-        "penalties": 0,
-        "elapsed": 100
       }
     ]
   }
