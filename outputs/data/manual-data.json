@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T20:48:41.045Z",
+  "updatedAt": "2026-06-18T21:03:37.763Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -652,22 +652,22 @@
         "name": "Ghana",
         "flag": "GHA",
         "fifaRank": 72,
-        "played": 0,
-        "won": 0,
+        "played": 1,
+        "won": 1,
         "drawn": 0,
         "lost": 0,
-        "gd": 0,
-        "points": 0
+        "gd": 1,
+        "points": 3
       },
       {
         "name": "Panama",
         "flag": "PAN",
         "fifaRank": 30,
-        "played": 0,
+        "played": 1,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "gd": 0,
+        "lost": 1,
+        "gd": -1,
         "points": 0
       },
       {
@@ -1800,14 +1800,46 @@
       "date": "Wednesday, June 17, 2026",
       "stage": "Group Stage",
       "group": "Group L",
-      "time": "7:00 PM local",
+      "time": "6:00 PM CDT (7:00 PM EDT venue local)",
       "kickoffISO": "2026-06-17T23:00:00Z",
       "home": "Ghana",
       "homeFlag": "GHA",
       "away": "Panama",
       "awayFlag": "PAN",
       "location": "BMO Field · Toronto",
-      "venueTimeZone": "America/Toronto"
+      "venueTimeZone": "America/Toronto",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 1,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Caleb Yirenkyi",
+          "team": "Ghana",
+          "match": "Ghana vs Panama"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Caleb Yirenkyi",
+          "team": "Ghana",
+          "match": "Ghana vs Panama"
+        },
+        {
+          "player": "César Blackman",
+          "team": "Panama",
+          "match": "Ghana vs Panama"
+        },
+        {
+          "player": "Carlos Harvey",
+          "team": "Panama",
+          "match": "Ghana vs Panama"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Lawrence Ati-Zigi",
+      "awayKeeper": "Orlando Mosquera"
     },
     {
       "date": "Wednesday, June 17, 2026",
@@ -3849,6 +3881,49 @@
       "penalties": 1,
       "homeKeeper": "Jordan Pickford",
       "awayKeeper": "Dominik Livaković"
+    },
+    {
+      "date": "Wednesday, June 17, 2026",
+      "stage": "Group Stage",
+      "group": "Group L",
+      "time": "6:00 PM CDT (7:00 PM EDT venue local)",
+      "home": "Ghana",
+      "homeFlag": "GHA",
+      "away": "Panama",
+      "awayFlag": "PAN",
+      "location": "BMO Field · Toronto",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 1,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Caleb Yirenkyi",
+          "team": "Ghana",
+          "match": "Ghana vs Panama"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Caleb Yirenkyi",
+          "team": "Ghana",
+          "match": "Ghana vs Panama"
+        },
+        {
+          "player": "César Blackman",
+          "team": "Panama",
+          "match": "Ghana vs Panama"
+        },
+        {
+          "player": "Carlos Harvey",
+          "team": "Panama",
+          "match": "Ghana vs Panama"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Lawrence Ati-Zigi",
+      "awayKeeper": "Orlando Mosquera"
     }
   ],
   "detailedStats": {
@@ -3912,6 +3987,11 @@
         "name": "Breel Embolo",
         "value": 1,
         "detail": "Switzerland"
+      },
+      {
+        "name": "Caleb Yirenkyi",
+        "value": 1,
+        "detail": "Ghana"
       },
       {
         "name": "Connor Metcalfe",
@@ -4136,6 +4216,11 @@
         "detail": "Argentina · 0 goals conceded in 1 appearance"
       },
       {
+        "name": "Lawrence Ati-Zigi",
+        "value": 1,
+        "detail": "Ghana · 0 goals conceded in 1 appearance"
+      },
+      {
         "name": "Patrick Beach",
         "value": 1,
         "detail": "Australia · 0 goals conceded in 1 appearance"
@@ -4296,6 +4381,11 @@
         "detail": "Paraguay · 4 goals conceded in 1 appearance"
       },
       {
+        "name": "Orlando Mosquera",
+        "value": 0,
+        "detail": "Panama · 1 goals conceded in 1 appearance"
+      },
+      {
         "name": "Ronwen Williams",
         "value": 0,
         "detail": "South Africa · 2 goals conceded in 1 appearance"
@@ -4354,7 +4444,9 @@
       "Belgium": 2,
       "Saudi Arabia": 1,
       "Iran": 1,
-      "Austria": 1
+      "Austria": 1,
+      "Ghana": 1,
+      "Panama": 2
     },
     "redCardEvents": [
       {
@@ -4583,6 +4675,21 @@
         "player": "Marcel Sabitzer",
         "team": "Austria",
         "match": "Austria vs Jordan"
+      },
+      {
+        "player": "Caleb Yirenkyi",
+        "team": "Ghana",
+        "match": "Ghana vs Panama"
+      },
+      {
+        "player": "César Blackman",
+        "team": "Panama",
+        "match": "Ghana vs Panama"
+      },
+      {
+        "player": "Carlos Harvey",
+        "team": "Panama",
+        "match": "Ghana vs Panama"
       }
     ],
     "penaltyEvents": [
@@ -4597,6 +4704,9 @@
       },
       {
         "match": "England vs Croatia"
+      },
+      {
+        "match": "Ghana vs Panama"
       }
     ],
     "matchStats": [
@@ -4739,6 +4849,13 @@
         "yellowCards": 0,
         "penalties": 1,
         "elapsed": 101
+      },
+      {
+        "match": "Ghana vs Panama",
+        "redCards": 0,
+        "yellowCards": 3,
+        "penalties": 1,
+        "elapsed": 99
       }
     ]
   }
