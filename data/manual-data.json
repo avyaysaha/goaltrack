@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T21:03:37.763Z",
+  "updatedAt": "2026-06-18T21:15:03.816Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -592,6 +592,17 @@
     ],
     "K": [
       {
+        "name": "Colombia",
+        "flag": "COL",
+        "fifaRank": 13,
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 2,
+        "points": 3
+      },
+      {
         "name": "DR Congo",
         "flag": "COD",
         "fifaRank": 56,
@@ -614,25 +625,14 @@
         "points": 1
       },
       {
-        "name": "Colombia",
-        "flag": "COL",
-        "fifaRank": 13,
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 0,
-        "points": 0
-      },
-      {
         "name": "Uzbekistan",
         "flag": "UZB",
         "fifaRank": 50,
-        "played": 0,
+        "played": 1,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "gd": 0,
+        "lost": 1,
+        "gd": -2,
         "points": 0
       }
     ],
@@ -1845,14 +1845,56 @@
       "date": "Wednesday, June 17, 2026",
       "stage": "Group Stage",
       "group": "Group K",
-      "time": "8:00 PM local",
+      "time": "9:00 PM CDT (8:00 PM CST venue local)",
       "kickoffISO": "2026-06-18T02:00:00Z",
       "home": "Uzbekistan",
       "homeFlag": "UZB",
       "away": "Colombia",
       "awayFlag": "COL",
       "location": "Estadio Azteca · Mexico City",
-      "venueTimeZone": "America/Mexico_City"
+      "venueTimeZone": "America/Mexico_City",
+      "status": "FT",
+      "elapsed": 103,
+      "homeScore": 1,
+      "awayScore": 3,
+      "scorers": [
+        {
+          "player": "Abbosbek Fayzullaev",
+          "team": "Uzbekistan",
+          "match": "Uzbekistan vs Colombia"
+        },
+        {
+          "player": "Daniel Muñoz",
+          "team": "Colombia",
+          "match": "Uzbekistan vs Colombia"
+        },
+        {
+          "player": "Luis Díaz",
+          "team": "Colombia",
+          "match": "Uzbekistan vs Colombia"
+        },
+        {
+          "player": "Jaminton Campaz",
+          "team": "Colombia",
+          "match": "Uzbekistan vs Colombia"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Johan Mojica",
+          "team": "Colombia",
+          "match": "Uzbekistan vs Colombia"
+        },
+        {
+          "player": "Abdukodir Khusanov",
+          "team": "Uzbekistan",
+          "match": "Uzbekistan vs Colombia"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Utkir Yusupov",
+      "awayKeeper": "Camilo Vargas"
     },
     {
       "date": "Thursday, June 18, 2026",
@@ -3924,6 +3966,59 @@
       "penalties": 1,
       "homeKeeper": "Lawrence Ati-Zigi",
       "awayKeeper": "Orlando Mosquera"
+    },
+    {
+      "date": "Wednesday, June 17, 2026",
+      "stage": "Group Stage",
+      "group": "Group K",
+      "time": "9:00 PM CDT (8:00 PM CST venue local)",
+      "home": "Uzbekistan",
+      "homeFlag": "UZB",
+      "away": "Colombia",
+      "awayFlag": "COL",
+      "location": "Estadio Azteca · Mexico City",
+      "status": "FT",
+      "elapsed": 103,
+      "homeScore": 1,
+      "awayScore": 3,
+      "scorers": [
+        {
+          "player": "Abbosbek Fayzullaev",
+          "team": "Uzbekistan",
+          "match": "Uzbekistan vs Colombia"
+        },
+        {
+          "player": "Daniel Muñoz",
+          "team": "Colombia",
+          "match": "Uzbekistan vs Colombia"
+        },
+        {
+          "player": "Luis Díaz",
+          "team": "Colombia",
+          "match": "Uzbekistan vs Colombia"
+        },
+        {
+          "player": "Jaminton Campaz",
+          "team": "Colombia",
+          "match": "Uzbekistan vs Colombia"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Johan Mojica",
+          "team": "Colombia",
+          "match": "Uzbekistan vs Colombia"
+        },
+        {
+          "player": "Abdukodir Khusanov",
+          "team": "Uzbekistan",
+          "match": "Uzbekistan vs Colombia"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Utkir Yusupov",
+      "awayKeeper": "Camilo Vargas"
     }
   ],
   "detailedStats": {
@@ -3957,6 +4052,11 @@
         "name": "Yasin Ayari",
         "value": 2,
         "detail": "Sweden"
+      },
+      {
+        "name": "Abbosbek Fayzullaev",
+        "value": 1,
+        "detail": "Uzbekistan"
       },
       {
         "name": "Abdulelah Al-Amri",
@@ -4019,6 +4119,11 @@
         "detail": "United States"
       },
       {
+        "name": "Daniel Muñoz",
+        "value": 1,
+        "detail": "Colombia"
+      },
+      {
         "name": "Deniz Undav",
         "value": 1,
         "detail": "Germany"
@@ -4052,6 +4157,11 @@
         "name": "Jamal Musiala",
         "value": 1,
         "detail": "Germany"
+      },
+      {
+        "name": "Jaminton Campaz",
+        "value": 1,
+        "detail": "Colombia"
       },
       {
         "name": "João Neves",
@@ -4092,6 +4202,11 @@
         "name": "Livano Comenencia",
         "value": 1,
         "detail": "Curaçao"
+      },
+      {
+        "name": "Luis Díaz",
+        "value": 1,
+        "detail": "Colombia"
       },
       {
         "name": "Marcus Rashford",
@@ -4266,6 +4381,11 @@
         "detail": "Netherlands · 2 goals conceded in 1 appearance"
       },
       {
+        "name": "Camilo Vargas",
+        "value": 0,
+        "detail": "Colombia · 1 goals conceded in 1 appearance"
+      },
+      {
         "name": "Diogo Costa",
         "value": 0,
         "detail": "Portugal · 1 goals conceded in 1 appearance"
@@ -4401,6 +4521,11 @@
         "detail": "Türkiye · 2 goals conceded in 1 appearance"
       },
       {
+        "name": "Utkir Yusupov",
+        "value": 0,
+        "detail": "Uzbekistan · 3 goals conceded in 1 appearance"
+      },
+      {
         "name": "Yassine Bounou",
         "value": 0,
         "detail": "Morocco · 1 goals conceded in 1 appearance"
@@ -4446,7 +4571,9 @@
       "Iran": 1,
       "Austria": 1,
       "Ghana": 1,
-      "Panama": 2
+      "Panama": 2,
+      "Colombia": 1,
+      "Uzbekistan": 1
     },
     "redCardEvents": [
       {
@@ -4690,6 +4817,16 @@
         "player": "Carlos Harvey",
         "team": "Panama",
         "match": "Ghana vs Panama"
+      },
+      {
+        "player": "Johan Mojica",
+        "team": "Colombia",
+        "match": "Uzbekistan vs Colombia"
+      },
+      {
+        "player": "Abdukodir Khusanov",
+        "team": "Uzbekistan",
+        "match": "Uzbekistan vs Colombia"
       }
     ],
     "penaltyEvents": [
@@ -4856,6 +4993,13 @@
         "yellowCards": 3,
         "penalties": 1,
         "elapsed": 99
+      },
+      {
+        "match": "Uzbekistan vs Colombia",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 103
       }
     ]
   }
