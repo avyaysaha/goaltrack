@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T16:53:58.579Z",
+  "updatedAt": "2026-06-19T16:57:56.850Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -2102,7 +2102,7 @@
       "date": "Thursday, June 18, 2026",
       "stage": "Group Stage",
       "group": "Group A",
-      "time": "7:00 PM local",
+      "time": "8:00 PM CDT (7:00 PM CST venue local)",
       "kickoffISO": "2026-06-19T01:00:00Z",
       "home": "Mexico",
       "homeFlag": "MEX",
@@ -2114,12 +2114,29 @@
       "elapsed": 100,
       "homeScore": 1,
       "awayScore": 0,
-      "scorers": [],
-      "yellowCards": [],
+      "scorers": [
+        {
+          "player": "Luis Romo",
+          "team": "Mexico",
+          "match": "Mexico vs Korea Republic"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Lee Kang-in",
+          "team": "South Africa",
+          "match": "Mexico vs Korea Republic"
+        },
+        {
+          "player": "Paik Seung-ho",
+          "team": "South Africa",
+          "match": "Mexico vs Korea Republic"
+        }
+      ],
       "redCards": [],
       "penalties": 0,
-      "homeKeeper": "",
-      "awayKeeper": ""
+      "homeKeeper": "Raúl Rangel",
+      "awayKeeper": "Kim Seung-gyu"
     },
     {
       "date": "Friday, June 19, 2026",
@@ -4393,7 +4410,7 @@
       "date": "Thursday, June 18, 2026",
       "stage": "Group Stage",
       "group": "Group A",
-      "time": "7:00 PM local",
+      "time": "8:00 PM CDT (7:00 PM CST venue local)",
       "home": "Mexico",
       "homeFlag": "MEX",
       "away": "Korea Republic",
@@ -4403,12 +4420,29 @@
       "elapsed": 100,
       "homeScore": 1,
       "awayScore": 0,
-      "scorers": [],
-      "yellowCards": [],
+      "scorers": [
+        {
+          "player": "Luis Romo",
+          "team": "Mexico",
+          "match": "Mexico vs Korea Republic"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Lee Kang-in",
+          "team": "South Africa",
+          "match": "Mexico vs Korea Republic"
+        },
+        {
+          "player": "Paik Seung-ho",
+          "team": "South Africa",
+          "match": "Mexico vs Korea Republic"
+        }
+      ],
       "redCards": [],
       "penalties": 0,
-      "homeKeeper": "",
-      "awayKeeper": ""
+      "homeKeeper": "Raúl Rangel",
+      "awayKeeper": "Kim Seung-gyu"
     }
   ],
   "detailedStats": {
@@ -4649,6 +4683,11 @@
         "detail": "Colombia"
       },
       {
+        "name": "Luis Romo",
+        "value": 1,
+        "detail": "Mexico"
+      },
+      {
         "name": "Marcus Rashford",
         "value": 1,
         "detail": "England"
@@ -4786,6 +4825,11 @@
     ],
     "keepers": [
       {
+        "name": "Raúl Rangel",
+        "value": 2,
+        "detail": "Mexico · 0 goals conceded in 2 appearances"
+      },
+      {
         "name": "Angus Gunn",
         "value": 1,
         "detail": "Scotland · 0 goals conceded in 1 appearance"
@@ -4809,11 +4853,6 @@
         "name": "Patrick Beach",
         "value": 1,
         "detail": "Australia · 0 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Raúl Rangel",
-        "value": 1,
-        "detail": "Mexico · 0 goals conceded in 1 appearance"
       },
       {
         "name": "Unai Simón",
@@ -4903,7 +4942,7 @@
       {
         "name": "Kim Seung-gyu",
         "value": 0,
-        "detail": "Korea Republic · 1 goals conceded in 1 appearance"
+        "detail": "Korea Republic · 2 goals conceded in 2 appearances"
       },
       {
         "name": "Kristoffer Nordfeldt",
@@ -5028,7 +5067,7 @@
       "Qatar": 2
     },
     "yellowCards": {
-      "South Africa": 3,
+      "South Africa": 5,
       "Mexico": 1,
       "Canada": 2,
       "Bosnia and Herzegovina": 5,
@@ -5371,6 +5410,16 @@
         "player": "Ahmed Fathy",
         "team": "Qatar",
         "match": "Canada vs Qatar"
+      },
+      {
+        "player": "Lee Kang-in",
+        "team": "South Africa",
+        "match": "Mexico vs Korea Republic"
+      },
+      {
+        "player": "Paik Seung-ho",
+        "team": "South Africa",
+        "match": "Mexico vs Korea Republic"
       }
     ],
     "penaltyEvents": [
@@ -5586,7 +5635,7 @@
       {
         "match": "Mexico vs Korea Republic",
         "redCards": 0,
-        "yellowCards": 0,
+        "yellowCards": 2,
         "penalties": 0,
         "elapsed": 100
       }
