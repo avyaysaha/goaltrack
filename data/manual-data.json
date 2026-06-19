@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T16:57:56.850Z",
+  "updatedAt": "2026-06-19T21:59:13.660Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -273,22 +273,22 @@
         "name": "United States",
         "flag": "USA",
         "fifaRank": 14,
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "drawn": 0,
         "lost": 0,
-        "gd": 3,
-        "points": 3
+        "gd": 5,
+        "points": 6
       },
       {
         "name": "Australia",
         "flag": "AUS",
         "fifaRank": 26,
-        "played": 1,
+        "played": 2,
         "won": 1,
         "drawn": 0,
-        "lost": 0,
-        "gd": 2,
+        "lost": 1,
+        "gd": 0,
         "points": 3
       },
       {
@@ -2149,7 +2149,17 @@
       "away": "Australia",
       "awayFlag": "AUS",
       "location": "Lumen Field · Seattle",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "status": "FT",
+      "elapsed": 103,
+      "homeScore": 2,
+      "awayScore": 0,
+      "scorers": [],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "",
+      "awayKeeper": ""
     },
     {
       "date": "Friday, June 19, 2026",
@@ -4443,6 +4453,27 @@
       "penalties": 0,
       "homeKeeper": "Raúl Rangel",
       "awayKeeper": "Kim Seung-gyu"
+    },
+    {
+      "date": "Friday, June 19, 2026",
+      "stage": "Group Stage",
+      "group": "Group D",
+      "time": "12:00 PM local",
+      "home": "United States",
+      "homeFlag": "USA",
+      "away": "Australia",
+      "awayFlag": "AUS",
+      "location": "Lumen Field · Seattle",
+      "status": "FT",
+      "elapsed": 103,
+      "homeScore": 2,
+      "awayScore": 0,
+      "scorers": [],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "",
+      "awayKeeper": ""
     }
   ],
   "detailedStats": {
@@ -5638,6 +5669,13 @@
         "yellowCards": 2,
         "penalties": 0,
         "elapsed": 100
+      },
+      {
+        "match": "United States vs Australia",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 103
       }
     ]
   }
