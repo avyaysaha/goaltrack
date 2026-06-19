@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T22:15:19.712Z",
+  "updatedAt": "2026-06-19T22:21:51.848Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -2148,7 +2148,7 @@
       "homeFlag": "USA",
       "away": "Australia",
       "awayFlag": "AUS",
-      "location": "",
+      "location": "Lumen Field · Seattle",
       "venueTimeZone": "America/Los_Angeles",
       "status": "FT",
       "elapsed": 103,
@@ -2166,11 +2166,47 @@
           "match": "United States vs Australia"
         }
       ],
-      "yellowCards": [],
+      "yellowCards": [
+        {
+          "player": "Weston McKennie",
+          "team": "United States",
+          "match": "United States vs Australia"
+        },
+        {
+          "player": "Johnny Cardoso",
+          "team": "United States",
+          "match": "United States vs Australia"
+        },
+        {
+          "player": "Chris Richards",
+          "team": "United States",
+          "match": "United States vs Australia"
+        },
+        {
+          "player": "Jackson Irvine",
+          "team": "Australia",
+          "match": "United States vs Australia"
+        },
+        {
+          "player": "Cameron Burgess",
+          "team": "Australia",
+          "match": "United States vs Australia"
+        },
+        {
+          "player": "Aiden O'Neill",
+          "team": "Australia",
+          "match": "United States vs Australia"
+        },
+        {
+          "player": "Kye Rowles",
+          "team": "Australia",
+          "match": "United States vs Australia"
+        }
+      ],
       "redCards": [],
       "penalties": 0,
-      "homeKeeper": "",
-      "awayKeeper": ""
+      "homeKeeper": "Matt Freese",
+      "awayKeeper": "Patrick Beach"
     },
     {
       "date": "Friday, June 19, 2026",
@@ -4474,7 +4510,7 @@
       "homeFlag": "USA",
       "away": "Australia",
       "awayFlag": "AUS",
-      "location": "",
+      "location": "Lumen Field · Seattle",
       "status": "FT",
       "elapsed": 103,
       "homeScore": 2,
@@ -4491,11 +4527,47 @@
           "match": "United States vs Australia"
         }
       ],
-      "yellowCards": [],
+      "yellowCards": [
+        {
+          "player": "Weston McKennie",
+          "team": "United States",
+          "match": "United States vs Australia"
+        },
+        {
+          "player": "Johnny Cardoso",
+          "team": "United States",
+          "match": "United States vs Australia"
+        },
+        {
+          "player": "Chris Richards",
+          "team": "United States",
+          "match": "United States vs Australia"
+        },
+        {
+          "player": "Jackson Irvine",
+          "team": "Australia",
+          "match": "United States vs Australia"
+        },
+        {
+          "player": "Cameron Burgess",
+          "team": "Australia",
+          "match": "United States vs Australia"
+        },
+        {
+          "player": "Aiden O'Neill",
+          "team": "Australia",
+          "match": "United States vs Australia"
+        },
+        {
+          "player": "Kye Rowles",
+          "team": "Australia",
+          "match": "United States vs Australia"
+        }
+      ],
       "redCards": [],
       "penalties": 0,
-      "homeKeeper": "",
-      "awayKeeper": ""
+      "homeKeeper": "Matt Freese",
+      "awayKeeper": "Patrick Beach"
     }
   ],
   "detailedStats": {
@@ -4908,6 +4980,11 @@
         "detail": "Ghana · 0 goals conceded in 1 appearance"
       },
       {
+        "name": "Matt Freese",
+        "value": 1,
+        "detail": "United States · 1 goals conceded in 2 appearances"
+      },
+      {
         "name": "Maxime Crépeau",
         "value": 1,
         "detail": "Canada · 1 goals conceded in 2 appearances"
@@ -4915,7 +4992,7 @@
       {
         "name": "Patrick Beach",
         "value": 1,
-        "detail": "Australia · 0 goals conceded in 1 appearance"
+        "detail": "Australia · 2 goals conceded in 2 appearances"
       },
       {
         "name": "Unai Simón",
@@ -5043,11 +5120,6 @@
         "detail": "Czechia · 3 goals conceded in 2 appearances"
       },
       {
-        "name": "Matt Freese",
-        "value": 0,
-        "detail": "United States · 1 goals conceded in 1 appearance"
-      },
-      {
         "name": "Max Crocombe",
         "value": 0,
         "detail": "New Zealand · 2 goals conceded in 1 appearance"
@@ -5135,7 +5207,7 @@
       "Canada": 2,
       "Bosnia and Herzegovina": 5,
       "Paraguay": 5,
-      "United States": 1,
+      "United States": 4,
       "Qatar": 3,
       "Switzerland": 2,
       "Brazil": 2,
@@ -5159,7 +5231,8 @@
       "Panama": 2,
       "Colombia": 1,
       "Uzbekistan": 1,
-      "Czechia": 1
+      "Czechia": 1,
+      "Australia": 4
     },
     "redCardEvents": [
       {
@@ -5483,6 +5556,41 @@
         "player": "Paik Seung-ho",
         "team": "South Africa",
         "match": "Mexico vs Korea Republic"
+      },
+      {
+        "player": "Weston McKennie",
+        "team": "United States",
+        "match": "United States vs Australia"
+      },
+      {
+        "player": "Johnny Cardoso",
+        "team": "United States",
+        "match": "United States vs Australia"
+      },
+      {
+        "player": "Chris Richards",
+        "team": "United States",
+        "match": "United States vs Australia"
+      },
+      {
+        "player": "Jackson Irvine",
+        "team": "Australia",
+        "match": "United States vs Australia"
+      },
+      {
+        "player": "Cameron Burgess",
+        "team": "Australia",
+        "match": "United States vs Australia"
+      },
+      {
+        "player": "Aiden O'Neill",
+        "team": "Australia",
+        "match": "United States vs Australia"
+      },
+      {
+        "player": "Kye Rowles",
+        "team": "Australia",
+        "match": "United States vs Australia"
       }
     ],
     "penaltyEvents": [
@@ -5705,7 +5813,7 @@
       {
         "match": "United States vs Australia",
         "redCards": 0,
-        "yellowCards": 0,
+        "yellowCards": 7,
         "penalties": 0,
         "elapsed": 103
       }
