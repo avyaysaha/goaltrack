@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T16:45:53.815Z",
+  "updatedAt": "2026-06-19T16:53:58.579Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -135,22 +135,22 @@
         "name": "Mexico",
         "flag": "MEX",
         "fifaRank": 15,
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "drawn": 0,
         "lost": 0,
-        "gd": 2,
-        "points": 3
+        "gd": 3,
+        "points": 6
       },
       {
         "name": "Korea Republic",
         "flag": "KOR",
         "fifaRank": 22,
-        "played": 1,
+        "played": 2,
         "won": 1,
         "drawn": 0,
-        "lost": 0,
-        "gd": 1,
+        "lost": 1,
+        "gd": 0,
         "points": 3
       },
       {
@@ -2109,7 +2109,17 @@
       "away": "Korea Republic",
       "awayFlag": "KOR",
       "location": "Estadio Akron · Guadalajara",
-      "venueTimeZone": "America/Mexico_City"
+      "venueTimeZone": "America/Mexico_City",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 1,
+      "awayScore": 0,
+      "scorers": [],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "",
+      "awayKeeper": ""
     },
     {
       "date": "Friday, June 19, 2026",
@@ -4378,6 +4388,27 @@
       "penalties": 0,
       "homeKeeper": "Maxime Crépeau",
       "awayKeeper": "Mahmud Abunada"
+    },
+    {
+      "date": "Thursday, June 18, 2026",
+      "stage": "Group Stage",
+      "group": "Group A",
+      "time": "7:00 PM local",
+      "home": "Mexico",
+      "homeFlag": "MEX",
+      "away": "Korea Republic",
+      "awayFlag": "KOR",
+      "location": "Estadio Akron · Guadalajara",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 1,
+      "awayScore": 0,
+      "scorers": [],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "",
+      "awayKeeper": ""
     }
   ],
   "detailedStats": {
@@ -5551,6 +5582,13 @@
         "yellowCards": 2,
         "penalties": 0,
         "elapsed": 105
+      },
+      {
+        "match": "Mexico vs Korea Republic",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 100
       }
     ]
   }
