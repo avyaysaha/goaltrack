@@ -73,6 +73,75 @@ Object.values(standingsData).flat().forEach(function (entry) {
   entry.flag = getTeamCountryCode(entry.name, entry.flag);
 });
 
+function recalculateStandingsFromFinishedMatches() {
+  const teamRows = new Map();
+
+  Object.entries(standingsData).forEach(function ([groupLetter, teams]) {
+    teams.forEach(function (team) {
+      Object.assign(team, {
+        played: 0,
+        won: 0,
+        drawn: 0,
+        lost: 0,
+        gd: 0,
+        points: 0
+      });
+      teamRows.set(team.name, { team, groupLetter });
+    });
+  });
+
+  (siteData.matches || []).forEach(function (match) {
+    if (
+      match.stage !== "Group Stage" ||
+      !["FT", "AET", "PEN"].includes(match.status) ||
+      !Number.isInteger(match.homeScore) ||
+      !Number.isInteger(match.awayScore)
+    ) {
+      return;
+    }
+
+    const home = teamRows.get(match.home);
+    const away = teamRows.get(match.away);
+    if (!home || !away || home.groupLetter !== away.groupLetter) {
+      return;
+    }
+
+    home.team.played += 1;
+    away.team.played += 1;
+    home.team.gd += match.homeScore - match.awayScore;
+    away.team.gd += match.awayScore - match.homeScore;
+
+    if (match.homeScore > match.awayScore) {
+      home.team.won += 1;
+      home.team.points += 3;
+      away.team.lost += 1;
+    } else if (match.awayScore > match.homeScore) {
+      away.team.won += 1;
+      away.team.points += 3;
+      home.team.lost += 1;
+    } else {
+      home.team.drawn += 1;
+      away.team.drawn += 1;
+      home.team.points += 1;
+      away.team.points += 1;
+    }
+  });
+
+  Object.values(standingsData).forEach(function (group) {
+    group.sort(function (a, b) {
+      return b.points - a.points ||
+        b.gd - a.gd ||
+        b.won - a.won ||
+        Number(a.fifaRank) - Number(b.fifaRank) ||
+        a.name.localeCompare(b.name, "en", { sensitivity: "base" });
+    });
+  });
+
+  localStorage.setItem("goalTrackStandings", JSON.stringify(standingsData));
+}
+
+recalculateStandingsFromFinishedMatches();
+
 const standingsBody = document.querySelector("#standings-body");
 const groupTabs = document.querySelector("#group-tabs");
 const groupLabel = document.querySelector("#group-label");
