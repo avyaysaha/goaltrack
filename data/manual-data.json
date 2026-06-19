@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T01:45:24.822Z",
+  "updatedAt": "2026-06-18T21:36:22.499Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -178,17 +178,6 @@
     ],
     "B": [
       {
-        "name": "Canada",
-        "flag": "CAN",
-        "fifaRank": 27,
-        "played": 2,
-        "won": 1,
-        "drawn": 1,
-        "lost": 0,
-        "gd": 6,
-        "points": 4
-      },
-      {
         "name": "Switzerland",
         "flag": "SUI",
         "fifaRank": 17,
@@ -200,6 +189,28 @@
         "points": 4
       },
       {
+        "name": "Canada",
+        "flag": "CAN",
+        "fifaRank": 27,
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gd": 0,
+        "points": 1
+      },
+      {
+        "name": "Qatar",
+        "flag": "QAT",
+        "fifaRank": 51,
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gd": 0,
+        "points": 1
+      },
+      {
         "name": "Bosnia and Herzegovina",
         "flag": "BIH",
         "fifaRank": 71,
@@ -208,17 +219,6 @@
         "drawn": 1,
         "lost": 1,
         "gd": -3,
-        "points": 1
-      },
-      {
-        "name": "Qatar",
-        "flag": "QAT",
-        "fifaRank": 51,
-        "played": 2,
-        "won": 0,
-        "drawn": 1,
-        "lost": 1,
-        "gd": -6,
         "points": 1
       }
     ],
@@ -500,47 +500,47 @@
     ],
     "I": [
       {
+        "name": "Norway",
+        "flag": "NOR",
+        "fifaRank": 29,
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 3,
+        "points": 3
+      },
+      {
         "name": "France",
         "flag": "FRA",
         "fifaRank": 3,
-        "played": 0,
-        "won": 0,
+        "played": 1,
+        "won": 1,
         "drawn": 0,
         "lost": 0,
-        "gd": 0,
+        "gd": 2,
+        "points": 3
+      },
+      {
+        "name": "Senegal",
+        "flag": "SEN",
+        "fifaRank": 19,
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "gd": -2,
         "points": 0
       },
       {
         "name": "Iraq",
         "flag": "IRQ",
         "fifaRank": 58,
-        "played": 0,
+        "played": 1,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "gd": 0,
-        "points": 0
-      },
-      {
-        "name": "Norway",
-        "flag": "NOR",
-        "fifaRank": 29,
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 0,
-        "points": 0
-      },
-      {
-        "name": "Senegal",
-        "flag": "SEN",
-        "fifaRank": 19,
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 0,
+        "lost": 1,
+        "gd": -3,
         "points": 0
       }
     ],
@@ -2026,77 +2026,14 @@
       "date": "Thursday, June 18, 2026",
       "stage": "Group Stage",
       "group": "Group B",
-      "time": "5:00 PM CDT (3:00 PM PDT venue local)",
+      "time": "3:00 PM local",
       "kickoffISO": "2026-06-18T22:00:00Z",
       "home": "Canada",
       "homeFlag": "CAN",
       "away": "Qatar",
       "awayFlag": "QAT",
-      "location": "BC  Place · Vancouver",
-      "venueTimeZone": "America/Vancouver",
-      "status": "FT",
-      "elapsed": 105,
-      "homeScore": 6,
-      "awayScore": 0,
-      "scorers": [
-        {
-          "player": "Jonathan David",
-          "team": "Canada",
-          "match": "Canada vs Qatar"
-        },
-        {
-          "player": "Jonathan David",
-          "team": "Canada",
-          "match": "Canada vs Qatar"
-        },
-        {
-          "player": "Jonathan David",
-          "team": "Canada",
-          "match": "Canada vs Qatar"
-        },
-        {
-          "player": "Cyle Larin",
-          "team": "Canada",
-          "match": "Canada vs Qatar"
-        },
-        {
-          "player": "Nathan Saliba",
-          "team": "Canada",
-          "match": "Canada vs Qatar"
-        },
-        {
-          "player": "Mohamed Manai(OG)",
-          "team": "Canada",
-          "match": "Canada vs Qatar"
-        }
-      ],
-      "yellowCards": [
-        {
-          "player": "Derek Cornelius",
-          "team": "Canada",
-          "match": "Canada vs Qatar"
-        },
-        {
-          "player": "Ahmed Fathy",
-          "team": "Qatar",
-          "match": "Canada vs Qatar"
-        }
-      ],
-      "redCards": [
-        {
-          "player": "Homam Ahmed",
-          "team": "Qatar",
-          "match": "Canada vs Qatar"
-        },
-        {
-          "player": "Assim Madibo",
-          "team": "Qatar",
-          "match": "Canada vs Qatar"
-        }
-      ],
-      "penalties": 0,
-      "homeKeeper": "Maxime Crépeau",
-      "awayKeeper": "Mahmud Abunada"
+      "location": "BC Place · Vancouver",
+      "venueTimeZone": "America/Vancouver"
     },
     {
       "date": "Thursday, June 18, 2026",
@@ -4304,103 +4241,24 @@
       "penalties": 1,
       "homeKeeper": "Gregor Kobel",
       "awayKeeper": "Nikola Vasilj"
-    },
-    {
-      "date": "Thursday, June 18, 2026",
-      "stage": "Group Stage",
-      "group": "Group B",
-      "time": "5:00 PM CDT (3:00 PM PDT venue local)",
-      "home": "Canada",
-      "homeFlag": "CAN",
-      "away": "Qatar",
-      "awayFlag": "QAT",
-      "location": "BC  Place · Vancouver",
-      "status": "FT",
-      "elapsed": 105,
-      "homeScore": 6,
-      "awayScore": 0,
-      "scorers": [
-        {
-          "player": "Jonathan David",
-          "team": "Canada",
-          "match": "Canada vs Qatar"
-        },
-        {
-          "player": "Jonathan David",
-          "team": "Canada",
-          "match": "Canada vs Qatar"
-        },
-        {
-          "player": "Jonathan David",
-          "team": "Canada",
-          "match": "Canada vs Qatar"
-        },
-        {
-          "player": "Cyle Larin",
-          "team": "Canada",
-          "match": "Canada vs Qatar"
-        },
-        {
-          "player": "Nathan Saliba",
-          "team": "Canada",
-          "match": "Canada vs Qatar"
-        },
-        {
-          "player": "Mohamed Manai(OG)",
-          "team": "Canada",
-          "match": "Canada vs Qatar"
-        }
-      ],
-      "yellowCards": [
-        {
-          "player": "Derek Cornelius",
-          "team": "Canada",
-          "match": "Canada vs Qatar"
-        },
-        {
-          "player": "Ahmed Fathy",
-          "team": "Qatar",
-          "match": "Canada vs Qatar"
-        }
-      ],
-      "redCards": [
-        {
-          "player": "Homam Ahmed",
-          "team": "Qatar",
-          "match": "Canada vs Qatar"
-        },
-        {
-          "player": "Assim Madibo",
-          "team": "Qatar",
-          "match": "Canada vs Qatar"
-        }
-      ],
-      "penalties": 0,
-      "homeKeeper": "Maxime Crépeau",
-      "awayKeeper": "Mahmud Abunada"
     }
   ],
   "detailedStats": {
     "scorers": [
-      {
-        "name": "Jonathan David",
-        "value": 3,
-        "detail": "Canada"
-      },
       {
         "name": "Lionel Messi",
         "value": 3,
         "detail": "Argentina"
       },
       {
-        "name": "Cyle Larin",
-        "value": 2,
-        "detail": "Canada"
-      },
-      {
         "name": "Elijah Just",
         "value": 2,
         "detail": "New Zealand"
+      },
+      {
+        "name": "Erling Haaland",
+        "value": 2,
+        "detail": "Norway"
       },
       {
         "name": "Folarin Balogun",
@@ -4421,6 +4279,11 @@
         "name": "Kai Havertz",
         "value": 2,
         "detail": "Germany"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "value": 2,
+        "detail": "France"
       },
       {
         "name": "Yasin Ayari",
@@ -4453,9 +4316,19 @@
         "detail": "Cote d'Ivoire"
       },
       {
+        "name": "Aymen Hussein",
+        "value": 1,
+        "detail": "Iraq"
+      },
+      {
         "name": "Boulem Khouki",
         "value": 1,
         "detail": "Qatar"
+      },
+      {
+        "name": "Bradley Barcola",
+        "value": 1,
+        "detail": "France"
       },
       {
         "name": "Breel Embolo",
@@ -4476,6 +4349,11 @@
         "name": "Crysencio Summerville",
         "value": 1,
         "detail": "Netherlands"
+      },
+      {
+        "name": "Cyle Larin",
+        "value": 1,
+        "detail": "Canada"
       },
       {
         "name": "Daichi Kamada",
@@ -4528,6 +4406,11 @@
         "detail": "Korea Republic"
       },
       {
+        "name": "Ibrahim Mbaye",
+        "value": 1,
+        "detail": "Senegal"
+      },
+      {
         "name": "Ismael Saibari",
         "value": 1,
         "detail": "Morocco"
@@ -4576,6 +4459,11 @@
         "name": "Ladislav Krejčí",
         "value": 1,
         "detail": "Czechia"
+      },
+      {
+        "name": "Leo Østigård",
+        "value": 1,
+        "detail": "Norway"
       },
       {
         "name": "Livano Comenencia",
@@ -4628,19 +4516,9 @@
         "detail": "Belgium"
       },
       {
-        "name": "Mohamed Manai(OG)",
-        "value": 1,
-        "detail": "Canada"
-      },
-      {
         "name": "Mohammad Mohebi",
         "value": 1,
         "detail": "Iran"
-      },
-      {
-        "name": "Nathan Saliba",
-        "value": 1,
-        "detail": "Canada"
       },
       {
         "name": "Nathaniel Brown",
@@ -4740,11 +4618,6 @@
         "detail": "Ghana · 0 goals conceded in 1 appearance"
       },
       {
-        "name": "Maxime Crépeau",
-        "value": 1,
-        "detail": "Canada · 1 goals conceded in 2 appearances"
-      },
-      {
         "name": "Patrick Beach",
         "value": 1,
         "detail": "Australia · 0 goals conceded in 1 appearance"
@@ -4825,6 +4698,11 @@
         "detail": "Ecuador · 1 goals conceded in 1 appearance"
       },
       {
+        "name": "Lionel Mpasi",
+        "value": 0,
+        "detail": "DR Congo · 1 goals conceded in 1 appearance"
+      },
+      {
         "name": "Johny Placide",
         "value": 0,
         "detail": "Haiti · 1 goals conceded in 1 appearance"
@@ -4845,11 +4723,6 @@
         "detail": "Sweden · 1 goals conceded in 1 appearance"
       },
       {
-        "name": "Lionel Mpasi",
-        "value": 0,
-        "detail": "DR Congo · 1 goals conceded in 1 appearance"
-      },
-      {
         "name": "Luca Zidane",
         "value": 0,
         "detail": "Algeria · 3 goals conceded in 1 appearance"
@@ -4858,11 +4731,6 @@
         "name": "Mahmoud Abunada",
         "value": 0,
         "detail": "Qatar · 1 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Mahmud Abunada",
-        "value": 0,
-        "detail": "Qatar · 6 goals conceded in 1 appearance"
       },
       {
         "name": "Manuel Neuer",
@@ -4883,6 +4751,11 @@
         "name": "Max Crocombe",
         "value": 0,
         "detail": "New Zealand · 2 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Maxime Crépeau",
+        "value": 0,
+        "detail": "Canada · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Mohammed Al-Owais",
@@ -4953,17 +4826,19 @@
     "redCards": {
       "South Africa": 2,
       "Mexico": 1,
+      "Iran": 2,
       "Bosnia and Herzegovina": 1,
-      "Qatar": 2
+      "Portugal": 0,
+      "DR Congo": 0
     },
     "yellowCards": {
       "South Africa": 3,
       "Mexico": 1,
-      "Canada": 2,
+      "Canada": 1,
       "Bosnia and Herzegovina": 5,
       "Paraguay": 5,
       "United States": 1,
-      "Qatar": 3,
+      "Qatar": 2,
       "Switzerland": 2,
       "Brazil": 2,
       "Haiti": 1,
@@ -4980,13 +4855,13 @@
       "Saudi Arabia": 1,
       "Iran": 1,
       "Austria": 1,
-      "Portugal": 3,
-      "DR Congo": 1,
       "Ghana": 1,
       "Panama": 2,
       "Colombia": 1,
       "Uzbekistan": 1,
-      "Czechia": 1
+      "Czechia": 1,
+      "Portugal": 3,
+      "DR Congo": 1
     },
     "redCardEvents": [
       {
@@ -5008,16 +4883,6 @@
         "player": "Tarik Muharemović",
         "team": "Bosnia and Herzegovina",
         "match": "Switzerland vs Bosnia and Herzegovina"
-      },
-      {
-        "player": "Homam Ahmed",
-        "team": "Qatar",
-        "match": "Canada vs Qatar"
-      },
-      {
-        "player": "Assim Madibo",
-        "team": "Qatar",
-        "match": "Canada vs Qatar"
       }
     ],
     "yellowCardEvents": [
@@ -5222,26 +5087,6 @@
         "match": "Austria vs Jordan"
       },
       {
-        "player": "Bernardo Silva",
-        "team": "Portugal",
-        "match": "Portugal vs DR Congo"
-      },
-      {
-        "player": "Chancel Mbemba",
-        "team": "DR Congo",
-        "match": "Portugal vs DR Congo"
-      },
-      {
-        "player": "Nélson Semedo",
-        "team": "Portugal",
-        "match": "Portugal vs DR Congo"
-      },
-      {
-        "player": "Tomás Araújo",
-        "team": "Portugal",
-        "match": "Portugal vs DR Congo"
-      },
-      {
         "player": "Caleb Yirenkyi",
         "team": "Ghana",
         "match": "Ghana vs Panama"
@@ -5292,14 +5137,24 @@
         "match": "Switzerland vs Bosnia and Herzegovina"
       },
       {
-        "player": "Derek Cornelius",
-        "team": "Canada",
-        "match": "Canada vs Qatar"
+        "player": "Bernardo Silva",
+        "team": "Portugal",
+        "match": "Portugal vs DR Congo"
       },
       {
-        "player": "Ahmed Fathy",
-        "team": "Qatar",
-        "match": "Canada vs Qatar"
+        "player": "Chancel Mbemba",
+        "team": "DR Congo",
+        "match": "Portugal vs DR Congo"
+      },
+      {
+        "player": "Nélson Semedo",
+        "team": "Portugal",
+        "match": "Portugal vs DR Congo"
+      },
+      {
+        "player": "Tomás Araújo",
+        "team": "Portugal",
+        "match": "Portugal vs DR Congo"
       }
     ],
     "penaltyEvents": [
@@ -5452,7 +5307,7 @@
       {
         "match": "Portugal vs DR Congo",
         "redCards": 0,
-        "yellowCards": 4,
+        "yellowCards": 0,
         "penalties": 0,
         "elapsed": 99
       },
@@ -5490,13 +5345,6 @@
         "yellowCards": 3,
         "penalties": 1,
         "elapsed": 99
-      },
-      {
-        "match": "Canada vs Qatar",
-        "redCards": 2,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 105
       }
     ]
   }
