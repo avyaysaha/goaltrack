@@ -500,47 +500,47 @@
     ],
     "I": [
       {
+        "name": "Norway",
+        "flag": "NOR",
+        "fifaRank": 29,
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 3,
+        "points": 3
+      },
+      {
         "name": "France",
         "flag": "FRA",
         "fifaRank": 3,
-        "played": 0,
-        "won": 0,
+        "played": 1,
+        "won": 1,
         "drawn": 0,
         "lost": 0,
-        "gd": 0,
+        "gd": 2,
+        "points": 3
+      },
+      {
+        "name": "Senegal",
+        "flag": "SEN",
+        "fifaRank": 19,
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "gd": -2,
         "points": 0
       },
       {
         "name": "Iraq",
         "flag": "IRQ",
         "fifaRank": 58,
-        "played": 0,
+        "played": 1,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "gd": 0,
-        "points": 0
-      },
-      {
-        "name": "Norway",
-        "flag": "NOR",
-        "fifaRank": 29,
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 0,
-        "points": 0
-      },
-      {
-        "name": "Senegal",
-        "flag": "SEN",
-        "fifaRank": 19,
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 0,
+        "lost": 1,
+        "gd": -3,
         "points": 0
       }
     ],
@@ -4256,6 +4256,11 @@
         "detail": "New Zealand"
       },
       {
+        "name": "Erling Haaland",
+        "value": 2,
+        "detail": "Norway"
+      },
+      {
         "name": "Folarin Balogun",
         "value": 2,
         "detail": "United States"
@@ -4274,6 +4279,11 @@
         "name": "Kai Havertz",
         "value": 2,
         "detail": "Germany"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "value": 2,
+        "detail": "France"
       },
       {
         "name": "Yasin Ayari",
@@ -4306,9 +4316,19 @@
         "detail": "Cote d'Ivoire"
       },
       {
+        "name": "Aymen Hussein",
+        "value": 1,
+        "detail": "Iraq"
+      },
+      {
         "name": "Boulem Khouki",
         "value": 1,
         "detail": "Qatar"
+      },
+      {
+        "name": "Bradley Barcola",
+        "value": 1,
+        "detail": "France"
       },
       {
         "name": "Breel Embolo",
@@ -4386,6 +4406,11 @@
         "detail": "Korea Republic"
       },
       {
+        "name": "Ibrahim Mbaye",
+        "value": 1,
+        "detail": "Senegal"
+      },
+      {
         "name": "Ismael Saibari",
         "value": 1,
         "detail": "Morocco"
@@ -4434,6 +4459,11 @@
         "name": "Ladislav Krejčí",
         "value": 1,
         "detail": "Czechia"
+      },
+      {
+        "name": "Leo Østigård",
+        "value": 1,
+        "detail": "Norway"
       },
       {
         "name": "Livano Comenencia",
