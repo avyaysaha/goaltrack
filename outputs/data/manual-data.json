@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T15:59:39.132Z",
+  "updatedAt": "2026-06-18T21:36:22.499Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -157,36 +157,36 @@
         "name": "Czechia",
         "flag": "CZE",
         "fifaRank": 44,
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 1,
         "gd": -1,
-        "points": 0
+        "points": 1
       },
       {
         "name": "South Africa",
         "flag": "RSA",
         "fifaRank": 61,
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 1,
         "gd": -2,
-        "points": 0
+        "points": 1
       }
     ],
     "B": [
       {
-        "name": "Bosnia and Herzegovina",
-        "flag": "BIH",
-        "fifaRank": 71,
-        "played": 1,
-        "won": 0,
+        "name": "Switzerland",
+        "flag": "SUI",
+        "fifaRank": 17,
+        "played": 2,
+        "won": 1,
         "drawn": 1,
         "lost": 0,
-        "gd": 0,
-        "points": 1
+        "gd": 3,
+        "points": 4
       },
       {
         "name": "Canada",
@@ -211,14 +211,14 @@
         "points": 1
       },
       {
-        "name": "Switzerland",
-        "flag": "SUI",
-        "fifaRank": 17,
-        "played": 1,
+        "name": "Bosnia and Herzegovina",
+        "flag": "BIH",
+        "fifaRank": 71,
+        "played": 2,
         "won": 0,
         "drawn": 1,
-        "lost": 0,
-        "gd": 0,
+        "lost": 1,
+        "gd": -3,
         "points": 1
       }
     ],
@@ -500,47 +500,47 @@
     ],
     "I": [
       {
-        "name": "Norway",
-        "flag": "NOR",
-        "fifaRank": 29,
-        "played": 1,
-        "won": 1,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 3,
-        "points": 3
-      },
-      {
         "name": "France",
         "flag": "FRA",
         "fifaRank": 3,
-        "played": 1,
-        "won": 1,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 2,
-        "points": 3
-      },
-      {
-        "name": "Senegal",
-        "flag": "SEN",
-        "fifaRank": 19,
-        "played": 1,
+        "played": 0,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
-        "gd": -2,
+        "lost": 0,
+        "gd": 0,
         "points": 0
       },
       {
         "name": "Iraq",
         "flag": "IRQ",
         "fifaRank": 58,
-        "played": 1,
+        "played": 0,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
-        "gd": -3,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Norway",
+        "flag": "NOR",
+        "fifaRank": 29,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
+        "points": 0
+      },
+      {
+        "name": "Senegal",
+        "flag": "SEN",
+        "fifaRank": 19,
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 0,
         "points": 0
       }
     ],
@@ -595,90 +595,90 @@
         "name": "Colombia",
         "flag": "COL",
         "fifaRank": 13,
-        "played": 0,
-        "won": 0,
+        "played": 1,
+        "won": 1,
         "drawn": 0,
         "lost": 0,
-        "gd": 0,
-        "points": 0
+        "gd": 2,
+        "points": 3
       },
       {
         "name": "DR Congo",
         "flag": "COD",
         "fifaRank": 56,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 0,
         "gd": 0,
-        "points": 0
+        "points": 1
       },
       {
         "name": "Portugal",
         "flag": "POR",
         "fifaRank": 6,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 0,
         "gd": 0,
-        "points": 0
+        "points": 1
       },
       {
         "name": "Uzbekistan",
         "flag": "UZB",
         "fifaRank": 50,
-        "played": 0,
+        "played": 1,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "gd": 0,
+        "lost": 1,
+        "gd": -2,
         "points": 0
       }
     ],
     "L": [
       {
-        "name": "Croatia",
-        "flag": "CRO",
-        "fifaRank": 10,
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 0,
-        "points": 0
-      },
-      {
         "name": "England",
         "flag": "ENG",
         "fifaRank": 4,
-        "played": 0,
-        "won": 0,
+        "played": 1,
+        "won": 1,
         "drawn": 0,
         "lost": 0,
-        "gd": 0,
-        "points": 0
+        "gd": 2,
+        "points": 3
       },
       {
         "name": "Ghana",
         "flag": "GHA",
         "fifaRank": 72,
-        "played": 0,
-        "won": 0,
+        "played": 1,
+        "won": 1,
         "drawn": 0,
         "lost": 0,
-        "gd": 0,
-        "points": 0
+        "gd": 1,
+        "points": 3
       },
       {
         "name": "Panama",
         "flag": "PAN",
         "fifaRank": 30,
-        "played": 0,
+        "played": 1,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "gd": 0,
+        "lost": 1,
+        "gd": -1,
+        "points": 0
+      },
+      {
+        "name": "Croatia",
+        "flag": "CRO",
+        "fifaRank": 10,
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "gd": -2,
         "points": 0
       }
     ]
@@ -1701,79 +1701,326 @@
       "date": "Wednesday, June 17, 2026",
       "stage": "Group Stage",
       "group": "Group K",
-      "time": "12:00 PM local",
+      "time": "12:00 PM CDT (12:00 PM CDT venue local)",
       "kickoffISO": "2026-06-17T17:00:00Z",
       "home": "Portugal",
       "homeFlag": "POR",
       "away": "DR Congo",
       "awayFlag": "COD",
       "location": "NRG Stadium · Houston",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "João Neves",
+          "team": "Portugal",
+          "match": "Portugal vs DR Congo"
+        },
+        {
+          "player": "Yoane Wissa",
+          "team": "DR Congo",
+          "match": "Portugal vs DR Congo"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Bernardo Silva",
+          "team": "Portugal",
+          "match": "Portugal vs DR Congo"
+        },
+        {
+          "player": "Chancel Mbemba",
+          "team": "DR Congo",
+          "match": "Portugal vs DR Congo"
+        },
+        {
+          "player": "Nélson Semedo",
+          "team": "Portugal",
+          "match": "Portugal vs DR Congo"
+        },
+        {
+          "player": "Tomás Araújo",
+          "team": "Portugal",
+          "match": "Portugal vs DR Congo"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Diogo Costa",
+      "awayKeeper": "Lionel Mpasi"
     },
     {
       "date": "Wednesday, June 17, 2026",
       "stage": "Group Stage",
       "group": "Group L",
-      "time": "3:00 PM local",
+      "time": "3:00 PM CDT (3:00 PM CDT venue local)",
       "kickoffISO": "2026-06-17T20:00:00Z",
       "home": "England",
       "homeFlag": "ENG",
       "away": "Croatia",
       "awayFlag": "CRO",
       "location": "AT&T Stadium · Dallas",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 4,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Harry Kane",
+          "team": "England",
+          "match": "England vs Croatia"
+        },
+        {
+          "player": "Harry Kane",
+          "team": "England",
+          "match": "England vs Croatia"
+        },
+        {
+          "player": "Jude Bellingham",
+          "team": "England",
+          "match": "England vs Croatia"
+        },
+        {
+          "player": "Marcus Rashford",
+          "team": "England",
+          "match": "England vs Croatia"
+        },
+        {
+          "player": "Martin Baturina",
+          "team": "Croatia",
+          "match": "England vs Croatia"
+        },
+        {
+          "player": "Petar Musa",
+          "team": "Croatia",
+          "match": "England vs Croatia"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Jordan Pickford",
+      "awayKeeper": "Dominik Livaković"
     },
     {
       "date": "Wednesday, June 17, 2026",
       "stage": "Group Stage",
       "group": "Group L",
-      "time": "7:00 PM local",
+      "time": "6:00 PM CDT (7:00 PM EDT venue local)",
       "kickoffISO": "2026-06-17T23:00:00Z",
       "home": "Ghana",
       "homeFlag": "GHA",
       "away": "Panama",
       "awayFlag": "PAN",
       "location": "BMO Field · Toronto",
-      "venueTimeZone": "America/Toronto"
+      "venueTimeZone": "America/Toronto",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 1,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Caleb Yirenkyi",
+          "team": "Ghana",
+          "match": "Ghana vs Panama"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Caleb Yirenkyi",
+          "team": "Ghana",
+          "match": "Ghana vs Panama"
+        },
+        {
+          "player": "César Blackman",
+          "team": "Panama",
+          "match": "Ghana vs Panama"
+        },
+        {
+          "player": "Carlos Harvey",
+          "team": "Panama",
+          "match": "Ghana vs Panama"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Lawrence Ati-Zigi",
+      "awayKeeper": "Orlando Mosquera"
     },
     {
       "date": "Wednesday, June 17, 2026",
       "stage": "Group Stage",
       "group": "Group K",
-      "time": "8:00 PM local",
+      "time": "9:00 PM CDT (8:00 PM CST venue local)",
       "kickoffISO": "2026-06-18T02:00:00Z",
       "home": "Uzbekistan",
       "homeFlag": "UZB",
       "away": "Colombia",
       "awayFlag": "COL",
       "location": "Estadio Azteca · Mexico City",
-      "venueTimeZone": "America/Mexico_City"
+      "venueTimeZone": "America/Mexico_City",
+      "status": "FT",
+      "elapsed": 103,
+      "homeScore": 1,
+      "awayScore": 3,
+      "scorers": [
+        {
+          "player": "Abbosbek Fayzullaev",
+          "team": "Uzbekistan",
+          "match": "Uzbekistan vs Colombia"
+        },
+        {
+          "player": "Daniel Muñoz",
+          "team": "Colombia",
+          "match": "Uzbekistan vs Colombia"
+        },
+        {
+          "player": "Luis Díaz",
+          "team": "Colombia",
+          "match": "Uzbekistan vs Colombia"
+        },
+        {
+          "player": "Jaminton Campaz",
+          "team": "Colombia",
+          "match": "Uzbekistan vs Colombia"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Johan Mojica",
+          "team": "Colombia",
+          "match": "Uzbekistan vs Colombia"
+        },
+        {
+          "player": "Abdukodir Khusanov",
+          "team": "Uzbekistan",
+          "match": "Uzbekistan vs Colombia"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Utkir Yusupov",
+      "awayKeeper": "Camilo Vargas"
     },
     {
       "date": "Thursday, June 18, 2026",
       "stage": "Group Stage",
       "group": "Group A",
-      "time": "12:00 PM local",
+      "time": "11:00 AM CDT (12:00 PM EDT venue local)",
       "kickoffISO": "2026-06-18T16:00:00Z",
       "home": "Czechia",
       "homeFlag": "CZE",
       "away": "South Africa",
       "awayFlag": "RSA",
       "location": "Mercedes-Benz Stadium · Atlanta",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Michal Sadílek",
+          "team": "Czechia",
+          "match": "Czechia vs South Africa"
+        },
+        {
+          "player": "Teboho Mokoena",
+          "team": "South Africa",
+          "match": "Czechia vs South Africa"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Ladislav Krejčí",
+          "team": "Czechia",
+          "match": "Czechia vs South Africa"
+        },
+        {
+          "player": "Bathusi Aubaas",
+          "team": "South Africa",
+          "match": "Czechia vs South Africa"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Matěj Kovář",
+      "awayKeeper": "Ronwen Williams"
     },
     {
       "date": "Thursday, June 18, 2026",
       "stage": "Group Stage",
       "group": "Group B",
-      "time": "12:00 PM local",
+      "time": "2:00 PM CDT (12:00 PM PDT venue local)",
       "kickoffISO": "2026-06-18T19:00:00Z",
       "home": "Switzerland",
       "homeFlag": "SUI",
       "away": "Bosnia and Herzegovina",
       "awayFlag": "BIH",
       "location": "SoFi Stadium · Los Angeles",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 4,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Johan Manzambi",
+          "team": "Switzerland",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Johan Manzambi",
+          "team": "Switzerland",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Rubén Vargas",
+          "team": "Switzerland",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Granit Xhaka",
+          "team": "Switzerland",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Ermin Mahmić",
+          "team": "Bosnia and Herzegovina",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Nico Elvedi",
+          "team": "Switzerland",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Amar Dedić",
+          "team": "Bosnia and Herzegovina",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Edin Džeko",
+          "team": "Bosnia and Herzegovina",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        }
+      ],
+      "redCards": [
+        {
+          "player": "Tarik Muharemović",
+          "team": "Bosnia and Herzegovina",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        }
+      ],
+      "penalties": 1,
+      "homeKeeper": "Gregor Kobel",
+      "awayKeeper": "Nikola Vasilj"
     },
     {
       "date": "Thursday, June 18, 2026",
@@ -3681,6 +3928,319 @@
       "penalties": 1,
       "homeKeeper": "Alexander Schlager",
       "awayKeeper": "Yazeed Abulaila"
+    },
+    {
+      "date": "Wednesday, June 17, 2026",
+      "stage": "Group Stage",
+      "group": "Group K",
+      "time": "12:00 PM CDT (12:00 PM CDT venue local)",
+      "home": "Portugal",
+      "homeFlag": "POR",
+      "away": "DR Congo",
+      "awayFlag": "COD",
+      "location": "NRG Stadium · Houston",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "João Neves",
+          "team": "Portugal",
+          "match": "Portugal vs DR Congo"
+        },
+        {
+          "player": "Yoane Wissa",
+          "team": "DR Congo",
+          "match": "Portugal vs DR Congo"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Bernardo Silva",
+          "team": "Portugal",
+          "match": "Portugal vs DR Congo"
+        },
+        {
+          "player": "Chancel Mbemba",
+          "team": "DR Congo",
+          "match": "Portugal vs DR Congo"
+        },
+        {
+          "player": "Nélson Semedo",
+          "team": "Portugal",
+          "match": "Portugal vs DR Congo"
+        },
+        {
+          "player": "Tomás Araújo",
+          "team": "Portugal",
+          "match": "Portugal vs DR Congo"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Diogo Costa",
+      "awayKeeper": "Lionel Mpasi"
+    },
+    {
+      "date": "Wednesday, June 17, 2026",
+      "stage": "Group Stage",
+      "group": "Group L",
+      "time": "3:00 PM CDT (3:00 PM CDT venue local)",
+      "home": "England",
+      "homeFlag": "ENG",
+      "away": "Croatia",
+      "awayFlag": "CRO",
+      "location": "AT&T Stadium · Dallas",
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 4,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Harry Kane",
+          "team": "England",
+          "match": "England vs Croatia"
+        },
+        {
+          "player": "Harry Kane",
+          "team": "England",
+          "match": "England vs Croatia"
+        },
+        {
+          "player": "Jude Bellingham",
+          "team": "England",
+          "match": "England vs Croatia"
+        },
+        {
+          "player": "Marcus Rashford",
+          "team": "England",
+          "match": "England vs Croatia"
+        },
+        {
+          "player": "Martin Baturina",
+          "team": "Croatia",
+          "match": "England vs Croatia"
+        },
+        {
+          "player": "Petar Musa",
+          "team": "Croatia",
+          "match": "England vs Croatia"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Jordan Pickford",
+      "awayKeeper": "Dominik Livaković"
+    },
+    {
+      "date": "Wednesday, June 17, 2026",
+      "stage": "Group Stage",
+      "group": "Group L",
+      "time": "6:00 PM CDT (7:00 PM EDT venue local)",
+      "home": "Ghana",
+      "homeFlag": "GHA",
+      "away": "Panama",
+      "awayFlag": "PAN",
+      "location": "BMO Field · Toronto",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 1,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Caleb Yirenkyi",
+          "team": "Ghana",
+          "match": "Ghana vs Panama"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Caleb Yirenkyi",
+          "team": "Ghana",
+          "match": "Ghana vs Panama"
+        },
+        {
+          "player": "César Blackman",
+          "team": "Panama",
+          "match": "Ghana vs Panama"
+        },
+        {
+          "player": "Carlos Harvey",
+          "team": "Panama",
+          "match": "Ghana vs Panama"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Lawrence Ati-Zigi",
+      "awayKeeper": "Orlando Mosquera"
+    },
+    {
+      "date": "Wednesday, June 17, 2026",
+      "stage": "Group Stage",
+      "group": "Group K",
+      "time": "9:00 PM CDT (8:00 PM CST venue local)",
+      "home": "Uzbekistan",
+      "homeFlag": "UZB",
+      "away": "Colombia",
+      "awayFlag": "COL",
+      "location": "Estadio Azteca · Mexico City",
+      "status": "FT",
+      "elapsed": 103,
+      "homeScore": 1,
+      "awayScore": 3,
+      "scorers": [
+        {
+          "player": "Abbosbek Fayzullaev",
+          "team": "Uzbekistan",
+          "match": "Uzbekistan vs Colombia"
+        },
+        {
+          "player": "Daniel Muñoz",
+          "team": "Colombia",
+          "match": "Uzbekistan vs Colombia"
+        },
+        {
+          "player": "Luis Díaz",
+          "team": "Colombia",
+          "match": "Uzbekistan vs Colombia"
+        },
+        {
+          "player": "Jaminton Campaz",
+          "team": "Colombia",
+          "match": "Uzbekistan vs Colombia"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Johan Mojica",
+          "team": "Colombia",
+          "match": "Uzbekistan vs Colombia"
+        },
+        {
+          "player": "Abdukodir Khusanov",
+          "team": "Uzbekistan",
+          "match": "Uzbekistan vs Colombia"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Utkir Yusupov",
+      "awayKeeper": "Camilo Vargas"
+    },
+    {
+      "date": "Thursday, June 18, 2026",
+      "stage": "Group Stage",
+      "group": "Group A",
+      "time": "11:00 AM CDT (12:00 PM EDT venue local)",
+      "home": "Czechia",
+      "homeFlag": "CZE",
+      "away": "South Africa",
+      "awayFlag": "RSA",
+      "location": "Mercedes-Benz Stadium · Atlanta",
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Michal Sadílek",
+          "team": "Czechia",
+          "match": "Czechia vs South Africa"
+        },
+        {
+          "player": "Teboho Mokoena",
+          "team": "South Africa",
+          "match": "Czechia vs South Africa"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Ladislav Krejčí",
+          "team": "Czechia",
+          "match": "Czechia vs South Africa"
+        },
+        {
+          "player": "Bathusi Aubaas",
+          "team": "South Africa",
+          "match": "Czechia vs South Africa"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Matěj Kovář",
+      "awayKeeper": "Ronwen Williams"
+    },
+    {
+      "date": "Thursday, June 18, 2026",
+      "stage": "Group Stage",
+      "group": "Group B",
+      "time": "2:00 PM CDT (12:00 PM PDT venue local)",
+      "home": "Switzerland",
+      "homeFlag": "SUI",
+      "away": "Bosnia and Herzegovina",
+      "awayFlag": "BIH",
+      "location": "SoFi Stadium · Los Angeles",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 4,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Johan Manzambi",
+          "team": "Switzerland",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Johan Manzambi",
+          "team": "Switzerland",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Rubén Vargas",
+          "team": "Switzerland",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Granit Xhaka",
+          "team": "Switzerland",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Ermin Mahmić",
+          "team": "Bosnia and Herzegovina",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Nico Elvedi",
+          "team": "Switzerland",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Amar Dedić",
+          "team": "Bosnia and Herzegovina",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Edin Džeko",
+          "team": "Bosnia and Herzegovina",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        }
+      ],
+      "redCards": [
+        {
+          "player": "Tarik Muharemović",
+          "team": "Bosnia and Herzegovina",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        }
+      ],
+      "penalties": 1,
+      "homeKeeper": "Gregor Kobel",
+      "awayKeeper": "Nikola Vasilj"
     }
   ],
   "detailedStats": {
@@ -3696,14 +4256,19 @@
         "detail": "New Zealand"
       },
       {
-        "name": "Erling Haaland",
-        "value": 2,
-        "detail": "Norway"
-      },
-      {
         "name": "Folarin Balogun",
         "value": 2,
         "detail": "United States"
+      },
+      {
+        "name": "Harry Kane",
+        "value": 2,
+        "detail": "England"
+      },
+      {
+        "name": "Johan Manzambi",
+        "value": 2,
+        "detail": "Switzerland"
       },
       {
         "name": "Kai Havertz",
@@ -3711,14 +4276,14 @@
         "detail": "Germany"
       },
       {
-        "name": "Kylian Mbappé",
-        "value": 2,
-        "detail": "France"
-      },
-      {
         "name": "Yasin Ayari",
         "value": 2,
         "detail": "Sweden"
+      },
+      {
+        "name": "Abbosbek Fayzullaev",
+        "value": 1,
+        "detail": "Uzbekistan"
       },
       {
         "name": "Abdulelah Al-Amri",
@@ -3741,24 +4306,19 @@
         "detail": "Cote d'Ivoire"
       },
       {
-        "name": "Aymen Hussein",
-        "value": 1,
-        "detail": "Iraq"
-      },
-      {
         "name": "Boulem Khouki",
         "value": 1,
         "detail": "Qatar"
       },
       {
-        "name": "Bradley Barcola",
-        "value": 1,
-        "detail": "France"
-      },
-      {
         "name": "Breel Embolo",
         "value": 1,
         "detail": "Switzerland"
+      },
+      {
+        "name": "Caleb Yirenkyi",
+        "value": 1,
+        "detail": "Ghana"
       },
       {
         "name": "Connor Metcalfe",
@@ -3786,6 +4346,11 @@
         "detail": "United States"
       },
       {
+        "name": "Daniel Muñoz",
+        "value": 1,
+        "detail": "Colombia"
+      },
+      {
         "name": "Deniz Undav",
         "value": 1,
         "detail": "Germany"
@@ -3794,6 +4359,11 @@
         "name": "Emam Ashour",
         "value": 1,
         "detail": "Egypt"
+      },
+      {
+        "name": "Ermin Mahmić",
+        "value": 1,
+        "detail": "Bosnia and Herzegovina"
       },
       {
         "name": "Felix Nmecha",
@@ -3806,14 +4376,14 @@
         "detail": "United States"
       },
       {
+        "name": "Granit Xhaka",
+        "value": 1,
+        "detail": "Switzerland"
+      },
+      {
         "name": "Hwang In-beom",
         "value": 1,
         "detail": "Korea Republic"
-      },
-      {
-        "name": "Ibrahim Mbaye",
-        "value": 1,
-        "detail": "Senegal"
       },
       {
         "name": "Ismael Saibari",
@@ -3826,6 +4396,16 @@
         "detail": "Germany"
       },
       {
+        "name": "Jaminton Campaz",
+        "value": 1,
+        "detail": "Colombia"
+      },
+      {
+        "name": "João Neves",
+        "value": 1,
+        "detail": "Portugal"
+      },
+      {
         "name": "John McGinn",
         "value": 1,
         "detail": "Scotland"
@@ -3834,6 +4414,11 @@
         "name": "Jovo Lukić",
         "value": 1,
         "detail": "Bosnia and Herzegovina"
+      },
+      {
+        "name": "Jude Bellingham",
+        "value": 1,
+        "detail": "England"
       },
       {
         "name": "Julián Quiñones",
@@ -3851,19 +4436,29 @@
         "detail": "Czechia"
       },
       {
-        "name": "Leo Østigård",
-        "value": 1,
-        "detail": "Norway"
-      },
-      {
         "name": "Livano Comenencia",
         "value": 1,
         "detail": "Curaçao"
       },
       {
+        "name": "Luis Díaz",
+        "value": 1,
+        "detail": "Colombia"
+      },
+      {
+        "name": "Marcus Rashford",
+        "value": 1,
+        "detail": "England"
+      },
+      {
         "name": "Marko Arnautović",
         "value": 1,
         "detail": "Austria"
+      },
+      {
+        "name": "Martin Baturina",
+        "value": 1,
+        "detail": "Croatia"
       },
       {
         "name": "Mattias Svanberg",
@@ -3879,6 +4474,11 @@
         "name": "Maxi Araújo",
         "value": 1,
         "detail": "Uruguay"
+      },
+      {
+        "name": "Michal Sadílek",
+        "value": 1,
+        "detail": "Czechia"
       },
       {
         "name": "Mohamed Hany(OG)",
@@ -3916,6 +4516,11 @@
         "detail": "Tunisia"
       },
       {
+        "name": "Petar Musa",
+        "value": 1,
+        "detail": "Croatia"
+      },
+      {
         "name": "Ramin Rezaeian",
         "value": 1,
         "detail": "Iran"
@@ -3929,6 +4534,16 @@
         "name": "Romano Schmid",
         "value": 1,
         "detail": "Austria"
+      },
+      {
+        "name": "Rubén Vargas",
+        "value": 1,
+        "detail": "Switzerland"
+      },
+      {
+        "name": "Teboho Mokoena",
+        "value": 1,
+        "detail": "South Africa"
       },
       {
         "name": "Viktor Gyökeres",
@@ -3949,6 +4564,11 @@
         "name": "Yazan Al-Arab(OG)",
         "value": 1,
         "detail": "Austria"
+      },
+      {
+        "name": "Yoane Wissa",
+        "value": 1,
+        "detail": "DR Congo"
       }
     ],
     "keepers": [
@@ -3961,6 +4581,11 @@
         "name": "Emiliano Martínez",
         "value": 1,
         "detail": "Argentina · 0 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Lawrence Ati-Zigi",
+        "value": 1,
+        "detail": "Ghana · 0 goals conceded in 1 appearance"
       },
       {
         "name": "Patrick Beach",
@@ -4008,6 +4633,21 @@
         "detail": "Netherlands · 2 goals conceded in 1 appearance"
       },
       {
+        "name": "Camilo Vargas",
+        "value": 0,
+        "detail": "Colombia · 1 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Diogo Costa",
+        "value": 0,
+        "detail": "Portugal · 1 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Dominik Livaković",
+        "value": 0,
+        "detail": "Croatia · 4 goals conceded in 1 appearance"
+      },
+      {
         "name": "Eloy Room",
         "value": 0,
         "detail": "Curaçao · 7 goals conceded in 1 appearance"
@@ -4020,7 +4660,7 @@
       {
         "name": "Gregor Kobel",
         "value": 0,
-        "detail": "Switzerland · 1 goals conceded in 1 appearance"
+        "detail": "Switzerland · 2 goals conceded in 2 appearances"
       },
       {
         "name": "Hernán Galíndez",
@@ -4028,9 +4668,19 @@
         "detail": "Ecuador · 1 goals conceded in 1 appearance"
       },
       {
+        "name": "Lionel Mpasi",
+        "value": 0,
+        "detail": "DR Congo · 1 goals conceded in 1 appearance"
+      },
+      {
         "name": "Johny Placide",
         "value": 0,
         "detail": "Haiti · 1 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Jordan Pickford",
+        "value": 0,
+        "detail": "England · 2 goals conceded in 1 appearance"
       },
       {
         "name": "Kim Seung-gyu",
@@ -4060,7 +4710,7 @@
       {
         "name": "Matěj Kovář",
         "value": 0,
-        "detail": "Czechia · 2 goals conceded in 1 appearance"
+        "detail": "Czechia · 3 goals conceded in 2 appearances"
       },
       {
         "name": "Matt Freese",
@@ -4095,7 +4745,7 @@
       {
         "name": "Nikola Vasilj",
         "value": 0,
-        "detail": "Bosnia and Herzegovina · 1 goals conceded in 1 appearance"
+        "detail": "Bosnia and Herzegovina · 5 goals conceded in 2 appearances"
       },
       {
         "name": "Orlando Gill",
@@ -4103,9 +4753,14 @@
         "detail": "Paraguay · 4 goals conceded in 1 appearance"
       },
       {
+        "name": "Orlando Mosquera",
+        "value": 0,
+        "detail": "Panama · 1 goals conceded in 1 appearance"
+      },
+      {
         "name": "Ronwen Williams",
         "value": 0,
-        "detail": "South Africa · 2 goals conceded in 1 appearance"
+        "detail": "South Africa · 3 goals conceded in 2 appearances"
       },
       {
         "name": "Thibaut Courtois",
@@ -4116,6 +4771,11 @@
         "name": "Uğurcan Çakır",
         "value": 0,
         "detail": "Türkiye · 2 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Utkir Yusupov",
+        "value": 0,
+        "detail": "Uzbekistan · 3 goals conceded in 1 appearance"
       },
       {
         "name": "Yassine Bounou",
@@ -4135,17 +4795,21 @@
     ],
     "redCards": {
       "South Africa": 2,
-      "Mexico": 1
+      "Mexico": 1,
+      "Iran": 2,
+      "Bosnia and Herzegovina": 1,
+      "Portugal": 0,
+      "DR Congo": 0
     },
     "yellowCards": {
-      "South Africa": 2,
+      "South Africa": 3,
       "Mexico": 1,
       "Canada": 1,
-      "Bosnia and Herzegovina": 3,
+      "Bosnia and Herzegovina": 5,
       "Paraguay": 5,
       "United States": 1,
       "Qatar": 2,
-      "Switzerland": 1,
+      "Switzerland": 2,
       "Brazil": 2,
       "Haiti": 1,
       "Scotland": 3,
@@ -4160,7 +4824,14 @@
       "Belgium": 2,
       "Saudi Arabia": 1,
       "Iran": 1,
-      "Austria": 1
+      "Austria": 1,
+      "Ghana": 1,
+      "Panama": 2,
+      "Colombia": 1,
+      "Uzbekistan": 1,
+      "Czechia": 1,
+      "Portugal": 3,
+      "DR Congo": 1
     },
     "redCardEvents": [
       {
@@ -4177,6 +4848,11 @@
         "player": "César Montes",
         "team": "Mexico",
         "match": "Mexico vs South Africa"
+      },
+      {
+        "player": "Tarik Muharemović",
+        "team": "Bosnia and Herzegovina",
+        "match": "Switzerland vs Bosnia and Herzegovina"
       }
     ],
     "yellowCardEvents": [
@@ -4379,6 +5055,76 @@
         "player": "Marcel Sabitzer",
         "team": "Austria",
         "match": "Austria vs Jordan"
+      },
+      {
+        "player": "Caleb Yirenkyi",
+        "team": "Ghana",
+        "match": "Ghana vs Panama"
+      },
+      {
+        "player": "César Blackman",
+        "team": "Panama",
+        "match": "Ghana vs Panama"
+      },
+      {
+        "player": "Carlos Harvey",
+        "team": "Panama",
+        "match": "Ghana vs Panama"
+      },
+      {
+        "player": "Johan Mojica",
+        "team": "Colombia",
+        "match": "Uzbekistan vs Colombia"
+      },
+      {
+        "player": "Abdukodir Khusanov",
+        "team": "Uzbekistan",
+        "match": "Uzbekistan vs Colombia"
+      },
+      {
+        "player": "Ladislav Krejčí",
+        "team": "Czechia",
+        "match": "Czechia vs South Africa"
+      },
+      {
+        "player": "Bathusi Aubaas",
+        "team": "South Africa",
+        "match": "Czechia vs South Africa"
+      },
+      {
+        "player": "Nico Elvedi",
+        "team": "Switzerland",
+        "match": "Switzerland vs Bosnia and Herzegovina"
+      },
+      {
+        "player": "Amar Dedić",
+        "team": "Bosnia and Herzegovina",
+        "match": "Switzerland vs Bosnia and Herzegovina"
+      },
+      {
+        "player": "Edin Džeko",
+        "team": "Bosnia and Herzegovina",
+        "match": "Switzerland vs Bosnia and Herzegovina"
+      },
+      {
+        "player": "Bernardo Silva",
+        "team": "Portugal",
+        "match": "Portugal vs DR Congo"
+      },
+      {
+        "player": "Chancel Mbemba",
+        "team": "DR Congo",
+        "match": "Portugal vs DR Congo"
+      },
+      {
+        "player": "Nélson Semedo",
+        "team": "Portugal",
+        "match": "Portugal vs DR Congo"
+      },
+      {
+        "player": "Tomás Araújo",
+        "team": "Portugal",
+        "match": "Portugal vs DR Congo"
       }
     ],
     "penaltyEvents": [
@@ -4390,6 +5136,15 @@
       },
       {
         "match": "Austria vs Jordan"
+      },
+      {
+        "match": "England vs Croatia"
+      },
+      {
+        "match": "Ghana vs Panama"
+      },
+      {
+        "match": "Switzerland vs Bosnia and Herzegovina"
       }
     ],
     "matchStats": [
@@ -4520,18 +5275,46 @@
         "elapsed": 108
       },
       {
-        "match": "Iraq vs Norway",
-        "redCards": 0,
+        "match": "Portugal vs DR Congo",
+        "redCards": 2,
         "yellowCards": 0,
         "penalties": 0,
         "elapsed": 99
       },
       {
-        "match": "France vs Senegal",
+        "match": "England vs Croatia",
         "redCards": 0,
         "yellowCards": 0,
+        "penalties": 1,
+        "elapsed": 101
+      },
+      {
+        "match": "Ghana vs Panama",
+        "redCards": 0,
+        "yellowCards": 3,
+        "penalties": 1,
+        "elapsed": 99
+      },
+      {
+        "match": "Uzbekistan vs Colombia",
+        "redCards": 0,
+        "yellowCards": 2,
         "penalties": 0,
-        "elapsed": 100
+        "elapsed": 103
+      },
+      {
+        "match": "Czechia vs South Africa",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 101
+      },
+      {
+        "match": "Switzerland vs Bosnia and Herzegovina",
+        "redCards": 1,
+        "yellowCards": 3,
+        "penalties": 1,
+        "elapsed": 99
       }
     ]
   }
