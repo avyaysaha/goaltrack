@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T21:59:13.660Z",
+  "updatedAt": "2026-06-19T22:15:19.712Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -2142,19 +2142,30 @@
       "date": "Friday, June 19, 2026",
       "stage": "Group Stage",
       "group": "Group D",
-      "time": "12:00 PM local",
+      "time": "2:00 PM CDT (12:00 PM PDT venue local)",
       "kickoffISO": "2026-06-19T19:00:00Z",
       "home": "United States",
       "homeFlag": "USA",
       "away": "Australia",
       "awayFlag": "AUS",
-      "location": "Lumen Field · Seattle",
+      "location": "",
       "venueTimeZone": "America/Los_Angeles",
       "status": "FT",
       "elapsed": 103,
       "homeScore": 2,
       "awayScore": 0,
-      "scorers": [],
+      "scorers": [
+        {
+          "player": "Cameron Burgess(OG)",
+          "team": "United States",
+          "match": "United States vs Australia"
+        },
+        {
+          "player": "Alex Freeman",
+          "team": "United States",
+          "match": "United States vs Australia"
+        }
+      ],
       "yellowCards": [],
       "redCards": [],
       "penalties": 0,
@@ -4458,17 +4469,28 @@
       "date": "Friday, June 19, 2026",
       "stage": "Group Stage",
       "group": "Group D",
-      "time": "12:00 PM local",
+      "time": "2:00 PM CDT (12:00 PM PDT venue local)",
       "home": "United States",
       "homeFlag": "USA",
       "away": "Australia",
       "awayFlag": "AUS",
-      "location": "Lumen Field · Seattle",
+      "location": "",
       "status": "FT",
       "elapsed": 103,
       "homeScore": 2,
       "awayScore": 0,
-      "scorers": [],
+      "scorers": [
+        {
+          "player": "Cameron Burgess(OG)",
+          "team": "United States",
+          "match": "United States vs Australia"
+        },
+        {
+          "player": "Alex Freeman",
+          "team": "United States",
+          "match": "United States vs Australia"
+        }
+      ],
       "yellowCards": [],
       "redCards": [],
       "penalties": 0,
@@ -4544,6 +4566,11 @@
         "detail": "Saudi Arabia"
       },
       {
+        "name": "Alex Freeman",
+        "value": 1,
+        "detail": "United States"
+      },
+      {
         "name": "Alexander Isak",
         "value": 1,
         "detail": "Sweden"
@@ -4582,6 +4609,11 @@
         "name": "Caleb Yirenkyi",
         "value": 1,
         "detail": "Ghana"
+      },
+      {
+        "name": "Cameron Burgess(OG)",
+        "value": 1,
+        "detail": "United States"
       },
       {
         "name": "Connor Metcalfe",
