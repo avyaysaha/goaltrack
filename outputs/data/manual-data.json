@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T21:15:20.475Z",
+  "updatedAt": "2026-06-20T23:57:42.188Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -319,22 +319,22 @@
         "name": "Germany",
         "flag": "GER",
         "fifaRank": 9,
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "drawn": 0,
         "lost": 0,
-        "gd": 6,
-        "points": 3
+        "gd": 7,
+        "points": 6
       },
       {
         "name": "Cote d'Ivoire",
         "flag": "CIV",
         "fifaRank": 42,
-        "played": 1,
+        "played": 2,
         "won": 1,
         "drawn": 0,
-        "lost": 0,
-        "gd": 1,
+        "lost": 1,
+        "gd": 0,
         "points": 3
       },
       {
@@ -2432,15 +2432,52 @@
     {
       "date": "Saturday, June 20, 2026",
       "stage": "Group Stage",
-      "group": "Group E",
-      "time": "4:00 PM local",
+      "group": "Group F",
+      "time": "3:00 PM CDT (4:00 PM EDT venue local)",
       "kickoffISO": "2026-06-20T20:00:00Z",
       "home": "Germany",
       "homeFlag": "GER",
       "away": "Cote d'Ivoire",
       "awayFlag": "CIV",
       "location": "BMO Field · Toronto",
-      "venueTimeZone": "America/Toronto"
+      "venueTimeZone": "America/Toronto",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 2,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Franck Kessié",
+          "team": "Cote d'Ivoire",
+          "match": "Germany vs Cote d'Ivoire"
+        },
+        {
+          "player": "Deniz Undav",
+          "team": "Germany",
+          "match": "Germany vs Cote d'Ivoire"
+        },
+        {
+          "player": "Deniz Undav",
+          "team": "Germany",
+          "match": "Germany vs Cote d'Ivoire"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Wilfried Singo",
+          "team": "Cote d'Ivoire",
+          "match": "Germany vs Cote d'Ivoire"
+        },
+        {
+          "player": "Nico Schlotterbeck",
+          "team": "Germany",
+          "match": "Germany vs Cote d'Ivoire"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Manuel Neuer",
+      "awayKeeper": "Yahia Fofana"
     },
     {
       "date": "Saturday, June 20, 2026",
@@ -4950,10 +4987,63 @@
       "penalties": 0,
       "homeKeeper": "Bart Verbruggen",
       "awayKeeper": "Kristoffer Nordfeldt"
+    },
+    {
+      "date": "Saturday, June 20, 2026",
+      "stage": "Group Stage",
+      "group": "Group F",
+      "time": "3:00 PM CDT (4:00 PM EDT venue local)",
+      "home": "Germany",
+      "homeFlag": "GER",
+      "away": "Cote d'Ivoire",
+      "awayFlag": "CIV",
+      "location": "BMO Field · Toronto",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 2,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Franck Kessié",
+          "team": "Cote d'Ivoire",
+          "match": "Germany vs Cote d'Ivoire"
+        },
+        {
+          "player": "Deniz Undav",
+          "team": "Germany",
+          "match": "Germany vs Cote d'Ivoire"
+        },
+        {
+          "player": "Deniz Undav",
+          "team": "Germany",
+          "match": "Germany vs Cote d'Ivoire"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Wilfried Singo",
+          "team": "Cote d'Ivoire",
+          "match": "Germany vs Cote d'Ivoire"
+        },
+        {
+          "player": "Nico Schlotterbeck",
+          "team": "Germany",
+          "match": "Germany vs Cote d'Ivoire"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Manuel Neuer",
+      "awayKeeper": "Yahia Fofana"
     }
   ],
   "detailedStats": {
     "scorers": [
+      {
+        "name": "Deniz Undav",
+        "value": 3,
+        "detail": "Germany"
+      },
       {
         "name": "Jonathan David",
         "value": 3,
@@ -5125,11 +5215,6 @@
         "detail": "Colombia"
       },
       {
-        "name": "Deniz Undav",
-        "value": 1,
-        "detail": "Germany"
-      },
-      {
         "name": "Emam Ashour",
         "value": 1,
         "detail": "Egypt"
@@ -5143,6 +5228,11 @@
         "name": "Felix Nmecha",
         "value": 1,
         "detail": "Germany"
+      },
+      {
+        "name": "Franck Kessié",
+        "value": 1,
+        "detail": "Cote d'Ivoire"
       },
       {
         "name": "Gio Reyna",
@@ -5424,7 +5514,7 @@
       {
         "name": "Yahia Fofana",
         "value": 1,
-        "detail": "Cote d'Ivoire · 0 goals conceded in 1 appearance"
+        "detail": "Cote d'Ivoire · 2 goals conceded in 2 appearances"
       },
       {
         "name": "Yassine Bounou",
@@ -5529,7 +5619,7 @@
       {
         "name": "Manuel Neuer",
         "value": 0,
-        "detail": "Germany · 1 goals conceded in 1 appearance"
+        "detail": "Germany · 2 goals conceded in 2 appearances"
       },
       {
         "name": "Matěj Kovář",
@@ -5623,7 +5713,7 @@
       "Scotland": 4,
       "Türkiye": 1,
       "Netherlands": 3,
-      "Cote d'Ivoire": 3,
+      "Cote d'Ivoire": 4,
       "Ecuador": 1,
       "Tunisia": 1,
       "Spain": 1,
@@ -5642,7 +5732,8 @@
       "Czechia": 1,
       "Australia": 4,
       "Morocco": 1,
-      "Sweden": 3
+      "Sweden": 3,
+      "Germany": 1
     },
     "redCardEvents": [
       {
@@ -6066,6 +6157,16 @@
         "player": "Lucas Bergvall",
         "team": "Sweden",
         "match": "Netherlands vs Sweden"
+      },
+      {
+        "player": "Wilfried Singo",
+        "team": "Cote d'Ivoire",
+        "match": "Germany vs Cote d'Ivoire"
+      },
+      {
+        "player": "Nico Schlotterbeck",
+        "team": "Germany",
+        "match": "Germany vs Cote d'Ivoire"
       }
     ],
     "penaltyEvents": [
@@ -6316,6 +6417,13 @@
         "yellowCards": 3,
         "penalties": 0,
         "elapsed": 97
+      },
+      {
+        "match": "Germany vs Cote d'Ivoire",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 100
       }
     ]
   }
