@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T22:21:51.848Z",
+  "updatedAt": "2026-06-20T00:09:56.905Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -224,31 +224,31 @@
     ],
     "C": [
       {
+        "name": "Morocco",
+        "flag": "MAR",
+        "fifaRank": 11,
+        "played": 2,
+        "won": 1,
+        "drawn": 1,
+        "lost": 0,
+        "gd": 1,
+        "points": 4
+      },
+      {
         "name": "Scotland",
         "flag": "SCO",
         "fifaRank": 36,
-        "played": 1,
+        "played": 2,
         "won": 1,
         "drawn": 0,
-        "lost": 0,
-        "gd": 1,
+        "lost": 1,
+        "gd": 0,
         "points": 3
       },
       {
         "name": "Brazil",
         "flag": "BRA",
         "fifaRank": 5,
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gd": 0,
-        "points": 1
-      },
-      {
-        "name": "Morocco",
-        "flag": "MAR",
-        "fifaRank": 11,
         "played": 1,
         "won": 0,
         "drawn": 1,
@@ -2212,14 +2212,41 @@
       "date": "Friday, June 19, 2026",
       "stage": "Group Stage",
       "group": "Group C",
-      "time": "6:00 PM local",
+      "time": "5:00 PM CDT (6:00 PM EDT venue local)",
       "kickoffISO": "2026-06-19T22:00:00Z",
       "home": "Scotland",
       "homeFlag": "SCO",
       "away": "Morocco",
       "awayFlag": "MAR",
       "location": "Gillette Stadium · Boston",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 0,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Ismael Saibari",
+          "team": "Morocco",
+          "match": "Scotland vs Morocco"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Issa Diop",
+          "team": "Morocco",
+          "match": "Scotland vs Morocco"
+        },
+        {
+          "player": "Andy Robertson",
+          "team": "Scotland",
+          "match": "Scotland vs Morocco"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Angus Gunn",
+      "awayKeeper": "Yassine Bounou"
     },
     {
       "date": "Friday, June 19, 2026",
@@ -4568,6 +4595,44 @@
       "penalties": 0,
       "homeKeeper": "Matt Freese",
       "awayKeeper": "Patrick Beach"
+    },
+    {
+      "date": "Friday, June 19, 2026",
+      "stage": "Group Stage",
+      "group": "Group C",
+      "time": "5:00 PM CDT (6:00 PM EDT venue local)",
+      "home": "Scotland",
+      "homeFlag": "SCO",
+      "away": "Morocco",
+      "awayFlag": "MAR",
+      "location": "Gillette Stadium · Boston",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 0,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Ismael Saibari",
+          "team": "Morocco",
+          "match": "Scotland vs Morocco"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Issa Diop",
+          "team": "Morocco",
+          "match": "Scotland vs Morocco"
+        },
+        {
+          "player": "Andy Robertson",
+          "team": "Scotland",
+          "match": "Scotland vs Morocco"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Angus Gunn",
+      "awayKeeper": "Yassine Bounou"
     }
   ],
   "detailedStats": {
@@ -4606,6 +4671,11 @@
         "name": "Harry Kane",
         "value": 2,
         "detail": "England"
+      },
+      {
+        "name": "Ismael Saibari",
+        "value": 2,
+        "detail": "Morocco"
       },
       {
         "name": "Johan Manzambi",
@@ -4751,11 +4821,6 @@
         "name": "Ibrahim Mbaye",
         "value": 1,
         "detail": "Senegal"
-      },
-      {
-        "name": "Ismael Saibari",
-        "value": 1,
-        "detail": "Morocco"
       },
       {
         "name": "Jamal Musiala",
@@ -4967,7 +5032,7 @@
       {
         "name": "Angus Gunn",
         "value": 1,
-        "detail": "Scotland · 0 goals conceded in 1 appearance"
+        "detail": "Scotland · 1 goals conceded in 2 appearances"
       },
       {
         "name": "Emiliano Martínez",
@@ -5008,6 +5073,11 @@
         "name": "Yahia Fofana",
         "value": 1,
         "detail": "Cote d'Ivoire · 0 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Yassine Bounou",
+        "value": 1,
+        "detail": "Morocco · 1 goals conceded in 2 appearances"
       },
       {
         "name": "Alexander Schlager",
@@ -5180,11 +5250,6 @@
         "detail": "Uzbekistan · 3 goals conceded in 1 appearance"
       },
       {
-        "name": "Yassine Bounou",
-        "value": 0,
-        "detail": "Morocco · 1 goals conceded in 1 appearance"
-      },
-      {
         "name": "Yazeed Abulaila",
         "value": 0,
         "detail": "Jordan · 3 goals conceded in 1 appearance"
@@ -5212,7 +5277,7 @@
       "Switzerland": 2,
       "Brazil": 2,
       "Haiti": 1,
-      "Scotland": 3,
+      "Scotland": 4,
       "Türkiye": 1,
       "Netherlands": 3,
       "Cote d'Ivoire": 3,
@@ -5232,7 +5297,8 @@
       "Colombia": 1,
       "Uzbekistan": 1,
       "Czechia": 1,
-      "Australia": 4
+      "Australia": 4,
+      "Morocco": 1
     },
     "redCardEvents": [
       {
@@ -5591,6 +5657,16 @@
         "player": "Kye Rowles",
         "team": "Australia",
         "match": "United States vs Australia"
+      },
+      {
+        "player": "Issa Diop",
+        "team": "Morocco",
+        "match": "Scotland vs Morocco"
+      },
+      {
+        "player": "Andy Robertson",
+        "team": "Scotland",
+        "match": "Scotland vs Morocco"
       }
     ],
     "penaltyEvents": [
@@ -5816,6 +5892,13 @@
         "yellowCards": 7,
         "penalties": 0,
         "elapsed": 103
+      },
+      {
+        "match": "Scotland vs Morocco",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 100
       }
     ]
   }
