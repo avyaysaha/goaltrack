@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T20:48:46.882Z",
+  "updatedAt": "2026-06-20T20:54:29.922Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -2334,6 +2334,11 @@
       "yellowCards": [
         {
           "player": "Matías Galarza",
+          "team": "Paraguay",
+          "match": "Türkiye vs Paraguay"
+        },
+        {
+          "player": "Miguel Almirón",
           "team": "Paraguay",
           "match": "Türkiye vs Paraguay"
         },
@@ -4803,6 +4808,11 @@
           "player": "Miguel Almirón",
           "team": "Paraguay",
           "match": "Türkiye vs Paraguay"
+        },
+        {
+          "player": "Miguel Almirón",
+          "team": "Paraguay",
+          "match": "Türkiye vs Paraguay"
         }
       ],
       "redCards": [
@@ -5464,7 +5474,7 @@
       "Mexico": 1,
       "Canada": 2,
       "Bosnia and Herzegovina": 5,
-      "Paraguay": 7,
+      "Paraguay": 8,
       "United States": 4,
       "Qatar": 3,
       "Switzerland": 2,
@@ -5895,6 +5905,11 @@
         "player": "Miguel Almirón",
         "team": "Paraguay",
         "match": "Türkiye vs Paraguay"
+      },
+      {
+        "player": "Miguel Almirón",
+        "team": "Paraguay",
+        "match": "Türkiye vs Paraguay"
       }
     ],
     "penaltyEvents": [
@@ -6135,7 +6150,7 @@
       {
         "match": "Türkiye vs Paraguay",
         "redCards": 1,
-        "yellowCards": 2,
+        "yellowCards": 3,
         "penalties": 0,
         "elapsed": 103
       }
