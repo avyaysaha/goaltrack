@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T20:54:29.922Z",
+  "updatedAt": "2026-06-20T21:15:20.475Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -362,31 +362,31 @@
     ],
     "F": [
       {
+        "name": "Netherlands",
+        "flag": "NED",
+        "fifaRank": 7,
+        "played": 2,
+        "won": 1,
+        "drawn": 1,
+        "lost": 0,
+        "gd": 4,
+        "points": 4
+      },
+      {
         "name": "Sweden",
         "flag": "SWE",
         "fifaRank": 43,
-        "played": 1,
+        "played": 2,
         "won": 1,
         "drawn": 0,
-        "lost": 0,
-        "gd": 4,
+        "lost": 1,
+        "gd": 0,
         "points": 3
       },
       {
         "name": "Japan",
         "flag": "JPN",
         "fifaRank": 18,
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gd": 0,
-        "points": 1
-      },
-      {
-        "name": "Netherlands",
-        "flag": "NED",
-        "fifaRank": 7,
         "played": 1,
         "won": 0,
         "drawn": 1,
@@ -2363,14 +2363,71 @@
       "date": "Saturday, June 20, 2026",
       "stage": "Group Stage",
       "group": "Group F",
-      "time": "12:00 PM local",
+      "time": "12:00 PM CDT (12:00 PM CDT venue local)",
       "kickoffISO": "2026-06-20T17:00:00Z",
       "home": "Netherlands",
       "homeFlag": "NED",
       "away": "Sweden",
       "awayFlag": "SWE",
       "location": "NRG Stadium · Houston",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "status": "FT",
+      "elapsed": 97,
+      "homeScore": 5,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Brian Brobbey",
+          "team": "Netherlands",
+          "match": "Netherlands vs Sweden"
+        },
+        {
+          "player": "Brian Brobbey",
+          "team": "Netherlands",
+          "match": "Netherlands vs Sweden"
+        },
+        {
+          "player": "Cody Gakpo",
+          "team": "Netherlands",
+          "match": "Netherlands vs Sweden"
+        },
+        {
+          "player": "Cody Gakpo",
+          "team": "Netherlands",
+          "match": "Netherlands vs Sweden"
+        },
+        {
+          "player": "Crysencio Summerville",
+          "team": "Netherlands",
+          "match": "Netherlands vs Sweden"
+        },
+        {
+          "player": "Anthony Elanga",
+          "team": "Sweden",
+          "match": "Netherlands vs Sweden"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Gabriel Gudmundsson",
+          "team": "Sweden",
+          "match": "Netherlands vs Sweden"
+        },
+        {
+          "player": "Yasin Ayari",
+          "team": "Sweden",
+          "match": "Netherlands vs Sweden"
+        },
+        {
+          "player": "Lucas Bergvall",
+          "team": "Sweden",
+          "match": "Netherlands vs Sweden"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Bart Verbruggen",
+      "awayKeeper": "Kristoffer Nordfeldt"
     },
     {
       "date": "Saturday, June 20, 2026",
@@ -4825,6 +4882,74 @@
       "penalties": 0,
       "homeKeeper": "Uğurcan Çakır",
       "awayKeeper": "Orlando Gill"
+    },
+    {
+      "date": "Saturday, June 20, 2026",
+      "stage": "Group Stage",
+      "group": "Group F",
+      "time": "12:00 PM CDT (12:00 PM CDT venue local)",
+      "home": "Netherlands",
+      "homeFlag": "NED",
+      "away": "Sweden",
+      "awayFlag": "SWE",
+      "location": "NRG Stadium · Houston",
+      "status": "FT",
+      "elapsed": 97,
+      "homeScore": 5,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Brian Brobbey",
+          "team": "Netherlands",
+          "match": "Netherlands vs Sweden"
+        },
+        {
+          "player": "Brian Brobbey",
+          "team": "Netherlands",
+          "match": "Netherlands vs Sweden"
+        },
+        {
+          "player": "Cody Gakpo",
+          "team": "Netherlands",
+          "match": "Netherlands vs Sweden"
+        },
+        {
+          "player": "Cody Gakpo",
+          "team": "Netherlands",
+          "match": "Netherlands vs Sweden"
+        },
+        {
+          "player": "Crysencio Summerville",
+          "team": "Netherlands",
+          "match": "Netherlands vs Sweden"
+        },
+        {
+          "player": "Anthony Elanga",
+          "team": "Sweden",
+          "match": "Netherlands vs Sweden"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Gabriel Gudmundsson",
+          "team": "Sweden",
+          "match": "Netherlands vs Sweden"
+        },
+        {
+          "player": "Yasin Ayari",
+          "team": "Sweden",
+          "match": "Netherlands vs Sweden"
+        },
+        {
+          "player": "Lucas Bergvall",
+          "team": "Sweden",
+          "match": "Netherlands vs Sweden"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Bart Verbruggen",
+      "awayKeeper": "Kristoffer Nordfeldt"
     }
   ],
   "detailedStats": {
@@ -4838,6 +4963,21 @@
         "name": "Lionel Messi",
         "value": 3,
         "detail": "Argentina"
+      },
+      {
+        "name": "Brian Brobbey",
+        "value": 2,
+        "detail": "Netherlands"
+      },
+      {
+        "name": "Cody Gakpo",
+        "value": 2,
+        "detail": "Netherlands"
+      },
+      {
+        "name": "Crysencio Summerville",
+        "value": 2,
+        "detail": "Netherlands"
       },
       {
         "name": "Cyle Larin",
@@ -4930,6 +5070,11 @@
         "detail": "Cote d'Ivoire"
       },
       {
+        "name": "Anthony Elanga",
+        "value": 1,
+        "detail": "Sweden"
+      },
+      {
         "name": "Aymen Hussein",
         "value": 1,
         "detail": "Iraq"
@@ -4963,11 +5108,6 @@
         "name": "Connor Metcalfe",
         "value": 1,
         "detail": "Australia"
-      },
-      {
-        "name": "Crysencio Summerville",
-        "value": 1,
-        "detail": "Netherlands"
       },
       {
         "name": "Daichi Kamada",
@@ -5304,7 +5444,7 @@
       {
         "name": "Bart Verbruggen",
         "value": 0,
-        "detail": "Netherlands · 2 goals conceded in 1 appearance"
+        "detail": "Netherlands · 3 goals conceded in 2 appearances"
       },
       {
         "name": "Camilo Vargas",
@@ -5364,7 +5504,7 @@
       {
         "name": "Kristoffer Nordfeldt",
         "value": 0,
-        "detail": "Sweden · 1 goals conceded in 1 appearance"
+        "detail": "Sweden · 6 goals conceded in 2 appearances"
       },
       {
         "name": "Lionel Mpasi",
@@ -5501,7 +5641,8 @@
       "Uzbekistan": 1,
       "Czechia": 1,
       "Australia": 4,
-      "Morocco": 1
+      "Morocco": 1,
+      "Sweden": 3
     },
     "redCardEvents": [
       {
@@ -5910,6 +6051,21 @@
         "player": "Miguel Almirón",
         "team": "Paraguay",
         "match": "Türkiye vs Paraguay"
+      },
+      {
+        "player": "Gabriel Gudmundsson",
+        "team": "Sweden",
+        "match": "Netherlands vs Sweden"
+      },
+      {
+        "player": "Yasin Ayari",
+        "team": "Sweden",
+        "match": "Netherlands vs Sweden"
+      },
+      {
+        "player": "Lucas Bergvall",
+        "team": "Sweden",
+        "match": "Netherlands vs Sweden"
       }
     ],
     "penaltyEvents": [
@@ -6153,6 +6309,13 @@
         "yellowCards": 3,
         "penalties": 0,
         "elapsed": 103
+      },
+      {
+        "match": "Netherlands vs Sweden",
+        "redCards": 0,
+        "yellowCards": 3,
+        "penalties": 0,
+        "elapsed": 97
       }
     ]
   }
