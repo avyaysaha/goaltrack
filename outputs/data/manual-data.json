@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T00:09:56.905Z",
+  "updatedAt": "2026-06-20T04:01:42.501Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -224,6 +224,17 @@
     ],
     "C": [
       {
+        "name": "Brazil",
+        "flag": "BRA",
+        "fifaRank": 5,
+        "played": 2,
+        "won": 1,
+        "drawn": 1,
+        "lost": 0,
+        "gd": 3,
+        "points": 4
+      },
+      {
         "name": "Morocco",
         "flag": "MAR",
         "fifaRank": 11,
@@ -246,25 +257,14 @@
         "points": 3
       },
       {
-        "name": "Brazil",
-        "flag": "BRA",
-        "fifaRank": 5,
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gd": 0,
-        "points": 1
-      },
-      {
         "name": "Haiti",
         "flag": "HAI",
         "fifaRank": 84,
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
-        "gd": -1,
+        "lost": 2,
+        "gd": -4,
         "points": 0
       }
     ],
@@ -2252,14 +2252,61 @@
       "date": "Friday, June 19, 2026",
       "stage": "Group Stage",
       "group": "Group C",
-      "time": "8:30 PM local",
+      "time": "7:30 PM CDT (8:30 PM EDT venue local)",
       "kickoffISO": "2026-06-20T00:30:00Z",
       "home": "Brazil",
       "homeFlag": "BRA",
       "away": "Haiti",
       "awayFlag": "HAI",
       "location": "Lincoln Financial Field · Philadelphia",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 3,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Matheus Cunha",
+          "team": "Brazil",
+          "match": "Brazil vs Haiti"
+        },
+        {
+          "player": "Matheus Cunha",
+          "team": "Brazil",
+          "match": "Brazil vs Haiti"
+        },
+        {
+          "player": "Vinícius Júnior",
+          "team": "Brazil",
+          "match": "Brazil vs Haiti"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Carlens Arcus",
+          "team": "Haiti",
+          "match": "Brazil vs Haiti"
+        },
+        {
+          "player": "Frantzdy Pierrot",
+          "team": "Haiti",
+          "match": "Brazil vs Haiti"
+        },
+        {
+          "player": "Douglas Santos",
+          "team": "Brazil",
+          "match": "Brazil vs Haiti"
+        },
+        {
+          "player": "Danley Jean Jacques",
+          "team": "Haiti",
+          "match": "Brazil vs Haiti"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Alisson Becker",
+      "awayKeeper": "Johny Placide"
     },
     {
       "date": "Friday, June 19, 2026",
@@ -4633,6 +4680,64 @@
       "penalties": 0,
       "homeKeeper": "Angus Gunn",
       "awayKeeper": "Yassine Bounou"
+    },
+    {
+      "date": "Friday, June 19, 2026",
+      "stage": "Group Stage",
+      "group": "Group C",
+      "time": "7:30 PM CDT (8:30 PM EDT venue local)",
+      "home": "Brazil",
+      "homeFlag": "BRA",
+      "away": "Haiti",
+      "awayFlag": "HAI",
+      "location": "Lincoln Financial Field · Philadelphia",
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 3,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Matheus Cunha",
+          "team": "Brazil",
+          "match": "Brazil vs Haiti"
+        },
+        {
+          "player": "Matheus Cunha",
+          "team": "Brazil",
+          "match": "Brazil vs Haiti"
+        },
+        {
+          "player": "Vinícius Júnior",
+          "team": "Brazil",
+          "match": "Brazil vs Haiti"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Carlens Arcus",
+          "team": "Haiti",
+          "match": "Brazil vs Haiti"
+        },
+        {
+          "player": "Frantzdy Pierrot",
+          "team": "Haiti",
+          "match": "Brazil vs Haiti"
+        },
+        {
+          "player": "Douglas Santos",
+          "team": "Brazil",
+          "match": "Brazil vs Haiti"
+        },
+        {
+          "player": "Danley Jean Jacques",
+          "team": "Haiti",
+          "match": "Brazil vs Haiti"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Alisson Becker",
+      "awayKeeper": "Johny Placide"
     }
   ],
   "detailedStats": {
@@ -4691,6 +4796,16 @@
         "name": "Kylian Mbappé",
         "value": 2,
         "detail": "France"
+      },
+      {
+        "name": "Matheus Cunha",
+        "value": 2,
+        "detail": "Brazil"
+      },
+      {
+        "name": "Vinícius Júnior",
+        "value": 2,
+        "detail": "Brazil"
       },
       {
         "name": "Yasin Ayari",
@@ -5003,11 +5118,6 @@
         "detail": "Sweden"
       },
       {
-        "name": "Vinícius Júnior",
-        "value": 1,
-        "detail": "Brazil"
-      },
-      {
         "name": "Virgil van Dijk",
         "value": 1,
         "detail": "Netherlands"
@@ -5028,6 +5138,11 @@
         "name": "Raúl Rangel",
         "value": 2,
         "detail": "Mexico · 0 goals conceded in 2 appearances"
+      },
+      {
+        "name": "Alisson Becker",
+        "value": 1,
+        "detail": "Brazil · 1 goals conceded in 2 appearances"
       },
       {
         "name": "Angus Gunn",
@@ -5090,11 +5205,6 @@
         "detail": "Iran · 2 goals conceded in 1 appearance"
       },
       {
-        "name": "Alisson Becker",
-        "value": 0,
-        "detail": "Brazil · 1 goals conceded in 1 appearance"
-      },
-      {
         "name": "Bart Verbruggen",
         "value": 0,
         "detail": "Netherlands · 2 goals conceded in 1 appearance"
@@ -5142,7 +5252,7 @@
       {
         "name": "Johny Placide",
         "value": 0,
-        "detail": "Haiti · 1 goals conceded in 1 appearance"
+        "detail": "Haiti · 4 goals conceded in 2 appearances"
       },
       {
         "name": "Jordan Pickford",
@@ -5275,8 +5385,8 @@
       "United States": 4,
       "Qatar": 3,
       "Switzerland": 2,
-      "Brazil": 2,
-      "Haiti": 1,
+      "Brazil": 3,
+      "Haiti": 4,
       "Scotland": 4,
       "Türkiye": 1,
       "Netherlands": 3,
@@ -5667,6 +5777,26 @@
         "player": "Andy Robertson",
         "team": "Scotland",
         "match": "Scotland vs Morocco"
+      },
+      {
+        "player": "Carlens Arcus",
+        "team": "Haiti",
+        "match": "Brazil vs Haiti"
+      },
+      {
+        "player": "Frantzdy Pierrot",
+        "team": "Haiti",
+        "match": "Brazil vs Haiti"
+      },
+      {
+        "player": "Douglas Santos",
+        "team": "Brazil",
+        "match": "Brazil vs Haiti"
+      },
+      {
+        "player": "Danley Jean Jacques",
+        "team": "Haiti",
+        "match": "Brazil vs Haiti"
       }
     ],
     "penaltyEvents": [
@@ -5899,6 +6029,13 @@
         "yellowCards": 2,
         "penalties": 0,
         "elapsed": 100
+      },
+      {
+        "match": "Brazil vs Haiti",
+        "redCards": 0,
+        "yellowCards": 4,
+        "penalties": 0,
+        "elapsed": 101
       }
     ]
   }
