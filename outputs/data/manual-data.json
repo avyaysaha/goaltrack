@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T04:01:42.501Z",
+  "updatedAt": "2026-06-20T20:48:46.882Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -292,24 +292,24 @@
         "points": 3
       },
       {
-        "name": "Türkiye",
-        "flag": "TUR",
-        "fifaRank": 25,
-        "played": 1,
-        "won": 0,
-        "drawn": 0,
-        "lost": 1,
-        "gd": -2,
-        "points": 0
-      },
-      {
         "name": "Paraguay",
         "flag": "PAR",
         "fifaRank": 39,
-        "played": 1,
-        "won": 0,
+        "played": 2,
+        "won": 1,
         "drawn": 0,
         "lost": 1,
+        "gd": -2,
+        "points": 3
+      },
+      {
+        "name": "Türkiye",
+        "flag": "TUR",
+        "fifaRank": 25,
+        "played": 2,
+        "won": 0,
+        "drawn": 0,
+        "lost": 2,
         "gd": -3,
         "points": 0
       }
@@ -2312,14 +2312,47 @@
       "date": "Friday, June 19, 2026",
       "stage": "Group Stage",
       "group": "Group D",
-      "time": "8:00 PM local",
+      "time": "10:00 PM CDT (8:00 PM PDT venue local)",
       "kickoffISO": "2026-06-20T03:00:00Z",
       "home": "Türkiye",
       "homeFlag": "TUR",
       "away": "Paraguay",
       "awayFlag": "PAR",
       "location": "Levi's Stadium · San Francisco Bay Area",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "status": "FT",
+      "elapsed": 103,
+      "homeScore": 0,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Matías Galarza",
+          "team": "Paraguay",
+          "match": "Türkiye vs Paraguay"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Matías Galarza",
+          "team": "Paraguay",
+          "match": "Türkiye vs Paraguay"
+        },
+        {
+          "player": "Miguel Almirón",
+          "team": "Paraguay",
+          "match": "Türkiye vs Paraguay"
+        }
+      ],
+      "redCards": [
+        {
+          "player": "Miguel Almirón",
+          "team": "Paraguay",
+          "match": "Türkiye vs Paraguay"
+        }
+      ],
+      "penalties": 0,
+      "homeKeeper": "Uğurcan Çakır",
+      "awayKeeper": "Orlando Gill"
     },
     {
       "date": "Saturday, June 20, 2026",
@@ -4738,6 +4771,50 @@
       "penalties": 0,
       "homeKeeper": "Alisson Becker",
       "awayKeeper": "Johny Placide"
+    },
+    {
+      "date": "Friday, June 19, 2026",
+      "stage": "Group Stage",
+      "group": "Group D",
+      "time": "10:00 PM CDT (8:00 PM PDT venue local)",
+      "home": "Türkiye",
+      "homeFlag": "TUR",
+      "away": "Paraguay",
+      "awayFlag": "PAR",
+      "location": "Levi's Stadium · San Francisco Bay Area",
+      "status": "FT",
+      "elapsed": 103,
+      "homeScore": 0,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Matías Galarza",
+          "team": "Paraguay",
+          "match": "Türkiye vs Paraguay"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Matías Galarza",
+          "team": "Paraguay",
+          "match": "Türkiye vs Paraguay"
+        },
+        {
+          "player": "Miguel Almirón",
+          "team": "Paraguay",
+          "match": "Türkiye vs Paraguay"
+        }
+      ],
+      "redCards": [
+        {
+          "player": "Miguel Almirón",
+          "team": "Paraguay",
+          "match": "Türkiye vs Paraguay"
+        }
+      ],
+      "penalties": 0,
+      "homeKeeper": "Uğurcan Çakır",
+      "awayKeeper": "Orlando Gill"
     }
   ],
   "detailedStats": {
@@ -5018,6 +5095,11 @@
         "detail": "Croatia"
       },
       {
+        "name": "Matías Galarza",
+        "value": 1,
+        "detail": "Paraguay"
+      },
+      {
         "name": "Mattias Svanberg",
         "value": 1,
         "detail": "Sweden"
@@ -5168,6 +5250,11 @@
         "name": "Maxime Crépeau",
         "value": 1,
         "detail": "Canada · 1 goals conceded in 2 appearances"
+      },
+      {
+        "name": "Orlando Gill",
+        "value": 1,
+        "detail": "Paraguay · 4 goals conceded in 2 appearances"
       },
       {
         "name": "Patrick Beach",
@@ -5330,11 +5417,6 @@
         "detail": "Bosnia and Herzegovina · 5 goals conceded in 2 appearances"
       },
       {
-        "name": "Orlando Gill",
-        "value": 0,
-        "detail": "Paraguay · 4 goals conceded in 1 appearance"
-      },
-      {
         "name": "Orlando Mosquera",
         "value": 0,
         "detail": "Panama · 1 goals conceded in 1 appearance"
@@ -5352,7 +5434,7 @@
       {
         "name": "Uğurcan Çakır",
         "value": 0,
-        "detail": "Türkiye · 2 goals conceded in 1 appearance"
+        "detail": "Türkiye · 3 goals conceded in 2 appearances"
       },
       {
         "name": "Utkir Yusupov",
@@ -5374,14 +5456,15 @@
       "South Africa": 2,
       "Mexico": 1,
       "Bosnia and Herzegovina": 1,
-      "Qatar": 2
+      "Qatar": 2,
+      "Paraguay": 1
     },
     "yellowCards": {
       "South Africa": 5,
       "Mexico": 1,
       "Canada": 2,
       "Bosnia and Herzegovina": 5,
-      "Paraguay": 5,
+      "Paraguay": 7,
       "United States": 4,
       "Qatar": 3,
       "Switzerland": 2,
@@ -5440,6 +5523,11 @@
         "player": "Assim Madibo",
         "team": "Qatar",
         "match": "Canada vs Qatar"
+      },
+      {
+        "player": "Miguel Almirón",
+        "team": "Paraguay",
+        "match": "Türkiye vs Paraguay"
       }
     ],
     "yellowCardEvents": [
@@ -5797,6 +5885,16 @@
         "player": "Danley Jean Jacques",
         "team": "Haiti",
         "match": "Brazil vs Haiti"
+      },
+      {
+        "player": "Matías Galarza",
+        "team": "Paraguay",
+        "match": "Türkiye vs Paraguay"
+      },
+      {
+        "player": "Miguel Almirón",
+        "team": "Paraguay",
+        "match": "Türkiye vs Paraguay"
       }
     ],
     "penaltyEvents": [
@@ -6033,6 +6131,13 @@
         "yellowCards": 4,
         "penalties": 0,
         "elapsed": 101
+      },
+      {
+        "match": "Türkiye vs Paraguay",
+        "redCards": 1,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 103
       }
     ]
   }
