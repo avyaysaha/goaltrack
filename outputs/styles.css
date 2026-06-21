@@ -1019,7 +1019,8 @@ tbody tr:hover {
 }
 
 .match-card-finished .match-meta,
-.match-card-finished .match-location {
+.match-card-finished .match-location,
+.match-card-finished .match-prediction {
   color: rgba(255, 255, 255, 0.72);
 }
 
@@ -1106,12 +1107,60 @@ tbody tr:hover {
   color: var(--green);
 }
 
-.match-location {
+.prediction-score {
+  display: grid;
+  gap: 5px;
+  align-self: center;
+  justify-items: center;
+  justify-self: center;
+  margin: 0 auto;
+  min-width: 118px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  place-items: center;
+  text-align: center;
+}
+
+.prediction-score > span {
+  display: block;
+  width: 100%;
+  color: var(--ink);
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1.1;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.prediction-score .versus.score {
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+.match-details {
   margin: 22px 0 0;
   padding-top: 15px;
   border-top: 1px solid #ebeeeb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.match-location {
   color: var(--muted);
   font-size: 0.76rem;
+}
+
+.match-prediction {
+  color: var(--muted);
+  font-family: inherit;
+  font-size: 0.76rem;
+  font-weight: 400;
+  text-align: right;
+  white-space: nowrap;
 }
 
 .empty-message {
@@ -2158,6 +2207,17 @@ tbody tr:hover {
 
   .teams {
     gap: 8px;
+  }
+
+  .match-details {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .match-prediction {
+    text-align: left;
+    white-space: normal;
   }
 
   .team {
