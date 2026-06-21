@@ -13,7 +13,7 @@ fetch("data/manual-data.json", { cache: "no-store" })
   .then(function (data) {
     window.GOALTRACK_DATA = data;
     const applicationScript = document.createElement("script");
-    applicationScript.src = "script.js";
+    applicationScript.src = `script.js?v=${Date.now()}`;
     document.body.appendChild(applicationScript);
   })
   .catch(function (error) {
