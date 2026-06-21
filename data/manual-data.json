@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T18:09:04.606Z",
+  "updatedAt": "2026-06-21T21:41:15.6903407Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -411,12 +411,12 @@
         "name": "Belgium",
         "flag": "BEL",
         "fifaRank": 8,
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 0,
         "gd": 0,
-        "points": 1
+        "points": 2
       },
       {
         "name": "Egypt",
@@ -433,12 +433,12 @@
         "name": "Iran",
         "flag": "IRN",
         "fifaRank": 20,
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 0,
         "gd": 0,
-        "points": 1
+        "points": 2
       },
       {
         "name": "New Zealand",
@@ -2719,7 +2719,34 @@
       "location": "SoFi Stadium · Los Angeles",
       "venueTimeZone": "America/Los_Angeles",
       "predictedHomeScore": 2,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "status": "FT",
+      "elapsed": 98,
+      "homeScore": 0,
+      "awayScore": 0,
+      "scorers": [],
+      "redCards": [
+        {
+          "player": "Nathan Ngoy",
+          "team": "Belgium",
+          "match": "Belgium vs Iran"
+        }
+      ],
+      "penalties": 0,
+      "homeKeeper": "Thibaut Courtois",
+      "awayKeeper": "Alireza Beiranvand",
+      "yellowCards": [
+        {
+          "player": "Belgium yellow card",
+          "team": "Belgium",
+          "match": "Belgium vs Iran"
+        },
+        {
+          "player": "Iran yellow card",
+          "team": "Iran",
+          "match": "Belgium vs Iran"
+        }
+      ]
     },
     {
       "date": "Sunday, June 21, 2026",
@@ -5440,6 +5467,44 @@
       "penalties": 0,
       "homeKeeper": "Unai Simón",
       "awayKeeper": "Mohammed Al-Owais"
+    },
+    {
+      "date": "Sunday, June 21, 2026",
+      "stage": "Group Stage",
+      "group": "Group G",
+      "time": "2:00 PM CDT (12:00 PM PDT venue local)",
+      "home": "Belgium",
+      "homeFlag": "BEL",
+      "away": "Iran",
+      "awayFlag": "IRN",
+      "location": "SoFi Stadium · Los Angeles",
+      "status": "FT",
+      "elapsed": 98,
+      "homeScore": 0,
+      "awayScore": 0,
+      "scorers": [],
+      "redCards": [
+        {
+          "player": "Nathan Ngoy",
+          "team": "Belgium",
+          "match": "Belgium vs Iran"
+        }
+      ],
+      "penalties": 0,
+      "homeKeeper": "Thibaut Courtois",
+      "awayKeeper": "Alireza Beiranvand",
+      "yellowCards": [
+        {
+          "player": "Belgium yellow card",
+          "team": "Belgium",
+          "match": "Belgium vs Iran"
+        },
+        {
+          "player": "Iran yellow card",
+          "team": "Iran",
+          "match": "Belgium vs Iran"
+        }
+      ]
     }
   ],
   "detailedStats": {
@@ -5974,7 +6039,7 @@
       {
         "name": "Alireza Beiranvand",
         "value": 0,
-        "detail": "Iran · 2 goals conceded in 1 appearance"
+        "detail": "Iran · 2 goals conceded in 2 appearances"
       },
       {
         "name": "Aymen Dahmen",
@@ -6109,7 +6174,7 @@
       {
         "name": "Thibaut Courtois",
         "value": 0,
-        "detail": "Belgium · 1 goals conceded in 1 appearance"
+        "detail": "Belgium · 1 goals conceded in 2 appearances"
       },
       {
         "name": "Uğurcan Çakır",
@@ -6132,7 +6197,8 @@
       "Mexico": 1,
       "Bosnia and Herzegovina": 1,
       "Qatar": 2,
-      "Paraguay": 1
+      "Paraguay": 1,
+      "Belgium": 1
     },
     "yellowCards": {
       "South Africa": 5,
@@ -6154,9 +6220,7 @@
       "Spain": 1,
       "Cabo Verde": 1,
       "Egypt": 2,
-      "Belgium": 2,
       "Saudi Arabia": 3,
-      "Iran": 1,
       "Austria": 1,
       "Portugal": 3,
       "DR Congo": 1,
@@ -6169,7 +6233,9 @@
       "Morocco": 1,
       "Sweden": 3,
       "Germany": 1,
-      "Curaçao": 5
+      "Curaçao": 5,
+      "Belgium": 1,
+      "Iran": 1
     },
     "redCardEvents": [
       {
@@ -6206,6 +6272,11 @@
         "player": "Miguel Almirón",
         "team": "Paraguay",
         "match": "Türkiye vs Paraguay"
+      },
+      {
+        "player": "Nathan Ngoy",
+        "team": "Belgium",
+        "match": "Belgium vs Iran"
       }
     ],
     "yellowCardEvents": [
@@ -6643,6 +6714,16 @@
         "player": "Mohamed Kanno",
         "team": "Saudi Arabia",
         "match": "Spain vs Saudi Arabia"
+      },
+      {
+        "player": "Belgium yellow card",
+        "team": "Belgium",
+        "match": "Belgium vs Iran"
+      },
+      {
+        "player": "Iran yellow card",
+        "team": "Iran",
+        "match": "Belgium vs Iran"
       }
     ],
     "penaltyEvents": [
@@ -6924,6 +7005,13 @@
         "yellowCards": 2,
         "penalties": 0,
         "elapsed": 101
+      },
+      {
+        "match": "Belgium vs Iran",
+        "redCards": 1,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 98
       }
     ]
   }
