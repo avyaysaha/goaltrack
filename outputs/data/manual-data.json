@@ -748,7 +748,9 @@
       ],
       "penalties": 0,
       "homeKeeper": "Raúl Rangel",
-      "awayKeeper": "Ronwen Williams"
+      "awayKeeper": "Ronwen Williams",
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1
     },
     {
       "date": "Thursday, June 11, 2026",
@@ -787,7 +789,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Kim Seung-gyu",
-      "awayKeeper": "Matěj Kovář"
+      "awayKeeper": "Matěj Kovář",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 0
     },
     {
       "date": "Friday, June 12, 2026",
@@ -842,7 +846,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Maxime Crépeau",
-      "awayKeeper": "Nikola Vasilj"
+      "awayKeeper": "Nikola Vasilj",
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1
     },
     {
       "date": "Friday, June 12, 2026",
@@ -922,7 +928,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Matt Freese",
-      "awayKeeper": "Orlando Gill"
+      "awayKeeper": "Orlando Gill",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 0
     },
     {
       "date": "Saturday, June 13, 2026",
@@ -972,7 +980,9 @@
       "redCards": [],
       "penalties": 1,
       "homeKeeper": "Mahmoud Abunada",
-      "awayKeeper": "Gregor Kobel"
+      "awayKeeper": "Gregor Kobel",
+      "predictedHomeScore": 0,
+      "predictedAwayScore": 2
     },
     {
       "date": "Saturday, June 13, 2026",
@@ -1017,7 +1027,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Alisson Becker",
-      "awayKeeper": "Yassine Bounou"
+      "awayKeeper": "Yassine Bounou",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Saturday, June 13, 2026",
@@ -1067,7 +1079,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Johny Placide",
-      "awayKeeper": "Angus Gunn"
+      "awayKeeper": "Angus Gunn",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 3
     },
     {
       "date": "Saturday, June 13, 2026",
@@ -1107,7 +1121,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Patrick Beach",
-      "awayKeeper": "Uğurcan Çakır"
+      "awayKeeper": "Uğurcan Çakır",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Sunday, June 14, 2026",
@@ -1171,7 +1187,9 @@
       "redCards": [],
       "penalties": 1,
       "homeKeeper": "Manuel Neuer",
-      "awayKeeper": "Eloy Room"
+      "awayKeeper": "Eloy Room",
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1
     },
     {
       "date": "Sunday, June 14, 2026",
@@ -1231,7 +1249,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Bart Verbruggen",
-      "awayKeeper": "Zion Suzuki"
+      "awayKeeper": "Zion Suzuki",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 1
     },
     {
       "date": "Sunday, June 14, 2026",
@@ -1281,7 +1301,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Yahia Fofana",
-      "awayKeeper": "Hernán Galíndez"
+      "awayKeeper": "Hernán Galíndez",
+      "predictedHomeScore": 0,
+      "predictedAwayScore": 2
     },
     {
       "date": "Sunday, June 14, 2026",
@@ -1341,7 +1363,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Kristoffer Nordfeldt",
-      "awayKeeper": "Mouhib Chamakh"
+      "awayKeeper": "Mouhib Chamakh",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Monday, June 15, 2026",
@@ -1375,7 +1399,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Unai Simón",
-      "awayKeeper": "Vozinha"
+      "awayKeeper": "Vozinha",
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1
     },
     {
       "date": "Monday, June 15, 2026",
@@ -1430,7 +1456,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Thibaut Courtois",
-      "awayKeeper": "Mostafa Shobeir"
+      "awayKeeper": "Mostafa Shobeir",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 0
     },
     {
       "date": "Monday, June 15, 2026",
@@ -1470,7 +1498,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Mohammed Al-Owais",
-      "awayKeeper": "Fernando Muslera"
+      "awayKeeper": "Fernando Muslera",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 3
     },
     {
       "date": "Monday, June 15, 2026",
@@ -1520,7 +1550,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Alireza Beiranvand",
-      "awayKeeper": "Max Crocombe"
+      "awayKeeper": "Max Crocombe",
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1
     },
     {
       "date": "Tuesday, June 16, 2026",
@@ -1564,7 +1596,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Mike Maignan",
-      "awayKeeper": "Édouard Mendy"
+      "awayKeeper": "Édouard Mendy",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 1
     },
     {
       "date": "Tuesday, June 16, 2026",
@@ -1606,7 +1640,9 @@
       ],
       "yellowCards": [],
       "redCards": [],
-      "penalties": 0
+      "penalties": 0,
+      "predictedHomeScore": 0,
+      "predictedAwayScore": 2
     },
     {
       "date": "Tuesday, June 16, 2026",
@@ -1645,7 +1681,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Emiliano Martínez",
-      "awayKeeper": "Luca Zidane"
+      "awayKeeper": "Luca Zidane",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 0
     },
     {
       "date": "Tuesday, June 16, 2026",
@@ -1695,7 +1733,9 @@
       "redCards": [],
       "penalties": 1,
       "homeKeeper": "Alexander Schlager",
-      "awayKeeper": "Yazeed Abulaila"
+      "awayKeeper": "Yazeed Abulaila",
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1
     },
     {
       "date": "Wednesday, June 17, 2026",
@@ -1750,7 +1790,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Diogo Costa",
-      "awayKeeper": "Lionel Mpasi"
+      "awayKeeper": "Lionel Mpasi",
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1
     },
     {
       "date": "Wednesday, June 17, 2026",
@@ -1804,7 +1846,9 @@
       "redCards": [],
       "penalties": 1,
       "homeKeeper": "Jordan Pickford",
-      "awayKeeper": "Dominik Livaković"
+      "awayKeeper": "Dominik Livaković",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Wednesday, June 17, 2026",
@@ -1849,7 +1893,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Lawrence Ati-Zigi",
-      "awayKeeper": "Orlando Mosquera"
+      "awayKeeper": "Orlando Mosquera",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 3
     },
     {
       "date": "Wednesday, June 17, 2026",
@@ -1904,7 +1950,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Utkir Yusupov",
-      "awayKeeper": "Camilo Vargas"
+      "awayKeeper": "Camilo Vargas",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 3
     },
     {
       "date": "Thursday, June 18, 2026",
@@ -1949,7 +1997,9 @@
       "redCards": [],
       "penalties": 1,
       "homeKeeper": "Matěj Kovář",
-      "awayKeeper": "Ronwen Williams"
+      "awayKeeper": "Ronwen Williams",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 1
     },
     {
       "date": "Thursday, June 18, 2026",
@@ -2020,7 +2070,9 @@
       ],
       "penalties": 1,
       "homeKeeper": "Gregor Kobel",
-      "awayKeeper": "Nikola Vasilj"
+      "awayKeeper": "Nikola Vasilj",
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1
     },
     {
       "date": "Thursday, June 18, 2026",
@@ -2096,7 +2148,9 @@
       ],
       "penalties": 0,
       "homeKeeper": "Maxime Crépeau",
-      "awayKeeper": "Mahmud Abunada"
+      "awayKeeper": "Mahmud Abunada",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 0
     },
     {
       "date": "Thursday, June 18, 2026",
@@ -2136,7 +2190,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Raúl Rangel",
-      "awayKeeper": "Kim Seung-gyu"
+      "awayKeeper": "Kim Seung-gyu",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Friday, June 19, 2026",
@@ -2206,7 +2262,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Matt Freese",
-      "awayKeeper": "Patrick Beach"
+      "awayKeeper": "Patrick Beach",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 1
     },
     {
       "date": "Friday, June 19, 2026",
@@ -2246,7 +2304,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Angus Gunn",
-      "awayKeeper": "Yassine Bounou"
+      "awayKeeper": "Yassine Bounou",
+      "predictedHomeScore": 0,
+      "predictedAwayScore": 2
     },
     {
       "date": "Friday, June 19, 2026",
@@ -2306,7 +2366,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Alisson Becker",
-      "awayKeeper": "Johny Placide"
+      "awayKeeper": "Johny Placide",
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1
     },
     {
       "date": "Friday, June 19, 2026",
@@ -2357,7 +2419,9 @@
       ],
       "penalties": 0,
       "homeKeeper": "Uğurcan Çakır",
-      "awayKeeper": "Orlando Gill"
+      "awayKeeper": "Orlando Gill",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 1
     },
     {
       "date": "Saturday, June 20, 2026",
@@ -2427,7 +2491,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Bart Verbruggen",
-      "awayKeeper": "Kristoffer Nordfeldt"
+      "awayKeeper": "Kristoffer Nordfeldt",
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1
     },
     {
       "date": "Saturday, June 20, 2026",
@@ -2477,7 +2543,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Manuel Neuer",
-      "awayKeeper": "Yahia Fofana"
+      "awayKeeper": "Yahia Fofana",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 0
     },
     {
       "date": "Saturday, June 20, 2026",
@@ -2531,7 +2599,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Hernán Galíndez",
-      "awayKeeper": "Eloy Room"
+      "awayKeeper": "Eloy Room",
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1
     },
     {
       "date": "Saturday, June 20, 2026",
@@ -2575,7 +2645,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Aymen Dahmen",
-      "awayKeeper": "Zion Suzuki"
+      "awayKeeper": "Zion Suzuki",
+      "predictedHomeScore": 0,
+      "predictedAwayScore": 2
     },
     {
       "date": "Sunday, June 21, 2026",
@@ -2630,7 +2702,9 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Unai Simón",
-      "awayKeeper": "Mohammed Al-Owais"
+      "awayKeeper": "Mohammed Al-Owais",
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1
     },
     {
       "date": "Sunday, June 21, 2026",
@@ -2643,7 +2717,9 @@
       "away": "Iran",
       "awayFlag": "IRN",
       "location": "SoFi Stadium · Los Angeles",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 1
     },
     {
       "date": "Sunday, June 21, 2026",
@@ -2656,7 +2732,9 @@
       "away": "Cabo Verde",
       "awayFlag": "CPV",
       "location": "Hard Rock Stadium · Miami",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1
     },
     {
       "date": "Sunday, June 21, 2026",
@@ -2669,7 +2747,9 @@
       "away": "Egypt",
       "awayFlag": "EGY",
       "location": "BC Place · Vancouver",
-      "venueTimeZone": "America/Vancouver"
+      "venueTimeZone": "America/Vancouver",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 3
     },
     {
       "date": "Monday, June 22, 2026",
@@ -2682,7 +2762,9 @@
       "away": "Austria",
       "awayFlag": "AUT",
       "location": "AT&T Stadium · Dallas",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 0
     },
     {
       "date": "Monday, June 22, 2026",
@@ -2695,7 +2777,9 @@
       "away": "Iraq",
       "awayFlag": "IRQ",
       "location": "Lincoln Financial Field · Philadelphia",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1
     },
     {
       "date": "Monday, June 22, 2026",
@@ -2708,7 +2792,9 @@
       "away": "Senegal",
       "awayFlag": "SEN",
       "location": "MetLife Stadium · New Jersey",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 2
     },
     {
       "date": "Monday, June 22, 2026",
@@ -2721,7 +2807,9 @@
       "away": "Algeria",
       "awayFlag": "ALG",
       "location": "Levi's Stadium · San Francisco Bay Area",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "predictedHomeScore": 0,
+      "predictedAwayScore": 2
     },
     {
       "date": "Tuesday, June 23, 2026",
@@ -2734,7 +2822,9 @@
       "away": "Uzbekistan",
       "awayFlag": "UZB",
       "location": "NRG Stadium · Houston",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1
     },
     {
       "date": "Tuesday, June 23, 2026",
@@ -2747,7 +2837,9 @@
       "away": "Ghana",
       "awayFlag": "GHA",
       "location": "Gillette Stadium · Boston",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1
     },
     {
       "date": "Tuesday, June 23, 2026",
@@ -2760,7 +2852,9 @@
       "away": "Croatia",
       "awayFlag": "CRO",
       "location": "BMO Field · Toronto",
-      "venueTimeZone": "America/Toronto"
+      "venueTimeZone": "America/Toronto",
+      "predictedHomeScore": 0,
+      "predictedAwayScore": 2
     },
     {
       "date": "Tuesday, June 23, 2026",
@@ -2773,7 +2867,9 @@
       "away": "DR Congo",
       "awayFlag": "COD",
       "location": "Estadio Akron · Guadalajara",
-      "venueTimeZone": "America/Mexico_City"
+      "venueTimeZone": "America/Mexico_City",
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -2786,7 +2882,9 @@
       "away": "Canada",
       "awayFlag": "CAN",
       "location": "BC Place · Vancouver",
-      "venueTimeZone": "America/Vancouver"
+      "venueTimeZone": "America/Vancouver",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 1
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -2799,7 +2897,9 @@
       "away": "Qatar",
       "awayFlag": "QAT",
       "location": "Lumen Field · Seattle",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "predictedHomeScore": 0,
+      "predictedAwayScore": 2
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -2812,7 +2912,9 @@
       "away": "Brazil",
       "awayFlag": "BRA",
       "location": "Hard Rock Stadium · Miami",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 0,
+      "predictedAwayScore": 2
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -2825,7 +2927,9 @@
       "away": "Haiti",
       "awayFlag": "HAI",
       "location": "Mercedes-Benz Stadium · Atlanta",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -2838,7 +2942,9 @@
       "away": "Mexico",
       "awayFlag": "MEX",
       "location": "Estadio Azteca · Mexico City",
-      "venueTimeZone": "America/Mexico_City"
+      "venueTimeZone": "America/Mexico_City",
+      "predictedHomeScore": 0,
+      "predictedAwayScore": 2
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -2851,7 +2957,9 @@
       "away": "Korea Republic",
       "awayFlag": "KOR",
       "location": "Estadio BBVA · Monterrey",
-      "venueTimeZone": "America/Monterrey"
+      "venueTimeZone": "America/Monterrey",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 3
     },
     {
       "date": "Thursday, June 25, 2026",
@@ -2864,7 +2972,9 @@
       "away": "Cote d'Ivoire",
       "awayFlag": "CIV",
       "location": "Lincoln Financial Field · Philadelphia",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 3
     },
     {
       "date": "Thursday, June 25, 2026",
@@ -2877,7 +2987,9 @@
       "away": "Germany",
       "awayFlag": "GER",
       "location": "MetLife Stadium · New Jersey",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 2
     },
     {
       "date": "Thursday, June 25, 2026",
@@ -2890,7 +3002,9 @@
       "away": "Sweden",
       "awayFlag": "SWE",
       "location": "AT&T Stadium · Dallas",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 0
     },
     {
       "date": "Thursday, June 25, 2026",
@@ -2903,7 +3017,9 @@
       "away": "Netherlands",
       "awayFlag": "NED",
       "location": "GEHA Field at Arrowhead Stadium · Kansas City",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "predictedHomeScore": 0,
+      "predictedAwayScore": 2
     },
     {
       "date": "Thursday, June 25, 2026",
@@ -2916,7 +3032,9 @@
       "away": "United States",
       "awayFlag": "USA",
       "location": "SoFi Stadium · Los Angeles",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 2
     },
     {
       "date": "Thursday, June 25, 2026",
@@ -2929,7 +3047,9 @@
       "away": "Australia",
       "awayFlag": "AUS",
       "location": "Levi's Stadium · San Francisco Bay Area",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 2
     },
     {
       "date": "Friday, June 26, 2026",
@@ -2942,7 +3062,9 @@
       "away": "France",
       "awayFlag": "FRA",
       "location": "Gillette Stadium · Boston",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 0,
+      "predictedAwayScore": 2
     },
     {
       "date": "Friday, June 26, 2026",
@@ -2955,7 +3077,9 @@
       "away": "Iraq",
       "awayFlag": "IRQ",
       "location": "BMO Field · Toronto",
-      "venueTimeZone": "America/Toronto"
+      "venueTimeZone": "America/Toronto",
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1
     },
     {
       "date": "Friday, June 26, 2026",
@@ -2968,7 +3092,9 @@
       "away": "Saudi Arabia",
       "awayFlag": "KSA",
       "location": "NRG Stadium · Houston",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 2
     },
     {
       "date": "Friday, June 26, 2026",
@@ -2981,7 +3107,9 @@
       "away": "Spain",
       "awayFlag": "ESP",
       "location": "Estadio Akron · Guadalajara",
-      "venueTimeZone": "America/Mexico_City"
+      "venueTimeZone": "America/Mexico_City",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 2
     },
     {
       "date": "Friday, June 26, 2026",
@@ -2994,7 +3122,9 @@
       "away": "Iran",
       "awayFlag": "IRN",
       "location": "Lumen Field · Seattle",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 2
     },
     {
       "date": "Friday, June 26, 2026",
@@ -3007,7 +3137,9 @@
       "away": "Belgium",
       "awayFlag": "BEL",
       "location": "BC Place · Vancouver",
-      "venueTimeZone": "America/Vancouver"
+      "venueTimeZone": "America/Vancouver",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 3
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -3020,7 +3152,9 @@
       "away": "England",
       "awayFlag": "ENG",
       "location": "MetLife Stadium · New Jersey",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 0,
+      "predictedAwayScore": 2
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -3033,7 +3167,9 @@
       "away": "Ghana",
       "awayFlag": "GHA",
       "location": "Lincoln Financial Field · Philadelphia",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -3046,7 +3182,9 @@
       "away": "Portugal",
       "awayFlag": "POR",
       "location": "Hard Rock Stadium · Miami",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -3059,7 +3197,9 @@
       "away": "Uzbekistan",
       "awayFlag": "UZB",
       "location": "Mercedes-Benz Stadium · Atlanta",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -3072,7 +3212,9 @@
       "away": "Austria",
       "awayFlag": "AUT",
       "location": "GEHA Field at Arrowhead Stadium · Kansas City",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 2
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -3085,7 +3227,9 @@
       "away": "Argentina",
       "awayFlag": "ARG",
       "location": "AT&T Stadium · Dallas",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 3
     },
     {
       "date": "Sunday, June 28, 2026",
@@ -3098,7 +3242,9 @@
       "away": "Runner-up Group B",
       "awayFlag": "2B",
       "location": "SoFi Stadium · Los Angeles",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Monday, June 29, 2026",
@@ -3111,7 +3257,9 @@
       "away": "Runner-up Group F",
       "awayFlag": "2F",
       "location": "NRG Stadium · Houston",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 1
     },
     {
       "date": "Monday, June 29, 2026",
@@ -3124,7 +3272,9 @@
       "away": "Best third-place team A/B/C/D/F",
       "awayFlag": "3ABCDF",
       "location": "Gillette Stadium · Boston",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Monday, June 29, 2026",
@@ -3137,7 +3287,9 @@
       "away": "Runner-up Group C",
       "awayFlag": "2C",
       "location": "Estadio BBVA · Monterrey",
-      "venueTimeZone": "America/Monterrey"
+      "venueTimeZone": "America/Monterrey",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 1
     },
     {
       "date": "Tuesday, June 30, 2026",
@@ -3150,7 +3302,9 @@
       "away": "Runner-up Group I",
       "awayFlag": "2I",
       "location": "AT&T Stadium · Dallas",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Tuesday, June 30, 2026",
@@ -3163,7 +3317,9 @@
       "away": "Best third-place team C/D/F/G/H",
       "awayFlag": "3CDFGH",
       "location": "MetLife Stadium · New Jersey",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Tuesday, June 30, 2026",
@@ -3176,7 +3332,9 @@
       "away": "Best third-place team C/E/F/H/I",
       "awayFlag": "3CEFHI",
       "location": "Estadio Azteca · Mexico City",
-      "venueTimeZone": "America/Mexico_City"
+      "venueTimeZone": "America/Mexico_City",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Wednesday, July 1, 2026",
@@ -3189,7 +3347,9 @@
       "away": "Best third-place team E/H/I/J/K",
       "awayFlag": "3EHIJK",
       "location": "Mercedes-Benz Stadium · Atlanta",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Wednesday, July 1, 2026",
@@ -3202,7 +3362,9 @@
       "away": "Best third-place team A/E/H/I/J",
       "awayFlag": "3AEHIJ",
       "location": "Lumen Field · Seattle",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Wednesday, July 1, 2026",
@@ -3215,7 +3377,9 @@
       "away": "Best third-place team B/E/F/I/J",
       "awayFlag": "3BEFIJ",
       "location": "Levi's Stadium · San Francisco Bay Area",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Thursday, July 2, 2026",
@@ -3228,7 +3392,9 @@
       "away": "Runner-up Group J",
       "awayFlag": "2J",
       "location": "SoFi Stadium · Los Angeles",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 1
     },
     {
       "date": "Thursday, July 2, 2026",
@@ -3241,7 +3407,9 @@
       "away": "Runner-up Group L",
       "awayFlag": "2L",
       "location": "BMO Field · Toronto",
-      "venueTimeZone": "America/Toronto"
+      "venueTimeZone": "America/Toronto",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Thursday, July 2, 2026",
@@ -3254,7 +3422,9 @@
       "away": "Best third-place team E/F/G/I/J",
       "awayFlag": "3EFGIJ",
       "location": "BC Place · Vancouver",
-      "venueTimeZone": "America/Vancouver"
+      "venueTimeZone": "America/Vancouver",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Friday, July 3, 2026",
@@ -3267,7 +3437,9 @@
       "away": "Runner-up Group G",
       "awayFlag": "2G",
       "location": "AT&T Stadium · Dallas",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Friday, July 3, 2026",
@@ -3280,7 +3452,9 @@
       "away": "Runner-up Group H",
       "awayFlag": "2H",
       "location": "Hard Rock Stadium · Miami",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 1
     },
     {
       "date": "Friday, July 3, 2026",
@@ -3293,7 +3467,9 @@
       "away": "Best third-place team D/E/I/J/L",
       "awayFlag": "3DEIJL",
       "location": "GEHA Field at Arrowhead Stadium · Kansas City",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Saturday, July 4, 2026",
@@ -3306,7 +3482,9 @@
       "away": "Winner Match 75",
       "awayFlag": "W75",
       "location": "NRG Stadium · Houston",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Saturday, July 4, 2026",
@@ -3319,7 +3497,9 @@
       "away": "Winner Match 77",
       "awayFlag": "W77",
       "location": "Lincoln Financial Field · Philadelphia",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Sunday, July 5, 2026",
@@ -3332,7 +3512,9 @@
       "away": "Winner Match 78",
       "awayFlag": "W78",
       "location": "MetLife Stadium · New Jersey",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Sunday, July 5, 2026",
@@ -3345,7 +3527,9 @@
       "away": "Winner Match 80",
       "awayFlag": "W80",
       "location": "Estadio Azteca · Mexico City",
-      "venueTimeZone": "America/Mexico_City"
+      "venueTimeZone": "America/Mexico_City",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Monday, July 6, 2026",
@@ -3358,7 +3542,9 @@
       "away": "Winner Match 84",
       "awayFlag": "W84",
       "location": "AT&T Stadium · Dallas",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Monday, July 6, 2026",
@@ -3371,7 +3557,9 @@
       "away": "Winner Match 82",
       "awayFlag": "W82",
       "location": "Lumen Field · Seattle",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Tuesday, July 7, 2026",
@@ -3384,7 +3572,9 @@
       "away": "Winner Match 88",
       "awayFlag": "W88",
       "location": "Mercedes-Benz Stadium · Atlanta",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Tuesday, July 7, 2026",
@@ -3397,7 +3587,9 @@
       "away": "Winner Match 87",
       "awayFlag": "W87",
       "location": "BC Place · Vancouver",
-      "venueTimeZone": "America/Vancouver"
+      "venueTimeZone": "America/Vancouver",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Thursday, July 9, 2026",
@@ -3410,7 +3602,9 @@
       "away": "Winner Match 90",
       "awayFlag": "W90",
       "location": "Gillette Stadium · Boston",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Friday, July 10, 2026",
@@ -3423,7 +3617,9 @@
       "away": "Winner Match 94",
       "awayFlag": "W94",
       "location": "SoFi Stadium · Los Angeles",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Saturday, July 11, 2026",
@@ -3436,7 +3632,9 @@
       "away": "Winner Match 92",
       "awayFlag": "W92",
       "location": "Hard Rock Stadium · Miami",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Saturday, July 11, 2026",
@@ -3449,7 +3647,9 @@
       "away": "Winner Match 96",
       "awayFlag": "W96",
       "location": "GEHA Field at Arrowhead Stadium · Kansas City",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Tuesday, July 14, 2026",
@@ -3462,7 +3662,9 @@
       "away": "Winner Match 98",
       "awayFlag": "W98",
       "location": "AT&T Stadium · Dallas",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Wednesday, July 15, 2026",
@@ -3475,7 +3677,9 @@
       "away": "Winner Match 100",
       "awayFlag": "W100",
       "location": "Mercedes-Benz Stadium · Atlanta",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Saturday, July 18, 2026",
@@ -3488,7 +3692,9 @@
       "away": "Runner-up Match 102",
       "awayFlag": "RU102",
       "location": "Hard Rock Stadium · Miami",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Sunday, July 19, 2026",
@@ -3501,7 +3707,9 @@
       "away": "Winner Match 102",
       "awayFlag": "W102",
       "location": "MetLife Stadium · New Jersey",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     }
   ],
   "matchUpdates": [
