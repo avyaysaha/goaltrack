@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T02:34:16.417Z",
+  "updatedAt": "2026-06-21T14:46:28.574Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -362,6 +362,17 @@
     ],
     "F": [
       {
+        "name": "Japan",
+        "flag": "JPN",
+        "fifaRank": 18,
+        "played": 2,
+        "won": 1,
+        "drawn": 1,
+        "lost": 0,
+        "gd": 4,
+        "points": 4
+      },
+      {
         "name": "Netherlands",
         "flag": "NED",
         "fifaRank": 7,
@@ -384,25 +395,14 @@
         "points": 3
       },
       {
-        "name": "Japan",
-        "flag": "JPN",
-        "fifaRank": 18,
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gd": 0,
-        "points": 1
-      },
-      {
         "name": "Tunisia",
         "flag": "TUN",
         "fifaRank": 40,
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
-        "gd": -4,
+        "lost": 2,
+        "gd": -8,
         "points": 0
       }
     ],
@@ -2537,14 +2537,45 @@
       "date": "Saturday, June 20, 2026",
       "stage": "Group Stage",
       "group": "Group F",
-      "time": "10:00 PM local",
+      "time": "11:00 PM CDT (10:00 PM CST venue local)",
       "kickoffISO": "2026-06-21T04:00:00Z",
       "home": "Tunisia",
       "homeFlag": "TUN",
       "away": "Japan",
       "awayFlag": "JPN",
       "location": "Estadio BBVA · Monterrey",
-      "venueTimeZone": "America/Monterrey"
+      "venueTimeZone": "America/Monterrey",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 0,
+      "awayScore": 4,
+      "scorers": [
+        {
+          "player": "Daichi Kamada",
+          "team": "Japan",
+          "match": "Tunisia vs Japan"
+        },
+        {
+          "player": "Ayase Ueda",
+          "team": "Japan",
+          "match": "Tunisia vs Japan"
+        },
+        {
+          "player": "Junya Ito",
+          "team": "Japan",
+          "match": "Tunisia vs Japan"
+        },
+        {
+          "player": "Ayase Ueda",
+          "team": "Japan",
+          "match": "Tunisia vs Japan"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Aymen Dahmen",
+      "awayKeeper": "Zion Suzuki"
     },
     {
       "date": "Sunday, June 21, 2026",
@@ -5128,6 +5159,48 @@
       "penalties": 0,
       "homeKeeper": "Hernán Galíndez",
       "awayKeeper": "Eloy Room"
+    },
+    {
+      "date": "Saturday, June 20, 2026",
+      "stage": "Group Stage",
+      "group": "Group F",
+      "time": "11:00 PM CDT (10:00 PM CST venue local)",
+      "home": "Tunisia",
+      "homeFlag": "TUN",
+      "away": "Japan",
+      "awayFlag": "JPN",
+      "location": "Estadio BBVA · Monterrey",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 0,
+      "awayScore": 4,
+      "scorers": [
+        {
+          "player": "Daichi Kamada",
+          "team": "Japan",
+          "match": "Tunisia vs Japan"
+        },
+        {
+          "player": "Ayase Ueda",
+          "team": "Japan",
+          "match": "Tunisia vs Japan"
+        },
+        {
+          "player": "Junya Ito",
+          "team": "Japan",
+          "match": "Tunisia vs Japan"
+        },
+        {
+          "player": "Ayase Ueda",
+          "team": "Japan",
+          "match": "Tunisia vs Japan"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Aymen Dahmen",
+      "awayKeeper": "Zion Suzuki"
     }
   ],
   "detailedStats": {
@@ -5148,6 +5221,11 @@
         "detail": "Argentina"
       },
       {
+        "name": "Ayase Ueda",
+        "value": 2,
+        "detail": "Japan"
+      },
+      {
         "name": "Brian Brobbey",
         "value": 2,
         "detail": "Netherlands"
@@ -5166,6 +5244,11 @@
         "name": "Cyle Larin",
         "value": 2,
         "detail": "Canada"
+      },
+      {
+        "name": "Daichi Kamada",
+        "value": 2,
+        "detail": "Japan"
       },
       {
         "name": "Elijah Just",
@@ -5293,11 +5376,6 @@
         "detail": "Australia"
       },
       {
-        "name": "Daichi Kamada",
-        "value": 1,
-        "detail": "Japan"
-      },
-      {
         "name": "Damián Bobadilla (OG)",
         "value": 1,
         "detail": "United States"
@@ -5381,6 +5459,11 @@
         "name": "Julián Quiñones",
         "value": 1,
         "detail": "Mexico"
+      },
+      {
+        "name": "Junya Ito",
+        "value": 1,
+        "detail": "Japan"
       },
       {
         "name": "Keito Nakamura",
@@ -5625,6 +5708,11 @@
         "detail": "Morocco · 1 goals conceded in 2 appearances"
       },
       {
+        "name": "Zion Suzuki",
+        "value": 1,
+        "detail": "Japan · 2 goals conceded in 2 appearances"
+      },
+      {
         "name": "Alexander Schlager",
         "value": 0,
         "detail": "Austria · 1 goals conceded in 1 appearance"
@@ -5633,6 +5721,11 @@
         "name": "Alireza Beiranvand",
         "value": 0,
         "detail": "Iran · 2 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Aymen Dahmen",
+        "value": 0,
+        "detail": "Tunisia · 4 goals conceded in 1 appearance"
       },
       {
         "name": "Bart Verbruggen",
@@ -5778,11 +5871,6 @@
         "name": "Yazeed Abulaila",
         "value": 0,
         "detail": "Jordan · 3 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Zion Suzuki",
-        "value": 0,
-        "detail": "Japan · 2 goals conceded in 1 appearance"
       }
     ],
     "redCards": {
@@ -6307,10 +6395,10 @@
         "match": "England vs Croatia"
       },
       {
-        "match": "Switzerland vs Bosnia and Herzegovina"
+        "match": "Czechia vs South Africa"
       },
       {
-        "match": "Czechia vs South Africa"
+        "match": "Switzerland vs Bosnia and Herzegovina"
       }
     ],
     "matchStats": [
@@ -6558,6 +6646,13 @@
         "yellowCards": 6,
         "penalties": 0,
         "elapsed": 99
+      },
+      {
+        "match": "Tunisia vs Japan",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 100
       }
     ]
   }
