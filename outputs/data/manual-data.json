@@ -1947,7 +1947,7 @@
         }
       ],
       "redCards": [],
-      "penalties": 0,
+      "penalties": 1,
       "homeKeeper": "Matěj Kovář",
       "awayKeeper": "Ronwen Williams"
     },
@@ -4563,7 +4563,7 @@
         }
       ],
       "redCards": [],
-      "penalties": 0,
+      "penalties": 1,
       "homeKeeper": "Matěj Kovář",
       "awayKeeper": "Ronwen Williams"
     },
@@ -6308,6 +6308,9 @@
       },
       {
         "match": "Switzerland vs Bosnia and Herzegovina"
+      },
+      {
+        "match": "Czechia vs South Africa"
       }
     ],
     "matchStats": [
@@ -6483,7 +6486,7 @@
         "match": "Czechia vs South Africa",
         "redCards": 0,
         "yellowCards": 2,
-        "penalties": 0,
+        "penalties": 1,
         "elapsed": 101
       },
       {
