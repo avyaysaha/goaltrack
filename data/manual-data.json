@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T23:57:42.188Z",
+  "updatedAt": "2026-06-21T02:34:16.417Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -341,23 +341,23 @@
         "name": "Ecuador",
         "flag": "ECU",
         "fifaRank": 23,
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 1,
         "gd": -1,
-        "points": 0
+        "points": 1
       },
       {
         "name": "Curaçao",
         "flag": "CUW",
         "fifaRank": 82,
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 1,
         "gd": -6,
-        "points": 0
+        "points": 1
       }
     ],
     "F": [
@@ -2483,14 +2483,55 @@
       "date": "Saturday, June 20, 2026",
       "stage": "Group Stage",
       "group": "Group E",
-      "time": "7:00 PM local",
+      "time": "7:00 PM CDT (7:00 PM CDT venue local)",
       "kickoffISO": "2026-06-21T00:00:00Z",
       "home": "Ecuador",
       "homeFlag": "ECU",
       "away": "Curaçao",
       "awayFlag": "CUW",
       "location": "GEHA Field at Arrowhead Stadium · Kansas City",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 0,
+      "awayScore": 0,
+      "scorers": [],
+      "yellowCards": [
+        {
+          "player": "Jordy Alcívar",
+          "team": "Ecuador",
+          "match": "Ecuador vs Curaçao"
+        },
+        {
+          "player": "Leandro Bacuna",
+          "team": "Curaçao",
+          "match": "Ecuador vs Curaçao"
+        },
+        {
+          "player": "Juninho Bacuna",
+          "team": "Curaçao",
+          "match": "Ecuador vs Curaçao"
+        },
+        {
+          "player": "Livano Comenencia",
+          "team": "Curaçao",
+          "match": "Ecuador vs Curaçao"
+        },
+        {
+          "player": "Juriën Gaari",
+          "team": "Curaçao",
+          "match": "Ecuador vs Curaçao"
+        },
+        {
+          "player": "Gervane Kastaneer",
+          "team": "Curaçao",
+          "match": "Ecuador vs Curaçao"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Hernán Galíndez",
+      "awayKeeper": "Eloy Room"
     },
     {
       "date": "Saturday, June 20, 2026",
@@ -5035,6 +5076,58 @@
       "penalties": 0,
       "homeKeeper": "Manuel Neuer",
       "awayKeeper": "Yahia Fofana"
+    },
+    {
+      "date": "Saturday, June 20, 2026",
+      "stage": "Group Stage",
+      "group": "Group E",
+      "time": "7:00 PM CDT (7:00 PM CDT venue local)",
+      "home": "Ecuador",
+      "homeFlag": "ECU",
+      "away": "Curaçao",
+      "awayFlag": "CUW",
+      "location": "GEHA Field at Arrowhead Stadium · Kansas City",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 0,
+      "awayScore": 0,
+      "scorers": [],
+      "yellowCards": [
+        {
+          "player": "Jordy Alcívar",
+          "team": "Ecuador",
+          "match": "Ecuador vs Curaçao"
+        },
+        {
+          "player": "Leandro Bacuna",
+          "team": "Curaçao",
+          "match": "Ecuador vs Curaçao"
+        },
+        {
+          "player": "Juninho Bacuna",
+          "team": "Curaçao",
+          "match": "Ecuador vs Curaçao"
+        },
+        {
+          "player": "Livano Comenencia",
+          "team": "Curaçao",
+          "match": "Ecuador vs Curaçao"
+        },
+        {
+          "player": "Juriën Gaari",
+          "team": "Curaçao",
+          "match": "Ecuador vs Curaçao"
+        },
+        {
+          "player": "Gervane Kastaneer",
+          "team": "Curaçao",
+          "match": "Ecuador vs Curaçao"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Hernán Galíndez",
+      "awayKeeper": "Eloy Room"
     }
   ],
   "detailedStats": {
@@ -5472,9 +5565,19 @@
         "detail": "Scotland · 1 goals conceded in 2 appearances"
       },
       {
+        "name": "Eloy Room",
+        "value": 1,
+        "detail": "Curaçao · 7 goals conceded in 2 appearances"
+      },
+      {
         "name": "Emiliano Martínez",
         "value": 1,
         "detail": "Argentina · 0 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Hernán Galíndez",
+        "value": 1,
+        "detail": "Ecuador · 1 goals conceded in 2 appearances"
       },
       {
         "name": "Lawrence Ati-Zigi",
@@ -5557,11 +5660,6 @@
         "detail": "Senegal · 3 goals conceded in 1 appearance"
       },
       {
-        "name": "Eloy Room",
-        "value": 0,
-        "detail": "Curaçao · 7 goals conceded in 1 appearance"
-      },
-      {
         "name": "Fernando Muslera",
         "value": 0,
         "detail": "Uruguay · 1 goals conceded in 1 appearance"
@@ -5570,11 +5668,6 @@
         "name": "Gregor Kobel",
         "value": 0,
         "detail": "Switzerland · 2 goals conceded in 2 appearances"
-      },
-      {
-        "name": "Hernán Galíndez",
-        "value": 0,
-        "detail": "Ecuador · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Johny Placide",
@@ -5714,7 +5807,7 @@
       "Türkiye": 1,
       "Netherlands": 3,
       "Cote d'Ivoire": 4,
-      "Ecuador": 1,
+      "Ecuador": 2,
       "Tunisia": 1,
       "Spain": 1,
       "Cabo Verde": 1,
@@ -5733,7 +5826,8 @@
       "Australia": 4,
       "Morocco": 1,
       "Sweden": 3,
-      "Germany": 1
+      "Germany": 1,
+      "Curaçao": 5
     },
     "redCardEvents": [
       {
@@ -6167,6 +6261,36 @@
         "player": "Nico Schlotterbeck",
         "team": "Germany",
         "match": "Germany vs Cote d'Ivoire"
+      },
+      {
+        "player": "Jordy Alcívar",
+        "team": "Ecuador",
+        "match": "Ecuador vs Curaçao"
+      },
+      {
+        "player": "Leandro Bacuna",
+        "team": "Curaçao",
+        "match": "Ecuador vs Curaçao"
+      },
+      {
+        "player": "Juninho Bacuna",
+        "team": "Curaçao",
+        "match": "Ecuador vs Curaçao"
+      },
+      {
+        "player": "Livano Comenencia",
+        "team": "Curaçao",
+        "match": "Ecuador vs Curaçao"
+      },
+      {
+        "player": "Juriën Gaari",
+        "team": "Curaçao",
+        "match": "Ecuador vs Curaçao"
+      },
+      {
+        "player": "Gervane Kastaneer",
+        "team": "Curaçao",
+        "match": "Ecuador vs Curaçao"
       }
     ],
     "penaltyEvents": [
@@ -6424,6 +6548,13 @@
         "yellowCards": 2,
         "penalties": 0,
         "elapsed": 100
+      },
+      {
+        "match": "Ecuador vs Curaçao",
+        "redCards": 0,
+        "yellowCards": 6,
+        "penalties": 0,
+        "elapsed": 99
       }
     ]
   }
