@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Sample World Cup match schedule.">
   <title>Match Schedule | GoalTrack</title>
-  <link rel="stylesheet" href="styles.css?v=predictions-center-local">
+  <link rel="stylesheet" href="styles.css?v=bracket-local">
 </head>
 <body>
   <header class="site-header">
@@ -45,8 +45,9 @@
         </label>
       </div>
 
-      <!-- JavaScript creates each date heading and match card in this area. -->
+      <!-- JavaScript creates match cards and the knockout bracket in this area. -->
       <div id="schedule-list" class="schedule-list"></div>
+      <div id="knockout-bracket" class="knockout-bracket" hidden></div>
       <p id="empty-message" class="empty-message" hidden>No matches found. Try another team or filter.</p>
     </section>
   </main>
@@ -97,6 +98,6 @@
       <button type="submit">Send</button>
     </form>
   </aside>
-  <script src="data-loader.js?v=predictions-local"></script>
+  <script src="data-loader.js?v=bracket-local"></script>
 </body>
 </html>
