@@ -151,6 +151,12 @@ const update = {
   penalties: hasExtra("penalties")
     ? Number(extraValue("penalties") || 0)
     : (previousMatch.penalties || 0),
+  ...(Number.isInteger(previousMatch.predictedHomeScore) && Number.isInteger(previousMatch.predictedAwayScore)
+    ? {
+        predictedHomeScore: previousMatch.predictedHomeScore,
+        predictedAwayScore: previousMatch.predictedAwayScore
+      }
+    : {}),
   homeKeeper: hasExtra("home_keeper")
     ? extraValue("home_keeper")
     : (previousMatch.homeKeeper || ""),
