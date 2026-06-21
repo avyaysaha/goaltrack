@@ -3242,9 +3242,7 @@
       "away": "Runner-up Group B",
       "awayFlag": "2B",
       "location": "SoFi Stadium · Los Angeles",
-      "venueTimeZone": "America/Los_Angeles",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/Los_Angeles"
     },
     {
       "date": "Monday, June 29, 2026",
@@ -3257,9 +3255,7 @@
       "away": "Runner-up Group F",
       "awayFlag": "2F",
       "location": "NRG Stadium · Houston",
-      "venueTimeZone": "America/Chicago",
-      "predictedHomeScore": 2,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Monday, June 29, 2026",
@@ -3272,9 +3268,7 @@
       "away": "Best third-place team A/B/C/D/F",
       "awayFlag": "3ABCDF",
       "location": "Gillette Stadium · Boston",
-      "venueTimeZone": "America/New_York",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/New_York"
     },
     {
       "date": "Monday, June 29, 2026",
@@ -3287,9 +3281,7 @@
       "away": "Runner-up Group C",
       "awayFlag": "2C",
       "location": "Estadio BBVA · Monterrey",
-      "venueTimeZone": "America/Monterrey",
-      "predictedHomeScore": 2,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/Monterrey"
     },
     {
       "date": "Tuesday, June 30, 2026",
@@ -3302,9 +3294,7 @@
       "away": "Runner-up Group I",
       "awayFlag": "2I",
       "location": "AT&T Stadium · Dallas",
-      "venueTimeZone": "America/Chicago",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Tuesday, June 30, 2026",
@@ -3317,9 +3307,7 @@
       "away": "Best third-place team C/D/F/G/H",
       "awayFlag": "3CDFGH",
       "location": "MetLife Stadium · New Jersey",
-      "venueTimeZone": "America/New_York",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/New_York"
     },
     {
       "date": "Tuesday, June 30, 2026",
@@ -3332,9 +3320,7 @@
       "away": "Best third-place team C/E/F/H/I",
       "awayFlag": "3CEFHI",
       "location": "Estadio Azteca · Mexico City",
-      "venueTimeZone": "America/Mexico_City",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/Mexico_City"
     },
     {
       "date": "Wednesday, July 1, 2026",
@@ -3347,9 +3333,7 @@
       "away": "Best third-place team E/H/I/J/K",
       "awayFlag": "3EHIJK",
       "location": "Mercedes-Benz Stadium · Atlanta",
-      "venueTimeZone": "America/New_York",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/New_York"
     },
     {
       "date": "Wednesday, July 1, 2026",
@@ -3362,9 +3346,7 @@
       "away": "Best third-place team A/E/H/I/J",
       "awayFlag": "3AEHIJ",
       "location": "Lumen Field · Seattle",
-      "venueTimeZone": "America/Los_Angeles",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/Los_Angeles"
     },
     {
       "date": "Wednesday, July 1, 2026",
@@ -3377,9 +3359,7 @@
       "away": "Best third-place team B/E/F/I/J",
       "awayFlag": "3BEFIJ",
       "location": "Levi's Stadium · San Francisco Bay Area",
-      "venueTimeZone": "America/Los_Angeles",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/Los_Angeles"
     },
     {
       "date": "Thursday, July 2, 2026",
@@ -3392,9 +3372,7 @@
       "away": "Runner-up Group J",
       "awayFlag": "2J",
       "location": "SoFi Stadium · Los Angeles",
-      "venueTimeZone": "America/Los_Angeles",
-      "predictedHomeScore": 2,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/Los_Angeles"
     },
     {
       "date": "Thursday, July 2, 2026",
@@ -3407,9 +3385,7 @@
       "away": "Runner-up Group L",
       "awayFlag": "2L",
       "location": "BMO Field · Toronto",
-      "venueTimeZone": "America/Toronto",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/Toronto"
     },
     {
       "date": "Thursday, July 2, 2026",
@@ -3422,9 +3398,7 @@
       "away": "Best third-place team E/F/G/I/J",
       "awayFlag": "3EFGIJ",
       "location": "BC Place · Vancouver",
-      "venueTimeZone": "America/Vancouver",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/Vancouver"
     },
     {
       "date": "Friday, July 3, 2026",
@@ -3437,9 +3411,7 @@
       "away": "Runner-up Group G",
       "awayFlag": "2G",
       "location": "AT&T Stadium · Dallas",
-      "venueTimeZone": "America/Chicago",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Friday, July 3, 2026",
@@ -3452,9 +3424,7 @@
       "away": "Runner-up Group H",
       "awayFlag": "2H",
       "location": "Hard Rock Stadium · Miami",
-      "venueTimeZone": "America/New_York",
-      "predictedHomeScore": 2,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/New_York"
     },
     {
       "date": "Friday, July 3, 2026",
@@ -3467,9 +3437,7 @@
       "away": "Best third-place team D/E/I/J/L",
       "awayFlag": "3DEIJL",
       "location": "GEHA Field at Arrowhead Stadium · Kansas City",
-      "venueTimeZone": "America/Chicago",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Saturday, July 4, 2026",
@@ -3482,9 +3450,7 @@
       "away": "Winner Match 75",
       "awayFlag": "W75",
       "location": "NRG Stadium · Houston",
-      "venueTimeZone": "America/Chicago",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Saturday, July 4, 2026",
@@ -3497,9 +3463,7 @@
       "away": "Winner Match 77",
       "awayFlag": "W77",
       "location": "Lincoln Financial Field · Philadelphia",
-      "venueTimeZone": "America/New_York",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/New_York"
     },
     {
       "date": "Sunday, July 5, 2026",
@@ -3512,9 +3476,7 @@
       "away": "Winner Match 78",
       "awayFlag": "W78",
       "location": "MetLife Stadium · New Jersey",
-      "venueTimeZone": "America/New_York",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/New_York"
     },
     {
       "date": "Sunday, July 5, 2026",
@@ -3527,9 +3489,7 @@
       "away": "Winner Match 80",
       "awayFlag": "W80",
       "location": "Estadio Azteca · Mexico City",
-      "venueTimeZone": "America/Mexico_City",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/Mexico_City"
     },
     {
       "date": "Monday, July 6, 2026",
@@ -3542,9 +3502,7 @@
       "away": "Winner Match 84",
       "awayFlag": "W84",
       "location": "AT&T Stadium · Dallas",
-      "venueTimeZone": "America/Chicago",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Monday, July 6, 2026",
@@ -3557,9 +3515,7 @@
       "away": "Winner Match 82",
       "awayFlag": "W82",
       "location": "Lumen Field · Seattle",
-      "venueTimeZone": "America/Los_Angeles",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/Los_Angeles"
     },
     {
       "date": "Tuesday, July 7, 2026",
@@ -3572,9 +3528,7 @@
       "away": "Winner Match 88",
       "awayFlag": "W88",
       "location": "Mercedes-Benz Stadium · Atlanta",
-      "venueTimeZone": "America/New_York",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/New_York"
     },
     {
       "date": "Tuesday, July 7, 2026",
@@ -3587,9 +3541,7 @@
       "away": "Winner Match 87",
       "awayFlag": "W87",
       "location": "BC Place · Vancouver",
-      "venueTimeZone": "America/Vancouver",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/Vancouver"
     },
     {
       "date": "Thursday, July 9, 2026",
@@ -3602,9 +3554,7 @@
       "away": "Winner Match 90",
       "awayFlag": "W90",
       "location": "Gillette Stadium · Boston",
-      "venueTimeZone": "America/New_York",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/New_York"
     },
     {
       "date": "Friday, July 10, 2026",
@@ -3617,9 +3567,7 @@
       "away": "Winner Match 94",
       "awayFlag": "W94",
       "location": "SoFi Stadium · Los Angeles",
-      "venueTimeZone": "America/Los_Angeles",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/Los_Angeles"
     },
     {
       "date": "Saturday, July 11, 2026",
@@ -3632,9 +3580,7 @@
       "away": "Winner Match 92",
       "awayFlag": "W92",
       "location": "Hard Rock Stadium · Miami",
-      "venueTimeZone": "America/New_York",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/New_York"
     },
     {
       "date": "Saturday, July 11, 2026",
@@ -3647,9 +3593,7 @@
       "away": "Winner Match 96",
       "awayFlag": "W96",
       "location": "GEHA Field at Arrowhead Stadium · Kansas City",
-      "venueTimeZone": "America/Chicago",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Tuesday, July 14, 2026",
@@ -3662,9 +3606,7 @@
       "away": "Winner Match 98",
       "awayFlag": "W98",
       "location": "AT&T Stadium · Dallas",
-      "venueTimeZone": "America/Chicago",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/Chicago"
     },
     {
       "date": "Wednesday, July 15, 2026",
@@ -3677,9 +3619,7 @@
       "away": "Winner Match 100",
       "awayFlag": "W100",
       "location": "Mercedes-Benz Stadium · Atlanta",
-      "venueTimeZone": "America/New_York",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/New_York"
     },
     {
       "date": "Saturday, July 18, 2026",
@@ -3692,9 +3632,7 @@
       "away": "Runner-up Match 102",
       "awayFlag": "RU102",
       "location": "Hard Rock Stadium · Miami",
-      "venueTimeZone": "America/New_York",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/New_York"
     },
     {
       "date": "Sunday, July 19, 2026",
@@ -3707,9 +3645,7 @@
       "away": "Winner Match 102",
       "awayFlag": "W102",
       "location": "MetLife Stadium · New Jersey",
-      "venueTimeZone": "America/New_York",
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "venueTimeZone": "America/New_York"
     }
   ],
   "matchUpdates": [
