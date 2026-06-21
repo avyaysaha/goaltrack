@@ -1,4 +1,4 @@
-/* ---------- 1. Basic setup and reusable colors ---------- */
+﻿/* ---------- 1. Basic setup and reusable colors ---------- */
 :root {
   --ink: #101c32;
   --red: #ed334e;
@@ -361,7 +361,7 @@ a {
   background: var(--ink);
   color: var(--white);
   content: attr(data-label);
-  font-size: 0.62rem;
+  font-size: 0.78rem;
   font-weight: 900;
   opacity: 0;
   transform: translateX(-50%) translateY(4px);
@@ -457,7 +457,7 @@ a {
 .countdown span {
   margin-top: 4px;
   color: #aab8b3;
-  font-size: 0.62rem;
+  font-size: 0.78rem;
   text-transform: uppercase;
 }
 
@@ -820,6 +820,238 @@ tbody tr:hover {
   flex-wrap: wrap;
   gap: 8px;
 }
+
+.knockout-bracket {
+  margin: 0 0 34px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 26px;
+  background: linear-gradient(135deg, rgba(23, 105, 224, 0.08), rgba(25, 189, 104, 0.08));
+  box-shadow: 0 18px 45px rgba(16, 28, 50, 0.08);
+  overflow: hidden;
+}
+
+.knockout-bracket[hidden] {
+  display: none;
+}
+
+.bracket-heading {
+  margin-bottom: 14px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.bracket-heading h2 {
+  margin: 0;
+  font-size: clamp(1.2rem, 2.4vw, 1.7rem);
+}
+
+.bracket-heading p:last-child {
+  max-width: 360px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.advancement-scroll {
+  overflow: visible;
+  width: 100%;
+}
+
+.advancement-tree {
+  width: 100%;
+  display: block;
+  transform: scale(var(--bracket-scale, 1));
+  transform-origin: top left;
+}
+
+@media (max-width: 1500px) {
+  .advancement-tree {
+    --bracket-scale: 0.82;
+  }
+}
+
+@media (max-width: 1200px) {
+  .advancement-tree {
+    --bracket-scale: 0.7;
+  }
+}
+
+.advance-node {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.advance-leaf {
+  min-height: 0;
+}
+
+.advance-children {
+  position: relative;
+  display: grid;
+  gap: 6px;
+}
+
+.advance-children::before {
+  content: "";
+  position: absolute;
+  top: 25%;
+  right: -9px;
+  bottom: 25%;
+  border-right: 2px solid rgba(23, 105, 224, 0.35);
+}
+
+.advance-children > .advance-node::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -9px;
+  width: 9px;
+  border-top: 2px solid rgba(23, 105, 224, 0.35);
+}
+
+.advance-connector {
+  width: 22px;
+  border-top: 2px solid rgba(23, 105, 224, 0.35);
+}
+
+.finals-label {
+  display: block;
+  margin-bottom: 7px;
+  color: var(--blue-dark);
+  font-size: 0.58rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.single-side-bracket {
+  display: inline-block;
+}
+
+.final-stage-wrap {
+  display: grid;
+  justify-items: center;
+}
+
+.third-place-after-final {
+  width: 172px;
+  display: grid;
+  justify-items: center;
+}
+
+.third-place-line {
+  width: 2px;
+  height: 15px;
+  background: rgba(23, 105, 224, 0.35);
+}
+
+.single-side-bracket > .advance-node > .bracket-match {
+  border-color: var(--gold);
+  box-shadow:
+    0 12px 24px rgba(16, 28, 50, 0.08),
+    0 0 0 3px rgba(244, 197, 66, 0.22);
+}
+
+.third-place-card .bracket-match {
+  border-color: rgba(23, 105, 224, 0.42);
+}
+
+.bracket-round-matches {
+  display: grid;
+  gap: 12px;
+}
+
+.bracket-match {
+  position: relative;
+  width: 172px;
+  padding: 10px;
+  border: 1px solid rgba(16, 28, 50, 0.12);
+  border-radius: 12px;
+  background: var(--white);
+  box-shadow: 0 12px 24px rgba(16, 28, 50, 0.08);
+}
+
+.bracket-match::after {
+  display: none;
+}
+
+.bracket-match-finished {
+  border-color: var(--green);
+}
+
+.bracket-round-label {
+  margin-bottom: 4px;
+  color: var(--blue-dark);
+  font-size: 0.62rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.bracket-match-meta {
+  margin-bottom: 7px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--muted);
+  font-size: 0.64rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.bracket-team {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 7px;
+  border-radius: 8px;
+  color: var(--ink);
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.bracket-team + .bracket-team {
+  margin-top: 4px;
+}
+
+.bracket-team-winner {
+  background: rgba(25, 189, 104, 0.14);
+  color: var(--green-dark);
+}
+
+.bracket-team-code {
+  display: none;
+  min-width: 30px;
+  padding: 3px 5px;
+  border-radius: 999px;
+  background: var(--cream);
+  color: var(--blue-dark);
+  font-size: 0.58rem;
+  text-align: center;
+}
+
+.bracket-score {
+  color: var(--red);
+  font-size: 0.84rem;
+}
+
+.bracket-match-details {
+  margin-top: 7px;
+  padding-top: 7px;
+  display: grid;
+  gap: 2px;
+  border-top: 1px solid rgba(16, 28, 50, 0.1);
+  color: var(--muted);
+  font-size: 0.62rem;
+  line-height: 1.32;
+}
+
 
 .search-box {
   min-width: 240px;
@@ -1547,7 +1779,7 @@ tbody tr:hover {
   background: var(--ink);
   color: var(--white);
   content: attr(data-goal);
-  font-size: 0.62rem;
+  font-size: 0.78rem;
   font-weight: 900;
   opacity: 0;
   transform: translateX(-50%);
@@ -1578,7 +1810,7 @@ tbody tr:hover {
 }
 
 .pitch-empty span {
-  margin-top: 5px;
+  margin-top: 7px;
   color: #c5d0df;
   font-size: 0.72rem;
 }
@@ -1713,7 +1945,7 @@ tbody tr:hover {
   display: flex;
   justify-content: space-between;
   color: var(--muted);
-  font-size: 0.62rem;
+  font-size: 0.78rem;
 }
 
 .chart-axis-label,
@@ -1807,7 +2039,7 @@ tbody tr:hover {
 }
 
 .leaderboard-row div span {
-  margin-top: 2px;
+  margin-top: 4px;
   color: var(--muted);
   font-size: 0.65rem;
 }
@@ -1908,7 +2140,7 @@ tbody tr:hover {
 }
 
 .chat-header span {
-  margin-top: 2px;
+  margin-top: 4px;
   color: #aebbd0;
   font-size: 0.7rem;
 }
@@ -2222,7 +2454,7 @@ tbody tr:hover {
 
   .team {
     flex-direction: column;
-    gap: 3px;
+    gap: 6px;
     font-size: 0.78rem;
   }
 
@@ -2248,3 +2480,5 @@ tbody tr:hover {
     justify-self: center;
   }
 }
+
+
