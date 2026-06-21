@@ -962,11 +962,15 @@ function renderSchedule() {
   scheduleList.innerHTML = Object.entries(matchesByDate).map(function ([date, dayMatches]) {
     const matchCards = dayMatches.map(function (match) {
       const hasScore = Number.isInteger(match.homeScore) && Number.isInteger(match.awayScore);
+      const hasPrediction = Number.isInteger(match.predictedHomeScore) && Number.isInteger(match.predictedAwayScore);
       const finished = ["FT", "AET", "PEN"].includes(match.status);
       const live = ["1H", "HT", "2H", "ET", "BT", "P"].includes(match.status);
       const scoreOrVersus = hasScore
-        ? `<div class="versus score">${match.homeScore}<span>–</span>${match.awayScore}</div>`
+        ? `<div class="versus score">${match.homeScore}<span>-</span>${match.awayScore}</div>`
         : `<div class="versus">VS</div>`;
+      const predictionLine = hasPrediction
+        ? `<span class="match-prediction">⌖ Predicted Score: ${match.homeFlag} ${match.predictedHomeScore}-${match.predictedAwayScore} ${match.awayFlag}</span>`
+        : "";
       const statusLabel = finished
         ? `Full time · ${match.displayTime}`
         : live
@@ -986,7 +990,10 @@ function renderSchedule() {
             ${scoreOrVersus}
             <div class="team">${match.away}<span class="${/^[A-Z0-9]{2,3}$/.test(match.awayFlag) ? "team-code" : ""}">${match.awayFlag}</span></div>
           </div>
-          <p class="match-location">⌖ ${displayLocation}</p>
+          <div class="match-details">
+            <span class="match-location">⌖ ${displayLocation}</span>
+            ${predictionLine}
+          </div>
         </article>
       `;
     }).join("");
