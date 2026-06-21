@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T14:46:28.574Z",
+  "updatedAt": "2026-06-21T18:09:04.606Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -454,31 +454,20 @@
     ],
     "H": [
       {
-        "name": "Cabo Verde",
-        "flag": "CPV",
-        "fifaRank": 68,
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gd": 0,
-        "points": 1
-      },
-      {
-        "name": "Saudi Arabia",
-        "flag": "KSA",
-        "fifaRank": 60,
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gd": 0,
-        "points": 1
-      },
-      {
         "name": "Spain",
         "flag": "ESP",
         "fifaRank": 1,
+        "played": 2,
+        "won": 1,
+        "drawn": 1,
+        "lost": 0,
+        "gd": 4,
+        "points": 4
+      },
+      {
+        "name": "Cabo Verde",
+        "flag": "CPV",
+        "fifaRank": 68,
         "played": 1,
         "won": 0,
         "drawn": 1,
@@ -495,6 +484,17 @@
         "drawn": 1,
         "lost": 0,
         "gd": 0,
+        "points": 1
+      },
+      {
+        "name": "Saudi Arabia",
+        "flag": "KSA",
+        "fifaRank": 60,
+        "played": 2,
+        "won": 0,
+        "drawn": 1,
+        "lost": 1,
+        "gd": -4,
         "points": 1
       }
     ],
@@ -2581,14 +2581,56 @@
       "date": "Sunday, June 21, 2026",
       "stage": "Group Stage",
       "group": "Group H",
-      "time": "12:00 PM local",
+      "time": "11:00 AM CDT (12:00 PM EDT venue local)",
       "kickoffISO": "2026-06-21T16:00:00Z",
       "home": "Spain",
       "homeFlag": "ESP",
       "away": "Saudi Arabia",
       "awayFlag": "KSA",
       "location": "Mercedes-Benz Stadium · Atlanta",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 4,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Lamine Yamal",
+          "team": "Spain",
+          "match": "Spain vs Saudi Arabia"
+        },
+        {
+          "player": "Mikel Oyarzabal",
+          "team": "Spain",
+          "match": "Spain vs Saudi Arabia"
+        },
+        {
+          "player": "Mikel Oyarzabal",
+          "team": "Spain",
+          "match": "Spain vs Saudi Arabia"
+        },
+        {
+          "player": "Hassan Al-Tambakti(OG)",
+          "team": "Spain",
+          "match": "Spain vs Saudi Arabia"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Salem Aldawsari",
+          "team": "Saudi Arabia",
+          "match": "Spain vs Saudi Arabia"
+        },
+        {
+          "player": "Mohamed Kanno",
+          "team": "Saudi Arabia",
+          "match": "Spain vs Saudi Arabia"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Unai Simón",
+      "awayKeeper": "Mohammed Al-Owais"
     },
     {
       "date": "Sunday, June 21, 2026",
@@ -5201,6 +5243,59 @@
       "penalties": 0,
       "homeKeeper": "Aymen Dahmen",
       "awayKeeper": "Zion Suzuki"
+    },
+    {
+      "date": "Sunday, June 21, 2026",
+      "stage": "Group Stage",
+      "group": "Group H",
+      "time": "11:00 AM CDT (12:00 PM EDT venue local)",
+      "home": "Spain",
+      "homeFlag": "ESP",
+      "away": "Saudi Arabia",
+      "awayFlag": "KSA",
+      "location": "Mercedes-Benz Stadium · Atlanta",
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 4,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Lamine Yamal",
+          "team": "Spain",
+          "match": "Spain vs Saudi Arabia"
+        },
+        {
+          "player": "Mikel Oyarzabal",
+          "team": "Spain",
+          "match": "Spain vs Saudi Arabia"
+        },
+        {
+          "player": "Mikel Oyarzabal",
+          "team": "Spain",
+          "match": "Spain vs Saudi Arabia"
+        },
+        {
+          "player": "Hassan Al-Tambakti(OG)",
+          "team": "Spain",
+          "match": "Spain vs Saudi Arabia"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Salem Aldawsari",
+          "team": "Saudi Arabia",
+          "match": "Spain vs Saudi Arabia"
+        },
+        {
+          "player": "Mohamed Kanno",
+          "team": "Saudi Arabia",
+          "match": "Spain vs Saudi Arabia"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Unai Simón",
+      "awayKeeper": "Mohammed Al-Owais"
     }
   ],
   "detailedStats": {
@@ -5294,6 +5389,11 @@
         "name": "Matheus Cunha",
         "value": 2,
         "detail": "Brazil"
+      },
+      {
+        "name": "Mikel Oyarzabal",
+        "value": 2,
+        "detail": "Spain"
       },
       {
         "name": "Vinícius Júnior",
@@ -5416,6 +5516,11 @@
         "detail": "Switzerland"
       },
       {
+        "name": "Hassan Al-Tambakti(OG)",
+        "value": 1,
+        "detail": "Spain"
+      },
+      {
         "name": "Hwang In-beom",
         "value": 1,
         "detail": "Korea Republic"
@@ -5474,6 +5579,11 @@
         "name": "Ladislav Krejčí",
         "value": 1,
         "detail": "Czechia"
+      },
+      {
+        "name": "Lamine Yamal",
+        "value": 1,
+        "detail": "Spain"
       },
       {
         "name": "Leo Østigård",
@@ -5638,6 +5748,11 @@
         "detail": "Mexico · 0 goals conceded in 2 appearances"
       },
       {
+        "name": "Unai Simón",
+        "value": 2,
+        "detail": "Spain · 0 goals conceded in 2 appearances"
+      },
+      {
         "name": "Alisson Becker",
         "value": 1,
         "detail": "Brazil · 1 goals conceded in 2 appearances"
@@ -5686,11 +5801,6 @@
         "name": "Patrick Beach",
         "value": 1,
         "detail": "Australia · 2 goals conceded in 2 appearances"
-      },
-      {
-        "name": "Unai Simón",
-        "value": 1,
-        "detail": "Spain · 0 goals conceded in 1 appearance"
       },
       {
         "name": "Vozinha",
@@ -5825,7 +5935,7 @@
       {
         "name": "Mohammed Al-Owais",
         "value": 0,
-        "detail": "Saudi Arabia · 1 goals conceded in 1 appearance"
+        "detail": "Saudi Arabia · 5 goals conceded in 2 appearances"
       },
       {
         "name": "Mostafa Shobeir",
@@ -5901,7 +6011,7 @@
       "Cabo Verde": 1,
       "Egypt": 2,
       "Belgium": 2,
-      "Saudi Arabia": 1,
+      "Saudi Arabia": 3,
       "Iran": 1,
       "Austria": 1,
       "Portugal": 3,
@@ -6379,6 +6489,16 @@
         "player": "Gervane Kastaneer",
         "team": "Curaçao",
         "match": "Ecuador vs Curaçao"
+      },
+      {
+        "player": "Salem Aldawsari",
+        "team": "Saudi Arabia",
+        "match": "Spain vs Saudi Arabia"
+      },
+      {
+        "player": "Mohamed Kanno",
+        "team": "Saudi Arabia",
+        "match": "Spain vs Saudi Arabia"
       }
     ],
     "penaltyEvents": [
@@ -6653,6 +6773,13 @@
         "yellowCards": 0,
         "penalties": 0,
         "elapsed": 100
+      },
+      {
+        "match": "Spain vs Saudi Arabia",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 101
       }
     ]
   }
