@@ -1,4 +1,4 @@
-/*
+﻿/*
   GoalTrack JavaScript
   --------------------
   This file is shared by all three pages. Each section first checks whether
@@ -303,6 +303,193 @@ matches = matches.map(function (match) {
 
 const scheduleList = document.querySelector("#schedule-list");
 const emptyMessage = document.querySelector("#empty-message");
+
+const knockoutBracket = document.querySelector("#knockout-bracket");
+
+function getMatchNumber(match) {
+  const matchText = String(match.group || "");
+  const found = matchText.match(/Match\s+(\d+)/i);
+  return found ? Number(found[1]) : 0;
+}
+
+function isFinishedMatch(match) {
+  return ["FT", "AET", "PEN"].includes(match.status) &&
+    Number.isInteger(match.homeScore) &&
+    Number.isInteger(match.awayScore);
+}
+
+function getKnockoutResult(match, kind) {
+  if (!match || !isFinishedMatch(match) || match.homeScore === match.awayScore) {
+    return "";
+  }
+
+  const homeWon = match.homeScore > match.awayScore;
+  if (kind === "winner") {
+    return homeWon ? match.home : match.away;
+  }
+  return homeWon ? match.away : match.home;
+}
+
+function resolveKnockoutSlot(teamName, matchByNumber) {
+  const text = String(teamName || "TBD");
+  const winnerMatch = text.match(/^Winner Match\s+(\d+)$/i);
+  const runnerUpMatch = text.match(/^Runner-up Match\s+(\d+)$/i);
+
+  if (winnerMatch) {
+    return getKnockoutResult(matchByNumber.get(Number(winnerMatch[1])), "winner") || text;
+  }
+
+  if (runnerUpMatch) {
+    return getKnockoutResult(matchByNumber.get(Number(runnerUpMatch[1])), "runner-up") || text;
+  }
+
+  return text;
+}
+
+function knockoutRoundName(match) {
+  const text = String(match.group || "");
+  if (/Round of 32/i.test(text)) return "Round of 32";
+  if (/Round of 16/i.test(text)) return "Round of 16";
+  if (/Quarter-final/i.test(text)) return "Quarter-finals";
+  if (/Semi-final/i.test(text)) return "Semi-finals";
+  if (/third place/i.test(text)) return "Third-place match";
+  if (/Final/i.test(text)) return "Final";
+  return "Knockout";
+}
+
+function bracketTeamRow(name, score, winner) {
+  const code = getTeamCountryCode(name, "");
+  const codeMarkup = /^[A-Z0-9]{2,3}$/.test(code)
+    ? `<span class="bracket-team-code">${code}</span>`
+    : "";
+  const scoreMarkup = Number.isInteger(score) ? `<span class="bracket-score">${score}</span>` : "";
+  return `<div class="bracket-team${winner ? " bracket-team-winner" : ""}">${codeMarkup}<span>${name}</span>${scoreMarkup}</div>`;
+}
+
+function getSourceMatchNumbers(match) {
+  return [match.home, match.away]
+    .map((teamName) => String(teamName || "").match(/^Winner Match\s+(\d+)$/i))
+    .filter(Boolean)
+    .map((matchNumber) => Number(matchNumber[1]));
+}
+
+function renderBracketMatchCard(match, matchByNumber) {
+  const matchNumber = getMatchNumber(match);
+  const finished = isFinishedMatch(match);
+  const homeName = resolveKnockoutSlot(match.home, matchByNumber);
+  const awayName = resolveKnockoutSlot(match.away, matchByNumber);
+  const homeWinner = finished && match.homeScore > match.awayScore;
+  const awayWinner = finished && match.awayScore > match.homeScore;
+  const scoreLine = finished ? `${match.homeScore}-${match.awayScore}` : "TBD";
+  const roundLabel = knockoutRoundName(match);
+  const displayDateTime = getMatchDateTime(match);
+  const displayLocation = cleanMatchLocation(match.location);
+
+  return `
+    <article class="bracket-match${finished ? " bracket-match-finished" : ""}">
+      <div class="bracket-round-label">${roundLabel}</div>
+      <div class="bracket-match-meta"><span>Match ${matchNumber}</span><span>${scoreLine}</span></div>
+      ${bracketTeamRow(homeName, finished ? match.homeScore : null, homeWinner)}
+      ${bracketTeamRow(awayName, finished ? match.awayScore : null, awayWinner)}
+      <div class="bracket-match-details">
+        <span>${match.date}</span>
+        <span>${displayDateTime.time}</span>
+        <span>⌖ ${displayLocation}</span>
+      </div>
+    </article>
+  `;
+}
+
+function renderAdvancementNode(match, matchByNumber, thirdPlaceMatch) {
+  const childMatches = getSourceMatchNumbers(match)
+    .map((matchNumber) => matchByNumber.get(matchNumber))
+    .filter(Boolean);
+
+  if (!childMatches.length) {
+    return `<div class="advance-node advance-leaf">${renderBracketMatchCard(match, matchByNumber)}</div>`;
+  }
+
+  return `
+    <div class="advance-node">
+      <div class="advance-children">
+        ${childMatches.map((childMatch) => renderAdvancementNode(childMatch, matchByNumber, null)).join("")}
+      </div>
+      <div class="advance-connector" aria-hidden="true"></div>
+      <div class="final-stage-wrap">
+        ${renderBracketMatchCard(match, matchByNumber)}
+        ${thirdPlaceMatch ? `
+          <div class="third-place-after-final">
+            <div class="third-place-line" aria-hidden="true"></div>
+            <div class="finals-card third-place-card">
+              ${renderBracketMatchCard(thirdPlaceMatch, matchByNumber)}
+            </div>
+          </div>
+        ` : ""}
+      </div>
+    </div>
+  `;
+}
+
+function renderReverseAdvancementNode(match, matchByNumber) {
+  const childMatches = getSourceMatchNumbers(match)
+    .map((matchNumber) => matchByNumber.get(matchNumber))
+    .filter(Boolean);
+
+  if (!childMatches.length) {
+    return `<div class="advance-node advance-node-right advance-leaf">${renderBracketMatchCard(match, matchByNumber)}</div>`;
+  }
+
+  return `
+    <div class="advance-node advance-node-right">
+      ${renderBracketMatchCard(match, matchByNumber)}
+      <div class="advance-connector" aria-hidden="true"></div>
+      <div class="advance-children">
+        ${childMatches.map((childMatch) => renderReverseAdvancementNode(childMatch, matchByNumber)).join("")}
+      </div>
+    </div>
+  `;
+}
+
+function renderKnockoutBracket(searchText) {
+  if (!knockoutBracket) {
+    return;
+  }
+
+  const showBracket = (currentFilter === "all" || currentFilter === "Knockout") && !searchText;
+  knockoutBracket.hidden = !showBracket;
+  if (!showBracket) {
+    knockoutBracket.innerHTML = "";
+    return;
+  }
+
+  const knockoutMatches = matches
+    .filter((match) => match.stage === "Knockout")
+    .sort((a, b) => getMatchNumber(a) - getMatchNumber(b));
+  const matchByNumber = new Map(knockoutMatches.map((match) => [getMatchNumber(match), match]));
+  const finalMatch = matchByNumber.get(104) || knockoutMatches.find((match) => /Final/i.test(match.group || ""));
+  const thirdPlaceMatch = matchByNumber.get(103);
+  const championshipBracket = finalMatch
+    ? `
+      <div class="single-side-bracket">
+        ${renderAdvancementNode(finalMatch, matchByNumber, thirdPlaceMatch)}
+      </div>
+    `
+    : "<p>No final match found in the current data.</p>";
+
+  knockoutBracket.innerHTML = `
+    <div class="bracket-heading">
+      <div>
+        <p class="section-kicker">KNOCKOUT BRACKET</p>
+        <h2>Advancement path</h2>
+      </div>
+      <p>Each pair of matches feeds into the next round.</p>
+    </div>
+    <div class="advancement-scroll">
+      <div class="advancement-tree">${championshipBracket}</div>
+    </div>
+  `;
+}
+
 const teamSearch = document.querySelector("#team-search");
 const apiKeyInputs = document.querySelectorAll(".api-key-input");
 const apiSaveButtons = document.querySelectorAll(".api-save-button");
@@ -927,10 +1114,15 @@ function renderSchedule() {
   }
 
   const searchText = teamSearch.value.trim().toLowerCase();
+  renderKnockoutBracket(searchText);
 
   // filter() keeps only matches that meet both the stage and search rules.
   const visibleMatches = matches
     .filter(function (match) {
+      const bracketReplacesKnockout = !searchText && (currentFilter === "all" || currentFilter === "Knockout");
+      if (bracketReplacesKnockout && match.stage === "Knockout") {
+        return false;
+      }
       const matchesStage = currentFilter === "all" || match.stage === currentFilter;
       const teams = `${match.home} ${match.away}`.toLowerCase();
       const matchesSearch = teams.includes(searchText);
@@ -1006,7 +1198,7 @@ function renderSchedule() {
     `;
   }).join("");
 
-  emptyMessage.hidden = visibleMatches.length > 0;
+  emptyMessage.hidden = visibleMatches.length > 0 || !knockoutBracket.hidden;
 }
 
 if (scheduleList) {
@@ -1815,3 +2007,4 @@ if (chatToggle && chatPanel) {
     }, 180);
   });
 }
+
