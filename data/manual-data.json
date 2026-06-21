@@ -95,7 +95,7 @@
     "Algeria": "#006233",
     "Austria": "#ed2939",
     "Jordan": "#ce1126",
-    "Portugal": "#046a38",
+    "Portugal": "#DA291C",
     "DR Congo": "#007fff",
     "Uzbekistan": "#0099b5",
     "Colombia": "#fcd116",
@@ -1947,7 +1947,7 @@
         }
       ],
       "redCards": [],
-      "penalties": 0,
+      "penalties": 1,
       "homeKeeper": "Matěj Kovář",
       "awayKeeper": "Ronwen Williams"
     },
@@ -4563,7 +4563,7 @@
         }
       ],
       "redCards": [],
-      "penalties": 0,
+      "penalties": 1,
       "homeKeeper": "Matěj Kovář",
       "awayKeeper": "Ronwen Williams"
     },
@@ -6307,6 +6307,9 @@
         "match": "England vs Croatia"
       },
       {
+        "match": "Czechia vs South Africa"
+      },
+      {
         "match": "Switzerland vs Bosnia and Herzegovina"
       }
     ],
@@ -6483,7 +6486,7 @@
         "match": "Czechia vs South Africa",
         "redCards": 0,
         "yellowCards": 2,
-        "penalties": 0,
+        "penalties": 1,
         "elapsed": 101
       },
       {
