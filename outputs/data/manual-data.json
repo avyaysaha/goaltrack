@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T03:12:57.929Z",
+  "updatedAt": "2026-06-22T19:09:50.311Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -549,22 +549,22 @@
         "name": "Argentina",
         "flag": "ARG",
         "fifaRank": 2,
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "drawn": 0,
         "lost": 0,
-        "gd": 3,
-        "points": 3
+        "gd": 5,
+        "points": 6
       },
       {
         "name": "Austria",
         "flag": "AUT",
         "fifaRank": 24,
-        "played": 1,
+        "played": 2,
         "won": 1,
         "drawn": 0,
-        "lost": 0,
-        "gd": 2,
+        "lost": 1,
+        "gd": 0,
         "points": 3
       },
       {
@@ -2881,7 +2881,7 @@
       "date": "Monday, June 22, 2026",
       "stage": "Group Stage",
       "group": "Group J",
-      "time": "12:00 PM local",
+      "time": "12:00 PM CDT (12:00 PM CDT venue local)",
       "kickoffISO": "2026-06-22T17:00:00Z",
       "home": "Argentina",
       "homeFlag": "ARG",
@@ -2890,7 +2890,49 @@
       "location": "AT&T Stadium · Dallas",
       "venueTimeZone": "America/Chicago",
       "predictedHomeScore": 2,
-      "predictedAwayScore": 0
+      "predictedAwayScore": 0,
+      "status": "FT",
+      "elapsed": 102,
+      "homeScore": 2,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Lionel Messi",
+          "team": "Argentina",
+          "match": "Argentina vs Austria"
+        },
+        {
+          "player": "Lionel Messi",
+          "team": "Argentina",
+          "match": "Argentina vs Austria"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Stefan Posch",
+          "team": "Austria",
+          "match": "Argentina vs Austria"
+        },
+        {
+          "player": "Konrad Laimer",
+          "team": "Austria",
+          "match": "Argentina vs Austria"
+        },
+        {
+          "player": "Facundo Medina",
+          "team": "Argentina",
+          "match": "Argentina vs Austria"
+        },
+        {
+          "player": "Leandro Paredes",
+          "team": "Argentina",
+          "match": "Argentina vs Austria"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Emiliano Martínez",
+      "awayKeeper": "Alexander Schlager"
     },
     {
       "date": "Monday, June 22, 2026",
@@ -5729,10 +5771,70 @@
       "predictedAwayScore": 3,
       "homeKeeper": "Max Crocombe",
       "awayKeeper": "Mostafa Shobeir"
+    },
+    {
+      "date": "Monday, June 22, 2026",
+      "stage": "Group Stage",
+      "group": "Group J",
+      "time": "12:00 PM CDT (12:00 PM CDT venue local)",
+      "home": "Argentina",
+      "homeFlag": "ARG",
+      "away": "Austria",
+      "awayFlag": "AUT",
+      "location": "AT&T Stadium · Dallas",
+      "status": "FT",
+      "elapsed": 102,
+      "homeScore": 2,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Lionel Messi",
+          "team": "Argentina",
+          "match": "Argentina vs Austria"
+        },
+        {
+          "player": "Lionel Messi",
+          "team": "Argentina",
+          "match": "Argentina vs Austria"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Stefan Posch",
+          "team": "Austria",
+          "match": "Argentina vs Austria"
+        },
+        {
+          "player": "Konrad Laimer",
+          "team": "Austria",
+          "match": "Argentina vs Austria"
+        },
+        {
+          "player": "Facundo Medina",
+          "team": "Argentina",
+          "match": "Argentina vs Austria"
+        },
+        {
+          "player": "Leandro Paredes",
+          "team": "Argentina",
+          "match": "Argentina vs Austria"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 0,
+      "homeKeeper": "Emiliano Martínez",
+      "awayKeeper": "Alexander Schlager"
     }
   ],
   "detailedStats": {
     "scorers": [
+      {
+        "name": "Lionel Messi",
+        "value": 5,
+        "detail": "Argentina"
+      },
       {
         "name": "Deniz Undav",
         "value": 3,
@@ -5742,11 +5844,6 @@
         "name": "Jonathan David",
         "value": 3,
         "detail": "Canada"
-      },
-      {
-        "name": "Lionel Messi",
-        "value": 3,
-        "detail": "Argentina"
       },
       {
         "name": "Ayase Ueda",
@@ -6216,6 +6313,11 @@
     ],
     "keepers": [
       {
+        "name": "Emiliano Martínez",
+        "value": 2,
+        "detail": "Argentina · 0 goals conceded in 2 appearances"
+      },
+      {
         "name": "Raúl Rangel",
         "value": 2,
         "detail": "Mexico · 0 goals conceded in 2 appearances"
@@ -6244,11 +6346,6 @@
         "name": "Eloy Room",
         "value": 1,
         "detail": "Curaçao · 7 goals conceded in 2 appearances"
-      },
-      {
-        "name": "Emiliano Martínez",
-        "value": 1,
-        "detail": "Argentina · 0 goals conceded in 1 appearance"
       },
       {
         "name": "Hernán Galíndez",
@@ -6308,7 +6405,7 @@
       {
         "name": "Alexander Schlager",
         "value": 0,
-        "detail": "Austria · 1 goals conceded in 1 appearance"
+        "detail": "Austria · 3 goals conceded in 2 appearances"
       },
       {
         "name": "Aymen Dahmen",
@@ -6487,7 +6584,7 @@
       "Belgium": 3,
       "Saudi Arabia": 3,
       "Iran": 2,
-      "Austria": 1,
+      "Austria": 3,
       "Portugal": 3,
       "DR Congo": 1,
       "Ghana": 1,
@@ -6501,7 +6598,8 @@
       "Germany": 1,
       "Curaçao": 5,
       "Uruguay": 2,
-      "New Zealand": 2
+      "New Zealand": 2,
+      "Argentina": 2
     },
     "redCardEvents": [
       {
@@ -7025,6 +7123,26 @@
         "player": "Mohanad Lasheen",
         "team": "Egypt",
         "match": "New Zealand vs Egypt"
+      },
+      {
+        "player": "Stefan Posch",
+        "team": "Austria",
+        "match": "Argentina vs Austria"
+      },
+      {
+        "player": "Konrad Laimer",
+        "team": "Austria",
+        "match": "Argentina vs Austria"
+      },
+      {
+        "player": "Facundo Medina",
+        "team": "Argentina",
+        "match": "Argentina vs Austria"
+      },
+      {
+        "player": "Leandro Paredes",
+        "team": "Argentina",
+        "match": "Argentina vs Austria"
       }
     ],
     "penaltyEvents": [
@@ -7045,6 +7163,9 @@
       },
       {
         "match": "Switzerland vs Bosnia and Herzegovina"
+      },
+      {
+        "match": "Argentina vs Austria"
       }
     ],
     "matchStats": [
@@ -7326,6 +7447,13 @@
         "redCards": 0,
         "yellowCards": 3,
         "penalties": 0,
+        "elapsed": 102
+      },
+      {
+        "match": "Argentina vs Austria",
+        "redCards": 0,
+        "yellowCards": 4,
+        "penalties": 1,
         "elapsed": 102
       }
     ]
