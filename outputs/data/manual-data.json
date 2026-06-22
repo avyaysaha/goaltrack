@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T03:04:43.682Z",
+  "updatedAt": "2026-06-22T03:12:57.929Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -408,6 +408,17 @@
     ],
     "G": [
       {
+        "name": "Egypt",
+        "flag": "EGY",
+        "fifaRank": 34,
+        "played": 2,
+        "won": 1,
+        "drawn": 1,
+        "lost": 0,
+        "gd": 2,
+        "points": 4
+      },
+      {
         "name": "Belgium",
         "flag": "BEL",
         "fifaRank": 8,
@@ -430,25 +441,14 @@
         "points": 2
       },
       {
-        "name": "Egypt",
-        "flag": "EGY",
-        "fifaRank": 34,
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gd": 0,
-        "points": 1
-      },
-      {
         "name": "New Zealand",
         "flag": "NZL",
         "fifaRank": 86,
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 1,
-        "lost": 0,
-        "gd": 0,
+        "lost": 1,
+        "gd": -2,
         "points": 1
       }
     ],
@@ -2819,7 +2819,7 @@
       "date": "Sunday, June 21, 2026",
       "stage": "Group Stage",
       "group": "Group G",
-      "time": "6:00 PM local",
+      "time": "8:00 PM CDT (6:00 PM PDT venue local)",
       "kickoffISO": "2026-06-22T01:00:00Z",
       "home": "New Zealand",
       "homeFlag": "NZL",
@@ -2828,7 +2828,54 @@
       "location": "BC Place · Vancouver",
       "venueTimeZone": "America/Vancouver",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 3
+      "predictedAwayScore": 3,
+      "status": "FT",
+      "elapsed": 102,
+      "homeScore": 1,
+      "awayScore": 3,
+      "scorers": [
+        {
+          "player": "Finn Surman",
+          "team": "New Zealand",
+          "match": "New Zealand vs Egypt"
+        },
+        {
+          "player": "Mostafa Ziko",
+          "team": "Egypt",
+          "match": "New Zealand vs Egypt"
+        },
+        {
+          "player": "Mohamed Salah",
+          "team": "Egypt",
+          "match": "New Zealand vs Egypt"
+        },
+        {
+          "player": "Trézéguet",
+          "team": "Egypt",
+          "match": "New Zealand vs Egypt"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Sarpreet Singh",
+          "team": "New Zealand",
+          "match": "New Zealand vs Egypt"
+        },
+        {
+          "player": "Callum McCowatt",
+          "team": "New Zealand",
+          "match": "New Zealand vs Egypt"
+        },
+        {
+          "player": "Mohanad Lasheen",
+          "team": "Egypt",
+          "match": "New Zealand vs Egypt"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Max Crocombe",
+      "awayKeeper": "Mostafa Shobeir"
     },
     {
       "date": "Monday, June 22, 2026",
@@ -5622,6 +5669,66 @@
       "predictedAwayScore": 1,
       "homeKeeper": "Fernando Muslera",
       "awayKeeper": "Vozinha"
+    },
+    {
+      "date": "Sunday, June 21, 2026",
+      "stage": "Group Stage",
+      "group": "Group G",
+      "time": "8:00 PM CDT (6:00 PM PDT venue local)",
+      "home": "New Zealand",
+      "homeFlag": "NZL",
+      "away": "Egypt",
+      "awayFlag": "EGY",
+      "location": "BC Place · Vancouver",
+      "status": "FT",
+      "elapsed": 102,
+      "homeScore": 1,
+      "awayScore": 3,
+      "scorers": [
+        {
+          "player": "Finn Surman",
+          "team": "New Zealand",
+          "match": "New Zealand vs Egypt"
+        },
+        {
+          "player": "Mostafa Ziko",
+          "team": "Egypt",
+          "match": "New Zealand vs Egypt"
+        },
+        {
+          "player": "Mohamed Salah",
+          "team": "Egypt",
+          "match": "New Zealand vs Egypt"
+        },
+        {
+          "player": "Trézéguet",
+          "team": "Egypt",
+          "match": "New Zealand vs Egypt"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Sarpreet Singh",
+          "team": "New Zealand",
+          "match": "New Zealand vs Egypt"
+        },
+        {
+          "player": "Callum McCowatt",
+          "team": "New Zealand",
+          "match": "New Zealand vs Egypt"
+        },
+        {
+          "player": "Mohanad Lasheen",
+          "team": "Egypt",
+          "match": "New Zealand vs Egypt"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 3,
+      "homeKeeper": "Max Crocombe",
+      "awayKeeper": "Mostafa Shobeir"
     }
   ],
   "detailedStats": {
@@ -5832,6 +5939,11 @@
         "detail": "Germany"
       },
       {
+        "name": "Finn Surman",
+        "value": 1,
+        "detail": "New Zealand"
+      },
+      {
         "name": "Franck Kessié",
         "value": 1,
         "detail": "Cote d'Ivoire"
@@ -6002,9 +6114,19 @@
         "detail": "Canada"
       },
       {
+        "name": "Mohamed Salah",
+        "value": 1,
+        "detail": "Egypt"
+      },
+      {
         "name": "Mohammad Mohebi",
         "value": 1,
         "detail": "Iran"
+      },
+      {
+        "name": "Mostafa Ziko",
+        "value": 1,
+        "detail": "Egypt"
       },
       {
         "name": "Nathan Saliba",
@@ -6065,6 +6187,11 @@
         "name": "Teboho Mokoena",
         "value": 1,
         "detail": "South Africa"
+      },
+      {
+        "name": "Trézéguet",
+        "value": 1,
+        "detail": "Egypt"
       },
       {
         "name": "Viktor Gyökeres",
@@ -6276,7 +6403,7 @@
       {
         "name": "Max Crocombe",
         "value": 0,
-        "detail": "New Zealand · 2 goals conceded in 1 appearance"
+        "detail": "New Zealand · 5 goals conceded in 2 appearances"
       },
       {
         "name": "Mike Maignan",
@@ -6291,7 +6418,7 @@
       {
         "name": "Mostafa Shobeir",
         "value": 0,
-        "detail": "Egypt · 1 goals conceded in 1 appearance"
+        "detail": "Egypt · 2 goals conceded in 2 appearances"
       },
       {
         "name": "Mouhib Chamakh",
@@ -6356,7 +6483,7 @@
       "Tunisia": 1,
       "Spain": 1,
       "Cabo Verde": 3,
-      "Egypt": 2,
+      "Egypt": 3,
       "Belgium": 3,
       "Saudi Arabia": 3,
       "Iran": 2,
@@ -6373,7 +6500,8 @@
       "Sweden": 3,
       "Germany": 1,
       "Curaçao": 5,
-      "Uruguay": 2
+      "Uruguay": 2,
+      "New Zealand": 2
     },
     "redCardEvents": [
       {
@@ -6882,6 +7010,21 @@
         "player": "Diney",
         "team": "Cabo Verde",
         "match": "Uruguay vs Cabo Verde"
+      },
+      {
+        "player": "Sarpreet Singh",
+        "team": "New Zealand",
+        "match": "New Zealand vs Egypt"
+      },
+      {
+        "player": "Callum McCowatt",
+        "team": "New Zealand",
+        "match": "New Zealand vs Egypt"
+      },
+      {
+        "player": "Mohanad Lasheen",
+        "team": "Egypt",
+        "match": "New Zealand vs Egypt"
       }
     ],
     "penaltyEvents": [
@@ -7177,6 +7320,13 @@
         "yellowCards": 4,
         "penalties": 0,
         "elapsed": 105
+      },
+      {
+        "match": "New Zealand vs Egypt",
+        "redCards": 0,
+        "yellowCards": 3,
+        "penalties": 0,
+        "elapsed": 102
       }
     ]
   }
