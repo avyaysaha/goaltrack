@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T21:41:15.7758401Z",
+  "updatedAt": "2026-06-22T03:04:43.682Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -419,17 +419,6 @@
         "points": 2
       },
       {
-        "name": "Egypt",
-        "flag": "EGY",
-        "fifaRank": 34,
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gd": 0,
-        "points": 1
-      },
-      {
         "name": "Iran",
         "flag": "IRN",
         "fifaRank": 20,
@@ -439,6 +428,17 @@
         "lost": 0,
         "gd": 0,
         "points": 2
+      },
+      {
+        "name": "Egypt",
+        "flag": "EGY",
+        "fifaRank": 34,
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gd": 0,
+        "points": 1
       },
       {
         "name": "New Zealand",
@@ -468,23 +468,23 @@
         "name": "Cabo Verde",
         "flag": "CPV",
         "fifaRank": 68,
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 0,
         "gd": 0,
-        "points": 1
+        "points": 2
       },
       {
         "name": "Uruguay",
         "flag": "URU",
         "fifaRank": 16,
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 0,
         "gd": 0,
-        "points": 1
+        "points": 2
       },
       {
         "name": "Saudi Arabia",
@@ -2752,7 +2752,7 @@
       "date": "Sunday, June 21, 2026",
       "stage": "Group Stage",
       "group": "Group H",
-      "time": "6:00 PM local",
+      "time": "5:00 PM CDT (6:00 PM EDT venue local)",
       "kickoffISO": "2026-06-21T22:00:00Z",
       "home": "Uruguay",
       "homeFlag": "URU",
@@ -2761,7 +2761,59 @@
       "location": "Hard Rock Stadium · Miami",
       "venueTimeZone": "America/New_York",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "status": "FT",
+      "elapsed": 105,
+      "homeScore": 2,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Kevin Pina",
+          "team": "Cabo Verde",
+          "match": "Uruguay vs Cabo Verde"
+        },
+        {
+          "player": "Maximiliano Araújo",
+          "team": "Uruguay",
+          "match": "Uruguay vs Cabo Verde"
+        },
+        {
+          "player": "Agustín Canobbio",
+          "team": "Uruguay",
+          "match": "Uruguay vs Cabo Verde"
+        },
+        {
+          "player": "Hélio Varela",
+          "team": "Cabo Verde",
+          "match": "Uruguay vs Cabo Verde"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Sidny Lopes Cabral",
+          "team": "Cabo Verde",
+          "match": "Uruguay vs Cabo Verde"
+        },
+        {
+          "player": "Rodrigo Bentancur",
+          "team": "Uruguay",
+          "match": "Uruguay vs Cabo Verde"
+        },
+        {
+          "player": "Mathías Olivera",
+          "team": "Uruguay",
+          "match": "Uruguay vs Cabo Verde"
+        },
+        {
+          "player": "Diney",
+          "team": "Cabo Verde",
+          "match": "Uruguay vs Cabo Verde"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Fernando Muslera",
+      "awayKeeper": "Vozinha"
     },
     {
       "date": "Sunday, June 21, 2026",
@@ -5505,6 +5557,71 @@
           "match": "Belgium vs Iran"
         }
       ]
+    },
+    {
+      "date": "Sunday, June 21, 2026",
+      "stage": "Group Stage",
+      "group": "Group H",
+      "time": "5:00 PM CDT (6:00 PM EDT venue local)",
+      "home": "Uruguay",
+      "homeFlag": "URU",
+      "away": "Cabo Verde",
+      "awayFlag": "CPV",
+      "location": "Hard Rock Stadium · Miami",
+      "status": "FT",
+      "elapsed": 105,
+      "homeScore": 2,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Kevin Pina",
+          "team": "Cabo Verde",
+          "match": "Uruguay vs Cabo Verde"
+        },
+        {
+          "player": "Maximiliano Araújo",
+          "team": "Uruguay",
+          "match": "Uruguay vs Cabo Verde"
+        },
+        {
+          "player": "Agustín Canobbio",
+          "team": "Uruguay",
+          "match": "Uruguay vs Cabo Verde"
+        },
+        {
+          "player": "Hélio Varela",
+          "team": "Cabo Verde",
+          "match": "Uruguay vs Cabo Verde"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Sidny Lopes Cabral",
+          "team": "Cabo Verde",
+          "match": "Uruguay vs Cabo Verde"
+        },
+        {
+          "player": "Rodrigo Bentancur",
+          "team": "Uruguay",
+          "match": "Uruguay vs Cabo Verde"
+        },
+        {
+          "player": "Mathías Olivera",
+          "team": "Uruguay",
+          "match": "Uruguay vs Cabo Verde"
+        },
+        {
+          "player": "Diney",
+          "team": "Cabo Verde",
+          "match": "Uruguay vs Cabo Verde"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1,
+      "homeKeeper": "Fernando Muslera",
+      "awayKeeper": "Vozinha"
     }
   ],
   "detailedStats": {
@@ -5625,6 +5742,11 @@
         "detail": "Saudi Arabia"
       },
       {
+        "name": "Agustín Canobbio",
+        "value": 1,
+        "detail": "Uruguay"
+      },
+      {
         "name": "Alex Freeman",
         "value": 1,
         "detail": "United States"
@@ -5730,6 +5852,11 @@
         "detail": "Spain"
       },
       {
+        "name": "Hélio Varela",
+        "value": 1,
+        "detail": "Cabo Verde"
+      },
+      {
         "name": "Hwang In-beom",
         "value": 1,
         "detail": "Korea Republic"
@@ -5783,6 +5910,11 @@
         "name": "Keito Nakamura",
         "value": 1,
         "detail": "Japan"
+      },
+      {
+        "name": "Kevin Pina",
+        "value": 1,
+        "detail": "Cabo Verde"
       },
       {
         "name": "Ladislav Krejčí",
@@ -5846,6 +5978,11 @@
       },
       {
         "name": "Maxi Araújo",
+        "value": 1,
+        "detail": "Uruguay"
+      },
+      {
+        "name": "Maximiliano Araújo",
         "value": 1,
         "detail": "Uruguay"
       },
@@ -5962,6 +6099,11 @@
         "detail": "Spain · 0 goals conceded in 2 appearances"
       },
       {
+        "name": "Alireza Beiranvand",
+        "value": 1,
+        "detail": "Iran · 2 goals conceded in 2 appearances"
+      },
+      {
         "name": "Alisson Becker",
         "value": 1,
         "detail": "Brazil · 1 goals conceded in 2 appearances"
@@ -6012,9 +6154,14 @@
         "detail": "Australia · 2 goals conceded in 2 appearances"
       },
       {
+        "name": "Thibaut Courtois",
+        "value": 1,
+        "detail": "Belgium · 1 goals conceded in 2 appearances"
+      },
+      {
         "name": "Vozinha",
         "value": 1,
-        "detail": "Cabo Verde · 0 goals conceded in 1 appearance"
+        "detail": "Cabo Verde · 2 goals conceded in 2 appearances"
       },
       {
         "name": "Yahia Fofana",
@@ -6035,11 +6182,6 @@
         "name": "Alexander Schlager",
         "value": 0,
         "detail": "Austria · 1 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Alireza Beiranvand",
-        "value": 0,
-        "detail": "Iran · 2 goals conceded in 2 appearances"
       },
       {
         "name": "Aymen Dahmen",
@@ -6074,7 +6216,7 @@
       {
         "name": "Fernando Muslera",
         "value": 0,
-        "detail": "Uruguay · 1 goals conceded in 1 appearance"
+        "detail": "Uruguay · 3 goals conceded in 2 appearances"
       },
       {
         "name": "Gregor Kobel",
@@ -6172,11 +6314,6 @@
         "detail": "South Africa · 3 goals conceded in 2 appearances"
       },
       {
-        "name": "Thibaut Courtois",
-        "value": 0,
-        "detail": "Belgium · 1 goals conceded in 2 appearances"
-      },
-      {
         "name": "Uğurcan Çakır",
         "value": 0,
         "detail": "Türkiye · 3 goals conceded in 2 appearances"
@@ -6218,9 +6355,11 @@
       "Ecuador": 2,
       "Tunisia": 1,
       "Spain": 1,
-      "Cabo Verde": 1,
+      "Cabo Verde": 3,
       "Egypt": 2,
+      "Belgium": 3,
       "Saudi Arabia": 3,
+      "Iran": 2,
       "Austria": 1,
       "Portugal": 3,
       "DR Congo": 1,
@@ -6234,8 +6373,7 @@
       "Sweden": 3,
       "Germany": 1,
       "Curaçao": 5,
-      "Belgium": 1,
-      "Iran": 1
+      "Uruguay": 2
     },
     "redCardEvents": [
       {
@@ -6724,6 +6862,26 @@
         "player": "Iran yellow card",
         "team": "Iran",
         "match": "Belgium vs Iran"
+      },
+      {
+        "player": "Sidny Lopes Cabral",
+        "team": "Cabo Verde",
+        "match": "Uruguay vs Cabo Verde"
+      },
+      {
+        "player": "Rodrigo Bentancur",
+        "team": "Uruguay",
+        "match": "Uruguay vs Cabo Verde"
+      },
+      {
+        "player": "Mathías Olivera",
+        "team": "Uruguay",
+        "match": "Uruguay vs Cabo Verde"
+      },
+      {
+        "player": "Diney",
+        "team": "Cabo Verde",
+        "match": "Uruguay vs Cabo Verde"
       }
     ],
     "penaltyEvents": [
@@ -7012,6 +7170,13 @@
         "yellowCards": 2,
         "penalties": 0,
         "elapsed": 98
+      },
+      {
+        "match": "Uruguay vs Cabo Verde",
+        "redCards": 0,
+        "yellowCards": 4,
+        "penalties": 0,
+        "elapsed": 105
       }
     ]
   }
