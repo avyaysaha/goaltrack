@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T02:28:12.777Z",
+  "updatedAt": "2026-06-23T14:58:05.561Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -568,24 +568,24 @@
         "points": 3
       },
       {
-        "name": "Jordan",
-        "flag": "JOR",
-        "fifaRank": 66,
-        "played": 1,
-        "won": 0,
-        "drawn": 0,
-        "lost": 1,
-        "gd": -2,
-        "points": 0
-      },
-      {
         "name": "Algeria",
         "flag": "ALG",
         "fifaRank": 35,
-        "played": 1,
-        "won": 0,
+        "played": 2,
+        "won": 1,
         "drawn": 0,
         "lost": 1,
+        "gd": -2,
+        "points": 3
+      },
+      {
+        "name": "Jordan",
+        "flag": "JOR",
+        "fifaRank": 66,
+        "played": 2,
+        "won": 0,
+        "drawn": 0,
+        "lost": 2,
         "gd": -3,
         "points": 0
       }
@@ -3036,7 +3036,7 @@
       "date": "Monday, June 22, 2026",
       "stage": "Group Stage",
       "group": "Group J",
-      "time": "8:00 PM local",
+      "time": "10:00 PM CDT (8:00 PM PDT venue local)",
       "kickoffISO": "2026-06-23T03:00:00Z",
       "home": "Jordan",
       "homeFlag": "JOR",
@@ -3045,7 +3045,44 @@
       "location": "Levi's Stadium · San Francisco Bay Area",
       "venueTimeZone": "America/Los_Angeles",
       "predictedHomeScore": 0,
-      "predictedAwayScore": 2
+      "predictedAwayScore": 2,
+      "status": "FT",
+      "elapsed": 102,
+      "homeScore": 1,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Nizar Al-Rashdan",
+          "team": "Jordan",
+          "match": "Jordan vs Algeria"
+        },
+        {
+          "player": "Nadhir Benbouali",
+          "team": "Algeria",
+          "match": "Jordan vs Algeria"
+        },
+        {
+          "player": "Amine Gouiri",
+          "team": "Algeria",
+          "match": "Jordan vs Algeria"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Ramiz Zerrouki",
+          "team": "Algeria",
+          "match": "Jordan vs Algeria"
+        },
+        {
+          "player": "Husam Dahab",
+          "team": "Jordan",
+          "match": "Jordan vs Algeria"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Yazeed Abulaila",
+      "awayKeeper": "Luca Zidane"
     },
     {
       "date": "Tuesday, June 23, 2026",
@@ -5988,6 +6025,56 @@
       "predictedAwayScore": 2,
       "homeKeeper": "Ørjan Nyland",
       "awayKeeper": "Édouard Mendy"
+    },
+    {
+      "date": "Monday, June 22, 2026",
+      "stage": "Group Stage",
+      "group": "Group J",
+      "time": "10:00 PM CDT (8:00 PM PDT venue local)",
+      "home": "Jordan",
+      "homeFlag": "JOR",
+      "away": "Algeria",
+      "awayFlag": "ALG",
+      "location": "Levi's Stadium · San Francisco Bay Area",
+      "status": "FT",
+      "elapsed": 102,
+      "homeScore": 1,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Nizar Al-Rashdan",
+          "team": "Jordan",
+          "match": "Jordan vs Algeria"
+        },
+        {
+          "player": "Nadhir Benbouali",
+          "team": "Algeria",
+          "match": "Jordan vs Algeria"
+        },
+        {
+          "player": "Amine Gouiri",
+          "team": "Algeria",
+          "match": "Jordan vs Algeria"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Ramiz Zerrouki",
+          "team": "Algeria",
+          "match": "Jordan vs Algeria"
+        },
+        {
+          "player": "Husam Dahab",
+          "team": "Jordan",
+          "match": "Jordan vs Algeria"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 0,
+      "predictedAwayScore": 2,
+      "homeKeeper": "Yazeed Abulaila",
+      "awayKeeper": "Luca Zidane"
     }
   ],
   "detailedStats": {
@@ -6136,6 +6223,11 @@
         "name": "Amad Diallo",
         "value": 1,
         "detail": "Cote d'Ivoire"
+      },
+      {
+        "name": "Amine Gouiri",
+        "value": 1,
+        "detail": "Algeria"
       },
       {
         "name": "Anthony Elanga",
@@ -6398,6 +6490,11 @@
         "detail": "Egypt"
       },
       {
+        "name": "Nadhir Benbouali",
+        "value": 1,
+        "detail": "Algeria"
+      },
+      {
         "name": "Nathan Saliba",
         "value": 1,
         "detail": "Canada"
@@ -6416,6 +6513,11 @@
         "name": "Nico Schlotterbeck",
         "value": 1,
         "detail": "Germany"
+      },
+      {
+        "name": "Nizar Al-Rashdan",
+        "value": 1,
+        "detail": "Jordan"
       },
       {
         "name": "Oh Hyeon-gyu",
@@ -6662,7 +6764,7 @@
       {
         "name": "Luca Zidane",
         "value": 0,
-        "detail": "Algeria · 3 goals conceded in 1 appearance"
+        "detail": "Algeria · 4 goals conceded in 2 appearances"
       },
       {
         "name": "Mahmoud Abunada",
@@ -6737,7 +6839,7 @@
       {
         "name": "Yazeed Abulaila",
         "value": 0,
-        "detail": "Jordan · 3 goals conceded in 1 appearance"
+        "detail": "Jordan · 5 goals conceded in 2 appearances"
       }
     ],
     "redCards": {
@@ -6787,7 +6889,9 @@
       "Uruguay": 2,
       "New Zealand": 2,
       "Argentina": 2,
-      "Iraq": 1
+      "Iraq": 1,
+      "Algeria": 1,
+      "Jordan": 1
     },
     "redCardEvents": [
       {
@@ -7336,6 +7440,16 @@
         "player": "Amir Al-Ammari",
         "team": "Iraq",
         "match": "France vs Iraq"
+      },
+      {
+        "player": "Ramiz Zerrouki",
+        "team": "Algeria",
+        "match": "Jordan vs Algeria"
+      },
+      {
+        "player": "Husam Dahab",
+        "team": "Jordan",
+        "match": "Jordan vs Algeria"
       }
     ],
     "penaltyEvents": [
@@ -7660,6 +7774,13 @@
         "match": "Norway vs Senegal",
         "redCards": 0,
         "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 102
+      },
+      {
+        "match": "Jordan vs Algeria",
+        "redCards": 0,
+        "yellowCards": 2,
         "penalties": 0,
         "elapsed": 102
       }
