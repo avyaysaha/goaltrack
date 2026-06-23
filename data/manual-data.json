@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T01:28:25.720Z",
+  "updatedAt": "2026-06-23T02:28:12.777Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -514,22 +514,22 @@
         "name": "Norway",
         "flag": "NOR",
         "fifaRank": 29,
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "drawn": 0,
         "lost": 0,
-        "gd": 3,
-        "points": 3
+        "gd": 4,
+        "points": 6
       },
       {
         "name": "Senegal",
         "flag": "SEN",
         "fifaRank": 19,
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
-        "gd": -2,
+        "lost": 2,
+        "gd": -3,
         "points": 0
       },
       {
@@ -2985,7 +2985,7 @@
       "date": "Monday, June 22, 2026",
       "stage": "Group Stage",
       "group": "Group I",
-      "time": "8:00 PM local",
+      "time": "7:00 PM CDT (8:00 PM EDT venue local)",
       "kickoffISO": "2026-06-23T00:00:00Z",
       "home": "Norway",
       "homeFlag": "NOR",
@@ -2994,7 +2994,43 @@
       "location": "MetLife Stadium · New Jersey",
       "venueTimeZone": "America/New_York",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 2
+      "predictedAwayScore": 2,
+      "status": "FT",
+      "elapsed": 102,
+      "homeScore": 3,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Marcus Holmgren Pedersen",
+          "team": "Norway",
+          "match": "Norway vs Senegal"
+        },
+        {
+          "player": "Erling Haaland",
+          "team": "Norway",
+          "match": "Norway vs Senegal"
+        },
+        {
+          "player": "Ismaïla Sarr",
+          "team": "Senegal",
+          "match": "Norway vs Senegal"
+        },
+        {
+          "player": "Erling Haaland",
+          "team": "Norway",
+          "match": "Norway vs Senegal"
+        },
+        {
+          "player": "Ismaïla Sarr",
+          "team": "Senegal",
+          "match": "Norway vs Senegal"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Ørjan Nyland",
+      "awayKeeper": "Édouard Mendy"
     },
     {
       "date": "Monday, June 22, 2026",
@@ -5903,6 +5939,55 @@
       "predictedAwayScore": 1,
       "homeKeeper": "Mike Maignan",
       "awayKeeper": "Ahmed Basil"
+    },
+    {
+      "date": "Monday, June 22, 2026",
+      "stage": "Group Stage",
+      "group": "Group I",
+      "time": "7:00 PM CDT (8:00 PM EDT venue local)",
+      "home": "Norway",
+      "homeFlag": "NOR",
+      "away": "Senegal",
+      "awayFlag": "SEN",
+      "location": "MetLife Stadium · New Jersey",
+      "status": "FT",
+      "elapsed": 102,
+      "homeScore": 3,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Marcus Holmgren Pedersen",
+          "team": "Norway",
+          "match": "Norway vs Senegal"
+        },
+        {
+          "player": "Erling Haaland",
+          "team": "Norway",
+          "match": "Norway vs Senegal"
+        },
+        {
+          "player": "Ismaïla Sarr",
+          "team": "Senegal",
+          "match": "Norway vs Senegal"
+        },
+        {
+          "player": "Erling Haaland",
+          "team": "Norway",
+          "match": "Norway vs Senegal"
+        },
+        {
+          "player": "Ismaïla Sarr",
+          "team": "Senegal",
+          "match": "Norway vs Senegal"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 2,
+      "homeKeeper": "Ørjan Nyland",
+      "awayKeeper": "Édouard Mendy"
     }
   ],
   "detailedStats": {
@@ -5911,6 +5996,11 @@
         "name": "Lionel Messi",
         "value": 5,
         "detail": "Argentina"
+      },
+      {
+        "name": "Erling Haaland",
+        "value": 4,
+        "detail": "Norway"
       },
       {
         "name": "Kylian Mbappé",
@@ -5963,11 +6053,6 @@
         "detail": "New Zealand"
       },
       {
-        "name": "Erling Haaland",
-        "value": 2,
-        "detail": "Norway"
-      },
-      {
         "name": "Folarin Balogun",
         "value": 2,
         "detail": "United States"
@@ -5981,6 +6066,11 @@
         "name": "Ismael Saibari",
         "value": 2,
         "detail": "Morocco"
+      },
+      {
+        "name": "Ismaïla Sarr",
+        "value": 2,
+        "detail": "Senegal"
       },
       {
         "name": "Johan Manzambi",
@@ -6231,6 +6321,11 @@
         "name": "Luis Romo",
         "value": 1,
         "detail": "Mexico"
+      },
+      {
+        "name": "Marcus Holmgren Pedersen",
+        "value": 1,
+        "detail": "Norway"
       },
       {
         "name": "Marcus Rashford",
@@ -6527,7 +6622,7 @@
       {
         "name": "Édouard Mendy",
         "value": 0,
-        "detail": "Senegal · 3 goals conceded in 1 appearance"
+        "detail": "Senegal · 6 goals conceded in 2 appearances"
       },
       {
         "name": "Fernando Muslera",
@@ -6613,6 +6708,11 @@
         "name": "Nikola Vasilj",
         "value": 0,
         "detail": "Bosnia and Herzegovina · 5 goals conceded in 2 appearances"
+      },
+      {
+        "name": "Ørjan Nyland",
+        "value": 0,
+        "detail": "Norway · 2 goals conceded in 1 appearance"
       },
       {
         "name": "Orlando Mosquera",
@@ -7555,6 +7655,13 @@
         "yellowCards": 1,
         "penalties": 0,
         "elapsed": 94
+      },
+      {
+        "match": "Norway vs Senegal",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 102
       }
     ]
   }
