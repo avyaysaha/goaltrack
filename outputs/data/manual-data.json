@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T14:58:05.561Z",
+  "updatedAt": "2026-06-23T19:15:41.289Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -592,6 +592,17 @@
     ],
     "K": [
       {
+        "name": "Portugal",
+        "flag": "POR",
+        "fifaRank": 6,
+        "played": 2,
+        "won": 1,
+        "drawn": 1,
+        "lost": 0,
+        "gd": 5,
+        "points": 4
+      },
+      {
         "name": "Colombia",
         "flag": "COL",
         "fifaRank": 13,
@@ -614,25 +625,14 @@
         "points": 1
       },
       {
-        "name": "Portugal",
-        "flag": "POR",
-        "fifaRank": 6,
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gd": 0,
-        "points": 1
-      },
-      {
         "name": "Uzbekistan",
         "flag": "UZB",
         "fifaRank": 50,
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
-        "gd": -2,
+        "lost": 2,
+        "gd": -7,
         "points": 0
       }
     ],
@@ -3088,7 +3088,7 @@
       "date": "Tuesday, June 23, 2026",
       "stage": "Group Stage",
       "group": "Group K",
-      "time": "12:00 PM local",
+      "time": "12:00 PM CDT (12:00 PM CDT venue local)",
       "kickoffISO": "2026-06-23T17:00:00Z",
       "home": "Portugal",
       "homeFlag": "POR",
@@ -3097,7 +3097,54 @@
       "location": "NRG Stadium · Houston",
       "venueTimeZone": "America/Chicago",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "status": "FT",
+      "elapsed": 97,
+      "homeScore": 5,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Cristiano Ronaldo",
+          "team": "Portugal",
+          "match": "Portugal vs Uzbekistan"
+        },
+        {
+          "player": "Nuno Mendes",
+          "team": "Portugal",
+          "match": "Portugal vs Uzbekistan"
+        },
+        {
+          "player": "Cristiano Ronaldo",
+          "team": "Portugal",
+          "match": "Portugal vs Uzbekistan"
+        },
+        {
+          "player": "Abduvohid Nematov (OG)",
+          "team": "Portugal",
+          "match": "Portugal vs Uzbekistan"
+        },
+        {
+          "player": "Rafael Leão",
+          "team": "Portugal",
+          "match": "Portugal vs Uzbekistan"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Odiljon Hamrobekov",
+          "team": "Uzbekistan",
+          "match": "Portugal vs Uzbekistan"
+        },
+        {
+          "player": "Renato Veiga",
+          "team": "Portugal",
+          "match": "Portugal vs Uzbekistan"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Diogo Costa",
+      "awayKeeper": "Abduvohid Nematov"
     },
     {
       "date": "Tuesday, June 23, 2026",
@@ -6075,6 +6122,66 @@
       "predictedAwayScore": 2,
       "homeKeeper": "Yazeed Abulaila",
       "awayKeeper": "Luca Zidane"
+    },
+    {
+      "date": "Tuesday, June 23, 2026",
+      "stage": "Group Stage",
+      "group": "Group K",
+      "time": "12:00 PM CDT (12:00 PM CDT venue local)",
+      "home": "Portugal",
+      "homeFlag": "POR",
+      "away": "Uzbekistan",
+      "awayFlag": "UZB",
+      "location": "NRG Stadium · Houston",
+      "status": "FT",
+      "elapsed": 97,
+      "homeScore": 5,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Cristiano Ronaldo",
+          "team": "Portugal",
+          "match": "Portugal vs Uzbekistan"
+        },
+        {
+          "player": "Nuno Mendes",
+          "team": "Portugal",
+          "match": "Portugal vs Uzbekistan"
+        },
+        {
+          "player": "Cristiano Ronaldo",
+          "team": "Portugal",
+          "match": "Portugal vs Uzbekistan"
+        },
+        {
+          "player": "Abduvohid Nematov (OG)",
+          "team": "Portugal",
+          "match": "Portugal vs Uzbekistan"
+        },
+        {
+          "player": "Rafael Leão",
+          "team": "Portugal",
+          "match": "Portugal vs Uzbekistan"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Odiljon Hamrobekov",
+          "team": "Uzbekistan",
+          "match": "Portugal vs Uzbekistan"
+        },
+        {
+          "player": "Renato Veiga",
+          "team": "Portugal",
+          "match": "Portugal vs Uzbekistan"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1,
+      "homeKeeper": "Diogo Costa",
+      "awayKeeper": "Abduvohid Nematov"
     }
   ],
   "detailedStats": {
@@ -6118,6 +6225,11 @@
         "name": "Cody Gakpo",
         "value": 2,
         "detail": "Netherlands"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "value": 2,
+        "detail": "Portugal"
       },
       {
         "name": "Crysencio Summerville",
@@ -6198,6 +6310,11 @@
         "name": "Abdulelah Al-Amri",
         "value": 1,
         "detail": "Saudi Arabia"
+      },
+      {
+        "name": "Abduvohid Nematov (OG)",
+        "value": 1,
+        "detail": "Portugal"
       },
       {
         "name": "Agustín Canobbio",
@@ -6520,6 +6637,11 @@
         "detail": "Jordan"
       },
       {
+        "name": "Nuno Mendes",
+        "value": 1,
+        "detail": "Portugal"
+      },
+      {
         "name": "Oh Hyeon-gyu",
         "value": 1,
         "detail": "Korea Republic"
@@ -6538,6 +6660,11 @@
         "name": "Petar Musa",
         "value": 1,
         "detail": "Croatia"
+      },
+      {
+        "name": "Rafael Leão",
+        "value": 1,
+        "detail": "Portugal"
       },
       {
         "name": "Ramin Rezaeian",
@@ -6622,6 +6749,11 @@
         "detail": "Scotland · 1 goals conceded in 2 appearances"
       },
       {
+        "name": "Diogo Costa",
+        "value": 1,
+        "detail": "Portugal · 1 goals conceded in 2 appearances"
+      },
+      {
         "name": "Eloy Room",
         "value": 1,
         "detail": "Curaçao · 7 goals conceded in 2 appearances"
@@ -6687,6 +6819,11 @@
         "detail": "Japan · 2 goals conceded in 2 appearances"
       },
       {
+        "name": "Abduvohid Nematov",
+        "value": 0,
+        "detail": "Uzbekistan · 5 goals conceded in 1 appearance"
+      },
+      {
         "name": "Ahmed Basil",
         "value": 0,
         "detail": "Iraq · 3 goals conceded in 1 appearance"
@@ -6710,11 +6847,6 @@
         "name": "Camilo Vargas",
         "value": 0,
         "detail": "Colombia · 1 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Diogo Costa",
-        "value": 0,
-        "detail": "Portugal · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Dominik Livaković",
@@ -6874,12 +7006,12 @@
       "Saudi Arabia": 3,
       "Iran": 2,
       "Austria": 3,
-      "Portugal": 3,
+      "Portugal": 4,
       "DR Congo": 1,
       "Ghana": 1,
       "Panama": 2,
       "Colombia": 1,
-      "Uzbekistan": 1,
+      "Uzbekistan": 2,
       "Czechia": 1,
       "Australia": 4,
       "Morocco": 1,
@@ -7450,6 +7582,16 @@
         "player": "Husam Dahab",
         "team": "Jordan",
         "match": "Jordan vs Algeria"
+      },
+      {
+        "player": "Odiljon Hamrobekov",
+        "team": "Uzbekistan",
+        "match": "Portugal vs Uzbekistan"
+      },
+      {
+        "player": "Renato Veiga",
+        "team": "Portugal",
+        "match": "Portugal vs Uzbekistan"
       }
     ],
     "penaltyEvents": [
@@ -7783,6 +7925,13 @@
         "yellowCards": 2,
         "penalties": 0,
         "elapsed": 102
+      },
+      {
+        "match": "Portugal vs Uzbekistan",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 97
       }
     ]
   }
