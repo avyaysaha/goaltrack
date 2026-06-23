@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T19:09:50.311Z",
+  "updatedAt": "2026-06-23T01:28:25.720Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -500,6 +500,17 @@
     ],
     "I": [
       {
+        "name": "France",
+        "flag": "FRA",
+        "fifaRank": 3,
+        "played": 2,
+        "won": 2,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 5,
+        "points": 6
+      },
+      {
         "name": "Norway",
         "flag": "NOR",
         "fifaRank": 29,
@@ -508,17 +519,6 @@
         "drawn": 0,
         "lost": 0,
         "gd": 3,
-        "points": 3
-      },
-      {
-        "name": "France",
-        "flag": "FRA",
-        "fifaRank": 3,
-        "played": 1,
-        "won": 1,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 2,
         "points": 3
       },
       {
@@ -536,11 +536,11 @@
         "name": "Iraq",
         "flag": "IRQ",
         "fifaRank": 58,
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
-        "gd": -3,
+        "lost": 2,
+        "gd": -6,
         "points": 0
       }
     ],
@@ -2938,7 +2938,7 @@
       "date": "Monday, June 22, 2026",
       "stage": "Group Stage",
       "group": "Group I",
-      "time": "5:00 PM local",
+      "time": "4:00 PM CDT (5:00 PM EDT venue local)",
       "kickoffISO": "2026-06-22T21:00:00Z",
       "home": "France",
       "homeFlag": "FRA",
@@ -2947,7 +2947,39 @@
       "location": "Lincoln Financial Field · Philadelphia",
       "venueTimeZone": "America/New_York",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "status": "FT",
+      "elapsed": 94,
+      "homeScore": 3,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Kylian Mbappé",
+          "team": "France",
+          "match": "France vs Iraq"
+        },
+        {
+          "player": "Kylian Mbappé",
+          "team": "France",
+          "match": "France vs Iraq"
+        },
+        {
+          "player": "Ousmane Dembélé",
+          "team": "France",
+          "match": "France vs Iraq"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Amir Al-Ammari",
+          "team": "Iraq",
+          "match": "France vs Iraq"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Mike Maignan",
+      "awayKeeper": "Ahmed Basil"
     },
     {
       "date": "Monday, June 22, 2026",
@@ -5826,6 +5858,51 @@
       "predictedAwayScore": 0,
       "homeKeeper": "Emiliano Martínez",
       "awayKeeper": "Alexander Schlager"
+    },
+    {
+      "date": "Monday, June 22, 2026",
+      "stage": "Group Stage",
+      "group": "Group I",
+      "time": "4:00 PM CDT (5:00 PM EDT venue local)",
+      "home": "France",
+      "homeFlag": "FRA",
+      "away": "Iraq",
+      "awayFlag": "IRQ",
+      "location": "Lincoln Financial Field · Philadelphia",
+      "status": "FT",
+      "elapsed": 94,
+      "homeScore": 3,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Kylian Mbappé",
+          "team": "France",
+          "match": "France vs Iraq"
+        },
+        {
+          "player": "Kylian Mbappé",
+          "team": "France",
+          "match": "France vs Iraq"
+        },
+        {
+          "player": "Ousmane Dembélé",
+          "team": "France",
+          "match": "France vs Iraq"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Amir Al-Ammari",
+          "team": "Iraq",
+          "match": "France vs Iraq"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1,
+      "homeKeeper": "Mike Maignan",
+      "awayKeeper": "Ahmed Basil"
     }
   ],
   "detailedStats": {
@@ -5834,6 +5911,11 @@
         "name": "Lionel Messi",
         "value": 5,
         "detail": "Argentina"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "value": 4,
+        "detail": "France"
       },
       {
         "name": "Deniz Undav",
@@ -5909,11 +5991,6 @@
         "name": "Kai Havertz",
         "value": 2,
         "detail": "Germany"
-      },
-      {
-        "name": "Kylian Mbappé",
-        "value": 2,
-        "detail": "France"
       },
       {
         "name": "Matheus Cunha",
@@ -6256,6 +6333,11 @@
         "detail": "Tunisia"
       },
       {
+        "name": "Ousmane Dembélé",
+        "value": 1,
+        "detail": "France"
+      },
+      {
         "name": "Petar Musa",
         "value": 1,
         "detail": "Croatia"
@@ -6368,6 +6450,11 @@
         "detail": "Canada · 1 goals conceded in 2 appearances"
       },
       {
+        "name": "Mike Maignan",
+        "value": 1,
+        "detail": "France · 1 goals conceded in 2 appearances"
+      },
+      {
         "name": "Orlando Gill",
         "value": 1,
         "detail": "Paraguay · 4 goals conceded in 2 appearances"
@@ -6401,6 +6488,11 @@
         "name": "Zion Suzuki",
         "value": 1,
         "detail": "Japan · 2 goals conceded in 2 appearances"
+      },
+      {
+        "name": "Ahmed Basil",
+        "value": 0,
+        "detail": "Iraq · 3 goals conceded in 1 appearance"
       },
       {
         "name": "Alexander Schlager",
@@ -6503,11 +6595,6 @@
         "detail": "New Zealand · 5 goals conceded in 2 appearances"
       },
       {
-        "name": "Mike Maignan",
-        "value": 0,
-        "detail": "France · 1 goals conceded in 1 appearance"
-      },
-      {
         "name": "Mohammed Al-Owais",
         "value": 0,
         "detail": "Saudi Arabia · 5 goals conceded in 2 appearances"
@@ -6599,7 +6686,8 @@
       "Curaçao": 5,
       "Uruguay": 2,
       "New Zealand": 2,
-      "Argentina": 2
+      "Argentina": 2,
+      "Iraq": 1
     },
     "redCardEvents": [
       {
@@ -7143,6 +7231,11 @@
         "player": "Leandro Paredes",
         "team": "Argentina",
         "match": "Argentina vs Austria"
+      },
+      {
+        "player": "Amir Al-Ammari",
+        "team": "Iraq",
+        "match": "France vs Iraq"
       }
     ],
     "penaltyEvents": [
@@ -7455,6 +7548,13 @@
         "yellowCards": 4,
         "penalties": 1,
         "elapsed": 102
+      },
+      {
+        "match": "France vs Iraq",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 94
       }
     ]
   }
