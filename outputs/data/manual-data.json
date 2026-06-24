@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T21:56:51.419Z",
+  "updatedAt": "2026-06-24T22:19:13.041Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -178,25 +178,25 @@
     ],
     "B": [
       {
-        "name": "Canada",
-        "flag": "CAN",
-        "fifaRank": 27,
-        "played": 2,
-        "won": 1,
-        "drawn": 1,
-        "lost": 0,
-        "gd": 6,
-        "points": 4
-      },
-      {
         "name": "Switzerland",
         "flag": "SUI",
         "fifaRank": 17,
-        "played": 2,
-        "won": 1,
+        "played": 3,
+        "won": 2,
         "drawn": 1,
         "lost": 0,
-        "gd": 3,
+        "gd": 4,
+        "points": 7
+      },
+      {
+        "name": "Canada",
+        "flag": "CAN",
+        "fifaRank": 27,
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gd": 5,
         "points": 4
       },
       {
@@ -3275,7 +3275,7 @@
       "date": "Wednesday, June 24, 2026",
       "stage": "Group Stage",
       "group": "Group B",
-      "time": "12:00 PM local",
+      "time": "2:00 PM CDT (12:00 PM PDT venue local)",
       "kickoffISO": "2026-06-24T19:00:00Z",
       "home": "Switzerland",
       "homeFlag": "SUI",
@@ -3284,7 +3284,49 @@
       "location": "BC Place · Vancouver",
       "venueTimeZone": "America/Vancouver",
       "predictedHomeScore": 2,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 2,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Rubén Vargas",
+          "team": "Switzerland",
+          "match": "Switzerland vs Canada"
+        },
+        {
+          "player": "Johan Manzambi",
+          "team": "Switzerland",
+          "match": "Switzerland vs Canada"
+        },
+        {
+          "player": "Promise David",
+          "team": "Canada",
+          "match": "Switzerland vs Canada"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Granit Xhaka",
+          "team": "Switzerland",
+          "match": "Switzerland vs Canada"
+        },
+        {
+          "player": "Cyle Larin",
+          "team": "Canada",
+          "match": "Switzerland vs Canada"
+        },
+        {
+          "player": "Liam Millar",
+          "team": "Canada",
+          "match": "Switzerland vs Canada"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Gregor Kobel",
+      "awayKeeper": "Maxime Crépeau"
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -6381,6 +6423,61 @@
       "predictedAwayScore": 1,
       "homeKeeper": "Camilo Vargas",
       "awayKeeper": "Lionel Mpasi"
+    },
+    {
+      "date": "Wednesday, June 24, 2026",
+      "stage": "Group Stage",
+      "group": "Group B",
+      "time": "2:00 PM CDT (12:00 PM PDT venue local)",
+      "home": "Switzerland",
+      "homeFlag": "SUI",
+      "away": "Canada",
+      "awayFlag": "CAN",
+      "location": "BC Place · Vancouver",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 2,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Rubén Vargas",
+          "team": "Switzerland",
+          "match": "Switzerland vs Canada"
+        },
+        {
+          "player": "Johan Manzambi",
+          "team": "Switzerland",
+          "match": "Switzerland vs Canada"
+        },
+        {
+          "player": "Promise David",
+          "team": "Canada",
+          "match": "Switzerland vs Canada"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Granit Xhaka",
+          "team": "Switzerland",
+          "match": "Switzerland vs Canada"
+        },
+        {
+          "player": "Cyle Larin",
+          "team": "Canada",
+          "match": "Switzerland vs Canada"
+        },
+        {
+          "player": "Liam Millar",
+          "team": "Canada",
+          "match": "Switzerland vs Canada"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 1,
+      "homeKeeper": "Gregor Kobel",
+      "awayKeeper": "Maxime Crépeau"
     }
   ],
   "detailedStats": {
@@ -6404,6 +6501,11 @@
         "name": "Deniz Undav",
         "value": 3,
         "detail": "Germany"
+      },
+      {
+        "name": "Johan Manzambi",
+        "value": 3,
+        "detail": "Switzerland"
       },
       {
         "name": "Jonathan David",
@@ -6476,11 +6578,6 @@
         "detail": "Senegal"
       },
       {
-        "name": "Johan Manzambi",
-        "value": 2,
-        "detail": "Switzerland"
-      },
-      {
         "name": "Kai Havertz",
         "value": 2,
         "detail": "Germany"
@@ -6494,6 +6591,11 @@
         "name": "Mikel Oyarzabal",
         "value": 2,
         "detail": "Spain"
+      },
+      {
+        "name": "Rubén Vargas",
+        "value": 2,
+        "detail": "Switzerland"
       },
       {
         "name": "Vinícius Júnior",
@@ -6866,6 +6968,11 @@
         "detail": "Croatia"
       },
       {
+        "name": "Promise David",
+        "value": 1,
+        "detail": "Canada"
+      },
+      {
         "name": "Rafael Leão",
         "value": 1,
         "detail": "Portugal"
@@ -6884,11 +6991,6 @@
         "name": "Romano Schmid",
         "value": 1,
         "detail": "Austria"
-      },
-      {
-        "name": "Rubén Vargas",
-        "value": 1,
-        "detail": "Switzerland"
       },
       {
         "name": "Teboho Mokoena",
@@ -7000,7 +7102,7 @@
       {
         "name": "Maxime Crépeau",
         "value": 1,
-        "detail": "Canada · 1 goals conceded in 2 appearances"
+        "detail": "Canada · 3 goals conceded in 3 appearances"
       },
       {
         "name": "Mike Maignan",
@@ -7085,7 +7187,7 @@
       {
         "name": "Gregor Kobel",
         "value": 0,
-        "detail": "Switzerland · 2 goals conceded in 2 appearances"
+        "detail": "Switzerland · 3 goals conceded in 3 appearances"
       },
       {
         "name": "Johny Placide",
@@ -7199,12 +7301,12 @@
     "yellowCards": {
       "South Africa": 5,
       "Mexico": 1,
-      "Canada": 2,
+      "Canada": 4,
       "Bosnia and Herzegovina": 5,
       "Paraguay": 8,
       "United States": 4,
       "Qatar": 3,
-      "Switzerland": 2,
+      "Switzerland": 3,
       "Brazil": 3,
       "Haiti": 4,
       "Scotland": 4,
@@ -7843,6 +7945,21 @@
         "player": "Charles Pickel",
         "team": "DR Congo",
         "match": "Colombia vs DR Congo"
+      },
+      {
+        "player": "Granit Xhaka",
+        "team": "Switzerland",
+        "match": "Switzerland vs Canada"
+      },
+      {
+        "player": "Cyle Larin",
+        "team": "Canada",
+        "match": "Switzerland vs Canada"
+      },
+      {
+        "player": "Liam Millar",
+        "team": "Canada",
+        "match": "Switzerland vs Canada"
       }
     ],
     "penaltyEvents": [
@@ -8204,6 +8321,13 @@
         "yellowCards": 3,
         "penalties": 0,
         "elapsed": 101
+      },
+      {
+        "match": "Switzerland vs Canada",
+        "redCards": 0,
+        "yellowCards": 3,
+        "penalties": 0,
+        "elapsed": 99
       }
     ]
   }
