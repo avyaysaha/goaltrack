@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T19:15:41.289Z",
+  "updatedAt": "2026-06-24T03:07:57.121Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -641,23 +641,23 @@
         "name": "England",
         "flag": "ENG",
         "fifaRank": 4,
-        "played": 1,
+        "played": 2,
         "won": 1,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 0,
         "gd": 2,
-        "points": 3
+        "points": 4
       },
       {
         "name": "Ghana",
         "flag": "GHA",
         "fifaRank": 72,
-        "played": 1,
+        "played": 2,
         "won": 1,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 0,
         "gd": 1,
-        "points": 3
+        "points": 4
       },
       {
         "name": "Panama",
@@ -3150,7 +3150,7 @@
       "date": "Tuesday, June 23, 2026",
       "stage": "Group Stage",
       "group": "Group L",
-      "time": "4:00 PM local",
+      "time": "3:00 PM CDT (4:00 PM EDT venue local)",
       "kickoffISO": "2026-06-23T20:00:00Z",
       "home": "England",
       "homeFlag": "ENG",
@@ -3159,7 +3159,28 @@
       "location": "Gillette Stadium · Boston",
       "venueTimeZone": "America/New_York",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "status": "FT",
+      "elapsed": 98,
+      "homeScore": 0,
+      "awayScore": 0,
+      "scorers": [],
+      "yellowCards": [
+        {
+          "player": "Declan Rice",
+          "team": "England",
+          "match": "England vs Ghana"
+        },
+        {
+          "player": "Iñaki Williams",
+          "team": "Ghana",
+          "match": "England vs Ghana"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Jordan Pickford",
+      "awayKeeper": "Benjamin Asarepenalties=0"
     },
     {
       "date": "Tuesday, June 23, 2026",
@@ -6182,6 +6203,40 @@
       "predictedAwayScore": 1,
       "homeKeeper": "Diogo Costa",
       "awayKeeper": "Abduvohid Nematov"
+    },
+    {
+      "date": "Tuesday, June 23, 2026",
+      "stage": "Group Stage",
+      "group": "Group L",
+      "time": "3:00 PM CDT (4:00 PM EDT venue local)",
+      "home": "England",
+      "homeFlag": "ENG",
+      "away": "Ghana",
+      "awayFlag": "GHA",
+      "location": "Gillette Stadium · Boston",
+      "status": "FT",
+      "elapsed": 98,
+      "homeScore": 0,
+      "awayScore": 0,
+      "scorers": [],
+      "yellowCards": [
+        {
+          "player": "Declan Rice",
+          "team": "England",
+          "match": "England vs Ghana"
+        },
+        {
+          "player": "Iñaki Williams",
+          "team": "Ghana",
+          "match": "England vs Ghana"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1,
+      "homeKeeper": "Jordan Pickford",
+      "awayKeeper": "Benjamin Asarepenalties=0"
     }
   ],
   "detailedStats": {
@@ -6749,6 +6804,11 @@
         "detail": "Scotland · 1 goals conceded in 2 appearances"
       },
       {
+        "name": "Benjamin Asarepenalties=0",
+        "value": 1,
+        "detail": "Ghana · 0 goals conceded in 1 appearance"
+      },
+      {
         "name": "Diogo Costa",
         "value": 1,
         "detail": "Portugal · 1 goals conceded in 2 appearances"
@@ -6762,6 +6822,11 @@
         "name": "Hernán Galíndez",
         "value": 1,
         "detail": "Ecuador · 1 goals conceded in 2 appearances"
+      },
+      {
+        "name": "Jordan Pickford",
+        "value": 1,
+        "detail": "England · 2 goals conceded in 2 appearances"
       },
       {
         "name": "Lawrence Ati-Zigi",
@@ -6872,11 +6937,6 @@
         "name": "Johny Placide",
         "value": 0,
         "detail": "Haiti · 4 goals conceded in 2 appearances"
-      },
-      {
-        "name": "Jordan Pickford",
-        "value": 0,
-        "detail": "England · 2 goals conceded in 1 appearance"
       },
       {
         "name": "Kim Seung-gyu",
@@ -7008,7 +7068,7 @@
       "Austria": 3,
       "Portugal": 4,
       "DR Congo": 1,
-      "Ghana": 1,
+      "Ghana": 2,
       "Panama": 2,
       "Colombia": 1,
       "Uzbekistan": 2,
@@ -7023,7 +7083,8 @@
       "Argentina": 2,
       "Iraq": 1,
       "Algeria": 1,
-      "Jordan": 1
+      "Jordan": 1,
+      "England": 1
     },
     "redCardEvents": [
       {
@@ -7592,6 +7653,16 @@
         "player": "Renato Veiga",
         "team": "Portugal",
         "match": "Portugal vs Uzbekistan"
+      },
+      {
+        "player": "Declan Rice",
+        "team": "England",
+        "match": "England vs Ghana"
+      },
+      {
+        "player": "Iñaki Williams",
+        "team": "Ghana",
+        "match": "England vs Ghana"
       }
     ],
     "penaltyEvents": [
@@ -7932,6 +8003,13 @@
         "yellowCards": 2,
         "penalties": 0,
         "elapsed": 97
+      },
+      {
+        "match": "England vs Ghana",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 98
       }
     ]
   }
