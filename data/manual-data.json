@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T03:21:09.888Z",
+  "updatedAt": "2026-06-24T21:56:51.419Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -592,6 +592,17 @@
     ],
     "K": [
       {
+        "name": "Colombia",
+        "flag": "COL",
+        "fifaRank": 13,
+        "played": 2,
+        "won": 2,
+        "drawn": 0,
+        "lost": 0,
+        "gd": 3,
+        "points": 6
+      },
+      {
         "name": "Portugal",
         "flag": "POR",
         "fifaRank": 6,
@@ -603,25 +614,14 @@
         "points": 4
       },
       {
-        "name": "Colombia",
-        "flag": "COL",
-        "fifaRank": 13,
-        "played": 1,
-        "won": 1,
-        "drawn": 0,
-        "lost": 0,
-        "gd": 2,
-        "points": 3
-      },
-      {
         "name": "DR Congo",
         "flag": "COD",
         "fifaRank": 56,
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 1,
-        "lost": 0,
-        "gd": 0,
+        "lost": 1,
+        "gd": -1,
         "points": 1
       },
       {
@@ -3228,7 +3228,7 @@
       "date": "Tuesday, June 23, 2026",
       "stage": "Group Stage",
       "group": "Group K",
-      "time": "8:00 PM local",
+      "time": "9:00 PM CDT (8:00 PM CST venue local)",
       "kickoffISO": "2026-06-24T02:00:00Z",
       "home": "Colombia",
       "homeFlag": "COL",
@@ -3237,7 +3237,39 @@
       "location": "Estadio Akron · Guadalajara",
       "venueTimeZone": "America/Mexico_City",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 1,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Daniel Muñoz",
+          "team": "Colombia",
+          "match": "Colombia vs DR Congo"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Jhon Lucumí",
+          "team": "Colombia",
+          "match": "Colombia vs DR Congo"
+        },
+        {
+          "player": "Jefferson Lerma",
+          "team": "Colombia",
+          "match": "Colombia vs DR Congo"
+        },
+        {
+          "player": "Charles Pickel",
+          "team": "DR Congo",
+          "match": "Colombia vs DR Congo"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Camilo Vargas",
+      "awayKeeper": "Lionel Mpasi"
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -6304,6 +6336,51 @@
       "predictedAwayScore": 2,
       "homeKeeper": "Orlando Mosquera",
       "awayKeeper": "Dominik Livakovićvenue=BMO Field · Toronto"
+    },
+    {
+      "date": "Tuesday, June 23, 2026",
+      "stage": "Group Stage",
+      "group": "Group K",
+      "time": "9:00 PM CDT (8:00 PM CST venue local)",
+      "home": "Colombia",
+      "homeFlag": "COL",
+      "away": "DR Congo",
+      "awayFlag": "COD",
+      "location": "Estadio Akron · Guadalajara",
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 1,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Daniel Muñoz",
+          "team": "Colombia",
+          "match": "Colombia vs DR Congo"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Jhon Lucumí",
+          "team": "Colombia",
+          "match": "Colombia vs DR Congo"
+        },
+        {
+          "player": "Jefferson Lerma",
+          "team": "Colombia",
+          "match": "Colombia vs DR Congo"
+        },
+        {
+          "player": "Charles Pickel",
+          "team": "DR Congo",
+          "match": "Colombia vs DR Congo"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1,
+      "homeKeeper": "Camilo Vargas",
+      "awayKeeper": "Lionel Mpasi"
     }
   ],
   "detailedStats": {
@@ -6367,6 +6444,11 @@
         "name": "Daichi Kamada",
         "value": 2,
         "detail": "Japan"
+      },
+      {
+        "name": "Daniel Muñoz",
+        "value": 2,
+        "detail": "Colombia"
       },
       {
         "name": "Elijah Just",
@@ -6517,11 +6599,6 @@
         "name": "Damián Bobadilla (OG)",
         "value": 1,
         "detail": "United States"
-      },
-      {
-        "name": "Daniel Muñoz",
-        "value": 1,
-        "detail": "Colombia"
       },
       {
         "name": "Emam Ashour",
@@ -6881,6 +6958,11 @@
         "detail": "Ghana · 0 goals conceded in 1 appearance"
       },
       {
+        "name": "Camilo Vargas",
+        "value": 1,
+        "detail": "Colombia · 1 goals conceded in 2 appearances"
+      },
+      {
         "name": "Diogo Costa",
         "value": 1,
         "detail": "Portugal · 1 goals conceded in 2 appearances"
@@ -6986,11 +7068,6 @@
         "detail": "Netherlands · 3 goals conceded in 2 appearances"
       },
       {
-        "name": "Camilo Vargas",
-        "value": 0,
-        "detail": "Colombia · 1 goals conceded in 1 appearance"
-      },
-      {
         "name": "Dominik Livaković",
         "value": 0,
         "detail": "Croatia · 4 goals conceded in 1 appearance"
@@ -7028,7 +7105,7 @@
       {
         "name": "Lionel Mpasi",
         "value": 0,
-        "detail": "DR Congo · 1 goals conceded in 1 appearance"
+        "detail": "DR Congo · 2 goals conceded in 2 appearances"
       },
       {
         "name": "Luca Zidane",
@@ -7144,10 +7221,10 @@
       "Iran": 2,
       "Austria": 3,
       "Portugal": 4,
-      "DR Congo": 1,
+      "DR Congo": 2,
       "Ghana": 2,
       "Panama": 3,
-      "Colombia": 1,
+      "Colombia": 3,
       "Uzbekistan": 2,
       "Czechia": 1,
       "Australia": 4,
@@ -7751,6 +7828,21 @@
         "player": "Petar Sučić",
         "team": "Croatia",
         "match": "Panama vs Croatia"
+      },
+      {
+        "player": "Jhon Lucumí",
+        "team": "Colombia",
+        "match": "Colombia vs DR Congo"
+      },
+      {
+        "player": "Jefferson Lerma",
+        "team": "Colombia",
+        "match": "Colombia vs DR Congo"
+      },
+      {
+        "player": "Charles Pickel",
+        "team": "DR Congo",
+        "match": "Colombia vs DR Congo"
       }
     ],
     "penaltyEvents": [
@@ -8105,6 +8197,13 @@
         "yellowCards": 2,
         "penalties": 0,
         "elapsed": 98
+      },
+      {
+        "match": "Colombia vs DR Congo",
+        "redCards": 0,
+        "yellowCards": 3,
+        "penalties": 0,
+        "elapsed": 101
       }
     ]
   }
