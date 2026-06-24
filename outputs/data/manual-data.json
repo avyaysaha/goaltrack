@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T03:07:57.121Z",
+  "updatedAt": "2026-06-24T03:21:09.888Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -660,24 +660,24 @@
         "points": 4
       },
       {
-        "name": "Panama",
-        "flag": "PAN",
-        "fifaRank": 30,
-        "played": 1,
-        "won": 0,
-        "drawn": 0,
-        "lost": 1,
-        "gd": -1,
-        "points": 0
-      },
-      {
         "name": "Croatia",
         "flag": "CRO",
         "fifaRank": 10,
-        "played": 1,
-        "won": 0,
+        "played": 2,
+        "won": 1,
         "drawn": 0,
         "lost": 1,
+        "gd": -1,
+        "points": 3
+      },
+      {
+        "name": "Panama",
+        "flag": "PAN",
+        "fifaRank": 30,
+        "played": 2,
+        "won": 0,
+        "drawn": 0,
+        "lost": 2,
         "gd": -2,
         "points": 0
       }
@@ -3186,16 +3186,43 @@
       "date": "Tuesday, June 23, 2026",
       "stage": "Group Stage",
       "group": "Group L",
-      "time": "7:00 PM local",
+      "time": "6:00 PM CDT (7:00 PM EDT venue local)",
       "kickoffISO": "2026-06-23T23:00:00Z",
       "home": "Panama",
       "homeFlag": "PAN",
       "away": "Croatia",
       "awayFlag": "CRO",
-      "location": "BMO Field · Toronto",
+      "location": "Toronto Stadium; ",
       "venueTimeZone": "America/Toronto",
       "predictedHomeScore": 0,
-      "predictedAwayScore": 2
+      "predictedAwayScore": 2,
+      "status": "FT",
+      "elapsed": 98,
+      "homeScore": 0,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Ante Budimir",
+          "team": "Croatia",
+          "match": "Panama vs Croatia"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Yoel Bárcenas",
+          "team": "Panama",
+          "match": "Panama vs Croatia"
+        },
+        {
+          "player": "Petar Sučić",
+          "team": "Croatia",
+          "match": "Panama vs Croatia"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Orlando Mosquera",
+      "awayKeeper": "Dominik Livakovićvenue=BMO Field · Toronto"
     },
     {
       "date": "Tuesday, June 23, 2026",
@@ -6237,6 +6264,46 @@
       "predictedAwayScore": 1,
       "homeKeeper": "Jordan Pickford",
       "awayKeeper": "Benjamin Asarepenalties=0"
+    },
+    {
+      "date": "Tuesday, June 23, 2026",
+      "stage": "Group Stage",
+      "group": "Group L",
+      "time": "6:00 PM CDT (7:00 PM EDT venue local)",
+      "home": "Panama",
+      "homeFlag": "PAN",
+      "away": "Croatia",
+      "awayFlag": "CRO",
+      "location": "Toronto Stadium; ",
+      "status": "FT",
+      "elapsed": 98,
+      "homeScore": 0,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Ante Budimir",
+          "team": "Croatia",
+          "match": "Panama vs Croatia"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Yoel Bárcenas",
+          "team": "Panama",
+          "match": "Panama vs Croatia"
+        },
+        {
+          "player": "Petar Sučić",
+          "team": "Croatia",
+          "match": "Panama vs Croatia"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 0,
+      "predictedAwayScore": 2,
+      "homeKeeper": "Orlando Mosquera",
+      "awayKeeper": "Dominik Livakovićvenue=BMO Field · Toronto"
     }
   ],
   "detailedStats": {
@@ -6400,6 +6467,11 @@
         "name": "Amine Gouiri",
         "value": 1,
         "detail": "Algeria"
+      },
+      {
+        "name": "Ante Budimir",
+        "value": 1,
+        "detail": "Croatia"
       },
       {
         "name": "Anthony Elanga",
@@ -6814,6 +6886,11 @@
         "detail": "Portugal · 1 goals conceded in 2 appearances"
       },
       {
+        "name": "Dominik Livakovićvenue=BMO Field · Toronto",
+        "value": 1,
+        "detail": "Croatia · 0 goals conceded in 1 appearance"
+      },
+      {
         "name": "Eloy Room",
         "value": 1,
         "detail": "Curaçao · 7 goals conceded in 2 appearances"
@@ -7011,7 +7088,7 @@
       {
         "name": "Orlando Mosquera",
         "value": 0,
-        "detail": "Panama · 1 goals conceded in 1 appearance"
+        "detail": "Panama · 2 goals conceded in 2 appearances"
       },
       {
         "name": "Ronwen Williams",
@@ -7069,7 +7146,7 @@
       "Portugal": 4,
       "DR Congo": 1,
       "Ghana": 2,
-      "Panama": 2,
+      "Panama": 3,
       "Colombia": 1,
       "Uzbekistan": 2,
       "Czechia": 1,
@@ -7084,7 +7161,8 @@
       "Iraq": 1,
       "Algeria": 1,
       "Jordan": 1,
-      "England": 1
+      "England": 1,
+      "Croatia": 1
     },
     "redCardEvents": [
       {
@@ -7663,6 +7741,16 @@
         "player": "Iñaki Williams",
         "team": "Ghana",
         "match": "England vs Ghana"
+      },
+      {
+        "player": "Yoel Bárcenas",
+        "team": "Panama",
+        "match": "Panama vs Croatia"
+      },
+      {
+        "player": "Petar Sučić",
+        "team": "Croatia",
+        "match": "Panama vs Croatia"
       }
     ],
     "penaltyEvents": [
@@ -8006,6 +8094,13 @@
       },
       {
         "match": "England vs Ghana",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 98
+      },
+      {
+        "match": "Panama vs Croatia",
         "redCards": 0,
         "yellowCards": 2,
         "penalties": 0,
