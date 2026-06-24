@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T22:19:13.041Z",
+  "updatedAt": "2026-06-24T23:06:00.851Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -203,22 +203,22 @@
         "name": "Bosnia and Herzegovina",
         "flag": "BIH",
         "fifaRank": 71,
-        "played": 2,
-        "won": 0,
+        "played": 3,
+        "won": 1,
         "drawn": 1,
         "lost": 1,
-        "gd": -3,
-        "points": 1
+        "gd": -1,
+        "points": 4
       },
       {
         "name": "Qatar",
         "flag": "QAT",
         "fifaRank": 51,
-        "played": 2,
+        "played": 3,
         "won": 0,
         "drawn": 1,
-        "lost": 1,
-        "gd": -6,
+        "lost": 2,
+        "gd": -8,
         "points": 1
       }
     ],
@@ -3332,7 +3332,7 @@
       "date": "Wednesday, June 24, 2026",
       "stage": "Group Stage",
       "group": "Group B",
-      "time": "12:00 PM local",
+      "time": "2:00 PM CDT (12:00 PM PDT venue local)",
       "kickoffISO": "2026-06-24T19:00:00Z",
       "home": "Bosnia and Herzegovina",
       "homeFlag": "BIH",
@@ -3341,7 +3341,49 @@
       "location": "Lumen Field · Seattle",
       "venueTimeZone": "America/Los_Angeles",
       "predictedHomeScore": 0,
-      "predictedAwayScore": 2
+      "predictedAwayScore": 2,
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 3,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Kerim Alajbegović",
+          "team": "Bosnia and Herzegovina",
+          "match": "Bosnia and Herzegovina vs Qatar"
+        },
+        {
+          "player": "Sultan Al-Brake (Own Goal)",
+          "team": "Bosnia and Herzegovina",
+          "match": "Bosnia and Herzegovina vs Qatar"
+        },
+        {
+          "player": "Hassan Al-Haydos",
+          "team": "Qatar",
+          "match": "Bosnia and Herzegovina vs Qatar"
+        },
+        {
+          "player": "Ermin Mahmić",
+          "team": "Bosnia and Herzegovina",
+          "match": "Bosnia and Herzegovina vs Qatar"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Ermin Mahmić",
+          "team": "Bosnia and Herzegovina",
+          "match": "Bosnia and Herzegovina vs Qatar"
+        },
+        {
+          "player": "Ahmed Fathy",
+          "team": "Qatar",
+          "match": "Bosnia and Herzegovina vs Qatar"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Nikola Vasilj",
+      "awayKeeper": "Mahmud Abunada"
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -6478,6 +6520,61 @@
       "predictedAwayScore": 1,
       "homeKeeper": "Gregor Kobel",
       "awayKeeper": "Maxime Crépeau"
+    },
+    {
+      "date": "Wednesday, June 24, 2026",
+      "stage": "Group Stage",
+      "group": "Group B",
+      "time": "2:00 PM CDT (12:00 PM PDT venue local)",
+      "home": "Bosnia and Herzegovina",
+      "homeFlag": "BIH",
+      "away": "Qatar",
+      "awayFlag": "QAT",
+      "location": "Lumen Field · Seattle",
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 3,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Kerim Alajbegović",
+          "team": "Bosnia and Herzegovina",
+          "match": "Bosnia and Herzegovina vs Qatar"
+        },
+        {
+          "player": "Sultan Al-Brake (Own Goal)",
+          "team": "Bosnia and Herzegovina",
+          "match": "Bosnia and Herzegovina vs Qatar"
+        },
+        {
+          "player": "Hassan Al-Haydos",
+          "team": "Qatar",
+          "match": "Bosnia and Herzegovina vs Qatar"
+        },
+        {
+          "player": "Ermin Mahmić",
+          "team": "Bosnia and Herzegovina",
+          "match": "Bosnia and Herzegovina vs Qatar"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Ermin Mahmić",
+          "team": "Bosnia and Herzegovina",
+          "match": "Bosnia and Herzegovina vs Qatar"
+        },
+        {
+          "player": "Ahmed Fathy",
+          "team": "Qatar",
+          "match": "Bosnia and Herzegovina vs Qatar"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 0,
+      "predictedAwayScore": 2,
+      "homeKeeper": "Nikola Vasilj",
+      "awayKeeper": "Mahmud Abunada"
     }
   ],
   "detailedStats": {
@@ -6556,6 +6653,11 @@
         "name": "Elijah Just",
         "value": 2,
         "detail": "New Zealand"
+      },
+      {
+        "name": "Ermin Mahmić",
+        "value": 2,
+        "detail": "Bosnia and Herzegovina"
       },
       {
         "name": "Folarin Balogun",
@@ -6708,11 +6810,6 @@
         "detail": "Egypt"
       },
       {
-        "name": "Ermin Mahmić",
-        "value": 1,
-        "detail": "Bosnia and Herzegovina"
-      },
-      {
         "name": "Felix Nmecha",
         "value": 1,
         "detail": "Germany"
@@ -6736,6 +6833,11 @@
         "name": "Granit Xhaka",
         "value": 1,
         "detail": "Switzerland"
+      },
+      {
+        "name": "Hassan Al-Haydos",
+        "value": 1,
+        "detail": "Qatar"
       },
       {
         "name": "Hassan Al-Tambakti(OG)",
@@ -6801,6 +6903,11 @@
         "name": "Keito Nakamura",
         "value": 1,
         "detail": "Japan"
+      },
+      {
+        "name": "Kerim Alajbegović",
+        "value": 1,
+        "detail": "Bosnia and Herzegovina"
       },
       {
         "name": "Kevin Pina",
@@ -6991,6 +7098,11 @@
         "name": "Romano Schmid",
         "value": 1,
         "detail": "Austria"
+      },
+      {
+        "name": "Sultan Al-Brake (Own Goal)",
+        "value": 1,
+        "detail": "Bosnia and Herzegovina"
       },
       {
         "name": "Teboho Mokoena",
@@ -7222,7 +7334,7 @@
       {
         "name": "Mahmud Abunada",
         "value": 0,
-        "detail": "Qatar · 6 goals conceded in 1 appearance"
+        "detail": "Qatar · 9 goals conceded in 2 appearances"
       },
       {
         "name": "Manuel Neuer",
@@ -7257,7 +7369,7 @@
       {
         "name": "Nikola Vasilj",
         "value": 0,
-        "detail": "Bosnia and Herzegovina · 5 goals conceded in 2 appearances"
+        "detail": "Bosnia and Herzegovina · 6 goals conceded in 3 appearances"
       },
       {
         "name": "Ørjan Nyland",
@@ -7302,10 +7414,10 @@
       "South Africa": 5,
       "Mexico": 1,
       "Canada": 4,
-      "Bosnia and Herzegovina": 5,
+      "Bosnia and Herzegovina": 6,
       "Paraguay": 8,
       "United States": 4,
-      "Qatar": 3,
+      "Qatar": 4,
       "Switzerland": 3,
       "Brazil": 3,
       "Haiti": 4,
@@ -7960,6 +8072,16 @@
         "player": "Liam Millar",
         "team": "Canada",
         "match": "Switzerland vs Canada"
+      },
+      {
+        "player": "Ermin Mahmić",
+        "team": "Bosnia and Herzegovina",
+        "match": "Bosnia and Herzegovina vs Qatar"
+      },
+      {
+        "player": "Ahmed Fathy",
+        "team": "Qatar",
+        "match": "Bosnia and Herzegovina vs Qatar"
       }
     ],
     "penaltyEvents": [
@@ -8328,6 +8450,13 @@
         "yellowCards": 3,
         "penalties": 0,
         "elapsed": 99
+      },
+      {
+        "match": "Bosnia and Herzegovina vs Qatar",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 101
       }
     ]
   }
