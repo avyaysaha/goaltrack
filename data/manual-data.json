@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T02:12:35.088Z",
+  "updatedAt": "2026-06-25T03:10:22.001Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -135,12 +135,12 @@
         "name": "Mexico",
         "flag": "MEX",
         "fifaRank": 15,
-        "played": 2,
-        "won": 2,
+        "played": 3,
+        "won": 3,
         "drawn": 0,
         "lost": 0,
-        "gd": 3,
-        "points": 6
+        "gd": 6,
+        "points": 9
       },
       {
         "name": "Korea Republic",
@@ -154,17 +154,6 @@
         "points": 3
       },
       {
-        "name": "Czechia",
-        "flag": "CZE",
-        "fifaRank": 44,
-        "played": 2,
-        "won": 0,
-        "drawn": 1,
-        "lost": 1,
-        "gd": -1,
-        "points": 1
-      },
-      {
         "name": "South Africa",
         "flag": "RSA",
         "fifaRank": 61,
@@ -173,6 +162,17 @@
         "drawn": 1,
         "lost": 1,
         "gd": -2,
+        "points": 1
+      },
+      {
+        "name": "Czechia",
+        "flag": "CZE",
+        "fifaRank": 44,
+        "played": 3,
+        "won": 0,
+        "drawn": 1,
+        "lost": 2,
+        "gd": -4,
         "points": 1
       }
     ],
@@ -3492,7 +3492,7 @@
       "date": "Wednesday, June 24, 2026",
       "stage": "Group Stage",
       "group": "Group A",
-      "time": "7:00 PM local",
+      "time": "8:00 PM CDT (7:00 PM CST venue local)",
       "kickoffISO": "2026-06-25T01:00:00Z",
       "home": "Czechia",
       "homeFlag": "CZE",
@@ -3501,7 +3501,39 @@
       "location": "Estadio Azteca · Mexico City",
       "venueTimeZone": "America/Mexico_City",
       "predictedHomeScore": 0,
-      "predictedAwayScore": 2
+      "predictedAwayScore": 2,
+      "status": "FT",
+      "elapsed": 96,
+      "homeScore": 0,
+      "awayScore": 3,
+      "scorers": [
+        {
+          "player": "Mateo Chávez",
+          "team": "Mexico",
+          "match": "Czechia vs Mexico"
+        },
+        {
+          "player": "Julián Quiñones",
+          "team": "Mexico",
+          "match": "Czechia vs Mexico"
+        },
+        {
+          "player": "Álvaro Fidalgo",
+          "team": "Mexico",
+          "match": "Czechia vs Mexico"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Edson Álvarez",
+          "team": "Mexico",
+          "match": "Czechia vs Mexico"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Matěj Kovář",
+      "awayKeeper": "Raúl Rangel"
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -6747,6 +6779,51 @@
       "predictedAwayScore": 1,
       "homeKeeper": "Yassine Bounou",
       "awayKeeper": "Johny Placide"
+    },
+    {
+      "date": "Wednesday, June 24, 2026",
+      "stage": "Group Stage",
+      "group": "Group A",
+      "time": "8:00 PM CDT (7:00 PM CST venue local)",
+      "home": "Czechia",
+      "homeFlag": "CZE",
+      "away": "Mexico",
+      "awayFlag": "MEX",
+      "location": "Estadio Azteca · Mexico City",
+      "status": "FT",
+      "elapsed": 96,
+      "homeScore": 0,
+      "awayScore": 3,
+      "scorers": [
+        {
+          "player": "Mateo Chávez",
+          "team": "Mexico",
+          "match": "Czechia vs Mexico"
+        },
+        {
+          "player": "Julián Quiñones",
+          "team": "Mexico",
+          "match": "Czechia vs Mexico"
+        },
+        {
+          "player": "Álvaro Fidalgo",
+          "team": "Mexico",
+          "match": "Czechia vs Mexico"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Edson Álvarez",
+          "team": "Mexico",
+          "match": "Czechia vs Mexico"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 0,
+      "predictedAwayScore": 2,
+      "homeKeeper": "Matěj Kovář",
+      "awayKeeper": "Raúl Rangel"
     }
   ],
   "detailedStats": {
@@ -6862,6 +6939,11 @@
         "detail": "Senegal"
       },
       {
+        "name": "Julián Quiñones",
+        "value": 2,
+        "detail": "Mexico"
+      },
+      {
         "name": "Kai Havertz",
         "value": 2,
         "detail": "Germany"
@@ -6920,6 +7002,11 @@
         "name": "Ali Olwan",
         "value": 1,
         "detail": "Jordan"
+      },
+      {
+        "name": "Álvaro Fidalgo",
+        "value": 1,
+        "detail": "Mexico"
       },
       {
         "name": "Amad Diallo",
@@ -7072,11 +7159,6 @@
         "detail": "England"
       },
       {
-        "name": "Julián Quiñones",
-        "value": 1,
-        "detail": "Mexico"
-      },
-      {
         "name": "Junya Ito",
         "value": 1,
         "detail": "Japan"
@@ -7145,6 +7227,11 @@
         "name": "Martin Baturina",
         "value": 1,
         "detail": "Croatia"
+      },
+      {
+        "name": "Mateo Chávez",
+        "value": 1,
+        "detail": "Mexico"
       },
       {
         "name": "Matías Galarza",
@@ -7334,6 +7421,11 @@
     ],
     "keepers": [
       {
+        "name": "Raúl Rangel",
+        "value": 3,
+        "detail": "Mexico · 0 goals conceded in 3 appearances"
+      },
+      {
         "name": "Alisson Becker",
         "value": 2,
         "detail": "Brazil · 1 goals conceded in 3 appearances"
@@ -7342,11 +7434,6 @@
         "name": "Emiliano Martínez",
         "value": 2,
         "detail": "Argentina · 0 goals conceded in 2 appearances"
-      },
-      {
-        "name": "Raúl Rangel",
-        "value": 2,
-        "detail": "Mexico · 0 goals conceded in 2 appearances"
       },
       {
         "name": "Unai Simón",
@@ -7541,7 +7628,7 @@
       {
         "name": "Matěj Kovář",
         "value": 0,
-        "detail": "Czechia · 3 goals conceded in 2 appearances"
+        "detail": "Czechia · 6 goals conceded in 3 appearances"
       },
       {
         "name": "Max Crocombe",
@@ -7609,7 +7696,7 @@
     },
     "yellowCards": {
       "South Africa": 5,
-      "Mexico": 1,
+      "Mexico": 2,
       "Canada": 4,
       "Bosnia and Herzegovina": 6,
       "Paraguay": 8,
@@ -8284,6 +8371,11 @@
         "player": "Josué Casimir",
         "team": "Haiti",
         "match": "Morocco vs Haiti"
+      },
+      {
+        "player": "Edson Álvarez",
+        "team": "Mexico",
+        "match": "Czechia vs Mexico"
       }
     ],
     "penaltyEvents": [
@@ -8673,6 +8765,13 @@
         "yellowCards": 1,
         "penalties": 0,
         "elapsed": 104
+      },
+      {
+        "match": "Czechia vs Mexico",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 96
       }
     ]
   }
