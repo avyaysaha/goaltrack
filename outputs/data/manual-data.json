@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T01:58:33.145Z",
+  "updatedAt": "2026-06-25T02:12:35.088Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -238,12 +238,12 @@
         "name": "Morocco",
         "flag": "MAR",
         "fifaRank": 11,
-        "played": 2,
-        "won": 1,
+        "played": 3,
+        "won": 2,
         "drawn": 1,
         "lost": 0,
-        "gd": 1,
-        "points": 4
+        "gd": 3,
+        "points": 7
       },
       {
         "name": "Scotland",
@@ -260,11 +260,11 @@
         "name": "Haiti",
         "flag": "HAI",
         "fifaRank": 84,
-        "played": 2,
+        "played": 3,
         "won": 0,
         "drawn": 0,
-        "lost": 2,
-        "gd": -4,
+        "lost": 3,
+        "gd": -6,
         "points": 0
       }
     ],
@@ -3430,7 +3430,7 @@
       "date": "Wednesday, June 24, 2026",
       "stage": "Group Stage",
       "group": "Group C",
-      "time": "6:00 PM local",
+      "time": "5:00 PM CDT (6:00 PM EDT venue local)",
       "kickoffISO": "2026-06-24T22:00:00Z",
       "home": "Morocco",
       "homeFlag": "MAR",
@@ -3439,7 +3439,54 @@
       "location": "Mercedes-Benz Stadium · Atlanta",
       "venueTimeZone": "America/New_York",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "status": "FT",
+      "elapsed": 104,
+      "homeScore": 4,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Yassine Bounou (Own Goal)",
+          "team": "Haiti",
+          "match": "Morocco vs Haiti"
+        },
+        {
+          "player": "Achraf Hakimi",
+          "team": "Morocco",
+          "match": "Morocco vs Haiti"
+        },
+        {
+          "player": "Wilson Isidor",
+          "team": "Haiti",
+          "match": "Morocco vs Haiti"
+        },
+        {
+          "player": "Ismael Saibari",
+          "team": "Morocco",
+          "match": "Morocco vs Haiti"
+        },
+        {
+          "player": "Soufiane Rahimi",
+          "team": "Morocco",
+          "match": "Morocco vs Haiti"
+        },
+        {
+          "player": "Gessime Yassine",
+          "team": "Morocco",
+          "match": "Morocco vs Haiti"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Josué Casimir",
+          "team": "Haiti",
+          "match": "Morocco vs Haiti"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Yassine Bounou",
+      "awayKeeper": "Johny Placide"
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -6640,6 +6687,66 @@
       "predictedAwayScore": 2,
       "homeKeeper": "Angus Gunn",
       "awayKeeper": "Alisson Becker"
+    },
+    {
+      "date": "Wednesday, June 24, 2026",
+      "stage": "Group Stage",
+      "group": "Group C",
+      "time": "5:00 PM CDT (6:00 PM EDT venue local)",
+      "home": "Morocco",
+      "homeFlag": "MAR",
+      "away": "Haiti",
+      "awayFlag": "HAI",
+      "location": "Mercedes-Benz Stadium · Atlanta",
+      "status": "FT",
+      "elapsed": 104,
+      "homeScore": 4,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Yassine Bounou (Own Goal)",
+          "team": "Haiti",
+          "match": "Morocco vs Haiti"
+        },
+        {
+          "player": "Achraf Hakimi",
+          "team": "Morocco",
+          "match": "Morocco vs Haiti"
+        },
+        {
+          "player": "Wilson Isidor",
+          "team": "Haiti",
+          "match": "Morocco vs Haiti"
+        },
+        {
+          "player": "Ismael Saibari",
+          "team": "Morocco",
+          "match": "Morocco vs Haiti"
+        },
+        {
+          "player": "Soufiane Rahimi",
+          "team": "Morocco",
+          "match": "Morocco vs Haiti"
+        },
+        {
+          "player": "Gessime Yassine",
+          "team": "Morocco",
+          "match": "Morocco vs Haiti"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Josué Casimir",
+          "team": "Haiti",
+          "match": "Morocco vs Haiti"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1,
+      "homeKeeper": "Yassine Bounou",
+      "awayKeeper": "Johny Placide"
     }
   ],
   "detailedStats": {
@@ -6668,6 +6775,11 @@
         "name": "Deniz Undav",
         "value": 3,
         "detail": "Germany"
+      },
+      {
+        "name": "Ismael Saibari",
+        "value": 3,
+        "detail": "Morocco"
       },
       {
         "name": "Johan Manzambi",
@@ -6745,11 +6857,6 @@
         "detail": "England"
       },
       {
-        "name": "Ismael Saibari",
-        "value": 2,
-        "detail": "Morocco"
-      },
-      {
         "name": "Ismaïla Sarr",
         "value": 2,
         "detail": "Senegal"
@@ -6788,6 +6895,11 @@
         "name": "Abduvohid Nematov (OG)",
         "value": 1,
         "detail": "Portugal"
+      },
+      {
+        "name": "Achraf Hakimi",
+        "value": 1,
+        "detail": "Morocco"
       },
       {
         "name": "Agustín Canobbio",
@@ -6888,6 +7000,11 @@
         "name": "Franck Kessié",
         "value": 1,
         "detail": "Cote d'Ivoire"
+      },
+      {
+        "name": "Gessime Yassine",
+        "value": 1,
+        "detail": "Morocco"
       },
       {
         "name": "Gio Reyna",
@@ -7165,6 +7282,11 @@
         "detail": "Austria"
       },
       {
+        "name": "Soufiane Rahimi",
+        "value": 1,
+        "detail": "Morocco"
+      },
+      {
         "name": "Sultan Al-Brake (Own Goal)",
         "value": 1,
         "detail": "Bosnia and Herzegovina"
@@ -7188,6 +7310,16 @@
         "name": "Virgil van Dijk",
         "value": 1,
         "detail": "Netherlands"
+      },
+      {
+        "name": "Wilson Isidor",
+        "value": 1,
+        "detail": "Haiti"
+      },
+      {
+        "name": "Yassine Bounou (Own Goal)",
+        "value": 1,
+        "detail": "Haiti"
       },
       {
         "name": "Yazan Al-Arab(OG)",
@@ -7314,7 +7446,7 @@
       {
         "name": "Yassine Bounou",
         "value": 1,
-        "detail": "Morocco · 1 goals conceded in 2 appearances"
+        "detail": "Morocco · 3 goals conceded in 3 appearances"
       },
       {
         "name": "Zion Suzuki",
@@ -7369,7 +7501,7 @@
       {
         "name": "Johny Placide",
         "value": 0,
-        "detail": "Haiti · 4 goals conceded in 2 appearances"
+        "detail": "Haiti · 8 goals conceded in 3 appearances"
       },
       {
         "name": "Kim Seung-gyu",
@@ -7485,7 +7617,7 @@
       "Qatar": 4,
       "Switzerland": 3,
       "Brazil": 3,
-      "Haiti": 4,
+      "Haiti": 5,
       "Scotland": 4,
       "Türkiye": 1,
       "Netherlands": 3,
@@ -8147,6 +8279,11 @@
         "player": "Ahmed Fathy",
         "team": "Qatar",
         "match": "Bosnia and Herzegovina vs Qatar"
+      },
+      {
+        "player": "Josué Casimir",
+        "team": "Haiti",
+        "match": "Morocco vs Haiti"
       }
     ],
     "penaltyEvents": [
@@ -8529,6 +8666,13 @@
         "yellowCards": 0,
         "penalties": 0,
         "elapsed": 96
+      },
+      {
+        "match": "Morocco vs Haiti",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 104
       }
     ]
   }
