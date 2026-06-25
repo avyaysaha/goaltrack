@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T23:06:00.851Z",
+  "updatedAt": "2026-06-25T01:58:33.145Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -227,12 +227,12 @@
         "name": "Brazil",
         "flag": "BRA",
         "fifaRank": 5,
-        "played": 2,
-        "won": 1,
+        "played": 3,
+        "won": 2,
         "drawn": 1,
         "lost": 0,
-        "gd": 3,
-        "points": 4
+        "gd": 6,
+        "points": 7
       },
       {
         "name": "Morocco",
@@ -249,11 +249,11 @@
         "name": "Scotland",
         "flag": "SCO",
         "fifaRank": 36,
-        "played": 2,
+        "played": 3,
         "won": 1,
         "drawn": 0,
-        "lost": 1,
-        "gd": 0,
+        "lost": 2,
+        "gd": -3,
         "points": 3
       },
       {
@@ -3389,7 +3389,7 @@
       "date": "Wednesday, June 24, 2026",
       "stage": "Group Stage",
       "group": "Group C",
-      "time": "6:00 PM local",
+      "time": "5:00 PM CDT (6:00 PM EDT venue local)",
       "kickoffISO": "2026-06-24T22:00:00Z",
       "home": "Scotland",
       "homeFlag": "SCO",
@@ -3398,7 +3398,33 @@
       "location": "Hard Rock Stadium · Miami",
       "venueTimeZone": "America/New_York",
       "predictedHomeScore": 0,
-      "predictedAwayScore": 2
+      "predictedAwayScore": 2,
+      "status": "FT",
+      "elapsed": 96,
+      "homeScore": 0,
+      "awayScore": 3,
+      "scorers": [
+        {
+          "player": "Vinícius Júnior",
+          "team": "Brazil",
+          "match": "Scotland vs Brazil"
+        },
+        {
+          "player": "Vinícius Júnior",
+          "team": "Brazil",
+          "match": "Scotland vs Brazil"
+        },
+        {
+          "player": "Matheus Cunha",
+          "team": "Brazil",
+          "match": "Scotland vs Brazil"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Angus Gunn",
+      "awayKeeper": "Alisson Becker"
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -6575,6 +6601,45 @@
       "predictedAwayScore": 2,
       "homeKeeper": "Nikola Vasilj",
       "awayKeeper": "Mahmud Abunada"
+    },
+    {
+      "date": "Wednesday, June 24, 2026",
+      "stage": "Group Stage",
+      "group": "Group C",
+      "time": "5:00 PM CDT (6:00 PM EDT venue local)",
+      "home": "Scotland",
+      "homeFlag": "SCO",
+      "away": "Brazil",
+      "awayFlag": "BRA",
+      "location": "Hard Rock Stadium · Miami",
+      "status": "FT",
+      "elapsed": 96,
+      "homeScore": 0,
+      "awayScore": 3,
+      "scorers": [
+        {
+          "player": "Vinícius Júnior",
+          "team": "Brazil",
+          "match": "Scotland vs Brazil"
+        },
+        {
+          "player": "Vinícius Júnior",
+          "team": "Brazil",
+          "match": "Scotland vs Brazil"
+        },
+        {
+          "player": "Matheus Cunha",
+          "team": "Brazil",
+          "match": "Scotland vs Brazil"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 0,
+      "predictedAwayScore": 2,
+      "homeKeeper": "Angus Gunn",
+      "awayKeeper": "Alisson Becker"
     }
   ],
   "detailedStats": {
@@ -6595,6 +6660,11 @@
         "detail": "France"
       },
       {
+        "name": "Vinícius Júnior",
+        "value": 4,
+        "detail": "Brazil"
+      },
+      {
         "name": "Deniz Undav",
         "value": 3,
         "detail": "Germany"
@@ -6608,6 +6678,11 @@
         "name": "Jonathan David",
         "value": 3,
         "detail": "Canada"
+      },
+      {
+        "name": "Matheus Cunha",
+        "value": 3,
+        "detail": "Brazil"
       },
       {
         "name": "Ayase Ueda",
@@ -6685,11 +6760,6 @@
         "detail": "Germany"
       },
       {
-        "name": "Matheus Cunha",
-        "value": 2,
-        "detail": "Brazil"
-      },
-      {
         "name": "Mikel Oyarzabal",
         "value": 2,
         "detail": "Spain"
@@ -6698,11 +6768,6 @@
         "name": "Rubén Vargas",
         "value": 2,
         "detail": "Switzerland"
-      },
-      {
-        "name": "Vinícius Júnior",
-        "value": 2,
-        "detail": "Brazil"
       },
       {
         "name": "Yasin Ayari",
@@ -7137,6 +7202,11 @@
     ],
     "keepers": [
       {
+        "name": "Alisson Becker",
+        "value": 2,
+        "detail": "Brazil · 1 goals conceded in 3 appearances"
+      },
+      {
         "name": "Emiliano Martínez",
         "value": 2,
         "detail": "Argentina · 0 goals conceded in 2 appearances"
@@ -7157,14 +7227,9 @@
         "detail": "Iran · 2 goals conceded in 2 appearances"
       },
       {
-        "name": "Alisson Becker",
-        "value": 1,
-        "detail": "Brazil · 1 goals conceded in 2 appearances"
-      },
-      {
         "name": "Angus Gunn",
         "value": 1,
-        "detail": "Scotland · 1 goals conceded in 2 appearances"
+        "detail": "Scotland · 4 goals conceded in 3 appearances"
       },
       {
         "name": "Benjamin Asarepenalties=0",
@@ -8457,6 +8522,13 @@
         "yellowCards": 2,
         "penalties": 0,
         "elapsed": 101
+      },
+      {
+        "match": "Scotland vs Brazil",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 96
       }
     ]
   }
