@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T03:10:22.001Z",
+  "updatedAt": "2026-06-25T03:20:27.472Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -143,26 +143,26 @@
         "points": 9
       },
       {
-        "name": "Korea Republic",
-        "flag": "KOR",
-        "fifaRank": 22,
-        "played": 2,
-        "won": 1,
-        "drawn": 0,
-        "lost": 1,
-        "gd": 0,
-        "points": 3
-      },
-      {
         "name": "South Africa",
         "flag": "RSA",
         "fifaRank": 61,
-        "played": 2,
-        "won": 0,
+        "played": 3,
+        "won": 1,
         "drawn": 1,
         "lost": 1,
-        "gd": -2,
-        "points": 1
+        "gd": -1,
+        "points": 4
+      },
+      {
+        "name": "Korea Republic",
+        "flag": "KOR",
+        "fifaRank": 22,
+        "played": 3,
+        "won": 1,
+        "drawn": 0,
+        "lost": 2,
+        "gd": -1,
+        "points": 3
       },
       {
         "name": "Czechia",
@@ -3539,7 +3539,7 @@
       "date": "Wednesday, June 24, 2026",
       "stage": "Group Stage",
       "group": "Group A",
-      "time": "7:00 PM local",
+      "time": "8:00 PM CDT (7:00 PM CST venue local)",
       "kickoffISO": "2026-06-25T01:00:00Z",
       "home": "South Africa",
       "homeFlag": "RSA",
@@ -3548,7 +3548,34 @@
       "location": "Estadio BBVA · Monterrey",
       "venueTimeZone": "America/Monterrey",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 3
+      "predictedAwayScore": 3,
+      "status": "FT",
+      "elapsed": 98,
+      "homeScore": 1,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Thapelo Maseko",
+          "team": "South Africa",
+          "match": "South Africa vs Korea Republic"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Aubrey Modiba",
+          "team": "South Africa",
+          "match": "South Africa vs Korea Republic"
+        },
+        {
+          "player": "Cho Gue-sung",
+          "team": "South Africa",
+          "match": "South Africa vs Korea Republic"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Ronwen Williams",
+      "awayKeeper": "Kim Seung-gyu"
     },
     {
       "date": "Thursday, June 25, 2026",
@@ -6824,6 +6851,46 @@
       "predictedAwayScore": 2,
       "homeKeeper": "Matěj Kovář",
       "awayKeeper": "Raúl Rangel"
+    },
+    {
+      "date": "Wednesday, June 24, 2026",
+      "stage": "Group Stage",
+      "group": "Group A",
+      "time": "8:00 PM CDT (7:00 PM CST venue local)",
+      "home": "South Africa",
+      "homeFlag": "RSA",
+      "away": "Korea Republic",
+      "awayFlag": "KOR",
+      "location": "Estadio BBVA · Monterrey",
+      "status": "FT",
+      "elapsed": 98,
+      "homeScore": 1,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Thapelo Maseko",
+          "team": "South Africa",
+          "match": "South Africa vs Korea Republic"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Aubrey Modiba",
+          "team": "South Africa",
+          "match": "South Africa vs Korea Republic"
+        },
+        {
+          "player": "Cho Gue-sung",
+          "team": "South Africa",
+          "match": "South Africa vs Korea Republic"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 3,
+      "homeKeeper": "Ronwen Williams",
+      "awayKeeper": "Kim Seung-gyu"
     }
   ],
   "detailedStats": {
@@ -7384,6 +7451,11 @@
         "detail": "South Africa"
       },
       {
+        "name": "Thapelo Maseko",
+        "value": 1,
+        "detail": "South Africa"
+      },
+      {
         "name": "Trézéguet",
         "value": 1,
         "detail": "Egypt"
@@ -7516,6 +7588,11 @@
         "detail": "Australia · 2 goals conceded in 2 appearances"
       },
       {
+        "name": "Ronwen Williams",
+        "value": 1,
+        "detail": "South Africa · 3 goals conceded in 3 appearances"
+      },
+      {
         "name": "Thibaut Courtois",
         "value": 1,
         "detail": "Belgium · 1 goals conceded in 2 appearances"
@@ -7593,7 +7670,7 @@
       {
         "name": "Kim Seung-gyu",
         "value": 0,
-        "detail": "Korea Republic · 2 goals conceded in 2 appearances"
+        "detail": "Korea Republic · 3 goals conceded in 3 appearances"
       },
       {
         "name": "Kristoffer Nordfeldt",
@@ -7666,11 +7743,6 @@
         "detail": "Panama · 2 goals conceded in 2 appearances"
       },
       {
-        "name": "Ronwen Williams",
-        "value": 0,
-        "detail": "South Africa · 3 goals conceded in 2 appearances"
-      },
-      {
         "name": "Uğurcan Çakır",
         "value": 0,
         "detail": "Türkiye · 3 goals conceded in 2 appearances"
@@ -7695,7 +7767,7 @@
       "Belgium": 1
     },
     "yellowCards": {
-      "South Africa": 5,
+      "South Africa": 7,
       "Mexico": 2,
       "Canada": 4,
       "Bosnia and Herzegovina": 6,
@@ -8376,6 +8448,16 @@
         "player": "Edson Álvarez",
         "team": "Mexico",
         "match": "Czechia vs Mexico"
+      },
+      {
+        "player": "Aubrey Modiba",
+        "team": "South Africa",
+        "match": "South Africa vs Korea Republic"
+      },
+      {
+        "player": "Cho Gue-sung",
+        "team": "South Africa",
+        "match": "South Africa vs Korea Republic"
       }
     ],
     "penaltyEvents": [
@@ -8772,6 +8854,13 @@
         "yellowCards": 1,
         "penalties": 0,
         "elapsed": 96
+      },
+      {
+        "match": "South Africa vs Korea Republic",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 98
       }
     ]
   }
