@@ -400,7 +400,7 @@ function renderBracketMatchCard(match, matchByNumber) {
   `;
 }
 
-function renderAdvancementNode(match, matchByNumber, thirdPlaceMatch) {
+function renderAdvancementNode(match, matchByNumber) {
   const childMatches = getSourceMatchNumbers(match)
     .map((matchNumber) => matchByNumber.get(matchNumber))
     .filter(Boolean);
@@ -412,19 +412,11 @@ function renderAdvancementNode(match, matchByNumber, thirdPlaceMatch) {
   return `
     <div class="advance-node">
       <div class="advance-children">
-        ${childMatches.map((childMatch) => renderAdvancementNode(childMatch, matchByNumber, null)).join("")}
+        ${childMatches.map((childMatch) => renderAdvancementNode(childMatch, matchByNumber)).join("")}
       </div>
       <div class="advance-connector" aria-hidden="true"></div>
       <div class="final-stage-wrap">
         ${renderBracketMatchCard(match, matchByNumber)}
-        ${thirdPlaceMatch ? `
-          <div class="third-place-after-final">
-            <div class="third-place-line" aria-hidden="true"></div>
-            <div class="finals-card third-place-card">
-              ${renderBracketMatchCard(thirdPlaceMatch, matchByNumber)}
-            </div>
-          </div>
-        ` : ""}
       </div>
     </div>
   `;
@@ -441,9 +433,11 @@ function renderReverseAdvancementNode(match, matchByNumber) {
 
   return `
     <div class="advance-node advance-node-right">
-      ${renderBracketMatchCard(match, matchByNumber)}
+      <div class="final-stage-wrap">
+        ${renderBracketMatchCard(match, matchByNumber)}
+      </div>
       <div class="advance-connector" aria-hidden="true"></div>
-      <div class="advance-children">
+      <div class="advance-children advance-children-right">
         ${childMatches.map((childMatch) => renderReverseAdvancementNode(childMatch, matchByNumber)).join("")}
       </div>
     </div>
@@ -468,10 +462,35 @@ function renderKnockoutBracket(searchText) {
   const matchByNumber = new Map(knockoutMatches.map((match) => [getMatchNumber(match), match]));
   const finalMatch = matchByNumber.get(104) || knockoutMatches.find((match) => /Final/i.test(match.group || ""));
   const thirdPlaceMatch = matchByNumber.get(103);
+  const semifinalMatches = finalMatch
+    ? getSourceMatchNumbers(finalMatch)
+      .map((matchNumber) => matchByNumber.get(matchNumber))
+      .filter(Boolean)
+    : [];
+  const leftSemifinal = semifinalMatches[0];
+  const rightSemifinal = semifinalMatches[1];
   const championshipBracket = finalMatch
     ? `
-      <div class="single-side-bracket">
-        ${renderAdvancementNode(finalMatch, matchByNumber, thirdPlaceMatch)}
+      <div class="split-bracket">
+        <div class="bracket-half bracket-half-left">
+          ${leftSemifinal ? renderAdvancementNode(leftSemifinal, matchByNumber) : ""}
+        </div>
+        <div class="bracket-finals-column">
+          <div class="finals-card championship-card">
+            ${renderBracketMatchCard(finalMatch, matchByNumber)}
+          </div>
+          ${thirdPlaceMatch ? `
+            <div class="third-place-after-final">
+              <div class="third-place-line" aria-hidden="true"></div>
+              <div class="finals-card third-place-card">
+                ${renderBracketMatchCard(thirdPlaceMatch, matchByNumber)}
+              </div>
+            </div>
+          ` : ""}
+        </div>
+        <div class="bracket-half bracket-half-right">
+          ${rightSemifinal ? renderReverseAdvancementNode(rightSemifinal, matchByNumber) : ""}
+        </div>
       </div>
     `
     : "<p>No final match found in the current data.</p>";
