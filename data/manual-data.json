@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-06-25T22:34:05.726Z",
+  "updatedAt": "2026-06-26T21:22:20.061463Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
-    "finalKickoff": "2026-07-19T16:00:00-04:00"
+    "finalKickoff": "2026-07-19T15:00:00-04:00"
   },
   "teamCountryCodes": {
     "Mexico": "MEX",
@@ -273,80 +273,80 @@
         "name": "United States",
         "flag": "USA",
         "fifaRank": 14,
-        "played": 2,
+        "played": 3,
         "won": 2,
         "drawn": 0,
-        "lost": 0,
-        "gd": 5,
+        "lost": 1,
+        "gd": 4,
         "points": 6
       },
       {
         "name": "Australia",
         "flag": "AUS",
         "fifaRank": 26,
-        "played": 2,
+        "played": 3,
         "won": 1,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 1,
         "gd": 0,
-        "points": 3
+        "points": 4
       },
       {
         "name": "Paraguay",
         "flag": "PAR",
         "fifaRank": 39,
-        "played": 2,
+        "played": 3,
         "won": 1,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 1,
         "gd": -2,
-        "points": 3
+        "points": 4
       },
       {
         "name": "Türkiye",
         "flag": "TUR",
         "fifaRank": 25,
-        "played": 2,
-        "won": 0,
+        "played": 3,
+        "won": 1,
         "drawn": 0,
         "lost": 2,
-        "gd": -3,
-        "points": 0
+        "gd": -2,
+        "points": 3
       }
     ],
     "E": [
       {
-        "name": "Germany",
-        "flag": "GER",
-        "fifaRank": 9,
+        "name": "Cote d'Ivoire",
+        "flag": "CIV",
+        "fifaRank": 42,
         "played": 2,
         "won": 2,
         "drawn": 0,
         "lost": 0,
-        "gd": 7,
-        "points": 6
-      },
-      {
-        "name": "Cote d'Ivoire",
-        "flag": "CIV",
-        "fifaRank": 42,
-        "played": 3,
-        "won": 2,
-        "drawn": 0,
-        "lost": 1,
-        "gd": 2,
+        "gd": 3,
         "points": 6
       },
       {
         "name": "Ecuador",
         "flag": "ECU",
         "fifaRank": 23,
-        "played": 2,
-        "won": 0,
+        "played": 3,
+        "won": 1,
         "drawn": 1,
         "lost": 1,
-        "gd": -1,
-        "points": 1
+        "gd": 0,
+        "points": 4
+      },
+      {
+        "name": "Germany",
+        "flag": "GER",
+        "fifaRank": 9,
+        "played": 2,
+        "won": 1,
+        "drawn": 0,
+        "lost": 1,
+        "gd": 5,
+        "points": 3
       },
       {
         "name": "Curaçao",
@@ -362,47 +362,47 @@
     ],
     "F": [
       {
-        "name": "Japan",
-        "flag": "JPN",
-        "fifaRank": 18,
-        "played": 2,
-        "won": 1,
-        "drawn": 1,
-        "lost": 0,
-        "gd": 4,
-        "points": 4
-      },
-      {
         "name": "Netherlands",
         "flag": "NED",
         "fifaRank": 7,
-        "played": 2,
-        "won": 1,
+        "played": 3,
+        "won": 2,
         "drawn": 1,
         "lost": 0,
+        "gd": 6,
+        "points": 7
+      },
+      {
+        "name": "Japan",
+        "flag": "JPN",
+        "fifaRank": 18,
+        "played": 3,
+        "won": 1,
+        "drawn": 2,
+        "lost": 0,
         "gd": 4,
-        "points": 4
+        "points": 5
       },
       {
         "name": "Sweden",
         "flag": "SWE",
         "fifaRank": 43,
-        "played": 2,
+        "played": 3,
         "won": 1,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 1,
         "gd": 0,
-        "points": 3
+        "points": 4
       },
       {
         "name": "Tunisia",
         "flag": "TUN",
         "fifaRank": 40,
-        "played": 2,
+        "played": 3,
         "won": 0,
         "drawn": 0,
-        "lost": 2,
-        "gd": -8,
+        "lost": 3,
+        "gd": -10,
         "points": 0
       }
     ],
@@ -1636,13 +1636,20 @@
           "player": "Leo Østigård",
           "team": "Norway",
           "match": "Iraq vs Norway"
+        },
+        {
+          "player": "Iraq own goal (OG)",
+          "team": "Norway",
+          "match": "Iraq vs Norway"
         }
       ],
       "yellowCards": [],
       "redCards": [],
       "penalties": 0,
       "predictedHomeScore": 0,
-      "predictedAwayScore": 2
+      "predictedAwayScore": 2,
+      "homeKeeper": "Jalal Hassan",
+      "awayKeeper": "Ørjan Nyland"
     },
     {
       "date": "Tuesday, June 16, 2026",
@@ -3642,7 +3649,33 @@
       "location": "MetLife Stadium · New Jersey",
       "venueTimeZone": "America/New_York",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 2
+      "predictedAwayScore": 2,
+      "status": "FT",
+      "elapsed": 98,
+      "homeScore": 2,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Ángel Mena",
+          "team": "Ecuador",
+          "match": "Ecuador vs Germany"
+        },
+        {
+          "player": "Gonzalo Plata",
+          "team": "Ecuador",
+          "match": "Ecuador vs Germany"
+        },
+        {
+          "player": "Leroy Sané",
+          "team": "Germany",
+          "match": "Ecuador vs Germany"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Hernán Galíndez",
+      "awayKeeper": "Manuel Neuer"
     },
     {
       "date": "Thursday, June 25, 2026",
@@ -3657,7 +3690,28 @@
       "location": "AT&T Stadium · Dallas",
       "venueTimeZone": "America/Chicago",
       "predictedHomeScore": 2,
-      "predictedAwayScore": 0
+      "predictedAwayScore": 0,
+      "status": "FT",
+      "elapsed": 97,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Daizen Maeda",
+          "team": "Japan",
+          "match": "Japan vs Sweden"
+        },
+        {
+          "player": "Anthony Elanga",
+          "team": "Sweden",
+          "match": "Japan vs Sweden"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Zion Suzuki",
+      "awayKeeper": "Kristoffer Nordfeldt"
     },
     {
       "date": "Thursday, June 25, 2026",
@@ -3672,7 +3726,38 @@
       "location": "GEHA Field at Arrowhead Stadium · Kansas City",
       "venueTimeZone": "America/Chicago",
       "predictedHomeScore": 0,
-      "predictedAwayScore": 2
+      "predictedAwayScore": 2,
+      "status": "FT",
+      "elapsed": 96,
+      "homeScore": 1,
+      "awayScore": 3,
+      "scorers": [
+        {
+          "player": "Ellyes Skhiri (OG)",
+          "team": "Netherlands",
+          "match": "Tunisia vs Netherlands"
+        },
+        {
+          "player": "Brian Brobbey",
+          "team": "Netherlands",
+          "match": "Tunisia vs Netherlands"
+        },
+        {
+          "player": "Jan-Paul van Hecke",
+          "team": "Netherlands",
+          "match": "Tunisia vs Netherlands"
+        },
+        {
+          "player": "Hazem Mastouri",
+          "team": "Tunisia",
+          "match": "Tunisia vs Netherlands"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Aymen Dahmen",
+      "awayKeeper": "Bart Verbruggen"
     },
     {
       "date": "Thursday, June 25, 2026",
@@ -3687,7 +3772,43 @@
       "location": "SoFi Stadium · Los Angeles",
       "venueTimeZone": "America/Los_Angeles",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 2
+      "predictedAwayScore": 2,
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 3,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Arda Güler",
+          "team": "Türkiye",
+          "match": "Türkiye vs United States"
+        },
+        {
+          "player": "Barış Alper Yılmaz",
+          "team": "Türkiye",
+          "match": "Türkiye vs United States"
+        },
+        {
+          "player": "Kaan Ayhan",
+          "team": "Türkiye",
+          "match": "Türkiye vs United States"
+        },
+        {
+          "player": "Auston Trusty",
+          "team": "United States",
+          "match": "Türkiye vs United States"
+        },
+        {
+          "player": "Sebastian Berhalter",
+          "team": "United States",
+          "match": "Türkiye vs United States"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Uğurcan Çakır",
+      "awayKeeper": "Matt Freese"
     },
     {
       "date": "Thursday, June 25, 2026",
@@ -3702,7 +3823,23 @@
       "location": "Levi's Stadium · San Francisco Bay Area",
       "venueTimeZone": "America/Los_Angeles",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 2
+      "predictedAwayScore": 2,
+      "status": "FT",
+      "elapsed": 97,
+      "homeScore": 0,
+      "awayScore": 0,
+      "scorers": [],
+      "yellowCards": [
+        {
+          "player": "Jackson Irvine",
+          "team": "Australia",
+          "match": "Paraguay vs Australia"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Orlando Gill",
+      "awayKeeper": "Patrick Beach"
     },
     {
       "date": "Friday, June 26, 2026",
@@ -4291,8 +4428,8 @@
       "date": "Sunday, July 19, 2026",
       "stage": "Knockout",
       "group": "Match 104 · Final",
-      "time": "4:00 PM local",
-      "kickoffISO": "2026-07-19T20:00:00Z",
+      "time": "3:00 PM local",
+      "kickoffISO": "2026-07-19T19:00:00Z",
       "home": "Winner Match 101",
       "homeFlag": "W101",
       "away": "Winner Match 102",
@@ -6978,6 +7115,238 @@
       "predictedAwayScore": 3,
       "homeKeeper": "Eloy Room",
       "awayKeeper": "Yahia Fofana"
+    },
+    {
+      "date": "Thursday, June 25, 2026",
+      "stage": "Group Stage",
+      "group": "Group E",
+      "time": "4:00 PM local",
+      "home": "Ecuador",
+      "homeFlag": "ECU",
+      "away": "Germany",
+      "awayFlag": "GER",
+      "location": "MetLife Stadium · New Jersey",
+      "status": "FT",
+      "elapsed": 98,
+      "homeScore": 2,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Ángel Mena",
+          "team": "Ecuador",
+          "match": "Ecuador vs Germany"
+        },
+        {
+          "player": "Gonzalo Plata",
+          "team": "Ecuador",
+          "match": "Ecuador vs Germany"
+        },
+        {
+          "player": "Leroy Sané",
+          "team": "Germany",
+          "match": "Ecuador vs Germany"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Hernán Galíndez",
+      "awayKeeper": "Manuel Neuer"
+    },
+    {
+      "date": "Thursday, June 25, 2026",
+      "stage": "Group Stage",
+      "group": "Group F",
+      "time": "6:00 PM local",
+      "home": "Japan",
+      "homeFlag": "JPN",
+      "away": "Sweden",
+      "awayFlag": "SWE",
+      "location": "AT&T Stadium · Dallas",
+      "status": "FT",
+      "elapsed": 97,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Daizen Maeda",
+          "team": "Japan",
+          "match": "Japan vs Sweden"
+        },
+        {
+          "player": "Anthony Elanga",
+          "team": "Sweden",
+          "match": "Japan vs Sweden"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Zion Suzuki",
+      "awayKeeper": "Kristoffer Nordfeldt"
+    },
+    {
+      "date": "Thursday, June 25, 2026",
+      "stage": "Group Stage",
+      "group": "Group F",
+      "time": "6:00 PM local",
+      "home": "Tunisia",
+      "homeFlag": "TUN",
+      "away": "Netherlands",
+      "awayFlag": "NED",
+      "location": "GEHA Field at Arrowhead Stadium · Kansas City",
+      "status": "FT",
+      "elapsed": 96,
+      "homeScore": 1,
+      "awayScore": 3,
+      "scorers": [
+        {
+          "player": "Ellyes Skhiri (OG)",
+          "team": "Netherlands",
+          "match": "Tunisia vs Netherlands"
+        },
+        {
+          "player": "Brian Brobbey",
+          "team": "Netherlands",
+          "match": "Tunisia vs Netherlands"
+        },
+        {
+          "player": "Jan-Paul van Hecke",
+          "team": "Netherlands",
+          "match": "Tunisia vs Netherlands"
+        },
+        {
+          "player": "Hazem Mastouri",
+          "team": "Tunisia",
+          "match": "Tunisia vs Netherlands"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Aymen Dahmen",
+      "awayKeeper": "Bart Verbruggen"
+    },
+    {
+      "date": "Thursday, June 25, 2026",
+      "stage": "Group Stage",
+      "group": "Group D",
+      "time": "7:00 PM local",
+      "home": "Paraguay",
+      "homeFlag": "PAR",
+      "away": "Australia",
+      "awayFlag": "AUS",
+      "location": "Levi's Stadium · San Francisco Bay Area",
+      "status": "FT",
+      "elapsed": 97,
+      "homeScore": 0,
+      "awayScore": 0,
+      "scorers": [],
+      "yellowCards": [
+        {
+          "player": "Jackson Irvine",
+          "team": "Australia",
+          "match": "Paraguay vs Australia"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Orlando Gill",
+      "awayKeeper": "Patrick Beach"
+    },
+    {
+      "date": "Thursday, June 25, 2026",
+      "stage": "Group Stage",
+      "group": "Group D",
+      "time": "7:00 PM local",
+      "home": "Türkiye",
+      "homeFlag": "TUR",
+      "away": "United States",
+      "awayFlag": "USA",
+      "location": "SoFi Stadium · Los Angeles",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 3,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Arda Güler",
+          "team": "Türkiye",
+          "match": "Türkiye vs United States"
+        },
+        {
+          "player": "Barış Alper Yılmaz",
+          "team": "Türkiye",
+          "match": "Türkiye vs United States"
+        },
+        {
+          "player": "Kaan Ayhan",
+          "team": "Türkiye",
+          "match": "Türkiye vs United States"
+        },
+        {
+          "player": "Auston Trusty",
+          "team": "United States",
+          "match": "Türkiye vs United States"
+        },
+        {
+          "player": "Sebastian Berhalter",
+          "team": "United States",
+          "match": "Türkiye vs United States"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Uğurcan Çakır",
+      "awayKeeper": "Matt Freese"
+    },
+    {
+      "date": "Tuesday, June 16, 2026",
+      "stage": "Group Stage",
+      "group": "Group I",
+      "time": "6:00 PM local",
+      "home": "Iraq",
+      "homeFlag": "IRQ",
+      "away": "Norway",
+      "awayFlag": "NOR",
+      "location": "Gillette Stadium · Boston",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 1,
+      "awayScore": 4,
+      "scorers": [
+        {
+          "player": "Aymen Hussein",
+          "team": "Iraq",
+          "match": "Iraq vs Norway"
+        },
+        {
+          "player": "Erling Haaland",
+          "team": "Norway",
+          "match": "Iraq vs Norway"
+        },
+        {
+          "player": "Erling Haaland",
+          "team": "Norway",
+          "match": "Iraq vs Norway"
+        },
+        {
+          "player": "Leo Østigård",
+          "team": "Norway",
+          "match": "Iraq vs Norway"
+        },
+        {
+          "player": "Iraq own goal (OG)",
+          "team": "Norway",
+          "match": "Iraq vs Norway"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Jalal Hassan",
+      "awayKeeper": "Ørjan Nyland"
     }
   ],
   "detailedStats": {
@@ -7001,6 +7370,11 @@
         "name": "Vinícius Júnior",
         "value": 4,
         "detail": "Brazil"
+      },
+      {
+        "name": "Brian Brobbey",
+        "value": 3,
+        "detail": "Netherlands"
       },
       {
         "name": "Deniz Undav",
@@ -7028,14 +7402,14 @@
         "detail": "Brazil"
       },
       {
+        "name": "Anthony Elanga",
+        "value": 2,
+        "detail": "Sweden"
+      },
+      {
         "name": "Ayase Ueda",
         "value": 2,
         "detail": "Japan"
-      },
-      {
-        "name": "Brian Brobbey",
-        "value": 2,
-        "detail": "Netherlands"
       },
       {
         "name": "Cody Gakpo",
@@ -7163,11 +7537,6 @@
         "detail": "Jordan"
       },
       {
-        "name": "Álvaro Fidalgo",
-        "value": 1,
-        "detail": "Mexico"
-      },
-      {
         "name": "Amad Diallo",
         "value": 1,
         "detail": "Cote d'Ivoire"
@@ -7183,14 +7552,24 @@
         "detail": "Croatia"
       },
       {
-        "name": "Anthony Elanga",
+        "name": "Arda Güler",
         "value": 1,
-        "detail": "Sweden"
+        "detail": "Türkiye"
+      },
+      {
+        "name": "Auston Trusty",
+        "value": 1,
+        "detail": "United States"
       },
       {
         "name": "Aymen Hussein",
         "value": 1,
         "detail": "Iraq"
+      },
+      {
+        "name": "Barış Alper Yılmaz",
+        "value": 1,
+        "detail": "Türkiye"
       },
       {
         "name": "Boulem Khouki",
@@ -7223,9 +7602,19 @@
         "detail": "Australia"
       },
       {
+        "name": "Daizen Maeda",
+        "value": 1,
+        "detail": "Japan"
+      },
+      {
         "name": "Damián Bobadilla (OG)",
         "value": 1,
         "detail": "United States"
+      },
+      {
+        "name": "Ellyes Skhiri (OG)",
+        "value": 1,
+        "detail": "Netherlands"
       },
       {
         "name": "Emam Ashour",
@@ -7258,6 +7647,11 @@
         "detail": "United States"
       },
       {
+        "name": "Gonzalo Plata",
+        "value": 1,
+        "detail": "Ecuador"
+      },
+      {
         "name": "Granit Xhaka",
         "value": 1,
         "detail": "Switzerland"
@@ -7273,9 +7667,9 @@
         "detail": "Spain"
       },
       {
-        "name": "Hélio Varela",
+        "name": "Hazem Mastouri",
         "value": 1,
-        "detail": "Cabo Verde"
+        "detail": "Tunisia"
       },
       {
         "name": "Hwang In-beom",
@@ -7283,9 +7677,19 @@
         "detail": "Korea Republic"
       },
       {
+        "name": "Hélio Varela",
+        "value": 1,
+        "detail": "Cabo Verde"
+      },
+      {
         "name": "Ibrahim Mbaye",
         "value": 1,
         "detail": "Senegal"
+      },
+      {
+        "name": "Iraq own goal (OG)",
+        "value": 1,
+        "detail": "Norway"
       },
       {
         "name": "Jamal Musiala",
@@ -7298,9 +7702,9 @@
         "detail": "Colombia"
       },
       {
-        "name": "João Neves",
+        "name": "Jan-Paul van Hecke",
         "value": 1,
-        "detail": "Portugal"
+        "detail": "Netherlands"
       },
       {
         "name": "John McGinn",
@@ -7313,6 +7717,11 @@
         "detail": "Bosnia and Herzegovina"
       },
       {
+        "name": "João Neves",
+        "value": 1,
+        "detail": "Portugal"
+      },
+      {
         "name": "Jude Bellingham",
         "value": 1,
         "detail": "England"
@@ -7321,6 +7730,11 @@
         "name": "Junya Ito",
         "value": 1,
         "detail": "Japan"
+      },
+      {
+        "name": "Kaan Ayhan",
+        "value": 1,
+        "detail": "Türkiye"
       },
       {
         "name": "Keito Nakamura",
@@ -7351,6 +7765,11 @@
         "name": "Leo Østigård",
         "value": 1,
         "detail": "Norway"
+      },
+      {
+        "name": "Leroy Sané",
+        "value": 1,
+        "detail": "Germany"
       },
       {
         "name": "Livano Comenencia",
@@ -7393,14 +7812,14 @@
         "detail": "Mexico"
       },
       {
-        "name": "Matías Galarza",
-        "value": 1,
-        "detail": "Paraguay"
-      },
-      {
         "name": "Mattias Svanberg",
         "value": 1,
         "detail": "Sweden"
+      },
+      {
+        "name": "Matías Galarza",
+        "value": 1,
+        "detail": "Paraguay"
       },
       {
         "name": "Maurício",
@@ -7528,6 +7947,11 @@
         "detail": "Austria"
       },
       {
+        "name": "Sebastian Berhalter",
+        "value": 1,
+        "detail": "United States"
+      },
+      {
         "name": "Soufiane Rahimi",
         "value": 1,
         "detail": "Morocco"
@@ -7581,6 +8005,16 @@
         "name": "Yoane Wissa",
         "value": 1,
         "detail": "DR Congo"
+      },
+      {
+        "name": "Álvaro Fidalgo",
+        "value": 1,
+        "detail": "Mexico"
+      },
+      {
+        "name": "Ángel Mena",
+        "value": 1,
+        "detail": "Ecuador"
       }
     ],
     "keepers": [
@@ -7598,6 +8032,16 @@
         "name": "Emiliano Martínez",
         "value": 2,
         "detail": "Argentina · 0 goals conceded in 2 appearances"
+      },
+      {
+        "name": "Orlando Gill",
+        "value": 2,
+        "detail": "Paraguay · 4 goals conceded in 3 appearances"
+      },
+      {
+        "name": "Patrick Beach",
+        "value": 2,
+        "detail": "Australia · 2 goals conceded in 3 appearances"
       },
       {
         "name": "Unai Simón",
@@ -7647,7 +8091,7 @@
       {
         "name": "Hernán Galíndez",
         "value": 1,
-        "detail": "Ecuador · 1 goals conceded in 2 appearances"
+        "detail": "Ecuador · 2 goals conceded in 3 appearances"
       },
       {
         "name": "Jordan Pickford",
@@ -7662,7 +8106,7 @@
       {
         "name": "Matt Freese",
         "value": 1,
-        "detail": "United States · 1 goals conceded in 2 appearances"
+        "detail": "United States · 4 goals conceded in 3 appearances"
       },
       {
         "name": "Maxime Crépeau",
@@ -7673,16 +8117,6 @@
         "name": "Mike Maignan",
         "value": 1,
         "detail": "France · 1 goals conceded in 2 appearances"
-      },
-      {
-        "name": "Orlando Gill",
-        "value": 1,
-        "detail": "Paraguay · 4 goals conceded in 2 appearances"
-      },
-      {
-        "name": "Patrick Beach",
-        "value": 1,
-        "detail": "Australia · 2 goals conceded in 2 appearances"
       },
       {
         "name": "Ronwen Williams",
@@ -7707,7 +8141,7 @@
       {
         "name": "Zion Suzuki",
         "value": 1,
-        "detail": "Japan · 2 goals conceded in 2 appearances"
+        "detail": "Japan · 3 goals conceded in 3 appearances"
       },
       {
         "name": "Abduvohid Nematov",
@@ -7727,17 +8161,12 @@
       {
         "name": "Aymen Dahmen",
         "value": 0,
-        "detail": "Tunisia · 4 goals conceded in 1 appearance"
+        "detail": "Tunisia · 7 goals conceded in 2 appearances"
       },
       {
         "name": "Bart Verbruggen",
         "value": 0,
-        "detail": "Netherlands · 3 goals conceded in 2 appearances"
-      },
-      {
-        "name": "Édouard Mendy",
-        "value": 0,
-        "detail": "Senegal · 6 goals conceded in 2 appearances"
+        "detail": "Netherlands · 4 goals conceded in 3 appearances"
       },
       {
         "name": "Fernando Muslera",
@@ -7748,6 +8177,11 @@
         "name": "Gregor Kobel",
         "value": 0,
         "detail": "Switzerland · 3 goals conceded in 3 appearances"
+      },
+      {
+        "name": "Jalal Hassan",
+        "value": 0,
+        "detail": "Iraq · 4 goals conceded in 1 appearance"
       },
       {
         "name": "Johny Placide",
@@ -7762,7 +8196,7 @@
       {
         "name": "Kristoffer Nordfeldt",
         "value": 0,
-        "detail": "Sweden · 6 goals conceded in 2 appearances"
+        "detail": "Sweden · 7 goals conceded in 3 appearances"
       },
       {
         "name": "Lionel Mpasi",
@@ -7787,7 +8221,7 @@
       {
         "name": "Manuel Neuer",
         "value": 0,
-        "detail": "Germany · 2 goals conceded in 2 appearances"
+        "detail": "Germany · 4 goals conceded in 3 appearances"
       },
       {
         "name": "Matěj Kovář",
@@ -7820,19 +8254,9 @@
         "detail": "Bosnia and Herzegovina · 6 goals conceded in 3 appearances"
       },
       {
-        "name": "Ørjan Nyland",
-        "value": 0,
-        "detail": "Norway · 2 goals conceded in 1 appearance"
-      },
-      {
         "name": "Orlando Mosquera",
         "value": 0,
         "detail": "Panama · 2 goals conceded in 2 appearances"
-      },
-      {
-        "name": "Uğurcan Çakır",
-        "value": 0,
-        "detail": "Türkiye · 3 goals conceded in 2 appearances"
       },
       {
         "name": "Utkir Yusupov",
@@ -7840,63 +8264,78 @@
         "detail": "Uzbekistan · 3 goals conceded in 1 appearance"
       },
       {
+        "name": "Uğurcan Çakır",
+        "value": 0,
+        "detail": "Türkiye · 5 goals conceded in 3 appearances"
+      },
+      {
         "name": "Yazeed Abulaila",
         "value": 0,
         "detail": "Jordan · 5 goals conceded in 2 appearances"
+      },
+      {
+        "name": "Édouard Mendy",
+        "value": 0,
+        "detail": "Senegal · 6 goals conceded in 2 appearances"
+      },
+      {
+        "name": "Ørjan Nyland",
+        "value": 0,
+        "detail": "Norway · 3 goals conceded in 2 appearances"
       }
     ],
     "redCards": {
-      "South Africa": 2,
-      "Mexico": 1,
+      "Belgium": 1,
       "Bosnia and Herzegovina": 1,
-      "Qatar": 2,
+      "Mexico": 1,
       "Paraguay": 1,
-      "Belgium": 1
+      "Qatar": 2,
+      "South Africa": 2
     },
     "yellowCards": {
-      "South Africa": 7,
-      "Mexico": 2,
-      "Canada": 4,
-      "Bosnia and Herzegovina": 6,
-      "Paraguay": 8,
-      "United States": 4,
-      "Qatar": 4,
-      "Switzerland": 3,
-      "Brazil": 3,
-      "Haiti": 5,
-      "Scotland": 4,
-      "Türkiye": 1,
-      "Netherlands": 3,
-      "Cote d'Ivoire": 5,
-      "Ecuador": 2,
-      "Tunisia": 1,
-      "Spain": 1,
-      "Cabo Verde": 3,
-      "Egypt": 3,
-      "Belgium": 3,
-      "Saudi Arabia": 3,
-      "Iran": 2,
-      "Austria": 3,
-      "Portugal": 4,
-      "DR Congo": 2,
-      "Ghana": 2,
-      "Panama": 3,
-      "Colombia": 3,
-      "Uzbekistan": 2,
-      "Czechia": 1,
-      "Australia": 4,
-      "Morocco": 1,
-      "Sweden": 3,
-      "Germany": 1,
-      "Curaçao": 7,
-      "Uruguay": 2,
-      "New Zealand": 2,
-      "Argentina": 2,
-      "Iraq": 1,
       "Algeria": 1,
-      "Jordan": 1,
+      "Argentina": 2,
+      "Australia": 5,
+      "Austria": 3,
+      "Belgium": 3,
+      "Bosnia and Herzegovina": 6,
+      "Brazil": 3,
+      "Cabo Verde": 3,
+      "Canada": 4,
+      "Colombia": 3,
+      "Cote d'Ivoire": 5,
+      "Croatia": 1,
+      "Curaçao": 7,
+      "Czechia": 1,
+      "DR Congo": 2,
+      "Ecuador": 2,
+      "Egypt": 3,
       "England": 1,
-      "Croatia": 1
+      "Germany": 1,
+      "Ghana": 2,
+      "Haiti": 5,
+      "Iran": 2,
+      "Iraq": 1,
+      "Jordan": 1,
+      "Mexico": 2,
+      "Morocco": 1,
+      "Netherlands": 3,
+      "New Zealand": 2,
+      "Panama": 3,
+      "Paraguay": 8,
+      "Portugal": 4,
+      "Qatar": 4,
+      "Saudi Arabia": 3,
+      "Scotland": 4,
+      "South Africa": 7,
+      "Spain": 1,
+      "Sweden": 3,
+      "Switzerland": 3,
+      "Tunisia": 1,
+      "Türkiye": 1,
+      "United States": 4,
+      "Uruguay": 2,
+      "Uzbekistan": 2
     },
     "redCardEvents": [
       {
@@ -8560,31 +8999,14 @@
         "player": "Gervane Kastaneer",
         "team": "Curaçao",
         "match": "Curaçao vs Cote d'Ivoire"
+      },
+      {
+        "player": "Jackson Irvine",
+        "team": "Australia",
+        "match": "Paraguay vs Australia"
       }
     ],
-    "penaltyEvents": [
-      {
-        "match": "Qatar vs Switzerland"
-      },
-      {
-        "match": "Germany vs Curaçao"
-      },
-      {
-        "match": "Austria vs Jordan"
-      },
-      {
-        "match": "England vs Croatia"
-      },
-      {
-        "match": "Czechia vs South Africa"
-      },
-      {
-        "match": "Switzerland vs Bosnia and Herzegovina"
-      },
-      {
-        "match": "Argentina vs Austria"
-      }
-    ],
+    "penaltyEvents": [],
     "matchStats": [
       {
         "match": "Mexico vs South Africa",
@@ -8970,7 +9392,92 @@
         "yellowCards": 3,
         "penalties": 0,
         "elapsed": 97
+      },
+      {
+        "match": "Ecuador vs Germany",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 98
+      },
+      {
+        "match": "Japan vs Sweden",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 97
+      },
+      {
+        "match": "Tunisia vs Netherlands",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 96
+      },
+      {
+        "match": "Türkiye vs United States",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 99
+      },
+      {
+        "match": "Paraguay vs Australia",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 97
       }
-    ]
+    ],
+    "teamGoals": {
+      "Algeria": 2,
+      "Argentina": 5,
+      "Australia": 2,
+      "Austria": 3,
+      "Belgium": 1,
+      "Bosnia and Herzegovina": 5,
+      "Brazil": 7,
+      "Cabo Verde": 2,
+      "Canada": 8,
+      "Colombia": 4,
+      "Cote d'Ivoire": 4,
+      "Croatia": 3,
+      "Curaçao": 1,
+      "Czechia": 2,
+      "DR Congo": 1,
+      "Ecuador": 2,
+      "Egypt": 4,
+      "England": 4,
+      "France": 6,
+      "Germany": 10,
+      "Ghana": 1,
+      "Haiti": 2,
+      "Iran": 2,
+      "Iraq": 1,
+      "Japan": 7,
+      "Jordan": 2,
+      "Korea Republic": 2,
+      "Mexico": 6,
+      "Morocco": 6,
+      "Netherlands": 10,
+      "New Zealand": 3,
+      "Norway": 7,
+      "Panama": 0,
+      "Paraguay": 2,
+      "Portugal": 6,
+      "Qatar": 2,
+      "Saudi Arabia": 1,
+      "Scotland": 1,
+      "Senegal": 3,
+      "South Africa": 2,
+      "Spain": 4,
+      "Sweden": 7,
+      "Switzerland": 7,
+      "Tunisia": 2,
+      "Türkiye": 3,
+      "United States": 8,
+      "Uruguay": 3,
+      "Uzbekistan": 1
+    }
   }
 }
