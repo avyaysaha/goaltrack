@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T21:41:03.582Z",
+  "updatedAt": "2026-06-26T21:54:07.110Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -525,22 +525,22 @@
         "name": "Senegal",
         "flag": "SEN",
         "fifaRank": 19,
-        "played": 2,
-        "won": 0,
+        "played": 3,
+        "won": 1,
         "drawn": 0,
         "lost": 2,
-        "gd": -3,
-        "points": 0
+        "gd": 2,
+        "points": 3
       },
       {
         "name": "Iraq",
         "flag": "IRQ",
         "fifaRank": 58,
-        "played": 2,
+        "played": 3,
         "won": 0,
         "drawn": 0,
-        "lost": 2,
-        "gd": -6,
+        "lost": 3,
+        "gd": -11,
         "points": 0
       }
     ],
@@ -3902,16 +3902,58 @@
       "date": "Friday, June 26, 2026",
       "stage": "Group Stage",
       "group": "Group I",
-      "time": "3:00 PM local",
+      "time": "2:00 PM CDT (3:00 PM EDT venue local)",
       "kickoffISO": "2026-06-26T19:00:00Z",
       "home": "Senegal",
       "homeFlag": "SEN",
       "away": "Iraq",
       "awayFlag": "IRQ",
-      "location": "BMO Field · Toronto",
+      "location": "BMO Field•Toronto",
       "venueTimeZone": "America/Toronto",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "status": "FT",
+      "elapsed": 102,
+      "homeScore": 5,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Habib Diarra",
+          "team": "Senegal",
+          "match": "Senegal vs Iraq"
+        },
+        {
+          "player": "Ismaïla Sarr",
+          "team": "Senegal",
+          "match": "Senegal vs Iraq"
+        },
+        {
+          "player": "Pape Gueye",
+          "team": "Senegal",
+          "match": "Senegal vs Iraq"
+        },
+        {
+          "player": "Pape Gueye",
+          "team": "Senegal",
+          "match": "Senegal vs Iraq"
+        },
+        {
+          "player": "Iliman Ndiaye",
+          "team": "Senegal",
+          "match": "Senegal vs Iraq"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [
+        {
+          "player": "Rebin Sulaka",
+          "team": "Iraq",
+          "match": "Senegal vs Iraq"
+        }
+      ],
+      "penalties": 0,
+      "homeKeeper": "Mory Diaw",
+      "awayKeeper": "Ahmed Basil"
     },
     {
       "date": "Friday, June 26, 2026",
@@ -7444,6 +7486,61 @@
       "predictedAwayScore": 2,
       "homeKeeper": "Egil Selvik",
       "awayKeeper": "Mike Maignan"
+    },
+    {
+      "date": "Friday, June 26, 2026",
+      "stage": "Group Stage",
+      "group": "Group I",
+      "time": "2:00 PM CDT (3:00 PM EDT venue local)",
+      "home": "Senegal",
+      "homeFlag": "SEN",
+      "away": "Iraq",
+      "awayFlag": "IRQ",
+      "location": "BMO Field•Toronto",
+      "status": "FT",
+      "elapsed": 102,
+      "homeScore": 5,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Habib Diarra",
+          "team": "Senegal",
+          "match": "Senegal vs Iraq"
+        },
+        {
+          "player": "Ismaïla Sarr",
+          "team": "Senegal",
+          "match": "Senegal vs Iraq"
+        },
+        {
+          "player": "Pape Gueye",
+          "team": "Senegal",
+          "match": "Senegal vs Iraq"
+        },
+        {
+          "player": "Pape Gueye",
+          "team": "Senegal",
+          "match": "Senegal vs Iraq"
+        },
+        {
+          "player": "Iliman Ndiaye",
+          "team": "Senegal",
+          "match": "Senegal vs Iraq"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [
+        {
+          "player": "Rebin Sulaka",
+          "team": "Iraq",
+          "match": "Senegal vs Iraq"
+        }
+      ],
+      "penalties": 0,
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1,
+      "homeKeeper": "Mory Diaw",
+      "awayKeeper": "Ahmed Basil"
     }
   ],
   "detailedStats": {
@@ -7487,6 +7584,11 @@
         "name": "Ismael Saibari",
         "value": 3,
         "detail": "Morocco"
+      },
+      {
+        "name": "Ismaïla Sarr",
+        "value": 3,
+        "detail": "Senegal"
       },
       {
         "name": "Johan Manzambi",
@@ -7564,11 +7666,6 @@
         "detail": "England"
       },
       {
-        "name": "Ismaïla Sarr",
-        "value": 2,
-        "detail": "Senegal"
-      },
-      {
         "name": "Julián Quiñones",
         "value": 2,
         "detail": "Mexico"
@@ -7587,6 +7684,11 @@
         "name": "Nicolas Pépé",
         "value": 2,
         "detail": "Cote d'Ivoire"
+      },
+      {
+        "name": "Pape Gueye",
+        "value": 2,
+        "detail": "Senegal"
       },
       {
         "name": "Rubén Vargas",
@@ -7774,6 +7876,11 @@
         "detail": "Switzerland"
       },
       {
+        "name": "Habib Diarra",
+        "value": 1,
+        "detail": "Senegal"
+      },
+      {
         "name": "Hassan Al-Haydos",
         "value": 1,
         "detail": "Qatar"
@@ -7800,6 +7907,11 @@
       },
       {
         "name": "Ibrahim Mbaye",
+        "value": 1,
+        "detail": "Senegal"
+      },
+      {
+        "name": "Iliman Ndiaye",
         "value": 1,
         "detail": "Senegal"
       },
@@ -8226,6 +8338,11 @@
         "detail": "France · 2 goals conceded in 3 appearances"
       },
       {
+        "name": "Mory Diaw",
+        "value": 1,
+        "detail": "Senegal · 0 goals conceded in 1 appearance"
+      },
+      {
         "name": "Ronwen Williams",
         "value": 1,
         "detail": "South Africa · 3 goals conceded in 3 appearances"
@@ -8258,7 +8375,7 @@
       {
         "name": "Ahmed Basil",
         "value": 0,
-        "detail": "Iraq · 3 goals conceded in 1 appearance"
+        "detail": "Iraq · 8 goals conceded in 2 appearances"
       },
       {
         "name": "Alexander Schlager",
@@ -8402,7 +8519,8 @@
       "Bosnia and Herzegovina": 1,
       "Qatar": 2,
       "Paraguay": 1,
-      "Belgium": 1
+      "Belgium": 1,
+      "Iraq": 1
     },
     "yellowCards": {
       "South Africa": 7,
@@ -8490,6 +8608,11 @@
         "player": "Nathan Ngoy",
         "team": "Belgium",
         "match": "Belgium vs Iran"
+      },
+      {
+        "player": "Rebin Sulaka",
+        "team": "Iraq",
+        "match": "Senegal vs Iraq"
       }
     ],
     "yellowCardEvents": [
@@ -9577,6 +9700,13 @@
         "yellowCards": 1,
         "penalties": 1,
         "elapsed": 100
+      },
+      {
+        "match": "Senegal vs Iraq",
+        "redCards": 1,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 102
       }
     ]
   }
