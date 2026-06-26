@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T21:22:20.080608Z",
+  "updatedAt": "2026-06-26T21:41:03.582Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -316,14 +316,25 @@
     ],
     "E": [
       {
+        "name": "Germany",
+        "flag": "GER",
+        "fifaRank": 9,
+        "played": 3,
+        "won": 2,
+        "drawn": 0,
+        "lost": 1,
+        "gd": 6,
+        "points": 6
+      },
+      {
         "name": "Cote d'Ivoire",
         "flag": "CIV",
         "fifaRank": 42,
-        "played": 2,
+        "played": 3,
         "won": 2,
         "drawn": 0,
-        "lost": 0,
-        "gd": 3,
+        "lost": 1,
+        "gd": 2,
         "points": 6
       },
       {
@@ -336,17 +347,6 @@
         "lost": 1,
         "gd": 0,
         "points": 4
-      },
-      {
-        "name": "Germany",
-        "flag": "GER",
-        "fifaRank": 9,
-        "played": 2,
-        "won": 1,
-        "drawn": 0,
-        "lost": 1,
-        "gd": 5,
-        "points": 3
       },
       {
         "name": "Curaçao",
@@ -503,22 +503,22 @@
         "name": "France",
         "flag": "FRA",
         "fifaRank": 3,
-        "played": 2,
-        "won": 2,
+        "played": 3,
+        "won": 3,
         "drawn": 0,
         "lost": 0,
-        "gd": 5,
-        "points": 6
+        "gd": 8,
+        "points": 9
       },
       {
         "name": "Norway",
         "flag": "NOR",
         "fifaRank": 29,
-        "played": 2,
+        "played": 3,
         "won": 2,
         "drawn": 0,
-        "lost": 0,
-        "gd": 4,
+        "lost": 1,
+        "gd": 1,
         "points": 6
       },
       {
@@ -3845,16 +3845,58 @@
       "date": "Friday, June 26, 2026",
       "stage": "Group Stage",
       "group": "Group I",
-      "time": "3:00 PM local",
+      "time": "2:00 PM CDT (3:00 PM EDT venue local)",
       "kickoffISO": "2026-06-26T19:00:00Z",
       "home": "Norway",
       "homeFlag": "NOR",
       "away": "France",
       "awayFlag": "FRA",
-      "location": "Gillette Stadium · Boston",
+      "location": "Gillette Stadium•Boston",
       "venueTimeZone": "America/New_York",
       "predictedHomeScore": 0,
-      "predictedAwayScore": 2
+      "predictedAwayScore": 2,
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 1,
+      "awayScore": 4,
+      "scorers": [
+        {
+          "player": "Ousmane Dembélé",
+          "team": "France",
+          "match": "Norway vs France"
+        },
+        {
+          "player": "Ousmane Dembélé",
+          "team": "France",
+          "match": "Norway vs France"
+        },
+        {
+          "player": "Thelo Aasgaard",
+          "team": "Norway",
+          "match": "Norway vs France"
+        },
+        {
+          "player": "Ousmane Dembélé",
+          "team": "France",
+          "match": "Norway vs France"
+        },
+        {
+          "player": "Désiré Doué",
+          "team": "France",
+          "match": "Norway vs France"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Patrick Berg",
+          "team": "Norway",
+          "match": "Norway vs France"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Egil Selvik",
+      "awayKeeper": "Mike Maignan"
     },
     {
       "date": "Friday, June 26, 2026",
@@ -7347,6 +7389,61 @@
       "penalties": 0,
       "homeKeeper": "Jalal Hassan",
       "awayKeeper": "Ørjan Nyland"
+    },
+    {
+      "date": "Friday, June 26, 2026",
+      "stage": "Group Stage",
+      "group": "Group I",
+      "time": "2:00 PM CDT (3:00 PM EDT venue local)",
+      "home": "Norway",
+      "homeFlag": "NOR",
+      "away": "France",
+      "awayFlag": "FRA",
+      "location": "Gillette Stadium•Boston",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 1,
+      "awayScore": 4,
+      "scorers": [
+        {
+          "player": "Ousmane Dembélé",
+          "team": "France",
+          "match": "Norway vs France"
+        },
+        {
+          "player": "Ousmane Dembélé",
+          "team": "France",
+          "match": "Norway vs France"
+        },
+        {
+          "player": "Thelo Aasgaard",
+          "team": "Norway",
+          "match": "Norway vs France"
+        },
+        {
+          "player": "Ousmane Dembélé",
+          "team": "France",
+          "match": "Norway vs France"
+        },
+        {
+          "player": "Désiré Doué",
+          "team": "France",
+          "match": "Norway vs France"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Patrick Berg",
+          "team": "Norway",
+          "match": "Norway vs France"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "predictedHomeScore": 0,
+      "predictedAwayScore": 2,
+      "homeKeeper": "Egil Selvik",
+      "awayKeeper": "Mike Maignan"
     }
   ],
   "detailedStats": {
@@ -7363,6 +7460,11 @@
       },
       {
         "name": "Kylian Mbappé",
+        "value": 4,
+        "detail": "France"
+      },
+      {
+        "name": "Ousmane Dembélé",
         "value": 4,
         "detail": "France"
       },
@@ -7537,6 +7639,11 @@
         "detail": "Jordan"
       },
       {
+        "name": "Álvaro Fidalgo",
+        "value": 1,
+        "detail": "Mexico"
+      },
+      {
         "name": "Amad Diallo",
         "value": 1,
         "detail": "Cote d'Ivoire"
@@ -7545,6 +7652,11 @@
         "name": "Amine Gouiri",
         "value": 1,
         "detail": "Algeria"
+      },
+      {
+        "name": "Ángel Mena",
+        "value": 1,
+        "detail": "Ecuador"
       },
       {
         "name": "Ante Budimir",
@@ -7612,6 +7724,11 @@
         "detail": "United States"
       },
       {
+        "name": "Désiré Doué",
+        "value": 1,
+        "detail": "France"
+      },
+      {
         "name": "Ellyes Skhiri (OG)",
         "value": 1,
         "detail": "Netherlands"
@@ -7672,14 +7789,14 @@
         "detail": "Tunisia"
       },
       {
-        "name": "Hwang In-beom",
-        "value": 1,
-        "detail": "Korea Republic"
-      },
-      {
         "name": "Hélio Varela",
         "value": 1,
         "detail": "Cabo Verde"
+      },
+      {
+        "name": "Hwang In-beom",
+        "value": 1,
+        "detail": "Korea Republic"
       },
       {
         "name": "Ibrahim Mbaye",
@@ -7707,6 +7824,11 @@
         "detail": "Netherlands"
       },
       {
+        "name": "João Neves",
+        "value": 1,
+        "detail": "Portugal"
+      },
+      {
         "name": "John McGinn",
         "value": 1,
         "detail": "Scotland"
@@ -7715,11 +7837,6 @@
         "name": "Jovo Lukić",
         "value": 1,
         "detail": "Bosnia and Herzegovina"
-      },
-      {
-        "name": "João Neves",
-        "value": 1,
-        "detail": "Portugal"
       },
       {
         "name": "Jude Bellingham",
@@ -7812,14 +7929,14 @@
         "detail": "Mexico"
       },
       {
-        "name": "Mattias Svanberg",
-        "value": 1,
-        "detail": "Sweden"
-      },
-      {
         "name": "Matías Galarza",
         "value": 1,
         "detail": "Paraguay"
+      },
+      {
+        "name": "Mattias Svanberg",
+        "value": 1,
+        "detail": "Sweden"
       },
       {
         "name": "Maurício",
@@ -7912,11 +8029,6 @@
         "detail": "Tunisia"
       },
       {
-        "name": "Ousmane Dembélé",
-        "value": 1,
-        "detail": "France"
-      },
-      {
         "name": "Petar Musa",
         "value": 1,
         "detail": "Croatia"
@@ -7972,6 +8084,11 @@
         "detail": "South Africa"
       },
       {
+        "name": "Thelo Aasgaard",
+        "value": 1,
+        "detail": "Norway"
+      },
+      {
         "name": "Trézéguet",
         "value": 1,
         "detail": "Egypt"
@@ -8005,16 +8122,6 @@
         "name": "Yoane Wissa",
         "value": 1,
         "detail": "DR Congo"
-      },
-      {
-        "name": "Álvaro Fidalgo",
-        "value": 1,
-        "detail": "Mexico"
-      },
-      {
-        "name": "Ángel Mena",
-        "value": 1,
-        "detail": "Ecuador"
       }
     ],
     "keepers": [
@@ -8116,7 +8223,7 @@
       {
         "name": "Mike Maignan",
         "value": 1,
-        "detail": "France · 1 goals conceded in 2 appearances"
+        "detail": "France · 2 goals conceded in 3 appearances"
       },
       {
         "name": "Ronwen Williams",
@@ -8167,6 +8274,16 @@
         "name": "Bart Verbruggen",
         "value": 0,
         "detail": "Netherlands · 4 goals conceded in 3 appearances"
+      },
+      {
+        "name": "Édouard Mendy",
+        "value": 0,
+        "detail": "Senegal · 6 goals conceded in 2 appearances"
+      },
+      {
+        "name": "Egil Selvik",
+        "value": 0,
+        "detail": "Norway · 4 goals conceded in 1 appearance"
       },
       {
         "name": "Fernando Muslera",
@@ -8254,14 +8371,14 @@
         "detail": "Bosnia and Herzegovina · 6 goals conceded in 3 appearances"
       },
       {
+        "name": "Ørjan Nyland",
+        "value": 0,
+        "detail": "Norway · 3 goals conceded in 2 appearances"
+      },
+      {
         "name": "Orlando Mosquera",
         "value": 0,
         "detail": "Panama · 2 goals conceded in 2 appearances"
-      },
-      {
-        "name": "Utkir Yusupov",
-        "value": 0,
-        "detail": "Uzbekistan · 3 goals conceded in 1 appearance"
       },
       {
         "name": "Uğurcan Çakır",
@@ -8269,73 +8386,69 @@
         "detail": "Türkiye · 5 goals conceded in 3 appearances"
       },
       {
+        "name": "Utkir Yusupov",
+        "value": 0,
+        "detail": "Uzbekistan · 3 goals conceded in 1 appearance"
+      },
+      {
         "name": "Yazeed Abulaila",
         "value": 0,
         "detail": "Jordan · 5 goals conceded in 2 appearances"
-      },
-      {
-        "name": "Édouard Mendy",
-        "value": 0,
-        "detail": "Senegal · 6 goals conceded in 2 appearances"
-      },
-      {
-        "name": "Ørjan Nyland",
-        "value": 0,
-        "detail": "Norway · 3 goals conceded in 2 appearances"
       }
     ],
     "redCards": {
-      "Belgium": 1,
-      "Bosnia and Herzegovina": 1,
+      "South Africa": 2,
       "Mexico": 1,
-      "Paraguay": 1,
+      "Bosnia and Herzegovina": 1,
       "Qatar": 2,
-      "South Africa": 2
+      "Paraguay": 1,
+      "Belgium": 1
     },
     "yellowCards": {
-      "Algeria": 1,
-      "Argentina": 2,
-      "Australia": 5,
-      "Austria": 3,
-      "Belgium": 3,
-      "Bosnia and Herzegovina": 6,
-      "Brazil": 3,
-      "Cabo Verde": 3,
-      "Canada": 4,
-      "Colombia": 3,
-      "Cote d'Ivoire": 5,
-      "Croatia": 1,
-      "Curaçao": 7,
-      "Czechia": 1,
-      "DR Congo": 2,
-      "Ecuador": 2,
-      "Egypt": 3,
-      "England": 1,
-      "Germany": 1,
-      "Ghana": 2,
-      "Haiti": 5,
-      "Iran": 2,
-      "Iraq": 1,
-      "Jordan": 1,
-      "Mexico": 2,
-      "Morocco": 1,
-      "Netherlands": 3,
-      "New Zealand": 2,
-      "Panama": 3,
-      "Paraguay": 8,
-      "Portugal": 4,
-      "Qatar": 4,
-      "Saudi Arabia": 3,
-      "Scotland": 4,
       "South Africa": 7,
-      "Spain": 1,
-      "Sweden": 3,
-      "Switzerland": 3,
-      "Tunisia": 1,
-      "Türkiye": 1,
+      "Mexico": 2,
+      "Canada": 4,
+      "Bosnia and Herzegovina": 6,
+      "Paraguay": 8,
       "United States": 4,
+      "Qatar": 4,
+      "Switzerland": 3,
+      "Brazil": 3,
+      "Haiti": 5,
+      "Scotland": 4,
+      "Türkiye": 1,
+      "Netherlands": 3,
+      "Cote d'Ivoire": 5,
+      "Ecuador": 2,
+      "Tunisia": 1,
+      "Spain": 1,
+      "Cabo Verde": 3,
+      "Egypt": 3,
+      "Belgium": 3,
+      "Saudi Arabia": 3,
+      "Iran": 2,
+      "Austria": 3,
+      "Portugal": 4,
+      "DR Congo": 2,
+      "Ghana": 2,
+      "Panama": 3,
+      "Colombia": 3,
+      "Uzbekistan": 2,
+      "Czechia": 1,
+      "Australia": 5,
+      "Morocco": 1,
+      "Sweden": 3,
+      "Germany": 1,
+      "Curaçao": 7,
       "Uruguay": 2,
-      "Uzbekistan": 2
+      "New Zealand": 2,
+      "Argentina": 2,
+      "Iraq": 1,
+      "Algeria": 1,
+      "Jordan": 1,
+      "England": 1,
+      "Croatia": 1,
+      "Norway": 1
     },
     "redCardEvents": [
       {
@@ -9004,9 +9117,39 @@
         "player": "Jackson Irvine",
         "team": "Australia",
         "match": "Paraguay vs Australia"
+      },
+      {
+        "player": "Patrick Berg",
+        "team": "Norway",
+        "match": "Norway vs France"
       }
     ],
-    "penaltyEvents": [],
+    "penaltyEvents": [
+      {
+        "match": "Qatar vs Switzerland"
+      },
+      {
+        "match": "Germany vs Curaçao"
+      },
+      {
+        "match": "Austria vs Jordan"
+      },
+      {
+        "match": "England vs Croatia"
+      },
+      {
+        "match": "Czechia vs South Africa"
+      },
+      {
+        "match": "Switzerland vs Bosnia and Herzegovina"
+      },
+      {
+        "match": "Argentina vs Austria"
+      },
+      {
+        "match": "Norway vs France"
+      }
+    ],
     "matchStats": [
       {
         "match": "Mexico vs South Africa",
@@ -9427,57 +9570,14 @@
         "yellowCards": 1,
         "penalties": 0,
         "elapsed": 97
+      },
+      {
+        "match": "Norway vs France",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 1,
+        "elapsed": 100
       }
-    ],
-    "teamGoals": {
-      "Algeria": 2,
-      "Argentina": 5,
-      "Australia": 2,
-      "Austria": 3,
-      "Belgium": 1,
-      "Bosnia and Herzegovina": 5,
-      "Brazil": 7,
-      "Cabo Verde": 2,
-      "Canada": 8,
-      "Colombia": 4,
-      "Cote d'Ivoire": 4,
-      "Croatia": 3,
-      "Curaçao": 1,
-      "Czechia": 2,
-      "DR Congo": 1,
-      "Ecuador": 2,
-      "Egypt": 4,
-      "England": 4,
-      "France": 6,
-      "Germany": 10,
-      "Ghana": 1,
-      "Haiti": 2,
-      "Iran": 2,
-      "Iraq": 1,
-      "Japan": 7,
-      "Jordan": 2,
-      "Korea Republic": 2,
-      "Mexico": 6,
-      "Morocco": 6,
-      "Netherlands": 10,
-      "New Zealand": 3,
-      "Norway": 7,
-      "Panama": 0,
-      "Paraguay": 2,
-      "Portugal": 6,
-      "Qatar": 2,
-      "Saudi Arabia": 1,
-      "Scotland": 1,
-      "Senegal": 3,
-      "South Africa": 2,
-      "Spain": 4,
-      "Sweden": 7,
-      "Switzerland": 7,
-      "Tunisia": 2,
-      "Türkiye": 3,
-      "United States": 8,
-      "Uruguay": 3,
-      "Uzbekistan": 1
-    }
+    ]
   }
 }
