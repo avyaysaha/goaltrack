@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T03:30:22.180Z",
+  "updatedAt": "2026-06-27T16:37:07.569Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -411,28 +411,28 @@
         "name": "Egypt",
         "flag": "EGY",
         "fifaRank": 34,
-        "played": 2,
+        "played": 3,
         "won": 1,
-        "drawn": 1,
-        "lost": 0,
-        "gd": 2,
-        "points": 4
-      },
-      {
-        "name": "Belgium",
-        "flag": "BEL",
-        "fifaRank": 8,
-        "played": 2,
-        "won": 0,
         "drawn": 2,
         "lost": 0,
-        "gd": 0,
-        "points": 2
+        "gd": 2,
+        "points": 5
       },
       {
         "name": "Iran",
         "flag": "IRN",
         "fifaRank": 20,
+        "played": 3,
+        "won": 0,
+        "drawn": 3,
+        "lost": 0,
+        "gd": 0,
+        "points": 3
+      },
+      {
+        "name": "Belgium",
+        "flag": "BEL",
+        "fifaRank": 8,
         "played": 2,
         "won": 0,
         "drawn": 2,
@@ -4063,7 +4063,7 @@
       "date": "Friday, June 26, 2026",
       "stage": "Group Stage",
       "group": "Group G",
-      "time": "8:00 PM local",
+      "time": "10:00 PM CDT (8:00 PM PDT venue local)",
       "kickoffISO": "2026-06-27T03:00:00Z",
       "home": "Egypt",
       "homeFlag": "EGY",
@@ -4072,7 +4072,64 @@
       "location": "Lumen Field · Seattle",
       "venueTimeZone": "America/Los_Angeles",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 2
+      "predictedAwayScore": 2,
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Mahmoud Saber",
+          "team": "Egypt",
+          "match": "Egypt vs Iran"
+        },
+        {
+          "player": "Ramin Rezaeian",
+          "team": "Iran",
+          "match": "Egypt vs Iran"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Hossein Kanani",
+          "team": "Iran",
+          "match": "Egypt vs Iran"
+        },
+        {
+          "player": "Mahmoud Saber",
+          "team": "Egypt",
+          "match": "Egypt vs Iran"
+        },
+        {
+          "player": "Yasser Ibrahim",
+          "team": "Egypt",
+          "match": "Egypt vs Iran"
+        },
+        {
+          "player": "Ali Nemati",
+          "team": "Iran",
+          "match": "Egypt vs Iran"
+        },
+        {
+          "player": "Saeid Ezatolahi",
+          "team": "Iran",
+          "match": "Egypt vs Iran"
+        },
+        {
+          "player": "Mohanad Lasheen",
+          "team": "Egypt",
+          "match": "Egypt vs Iran"
+        },
+        {
+          "player": "Shoja Khalilzadeh",
+          "team": "Iran",
+          "match": "Egypt vs Iran"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Mostafa Shobeir",
+      "awayKeeper": "Alireza Beiranvand"
     },
     {
       "date": "Friday, June 26, 2026",
@@ -7715,6 +7772,76 @@
       "predictedAwayScore": 2,
       "homeKeeper": "Fernando Muslera",
       "awayKeeper": "Unai Simón"
+    },
+    {
+      "date": "Friday, June 26, 2026",
+      "stage": "Group Stage",
+      "group": "Group G",
+      "time": "10:00 PM CDT (8:00 PM PDT venue local)",
+      "home": "Egypt",
+      "homeFlag": "EGY",
+      "away": "Iran",
+      "awayFlag": "IRN",
+      "location": "Lumen Field · Seattle",
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Mahmoud Saber",
+          "team": "Egypt",
+          "match": "Egypt vs Iran"
+        },
+        {
+          "player": "Ramin Rezaeian",
+          "team": "Iran",
+          "match": "Egypt vs Iran"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Hossein Kanani",
+          "team": "Iran",
+          "match": "Egypt vs Iran"
+        },
+        {
+          "player": "Mahmoud Saber",
+          "team": "Egypt",
+          "match": "Egypt vs Iran"
+        },
+        {
+          "player": "Yasser Ibrahim",
+          "team": "Egypt",
+          "match": "Egypt vs Iran"
+        },
+        {
+          "player": "Ali Nemati",
+          "team": "Iran",
+          "match": "Egypt vs Iran"
+        },
+        {
+          "player": "Saeid Ezatolahi",
+          "team": "Iran",
+          "match": "Egypt vs Iran"
+        },
+        {
+          "player": "Mohanad Lasheen",
+          "team": "Egypt",
+          "match": "Egypt vs Iran"
+        },
+        {
+          "player": "Shoja Khalilzadeh",
+          "team": "Iran",
+          "match": "Egypt vs Iran"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 2,
+      "homeKeeper": "Mostafa Shobeir",
+      "awayKeeper": "Alireza Beiranvand"
     }
   ],
   "detailedStats": {
@@ -7863,6 +7990,11 @@
         "name": "Pape Gueye",
         "value": 2,
         "detail": "Senegal"
+      },
+      {
+        "name": "Ramin Rezaeian",
+        "value": 2,
+        "detail": "Iran"
       },
       {
         "name": "Rubén Vargas",
@@ -8195,6 +8327,11 @@
         "detail": "Mexico"
       },
       {
+        "name": "Mahmoud Saber",
+        "value": 1,
+        "detail": "Egypt"
+      },
+      {
         "name": "Marcus Holmgren Pedersen",
         "value": 1,
         "detail": "Norway"
@@ -8335,11 +8472,6 @@
         "detail": "Portugal"
       },
       {
-        "name": "Ramin Rezaeian",
-        "value": 1,
-        "detail": "Iran"
-      },
-      {
         "name": "Raúl Jiménez",
         "value": 1,
         "detail": "Mexico"
@@ -8459,7 +8591,7 @@
       {
         "name": "Alireza Beiranvand",
         "value": 1,
-        "detail": "Iran · 2 goals conceded in 2 appearances"
+        "detail": "Iran · 3 goals conceded in 3 appearances"
       },
       {
         "name": "Angus Gunn",
@@ -8654,7 +8786,7 @@
       {
         "name": "Mostafa Shobeir",
         "value": 0,
-        "detail": "Egypt · 2 goals conceded in 2 appearances"
+        "detail": "Egypt · 3 goals conceded in 3 appearances"
       },
       {
         "name": "Mouhib Chamakh",
@@ -8721,10 +8853,10 @@
       "Tunisia": 1,
       "Spain": 2,
       "Cabo Verde": 4,
-      "Egypt": 3,
+      "Egypt": 6,
       "Belgium": 3,
       "Saudi Arabia": 6,
-      "Iran": 2,
+      "Iran": 6,
       "Austria": 3,
       "Portugal": 4,
       "DR Congo": 2,
@@ -9470,6 +9602,41 @@
         "player": "Nicolás de la Cruz",
         "team": "Uruguay",
         "match": "Uruguay vs Spain"
+      },
+      {
+        "player": "Hossein Kanani",
+        "team": "Iran",
+        "match": "Egypt vs Iran"
+      },
+      {
+        "player": "Mahmoud Saber",
+        "team": "Egypt",
+        "match": "Egypt vs Iran"
+      },
+      {
+        "player": "Yasser Ibrahim",
+        "team": "Egypt",
+        "match": "Egypt vs Iran"
+      },
+      {
+        "player": "Ali Nemati",
+        "team": "Iran",
+        "match": "Egypt vs Iran"
+      },
+      {
+        "player": "Saeid Ezatolahi",
+        "team": "Iran",
+        "match": "Egypt vs Iran"
+      },
+      {
+        "player": "Mohanad Lasheen",
+        "team": "Egypt",
+        "match": "Egypt vs Iran"
+      },
+      {
+        "player": "Shoja Khalilzadeh",
+        "team": "Iran",
+        "match": "Egypt vs Iran"
       }
     ],
     "penaltyEvents": [
@@ -9496,6 +9663,9 @@
       },
       {
         "match": "Norway vs France"
+      },
+      {
+        "match": "Egypt vs Iran"
       }
     ],
     "matchStats": [
@@ -9946,6 +10116,13 @@
         "yellowCards": 4,
         "penalties": 0,
         "elapsed": 102
+      },
+      {
+        "match": "Egypt vs Iran",
+        "redCards": 0,
+        "yellowCards": 7,
+        "penalties": 1,
+        "elapsed": 101
       }
     ]
   }
