@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T16:51:22.607Z",
+  "updatedAt": "2026-06-26T21:54:07.110Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -95,7 +95,7 @@
     "Algeria": "#006233",
     "Austria": "#ed2939",
     "Jordan": "#ce1126",
-    "Portugal": "#046a38",
+    "Portugal": "#da291c",
     "DR Congo": "#007fff",
     "Uzbekistan": "#0099b5",
     "Colombia": "#fcd116",
@@ -408,47 +408,47 @@
     ],
     "G": [
       {
-        "name": "Belgium",
-        "flag": "BEL",
-        "fifaRank": 8,
-        "played": 3,
-        "won": 1,
-        "drawn": 2,
-        "lost": 0,
-        "gd": 4,
-        "points": 5
-      },
-      {
         "name": "Egypt",
         "flag": "EGY",
         "fifaRank": 34,
-        "played": 3,
+        "played": 2,
         "won": 1,
-        "drawn": 2,
+        "drawn": 1,
         "lost": 0,
         "gd": 2,
-        "points": 5
+        "points": 4
+      },
+      {
+        "name": "Belgium",
+        "flag": "BEL",
+        "fifaRank": 8,
+        "played": 2,
+        "won": 0,
+        "drawn": 2,
+        "lost": 0,
+        "gd": 0,
+        "points": 2
       },
       {
         "name": "Iran",
         "flag": "IRN",
         "fifaRank": 20,
-        "played": 3,
+        "played": 2,
         "won": 0,
-        "drawn": 3,
+        "drawn": 2,
         "lost": 0,
         "gd": 0,
-        "points": 3
+        "points": 2
       },
       {
         "name": "New Zealand",
         "flag": "NZL",
         "fifaRank": 86,
-        "played": 3,
+        "played": 2,
         "won": 0,
         "drawn": 1,
-        "lost": 2,
-        "gd": -6,
+        "lost": 1,
+        "gd": -2,
         "points": 1
       }
     ],
@@ -457,45 +457,45 @@
         "name": "Spain",
         "flag": "ESP",
         "fifaRank": 1,
-        "played": 3,
-        "won": 2,
+        "played": 2,
+        "won": 1,
         "drawn": 1,
         "lost": 0,
-        "gd": 5,
-        "points": 7
+        "gd": 4,
+        "points": 4
       },
       {
         "name": "Cabo Verde",
         "flag": "CPV",
         "fifaRank": 68,
-        "played": 3,
+        "played": 2,
         "won": 0,
-        "drawn": 3,
+        "drawn": 2,
         "lost": 0,
         "gd": 0,
-        "points": 3
+        "points": 2
       },
       {
         "name": "Uruguay",
         "flag": "URU",
         "fifaRank": 16,
-        "played": 3,
+        "played": 2,
         "won": 0,
         "drawn": 2,
-        "lost": 1,
-        "gd": -1,
+        "lost": 0,
+        "gd": 0,
         "points": 2
       },
       {
         "name": "Saudi Arabia",
         "flag": "KSA",
         "fifaRank": 60,
-        "played": 3,
+        "played": 2,
         "won": 0,
-        "drawn": 2,
+        "drawn": 1,
         "lost": 1,
         "gd": -4,
-        "points": 2
+        "points": 1
       }
     ],
     "I": [
@@ -3959,7 +3959,7 @@
       "date": "Friday, June 26, 2026",
       "stage": "Group Stage",
       "group": "Group H",
-      "time": "7:00 PM CDT (7:00 PM CDT venue local)",
+      "time": "7:00 PM local",
       "kickoffISO": "2026-06-27T00:00:00Z",
       "home": "Cabo Verde",
       "homeFlag": "CPV",
@@ -3968,102 +3968,28 @@
       "location": "NRG Stadium · Houston",
       "venueTimeZone": "America/Chicago",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 2,
-      "status": "FT",
-      "elapsed": 101,
-      "homeScore": 0,
-      "awayScore": 0,
-      "scorers": [],
-      "yellowCards": [
-        {
-          "player": "yellow=Saud Abdulhamid",
-          "team": "Saudi Arabia",
-          "match": "Cabo Verde vs Saudi Arabia"
-        },
-        {
-          "player": "Wagner Pina",
-          "team": "Cabo Verde",
-          "match": "Cabo Verde vs Saudi Arabia"
-        },
-        {
-          "player": "Nasser Al Dawsari",
-          "team": "Saudi Arabia",
-          "match": "Cabo Verde vs Saudi Arabia"
-        },
-        {
-          "player": "Feras Al Brikan",
-          "team": "Saudi Arabia",
-          "match": "Cabo Verde vs Saudi Arabia"
-        }
-      ],
-      "redCards": [],
-      "penalties": 0,
-      "homeKeeper": "Vozinha",
-      "awayKeeper": "Mohammed Al-Owais"
+      "predictedAwayScore": 2
     },
     {
       "date": "Friday, June 26, 2026",
       "stage": "Group Stage",
       "group": "Group H",
-      "time": "7:00 PM CDT (6:00 PM CST venue local)",
+      "time": "6:00 PM local",
       "kickoffISO": "2026-06-27T00:00:00Z",
       "home": "Uruguay",
       "homeFlag": "URU",
       "away": "Spain",
       "awayFlag": "ESP",
-      "location": "Estadio Akron · Guadalajara; Estadio Akron",
+      "location": "Estadio Akron · Guadalajara",
       "venueTimeZone": "America/Mexico_City",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 2,
-      "status": "FT",
-      "elapsed": 102,
-      "homeScore": 0,
-      "awayScore": 1,
-      "scorers": [
-        {
-          "player": "Álex Baena",
-          "team": "Spain",
-          "match": "Uruguay vs Spain"
-        }
-      ],
-      "yellowCards": [
-        {
-          "player": "Álex Baena",
-          "team": "Spain",
-          "match": "Uruguay vs Spain"
-        },
-        {
-          "player": "Juan Manuel Sanabria",
-          "team": "Uruguay",
-          "match": "Uruguay vs Spain"
-        },
-        {
-          "player": "Guillermo Varela",
-          "team": "Uruguay",
-          "match": "Uruguay vs Spain"
-        },
-        {
-          "player": "Nicolás de la Cruz",
-          "team": "Uruguay",
-          "match": "Uruguay vs Spain"
-        }
-      ],
-      "redCards": [
-        {
-          "player": "Agustín Canobbio",
-          "team": "Uruguay",
-          "match": "Uruguay vs Spain"
-        }
-      ],
-      "penalties": 0,
-      "homeKeeper": "Fernando Muslera",
-      "awayKeeper": "Unai Simón"
+      "predictedAwayScore": 2
     },
     {
       "date": "Friday, June 26, 2026",
       "stage": "Group Stage",
       "group": "Group G",
-      "time": "10:00 PM CDT (8:00 PM PDT venue local)",
+      "time": "8:00 PM local",
       "kickoffISO": "2026-06-27T03:00:00Z",
       "home": "Egypt",
       "homeFlag": "EGY",
@@ -4072,70 +3998,13 @@
       "location": "Lumen Field · Seattle",
       "venueTimeZone": "America/Los_Angeles",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 2,
-      "status": "FT",
-      "elapsed": 101,
-      "homeScore": 1,
-      "awayScore": 1,
-      "scorers": [
-        {
-          "player": "Mahmoud Saber",
-          "team": "Egypt",
-          "match": "Egypt vs Iran"
-        },
-        {
-          "player": "Ramin Rezaeian",
-          "team": "Iran",
-          "match": "Egypt vs Iran"
-        }
-      ],
-      "yellowCards": [
-        {
-          "player": "Hossein Kanani",
-          "team": "Iran",
-          "match": "Egypt vs Iran"
-        },
-        {
-          "player": "Mahmoud Saber",
-          "team": "Egypt",
-          "match": "Egypt vs Iran"
-        },
-        {
-          "player": "Yasser Ibrahim",
-          "team": "Egypt",
-          "match": "Egypt vs Iran"
-        },
-        {
-          "player": "Ali Nemati",
-          "team": "Iran",
-          "match": "Egypt vs Iran"
-        },
-        {
-          "player": "Saeid Ezatolahi",
-          "team": "Iran",
-          "match": "Egypt vs Iran"
-        },
-        {
-          "player": "Mohanad Lasheen",
-          "team": "Egypt",
-          "match": "Egypt vs Iran"
-        },
-        {
-          "player": "Shoja Khalilzadeh",
-          "team": "Iran",
-          "match": "Egypt vs Iran"
-        }
-      ],
-      "redCards": [],
-      "penalties": 1,
-      "homeKeeper": "Mostafa Shobeir",
-      "awayKeeper": "Alireza Beiranvand"
+      "predictedAwayScore": 2
     },
     {
       "date": "Friday, June 26, 2026",
       "stage": "Group Stage",
       "group": "Group G",
-      "time": "10:00 PM CDT (8:00 PM PDT venue local)",
+      "time": "8:00 PM local",
       "kickoffISO": "2026-06-27T03:00:00Z",
       "home": "New Zealand",
       "homeFlag": "NZL",
@@ -4144,54 +4013,7 @@
       "location": "BC Place · Vancouver",
       "venueTimeZone": "America/Vancouver",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 3,
-      "status": "FT",
-      "elapsed": 95,
-      "homeScore": 1,
-      "awayScore": 5,
-      "scorers": [
-        {
-          "player": "Leandro Trossard",
-          "team": "Belgium",
-          "match": "New Zealand vs Belgium"
-        },
-        {
-          "player": "Leandro Trossard",
-          "team": "Belgium",
-          "match": "New Zealand vs Belgium"
-        },
-        {
-          "player": "Kevin De Bruyne",
-          "team": "Belgium",
-          "match": "New Zealand vs Belgium"
-        },
-        {
-          "player": "Elijah Just",
-          "team": "New Zealand",
-          "match": "New Zealand vs Belgium"
-        },
-        {
-          "player": "Romelu Lukaku",
-          "team": "Belgium",
-          "match": "New Zealand vs Belgium"
-        },
-        {
-          "player": "Alexis Saelemaekers",
-          "team": "Belgium",
-          "match": "New Zealand vs Belgium"
-        }
-      ],
-      "yellowCards": [
-        {
-          "player": "Marko Stamenic",
-          "team": "New Zealand",
-          "match": "New Zealand vs Belgium"
-        }
-      ],
-      "redCards": [],
-      "penalties": 0,
-      "homeKeeper": "Max Crocombe",
-      "awayKeeper": "Thibaut Courtois"
+      "predictedAwayScore": 3
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -7719,236 +7541,6 @@
       "predictedAwayScore": 1,
       "homeKeeper": "Mory Diaw",
       "awayKeeper": "Ahmed Basil"
-    },
-    {
-      "date": "Friday, June 26, 2026",
-      "stage": "Group Stage",
-      "group": "Group H",
-      "time": "7:00 PM CDT (7:00 PM CDT venue local)",
-      "home": "Cabo Verde",
-      "homeFlag": "CPV",
-      "away": "Saudi Arabia",
-      "awayFlag": "KSA",
-      "location": "NRG Stadium · Houston",
-      "status": "FT",
-      "elapsed": 101,
-      "homeScore": 0,
-      "awayScore": 0,
-      "scorers": [],
-      "yellowCards": [
-        {
-          "player": "yellow=Saud Abdulhamid",
-          "team": "Saudi Arabia",
-          "match": "Cabo Verde vs Saudi Arabia"
-        },
-        {
-          "player": "Wagner Pina",
-          "team": "Cabo Verde",
-          "match": "Cabo Verde vs Saudi Arabia"
-        },
-        {
-          "player": "Nasser Al Dawsari",
-          "team": "Saudi Arabia",
-          "match": "Cabo Verde vs Saudi Arabia"
-        },
-        {
-          "player": "Feras Al Brikan",
-          "team": "Saudi Arabia",
-          "match": "Cabo Verde vs Saudi Arabia"
-        }
-      ],
-      "redCards": [],
-      "penalties": 0,
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 2,
-      "homeKeeper": "Vozinha",
-      "awayKeeper": "Mohammed Al-Owais"
-    },
-    {
-      "date": "Friday, June 26, 2026",
-      "stage": "Group Stage",
-      "group": "Group H",
-      "time": "7:00 PM CDT (6:00 PM CST venue local)",
-      "home": "Uruguay",
-      "homeFlag": "URU",
-      "away": "Spain",
-      "awayFlag": "ESP",
-      "location": "Estadio Akron · Guadalajara; Estadio Akron",
-      "status": "FT",
-      "elapsed": 102,
-      "homeScore": 0,
-      "awayScore": 1,
-      "scorers": [
-        {
-          "player": "Álex Baena",
-          "team": "Spain",
-          "match": "Uruguay vs Spain"
-        }
-      ],
-      "yellowCards": [
-        {
-          "player": "Álex Baena",
-          "team": "Spain",
-          "match": "Uruguay vs Spain"
-        },
-        {
-          "player": "Juan Manuel Sanabria",
-          "team": "Uruguay",
-          "match": "Uruguay vs Spain"
-        },
-        {
-          "player": "Guillermo Varela",
-          "team": "Uruguay",
-          "match": "Uruguay vs Spain"
-        },
-        {
-          "player": "Nicolás de la Cruz",
-          "team": "Uruguay",
-          "match": "Uruguay vs Spain"
-        }
-      ],
-      "redCards": [
-        {
-          "player": "Agustín Canobbio",
-          "team": "Uruguay",
-          "match": "Uruguay vs Spain"
-        }
-      ],
-      "penalties": 0,
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 2,
-      "homeKeeper": "Fernando Muslera",
-      "awayKeeper": "Unai Simón"
-    },
-    {
-      "date": "Friday, June 26, 2026",
-      "stage": "Group Stage",
-      "group": "Group G",
-      "time": "10:00 PM CDT (8:00 PM PDT venue local)",
-      "home": "Egypt",
-      "homeFlag": "EGY",
-      "away": "Iran",
-      "awayFlag": "IRN",
-      "location": "Lumen Field · Seattle",
-      "status": "FT",
-      "elapsed": 101,
-      "homeScore": 1,
-      "awayScore": 1,
-      "scorers": [
-        {
-          "player": "Mahmoud Saber",
-          "team": "Egypt",
-          "match": "Egypt vs Iran"
-        },
-        {
-          "player": "Ramin Rezaeian",
-          "team": "Iran",
-          "match": "Egypt vs Iran"
-        }
-      ],
-      "yellowCards": [
-        {
-          "player": "Hossein Kanani",
-          "team": "Iran",
-          "match": "Egypt vs Iran"
-        },
-        {
-          "player": "Mahmoud Saber",
-          "team": "Egypt",
-          "match": "Egypt vs Iran"
-        },
-        {
-          "player": "Yasser Ibrahim",
-          "team": "Egypt",
-          "match": "Egypt vs Iran"
-        },
-        {
-          "player": "Ali Nemati",
-          "team": "Iran",
-          "match": "Egypt vs Iran"
-        },
-        {
-          "player": "Saeid Ezatolahi",
-          "team": "Iran",
-          "match": "Egypt vs Iran"
-        },
-        {
-          "player": "Mohanad Lasheen",
-          "team": "Egypt",
-          "match": "Egypt vs Iran"
-        },
-        {
-          "player": "Shoja Khalilzadeh",
-          "team": "Iran",
-          "match": "Egypt vs Iran"
-        }
-      ],
-      "redCards": [],
-      "penalties": 1,
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 2,
-      "homeKeeper": "Mostafa Shobeir",
-      "awayKeeper": "Alireza Beiranvand"
-    },
-    {
-      "date": "Friday, June 26, 2026",
-      "stage": "Group Stage",
-      "group": "Group G",
-      "time": "10:00 PM CDT (8:00 PM PDT venue local)",
-      "home": "New Zealand",
-      "homeFlag": "NZL",
-      "away": "Belgium",
-      "awayFlag": "BEL",
-      "location": "BC Place · Vancouver",
-      "status": "FT",
-      "elapsed": 95,
-      "homeScore": 1,
-      "awayScore": 5,
-      "scorers": [
-        {
-          "player": "Leandro Trossard",
-          "team": "Belgium",
-          "match": "New Zealand vs Belgium"
-        },
-        {
-          "player": "Leandro Trossard",
-          "team": "Belgium",
-          "match": "New Zealand vs Belgium"
-        },
-        {
-          "player": "Kevin De Bruyne",
-          "team": "Belgium",
-          "match": "New Zealand vs Belgium"
-        },
-        {
-          "player": "Elijah Just",
-          "team": "New Zealand",
-          "match": "New Zealand vs Belgium"
-        },
-        {
-          "player": "Romelu Lukaku",
-          "team": "Belgium",
-          "match": "New Zealand vs Belgium"
-        },
-        {
-          "player": "Alexis Saelemaekers",
-          "team": "Belgium",
-          "match": "New Zealand vs Belgium"
-        }
-      ],
-      "yellowCards": [
-        {
-          "player": "Marko Stamenic",
-          "team": "New Zealand",
-          "match": "New Zealand vs Belgium"
-        }
-      ],
-      "redCards": [],
-      "penalties": 0,
-      "predictedHomeScore": 1,
-      "predictedAwayScore": 3,
-      "homeKeeper": "Max Crocombe",
-      "awayKeeper": "Thibaut Courtois"
     }
   ],
   "detailedStats": {
@@ -7987,11 +7579,6 @@
         "name": "Deniz Undav",
         "value": 3,
         "detail": "Germany"
-      },
-      {
-        "name": "Elijah Just",
-        "value": 3,
-        "detail": "New Zealand"
       },
       {
         "name": "Ismael Saibari",
@@ -8059,6 +7646,11 @@
         "detail": "Colombia"
       },
       {
+        "name": "Elijah Just",
+        "value": 2,
+        "detail": "New Zealand"
+      },
+      {
         "name": "Ermin Mahmić",
         "value": 2,
         "detail": "Bosnia and Herzegovina"
@@ -8084,11 +7676,6 @@
         "detail": "Germany"
       },
       {
-        "name": "Leandro Trossard",
-        "value": 2,
-        "detail": "Belgium"
-      },
-      {
         "name": "Mikel Oyarzabal",
         "value": 2,
         "detail": "Spain"
@@ -8102,11 +7689,6 @@
         "name": "Pape Gueye",
         "value": 2,
         "detail": "Senegal"
-      },
-      {
-        "name": "Ramin Rezaeian",
-        "value": 2,
-        "detail": "Iran"
       },
       {
         "name": "Rubén Vargas",
@@ -8144,11 +7726,6 @@
         "detail": "Uruguay"
       },
       {
-        "name": "Álex Baena",
-        "value": 1,
-        "detail": "Spain"
-      },
-      {
         "name": "Alex Freeman",
         "value": 1,
         "detail": "United States"
@@ -8157,11 +7734,6 @@
         "name": "Alexander Isak",
         "value": 1,
         "detail": "Sweden"
-      },
-      {
-        "name": "Alexis Saelemaekers",
-        "value": 1,
-        "detail": "Belgium"
       },
       {
         "name": "Ali Olwan",
@@ -8404,11 +7976,6 @@
         "detail": "Bosnia and Herzegovina"
       },
       {
-        "name": "Kevin De Bruyne",
-        "value": 1,
-        "detail": "Belgium"
-      },
-      {
         "name": "Kevin Pina",
         "value": 1,
         "detail": "Cabo Verde"
@@ -8447,11 +8014,6 @@
         "name": "Luis Romo",
         "value": 1,
         "detail": "Mexico"
-      },
-      {
-        "name": "Mahmoud Saber",
-        "value": 1,
-        "detail": "Egypt"
       },
       {
         "name": "Marcus Holmgren Pedersen",
@@ -8594,6 +8156,11 @@
         "detail": "Portugal"
       },
       {
+        "name": "Ramin Rezaeian",
+        "value": 1,
+        "detail": "Iran"
+      },
+      {
         "name": "Raúl Jiménez",
         "value": 1,
         "detail": "Mexico"
@@ -8602,11 +8169,6 @@
         "name": "Romano Schmid",
         "value": 1,
         "detail": "Austria"
-      },
-      {
-        "name": "Romelu Lukaku",
-        "value": 1,
-        "detail": "Belgium"
       },
       {
         "name": "Sebastian Berhalter",
@@ -8681,11 +8243,6 @@
         "detail": "Mexico · 0 goals conceded in 3 appearances"
       },
       {
-        "name": "Unai Simón",
-        "value": 3,
-        "detail": "Spain · 0 goals conceded in 3 appearances"
-      },
-      {
         "name": "Alisson Becker",
         "value": 2,
         "detail": "Brazil · 1 goals conceded in 3 appearances"
@@ -8706,9 +8263,9 @@
         "detail": "Australia · 2 goals conceded in 3 appearances"
       },
       {
-        "name": "Vozinha",
+        "name": "Unai Simón",
         "value": 2,
-        "detail": "Cabo Verde · 2 goals conceded in 3 appearances"
+        "detail": "Spain · 0 goals conceded in 2 appearances"
       },
       {
         "name": "Yahia Fofana",
@@ -8718,7 +8275,7 @@
       {
         "name": "Alireza Beiranvand",
         "value": 1,
-        "detail": "Iran · 3 goals conceded in 3 appearances"
+        "detail": "Iran · 2 goals conceded in 2 appearances"
       },
       {
         "name": "Angus Gunn",
@@ -8781,11 +8338,6 @@
         "detail": "France · 2 goals conceded in 3 appearances"
       },
       {
-        "name": "Mohammed Al-Owais",
-        "value": 1,
-        "detail": "Saudi Arabia · 5 goals conceded in 3 appearances"
-      },
-      {
         "name": "Mory Diaw",
         "value": 1,
         "detail": "Senegal · 0 goals conceded in 1 appearance"
@@ -8798,7 +8350,12 @@
       {
         "name": "Thibaut Courtois",
         "value": 1,
-        "detail": "Belgium · 2 goals conceded in 3 appearances"
+        "detail": "Belgium · 1 goals conceded in 2 appearances"
+      },
+      {
+        "name": "Vozinha",
+        "value": 1,
+        "detail": "Cabo Verde · 2 goals conceded in 2 appearances"
       },
       {
         "name": "Yassine Bounou",
@@ -8848,7 +8405,7 @@
       {
         "name": "Fernando Muslera",
         "value": 0,
-        "detail": "Uruguay · 4 goals conceded in 3 appearances"
+        "detail": "Uruguay · 3 goals conceded in 2 appearances"
       },
       {
         "name": "Gregor Kobel",
@@ -8908,12 +8465,17 @@
       {
         "name": "Max Crocombe",
         "value": 0,
-        "detail": "New Zealand · 10 goals conceded in 3 appearances"
+        "detail": "New Zealand · 5 goals conceded in 2 appearances"
+      },
+      {
+        "name": "Mohammed Al-Owais",
+        "value": 0,
+        "detail": "Saudi Arabia · 5 goals conceded in 2 appearances"
       },
       {
         "name": "Mostafa Shobeir",
         "value": 0,
-        "detail": "Egypt · 3 goals conceded in 3 appearances"
+        "detail": "Egypt · 2 goals conceded in 2 appearances"
       },
       {
         "name": "Mouhib Chamakh",
@@ -8958,8 +8520,7 @@
       "Qatar": 2,
       "Paraguay": 1,
       "Belgium": 1,
-      "Iraq": 1,
-      "Uruguay": 1
+      "Iraq": 1
     },
     "yellowCards": {
       "South Africa": 7,
@@ -8978,12 +8539,12 @@
       "Cote d'Ivoire": 5,
       "Ecuador": 2,
       "Tunisia": 1,
-      "Spain": 2,
-      "Cabo Verde": 4,
-      "Egypt": 6,
+      "Spain": 1,
+      "Cabo Verde": 3,
+      "Egypt": 3,
       "Belgium": 3,
-      "Saudi Arabia": 6,
-      "Iran": 6,
+      "Saudi Arabia": 3,
+      "Iran": 2,
       "Austria": 3,
       "Portugal": 4,
       "DR Congo": 2,
@@ -8997,8 +8558,8 @@
       "Sweden": 3,
       "Germany": 1,
       "Curaçao": 7,
-      "Uruguay": 5,
-      "New Zealand": 3,
+      "Uruguay": 2,
+      "New Zealand": 2,
       "Argentina": 2,
       "Iraq": 1,
       "Algeria": 1,
@@ -9052,11 +8613,6 @@
         "player": "Rebin Sulaka",
         "team": "Iraq",
         "match": "Senegal vs Iraq"
-      },
-      {
-        "player": "Agustín Canobbio",
-        "team": "Uruguay",
-        "match": "Uruguay vs Spain"
       }
     ],
     "yellowCardEvents": [
@@ -9689,86 +9245,6 @@
         "player": "Patrick Berg",
         "team": "Norway",
         "match": "Norway vs France"
-      },
-      {
-        "player": "yellow=Saud Abdulhamid",
-        "team": "Saudi Arabia",
-        "match": "Cabo Verde vs Saudi Arabia"
-      },
-      {
-        "player": "Wagner Pina",
-        "team": "Cabo Verde",
-        "match": "Cabo Verde vs Saudi Arabia"
-      },
-      {
-        "player": "Nasser Al Dawsari",
-        "team": "Saudi Arabia",
-        "match": "Cabo Verde vs Saudi Arabia"
-      },
-      {
-        "player": "Feras Al Brikan",
-        "team": "Saudi Arabia",
-        "match": "Cabo Verde vs Saudi Arabia"
-      },
-      {
-        "player": "Álex Baena",
-        "team": "Spain",
-        "match": "Uruguay vs Spain"
-      },
-      {
-        "player": "Juan Manuel Sanabria",
-        "team": "Uruguay",
-        "match": "Uruguay vs Spain"
-      },
-      {
-        "player": "Guillermo Varela",
-        "team": "Uruguay",
-        "match": "Uruguay vs Spain"
-      },
-      {
-        "player": "Nicolás de la Cruz",
-        "team": "Uruguay",
-        "match": "Uruguay vs Spain"
-      },
-      {
-        "player": "Hossein Kanani",
-        "team": "Iran",
-        "match": "Egypt vs Iran"
-      },
-      {
-        "player": "Mahmoud Saber",
-        "team": "Egypt",
-        "match": "Egypt vs Iran"
-      },
-      {
-        "player": "Yasser Ibrahim",
-        "team": "Egypt",
-        "match": "Egypt vs Iran"
-      },
-      {
-        "player": "Ali Nemati",
-        "team": "Iran",
-        "match": "Egypt vs Iran"
-      },
-      {
-        "player": "Saeid Ezatolahi",
-        "team": "Iran",
-        "match": "Egypt vs Iran"
-      },
-      {
-        "player": "Mohanad Lasheen",
-        "team": "Egypt",
-        "match": "Egypt vs Iran"
-      },
-      {
-        "player": "Shoja Khalilzadeh",
-        "team": "Iran",
-        "match": "Egypt vs Iran"
-      },
-      {
-        "player": "Marko Stamenic",
-        "team": "New Zealand",
-        "match": "New Zealand vs Belgium"
       }
     ],
     "penaltyEvents": [
@@ -9795,9 +9271,6 @@
       },
       {
         "match": "Norway vs France"
-      },
-      {
-        "match": "Egypt vs Iran"
       }
     ],
     "matchStats": [
@@ -10234,34 +9707,6 @@
         "yellowCards": 0,
         "penalties": 0,
         "elapsed": 102
-      },
-      {
-        "match": "Cabo Verde vs Saudi Arabia",
-        "redCards": 0,
-        "yellowCards": 4,
-        "penalties": 0,
-        "elapsed": 101
-      },
-      {
-        "match": "Uruguay vs Spain",
-        "redCards": 1,
-        "yellowCards": 4,
-        "penalties": 0,
-        "elapsed": 102
-      },
-      {
-        "match": "Egypt vs Iran",
-        "redCards": 0,
-        "yellowCards": 7,
-        "penalties": 1,
-        "elapsed": 101
-      },
-      {
-        "match": "New Zealand vs Belgium",
-        "redCards": 0,
-        "yellowCards": 1,
-        "penalties": 0,
-        "elapsed": 95
       }
     ]
   }
