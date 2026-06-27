@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T16:37:07.569Z",
+  "updatedAt": "2026-06-27T16:51:22.607Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -408,6 +408,17 @@
     ],
     "G": [
       {
+        "name": "Belgium",
+        "flag": "BEL",
+        "fifaRank": 8,
+        "played": 3,
+        "won": 1,
+        "drawn": 2,
+        "lost": 0,
+        "gd": 4,
+        "points": 5
+      },
+      {
         "name": "Egypt",
         "flag": "EGY",
         "fifaRank": 34,
@@ -430,25 +441,14 @@
         "points": 3
       },
       {
-        "name": "Belgium",
-        "flag": "BEL",
-        "fifaRank": 8,
-        "played": 2,
-        "won": 0,
-        "drawn": 2,
-        "lost": 0,
-        "gd": 0,
-        "points": 2
-      },
-      {
         "name": "New Zealand",
         "flag": "NZL",
         "fifaRank": 86,
-        "played": 2,
+        "played": 3,
         "won": 0,
         "drawn": 1,
-        "lost": 1,
-        "gd": -2,
+        "lost": 2,
+        "gd": -6,
         "points": 1
       }
     ],
@@ -4135,7 +4135,7 @@
       "date": "Friday, June 26, 2026",
       "stage": "Group Stage",
       "group": "Group G",
-      "time": "8:00 PM local",
+      "time": "10:00 PM CDT (8:00 PM PDT venue local)",
       "kickoffISO": "2026-06-27T03:00:00Z",
       "home": "New Zealand",
       "homeFlag": "NZL",
@@ -4144,7 +4144,54 @@
       "location": "BC Place · Vancouver",
       "venueTimeZone": "America/Vancouver",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 3
+      "predictedAwayScore": 3,
+      "status": "FT",
+      "elapsed": 95,
+      "homeScore": 1,
+      "awayScore": 5,
+      "scorers": [
+        {
+          "player": "Leandro Trossard",
+          "team": "Belgium",
+          "match": "New Zealand vs Belgium"
+        },
+        {
+          "player": "Leandro Trossard",
+          "team": "Belgium",
+          "match": "New Zealand vs Belgium"
+        },
+        {
+          "player": "Kevin De Bruyne",
+          "team": "Belgium",
+          "match": "New Zealand vs Belgium"
+        },
+        {
+          "player": "Elijah Just",
+          "team": "New Zealand",
+          "match": "New Zealand vs Belgium"
+        },
+        {
+          "player": "Romelu Lukaku",
+          "team": "Belgium",
+          "match": "New Zealand vs Belgium"
+        },
+        {
+          "player": "Alexis Saelemaekers",
+          "team": "Belgium",
+          "match": "New Zealand vs Belgium"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Marko Stamenic",
+          "team": "New Zealand",
+          "match": "New Zealand vs Belgium"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Max Crocombe",
+      "awayKeeper": "Thibaut Courtois"
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -7842,6 +7889,66 @@
       "predictedAwayScore": 2,
       "homeKeeper": "Mostafa Shobeir",
       "awayKeeper": "Alireza Beiranvand"
+    },
+    {
+      "date": "Friday, June 26, 2026",
+      "stage": "Group Stage",
+      "group": "Group G",
+      "time": "10:00 PM CDT (8:00 PM PDT venue local)",
+      "home": "New Zealand",
+      "homeFlag": "NZL",
+      "away": "Belgium",
+      "awayFlag": "BEL",
+      "location": "BC Place · Vancouver",
+      "status": "FT",
+      "elapsed": 95,
+      "homeScore": 1,
+      "awayScore": 5,
+      "scorers": [
+        {
+          "player": "Leandro Trossard",
+          "team": "Belgium",
+          "match": "New Zealand vs Belgium"
+        },
+        {
+          "player": "Leandro Trossard",
+          "team": "Belgium",
+          "match": "New Zealand vs Belgium"
+        },
+        {
+          "player": "Kevin De Bruyne",
+          "team": "Belgium",
+          "match": "New Zealand vs Belgium"
+        },
+        {
+          "player": "Elijah Just",
+          "team": "New Zealand",
+          "match": "New Zealand vs Belgium"
+        },
+        {
+          "player": "Romelu Lukaku",
+          "team": "Belgium",
+          "match": "New Zealand vs Belgium"
+        },
+        {
+          "player": "Alexis Saelemaekers",
+          "team": "Belgium",
+          "match": "New Zealand vs Belgium"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Marko Stamenic",
+          "team": "New Zealand",
+          "match": "New Zealand vs Belgium"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 3,
+      "homeKeeper": "Max Crocombe",
+      "awayKeeper": "Thibaut Courtois"
     }
   ],
   "detailedStats": {
@@ -7880,6 +7987,11 @@
         "name": "Deniz Undav",
         "value": 3,
         "detail": "Germany"
+      },
+      {
+        "name": "Elijah Just",
+        "value": 3,
+        "detail": "New Zealand"
       },
       {
         "name": "Ismael Saibari",
@@ -7947,11 +8059,6 @@
         "detail": "Colombia"
       },
       {
-        "name": "Elijah Just",
-        "value": 2,
-        "detail": "New Zealand"
-      },
-      {
         "name": "Ermin Mahmić",
         "value": 2,
         "detail": "Bosnia and Herzegovina"
@@ -7975,6 +8082,11 @@
         "name": "Kai Havertz",
         "value": 2,
         "detail": "Germany"
+      },
+      {
+        "name": "Leandro Trossard",
+        "value": 2,
+        "detail": "Belgium"
       },
       {
         "name": "Mikel Oyarzabal",
@@ -8045,6 +8157,11 @@
         "name": "Alexander Isak",
         "value": 1,
         "detail": "Sweden"
+      },
+      {
+        "name": "Alexis Saelemaekers",
+        "value": 1,
+        "detail": "Belgium"
       },
       {
         "name": "Ali Olwan",
@@ -8287,6 +8404,11 @@
         "detail": "Bosnia and Herzegovina"
       },
       {
+        "name": "Kevin De Bruyne",
+        "value": 1,
+        "detail": "Belgium"
+      },
+      {
         "name": "Kevin Pina",
         "value": 1,
         "detail": "Cabo Verde"
@@ -8482,6 +8604,11 @@
         "detail": "Austria"
       },
       {
+        "name": "Romelu Lukaku",
+        "value": 1,
+        "detail": "Belgium"
+      },
+      {
         "name": "Sebastian Berhalter",
         "value": 1,
         "detail": "United States"
@@ -8671,7 +8798,7 @@
       {
         "name": "Thibaut Courtois",
         "value": 1,
-        "detail": "Belgium · 1 goals conceded in 2 appearances"
+        "detail": "Belgium · 2 goals conceded in 3 appearances"
       },
       {
         "name": "Yassine Bounou",
@@ -8781,7 +8908,7 @@
       {
         "name": "Max Crocombe",
         "value": 0,
-        "detail": "New Zealand · 5 goals conceded in 2 appearances"
+        "detail": "New Zealand · 10 goals conceded in 3 appearances"
       },
       {
         "name": "Mostafa Shobeir",
@@ -8871,7 +8998,7 @@
       "Germany": 1,
       "Curaçao": 7,
       "Uruguay": 5,
-      "New Zealand": 2,
+      "New Zealand": 3,
       "Argentina": 2,
       "Iraq": 1,
       "Algeria": 1,
@@ -9637,6 +9764,11 @@
         "player": "Shoja Khalilzadeh",
         "team": "Iran",
         "match": "Egypt vs Iran"
+      },
+      {
+        "player": "Marko Stamenic",
+        "team": "New Zealand",
+        "match": "New Zealand vs Belgium"
       }
     ],
     "penaltyEvents": [
@@ -10123,6 +10255,13 @@
         "yellowCards": 7,
         "penalties": 1,
         "elapsed": 101
+      },
+      {
+        "match": "New Zealand vs Belgium",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 95
       }
     ]
   }
