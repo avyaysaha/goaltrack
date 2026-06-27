@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T21:54:07.110Z",
+  "updatedAt": "2026-06-27T03:17:46.261Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -468,12 +468,12 @@
         "name": "Cabo Verde",
         "flag": "CPV",
         "fifaRank": 68,
-        "played": 2,
+        "played": 3,
         "won": 0,
-        "drawn": 2,
+        "drawn": 3,
         "lost": 0,
         "gd": 0,
-        "points": 2
+        "points": 3
       },
       {
         "name": "Uruguay",
@@ -490,12 +490,12 @@
         "name": "Saudi Arabia",
         "flag": "KSA",
         "fifaRank": 60,
-        "played": 2,
+        "played": 3,
         "won": 0,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 1,
         "gd": -4,
-        "points": 1
+        "points": 2
       }
     ],
     "I": [
@@ -3959,7 +3959,7 @@
       "date": "Friday, June 26, 2026",
       "stage": "Group Stage",
       "group": "Group H",
-      "time": "7:00 PM local",
+      "time": "7:00 PM CDT (7:00 PM CDT venue local)",
       "kickoffISO": "2026-06-27T00:00:00Z",
       "home": "Cabo Verde",
       "homeFlag": "CPV",
@@ -3968,7 +3968,38 @@
       "location": "NRG Stadium · Houston",
       "venueTimeZone": "America/Chicago",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 2
+      "predictedAwayScore": 2,
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 0,
+      "awayScore": 0,
+      "scorers": [],
+      "yellowCards": [
+        {
+          "player": "yellow=Saud Abdulhamid",
+          "team": "Saudi Arabia",
+          "match": "Cabo Verde vs Saudi Arabia"
+        },
+        {
+          "player": "Wagner Pina",
+          "team": "Cabo Verde",
+          "match": "Cabo Verde vs Saudi Arabia"
+        },
+        {
+          "player": "Nasser Al Dawsari",
+          "team": "Saudi Arabia",
+          "match": "Cabo Verde vs Saudi Arabia"
+        },
+        {
+          "player": "Feras Al Brikan",
+          "team": "Saudi Arabia",
+          "match": "Cabo Verde vs Saudi Arabia"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Vozinha",
+      "awayKeeper": "Mohammed Al-Owais"
     },
     {
       "date": "Friday, June 26, 2026",
@@ -7541,6 +7572,50 @@
       "predictedAwayScore": 1,
       "homeKeeper": "Mory Diaw",
       "awayKeeper": "Ahmed Basil"
+    },
+    {
+      "date": "Friday, June 26, 2026",
+      "stage": "Group Stage",
+      "group": "Group H",
+      "time": "7:00 PM CDT (7:00 PM CDT venue local)",
+      "home": "Cabo Verde",
+      "homeFlag": "CPV",
+      "away": "Saudi Arabia",
+      "awayFlag": "KSA",
+      "location": "NRG Stadium · Houston",
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 0,
+      "awayScore": 0,
+      "scorers": [],
+      "yellowCards": [
+        {
+          "player": "yellow=Saud Abdulhamid",
+          "team": "Saudi Arabia",
+          "match": "Cabo Verde vs Saudi Arabia"
+        },
+        {
+          "player": "Wagner Pina",
+          "team": "Cabo Verde",
+          "match": "Cabo Verde vs Saudi Arabia"
+        },
+        {
+          "player": "Nasser Al Dawsari",
+          "team": "Saudi Arabia",
+          "match": "Cabo Verde vs Saudi Arabia"
+        },
+        {
+          "player": "Feras Al Brikan",
+          "team": "Saudi Arabia",
+          "match": "Cabo Verde vs Saudi Arabia"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 2,
+      "homeKeeper": "Vozinha",
+      "awayKeeper": "Mohammed Al-Owais"
     }
   ],
   "detailedStats": {
@@ -8268,6 +8343,11 @@
         "detail": "Spain · 0 goals conceded in 2 appearances"
       },
       {
+        "name": "Vozinha",
+        "value": 2,
+        "detail": "Cabo Verde · 2 goals conceded in 3 appearances"
+      },
+      {
         "name": "Yahia Fofana",
         "value": 2,
         "detail": "Cote d'Ivoire · 2 goals conceded in 3 appearances"
@@ -8338,6 +8418,11 @@
         "detail": "France · 2 goals conceded in 3 appearances"
       },
       {
+        "name": "Mohammed Al-Owais",
+        "value": 1,
+        "detail": "Saudi Arabia · 5 goals conceded in 3 appearances"
+      },
+      {
         "name": "Mory Diaw",
         "value": 1,
         "detail": "Senegal · 0 goals conceded in 1 appearance"
@@ -8351,11 +8436,6 @@
         "name": "Thibaut Courtois",
         "value": 1,
         "detail": "Belgium · 1 goals conceded in 2 appearances"
-      },
-      {
-        "name": "Vozinha",
-        "value": 1,
-        "detail": "Cabo Verde · 2 goals conceded in 2 appearances"
       },
       {
         "name": "Yassine Bounou",
@@ -8468,11 +8548,6 @@
         "detail": "New Zealand · 5 goals conceded in 2 appearances"
       },
       {
-        "name": "Mohammed Al-Owais",
-        "value": 0,
-        "detail": "Saudi Arabia · 5 goals conceded in 2 appearances"
-      },
-      {
         "name": "Mostafa Shobeir",
         "value": 0,
         "detail": "Egypt · 2 goals conceded in 2 appearances"
@@ -8540,10 +8615,10 @@
       "Ecuador": 2,
       "Tunisia": 1,
       "Spain": 1,
-      "Cabo Verde": 3,
+      "Cabo Verde": 4,
       "Egypt": 3,
       "Belgium": 3,
-      "Saudi Arabia": 3,
+      "Saudi Arabia": 6,
       "Iran": 2,
       "Austria": 3,
       "Portugal": 4,
@@ -9245,6 +9320,26 @@
         "player": "Patrick Berg",
         "team": "Norway",
         "match": "Norway vs France"
+      },
+      {
+        "player": "yellow=Saud Abdulhamid",
+        "team": "Saudi Arabia",
+        "match": "Cabo Verde vs Saudi Arabia"
+      },
+      {
+        "player": "Wagner Pina",
+        "team": "Cabo Verde",
+        "match": "Cabo Verde vs Saudi Arabia"
+      },
+      {
+        "player": "Nasser Al Dawsari",
+        "team": "Saudi Arabia",
+        "match": "Cabo Verde vs Saudi Arabia"
+      },
+      {
+        "player": "Feras Al Brikan",
+        "team": "Saudi Arabia",
+        "match": "Cabo Verde vs Saudi Arabia"
       }
     ],
     "penaltyEvents": [
@@ -9707,6 +9802,13 @@
         "yellowCards": 0,
         "penalties": 0,
         "elapsed": 102
+      },
+      {
+        "match": "Cabo Verde vs Saudi Arabia",
+        "redCards": 0,
+        "yellowCards": 4,
+        "penalties": 0,
+        "elapsed": 101
       }
     ]
   }
