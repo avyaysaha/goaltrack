@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T23:19:36.326Z",
+  "updatedAt": "2026-06-27T23:24:33.648Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -649,26 +649,26 @@
         "points": 7
       },
       {
-        "name": "Ghana",
-        "flag": "GHA",
-        "fifaRank": 72,
-        "played": 2,
-        "won": 1,
-        "drawn": 1,
-        "lost": 0,
-        "gd": 1,
-        "points": 4
-      },
-      {
         "name": "Croatia",
         "flag": "CRO",
         "fifaRank": 10,
-        "played": 2,
-        "won": 1,
+        "played": 3,
+        "won": 2,
         "drawn": 0,
         "lost": 1,
-        "gd": -1,
-        "points": 3
+        "gd": 0,
+        "points": 6
+      },
+      {
+        "name": "Ghana",
+        "flag": "GHA",
+        "fifaRank": 72,
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gd": 0,
+        "points": 4
       },
       {
         "name": "Panama",
@@ -4249,7 +4249,7 @@
       "date": "Saturday, June 27, 2026",
       "stage": "Group Stage",
       "group": "Group L",
-      "time": "5:00 PM local",
+      "time": "4:00 PM CDT (5:00 PM EDT venue local)",
       "kickoffISO": "2026-06-27T21:00:00Z",
       "home": "Croatia",
       "homeFlag": "CRO",
@@ -4258,7 +4258,44 @@
       "location": "Lincoln Financial Field · Philadelphia",
       "venueTimeZone": "America/New_York",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 2,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Petar Sučić",
+          "team": "Croatia",
+          "match": "Croatia vs Ghana"
+        },
+        {
+          "player": "Derrick Luckassen",
+          "team": "Ghana",
+          "match": "Croatia vs Ghana"
+        },
+        {
+          "player": "Nikola Vlašić",
+          "team": "Croatia",
+          "match": "Croatia vs Ghana"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Kwame Sibo",
+          "team": "Ghana",
+          "match": "Croatia vs Ghana"
+        },
+        {
+          "player": "Kojo Peprah Oppong",
+          "team": "Ghana",
+          "match": "Croatia vs Ghana"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Dominik Livaković",
+      "awayKeeper": "Lawrence Ati-Zigi"
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -8036,6 +8073,56 @@
       "predictedAwayScore": 2,
       "homeKeeper": "Orlando Mosquera",
       "awayKeeper": "Jordan Pickford"
+    },
+    {
+      "date": "Saturday, June 27, 2026",
+      "stage": "Group Stage",
+      "group": "Group L",
+      "time": "4:00 PM CDT (5:00 PM EDT venue local)",
+      "home": "Croatia",
+      "homeFlag": "CRO",
+      "away": "Ghana",
+      "awayFlag": "GHA",
+      "location": "Lincoln Financial Field · Philadelphia",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 2,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Petar Sučić",
+          "team": "Croatia",
+          "match": "Croatia vs Ghana"
+        },
+        {
+          "player": "Derrick Luckassen",
+          "team": "Ghana",
+          "match": "Croatia vs Ghana"
+        },
+        {
+          "player": "Nikola Vlašić",
+          "team": "Croatia",
+          "match": "Croatia vs Ghana"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Kwame Sibo",
+          "team": "Ghana",
+          "match": "Croatia vs Ghana"
+        },
+        {
+          "player": "Kojo Peprah Oppong",
+          "team": "Ghana",
+          "match": "Croatia vs Ghana"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1,
+      "homeKeeper": "Dominik Livaković",
+      "awayKeeper": "Lawrence Ati-Zigi"
     }
   ],
   "detailedStats": {
@@ -8346,6 +8433,11 @@
         "detail": "United States"
       },
       {
+        "name": "Derrick Luckassen",
+        "value": 1,
+        "detail": "Ghana"
+      },
+      {
         "name": "Désiré Doué",
         "value": 1,
         "detail": "France"
@@ -8646,6 +8738,11 @@
         "detail": "Germany"
       },
       {
+        "name": "Nikola Vlašić",
+        "value": 1,
+        "detail": "Croatia"
+      },
+      {
         "name": "Nizar Al-Rashdan",
         "value": 1,
         "detail": "Jordan"
@@ -8667,6 +8764,11 @@
       },
       {
         "name": "Petar Musa",
+        "value": 1,
+        "detail": "Croatia"
+      },
+      {
+        "name": "Petar Sučić",
         "value": 1,
         "detail": "Croatia"
       },
@@ -8835,7 +8937,7 @@
       {
         "name": "Dominik Livaković",
         "value": 1,
-        "detail": "Croatia · 4 goals conceded in 2 appearances"
+        "detail": "Croatia · 5 goals conceded in 3 appearances"
       },
       {
         "name": "Eloy Room",
@@ -8850,7 +8952,7 @@
       {
         "name": "Lawrence Ati-Zigi",
         "value": 1,
-        "detail": "Ghana · 0 goals conceded in 1 appearance"
+        "detail": "Ghana · 2 goals conceded in 2 appearances"
       },
       {
         "name": "Matt Freese",
@@ -9074,7 +9176,7 @@
       "Austria": 3,
       "Portugal": 4,
       "DR Congo": 2,
-      "Ghana": 2,
+      "Ghana": 4,
       "Panama": 5,
       "Colombia": 3,
       "Uzbekistan": 2,
@@ -9871,6 +9973,16 @@
         "player": "Andrés Andrade",
         "team": "Panama",
         "match": "Panama vs England"
+      },
+      {
+        "player": "Kwame Sibo",
+        "team": "Ghana",
+        "match": "Croatia vs Ghana"
+      },
+      {
+        "player": "Kojo Peprah Oppong",
+        "team": "Ghana",
+        "match": "Croatia vs Ghana"
       }
     ],
     "penaltyEvents": [
@@ -10371,6 +10483,13 @@
         "yellowCards": 3,
         "penalties": 0,
         "elapsed": 98
+      },
+      {
+        "match": "Croatia vs Ghana",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 100
       }
     ]
   }
