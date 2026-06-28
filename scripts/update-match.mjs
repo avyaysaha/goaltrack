@@ -114,6 +114,13 @@ const home = resolveTeam(required("HOME_TEAM"));
 const away = resolveTeam(required("AWAY_TEAM"));
 if (home === away) throw new Error("Home and away teams must be different.");
 
+const previouslyEliminated = new Set(
+  Object.values(data.standings || {})
+    .flat()
+    .filter((team) => team.eliminated)
+    .map((team) => team.name)
+);
+
 const key = (match) => `${normalize(match.home)}|${normalize(match.away)}`;
 const existingIndex = data.matchUpdates.findIndex((match) => key(match) === key({ home, away }));
 const existingMatch = existingIndex >= 0 ? data.matchUpdates[existingIndex] : {};
@@ -219,6 +226,28 @@ for (const match of completedMatches) {
 
 for (const group of Object.values(standings)) {
   group.sort((a, b) => b.points - a.points || b.gd - a.gd || a.name.localeCompare(b.name));
+}
+
+function finishedWithWinner(match) {
+  return match.stage === "Knockout" &&
+    ["FT", "AET", "PEN"].includes(match.status) &&
+    Number.isInteger(match.homeScore) &&
+    Number.isInteger(match.awayScore) &&
+    match.homeScore !== match.awayScore;
+}
+
+const eliminatedTeams = new Set(previouslyEliminated);
+for (const match of data.matches || []) {
+  if (!finishedWithWinner(match)) continue;
+  eliminatedTeams.add(match.homeScore > match.awayScore ? match.away : match.home);
+}
+
+for (const group of Object.values(standings)) {
+  for (const team of group) {
+    if (eliminatedTeams.has(team.name)) {
+      team.eliminated = true;
+    }
+  }
 }
 
 const allScorers = completedMatches.flatMap((match) => match.scorers || []);
