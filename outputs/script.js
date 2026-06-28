@@ -380,15 +380,6 @@ function renderBracketMatchCard(match, matchByNumber) {
   const awayName = resolveKnockoutSlot(match.away, matchByNumber);
   const homeWinner = finished && match.homeScore > match.awayScore;
   const awayWinner = finished && match.awayScore > match.homeScore;
-  const waitingForWinners = /^Winner Match/i.test(match.home) || /^Winner Match/i.test(match.away);
-  const hasPrediction = Number.isInteger(match.predictedHomeScore) && Number.isInteger(match.predictedAwayScore);
-  const scoreLine = finished
-    ? `${match.homeScore}-${match.awayScore}`
-    : waitingForWinners
-      ? "Awaiting winners"
-      : hasPrediction
-        ? `Predicted Score: ${match.homeFlag} ${match.predictedHomeScore}-${match.predictedAwayScore} ${match.awayFlag}`
-        : "Upcoming";
   const roundLabel = knockoutRoundName(match);
   const displayDateTime = getMatchDateTime(match);
   const displayLocation = cleanMatchLocation(match.location);
@@ -396,7 +387,7 @@ function renderBracketMatchCard(match, matchByNumber) {
   return `
     <article class="bracket-match${finished ? " bracket-match-finished" : ""}">
       <div class="bracket-round-label">${roundLabel}</div>
-      <div class="bracket-match-meta"><span>Match ${matchNumber}</span><span>${scoreLine}</span></div>
+      <div class="bracket-match-meta"><span>Match ${matchNumber}</span></div>
       ${bracketTeamRow(homeName, finished ? match.homeScore : null, homeWinner)}
       ${bracketTeamRow(awayName, finished ? match.awayScore : null, awayWinner)}
       <div class="bracket-match-details">
