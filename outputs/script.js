@@ -229,8 +229,8 @@ function renderTeamOrbit() {
           --loss-penalty: ${lossPenalty};
           --team-color: ${color};
         "
-        data-label="${entry.name} · ${entry.won}W ${entry.lost}L · ${entry.points} pts"
-        aria-label="${entry.name}, ${entry.won} wins, ${entry.lost} losses, ${entry.points} points">
+        data-label="${entry.name} · ${entry.won}W ${entry.lost}L"
+        aria-label="${entry.name}, ${entry.won} wins, ${entry.lost} losses">
       </button>
     `;
   }).join("");
