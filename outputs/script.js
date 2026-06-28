@@ -149,18 +149,60 @@ const groupName = document.querySelector("#group-name");
 const groupStatus = document.querySelector("#group-status");
 const teamOrbitDots = document.querySelector("#team-orbit-dots");
 
+function getGroupStageSurvivorNames() {
+  const groupEntries = Object.entries(standingsData);
+  const groupsAreComplete = groupEntries.length > 0 && groupEntries.every(function ([, teams]) {
+    return teams.every(function (team) {
+      return team.played >= 3;
+    });
+  });
+
+  if (!groupsAreComplete) {
+    return null;
+  }
+
+  const survivorNames = new Set();
+  const thirdPlaceTeams = [];
+
+  groupEntries.forEach(function ([group, teams]) {
+    teams.forEach(function (team, index) {
+      if (index < 2) {
+        survivorNames.add(team.name);
+      } else if (index === 2) {
+        thirdPlaceTeams.push({ ...team, group });
+      }
+    });
+  });
+
+  thirdPlaceTeams
+    .sort(function (a, b) {
+      return b.points - a.points ||
+        b.gd - a.gd ||
+        b.won - a.won ||
+        Number(a.fifaRank) - Number(b.fifaRank) ||
+        a.name.localeCompare(b.name, "en", { sensitivity: "base" });
+    })
+    .slice(0, 8)
+    .forEach(function (team) {
+      survivorNames.add(team.name);
+    });
+
+  return survivorNames;
+}
+
 function renderTeamOrbit() {
   if (!teamOrbitDots) {
     return;
   }
 
+  const groupStageSurvivors = getGroupStageSurvivorNames();
   const allTeams = Object.entries(standingsData).flatMap(function ([group, teams]) {
     return teams.map(function (entry, index) {
       return { ...entry, group, groupPosition: index + 1 };
     });
   }).filter(function (entry) {
     // Eliminated teams leave the tournament orbit completely.
-    return !entry.eliminated;
+    return !entry.eliminated && (!groupStageSurvivors || groupStageSurvivors.has(entry.name));
   });
   // Each dot uses a recognizable national team or flag color.
   const nationalColors = siteData.nationalColors;
