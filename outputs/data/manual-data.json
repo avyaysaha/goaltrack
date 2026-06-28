@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T03:13:12.004Z",
+  "updatedAt": "2026-06-28T03:26:05.111Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -617,22 +617,22 @@
         "name": "DR Congo",
         "flag": "COD",
         "fifaRank": 56,
-        "played": 2,
-        "won": 0,
+        "played": 3,
+        "won": 1,
         "drawn": 1,
         "lost": 1,
-        "gd": -1,
-        "points": 1
+        "gd": 1,
+        "points": 4
       },
       {
         "name": "Uzbekistan",
         "flag": "UZB",
         "fifaRank": 50,
-        "played": 2,
+        "played": 3,
         "won": 0,
         "drawn": 0,
-        "lost": 2,
-        "gd": -7,
+        "lost": 3,
+        "gd": -9,
         "points": 0
       }
     ],
@@ -4332,7 +4332,7 @@
       "date": "Saturday, June 27, 2026",
       "stage": "Group Stage",
       "group": "Group K",
-      "time": "7:30 PM local",
+      "time": "6:30 PM CDT (7:30 PM EDT venue local)",
       "kickoffISO": "2026-06-27T23:30:00Z",
       "home": "DR Congo",
       "homeFlag": "COD",
@@ -4341,7 +4341,64 @@
       "location": "Mercedes-Benz Stadium · Atlanta",
       "venueTimeZone": "America/New_York",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 3,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Eldor Shomurodov",
+          "team": "Uzbekistan",
+          "match": "DR Congo vs Uzbekistan"
+        },
+        {
+          "player": "Yoane Wissa",
+          "team": "DR Congo",
+          "match": "DR Congo vs Uzbekistan"
+        },
+        {
+          "player": "Fiston Mayele",
+          "team": "DR Congo",
+          "match": "DR Congo vs Uzbekistan"
+        },
+        {
+          "player": "Yoane Wissa",
+          "team": "DR Congo",
+          "match": "DR Congo vs Uzbekistan"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Noah Sadiki",
+          "team": "DR Congo",
+          "match": "DR Congo vs Uzbekistan"
+        },
+        {
+          "player": "Abdukodir Khusanov",
+          "team": "Uzbekistan",
+          "match": "DR Congo vs Uzbekistan"
+        },
+        {
+          "player": "Nathanaël Mbuku",
+          "team": "DR Congo",
+          "match": "DR Congo vs Uzbekistan"
+        },
+        {
+          "player": "Sherzod Nasrullaev",
+          "team": "Uzbekistan",
+          "match": "DR Congo vs Uzbekistan"
+        },
+        {
+          "player": "Samuel Moutoussamy",
+          "team": "DR Congo",
+          "match": "DR Congo vs Uzbekistan"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Lionel Mpasi",
+      "awayKeeper": "Abduvohid Nematov"
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -8168,6 +8225,76 @@
       "predictedAwayScore": 1,
       "homeKeeper": "Camilo Vargas",
       "awayKeeper": "Diogo Costa"
+    },
+    {
+      "date": "Saturday, June 27, 2026",
+      "stage": "Group Stage",
+      "group": "Group K",
+      "time": "6:30 PM CDT (7:30 PM EDT venue local)",
+      "home": "DR Congo",
+      "homeFlag": "COD",
+      "away": "Uzbekistan",
+      "awayFlag": "UZB",
+      "location": "Mercedes-Benz Stadium · Atlanta",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 3,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Eldor Shomurodov",
+          "team": "Uzbekistan",
+          "match": "DR Congo vs Uzbekistan"
+        },
+        {
+          "player": "Yoane Wissa",
+          "team": "DR Congo",
+          "match": "DR Congo vs Uzbekistan"
+        },
+        {
+          "player": "Fiston Mayele",
+          "team": "DR Congo",
+          "match": "DR Congo vs Uzbekistan"
+        },
+        {
+          "player": "Yoane Wissa",
+          "team": "DR Congo",
+          "match": "DR Congo vs Uzbekistan"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Noah Sadiki",
+          "team": "DR Congo",
+          "match": "DR Congo vs Uzbekistan"
+        },
+        {
+          "player": "Abdukodir Khusanov",
+          "team": "Uzbekistan",
+          "match": "DR Congo vs Uzbekistan"
+        },
+        {
+          "player": "Nathanaël Mbuku",
+          "team": "DR Congo",
+          "match": "DR Congo vs Uzbekistan"
+        },
+        {
+          "player": "Sherzod Nasrullaev",
+          "team": "Uzbekistan",
+          "match": "DR Congo vs Uzbekistan"
+        },
+        {
+          "player": "Samuel Moutoussamy",
+          "team": "DR Congo",
+          "match": "DR Congo vs Uzbekistan"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1,
+      "homeKeeper": "Lionel Mpasi",
+      "awayKeeper": "Abduvohid Nematov"
     }
   ],
   "detailedStats": {
@@ -8241,6 +8368,11 @@
         "name": "Matheus Cunha",
         "value": 3,
         "detail": "Brazil"
+      },
+      {
+        "name": "Yoane Wissa",
+        "value": 3,
+        "detail": "DR Congo"
       },
       {
         "name": "Anthony Elanga",
@@ -8488,6 +8620,11 @@
         "detail": "France"
       },
       {
+        "name": "Eldor Shomurodov",
+        "value": 1,
+        "detail": "Uzbekistan"
+      },
+      {
         "name": "Ellyes Skhiri (OG)",
         "value": 1,
         "detail": "Netherlands"
@@ -8506,6 +8643,11 @@
         "name": "Finn Surman",
         "value": 1,
         "detail": "New Zealand"
+      },
+      {
+        "name": "Fiston Mayele",
+        "value": 1,
+        "detail": "DR Congo"
       },
       {
         "name": "Franck Kessié",
@@ -8901,11 +9043,6 @@
         "name": "Yazan Al-Arab(OG)",
         "value": 1,
         "detail": "Austria"
-      },
-      {
-        "name": "Yoane Wissa",
-        "value": 1,
-        "detail": "DR Congo"
       }
     ],
     "keepers": [
@@ -9047,7 +9184,7 @@
       {
         "name": "Abduvohid Nematov",
         "value": 0,
-        "detail": "Uzbekistan · 5 goals conceded in 1 appearance"
+        "detail": "Uzbekistan · 8 goals conceded in 2 appearances"
       },
       {
         "name": "Ahmed Basil",
@@ -9112,7 +9249,7 @@
       {
         "name": "Lionel Mpasi",
         "value": 0,
-        "detail": "DR Congo · 2 goals conceded in 2 appearances"
+        "detail": "DR Congo · 3 goals conceded in 3 appearances"
       },
       {
         "name": "Luca Zidane",
@@ -9220,11 +9357,11 @@
       "Iran": 6,
       "Austria": 3,
       "Portugal": 4,
-      "DR Congo": 2,
+      "DR Congo": 5,
       "Ghana": 4,
       "Panama": 5,
       "Colombia": 4,
-      "Uzbekistan": 2,
+      "Uzbekistan": 4,
       "Czechia": 1,
       "Australia": 5,
       "Morocco": 1,
@@ -10033,6 +10170,31 @@
         "player": "Daniel Muñoz",
         "team": "Colombia",
         "match": "Colombia vs Portugal"
+      },
+      {
+        "player": "Noah Sadiki",
+        "team": "DR Congo",
+        "match": "DR Congo vs Uzbekistan"
+      },
+      {
+        "player": "Abdukodir Khusanov",
+        "team": "Uzbekistan",
+        "match": "DR Congo vs Uzbekistan"
+      },
+      {
+        "player": "Nathanaël Mbuku",
+        "team": "DR Congo",
+        "match": "DR Congo vs Uzbekistan"
+      },
+      {
+        "player": "Sherzod Nasrullaev",
+        "team": "Uzbekistan",
+        "match": "DR Congo vs Uzbekistan"
+      },
+      {
+        "player": "Samuel Moutoussamy",
+        "team": "DR Congo",
+        "match": "DR Congo vs Uzbekistan"
       }
     ],
     "penaltyEvents": [
@@ -10062,6 +10224,9 @@
       },
       {
         "match": "Egypt vs Iran"
+      },
+      {
+        "match": "DR Congo vs Uzbekistan"
       }
     ],
     "matchStats": [
@@ -10547,6 +10712,13 @@
         "yellowCards": 1,
         "penalties": 0,
         "elapsed": 90
+      },
+      {
+        "match": "DR Congo vs Uzbekistan",
+        "redCards": 0,
+        "yellowCards": 5,
+        "penalties": 1,
+        "elapsed": 100
       }
     ]
   }
