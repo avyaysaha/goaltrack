@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T21:28:10.542Z",
+  "updatedAt": "2026-06-28T21:39:39.469Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -151,7 +151,8 @@
         "drawn": 1,
         "lost": 1,
         "gd": -1,
-        "points": 4
+        "points": 4,
+        "eliminated": true
       },
       {
         "name": "Korea Republic",
