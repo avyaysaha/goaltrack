@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T04:16:55.558Z",
+  "updatedAt": "2026-06-28T04:31:42.973Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -4520,12 +4520,14 @@
       "group": "Match 73 · Round of 32",
       "time": "12:00 PM local",
       "kickoffISO": "2026-06-28T19:00:00Z",
-      "home": "Runner-up Group A",
-      "homeFlag": "2A",
-      "away": "Runner-up Group B",
-      "awayFlag": "2B",
+      "home": "South Africa",
+      "homeFlag": "RSA",
+      "away": "Canada",
+      "awayFlag": "CAN",
       "location": "SoFi Stadium · Los Angeles",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Monday, June 29, 2026",
@@ -4533,12 +4535,14 @@
       "group": "Match 76 · Round of 32",
       "time": "12:00 PM local",
       "kickoffISO": "2026-06-29T17:00:00Z",
-      "home": "Winner Group C",
-      "homeFlag": "1C",
-      "away": "Runner-up Group F",
-      "awayFlag": "2F",
+      "home": "Brazil",
+      "homeFlag": "BRA",
+      "away": "Japan",
+      "awayFlag": "JPN",
       "location": "NRG Stadium · Houston",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 1
     },
     {
       "date": "Monday, June 29, 2026",
@@ -4546,12 +4550,14 @@
       "group": "Match 74 · Round of 32",
       "time": "4:30 PM local",
       "kickoffISO": "2026-06-29T20:30:00Z",
-      "home": "Winner Group E",
-      "homeFlag": "1E",
-      "away": "Best third-place team A/B/C/D/F",
-      "awayFlag": "3ABCDF",
+      "home": "Germany",
+      "homeFlag": "GER",
+      "away": "Paraguay",
+      "awayFlag": "PAR",
       "location": "Gillette Stadium · Boston",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 0
     },
     {
       "date": "Monday, June 29, 2026",
@@ -4559,12 +4565,14 @@
       "group": "Match 75 · Round of 32",
       "time": "7:00 PM local",
       "kickoffISO": "2026-06-30T01:00:00Z",
-      "home": "Winner Group F",
-      "homeFlag": "1F",
-      "away": "Runner-up Group C",
-      "awayFlag": "2C",
+      "home": "Netherlands",
+      "homeFlag": "NED",
+      "away": "Morocco",
+      "awayFlag": "MAR",
       "location": "Estadio BBVA · Monterrey",
-      "venueTimeZone": "America/Monterrey"
+      "venueTimeZone": "America/Monterrey",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 1
     },
     {
       "date": "Tuesday, June 30, 2026",
@@ -4572,12 +4580,14 @@
       "group": "Match 78 · Round of 32",
       "time": "12:00 PM local",
       "kickoffISO": "2026-06-30T17:00:00Z",
-      "home": "Runner-up Group E",
-      "homeFlag": "2E",
-      "away": "Runner-up Group I",
-      "awayFlag": "2I",
+      "home": "Cote d'Ivoire",
+      "homeFlag": "CIV",
+      "away": "Norway",
+      "awayFlag": "NOR",
       "location": "AT&T Stadium · Dallas",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 2
     },
     {
       "date": "Tuesday, June 30, 2026",
@@ -4585,12 +4595,14 @@
       "group": "Match 77 · Round of 32",
       "time": "5:00 PM local",
       "kickoffISO": "2026-06-30T21:00:00Z",
-      "home": "Winner Group I",
-      "homeFlag": "1I",
-      "away": "Best third-place team C/D/F/G/H",
-      "awayFlag": "3CDFGH",
+      "home": "France",
+      "homeFlag": "FRA",
+      "away": "Sweden",
+      "awayFlag": "SWE",
       "location": "MetLife Stadium · New Jersey",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1
     },
     {
       "date": "Tuesday, June 30, 2026",
@@ -4598,12 +4610,14 @@
       "group": "Match 79 · Round of 32",
       "time": "7:00 PM local",
       "kickoffISO": "2026-07-01T01:00:00Z",
-      "home": "Winner Group A",
-      "homeFlag": "1A",
-      "away": "Best third-place team C/E/F/H/I",
-      "awayFlag": "3CEFHI",
+      "home": "Mexico",
+      "homeFlag": "MEX",
+      "away": "Ecuador",
+      "awayFlag": "ECU",
       "location": "Estadio Azteca · Mexico City",
-      "venueTimeZone": "America/Mexico_City"
+      "venueTimeZone": "America/Mexico_City",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 1
     },
     {
       "date": "Wednesday, July 1, 2026",
@@ -4611,12 +4625,14 @@
       "group": "Match 80 · Round of 32",
       "time": "12:00 PM local",
       "kickoffISO": "2026-07-01T16:00:00Z",
-      "home": "Winner Group L",
-      "homeFlag": "1L",
-      "away": "Best third-place team E/H/I/J/K",
-      "awayFlag": "3EHIJK",
+      "home": "England",
+      "homeFlag": "ENG",
+      "away": "DR Congo",
+      "awayFlag": "COD",
       "location": "Mercedes-Benz Stadium · Atlanta",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 0
     },
     {
       "date": "Wednesday, July 1, 2026",
@@ -4624,12 +4640,14 @@
       "group": "Match 82 · Round of 32",
       "time": "1:00 PM local",
       "kickoffISO": "2026-07-01T20:00:00Z",
-      "home": "Winner Group G",
-      "homeFlag": "1G",
-      "away": "Best third-place team A/E/H/I/J",
-      "awayFlag": "3AEHIJ",
+      "home": "Belgium",
+      "homeFlag": "BEL",
+      "away": "Senegal",
+      "awayFlag": "SEN",
       "location": "Lumen Field · Seattle",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 1
     },
     {
       "date": "Wednesday, July 1, 2026",
@@ -4637,12 +4655,14 @@
       "group": "Match 81 · Round of 32",
       "time": "5:00 PM local",
       "kickoffISO": "2026-07-02T00:00:00Z",
-      "home": "Winner Group D",
-      "homeFlag": "1D",
-      "away": "Best third-place team B/E/F/I/J",
-      "awayFlag": "3BEFIJ",
+      "home": "United States",
+      "homeFlag": "USA",
+      "away": "Bosnia and Herzegovina",
+      "awayFlag": "BIH",
       "location": "Levi's Stadium · San Francisco Bay Area",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 1
     },
     {
       "date": "Thursday, July 2, 2026",
@@ -4650,12 +4670,14 @@
       "group": "Match 84 · Round of 32",
       "time": "12:00 PM local",
       "kickoffISO": "2026-07-02T19:00:00Z",
-      "home": "Winner Group H",
-      "homeFlag": "1H",
-      "away": "Runner-up Group J",
-      "awayFlag": "2J",
+      "home": "Spain",
+      "homeFlag": "ESP",
+      "away": "Austria",
+      "awayFlag": "AUT",
       "location": "SoFi Stadium · Los Angeles",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 0
     },
     {
       "date": "Thursday, July 2, 2026",
@@ -4663,12 +4685,14 @@
       "group": "Match 83 · Round of 32",
       "time": "7:00 PM local",
       "kickoffISO": "2026-07-02T23:00:00Z",
-      "home": "Runner-up Group K",
-      "homeFlag": "2K",
-      "away": "Runner-up Group L",
-      "awayFlag": "2L",
+      "home": "Portugal",
+      "homeFlag": "POR",
+      "away": "Croatia",
+      "awayFlag": "CRO",
       "location": "BMO Field · Toronto",
-      "venueTimeZone": "America/Toronto"
+      "venueTimeZone": "America/Toronto",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1
     },
     {
       "date": "Thursday, July 2, 2026",
@@ -4676,12 +4700,14 @@
       "group": "Match 85 · Round of 32",
       "time": "8:00 PM local",
       "kickoffISO": "2026-07-03T03:00:00Z",
-      "home": "Winner Group B",
-      "homeFlag": "1B",
-      "away": "Best third-place team E/F/G/I/J",
-      "awayFlag": "3EFGIJ",
+      "home": "Switzerland",
+      "homeFlag": "SUI",
+      "away": "Algeria",
+      "awayFlag": "ALG",
       "location": "BC Place · Vancouver",
-      "venueTimeZone": "America/Vancouver"
+      "venueTimeZone": "America/Vancouver",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 0
     },
     {
       "date": "Friday, July 3, 2026",
@@ -4689,12 +4715,14 @@
       "group": "Match 88 · Round of 32",
       "time": "1:00 PM local",
       "kickoffISO": "2026-07-03T18:00:00Z",
-      "home": "Runner-up Group D",
-      "homeFlag": "2D",
-      "away": "Runner-up Group G",
-      "awayFlag": "2G",
+      "home": "Australia",
+      "homeFlag": "AUS",
+      "away": "Egypt",
+      "awayFlag": "EGY",
       "location": "AT&T Stadium · Dallas",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 2
     },
     {
       "date": "Friday, July 3, 2026",
@@ -4702,12 +4730,14 @@
       "group": "Match 86 · Round of 32",
       "time": "6:00 PM local",
       "kickoffISO": "2026-07-03T22:00:00Z",
-      "home": "Winner Group J",
-      "homeFlag": "1J",
-      "away": "Runner-up Group H",
-      "awayFlag": "2H",
+      "home": "Argentina",
+      "homeFlag": "ARG",
+      "away": "Cabo Verde",
+      "awayFlag": "CPV",
       "location": "Hard Rock Stadium · Miami",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1
     },
     {
       "date": "Friday, July 3, 2026",
@@ -4715,12 +4745,14 @@
       "group": "Match 87 · Round of 32",
       "time": "8:30 PM local",
       "kickoffISO": "2026-07-04T01:30:00Z",
-      "home": "Winner Group K",
-      "homeFlag": "1K",
-      "away": "Best third-place team D/E/I/J/L",
-      "awayFlag": "3DEIJL",
+      "home": "Colombia",
+      "homeFlag": "COL",
+      "away": "Ghana",
+      "awayFlag": "GHA",
       "location": "GEHA Field at Arrowhead Stadium · Kansas City",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 1
     },
     {
       "date": "Saturday, July 4, 2026",
