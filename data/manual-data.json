@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T03:26:05.111Z",
+  "updatedAt": "2026-06-28T04:12:16.714Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -560,23 +560,23 @@
         "name": "Austria",
         "flag": "AUT",
         "fifaRank": 24,
-        "played": 2,
+        "played": 3,
         "won": 1,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 1,
         "gd": 0,
-        "points": 3
+        "points": 4
       },
       {
         "name": "Algeria",
         "flag": "ALG",
         "fifaRank": 35,
-        "played": 2,
+        "played": 3,
         "won": 1,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 1,
         "gd": -2,
-        "points": 3
+        "points": 4
       },
       {
         "name": "Jordan",
@@ -4404,7 +4404,7 @@
       "date": "Saturday, June 27, 2026",
       "stage": "Group Stage",
       "group": "Group J",
-      "time": "9:00 PM local",
+      "time": "9:00 PM CDT (9:00 PM CDT venue local)",
       "kickoffISO": "2026-06-28T02:00:00Z",
       "home": "Algeria",
       "homeFlag": "ALG",
@@ -4413,7 +4413,54 @@
       "location": "GEHA Field at Arrowhead Stadium · Kansas City",
       "venueTimeZone": "America/Chicago",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 2
+      "predictedAwayScore": 2,
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 3,
+      "awayScore": 3,
+      "scorers": [
+        {
+          "player": "Marko Arnautović",
+          "team": "Austria",
+          "match": "Algeria vs Austria"
+        },
+        {
+          "player": "Rafik Belghali",
+          "team": "Algeria",
+          "match": "Algeria vs Austria"
+        },
+        {
+          "player": "Marcel Sabitzer",
+          "team": "Austria",
+          "match": "Algeria vs Austria"
+        },
+        {
+          "player": "Riyad Mahrez",
+          "team": "Algeria",
+          "match": "Algeria vs Austria"
+        },
+        {
+          "player": "Riyad Mahrez",
+          "team": "Algeria",
+          "match": "Algeria vs Austria"
+        },
+        {
+          "player": "Saša Kalajdžić",
+          "team": "Austria",
+          "match": "Algeria vs Austria"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Marko Arnautović",
+          "team": "Austria",
+          "match": "Algeria vs Austria"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Oussama Benbot",
+      "awayKeeper": "Alexander Schlager"
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -8295,6 +8342,66 @@
       "predictedAwayScore": 1,
       "homeKeeper": "Lionel Mpasi",
       "awayKeeper": "Abduvohid Nematov"
+    },
+    {
+      "date": "Saturday, June 27, 2026",
+      "stage": "Group Stage",
+      "group": "Group J",
+      "time": "9:00 PM CDT (9:00 PM CDT venue local)",
+      "home": "Algeria",
+      "homeFlag": "ALG",
+      "away": "Austria",
+      "awayFlag": "AUT",
+      "location": "GEHA Field at Arrowhead Stadium · Kansas City",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 3,
+      "awayScore": 3,
+      "scorers": [
+        {
+          "player": "Marko Arnautović",
+          "team": "Austria",
+          "match": "Algeria vs Austria"
+        },
+        {
+          "player": "Rafik Belghali",
+          "team": "Algeria",
+          "match": "Algeria vs Austria"
+        },
+        {
+          "player": "Marcel Sabitzer",
+          "team": "Austria",
+          "match": "Algeria vs Austria"
+        },
+        {
+          "player": "Riyad Mahrez",
+          "team": "Algeria",
+          "match": "Algeria vs Austria"
+        },
+        {
+          "player": "Riyad Mahrez",
+          "team": "Algeria",
+          "match": "Algeria vs Austria"
+        },
+        {
+          "player": "Saša Kalajdžić",
+          "team": "Austria",
+          "match": "Algeria vs Austria"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Marko Arnautović",
+          "team": "Austria",
+          "match": "Algeria vs Austria"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 2,
+      "homeKeeper": "Oussama Benbot",
+      "awayKeeper": "Alexander Schlager"
     }
   ],
   "detailedStats": {
@@ -8445,6 +8552,11 @@
         "detail": "Belgium"
       },
       {
+        "name": "Marko Arnautović",
+        "value": 2,
+        "detail": "Austria"
+      },
+      {
         "name": "Mikel Oyarzabal",
         "value": 2,
         "detail": "Spain"
@@ -8463,6 +8575,11 @@
         "name": "Ramin Rezaeian",
         "value": 2,
         "detail": "Iran"
+      },
+      {
+        "name": "Riyad Mahrez",
+        "value": 2,
+        "detail": "Algeria"
       },
       {
         "name": "Rubén Vargas",
@@ -8820,6 +8937,11 @@
         "detail": "Egypt"
       },
       {
+        "name": "Marcel Sabitzer",
+        "value": 1,
+        "detail": "Austria"
+      },
+      {
         "name": "Marcus Holmgren Pedersen",
         "value": 1,
         "detail": "Norway"
@@ -8828,11 +8950,6 @@
         "name": "Marcus Rashford",
         "value": 1,
         "detail": "England"
-      },
-      {
-        "name": "Marko Arnautović",
-        "value": 1,
-        "detail": "Austria"
       },
       {
         "name": "Martin Baturina",
@@ -8970,6 +9087,11 @@
         "detail": "Portugal"
       },
       {
+        "name": "Rafik Belghali",
+        "value": 1,
+        "detail": "Algeria"
+      },
+      {
         "name": "Raúl Jiménez",
         "value": 1,
         "detail": "Mexico"
@@ -8983,6 +9105,11 @@
         "name": "Romelu Lukaku",
         "value": 1,
         "detail": "Belgium"
+      },
+      {
+        "name": "Saša Kalajdžić",
+        "value": 1,
+        "detail": "Austria"
       },
       {
         "name": "Sebastian Berhalter",
@@ -9194,7 +9321,7 @@
       {
         "name": "Alexander Schlager",
         "value": 0,
-        "detail": "Austria · 3 goals conceded in 2 appearances"
+        "detail": "Austria · 6 goals conceded in 3 appearances"
       },
       {
         "name": "Aymen Dahmen",
@@ -9307,6 +9434,11 @@
         "detail": "Panama · 4 goals conceded in 3 appearances"
       },
       {
+        "name": "Oussama Benbot",
+        "value": 0,
+        "detail": "Algeria · 3 goals conceded in 1 appearance"
+      },
+      {
         "name": "Uğurcan Çakır",
         "value": 0,
         "detail": "Türkiye · 5 goals conceded in 3 appearances"
@@ -9355,7 +9487,7 @@
       "Belgium": 3,
       "Saudi Arabia": 6,
       "Iran": 6,
-      "Austria": 3,
+      "Austria": 4,
       "Portugal": 4,
       "DR Congo": 5,
       "Ghana": 4,
@@ -10195,6 +10327,11 @@
         "player": "Samuel Moutoussamy",
         "team": "DR Congo",
         "match": "DR Congo vs Uzbekistan"
+      },
+      {
+        "player": "Marko Arnautović",
+        "team": "Austria",
+        "match": "Algeria vs Austria"
       }
     ],
     "penaltyEvents": [
@@ -10719,6 +10856,13 @@
         "yellowCards": 5,
         "penalties": 1,
         "elapsed": 100
+      },
+      {
+        "match": "Algeria vs Austria",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 99
       }
     ]
   }
