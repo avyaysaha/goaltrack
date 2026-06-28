@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T04:31:42.973Z",
+  "updatedAt": "2026-06-28T21:28:10.542Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -4517,8 +4517,8 @@
     {
       "date": "Sunday, June 28, 2026",
       "stage": "Knockout",
-      "group": "Match 73 · Round of 32",
-      "time": "12:00 PM local",
+      "group": "Match 73 • Round of 32",
+      "time": "2:00 PM CDT (12:00 PM PDT venue local)",
       "kickoffISO": "2026-06-28T19:00:00Z",
       "home": "South Africa",
       "homeFlag": "RSA",
@@ -4527,7 +4527,34 @@
       "location": "SoFi Stadium · Los Angeles",
       "venueTimeZone": "America/Los_Angeles",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "status": "FT",
+      "elapsed": 98,
+      "homeScore": 0,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Stephen Eustáquio",
+          "team": "Canada",
+          "match": "South Africa vs Canada"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Nathan Saliba",
+          "team": "Canada",
+          "match": "South Africa vs Canada"
+        },
+        {
+          "player": "Niko Sigur",
+          "team": "Canada",
+          "match": "South Africa vs Canada"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Ronwen Williams",
+      "awayKeeper": "Maxime Crépeau"
     },
     {
       "date": "Monday, June 29, 2026",
@@ -8521,6 +8548,46 @@
       "predictedAwayScore": 3,
       "homeKeeper": "Yazeed Abulaila",
       "awayKeeper": "Emiliano Martínez"
+    },
+    {
+      "date": "Sunday, June 28, 2026",
+      "stage": "Knockout",
+      "group": "Match 73 • Round of 32",
+      "time": "2:00 PM CDT (12:00 PM PDT venue local)",
+      "home": "South Africa",
+      "homeFlag": "RSA",
+      "away": "Canada",
+      "awayFlag": "CAN",
+      "location": "SoFi Stadium · Los Angeles",
+      "status": "FT",
+      "elapsed": 98,
+      "homeScore": 0,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Stephen Eustáquio",
+          "team": "Canada",
+          "match": "South Africa vs Canada"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Nathan Saliba",
+          "team": "Canada",
+          "match": "South Africa vs Canada"
+        },
+        {
+          "player": "Niko Sigur",
+          "team": "Canada",
+          "match": "South Africa vs Canada"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1,
+      "homeKeeper": "Ronwen Williams",
+      "awayKeeper": "Maxime Crépeau"
     }
   ],
   "detailedStats": {
