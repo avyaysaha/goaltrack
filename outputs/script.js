@@ -190,6 +190,33 @@ function getGroupStageSurvivorNames() {
   return survivorNames;
 }
 
+function getTournamentRecord(teamName) {
+  return (siteData.matches || []).reduce(function (record, match) {
+    if (
+      !["FT", "AET", "PEN"].includes(match.status) ||
+      !Number.isInteger(match.homeScore) ||
+      !Number.isInteger(match.awayScore) ||
+      (match.home !== teamName && match.away !== teamName)
+    ) {
+      return record;
+    }
+
+    const isHome = match.home === teamName;
+    const goalsFor = isHome ? match.homeScore : match.awayScore;
+    const goalsAgainst = isHome ? match.awayScore : match.homeScore;
+
+    if (goalsFor > goalsAgainst) {
+      record.won += 1;
+    } else if (goalsFor < goalsAgainst) {
+      record.lost += 1;
+    } else {
+      record.drawn += 1;
+    }
+
+    return record;
+  }, { won: 0, drawn: 0, lost: 0 });
+}
+
 function renderTeamOrbit() {
   if (!teamOrbitDots) {
     return;
@@ -211,12 +238,13 @@ function renderTeamOrbit() {
     const angle = (index / allTeams.length) * Math.PI * 2 - Math.PI / 2;
     // Wins, points, and later rounds move a team inward. Losses create an
     // outward penalty. Confirmed elimination removes the team above.
+    const tournamentRecord = getTournamentRecord(entry.name);
     const stageProgress = entry.stageProgress || 0;
     const inwardProgress =
       stageProgress * 24 +
       Math.min(entry.points || 0, 9) * 2 +
-      (entry.won || 0) * 7;
-    const lossPenalty = (entry.lost || 0) * 12;
+      (tournamentRecord.won || 0) * 7;
+    const lossPenalty = (tournamentRecord.lost || 0) * 12;
     const color = nationalColors[entry.name] || "#ffffff";
 
     return `
@@ -229,8 +257,8 @@ function renderTeamOrbit() {
           --loss-penalty: ${lossPenalty};
           --team-color: ${color};
         "
-        data-label="${entry.name} · ${entry.won}W ${entry.lost}L"
-        aria-label="${entry.name}, ${entry.won} wins, ${entry.lost} losses">
+        data-label="${entry.name} · ${tournamentRecord.won}W ${tournamentRecord.lost}L"
+        aria-label="${entry.name}, ${tournamentRecord.won} wins, ${tournamentRecord.lost} losses">
       </button>
     `;
   }).join("");
