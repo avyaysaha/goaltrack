@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T04:12:16.714Z",
+  "updatedAt": "2026-06-28T04:16:55.558Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -549,12 +549,12 @@
         "name": "Argentina",
         "flag": "ARG",
         "fifaRank": 2,
-        "played": 2,
-        "won": 2,
+        "played": 3,
+        "won": 3,
         "drawn": 0,
         "lost": 0,
-        "gd": 5,
-        "points": 6
+        "gd": 7,
+        "points": 9
       },
       {
         "name": "Austria",
@@ -582,11 +582,11 @@
         "name": "Jordan",
         "flag": "JOR",
         "fifaRank": 66,
-        "played": 2,
+        "played": 3,
         "won": 0,
         "drawn": 0,
-        "lost": 2,
-        "gd": -3,
+        "lost": 3,
+        "gd": -5,
         "points": 0
       }
     ],
@@ -4466,7 +4466,7 @@
       "date": "Saturday, June 27, 2026",
       "stage": "Group Stage",
       "group": "Group J",
-      "time": "9:00 PM local",
+      "time": "9:00 PM CDT (9:00 PM CDT venue local) venue=  AT&T Stadium · Dallas",
       "kickoffISO": "2026-06-28T02:00:00Z",
       "home": "Jordan",
       "homeFlag": "JOR",
@@ -4475,7 +4475,44 @@
       "location": "AT&T Stadium · Dallas",
       "venueTimeZone": "America/Chicago",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 3
+      "predictedAwayScore": 3,
+      "status": "FT",
+      "elapsed": 102,
+      "homeScore": 1,
+      "awayScore": 3,
+      "scorers": [
+        {
+          "player": "Giovani Lo Celso",
+          "team": "Argentina",
+          "match": "Jordan vs Argentina"
+        },
+        {
+          "player": "Lautaro Martínez",
+          "team": "Argentina",
+          "match": "Jordan vs Argentina"
+        },
+        {
+          "player": "Mousa Al-Tamari",
+          "team": "Jordan",
+          "match": "Jordan vs Argentina"
+        },
+        {
+          "player": "Lionel Messi",
+          "team": "Argentina",
+          "match": "Jordan vs Argentina"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Yazan Al Arab",
+          "team": "Jordan",
+          "match": "Jordan vs Argentina"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Yazeed Abulaila",
+      "awayKeeper": "Emiliano Martínez"
     },
     {
       "date": "Sunday, June 28, 2026",
@@ -8402,13 +8439,63 @@
       "predictedAwayScore": 2,
       "homeKeeper": "Oussama Benbot",
       "awayKeeper": "Alexander Schlager"
+    },
+    {
+      "date": "Saturday, June 27, 2026",
+      "stage": "Group Stage",
+      "group": "Group J",
+      "time": "9:00 PM CDT (9:00 PM CDT venue local) venue=  AT&T Stadium · Dallas",
+      "home": "Jordan",
+      "homeFlag": "JOR",
+      "away": "Argentina",
+      "awayFlag": "ARG",
+      "location": "AT&T Stadium · Dallas",
+      "status": "FT",
+      "elapsed": 102,
+      "homeScore": 1,
+      "awayScore": 3,
+      "scorers": [
+        {
+          "player": "Giovani Lo Celso",
+          "team": "Argentina",
+          "match": "Jordan vs Argentina"
+        },
+        {
+          "player": "Lautaro Martínez",
+          "team": "Argentina",
+          "match": "Jordan vs Argentina"
+        },
+        {
+          "player": "Mousa Al-Tamari",
+          "team": "Jordan",
+          "match": "Jordan vs Argentina"
+        },
+        {
+          "player": "Lionel Messi",
+          "team": "Argentina",
+          "match": "Jordan vs Argentina"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Yazan Al Arab",
+          "team": "Jordan",
+          "match": "Jordan vs Argentina"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 3,
+      "homeKeeper": "Yazeed Abulaila",
+      "awayKeeper": "Emiliano Martínez"
     }
   ],
   "detailedStats": {
     "scorers": [
       {
         "name": "Lionel Messi",
-        "value": 5,
+        "value": 6,
         "detail": "Argentina"
       },
       {
@@ -8782,6 +8869,11 @@
         "detail": "United States"
       },
       {
+        "name": "Giovani Lo Celso",
+        "value": 1,
+        "detail": "Argentina"
+      },
+      {
         "name": "Gonzalo Plata",
         "value": 1,
         "detail": "Ecuador"
@@ -8907,6 +8999,11 @@
         "detail": "Spain"
       },
       {
+        "name": "Lautaro Martínez",
+        "value": 1,
+        "detail": "Argentina"
+      },
+      {
         "name": "Leo Østigård",
         "value": 1,
         "detail": "Norway"
@@ -9015,6 +9112,11 @@
         "name": "Mostafa Ziko",
         "value": 1,
         "detail": "Egypt"
+      },
+      {
+        "name": "Mousa Al-Tamari",
+        "value": 1,
+        "detail": "Jordan"
       },
       {
         "name": "Nadhir Benbouali",
@@ -9201,7 +9303,7 @@
       {
         "name": "Emiliano Martínez",
         "value": 2,
-        "detail": "Argentina · 0 goals conceded in 2 appearances"
+        "detail": "Argentina · 1 goals conceded in 3 appearances"
       },
       {
         "name": "Jordan Pickford",
@@ -9451,7 +9553,7 @@
       {
         "name": "Yazeed Abulaila",
         "value": 0,
-        "detail": "Jordan · 5 goals conceded in 2 appearances"
+        "detail": "Jordan · 8 goals conceded in 3 appearances"
       }
     ],
     "redCards": {
@@ -9505,7 +9607,7 @@
       "Argentina": 2,
       "Iraq": 1,
       "Algeria": 1,
-      "Jordan": 1,
+      "Jordan": 2,
       "England": 2,
       "Croatia": 1,
       "Norway": 1
@@ -10332,6 +10434,11 @@
         "player": "Marko Arnautović",
         "team": "Austria",
         "match": "Algeria vs Austria"
+      },
+      {
+        "player": "Yazan Al Arab",
+        "team": "Jordan",
+        "match": "Jordan vs Argentina"
       }
     ],
     "penaltyEvents": [
@@ -10364,6 +10471,9 @@
       },
       {
         "match": "DR Congo vs Uzbekistan"
+      },
+      {
+        "match": "Jordan vs Argentina"
       }
     ],
     "matchStats": [
@@ -10863,6 +10973,13 @@
         "yellowCards": 1,
         "penalties": 0,
         "elapsed": 99
+      },
+      {
+        "match": "Jordan vs Argentina",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 1,
+        "elapsed": 102
       }
     ]
   }
