@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T23:24:33.648Z",
+  "updatedAt": "2026-06-28T03:13:12.004Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -595,23 +595,23 @@
         "name": "Colombia",
         "flag": "COL",
         "fifaRank": 13,
-        "played": 2,
+        "played": 3,
         "won": 2,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 0,
         "gd": 3,
-        "points": 6
+        "points": 7
       },
       {
         "name": "Portugal",
         "flag": "POR",
         "fifaRank": 6,
-        "played": 2,
+        "played": 3,
         "won": 1,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 0,
         "gd": 5,
-        "points": 4
+        "points": 5
       },
       {
         "name": "DR Congo",
@@ -4301,7 +4301,7 @@
       "date": "Saturday, June 27, 2026",
       "stage": "Group Stage",
       "group": "Group K",
-      "time": "7:30 PM local",
+      "time": "6:30 PM CDT (7:30 PM EDT venue local)",
       "kickoffISO": "2026-06-27T23:30:00Z",
       "home": "Colombia",
       "homeFlag": "COL",
@@ -4310,7 +4310,23 @@
       "location": "Hard Rock Stadium · Miami",
       "venueTimeZone": "America/New_York",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "status": "FT",
+      "elapsed": 90,
+      "homeScore": 0,
+      "awayScore": 0,
+      "scorers": [],
+      "yellowCards": [
+        {
+          "player": "Daniel Muñoz",
+          "team": "Colombia",
+          "match": "Colombia vs Portugal"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Camilo Vargas",
+      "awayKeeper": "Diogo Costa"
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -8123,6 +8139,35 @@
       "predictedAwayScore": 1,
       "homeKeeper": "Dominik Livaković",
       "awayKeeper": "Lawrence Ati-Zigi"
+    },
+    {
+      "date": "Saturday, June 27, 2026",
+      "stage": "Group Stage",
+      "group": "Group K",
+      "time": "6:30 PM CDT (7:30 PM EDT venue local)",
+      "home": "Colombia",
+      "homeFlag": "COL",
+      "away": "Portugal",
+      "awayFlag": "POR",
+      "location": "Hard Rock Stadium · Miami",
+      "status": "FT",
+      "elapsed": 90,
+      "homeScore": 0,
+      "awayScore": 0,
+      "scorers": [],
+      "yellowCards": [
+        {
+          "player": "Daniel Muñoz",
+          "team": "Colombia",
+          "match": "Colombia vs Portugal"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1,
+      "homeKeeper": "Camilo Vargas",
+      "awayKeeper": "Diogo Costa"
     }
   ],
   "detailedStats": {
@@ -8880,6 +8925,16 @@
         "detail": "Brazil · 1 goals conceded in 3 appearances"
       },
       {
+        "name": "Camilo Vargas",
+        "value": 2,
+        "detail": "Colombia · 1 goals conceded in 3 appearances"
+      },
+      {
+        "name": "Diogo Costa",
+        "value": 2,
+        "detail": "Portugal · 1 goals conceded in 3 appearances"
+      },
+      {
         "name": "Emiliano Martínez",
         "value": 2,
         "detail": "Argentina · 0 goals conceded in 2 appearances"
@@ -8923,16 +8978,6 @@
         "name": "Benjamin Asare",
         "value": 1,
         "detail": "Ghana · 0 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Camilo Vargas",
-        "value": 1,
-        "detail": "Colombia · 1 goals conceded in 2 appearances"
-      },
-      {
-        "name": "Diogo Costa",
-        "value": 1,
-        "detail": "Portugal · 1 goals conceded in 2 appearances"
       },
       {
         "name": "Dominik Livaković",
@@ -9178,7 +9223,7 @@
       "DR Congo": 2,
       "Ghana": 4,
       "Panama": 5,
-      "Colombia": 3,
+      "Colombia": 4,
       "Uzbekistan": 2,
       "Czechia": 1,
       "Australia": 5,
@@ -9983,6 +10028,11 @@
         "player": "Kojo Peprah Oppong",
         "team": "Ghana",
         "match": "Croatia vs Ghana"
+      },
+      {
+        "player": "Daniel Muñoz",
+        "team": "Colombia",
+        "match": "Colombia vs Portugal"
       }
     ],
     "penaltyEvents": [
@@ -10490,6 +10540,13 @@
         "yellowCards": 2,
         "penalties": 0,
         "elapsed": 100
+      },
+      {
+        "match": "Colombia vs Portugal",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 90
       }
     ]
   }
