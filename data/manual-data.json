@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T21:39:39.469Z",
+  "updatedAt": "2026-06-29T19:42:13.814Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -382,7 +382,8 @@
         "drawn": 2,
         "lost": 0,
         "gd": 4,
-        "points": 5
+        "points": 5,
+        "eliminated": true
       },
       {
         "name": "Sweden",
@@ -4561,7 +4562,7 @@
       "date": "Monday, June 29, 2026",
       "stage": "Knockout",
       "group": "Match 76 · Round of 32",
-      "time": "12:00 PM local",
+      "time": "12:00 PM CDT (12:00 PM CDT venue local)",
       "kickoffISO": "2026-06-29T17:00:00Z",
       "home": "Brazil",
       "homeFlag": "BRA",
@@ -4570,7 +4571,59 @@
       "location": "NRG Stadium · Houston",
       "venueTimeZone": "America/Chicago",
       "predictedHomeScore": 2,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 2,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Kaishū Sano",
+          "team": "Japan",
+          "match": "Brazil vs Japan"
+        },
+        {
+          "player": "Casemiro",
+          "team": "Brazil",
+          "match": "Brazil vs Japan"
+        },
+        {
+          "player": "Gabriel Martinelli",
+          "team": "Brazil",
+          "match": "Brazil vs Japan"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Kaishū Sano",
+          "team": "Japan",
+          "match": "Brazil vs Japan"
+        },
+        {
+          "player": "Casemiro",
+          "team": "Brazil",
+          "match": "Brazil vs Japan"
+        },
+        {
+          "player": "Daichi Kamada",
+          "team": "Japan",
+          "match": "Brazil vs Japan"
+        },
+        {
+          "player": "Danilo",
+          "team": "Brazil",
+          "match": "Brazil vs Japan"
+        },
+        {
+          "player": "Junnosuke Suzuki",
+          "team": "Japan",
+          "match": "Brazil vs Japan"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Alisson Becker",
+      "awayKeeper": "Zion Suzuki"
     },
     {
       "date": "Monday, June 29, 2026",
@@ -8589,6 +8642,71 @@
       "predictedAwayScore": 1,
       "homeKeeper": "Ronwen Williams",
       "awayKeeper": "Maxime Crépeau"
+    },
+    {
+      "date": "Monday, June 29, 2026",
+      "stage": "Knockout",
+      "group": "Match 76 · Round of 32",
+      "time": "12:00 PM CDT (12:00 PM CDT venue local)",
+      "home": "Brazil",
+      "homeFlag": "BRA",
+      "away": "Japan",
+      "awayFlag": "JPN",
+      "location": "NRG Stadium · Houston",
+      "status": "FT",
+      "elapsed": 99,
+      "homeScore": 2,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Kaishū Sano",
+          "team": "Japan",
+          "match": "Brazil vs Japan"
+        },
+        {
+          "player": "Casemiro",
+          "team": "Brazil",
+          "match": "Brazil vs Japan"
+        },
+        {
+          "player": "Gabriel Martinelli",
+          "team": "Brazil",
+          "match": "Brazil vs Japan"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Kaishū Sano",
+          "team": "Japan",
+          "match": "Brazil vs Japan"
+        },
+        {
+          "player": "Casemiro",
+          "team": "Brazil",
+          "match": "Brazil vs Japan"
+        },
+        {
+          "player": "Daichi Kamada",
+          "team": "Japan",
+          "match": "Brazil vs Japan"
+        },
+        {
+          "player": "Danilo",
+          "team": "Brazil",
+          "match": "Brazil vs Japan"
+        },
+        {
+          "player": "Junnosuke Suzuki",
+          "team": "Japan",
+          "match": "Brazil vs Japan"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 1,
+      "homeKeeper": "Alisson Becker",
+      "awayKeeper": "Zion Suzuki"
     }
   ],
   "detailedStats": {
