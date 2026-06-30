@@ -146,11 +146,15 @@ const awayScoreInput = score("AWAY_SCORE");
 const homeScore = homeScoreInput.goals;
 const awayScore = awayScoreInput.goals;
 const matchLabel = `${home} vs ${away}`;
+const enteredStage = String(process.env.STAGE || "Group Stage");
+const enteredRound = String(process.env.GROUP_OR_ROUND || "");
+const looksLikeKnockout = /\b(round of|quarter|semi|final|third|match\s+\d+)/i.test(enteredRound);
+const resolvedStage = looksLikeKnockout ? "Knockout" : enteredStage;
 const hasShootoutScores = homeScoreInput.shootout !== null || awayScoreInput.shootout !== null;
 if (hasShootoutScores && (homeScoreInput.shootout === null || awayScoreInput.shootout === null)) {
   throw new Error("Enter penalty scores for both teams, like 1(4) and 1(3).");
 }
-if (hasShootoutScores && String(process.env.STAGE || "Group Stage") !== "Knockout") {
+if (hasShootoutScores && resolvedStage !== "Knockout") {
   throw new Error("Penalty score format is only supported for Knockout matches.");
 }
 if (hasShootoutScores && homeScore !== awayScore) {
@@ -173,7 +177,7 @@ if (explicitShootoutWinner && explicitShootoutWinner !== home && explicitShootou
 if (explicitShootoutWinner && inferredShootoutWinner && explicitShootoutWinner !== inferredShootoutWinner) {
   throw new Error("winner does not match the penalty scores.");
 }
-if (explicitShootoutWinner && String(process.env.STAGE || "Group Stage") !== "Knockout") {
+if (explicitShootoutWinner && resolvedStage !== "Knockout") {
   throw new Error("winner is only supported for Knockout matches.");
 }
 if (explicitShootoutWinner && homeScore !== awayScore) {
@@ -181,7 +185,7 @@ if (explicitShootoutWinner && homeScore !== awayScore) {
 }
 const update = {
   date: required("MATCH_DATE").replace(/\s+/g, " ").replace(/\s+,/g, ","),
-  stage: String(process.env.STAGE || "Group Stage"),
+  stage: resolvedStage,
   group: String(process.env.GROUP_OR_ROUND || `Group ${teams[home][0]}`),
   time: hasExtra("time") ? extraValue("time") : (previousMatch.time || "TBD"),
   home,
