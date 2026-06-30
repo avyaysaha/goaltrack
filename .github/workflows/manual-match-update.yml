@@ -45,7 +45,7 @@ on:
         required: false
         type: string
       extra_details:
-        description: "Optional lines: time=, venue=, yellow=Player|Team, red=Player|Team, penalties=, home_keeper=, away_keeper="
+        description: "Optional lines: time=, venue=, yellow=Player|Team, red=Player|Team, penalties=, winner=Team, shootout=3-4, home_keeper=, away_keeper="
         required: false
         type: string
 
