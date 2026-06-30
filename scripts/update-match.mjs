@@ -47,6 +47,18 @@ function number(name, fallback = 0) {
   return value;
 }
 
+function score(name) {
+  const raw = String(process.env[name] || "").trim();
+  const match = raw.match(/^(\d+)(?:\((\d+)\))?$/);
+  if (!match) {
+    throw new Error(`${name} must be a number, or penalty format like 1(4).`);
+  }
+  return {
+    goals: Number(match[1]),
+    shootout: match[2] === undefined ? null : Number(match[2])
+  };
+}
+
 function list(value) {
   return String(value || "").split(/[;,]/).map((item) => item.trim()).filter(Boolean);
 }
@@ -129,18 +141,42 @@ const previousMatch = { ...scheduledMatch, ...existingMatch };
 const hasExtra = (name) => Object.prototype.hasOwnProperty.call(extraDetails, name);
 const scorersWereSupplied = String(process.env.SCORERS || "").trim().length > 0;
 
-const homeScore = number("HOME_SCORE");
-const awayScore = number("AWAY_SCORE");
+const homeScoreInput = score("HOME_SCORE");
+const awayScoreInput = score("AWAY_SCORE");
+const homeScore = homeScoreInput.goals;
+const awayScore = awayScoreInput.goals;
 const matchLabel = `${home} vs ${away}`;
-const shootoutWinner = hasExtra("winner") ? resolveTeam(extraValue("winner")) : "";
-const shootoutScore = hasExtra("shootout") ? extraValue("shootout") : "";
-if (shootoutWinner && shootoutWinner !== home && shootoutWinner !== away) {
+const hasShootoutScores = homeScoreInput.shootout !== null || awayScoreInput.shootout !== null;
+if (hasShootoutScores && (homeScoreInput.shootout === null || awayScoreInput.shootout === null)) {
+  throw new Error("Enter penalty scores for both teams, like 1(4) and 1(3).");
+}
+if (hasShootoutScores && String(process.env.STAGE || "Group Stage") !== "Knockout") {
+  throw new Error("Penalty score format is only supported for Knockout matches.");
+}
+if (hasShootoutScores && homeScore !== awayScore) {
+  throw new Error("Penalty score format is only needed when a knockout match is tied after play.");
+}
+if (hasShootoutScores && homeScoreInput.shootout === awayScoreInput.shootout) {
+  throw new Error("Penalty shootout scores cannot be tied.");
+}
+const inferredShootoutWinner = hasShootoutScores
+  ? (homeScoreInput.shootout > awayScoreInput.shootout ? home : away)
+  : "";
+const explicitShootoutWinner = hasExtra("winner") ? resolveTeam(extraValue("winner")) : "";
+const shootoutWinner = explicitShootoutWinner || inferredShootoutWinner;
+const shootoutScore = hasShootoutScores
+  ? `${homeScoreInput.shootout}-${awayScoreInput.shootout}`
+  : (hasExtra("shootout") ? extraValue("shootout") : "");
+if (explicitShootoutWinner && explicitShootoutWinner !== home && explicitShootoutWinner !== away) {
   throw new Error("winner must be one of the two teams in the match.");
 }
-if (shootoutWinner && String(process.env.STAGE || "Group Stage") !== "Knockout") {
+if (explicitShootoutWinner && inferredShootoutWinner && explicitShootoutWinner !== inferredShootoutWinner) {
+  throw new Error("winner does not match the penalty scores.");
+}
+if (explicitShootoutWinner && String(process.env.STAGE || "Group Stage") !== "Knockout") {
   throw new Error("winner is only supported for Knockout matches.");
 }
-if (shootoutWinner && homeScore !== awayScore) {
+if (explicitShootoutWinner && homeScore !== awayScore) {
   throw new Error("winner is only needed when a knockout match is tied after play.");
 }
 const update = {
@@ -157,6 +193,8 @@ const update = {
   elapsed: number("ELAPSED", 90),
   homeScore,
   awayScore,
+  ...(homeScoreInput.shootout !== null ? { homeShootoutScore: homeScoreInput.shootout } : {}),
+  ...(awayScoreInput.shootout !== null ? { awayShootoutScore: awayScoreInput.shootout } : {}),
   scorers: scorersWereSupplied
     ? namedEvents(process.env.SCORERS, matchLabel)
     : (previousMatch.scorers || []),
