@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T19:42:13.814Z",
+  "updatedAt": "2026-06-30T02:36:02.610Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -325,7 +325,8 @@
         "drawn": 0,
         "lost": 1,
         "gd": 6,
-        "points": 6
+        "points": 6,
+        "eliminated": true
       },
       {
         "name": "Cote d'Ivoire",
@@ -4629,7 +4630,7 @@
       "date": "Monday, June 29, 2026",
       "stage": "Knockout",
       "group": "Match 74 · Round of 32",
-      "time": "4:30 PM local",
+      "time": "3:30 PM CDT (4:30 PM EDT venue local)",
       "kickoffISO": "2026-06-29T20:30:00Z",
       "home": "Germany",
       "homeFlag": "GER",
@@ -4638,7 +4639,53 @@
       "location": "Gillette Stadium · Boston",
       "venueTimeZone": "America/New_York",
       "predictedHomeScore": 2,
-      "predictedAwayScore": 0
+      "predictedAwayScore": 0,
+      "status": "FT",
+      "elapsed": 132,
+      "homeScore": 1,
+      "awayScore": 1,
+      "homeShootoutScore": 3,
+      "awayShootoutScore": 4,
+      "scorers": [
+        {
+          "player": "Julio Enciso",
+          "team": "Paraguay",
+          "match": "Germany vs Paraguay"
+        },
+        {
+          "player": "Kai Havertz",
+          "team": "Germany",
+          "match": "Germany vs Paraguay"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Andrés Cubas",
+          "team": "Paraguay",
+          "match": "Germany vs Paraguay"
+        },
+        {
+          "player": "Matías Galarza",
+          "team": "Paraguay",
+          "match": "Germany vs Paraguay"
+        },
+        {
+          "player": "Kai Havertz",
+          "team": "Germany",
+          "match": "Germany vs Paraguay"
+        },
+        {
+          "player": "Jamal Musiala",
+          "team": "Germany",
+          "match": "Germany vs Paraguay"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "shootoutWinner": "Paraguay",
+      "shootout": "3-4",
+      "homeKeeper": "Manuel Neuer",
+      "awayKeeper": "Orlando Gill"
     },
     {
       "date": "Monday, June 29, 2026",
@@ -8707,6 +8754,65 @@
       "predictedAwayScore": 1,
       "homeKeeper": "Alisson Becker",
       "awayKeeper": "Zion Suzuki"
+    },
+    {
+      "date": "Monday, June 29, 2026",
+      "stage": "Knockout",
+      "group": "Match 74 · Round of 32",
+      "time": "3:30 PM CDT (4:30 PM EDT venue local)",
+      "home": "Germany",
+      "homeFlag": "GER",
+      "away": "Paraguay",
+      "awayFlag": "PAR",
+      "location": "Gillette Stadium · Boston",
+      "status": "FT",
+      "elapsed": 132,
+      "homeScore": 1,
+      "awayScore": 1,
+      "homeShootoutScore": 3,
+      "awayShootoutScore": 4,
+      "scorers": [
+        {
+          "player": "Julio Enciso",
+          "team": "Paraguay",
+          "match": "Germany vs Paraguay"
+        },
+        {
+          "player": "Kai Havertz",
+          "team": "Germany",
+          "match": "Germany vs Paraguay"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Andrés Cubas",
+          "team": "Paraguay",
+          "match": "Germany vs Paraguay"
+        },
+        {
+          "player": "Matías Galarza",
+          "team": "Paraguay",
+          "match": "Germany vs Paraguay"
+        },
+        {
+          "player": "Kai Havertz",
+          "team": "Germany",
+          "match": "Germany vs Paraguay"
+        },
+        {
+          "player": "Jamal Musiala",
+          "team": "Germany",
+          "match": "Germany vs Paraguay"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "shootoutWinner": "Paraguay",
+      "shootout": "3-4",
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 0,
+      "homeKeeper": "Manuel Neuer",
+      "awayKeeper": "Orlando Gill"
     }
   ],
   "detailedStats": {
