@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T04:10:40.935Z",
+  "updatedAt": "2026-06-30T19:30:46.851Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -337,7 +337,8 @@
         "drawn": 0,
         "lost": 1,
         "gd": 2,
-        "points": 6
+        "points": 6,
+        "eliminated": true
       },
       {
         "name": "Ecuador",
@@ -4738,7 +4739,7 @@
       "date": "Tuesday, June 30, 2026",
       "stage": "Knockout",
       "group": "Match 78 · Round of 32",
-      "time": "12:00 PM local",
+      "time": "12:00 PM CDT (12:00 PM CDT venue local)",
       "kickoffISO": "2026-06-30T17:00:00Z",
       "home": "Cote d'Ivoire",
       "homeFlag": "CIV",
@@ -4747,7 +4748,39 @@
       "location": "AT&T Stadium · Dallas",
       "venueTimeZone": "America/Chicago",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 2
+      "predictedAwayScore": 2,
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 1,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Antonio Nusa",
+          "team": "Norway",
+          "match": "Cote d'Ivoire vs Norway"
+        },
+        {
+          "player": "Amad Diallo",
+          "team": "Cote d'Ivoire",
+          "match": "Cote d'Ivoire vs Norway"
+        },
+        {
+          "player": "Erling Haaland",
+          "team": "Norway",
+          "match": "Cote d'Ivoire vs Norway"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Antonio Nusa",
+          "team": "Norway",
+          "match": "Cote d'Ivoire vs Norway"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Yahia Fofana",
+      "awayKeeper": "Ørjan Nyland"
     },
     {
       "date": "Tuesday, June 30, 2026",
@@ -8889,6 +8922,51 @@
       "predictedAwayScore": 1,
       "homeKeeper": "Bart Verbruggen",
       "awayKeeper": "Yassine Bounou"
+    },
+    {
+      "date": "Tuesday, June 30, 2026",
+      "stage": "Knockout",
+      "group": "Match 78 · Round of 32",
+      "time": "12:00 PM CDT (12:00 PM CDT venue local)",
+      "home": "Cote d'Ivoire",
+      "homeFlag": "CIV",
+      "away": "Norway",
+      "awayFlag": "NOR",
+      "location": "AT&T Stadium · Dallas",
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 1,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Antonio Nusa",
+          "team": "Norway",
+          "match": "Cote d'Ivoire vs Norway"
+        },
+        {
+          "player": "Amad Diallo",
+          "team": "Cote d'Ivoire",
+          "match": "Cote d'Ivoire vs Norway"
+        },
+        {
+          "player": "Erling Haaland",
+          "team": "Norway",
+          "match": "Cote d'Ivoire vs Norway"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Antonio Nusa",
+          "team": "Norway",
+          "match": "Cote d'Ivoire vs Norway"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 2,
+      "homeKeeper": "Yahia Fofana",
+      "awayKeeper": "Ørjan Nyland"
     }
   ],
   "detailedStats": {
@@ -8900,7 +8978,7 @@
       },
       {
         "name": "Erling Haaland",
-        "value": 4,
+        "value": 5,
         "detail": "Norway"
       },
       {
@@ -8977,6 +9055,11 @@
         "name": "Yoane Wissa",
         "value": 3,
         "detail": "DR Congo"
+      },
+      {
+        "name": "Amad Diallo",
+        "value": 2,
+        "detail": "Cote d'Ivoire"
       },
       {
         "name": "Anthony Elanga",
@@ -9134,11 +9217,6 @@
         "detail": "Mexico"
       },
       {
-        "name": "Amad Diallo",
-        "value": 1,
-        "detail": "Cote d'Ivoire"
-      },
-      {
         "name": "Amine Gouiri",
         "value": 1,
         "detail": "Algeria"
@@ -9152,6 +9230,11 @@
         "name": "Ante Budimir",
         "value": 1,
         "detail": "Croatia"
+      },
+      {
+        "name": "Antonio Nusa",
+        "value": 1,
+        "detail": "Norway"
       },
       {
         "name": "Arda Güler",
@@ -9763,7 +9846,7 @@
       {
         "name": "Yahia Fofana",
         "value": 2,
-        "detail": "Cote d'Ivoire · 2 goals conceded in 3 appearances"
+        "detail": "Cote d'Ivoire · 4 goals conceded in 4 appearances"
       },
       {
         "name": "Alireza Beiranvand",
@@ -9958,7 +10041,7 @@
       {
         "name": "Ørjan Nyland",
         "value": 0,
-        "detail": "Norway · 3 goals conceded in 2 appearances"
+        "detail": "Norway · 4 goals conceded in 3 appearances"
       },
       {
         "name": "Orlando Mosquera",
@@ -10040,7 +10123,7 @@
       "Jordan": 2,
       "England": 2,
       "Croatia": 1,
-      "Norway": 1,
+      "Norway": 2,
       "Japan": 3
     },
     "redCardEvents": [
@@ -10930,6 +11013,11 @@
         "player": "Issa Diop",
         "team": "Morocco",
         "match": "Netherlands vs Morocco"
+      },
+      {
+        "player": "Antonio Nusa",
+        "team": "Norway",
+        "match": "Cote d'Ivoire vs Norway"
       }
     ],
     "penaltyEvents": [
@@ -11499,6 +11587,13 @@
         "yellowCards": 1,
         "penalties": 0,
         "elapsed": 129
+      },
+      {
+        "match": "Cote d'Ivoire vs Norway",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 101
       }
     ]
   }
