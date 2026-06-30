@@ -98,7 +98,7 @@ function resolveTeam(value, requiredTeam = true) {
 }
 
 const extraDetails = {};
-const extraPattern = /(?:^|[\n,]\s*)(time|venue|yellow|red|penalties|home_keeper|away_keeper)\s*=\s*(.*?)(?=(?:[\n,]\s*)(?:time|venue|yellow|red|penalties|home_keeper|away_keeper)\s*=|$)/gis;
+const extraPattern = /(?:^|[\n,]\s*)(time|venue|yellow|red|penalties|winner|shootout|home_keeper|away_keeper)\s*=\s*(.*?)(?=(?:[\n,]\s*)(?:time|venue|yellow|red|penalties|winner|shootout|home_keeper|away_keeper)\s*=|$)/gis;
 for (const match of String(process.env.EXTRA_DETAILS || "").matchAll(extraPattern)) {
   const name = match[1].toLowerCase();
   const value = match[2].trim();
@@ -132,6 +132,17 @@ const scorersWereSupplied = String(process.env.SCORERS || "").trim().length > 0;
 const homeScore = number("HOME_SCORE");
 const awayScore = number("AWAY_SCORE");
 const matchLabel = `${home} vs ${away}`;
+const shootoutWinner = hasExtra("winner") ? resolveTeam(extraValue("winner")) : "";
+const shootoutScore = hasExtra("shootout") ? extraValue("shootout") : "";
+if (shootoutWinner && shootoutWinner !== home && shootoutWinner !== away) {
+  throw new Error("winner must be one of the two teams in the match.");
+}
+if (shootoutWinner && String(process.env.STAGE || "Group Stage") !== "Knockout") {
+  throw new Error("winner is only supported for Knockout matches.");
+}
+if (shootoutWinner && homeScore !== awayScore) {
+  throw new Error("winner is only needed when a knockout match is tied after play.");
+}
 const update = {
   date: required("MATCH_DATE").replace(/\s+/g, " ").replace(/\s+,/g, ","),
   stage: String(process.env.STAGE || "Group Stage"),
@@ -158,6 +169,8 @@ const update = {
   penalties: hasExtra("penalties")
     ? Number(extraValue("penalties") || 0)
     : (previousMatch.penalties || 0),
+  ...(shootoutWinner ? { shootoutWinner } : {}),
+  ...(shootoutScore ? { shootout: shootoutScore } : {}),
   ...(Number.isInteger(previousMatch.predictedHomeScore) && Number.isInteger(previousMatch.predictedAwayScore)
     ? {
         predictedHomeScore: previousMatch.predictedHomeScore,
@@ -233,13 +246,17 @@ function finishedWithWinner(match) {
     ["FT", "AET", "PEN"].includes(match.status) &&
     Number.isInteger(match.homeScore) &&
     Number.isInteger(match.awayScore) &&
-    match.homeScore !== match.awayScore;
+    (match.homeScore !== match.awayScore || Boolean(match.shootoutWinner));
 }
 
 const eliminatedTeams = new Set(previouslyEliminated);
 for (const match of data.matches || []) {
   if (!finishedWithWinner(match)) continue;
-  eliminatedTeams.add(match.homeScore > match.awayScore ? match.away : match.home);
+  if (match.shootoutWinner) {
+    eliminatedTeams.add(match.shootoutWinner === match.home ? match.away : match.home);
+  } else {
+    eliminatedTeams.add(match.homeScore > match.awayScore ? match.away : match.home);
+  }
 }
 
 for (const group of Object.values(standings)) {
