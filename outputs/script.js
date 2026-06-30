@@ -205,7 +205,12 @@ function getTournamentRecord(teamName) {
     const goalsFor = isHome ? match.homeScore : match.awayScore;
     const goalsAgainst = isHome ? match.awayScore : match.homeScore;
 
-    if (goalsFor > goalsAgainst) {
+    const shootoutWinner = match.stage === "Knockout" ? match.shootoutWinner : "";
+    if (shootoutWinner === teamName) {
+      record.won += 1;
+    } else if (shootoutWinner && shootoutWinner !== teamName) {
+      record.lost += 1;
+    } else if (goalsFor > goalsAgainst) {
       record.won += 1;
     } else if (goalsFor < goalsAgainst) {
       record.lost += 1;
@@ -389,7 +394,18 @@ function isFinishedMatch(match) {
 }
 
 function getKnockoutResult(match, kind) {
-  if (!match || !isFinishedMatch(match) || match.homeScore === match.awayScore) {
+  if (!match || !isFinishedMatch(match)) {
+    return "";
+  }
+
+  if (match.shootoutWinner) {
+    if (kind === "winner") {
+      return match.shootoutWinner;
+    }
+    return match.shootoutWinner === match.home ? match.away : match.home;
+  }
+
+  if (match.homeScore === match.awayScore) {
     return "";
   }
 
@@ -448,8 +464,8 @@ function renderBracketMatchCard(match, matchByNumber) {
   const finished = isFinishedMatch(match);
   const homeName = resolveKnockoutSlot(match.home, matchByNumber);
   const awayName = resolveKnockoutSlot(match.away, matchByNumber);
-  const homeWinner = finished && match.homeScore > match.awayScore;
-  const awayWinner = finished && match.awayScore > match.homeScore;
+  const homeWinner = finished && (match.shootoutWinner === match.home || (!match.shootoutWinner && match.homeScore > match.awayScore));
+  const awayWinner = finished && (match.shootoutWinner === match.away || (!match.shootoutWinner && match.awayScore > match.homeScore));
   const roundLabel = knockoutRoundName(match);
   const displayDateTime = getMatchDateTime(match);
   const displayLocation = cleanMatchLocation(match.location);
