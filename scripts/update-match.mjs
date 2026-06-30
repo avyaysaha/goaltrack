@@ -257,7 +257,16 @@ function completedGroupMatches() {
   );
 }
 
+function completedStatMatches() {
+  return (data.matches || []).filter((match) =>
+    ["FT", "AET", "PEN"].includes(match.status) &&
+    Number.isInteger(match.homeScore) &&
+    Number.isInteger(match.awayScore)
+  );
+}
+
 const completedMatches = completedGroupMatches();
+const completedStatsMatches = completedStatMatches();
 
 for (const match of completedMatches) {
   if (match.stage !== "Group Stage") continue;
@@ -309,7 +318,7 @@ for (const group of Object.values(standings)) {
   }
 }
 
-const allScorers = completedMatches.flatMap((match) => match.scorers || []);
+const allScorers = completedStatsMatches.flatMap((match) => match.scorers || []);
 const scorerTotals = new Map();
 for (const event of allScorers) {
   const id = `${event.player}|${event.team}`;
@@ -319,7 +328,7 @@ for (const event of allScorers) {
 }
 
 const keeperTotals = new Map();
-for (const match of completedMatches) {
+for (const match of completedStatsMatches) {
   const keeperEntries = [
     { name: match.homeKeeper, team: match.home, conceded: match.awayScore },
     { name: match.awayKeeper, team: match.away, conceded: match.homeScore }
@@ -339,7 +348,7 @@ for (const match of completedMatches) {
 
 function countEventsByTeam(eventKey) {
   const totals = {};
-  for (const match of completedMatches) {
+  for (const match of completedStatsMatches) {
     for (const event of match[eventKey] || []) {
       if (event.team) totals[event.team] = (totals[event.team] || 0) + 1;
     }
@@ -360,12 +369,12 @@ data.detailedStats = {
   keepers: keepers.sort((a, b) => b.value - a.value || a.name.localeCompare(b.name)),
   redCards: countEventsByTeam("redCards"),
   yellowCards: countEventsByTeam("yellowCards"),
-  redCardEvents: completedMatches.flatMap((match) => match.redCards || []),
-  yellowCardEvents: completedMatches.flatMap((match) => match.yellowCards || []),
-  penaltyEvents: completedMatches.flatMap((match) =>
+  redCardEvents: completedStatsMatches.flatMap((match) => match.redCards || []),
+  yellowCardEvents: completedStatsMatches.flatMap((match) => match.yellowCards || []),
+  penaltyEvents: completedStatsMatches.flatMap((match) =>
     Array.from({ length: match.penalties || 0 }, () => ({ match: `${match.home} vs ${match.away}` }))
   ),
-  matchStats: completedMatches.map((match) => ({
+  matchStats: completedStatsMatches.map((match) => ({
     match: `${match.home} vs ${match.away}`,
     redCards: (match.redCards || []).length,
     yellowCards: (match.yellowCards || []).length,
