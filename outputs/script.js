@@ -443,12 +443,15 @@ function knockoutRoundName(match) {
   return "Knockout";
 }
 
-function bracketTeamRow(name, score, winner) {
+function bracketTeamRow(name, score, winner, shootoutScore = null) {
   const code = getTeamCountryCode(name, "");
   const codeMarkup = /^[A-Z0-9]{2,3}$/.test(code)
     ? `<span class="bracket-team-code">${code}</span>`
     : "";
-  const scoreMarkup = Number.isInteger(score) ? `<span class="bracket-score">${score}</span>` : "";
+  const displayScore = Number.isInteger(score)
+    ? `${score}${Number.isInteger(shootoutScore) ? `(${shootoutScore})` : ""}`
+    : "";
+  const scoreMarkup = displayScore ? `<span class="bracket-score">${displayScore}</span>` : "";
   return `<div class="bracket-team${winner ? " bracket-team-winner" : ""}">${codeMarkup}<span>${name}</span>${scoreMarkup}</div>`;
 }
 
@@ -474,8 +477,8 @@ function renderBracketMatchCard(match, matchByNumber) {
     <article class="bracket-match${finished ? " bracket-match-finished" : ""}">
       <div class="bracket-round-label">${roundLabel}</div>
       <div class="bracket-match-meta"><span>Match ${matchNumber}</span></div>
-      ${bracketTeamRow(homeName, finished ? match.homeScore : null, homeWinner)}
-      ${bracketTeamRow(awayName, finished ? match.awayScore : null, awayWinner)}
+      ${bracketTeamRow(homeName, finished ? match.homeScore : null, homeWinner, match.homeShootoutScore)}
+      ${bracketTeamRow(awayName, finished ? match.awayScore : null, awayWinner, match.awayShootoutScore)}
       <div class="bracket-match-details">
         <span>${match.date}</span>
         <span>${displayDateTime.time}</span>
@@ -1261,8 +1264,14 @@ function renderSchedule() {
       const hasPrediction = Number.isInteger(match.predictedHomeScore) && Number.isInteger(match.predictedAwayScore);
       const finished = ["FT", "AET", "PEN"].includes(match.status);
       const live = ["1H", "HT", "2H", "ET", "BT", "P"].includes(match.status);
+      const homeDisplayScore = hasScore
+        ? `${match.homeScore}${Number.isInteger(match.homeShootoutScore) ? `(${match.homeShootoutScore})` : ""}`
+        : "";
+      const awayDisplayScore = hasScore
+        ? `${match.awayScore}${Number.isInteger(match.awayShootoutScore) ? `(${match.awayShootoutScore})` : ""}`
+        : "";
       const scoreOrVersus = hasScore
-        ? `<div class="versus score">${match.homeScore}<span>-</span>${match.awayScore}</div>`
+        ? `<div class="versus score">${homeDisplayScore}<span>-</span>${awayDisplayScore}</div>`
         : `<div class="versus">VS</div>`;
       const predictionLine = hasPrediction
         ? `<span class="match-prediction">⌖ Predicted Score: ${match.homeFlag} ${match.predictedHomeScore}-${match.predictedAwayScore} ${match.awayFlag}</span>`
