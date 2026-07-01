@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T16:24:01.275Z",
+  "updatedAt": "2026-07-01T19:27:04.022Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -629,7 +629,8 @@
         "drawn": 1,
         "lost": 1,
         "gd": 1,
-        "points": 4
+        "points": 4,
+        "eliminated": true
       },
       {
         "name": "Uzbekistan",
@@ -4882,7 +4883,7 @@
       "date": "Wednesday, July 1, 2026",
       "stage": "Knockout",
       "group": "Match 80 · Round of 32",
-      "time": "12:00 PM local",
+      "time": "11:00 AM CDT (12:00 PM EDT venue local)",
       "kickoffISO": "2026-07-01T16:00:00Z",
       "home": "England",
       "homeFlag": "ENG",
@@ -4891,7 +4892,44 @@
       "location": "Mercedes-Benz Stadium · Atlanta",
       "venueTimeZone": "America/New_York",
       "predictedHomeScore": 2,
-      "predictedAwayScore": 0
+      "predictedAwayScore": 0,
+      "status": "FT",
+      "elapsed": 96,
+      "homeScore": 2,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Brian Cipenga",
+          "team": "DR Congo",
+          "match": "England vs DR Congo"
+        },
+        {
+          "player": "Harry Kane",
+          "team": "England",
+          "match": "England vs DR Congo"
+        },
+        {
+          "player": "Harry Kane",
+          "team": "England",
+          "match": "England vs DR Congo"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Jude Bellingham",
+          "team": "England",
+          "match": "England vs DR Congo"
+        },
+        {
+          "player": "Noah Sadiki",
+          "team": "DR Congo",
+          "match": "England vs DR Congo"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Jordan Pickford",
+      "awayKeeper": "Lionel Mpasi"
     },
     {
       "date": "Wednesday, July 1, 2026",
@@ -9123,6 +9161,56 @@
       "predictedAwayScore": 1,
       "homeKeeper": "Raúl Rangel",
       "awayKeeper": "Hernán Galíndez"
+    },
+    {
+      "date": "Wednesday, July 1, 2026",
+      "stage": "Knockout",
+      "group": "Match 80 · Round of 32",
+      "time": "11:00 AM CDT (12:00 PM EDT venue local)",
+      "home": "England",
+      "homeFlag": "ENG",
+      "away": "DR Congo",
+      "awayFlag": "COD",
+      "location": "Mercedes-Benz Stadium · Atlanta",
+      "status": "FT",
+      "elapsed": 96,
+      "homeScore": 2,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Brian Cipenga",
+          "team": "DR Congo",
+          "match": "England vs DR Congo"
+        },
+        {
+          "player": "Harry Kane",
+          "team": "England",
+          "match": "England vs DR Congo"
+        },
+        {
+          "player": "Harry Kane",
+          "team": "England",
+          "match": "England vs DR Congo"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Jude Bellingham",
+          "team": "England",
+          "match": "England vs DR Congo"
+        },
+        {
+          "player": "Noah Sadiki",
+          "team": "DR Congo",
+          "match": "England vs DR Congo"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 0,
+      "homeKeeper": "Jordan Pickford",
+      "awayKeeper": "Lionel Mpasi"
     }
   ],
   "detailedStats": {
@@ -9141,6 +9229,11 @@
         "name": "Erling Haaland",
         "value": 5,
         "detail": "Norway"
+      },
+      {
+        "name": "Harry Kane",
+        "value": 5,
+        "detail": "England"
       },
       {
         "name": "Ousmane Dembélé",
@@ -9171,11 +9264,6 @@
         "name": "Elijah Just",
         "value": 3,
         "detail": "New Zealand"
-      },
-      {
-        "name": "Harry Kane",
-        "value": 3,
-        "detail": "England"
       },
       {
         "name": "Ismael Saibari",
@@ -9431,6 +9519,11 @@
         "name": "Breel Embolo",
         "value": 1,
         "detail": "Switzerland"
+      },
+      {
+        "name": "Brian Cipenga",
+        "value": 1,
+        "detail": "DR Congo"
       },
       {
         "name": "Caleb Yirenkyi",
@@ -9977,7 +10070,7 @@
       {
         "name": "Jordan Pickford",
         "value": 2,
-        "detail": "England · 2 goals conceded in 3 appearances"
+        "detail": "England · 3 goals conceded in 4 appearances"
       },
       {
         "name": "Maxime Crépeau",
@@ -10152,7 +10245,7 @@
       {
         "name": "Lionel Mpasi",
         "value": 0,
-        "detail": "DR Congo · 3 goals conceded in 3 appearances"
+        "detail": "DR Congo · 5 goals conceded in 4 appearances"
       },
       {
         "name": "Luca Zidane",
@@ -10266,7 +10359,7 @@
       "Iran": 6,
       "Austria": 4,
       "Portugal": 4,
-      "DR Congo": 5,
+      "DR Congo": 6,
       "Ghana": 4,
       "Panama": 5,
       "Colombia": 4,
@@ -10283,7 +10376,7 @@
       "Iraq": 1,
       "Algeria": 1,
       "Jordan": 2,
-      "England": 2,
+      "England": 3,
       "Croatia": 1,
       "Norway": 2,
       "Japan": 3
@@ -11195,6 +11288,16 @@
         "player": "Moisés Caicedo",
         "team": "Ecuador",
         "match": "Mexico vs Ecuador"
+      },
+      {
+        "player": "Jude Bellingham",
+        "team": "England",
+        "match": "England vs DR Congo"
+      },
+      {
+        "player": "Noah Sadiki",
+        "team": "DR Congo",
+        "match": "England vs DR Congo"
       }
     ],
     "penaltyEvents": [
@@ -11785,6 +11888,13 @@
         "yellowCards": 2,
         "penalties": 0,
         "elapsed": 101
+      },
+      {
+        "match": "England vs DR Congo",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 96
       }
     ]
   }
