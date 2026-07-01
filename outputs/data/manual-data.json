@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T02:35:57.377Z",
+  "updatedAt": "2026-07-01T16:15:11.072Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -349,7 +349,8 @@
         "drawn": 1,
         "lost": 1,
         "gd": 0,
-        "points": 4
+        "points": 4,
+        "eliminated": true
       },
       {
         "name": "Curaçao",
@@ -4837,7 +4838,17 @@
       "location": "Estadio Azteca · Mexico City",
       "venueTimeZone": "America/Mexico_City",
       "predictedHomeScore": 2,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "status": "FT",
+      "elapsed": 90,
+      "homeScore": 2,
+      "awayScore": 0,
+      "scorers": [],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "",
+      "awayKeeper": ""
     },
     {
       "date": "Wednesday, July 1, 2026",
@@ -9033,6 +9044,29 @@
       "predictedAwayScore": 1,
       "homeKeeper": "Mike Maignan",
       "awayKeeper": "Jacob Widell Zetterström"
+    },
+    {
+      "date": "Tuesday, June 30, 2026",
+      "stage": "Knockout",
+      "group": "Match 79 · Round of 32",
+      "time": "7:00 PM local",
+      "home": "Mexico",
+      "homeFlag": "MEX",
+      "away": "Ecuador",
+      "awayFlag": "ECU",
+      "location": "Estadio Azteca · Mexico City",
+      "status": "FT",
+      "elapsed": 90,
+      "homeScore": 2,
+      "awayScore": 0,
+      "scorers": [],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 1,
+      "homeKeeper": "",
+      "awayKeeper": ""
     }
   ],
   "detailedStats": {
@@ -11672,6 +11706,13 @@
         "yellowCards": 0,
         "penalties": 0,
         "elapsed": 97
+      },
+      {
+        "match": "Mexico vs Ecuador",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 90
       }
     ]
   }
