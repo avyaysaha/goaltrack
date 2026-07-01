@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T16:15:11.072Z",
+  "updatedAt": "2026-07-01T16:24:01.275Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -4829,7 +4829,7 @@
       "date": "Tuesday, June 30, 2026",
       "stage": "Knockout",
       "group": "Match 79 · Round of 32",
-      "time": "7:00 PM local",
+      "time": "9:00 PM CDT (8:00 PM CST venue local)",
       "kickoffISO": "2026-07-01T01:00:00Z",
       "home": "Mexico",
       "homeFlag": "MEX",
@@ -4840,15 +4840,43 @@
       "predictedHomeScore": 2,
       "predictedAwayScore": 1,
       "status": "FT",
-      "elapsed": 90,
+      "elapsed": 101,
       "homeScore": 2,
       "awayScore": 0,
-      "scorers": [],
-      "yellowCards": [],
-      "redCards": [],
+      "scorers": [
+        {
+          "player": "Julián Quiñones",
+          "team": "Mexico",
+          "match": "Mexico vs Ecuador"
+        },
+        {
+          "player": "Raúl Jiménez",
+          "team": "Mexico",
+          "match": "Mexico vs Ecuador"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Edson Álvarez",
+          "team": "Mexico",
+          "match": "Mexico vs Ecuador"
+        },
+        {
+          "player": "Moisés Caicedo",
+          "team": "Ecuador",
+          "match": "Mexico vs Ecuador"
+        }
+      ],
+      "redCards": [
+        {
+          "player": "Piero Hincapié",
+          "team": "Ecuador",
+          "match": "Mexico vs Ecuador"
+        }
+      ],
       "penalties": 0,
-      "homeKeeper": "",
-      "awayKeeper": ""
+      "homeKeeper": "Raúl Rangel",
+      "awayKeeper": "Hernán Galíndez"
     },
     {
       "date": "Wednesday, July 1, 2026",
@@ -9049,24 +9077,52 @@
       "date": "Tuesday, June 30, 2026",
       "stage": "Knockout",
       "group": "Match 79 · Round of 32",
-      "time": "7:00 PM local",
+      "time": "9:00 PM CDT (8:00 PM CST venue local)",
       "home": "Mexico",
       "homeFlag": "MEX",
       "away": "Ecuador",
       "awayFlag": "ECU",
       "location": "Estadio Azteca · Mexico City",
       "status": "FT",
-      "elapsed": 90,
+      "elapsed": 101,
       "homeScore": 2,
       "awayScore": 0,
-      "scorers": [],
-      "yellowCards": [],
-      "redCards": [],
+      "scorers": [
+        {
+          "player": "Julián Quiñones",
+          "team": "Mexico",
+          "match": "Mexico vs Ecuador"
+        },
+        {
+          "player": "Raúl Jiménez",
+          "team": "Mexico",
+          "match": "Mexico vs Ecuador"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Edson Álvarez",
+          "team": "Mexico",
+          "match": "Mexico vs Ecuador"
+        },
+        {
+          "player": "Moisés Caicedo",
+          "team": "Ecuador",
+          "match": "Mexico vs Ecuador"
+        }
+      ],
+      "redCards": [
+        {
+          "player": "Piero Hincapié",
+          "team": "Ecuador",
+          "match": "Mexico vs Ecuador"
+        }
+      ],
       "penalties": 0,
       "predictedHomeScore": 2,
       "predictedAwayScore": 1,
-      "homeKeeper": "",
-      "awayKeeper": ""
+      "homeKeeper": "Raúl Rangel",
+      "awayKeeper": "Hernán Galíndez"
     }
   ],
   "detailedStats": {
@@ -9140,6 +9196,11 @@
         "name": "Jonathan David",
         "value": 3,
         "detail": "Canada"
+      },
+      {
+        "name": "Julián Quiñones",
+        "value": 3,
+        "detail": "Mexico"
       },
       {
         "name": "Kai Havertz",
@@ -9217,11 +9278,6 @@
         "detail": "England"
       },
       {
-        "name": "Julián Quiñones",
-        "value": 2,
-        "detail": "Mexico"
-      },
-      {
         "name": "Leandro Trossard",
         "value": 2,
         "detail": "Belgium"
@@ -9250,6 +9306,11 @@
         "name": "Ramin Rezaeian",
         "value": 2,
         "detail": "Iran"
+      },
+      {
+        "name": "Raúl Jiménez",
+        "value": 2,
+        "detail": "Mexico"
       },
       {
         "name": "Riyad Mahrez",
@@ -9802,11 +9863,6 @@
         "detail": "Algeria"
       },
       {
-        "name": "Raúl Jiménez",
-        "value": 1,
-        "detail": "Mexico"
-      },
-      {
         "name": "Romano Schmid",
         "value": 1,
         "detail": "Austria"
@@ -9890,8 +9946,8 @@
     "keepers": [
       {
         "name": "Raúl Rangel",
-        "value": 3,
-        "detail": "Mexico · 0 goals conceded in 3 appearances"
+        "value": 4,
+        "detail": "Mexico · 0 goals conceded in 4 appearances"
       },
       {
         "name": "Unai Simón",
@@ -9981,7 +10037,7 @@
       {
         "name": "Hernán Galíndez",
         "value": 1,
-        "detail": "Ecuador · 2 goals conceded in 3 appearances"
+        "detail": "Ecuador · 4 goals conceded in 4 appearances"
       },
       {
         "name": "Lawrence Ati-Zigi",
@@ -10182,11 +10238,12 @@
       "Paraguay": 1,
       "Belgium": 1,
       "Iraq": 1,
-      "Uruguay": 1
+      "Uruguay": 1,
+      "Ecuador": 1
     },
     "yellowCards": {
       "South Africa": 7,
-      "Mexico": 2,
+      "Mexico": 3,
       "Canada": 6,
       "Bosnia and Herzegovina": 6,
       "Paraguay": 10,
@@ -10199,7 +10256,7 @@
       "Türkiye": 1,
       "Netherlands": 3,
       "Cote d'Ivoire": 5,
-      "Ecuador": 2,
+      "Ecuador": 3,
       "Tunisia": 1,
       "Spain": 2,
       "Cabo Verde": 4,
@@ -10281,6 +10338,11 @@
         "player": "Agustín Canobbio",
         "team": "Uruguay",
         "match": "Uruguay vs Spain"
+      },
+      {
+        "player": "Piero Hincapié",
+        "team": "Ecuador",
+        "match": "Mexico vs Ecuador"
       }
     ],
     "yellowCardEvents": [
@@ -11123,6 +11185,16 @@
         "player": "Antonio Nusa",
         "team": "Norway",
         "match": "Cote d'Ivoire vs Norway"
+      },
+      {
+        "player": "Edson Álvarez",
+        "team": "Mexico",
+        "match": "Mexico vs Ecuador"
+      },
+      {
+        "player": "Moisés Caicedo",
+        "team": "Ecuador",
+        "match": "Mexico vs Ecuador"
       }
     ],
     "penaltyEvents": [
@@ -11709,10 +11781,10 @@
       },
       {
         "match": "Mexico vs Ecuador",
-        "redCards": 0,
-        "yellowCards": 0,
+        "redCards": 1,
+        "yellowCards": 2,
         "penalties": 0,
-        "elapsed": 90
+        "elapsed": 101
       }
     ]
   }
