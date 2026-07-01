@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T19:30:46.851Z",
+  "updatedAt": "2026-07-01T02:35:57.377Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -397,7 +397,8 @@
         "drawn": 1,
         "lost": 1,
         "gd": 0,
-        "points": 4
+        "points": 4,
+        "eliminated": true
       },
       {
         "name": "Tunisia",
@@ -4786,7 +4787,7 @@
       "date": "Tuesday, June 30, 2026",
       "stage": "Knockout",
       "group": "Match 77 · Round of 32",
-      "time": "5:00 PM local",
+      "time": "4:00 PM CDT (5:00 PM EDT venue local)",
       "kickoffISO": "2026-06-30T21:00:00Z",
       "home": "France",
       "homeFlag": "FRA",
@@ -4795,7 +4796,33 @@
       "location": "MetLife Stadium · New Jersey",
       "venueTimeZone": "America/New_York",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "status": "FT",
+      "elapsed": 97,
+      "homeScore": 3,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Kylian Mbappé",
+          "team": "France",
+          "match": "France vs Sweden"
+        },
+        {
+          "player": "Bradley Barcola",
+          "team": "France",
+          "match": "France vs Sweden"
+        },
+        {
+          "player": "Kylian Mbappé",
+          "team": "France",
+          "match": "France vs Sweden"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Mike Maignan",
+      "awayKeeper": "Jacob Widell Zetterström"
     },
     {
       "date": "Tuesday, June 30, 2026",
@@ -8967,10 +8994,54 @@
       "predictedAwayScore": 2,
       "homeKeeper": "Yahia Fofana",
       "awayKeeper": "Ørjan Nyland"
+    },
+    {
+      "date": "Tuesday, June 30, 2026",
+      "stage": "Knockout",
+      "group": "Match 77 · Round of 32",
+      "time": "4:00 PM CDT (5:00 PM EDT venue local)",
+      "home": "France",
+      "homeFlag": "FRA",
+      "away": "Sweden",
+      "awayFlag": "SWE",
+      "location": "MetLife Stadium · New Jersey",
+      "status": "FT",
+      "elapsed": 97,
+      "homeScore": 3,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Kylian Mbappé",
+          "team": "France",
+          "match": "France vs Sweden"
+        },
+        {
+          "player": "Bradley Barcola",
+          "team": "France",
+          "match": "France vs Sweden"
+        },
+        {
+          "player": "Kylian Mbappé",
+          "team": "France",
+          "match": "France vs Sweden"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1,
+      "homeKeeper": "Mike Maignan",
+      "awayKeeper": "Jacob Widell Zetterström"
     }
   ],
   "detailedStats": {
     "scorers": [
+      {
+        "name": "Kylian Mbappé",
+        "value": 6,
+        "detail": "France"
+      },
       {
         "name": "Lionel Messi",
         "value": 6,
@@ -8980,11 +9051,6 @@
         "name": "Erling Haaland",
         "value": 5,
         "detail": "Norway"
-      },
-      {
-        "name": "Kylian Mbappé",
-        "value": 4,
-        "detail": "France"
       },
       {
         "name": "Ousmane Dembélé",
@@ -9070,6 +9136,11 @@
         "name": "Ayase Ueda",
         "value": 2,
         "detail": "Japan"
+      },
+      {
+        "name": "Bradley Barcola",
+        "value": 2,
+        "detail": "France"
       },
       {
         "name": "Cristiano Ronaldo",
@@ -9260,11 +9331,6 @@
         "name": "Boulem Khouki",
         "value": 1,
         "detail": "Qatar"
-      },
-      {
-        "name": "Bradley Barcola",
-        "value": 1,
-        "detail": "France"
       },
       {
         "name": "Breel Embolo",
@@ -9829,6 +9895,11 @@
         "detail": "Canada · 3 goals conceded in 4 appearances"
       },
       {
+        "name": "Mike Maignan",
+        "value": 2,
+        "detail": "France · 2 goals conceded in 4 appearances"
+      },
+      {
         "name": "Orlando Gill",
         "value": 2,
         "detail": "Paraguay · 5 goals conceded in 4 appearances"
@@ -9887,11 +9958,6 @@
         "name": "Matt Freese",
         "value": 1,
         "detail": "United States · 4 goals conceded in 3 appearances"
-      },
-      {
-        "name": "Mike Maignan",
-        "value": 1,
-        "detail": "France · 2 goals conceded in 3 appearances"
       },
       {
         "name": "Mohammed Al-Owais",
@@ -9967,6 +10033,11 @@
         "name": "Gregor Kobel",
         "value": 0,
         "detail": "Switzerland · 3 goals conceded in 3 appearances"
+      },
+      {
+        "name": "Jacob Widell Zetterström",
+        "value": 0,
+        "detail": "Sweden · 3 goals conceded in 1 appearance"
       },
       {
         "name": "Jalal Hassan",
@@ -11594,6 +11665,13 @@
         "yellowCards": 1,
         "penalties": 0,
         "elapsed": 101
+      },
+      {
+        "match": "France vs Sweden",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 97
       }
     ]
   }
