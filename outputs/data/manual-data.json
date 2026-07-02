@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T00:20:07.463Z",
+  "updatedAt": "2026-07-02T02:47:14.685Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -209,7 +209,8 @@
         "drawn": 1,
         "lost": 1,
         "gd": -1,
-        "points": 4
+        "points": 4,
+        "eliminated": true
       },
       {
         "name": "Qatar",
@@ -5018,7 +5019,7 @@
       "date": "Wednesday, July 1, 2026",
       "stage": "Knockout",
       "group": "Match 81 · Round of 32",
-      "time": "5:00 PM local",
+      "time": "7:00 PM CDT (5:00 PM PDT venue local)",
       "kickoffISO": "2026-07-02T00:00:00Z",
       "home": "United States",
       "homeFlag": "USA",
@@ -5027,7 +5028,45 @@
       "location": "Levi's Stadium · San Francisco Bay Area",
       "venueTimeZone": "America/Los_Angeles",
       "predictedHomeScore": 2,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "status": "FT",
+      "elapsed": 105,
+      "homeScore": 2,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Folarin Balogun",
+          "team": "Iran",
+          "match": "United States vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Malik Tillman",
+          "team": "Iran",
+          "match": "United States vs Bosnia and Herzegovina"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Stjepan Radeljić",
+          "team": "Brazil",
+          "match": "United States vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Sergej Barbarez",
+          "team": "Brazil",
+          "match": "United States vs Bosnia and Herzegovina"
+        }
+      ],
+      "redCards": [
+        {
+          "player": "Folarin Balogun",
+          "team": "Iran",
+          "match": "United States vs Bosnia and Herzegovina"
+        }
+      ],
+      "penalties": 0,
+      "homeKeeper": "Matt Freese",
+      "awayKeeper": "Nikola Vasilj"
     },
     {
       "date": "Thursday, July 2, 2026",
@@ -9359,6 +9398,57 @@
       "predictedAwayScore": 1,
       "homeKeeper": "Thibaut Courtois",
       "awayKeeper": "Mory Diaw"
+    },
+    {
+      "date": "Wednesday, July 1, 2026",
+      "stage": "Knockout",
+      "group": "Match 81 · Round of 32",
+      "time": "7:00 PM CDT (5:00 PM PDT venue local)",
+      "home": "United States",
+      "homeFlag": "USA",
+      "away": "Bosnia and Herzegovina",
+      "awayFlag": "BIH",
+      "location": "Levi's Stadium · San Francisco Bay Area",
+      "status": "FT",
+      "elapsed": 105,
+      "homeScore": 2,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Folarin Balogun",
+          "team": "Iran",
+          "match": "United States vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Malik Tillman",
+          "team": "Iran",
+          "match": "United States vs Bosnia and Herzegovina"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Stjepan Radeljić",
+          "team": "Brazil",
+          "match": "United States vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Sergej Barbarez",
+          "team": "Brazil",
+          "match": "United States vs Bosnia and Herzegovina"
+        }
+      ],
+      "redCards": [
+        {
+          "player": "Folarin Balogun",
+          "team": "Iran",
+          "match": "United States vs Bosnia and Herzegovina"
+        }
+      ],
+      "penalties": 0,
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 1,
+      "homeKeeper": "Matt Freese",
+      "awayKeeper": "Nikola Vasilj"
     }
   ],
   "detailedStats": {
@@ -9759,6 +9849,11 @@
         "detail": "DR Congo"
       },
       {
+        "name": "Folarin Balogun",
+        "value": 1,
+        "detail": "Iran"
+      },
+      {
         "name": "Franck Kessié",
         "value": 1,
         "detail": "Cote d'Ivoire"
@@ -9952,6 +10047,11 @@
         "name": "Mahmoud Saber",
         "value": 1,
         "detail": "Egypt"
+      },
+      {
+        "name": "Malik Tillman",
+        "value": 1,
+        "detail": "Iran"
       },
       {
         "name": "Marcel Sabitzer",
@@ -10226,6 +10326,11 @@
         "detail": "England · 3 goals conceded in 4 appearances"
       },
       {
+        "name": "Matt Freese",
+        "value": 2,
+        "detail": "United States · 4 goals conceded in 4 appearances"
+      },
+      {
         "name": "Maxime Crépeau",
         "value": 2,
         "detail": "Canada · 3 goals conceded in 4 appearances"
@@ -10289,11 +10394,6 @@
         "name": "Lawrence Ati-Zigi",
         "value": 1,
         "detail": "Ghana · 2 goals conceded in 2 appearances"
-      },
-      {
-        "name": "Matt Freese",
-        "value": 1,
-        "detail": "United States · 4 goals conceded in 3 appearances"
       },
       {
         "name": "Mohammed Al-Owais",
@@ -10443,7 +10543,7 @@
       {
         "name": "Nikola Vasilj",
         "value": 0,
-        "detail": "Bosnia and Herzegovina · 6 goals conceded in 3 appearances"
+        "detail": "Bosnia and Herzegovina · 8 goals conceded in 4 appearances"
       },
       {
         "name": "Ørjan Nyland",
@@ -10485,7 +10585,8 @@
       "Belgium": 1,
       "Iraq": 1,
       "Uruguay": 1,
-      "Ecuador": 1
+      "Ecuador": 1,
+      "Iran": 1
     },
     "yellowCards": {
       "South Africa": 7,
@@ -10496,7 +10597,7 @@
       "United States": 4,
       "Qatar": 4,
       "Switzerland": 3,
-      "Brazil": 5,
+      "Brazil": 7,
       "Haiti": 5,
       "Scotland": 4,
       "Türkiye": 1,
@@ -10590,6 +10691,11 @@
         "player": "Piero Hincapié",
         "team": "Ecuador",
         "match": "Mexico vs Ecuador"
+      },
+      {
+        "player": "Folarin Balogun",
+        "team": "Iran",
+        "match": "United States vs Bosnia and Herzegovina"
       }
     ],
     "yellowCardEvents": [
@@ -11482,6 +11588,16 @@
         "player": "Kalidou Koulibaly",
         "team": "Senegal",
         "match": "Belgium vs Senegal"
+      },
+      {
+        "player": "Stjepan Radeljić",
+        "team": "Brazil",
+        "match": "United States vs Bosnia and Herzegovina"
+      },
+      {
+        "player": "Sergej Barbarez",
+        "team": "Brazil",
+        "match": "United States vs Bosnia and Herzegovina"
       }
     ],
     "penaltyEvents": [
@@ -12089,6 +12205,13 @@
         "yellowCards": 6,
         "penalties": 1,
         "elapsed": 134
+      },
+      {
+        "match": "United States vs Bosnia and Herzegovina",
+        "redCards": 1,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 105
       }
     ]
   }
