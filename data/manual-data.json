@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T19:27:04.022Z",
+  "updatedAt": "2026-07-02T00:20:07.463Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -537,7 +537,8 @@
         "drawn": 0,
         "lost": 2,
         "gd": 2,
-        "points": 3
+        "points": 3,
+        "eliminated": true
       },
       {
         "name": "Iraq",
@@ -4935,7 +4936,7 @@
       "date": "Wednesday, July 1, 2026",
       "stage": "Knockout",
       "group": "Match 82 · Round of 32",
-      "time": "1:00 PM local",
+      "time": "3:00 PM CDT (1:00 PM PDT venue local)",
       "kickoffISO": "2026-07-01T20:00:00Z",
       "home": "Belgium",
       "homeFlag": "BEL",
@@ -4944,7 +4945,74 @@
       "location": "Lumen Field · Seattle",
       "venueTimeZone": "America/Los_Angeles",
       "predictedHomeScore": 2,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "status": "FT",
+      "elapsed": 134,
+      "homeScore": 3,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Habib Diarra",
+          "team": "Senegal",
+          "match": "Belgium vs Senegal"
+        },
+        {
+          "player": "Ismaïla Sarr",
+          "team": "Senegal",
+          "match": "Belgium vs Senegal"
+        },
+        {
+          "player": "Romelu Lukaku",
+          "team": "Belgium",
+          "match": "Belgium vs Senegal"
+        },
+        {
+          "player": "Youri Tielemans",
+          "team": "Belgium",
+          "match": "Belgium vs Senegal"
+        },
+        {
+          "player": "Youri Tielemans",
+          "team": "Belgium",
+          "match": "Belgium vs Senegal"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Timothy Castagne",
+          "team": "Belgium",
+          "match": "Belgium vs Senegal"
+        },
+        {
+          "player": "Brandon Mechele",
+          "team": "Belgium",
+          "match": "Belgium vs Senegal"
+        },
+        {
+          "player": "Amadou Onana",
+          "team": "Belgium",
+          "match": "Belgium vs Senegal"
+        },
+        {
+          "player": "Lois Openda",
+          "team": "Belgium",
+          "match": "Belgium vs Senegal"
+        },
+        {
+          "player": "Idrissa Gueye",
+          "team": "Senegal",
+          "match": "Belgium vs Senegal"
+        },
+        {
+          "player": "Kalidou Koulibaly",
+          "team": "Senegal",
+          "match": "Belgium vs Senegal"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Thibaut Courtois",
+      "awayKeeper": "Mory Diaw"
     },
     {
       "date": "Wednesday, July 1, 2026",
@@ -9211,6 +9279,86 @@
       "predictedAwayScore": 0,
       "homeKeeper": "Jordan Pickford",
       "awayKeeper": "Lionel Mpasi"
+    },
+    {
+      "date": "Wednesday, July 1, 2026",
+      "stage": "Knockout",
+      "group": "Match 82 · Round of 32",
+      "time": "3:00 PM CDT (1:00 PM PDT venue local)",
+      "home": "Belgium",
+      "homeFlag": "BEL",
+      "away": "Senegal",
+      "awayFlag": "SEN",
+      "location": "Lumen Field · Seattle",
+      "status": "FT",
+      "elapsed": 134,
+      "homeScore": 3,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Habib Diarra",
+          "team": "Senegal",
+          "match": "Belgium vs Senegal"
+        },
+        {
+          "player": "Ismaïla Sarr",
+          "team": "Senegal",
+          "match": "Belgium vs Senegal"
+        },
+        {
+          "player": "Romelu Lukaku",
+          "team": "Belgium",
+          "match": "Belgium vs Senegal"
+        },
+        {
+          "player": "Youri Tielemans",
+          "team": "Belgium",
+          "match": "Belgium vs Senegal"
+        },
+        {
+          "player": "Youri Tielemans",
+          "team": "Belgium",
+          "match": "Belgium vs Senegal"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Timothy Castagne",
+          "team": "Belgium",
+          "match": "Belgium vs Senegal"
+        },
+        {
+          "player": "Brandon Mechele",
+          "team": "Belgium",
+          "match": "Belgium vs Senegal"
+        },
+        {
+          "player": "Amadou Onana",
+          "team": "Belgium",
+          "match": "Belgium vs Senegal"
+        },
+        {
+          "player": "Lois Openda",
+          "team": "Belgium",
+          "match": "Belgium vs Senegal"
+        },
+        {
+          "player": "Idrissa Gueye",
+          "team": "Senegal",
+          "match": "Belgium vs Senegal"
+        },
+        {
+          "player": "Kalidou Koulibaly",
+          "team": "Senegal",
+          "match": "Belgium vs Senegal"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 1,
+      "homeKeeper": "Thibaut Courtois",
+      "awayKeeper": "Mory Diaw"
     }
   ],
   "detailedStats": {
@@ -9234,6 +9382,11 @@
         "name": "Harry Kane",
         "value": 5,
         "detail": "England"
+      },
+      {
+        "name": "Ismaïla Sarr",
+        "value": 4,
+        "detail": "Senegal"
       },
       {
         "name": "Ousmane Dembélé",
@@ -9269,11 +9422,6 @@
         "name": "Ismael Saibari",
         "value": 3,
         "detail": "Morocco"
-      },
-      {
-        "name": "Ismaïla Sarr",
-        "value": 3,
-        "detail": "Senegal"
       },
       {
         "name": "Johan Manzambi",
@@ -9361,6 +9509,11 @@
         "detail": "United States"
       },
       {
+        "name": "Habib Diarra",
+        "value": 2,
+        "detail": "Senegal"
+      },
+      {
         "name": "Jude Bellingham",
         "value": 2,
         "detail": "England"
@@ -9406,6 +9559,11 @@
         "detail": "Algeria"
       },
       {
+        "name": "Romelu Lukaku",
+        "value": 2,
+        "detail": "Belgium"
+      },
+      {
         "name": "Rubén Vargas",
         "value": 2,
         "detail": "Switzerland"
@@ -9414,6 +9572,11 @@
         "name": "Yasin Ayari",
         "value": 2,
         "detail": "Sweden"
+      },
+      {
+        "name": "Youri Tielemans",
+        "value": 2,
+        "detail": "Belgium"
       },
       {
         "name": "Abbosbek Fayzullaev",
@@ -9629,11 +9792,6 @@
         "name": "Granit Xhaka",
         "value": 1,
         "detail": "Switzerland"
-      },
-      {
-        "name": "Habib Diarra",
-        "value": 1,
-        "detail": "Senegal"
       },
       {
         "name": "Hassan Al-Haydos",
@@ -9961,11 +10119,6 @@
         "detail": "Austria"
       },
       {
-        "name": "Romelu Lukaku",
-        "value": 1,
-        "detail": "Belgium"
-      },
-      {
         "name": "Saša Kalajdžić",
         "value": 1,
         "detail": "Austria"
@@ -10150,7 +10303,7 @@
       {
         "name": "Mory Diaw",
         "value": 1,
-        "detail": "Senegal · 0 goals conceded in 1 appearance"
+        "detail": "Senegal · 3 goals conceded in 2 appearances"
       },
       {
         "name": "Ronwen Williams",
@@ -10160,7 +10313,7 @@
       {
         "name": "Thibaut Courtois",
         "value": 1,
-        "detail": "Belgium · 2 goals conceded in 3 appearances"
+        "detail": "Belgium · 4 goals conceded in 4 appearances"
       },
       {
         "name": "Yassine Bounou",
@@ -10354,7 +10507,7 @@
       "Spain": 2,
       "Cabo Verde": 4,
       "Egypt": 6,
-      "Belgium": 3,
+      "Belgium": 7,
       "Saudi Arabia": 6,
       "Iran": 6,
       "Austria": 4,
@@ -10379,7 +10532,8 @@
       "England": 3,
       "Croatia": 1,
       "Norway": 2,
-      "Japan": 3
+      "Japan": 3,
+      "Senegal": 2
     },
     "redCardEvents": [
       {
@@ -11298,6 +11452,36 @@
         "player": "Noah Sadiki",
         "team": "DR Congo",
         "match": "England vs DR Congo"
+      },
+      {
+        "player": "Timothy Castagne",
+        "team": "Belgium",
+        "match": "Belgium vs Senegal"
+      },
+      {
+        "player": "Brandon Mechele",
+        "team": "Belgium",
+        "match": "Belgium vs Senegal"
+      },
+      {
+        "player": "Amadou Onana",
+        "team": "Belgium",
+        "match": "Belgium vs Senegal"
+      },
+      {
+        "player": "Lois Openda",
+        "team": "Belgium",
+        "match": "Belgium vs Senegal"
+      },
+      {
+        "player": "Idrissa Gueye",
+        "team": "Senegal",
+        "match": "Belgium vs Senegal"
+      },
+      {
+        "player": "Kalidou Koulibaly",
+        "team": "Senegal",
+        "match": "Belgium vs Senegal"
       }
     ],
     "penaltyEvents": [
@@ -11333,6 +11517,9 @@
       },
       {
         "match": "Jordan vs Argentina"
+      },
+      {
+        "match": "Belgium vs Senegal"
       }
     ],
     "matchStats": [
@@ -11895,6 +12082,13 @@
         "yellowCards": 2,
         "penalties": 0,
         "elapsed": 96
+      },
+      {
+        "match": "Belgium vs Senegal",
+        "redCards": 0,
+        "yellowCards": 6,
+        "penalties": 1,
+        "elapsed": 134
       }
     ]
   }
