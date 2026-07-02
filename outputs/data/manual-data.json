@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T02:47:14.685Z",
+  "updatedAt": "2026-07-02T21:00:56.714Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -574,7 +574,8 @@
         "drawn": 1,
         "lost": 1,
         "gd": 0,
-        "points": 4
+        "points": 4,
+        "eliminated": true
       },
       {
         "name": "Algeria",
@@ -5072,7 +5073,7 @@
       "date": "Thursday, July 2, 2026",
       "stage": "Knockout",
       "group": "Match 84 · Round of 32",
-      "time": "12:00 PM local",
+      "time": "2:00 PM CDT (12:00 PM PDT venue local)",
       "kickoffISO": "2026-07-02T19:00:00Z",
       "home": "Spain",
       "homeFlag": "ESP",
@@ -5081,7 +5082,39 @@
       "location": "SoFi Stadium · Los Angeles",
       "venueTimeZone": "America/Los_Angeles",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 0
+      "predictedAwayScore": 0,
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 3,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Mikel Oyarzabal",
+          "team": "Spain",
+          "match": "Spain vs Austria"
+        },
+        {
+          "player": "Pedro Porro",
+          "team": "Spain",
+          "match": "Spain vs Austria"
+        },
+        {
+          "player": "Mikel Oyarzabal",
+          "team": "Spain",
+          "match": "Spain vs Austria"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Stefan Posch",
+          "team": "Austria",
+          "match": "Spain vs Austria"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Unai Simón",
+      "awayKeeper": "Alexander Schlager"
     },
     {
       "date": "Thursday, July 2, 2026",
@@ -9449,6 +9482,51 @@
       "predictedAwayScore": 1,
       "homeKeeper": "Matt Freese",
       "awayKeeper": "Nikola Vasilj"
+    },
+    {
+      "date": "Thursday, July 2, 2026",
+      "stage": "Knockout",
+      "group": "Match 84 · Round of 32",
+      "time": "2:00 PM CDT (12:00 PM PDT venue local)",
+      "home": "Spain",
+      "homeFlag": "ESP",
+      "away": "Austria",
+      "awayFlag": "AUT",
+      "location": "SoFi Stadium · Los Angeles",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 3,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Mikel Oyarzabal",
+          "team": "Spain",
+          "match": "Spain vs Austria"
+        },
+        {
+          "player": "Pedro Porro",
+          "team": "Spain",
+          "match": "Spain vs Austria"
+        },
+        {
+          "player": "Mikel Oyarzabal",
+          "team": "Spain",
+          "match": "Spain vs Austria"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Stefan Posch",
+          "team": "Austria",
+          "match": "Spain vs Austria"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 0,
+      "homeKeeper": "Unai Simón",
+      "awayKeeper": "Alexander Schlager"
     }
   ],
   "detailedStats": {
@@ -9477,6 +9555,11 @@
         "name": "Ismaïla Sarr",
         "value": 4,
         "detail": "Senegal"
+      },
+      {
+        "name": "Mikel Oyarzabal",
+        "value": 4,
+        "detail": "Spain"
       },
       {
         "name": "Ousmane Dembélé",
@@ -9617,11 +9700,6 @@
         "name": "Marko Arnautović",
         "value": 2,
         "detail": "Austria"
-      },
-      {
-        "name": "Mikel Oyarzabal",
-        "value": 2,
-        "detail": "Spain"
       },
       {
         "name": "Nicolas Pépé",
@@ -10189,6 +10267,11 @@
         "detail": "Tunisia"
       },
       {
+        "name": "Pedro Porro",
+        "value": 1,
+        "detail": "Spain"
+      },
+      {
         "name": "Petar Musa",
         "value": 1,
         "detail": "Croatia"
@@ -10297,8 +10380,8 @@
       },
       {
         "name": "Unai Simón",
-        "value": 3,
-        "detail": "Spain · 0 goals conceded in 3 appearances"
+        "value": 4,
+        "detail": "Spain · 0 goals conceded in 4 appearances"
       },
       {
         "name": "Alisson Becker",
@@ -10438,7 +10521,7 @@
       {
         "name": "Alexander Schlager",
         "value": 0,
-        "detail": "Austria · 6 goals conceded in 3 appearances"
+        "detail": "Austria · 9 goals conceded in 4 appearances"
       },
       {
         "name": "Aymen Dahmen",
@@ -10611,7 +10694,7 @@
       "Belgium": 7,
       "Saudi Arabia": 6,
       "Iran": 6,
-      "Austria": 4,
+      "Austria": 5,
       "Portugal": 4,
       "DR Congo": 6,
       "Ghana": 4,
@@ -11598,6 +11681,11 @@
         "player": "Sergej Barbarez",
         "team": "Brazil",
         "match": "United States vs Bosnia and Herzegovina"
+      },
+      {
+        "player": "Stefan Posch",
+        "team": "Austria",
+        "match": "Spain vs Austria"
       }
     ],
     "penaltyEvents": [
@@ -12212,6 +12300,13 @@
         "yellowCards": 2,
         "penalties": 0,
         "elapsed": 105
+      },
+      {
+        "match": "Spain vs Austria",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 100
       }
     ]
   }
