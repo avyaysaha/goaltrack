@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T02:07:44.346Z",
+  "updatedAt": "2026-07-03T17:42:42.690Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -586,7 +586,8 @@
         "drawn": 1,
         "lost": 1,
         "gd": -2,
-        "points": 4
+        "points": 4,
+        "eliminated": true
       },
       {
         "name": "Jordan",
@@ -5178,7 +5179,7 @@
       "date": "Thursday, July 2, 2026",
       "stage": "Knockout",
       "group": "Match 85 · Round of 32",
-      "time": "8:00 PM local",
+      "time": "10:00 PM CDT (8:00 PM PDT venue local)",
       "kickoffISO": "2026-07-03T03:00:00Z",
       "home": "Switzerland",
       "homeFlag": "SUI",
@@ -5187,7 +5188,39 @@
       "location": "BC Place · Vancouver",
       "venueTimeZone": "America/Vancouver",
       "predictedHomeScore": 2,
-      "predictedAwayScore": 0
+      "predictedAwayScore": 0,
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 2,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Breel Embolo",
+          "team": "Switzerland",
+          "match": "Switzerland vs Algeria"
+        },
+        {
+          "player": "Dan Ndoye",
+          "team": "Switzerland",
+          "match": "Switzerland vs Algeria"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Farès Chaïbi",
+          "team": "Algeria",
+          "match": "Switzerland vs Algeria"
+        },
+        {
+          "player": "Hicham Boudaoui",
+          "team": "Algeria",
+          "match": "Switzerland vs Algeria"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Gregor Kobel",
+      "awayKeeper": "Luca Zidane"
     },
     {
       "date": "Friday, July 3, 2026",
@@ -9625,6 +9658,51 @@
       "predictedAwayScore": 1,
       "homeKeeper": "Diogo Costa",
       "awayKeeper": "Dominik Livaković"
+    },
+    {
+      "date": "Thursday, July 2, 2026",
+      "stage": "Knockout",
+      "group": "Match 85 · Round of 32",
+      "time": "10:00 PM CDT (8:00 PM PDT venue local)",
+      "home": "Switzerland",
+      "homeFlag": "SUI",
+      "away": "Algeria",
+      "awayFlag": "ALG",
+      "location": "BC Place · Vancouver",
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 2,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Breel Embolo",
+          "team": "Switzerland",
+          "match": "Switzerland vs Algeria"
+        },
+        {
+          "player": "Dan Ndoye",
+          "team": "Switzerland",
+          "match": "Switzerland vs Algeria"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Farès Chaïbi",
+          "team": "Algeria",
+          "match": "Switzerland vs Algeria"
+        },
+        {
+          "player": "Hicham Boudaoui",
+          "team": "Algeria",
+          "match": "Switzerland vs Algeria"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 0,
+      "homeKeeper": "Gregor Kobel",
+      "awayKeeper": "Luca Zidane"
     }
   ],
   "detailedStats": {
@@ -9748,6 +9826,11 @@
         "name": "Bradley Barcola",
         "value": 2,
         "detail": "France"
+      },
+      {
+        "name": "Breel Embolo",
+        "value": 2,
+        "detail": "Switzerland"
       },
       {
         "name": "Crysencio Summerville",
@@ -9945,11 +10028,6 @@
         "detail": "Qatar"
       },
       {
-        "name": "Breel Embolo",
-        "value": 1,
-        "detail": "Switzerland"
-      },
-      {
         "name": "Brian Cipenga",
         "value": 1,
         "detail": "DR Congo"
@@ -9983,6 +10061,11 @@
         "name": "Damián Bobadilla (OG)",
         "value": 1,
         "detail": "United States"
+      },
+      {
+        "name": "Dan Ndoye",
+        "value": 1,
+        "detail": "Switzerland"
       },
       {
         "name": "Derrick Luckassen",
@@ -10577,6 +10660,11 @@
         "detail": "Curaçao · 9 goals conceded in 3 appearances"
       },
       {
+        "name": "Gregor Kobel",
+        "value": 1,
+        "detail": "Switzerland · 3 goals conceded in 4 appearances"
+      },
+      {
         "name": "Hernán Galíndez",
         "value": 1,
         "detail": "Ecuador · 4 goals conceded in 4 appearances"
@@ -10657,11 +10745,6 @@
         "detail": "Uruguay · 4 goals conceded in 3 appearances"
       },
       {
-        "name": "Gregor Kobel",
-        "value": 0,
-        "detail": "Switzerland · 3 goals conceded in 3 appearances"
-      },
-      {
         "name": "Jacob Widell Zetterström",
         "value": 0,
         "detail": "Sweden · 3 goals conceded in 1 appearance"
@@ -10694,7 +10777,7 @@
       {
         "name": "Luca Zidane",
         "value": 0,
-        "detail": "Algeria · 4 goals conceded in 2 appearances"
+        "detail": "Algeria · 6 goals conceded in 3 appearances"
       },
       {
         "name": "Mahmoud Abunada",
@@ -10819,7 +10902,7 @@
       "New Zealand": 3,
       "Argentina": 2,
       "Iraq": 1,
-      "Algeria": 1,
+      "Algeria": 3,
       "Jordan": 2,
       "England": 3,
       "Croatia": 3,
@@ -11809,6 +11892,16 @@
         "player": "Ivan Perišić",
         "team": "Croatia",
         "match": "Portugal vs Croatia"
+      },
+      {
+        "player": "Farès Chaïbi",
+        "team": "Algeria",
+        "match": "Switzerland vs Algeria"
+      },
+      {
+        "player": "Hicham Boudaoui",
+        "team": "Algeria",
+        "match": "Switzerland vs Algeria"
       }
     ],
     "penaltyEvents": [
@@ -12440,6 +12533,13 @@
         "yellowCards": 3,
         "penalties": 1,
         "elapsed": 106
+      },
+      {
+        "match": "Switzerland vs Algeria",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 101
       }
     ]
   }
