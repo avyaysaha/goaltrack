@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T17:42:42.690Z",
+  "updatedAt": "2026-07-03T20:54:42.046Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -291,7 +291,8 @@
         "drawn": 1,
         "lost": 1,
         "gd": 0,
-        "points": 4
+        "points": 4,
+        "eliminated": true
       },
       {
         "name": "Paraguay",
@@ -5226,7 +5227,7 @@
       "date": "Friday, July 3, 2026",
       "stage": "Knockout",
       "group": "Match 88 · Round of 32",
-      "time": "1:00 PM local",
+      "time": "1:00 PM CDT (1:00 PM CDT venue local)",
       "kickoffISO": "2026-07-03T18:00:00Z",
       "home": "Australia",
       "homeFlag": "AUS",
@@ -5235,7 +5236,32 @@
       "location": "AT&T Stadium · Dallas",
       "venueTimeZone": "America/Chicago",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 2
+      "predictedAwayScore": 2,
+      "status": "FT",
+      "elapsed": 128,
+      "homeScore": 1,
+      "awayScore": 1,
+      "homeShootoutScore": 2,
+      "awayShootoutScore": 4,
+      "scorers": [
+        {
+          "player": "Emam Ashour",
+          "team": "Egypt",
+          "match": "Australia vs Egypt"
+        },
+        {
+          "player": "Mohamed Hany(OG)",
+          "team": "Australia",
+          "match": "Australia vs Egypt"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "shootoutWinner": "Egypt",
+      "shootout": "2-4",
+      "homeKeeper": "Patrick Beach",
+      "awayKeeper": "Mostafa Shobeir"
     },
     {
       "date": "Friday, July 3, 2026",
@@ -9703,6 +9729,44 @@
       "predictedAwayScore": 0,
       "homeKeeper": "Gregor Kobel",
       "awayKeeper": "Luca Zidane"
+    },
+    {
+      "date": "Friday, July 3, 2026",
+      "stage": "Knockout",
+      "group": "Match 88 · Round of 32",
+      "time": "1:00 PM CDT (1:00 PM CDT venue local)",
+      "home": "Australia",
+      "homeFlag": "AUS",
+      "away": "Egypt",
+      "awayFlag": "EGY",
+      "location": "AT&T Stadium · Dallas",
+      "status": "FT",
+      "elapsed": 128,
+      "homeScore": 1,
+      "awayScore": 1,
+      "homeShootoutScore": 2,
+      "awayShootoutScore": 4,
+      "scorers": [
+        {
+          "player": "Emam Ashour",
+          "team": "Egypt",
+          "match": "Australia vs Egypt"
+        },
+        {
+          "player": "Mohamed Hany(OG)",
+          "team": "Australia",
+          "match": "Australia vs Egypt"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "shootoutWinner": "Egypt",
+      "shootout": "2-4",
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 2,
+      "homeKeeper": "Patrick Beach",
+      "awayKeeper": "Mostafa Shobeir"
     }
   ],
   "detailedStats": {
@@ -9851,6 +9915,11 @@
         "name": "Daniel Muñoz",
         "value": 2,
         "detail": "Colombia"
+      },
+      {
+        "name": "Emam Ashour",
+        "value": 2,
+        "detail": "Egypt"
       },
       {
         "name": "Ermin Mahmić",
@@ -10086,11 +10155,6 @@
         "name": "Ellyes Skhiri (OG)",
         "value": 1,
         "detail": "Netherlands"
-      },
-      {
-        "name": "Emam Ashour",
-        "value": 1,
-        "detail": "Egypt"
       },
       {
         "name": "Felix Nmecha",
@@ -10383,6 +10447,11 @@
         "detail": "Belgium"
       },
       {
+        "name": "Mohamed Hany(OG)",
+        "value": 1,
+        "detail": "Australia"
+      },
+      {
         "name": "Mohamed Manai(OG)",
         "value": 1,
         "detail": "Canada"
@@ -10622,7 +10691,7 @@
       {
         "name": "Patrick Beach",
         "value": 2,
-        "detail": "Australia · 2 goals conceded in 3 appearances"
+        "detail": "Australia · 3 goals conceded in 4 appearances"
       },
       {
         "name": "Vozinha",
@@ -10807,7 +10876,7 @@
       {
         "name": "Mostafa Shobeir",
         "value": 0,
-        "detail": "Egypt · 3 goals conceded in 3 appearances"
+        "detail": "Egypt · 4 goals conceded in 4 appearances"
       },
       {
         "name": "Mouhib Chamakh",
@@ -12540,6 +12609,13 @@
         "yellowCards": 2,
         "penalties": 0,
         "elapsed": 101
+      },
+      {
+        "match": "Australia vs Egypt",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 128
       }
     ]
   }
