@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T21:00:56.714Z",
+  "updatedAt": "2026-07-03T02:07:44.346Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -668,7 +668,8 @@
         "drawn": 0,
         "lost": 1,
         "gd": 0,
-        "points": 6
+        "points": 6,
+        "eliminated": true
       },
       {
         "name": "Ghana",
@@ -5120,7 +5121,7 @@
       "date": "Thursday, July 2, 2026",
       "stage": "Knockout",
       "group": "Match 83 · Round of 32",
-      "time": "7:00 PM local",
+      "time": "6:00 PM CDT (7:00 PM EDT venue local)",
       "kickoffISO": "2026-07-02T23:00:00Z",
       "home": "Portugal",
       "homeFlag": "POR",
@@ -5129,7 +5130,49 @@
       "location": "BMO Field · Toronto",
       "venueTimeZone": "America/Toronto",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "status": "FT",
+      "elapsed": 106,
+      "homeScore": 2,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Ivan Perišić",
+          "team": "Croatia",
+          "match": "Portugal vs Croatia"
+        },
+        {
+          "player": "Cristiano Ronaldo",
+          "team": "Portugal",
+          "match": "Portugal vs Croatia"
+        },
+        {
+          "player": "Gonçalo Ramos",
+          "team": "Portugal",
+          "match": "Portugal vs Croatia"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Rúben Dias",
+          "team": "Portugal",
+          "match": "Portugal vs Croatia"
+        },
+        {
+          "player": "Luka Modrić",
+          "team": "Croatia",
+          "match": "Portugal vs Croatia"
+        },
+        {
+          "player": "Ivan Perišić",
+          "team": "Croatia",
+          "match": "Portugal vs Croatia"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Diogo Costa",
+      "awayKeeper": "Dominik Livaković"
     },
     {
       "date": "Thursday, July 2, 2026",
@@ -9527,6 +9570,61 @@
       "predictedAwayScore": 0,
       "homeKeeper": "Unai Simón",
       "awayKeeper": "Alexander Schlager"
+    },
+    {
+      "date": "Thursday, July 2, 2026",
+      "stage": "Knockout",
+      "group": "Match 83 · Round of 32",
+      "time": "6:00 PM CDT (7:00 PM EDT venue local)",
+      "home": "Portugal",
+      "homeFlag": "POR",
+      "away": "Croatia",
+      "awayFlag": "CRO",
+      "location": "BMO Field · Toronto",
+      "status": "FT",
+      "elapsed": 106,
+      "homeScore": 2,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Ivan Perišić",
+          "team": "Croatia",
+          "match": "Portugal vs Croatia"
+        },
+        {
+          "player": "Cristiano Ronaldo",
+          "team": "Portugal",
+          "match": "Portugal vs Croatia"
+        },
+        {
+          "player": "Gonçalo Ramos",
+          "team": "Portugal",
+          "match": "Portugal vs Croatia"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Rúben Dias",
+          "team": "Portugal",
+          "match": "Portugal vs Croatia"
+        },
+        {
+          "player": "Luka Modrić",
+          "team": "Croatia",
+          "match": "Portugal vs Croatia"
+        },
+        {
+          "player": "Ivan Perišić",
+          "team": "Croatia",
+          "match": "Portugal vs Croatia"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "predictedHomeScore": 1,
+      "predictedAwayScore": 1,
+      "homeKeeper": "Diogo Costa",
+      "awayKeeper": "Dominik Livaković"
     }
   ],
   "detailedStats": {
@@ -9580,6 +9678,11 @@
         "name": "Cody Gakpo",
         "value": 3,
         "detail": "Netherlands"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "value": 3,
+        "detail": "Portugal"
       },
       {
         "name": "Deniz Undav",
@@ -9645,11 +9748,6 @@
         "name": "Bradley Barcola",
         "value": 2,
         "detail": "France"
-      },
-      {
-        "name": "Cristiano Ronaldo",
-        "value": 2,
-        "detail": "Portugal"
       },
       {
         "name": "Crysencio Summerville",
@@ -9957,6 +10055,11 @@
         "detail": "Argentina"
       },
       {
+        "name": "Gonçalo Ramos",
+        "value": 1,
+        "detail": "Portugal"
+      },
+      {
         "name": "Gonzalo Plata",
         "value": 1,
         "detail": "Ecuador"
@@ -10010,6 +10113,11 @@
         "name": "Issa Diop",
         "value": 1,
         "detail": "Morocco"
+      },
+      {
+        "name": "Ivan Perišić",
+        "value": 1,
+        "detail": "Croatia"
       },
       {
         "name": "Jamal Musiala",
@@ -10396,7 +10504,7 @@
       {
         "name": "Diogo Costa",
         "value": 2,
-        "detail": "Portugal · 1 goals conceded in 3 appearances"
+        "detail": "Portugal · 2 goals conceded in 4 appearances"
       },
       {
         "name": "Emiliano Martínez",
@@ -10461,7 +10569,7 @@
       {
         "name": "Dominik Livaković",
         "value": 1,
-        "detail": "Croatia · 5 goals conceded in 3 appearances"
+        "detail": "Croatia · 7 goals conceded in 4 appearances"
       },
       {
         "name": "Eloy Room",
@@ -10695,7 +10803,7 @@
       "Saudi Arabia": 6,
       "Iran": 6,
       "Austria": 5,
-      "Portugal": 4,
+      "Portugal": 5,
       "DR Congo": 6,
       "Ghana": 4,
       "Panama": 5,
@@ -10714,7 +10822,7 @@
       "Algeria": 1,
       "Jordan": 2,
       "England": 3,
-      "Croatia": 1,
+      "Croatia": 3,
       "Norway": 2,
       "Japan": 3,
       "Senegal": 2
@@ -11686,6 +11794,21 @@
         "player": "Stefan Posch",
         "team": "Austria",
         "match": "Spain vs Austria"
+      },
+      {
+        "player": "Rúben Dias",
+        "team": "Portugal",
+        "match": "Portugal vs Croatia"
+      },
+      {
+        "player": "Luka Modrić",
+        "team": "Croatia",
+        "match": "Portugal vs Croatia"
+      },
+      {
+        "player": "Ivan Perišić",
+        "team": "Croatia",
+        "match": "Portugal vs Croatia"
       }
     ],
     "penaltyEvents": [
@@ -11724,6 +11847,9 @@
       },
       {
         "match": "Belgium vs Senegal"
+      },
+      {
+        "match": "Portugal vs Croatia"
       }
     ],
     "matchStats": [
@@ -12307,6 +12433,13 @@
         "yellowCards": 1,
         "penalties": 0,
         "elapsed": 100
+      },
+      {
+        "match": "Portugal vs Croatia",
+        "redCards": 0,
+        "yellowCards": 3,
+        "penalties": 1,
+        "elapsed": 106
       }
     ]
   }
