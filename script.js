@@ -232,6 +232,7 @@ function renderTeamOrbit() {
       return { ...entry, group, groupPosition: index + 1 };
     });
   });
+  const groupStageSurvivors = getGroupStageSurvivorNames();
   // Each dot uses a recognizable national team or flag color.
   const nationalColors = siteData.nationalColors;
 
@@ -247,10 +248,11 @@ function renderTeamOrbit() {
       (tournamentRecord.won || 0) * 7;
     const lossPenalty = (tournamentRecord.lost || 0) * 12;
     const color = nationalColors[entry.name] || "#ffffff";
-    const labelText = entry.eliminated
+    const isEliminated = entry.eliminated || (groupStageSurvivors && !groupStageSurvivors.has(entry.name));
+    const labelText = isEliminated
       ? `${entry.name} · ELIMINATED`
       : `${entry.name} · ${tournamentRecord.won}W ${tournamentRecord.lost}L`;
-    const ariaLabel = entry.eliminated
+    const ariaLabel = isEliminated
       ? `${entry.name}, eliminated`
       : `${entry.name}, ${tournamentRecord.won} wins, ${tournamentRecord.lost} losses`;
 
