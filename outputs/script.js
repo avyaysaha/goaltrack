@@ -227,22 +227,18 @@ function renderTeamOrbit() {
     return;
   }
 
-  const groupStageSurvivors = getGroupStageSurvivorNames();
   const allTeams = Object.entries(standingsData).flatMap(function ([group, teams]) {
     return teams.map(function (entry, index) {
       return { ...entry, group, groupPosition: index + 1 };
     });
-  }).filter(function (entry) {
-    // Eliminated teams leave the tournament orbit completely.
-    return !entry.eliminated && (!groupStageSurvivors || groupStageSurvivors.has(entry.name));
   });
   // Each dot uses a recognizable national team or flag color.
   const nationalColors = siteData.nationalColors;
 
   teamOrbitDots.innerHTML = allTeams.map(function (entry, index) {
     const angle = (index / allTeams.length) * Math.PI * 2 - Math.PI / 2;
-    // Wins, points, and later rounds move a team inward. Losses create an
-    // outward penalty. Confirmed elimination removes the team above.
+    // Wins, points, and later rounds move a team inward. Losses push the dot
+    // farther back, so eliminated teams remain visible instead of disappearing.
     const tournamentRecord = getTournamentRecord(entry.name);
     const stageProgress = entry.stageProgress || 0;
     const inwardProgress =
