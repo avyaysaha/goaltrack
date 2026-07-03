@@ -247,6 +247,12 @@ function renderTeamOrbit() {
       (tournamentRecord.won || 0) * 7;
     const lossPenalty = (tournamentRecord.lost || 0) * 12;
     const color = nationalColors[entry.name] || "#ffffff";
+    const labelText = entry.eliminated
+      ? `${entry.name} · ELIMINATED`
+      : `${entry.name} · ${tournamentRecord.won}W ${tournamentRecord.lost}L`;
+    const ariaLabel = entry.eliminated
+      ? `${entry.name}, eliminated`
+      : `${entry.name}, ${tournamentRecord.won} wins, ${tournamentRecord.lost} losses`;
 
     return `
       <button
@@ -258,8 +264,8 @@ function renderTeamOrbit() {
           --loss-penalty: ${lossPenalty};
           --team-color: ${color};
         "
-        data-label="${entry.name} · ${tournamentRecord.won}W ${tournamentRecord.lost}L"
-        aria-label="${entry.name}, ${tournamentRecord.won} wins, ${tournamentRecord.lost} losses">
+        data-label="${labelText}"
+        aria-label="${ariaLabel}">
       </button>
     `;
   }).join("");
