@@ -1235,14 +1235,56 @@ function getScheduleTeamDisplay(match, matchByNumber) {
   };
 }
 
+function isKnockoutPlaceholderMatch(match) {
+  return /^Winner Match\s+\d+$/i.test(String(match.home || "")) ||
+    /^Winner Match\s+\d+$/i.test(String(match.away || "")) ||
+    /^Runner-up Match\s+\d+$/i.test(String(match.home || "")) ||
+    /^Runner-up Match\s+\d+$/i.test(String(match.away || ""));
+}
+
+function preferScheduleMatch(currentMatch, nextMatch) {
+  const currentFinished = ["FT", "AET", "PEN"].includes(currentMatch.status);
+  const nextFinished = ["FT", "AET", "PEN"].includes(nextMatch.status);
+  if (currentFinished !== nextFinished) {
+    return nextFinished ? nextMatch : currentMatch;
+  }
+
+  const currentPlaceholder = isKnockoutPlaceholderMatch(currentMatch);
+  const nextPlaceholder = isKnockoutPlaceholderMatch(nextMatch);
+  if (currentPlaceholder !== nextPlaceholder) {
+    return nextPlaceholder ? currentMatch : nextMatch;
+  }
+
+  return nextMatch;
+}
+
+function dedupeScheduleMatches(sourceMatches) {
+  const byKnockoutNumber = new Map();
+  const normalMatches = [];
+
+  sourceMatches.forEach(function (match) {
+    const matchNumber = match.stage === "Knockout" ? getMatchNumber(match) : 0;
+    if (!matchNumber) {
+      normalMatches.push(match);
+      return;
+    }
+
+    const existing = byKnockoutNumber.get(matchNumber);
+    byKnockoutNumber.set(matchNumber, existing ? preferScheduleMatch(existing, match) : match);
+  });
+
+  return normalMatches.concat(Array.from(byKnockoutNumber.values()));
+}
+
 function renderSchedule() {
   if (!scheduleList) {
     return;
   }
 
   const searchText = teamSearch.value.trim().toLowerCase();
+  const scheduleMatches = dedupeScheduleMatches(matches);
   const matchByNumber = new Map(
-    matches
+    scheduleMatches
       .filter((match) => match.stage === "Knockout")
       .map((match) => [getMatchNumber(match), match])
   );
@@ -1250,7 +1292,7 @@ function renderSchedule() {
   renderKnockoutBracket(searchText);
 
   // filter() keeps only matches that meet both the stage and search rules.
-  const visibleMatches = matches
+  const visibleMatches = scheduleMatches
     .filter(function (match) {
       const bracketReplacesKnockout = !searchText && (currentFilter === "all" || currentFilter === "Knockout");
       if (bracketReplacesKnockout && match.stage === "Knockout") {
