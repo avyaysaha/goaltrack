@@ -134,9 +134,21 @@ const previouslyEliminated = new Set(
 );
 
 const key = (match) => `${normalize(match.home)}|${normalize(match.away)}`;
+const matchNumberFromText = (value) => {
+  const found = String(value || "").match(/Match\s+(\d+)/i);
+  return found ? Number(found[1]) : 0;
+};
+const enteredMatchNumber = matchNumberFromText(process.env.GROUP_OR_ROUND);
 const existingIndex = data.matchUpdates.findIndex((match) => key(match) === key({ home, away }));
 const existingMatch = existingIndex >= 0 ? data.matchUpdates[existingIndex] : {};
-const scheduledMatch = (data.matches || []).find((match) => key(match) === key({ home, away })) || {};
+const scheduledMatch = (data.matches || []).find((match) => key(match) === key({ home, away })) ||
+  (enteredMatchNumber
+    ? (data.matches || []).find((match) =>
+        match.stage === "Knockout" &&
+        matchNumberFromText(match.group) === enteredMatchNumber
+      )
+    : {}) ||
+  {};
 const previousMatch = { ...scheduledMatch, ...existingMatch };
 const hasExtra = (name) => Object.prototype.hasOwnProperty.call(extraDetails, name);
 const scorersWereSupplied = String(process.env.SCORERS || "").trim().length > 0;
@@ -233,7 +245,14 @@ if (!Number.isFinite(update.penalties) || update.penalties < 0) {
 if (existingIndex >= 0) data.matchUpdates[existingIndex] = update;
 else data.matchUpdates.push(update);
 
-const scheduledIndex = (data.matches || []).findIndex((match) => key(match) === key(update));
+const scheduledIndex = (data.matches || []).findIndex((match) => key(match) === key(update)) >= 0
+  ? (data.matches || []).findIndex((match) => key(match) === key(update))
+  : (enteredMatchNumber
+      ? (data.matches || []).findIndex((match) =>
+          match.stage === "Knockout" &&
+          matchNumberFromText(match.group) === enteredMatchNumber
+        )
+      : -1);
 if (scheduledIndex >= 0) data.matches[scheduledIndex] = { ...data.matches[scheduledIndex], ...update };
 else {
   data.matches ||= [];
