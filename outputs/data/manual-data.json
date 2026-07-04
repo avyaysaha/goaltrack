@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T03:48:38.257Z",
+  "updatedAt": "2026-07-04T19:40:50.950Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -198,7 +198,8 @@
         "drawn": 1,
         "lost": 1,
         "gd": 5,
-        "points": 4
+        "points": 4,
+        "eliminated": true
       },
       {
         "name": "Bosnia and Herzegovina",
@@ -5602,6 +5603,84 @@
       "awayFlag": "W102",
       "location": "MetLife Stadium · New Jersey",
       "venueTimeZone": "America/New_York"
+    },
+    {
+      "date": "Saturday, July 4, 2026",
+      "stage": "Knockout",
+      "group": "Match 90 · Round of 16",
+      "time": "12:00 PM CDT (12:00 PM CDT venue local)",
+      "home": "Canada",
+      "homeFlag": "CAN",
+      "away": "Morocco",
+      "awayFlag": "MAR",
+      "location": "NRG Stadium · Houston",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 0,
+      "awayScore": 3,
+      "scorers": [
+        {
+          "player": "Azzedine Ounahi",
+          "team": "Morocco",
+          "match": "Canada vs Morocco"
+        },
+        {
+          "player": "Azzedine Ounahi",
+          "team": "Morocco",
+          "match": "Canada vs Morocco"
+        },
+        {
+          "player": "Soufiane Rahimi",
+          "team": "Morocco",
+          "match": "Canada vs Morocco"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Redouane Halhal",
+          "team": "Morocco",
+          "match": "Canada vs Morocco"
+        },
+        {
+          "player": "Achraf Hakimi",
+          "team": "Morocco",
+          "match": "Canada vs Morocco"
+        },
+        {
+          "player": "Richie Laryea",
+          "team": "Canada",
+          "match": "Canada vs Morocco"
+        },
+        {
+          "player": "Jonathan David",
+          "team": "Canada",
+          "match": "Canada vs Morocco"
+        },
+        {
+          "player": "Bilal El Khannouss",
+          "team": "Morocco",
+          "match": "Canada vs Morocco"
+        },
+        {
+          "player": "Azzedine Ounahi",
+          "team": "Morocco",
+          "match": "Canada vs Morocco"
+        },
+        {
+          "player": "Luc de Fougerolles",
+          "team": "Canada",
+          "match": "Canada vs Morocco"
+        },
+        {
+          "player": "Cyle Larin",
+          "team": "Canada",
+          "match": "Canada vs Morocco"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Maxime Crépeau",
+      "awayKeeper": "Yassine Bounou"
     }
   ],
   "matchUpdates": [
@@ -9984,6 +10063,84 @@
       "predictedAwayScore": 1,
       "homeKeeper": "Camilo Vargas",
       "awayKeeper": "Lawrence Ati-Zigi"
+    },
+    {
+      "date": "Saturday, July 4, 2026",
+      "stage": "Knockout",
+      "group": "Match 90 · Round of 16",
+      "time": "12:00 PM CDT (12:00 PM CDT venue local)",
+      "home": "Canada",
+      "homeFlag": "CAN",
+      "away": "Morocco",
+      "awayFlag": "MAR",
+      "location": "NRG Stadium · Houston",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 0,
+      "awayScore": 3,
+      "scorers": [
+        {
+          "player": "Azzedine Ounahi",
+          "team": "Morocco",
+          "match": "Canada vs Morocco"
+        },
+        {
+          "player": "Azzedine Ounahi",
+          "team": "Morocco",
+          "match": "Canada vs Morocco"
+        },
+        {
+          "player": "Soufiane Rahimi",
+          "team": "Morocco",
+          "match": "Canada vs Morocco"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Redouane Halhal",
+          "team": "Morocco",
+          "match": "Canada vs Morocco"
+        },
+        {
+          "player": "Achraf Hakimi",
+          "team": "Morocco",
+          "match": "Canada vs Morocco"
+        },
+        {
+          "player": "Richie Laryea",
+          "team": "Canada",
+          "match": "Canada vs Morocco"
+        },
+        {
+          "player": "Jonathan David",
+          "team": "Canada",
+          "match": "Canada vs Morocco"
+        },
+        {
+          "player": "Bilal El Khannouss",
+          "team": "Morocco",
+          "match": "Canada vs Morocco"
+        },
+        {
+          "player": "Azzedine Ounahi",
+          "team": "Morocco",
+          "match": "Canada vs Morocco"
+        },
+        {
+          "player": "Luc de Fougerolles",
+          "team": "Canada",
+          "match": "Canada vs Morocco"
+        },
+        {
+          "player": "Cyle Larin",
+          "team": "Canada",
+          "match": "Canada vs Morocco"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Maxime Crépeau",
+      "awayKeeper": "Yassine Bounou"
     }
   ],
   "detailedStats": {
@@ -10104,6 +10261,11 @@
         "detail": "Japan"
       },
       {
+        "name": "Azzedine Ounahi",
+        "value": 2,
+        "detail": "Morocco"
+      },
+      {
         "name": "Bradley Barcola",
         "value": 2,
         "detail": "France"
@@ -10202,6 +10364,11 @@
         "name": "Rubén Vargas",
         "value": 2,
         "detail": "Switzerland"
+      },
+      {
+        "name": "Soufiane Rahimi",
+        "value": 2,
+        "detail": "Morocco"
       },
       {
         "name": "Yasin Ayari",
@@ -10814,11 +10981,6 @@
         "detail": "Cabo Verde"
       },
       {
-        "name": "Soufiane Rahimi",
-        "value": 1,
-        "detail": "Morocco"
-      },
-      {
         "name": "Stephen Eustáquio",
         "value": 1,
         "detail": "Canada"
@@ -10918,7 +11080,7 @@
       {
         "name": "Maxime Crépeau",
         "value": 2,
-        "detail": "Canada · 3 goals conceded in 4 appearances"
+        "detail": "Canada · 6 goals conceded in 5 appearances"
       },
       {
         "name": "Mike Maignan",
@@ -10944,6 +11106,11 @@
         "name": "Yahia Fofana",
         "value": 2,
         "detail": "Cote d'Ivoire · 4 goals conceded in 4 appearances"
+      },
+      {
+        "name": "Yassine Bounou",
+        "value": 2,
+        "detail": "Morocco · 4 goals conceded in 5 appearances"
       },
       {
         "name": "Alireza Beiranvand",
@@ -11004,11 +11171,6 @@
         "name": "Thibaut Courtois",
         "value": 1,
         "detail": "Belgium · 4 goals conceded in 4 appearances"
-      },
-      {
-        "name": "Yassine Bounou",
-        "value": 1,
-        "detail": "Morocco · 4 goals conceded in 4 appearances"
       },
       {
         "name": "Zion Suzuki",
@@ -11176,7 +11338,7 @@
     "yellowCards": {
       "South Africa": 7,
       "Mexico": 3,
-      "Canada": 6,
+      "Canada": 10,
       "Bosnia and Herzegovina": 6,
       "Paraguay": 10,
       "United States": 4,
@@ -11205,7 +11367,7 @@
       "Uzbekistan": 4,
       "Czechia": 1,
       "Australia": 5,
-      "Morocco": 2,
+      "Morocco": 6,
       "Sweden": 3,
       "Germany": 3,
       "Curaçao": 7,
@@ -12258,6 +12420,46 @@
         "player": "Thomas Partey",
         "team": "Ghana",
         "match": "Colombia vs Ghana"
+      },
+      {
+        "player": "Redouane Halhal",
+        "team": "Morocco",
+        "match": "Canada vs Morocco"
+      },
+      {
+        "player": "Achraf Hakimi",
+        "team": "Morocco",
+        "match": "Canada vs Morocco"
+      },
+      {
+        "player": "Richie Laryea",
+        "team": "Canada",
+        "match": "Canada vs Morocco"
+      },
+      {
+        "player": "Jonathan David",
+        "team": "Canada",
+        "match": "Canada vs Morocco"
+      },
+      {
+        "player": "Bilal El Khannouss",
+        "team": "Morocco",
+        "match": "Canada vs Morocco"
+      },
+      {
+        "player": "Azzedine Ounahi",
+        "team": "Morocco",
+        "match": "Canada vs Morocco"
+      },
+      {
+        "player": "Luc de Fougerolles",
+        "team": "Canada",
+        "match": "Canada vs Morocco"
+      },
+      {
+        "player": "Cyle Larin",
+        "team": "Canada",
+        "match": "Canada vs Morocco"
       }
     ],
     "penaltyEvents": [
@@ -12917,6 +13119,13 @@
         "yellowCards": 5,
         "penalties": 0,
         "elapsed": 98
+      },
+      {
+        "match": "Canada vs Morocco",
+        "redCards": 0,
+        "yellowCards": 8,
+        "penalties": 0,
+        "elapsed": 100
       }
     ]
   }
