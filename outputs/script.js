@@ -384,11 +384,39 @@ const scheduleList = document.querySelector("#schedule-list");
 const emptyMessage = document.querySelector("#empty-message");
 
 const knockoutBracket = document.querySelector("#knockout-bracket");
+const scheduleMatchDetails = new Map();
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
 
 function getMatchNumber(match) {
   const matchText = String(match.group || "");
   const found = matchText.match(/Match\s+(\d+)/i);
   return found ? Number(found[1]) : 0;
+}
+
+function normalizeScheduleKeyPart(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function getScheduleMatchKey(match) {
+  return [
+    getMatchNumber(match) || match.group || "match",
+    match.date,
+    match.home,
+    match.away
+  ].map((part) => normalizeScheduleKeyPart(part)).join("|");
 }
 
 function isFinishedMatch(match) {
@@ -468,6 +496,7 @@ function getSourceMatchNumbers(match) {
 
 function renderBracketMatchCard(match, matchByNumber) {
   const matchNumber = getMatchNumber(match);
+  const matchKey = getScheduleMatchKey(match);
   const finished = isFinishedMatch(match);
   const homeName = resolveKnockoutSlot(match.home, matchByNumber);
   const awayName = resolveKnockoutSlot(match.away, matchByNumber);
@@ -476,9 +505,10 @@ function renderBracketMatchCard(match, matchByNumber) {
   const roundLabel = knockoutRoundName(match);
   const displayDateTime = getMatchDateTime(match);
   const displayLocation = cleanMatchLocation(match.location);
+  scheduleMatchDetails.set(matchKey, { ...match, matchKey });
 
   return `
-    <article class="bracket-match${finished ? " bracket-match-finished" : ""}">
+    <article class="bracket-match${finished ? " bracket-match-finished" : ""}" tabindex="0" role="button" data-match-key="${escapeHtml(matchKey)}" aria-label="Open team stats for ${escapeHtml(homeName)} vs ${escapeHtml(awayName)}">
       <div class="bracket-round-label">${roundLabel}</div>
       <div class="bracket-match-meta"><span>Match ${matchNumber}</span></div>
       ${bracketTeamRow(homeName, finished ? match.homeScore : null, homeWinner, match.homeShootoutScore)}
@@ -1276,6 +1306,163 @@ function dedupeScheduleMatches(sourceMatches) {
   return normalMatches.concat(Array.from(byKnockoutNumber.values()));
 }
 
+function getMatchLabel(match) {
+  return `${match.home} vs ${match.away}`;
+}
+
+function findDetailedMatchStats(match) {
+  const label = normalizeScheduleKeyPart(getMatchLabel(match));
+  return (siteData.detailedStats?.matchStats || []).find(function (record) {
+    return normalizeScheduleKeyPart(record.match) === label;
+  }) || {};
+}
+
+function countTeamEvents(events, teamName) {
+  return (events || []).filter(function (event) {
+    return normalizeScheduleKeyPart(event.team) === normalizeScheduleKeyPart(teamName);
+  }).length;
+}
+
+function statFromSideObjects(match, statsRecord, side, keys) {
+  const sideObjects = [
+    match.teamStats?.[side],
+    match.stats?.[side],
+    match[`${side}Stats`],
+    statsRecord.teamStats?.[side],
+    statsRecord.stats?.[side],
+    statsRecord[`${side}Stats`]
+  ].filter(Boolean);
+
+  for (const source of sideObjects) {
+    for (const key of keys) {
+      if (source[key] !== undefined && source[key] !== null && source[key] !== "") {
+        return source[key];
+      }
+    }
+  }
+
+  const prefix = side === "home" ? "home" : "away";
+  const capitalizedPrefix = prefix[0].toUpperCase() + prefix.slice(1);
+  for (const source of [match, statsRecord]) {
+    for (const key of keys) {
+      const directKeys = [
+        `${prefix}${key[0].toUpperCase()}${key.slice(1)}`,
+        `${key}${capitalizedPrefix}`
+      ];
+      for (const directKey of directKeys) {
+        if (source[directKey] !== undefined && source[directKey] !== null && source[directKey] !== "") {
+          return source[directKey];
+        }
+      }
+    }
+  }
+
+  return null;
+}
+
+function formatMatchStat(value, suffix = "") {
+  if (value === null || value === undefined || value === "") {
+    return "--";
+  }
+
+  return `${value}${suffix}`;
+}
+
+function getTeamMatchStat(match, statsRecord, side, row) {
+  const teamName = side === "home" ? match.home : match.away;
+  if (row.eventKey === "yellowCards") {
+    return countTeamEvents(match.yellowCards, teamName);
+  }
+  if (row.eventKey === "redCards") {
+    return countTeamEvents(match.redCards, teamName);
+  }
+
+  return statFromSideObjects(match, statsRecord, side, row.keys);
+}
+
+const matchStatRows = [
+  { label: "Shots", keys: ["shots", "totalShots"] },
+  { label: "Shots on Target", keys: ["shotsOnTarget", "onTarget", "shotOnTarget"] },
+  { label: "Possession", keys: ["possession", "possessionPercentage", "possessionPercent"], suffix: "%" },
+  { label: "Passes", keys: ["passes", "totalPasses"] },
+  { label: "Pass Accuracy", keys: ["passAccuracy", "passingAccuracy", "passAccuracyPercentage"], suffix: "%" },
+  { label: "Dribble Accuracy", keys: ["dribbleAccuracy", "dribblingAccuracy", "dribbleAccuracyPercentage"], suffix: "%" },
+  { label: "Fouls", keys: ["fouls", "foulsCommitted"] },
+  { label: "Yellow Cards", keys: ["yellowCards"], eventKey: "yellowCards" },
+  { label: "Red Cards", keys: ["redCards"], eventKey: "redCards" },
+  { label: "Offsides", keys: ["offsides", "offside"] },
+  { label: "Corners", keys: ["corners", "cornerKicks"] }
+];
+
+function ensureMatchStatsDialog() {
+  let dialog = document.querySelector("#match-stats-dialog");
+  if (dialog) {
+    return dialog;
+  }
+
+  dialog = document.createElement("dialog");
+  dialog.id = "match-stats-dialog";
+  dialog.className = "match-stats-dialog";
+  document.body.appendChild(dialog);
+
+  dialog.addEventListener("click", function (event) {
+    if (event.target === dialog) {
+      dialog.close();
+    }
+  });
+
+  return dialog;
+}
+
+function openMatchStatsDialog(matchKey) {
+  const match = scheduleMatchDetails.get(matchKey);
+  if (!match) {
+    return;
+  }
+
+  const statsRecord = findDetailedMatchStats(match);
+  const dialog = ensureMatchStatsDialog();
+  const hasScore = Number.isInteger(match.homeScore) && Number.isInteger(match.awayScore);
+  const scoreText = hasScore
+    ? `${match.homeScore}${Number.isInteger(match.homeShootoutScore) ? `(${match.homeShootoutScore})` : ""} - ${match.awayScore}${Number.isInteger(match.awayShootoutScore) ? `(${match.awayShootoutScore})` : ""}`
+    : "VS";
+
+  dialog.innerHTML = `
+    <div class="match-stats-modal">
+      <button class="match-stats-close" type="button" aria-label="Close match stats">×</button>
+      <div class="match-stats-heading">
+        <span>${escapeHtml(match.group || match.stage || "Match")}</span>
+        <h2>${escapeHtml(match.home)} <b>${escapeHtml(scoreText)}</b> ${escapeHtml(match.away)}</h2>
+        <p>${escapeHtml(match.date)} · ${escapeHtml(match.time || "")} · ${escapeHtml(cleanMatchLocation(match.location))}</p>
+      </div>
+      <div class="match-stats-table" role="table" aria-label="Team stats for ${escapeHtml(getMatchLabel(match))}">
+        <div class="match-stats-row match-stats-head" role="row">
+          <span role="columnheader">${escapeHtml(getTeamCountryCode(match.home, match.homeFlag))} ${escapeHtml(match.home)}</span>
+          <strong role="columnheader">Team Stat</strong>
+          <span role="columnheader">${escapeHtml(match.away)} ${escapeHtml(getTeamCountryCode(match.away, match.awayFlag))}</span>
+        </div>
+        ${matchStatRows.map(function (row) {
+          const homeValue = getTeamMatchStat(match, statsRecord, "home", row);
+          const awayValue = getTeamMatchStat(match, statsRecord, "away", row);
+          return `
+            <div class="match-stats-row" role="row">
+              <span role="cell">${escapeHtml(formatMatchStat(homeValue, row.suffix || ""))}</span>
+              <strong role="cell">${escapeHtml(row.label)}</strong>
+              <span role="cell">${escapeHtml(formatMatchStat(awayValue, row.suffix || ""))}</span>
+            </div>
+          `;
+        }).join("")}
+      </div>
+      <p class="match-stats-note">Advanced stats show when they are added to manual-data.json. Cards are counted from the match event list.</p>
+    </div>
+  `;
+
+  dialog.querySelector(".match-stats-close").addEventListener("click", function () {
+    dialog.close();
+  });
+  dialog.showModal();
+}
+
 function renderSchedule() {
   if (!scheduleList) {
     return;
@@ -1283,6 +1470,7 @@ function renderSchedule() {
 
   const searchText = teamSearch.value.trim().toLowerCase();
   const scheduleMatches = dedupeScheduleMatches(matches);
+  scheduleMatchDetails.clear();
   const matchByNumber = new Map(
     scheduleMatches
       .filter((match) => match.stage === "Knockout")
@@ -1324,7 +1512,10 @@ function renderSchedule() {
     if (!matchesByDate[displayDateTime.date]) {
       matchesByDate[displayDateTime.date] = [];
     }
-    matchesByDate[displayDateTime.date].push({ ...match, displayTime: displayDateTime.time });
+    const matchKey = getScheduleMatchKey(match);
+    const displayMatch = { ...match, displayTime: displayDateTime.time, matchKey };
+    scheduleMatchDetails.set(matchKey, displayMatch);
+    matchesByDate[displayDateTime.date].push(displayMatch);
   });
 
   scheduleList.innerHTML = Object.entries(matchesByDate).map(function ([date, dayMatches]) {
@@ -1355,7 +1546,7 @@ function renderSchedule() {
       const displayGroup = getDisplayGroup(match);
 
       return `
-        <article class="match-card${finished ? " match-card-finished" : ""}">
+        <article class="match-card${finished ? " match-card-finished" : ""}" tabindex="0" role="button" data-match-key="${escapeHtml(match.matchKey)}" aria-label="Open team stats for ${escapeHtml(displayTeams.home)} vs ${escapeHtml(displayTeams.away)}">
           <div class="match-meta">
             <span>${displayGroup}</span>
             <span class="${live ? "live-badge" : ""}">${statusLabel}</span>
@@ -1385,6 +1576,44 @@ function renderSchedule() {
 }
 
 if (scheduleList) {
+  scheduleList.addEventListener("click", function (event) {
+    const card = event.target.closest(".match-card");
+    if (card) {
+      openMatchStatsDialog(card.dataset.matchKey);
+    }
+  });
+
+  scheduleList.addEventListener("keydown", function (event) {
+    if (event.key !== "Enter" && event.key !== " ") {
+      return;
+    }
+    const card = event.target.closest(".match-card");
+    if (card) {
+      event.preventDefault();
+      openMatchStatsDialog(card.dataset.matchKey);
+    }
+  });
+
+  if (knockoutBracket) {
+    knockoutBracket.addEventListener("click", function (event) {
+      const card = event.target.closest(".bracket-match");
+      if (card) {
+        openMatchStatsDialog(card.dataset.matchKey);
+      }
+    });
+
+    knockoutBracket.addEventListener("keydown", function (event) {
+      if (event.key !== "Enter" && event.key !== " ") {
+        return;
+      }
+      const card = event.target.closest(".bracket-match");
+      if (card) {
+        event.preventDefault();
+        openMatchStatsDialog(card.dataset.matchKey);
+      }
+    });
+  }
+
   document.querySelectorAll(".filter-button").forEach(function (button) {
     button.addEventListener("click", function () {
       currentFilter = button.dataset.filter;
