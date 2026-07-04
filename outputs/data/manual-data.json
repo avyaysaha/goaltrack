@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T22:51:59.417Z",
+  "updatedAt": "2026-07-04T01:10:23.233Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -482,7 +482,8 @@
         "drawn": 3,
         "lost": 0,
         "gd": 0,
-        "points": 3
+        "points": 3,
+        "eliminated": true
       },
       {
         "name": "Uruguay",
@@ -5287,7 +5288,43 @@
       "location": "Hard Rock Stadium · Miami",
       "venueTimeZone": "America/New_York",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "status": "FT",
+      "elapsed": 136,
+      "homeScore": 3,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Lionel Messi",
+          "team": "Argentina",
+          "match": "Argentina vs Cabo Verde"
+        },
+        {
+          "player": "Deroy Duarte",
+          "team": "Cabo Verde",
+          "match": "Argentina vs Cabo Verde"
+        },
+        {
+          "player": "Lisandro Martínez",
+          "team": "Argentina",
+          "match": "Argentina vs Cabo Verde"
+        },
+        {
+          "player": "Sidny Lopes Cabral",
+          "team": "Cabo Verde",
+          "match": "Argentina vs Cabo Verde"
+        },
+        {
+          "player": "Diney Borges(OG",
+          "team": "Argentina",
+          "match": "Argentina vs Cabo Verde"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "",
+      "awayKeeper": ""
     },
     {
       "date": "Friday, July 3, 2026",
@@ -9778,19 +9815,68 @@
       "predictedAwayScore": 2,
       "homeKeeper": "Patrick Beach",
       "awayKeeper": "Mostafa Shobeir"
+    },
+    {
+      "date": "Friday, July 3, 2026",
+      "stage": "Knockout",
+      "group": "Match 86 · Round of 32",
+      "time": "6:00 PM local",
+      "home": "Argentina",
+      "homeFlag": "ARG",
+      "away": "Cabo Verde",
+      "awayFlag": "CPV",
+      "location": "Hard Rock Stadium · Miami",
+      "status": "FT",
+      "elapsed": 136,
+      "homeScore": 3,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Lionel Messi",
+          "team": "Argentina",
+          "match": "Argentina vs Cabo Verde"
+        },
+        {
+          "player": "Deroy Duarte",
+          "team": "Cabo Verde",
+          "match": "Argentina vs Cabo Verde"
+        },
+        {
+          "player": "Lisandro Martínez",
+          "team": "Argentina",
+          "match": "Argentina vs Cabo Verde"
+        },
+        {
+          "player": "Sidny Lopes Cabral",
+          "team": "Cabo Verde",
+          "match": "Argentina vs Cabo Verde"
+        },
+        {
+          "player": "Diney Borges(OG",
+          "team": "Argentina",
+          "match": "Argentina vs Cabo Verde"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1,
+      "homeKeeper": "",
+      "awayKeeper": ""
     }
   ],
   "detailedStats": {
     "scorers": [
       {
+        "name": "Lionel Messi",
+        "value": 7,
+        "detail": "Argentina"
+      },
+      {
         "name": "Kylian Mbappé",
         "value": 6,
         "detail": "France"
-      },
-      {
-        "name": "Lionel Messi",
-        "value": 6,
-        "detail": "Argentina"
       },
       {
         "name": "Erling Haaland",
@@ -10033,6 +10119,11 @@
         "detail": "Uruguay"
       },
       {
+        "name": "Álex Baena",
+        "value": 1,
+        "detail": "Spain"
+      },
+      {
         "name": "Alex Freeman",
         "value": 1,
         "detail": "United States"
@@ -10053,9 +10144,19 @@
         "detail": "Jordan"
       },
       {
+        "name": "Álvaro Fidalgo",
+        "value": 1,
+        "detail": "Mexico"
+      },
+      {
         "name": "Amine Gouiri",
         "value": 1,
         "detail": "Algeria"
+      },
+      {
+        "name": "Ángel Mena",
+        "value": 1,
+        "detail": "Ecuador"
       },
       {
         "name": "Ante Budimir",
@@ -10133,6 +10234,11 @@
         "detail": "Switzerland"
       },
       {
+        "name": "Deroy Duarte",
+        "value": 1,
+        "detail": "Cabo Verde"
+      },
+      {
         "name": "Derrick Luckassen",
         "value": 1,
         "detail": "Ghana"
@@ -10141,6 +10247,11 @@
         "name": "Désiré Doué",
         "value": 1,
         "detail": "France"
+      },
+      {
+        "name": "Diney Borges(OG",
+        "value": 1,
+        "detail": "Argentina"
       },
       {
         "name": "Eldor Shomurodov",
@@ -10198,14 +10309,14 @@
         "detail": "Argentina"
       },
       {
-        "name": "Gonzalo Plata",
-        "value": 1,
-        "detail": "Ecuador"
-      },
-      {
         "name": "Gonçalo Ramos",
         "value": 1,
         "detail": "Portugal"
+      },
+      {
+        "name": "Gonzalo Plata",
+        "value": 1,
+        "detail": "Ecuador"
       },
       {
         "name": "Granit Xhaka",
@@ -10228,14 +10339,14 @@
         "detail": "Tunisia"
       },
       {
-        "name": "Hwang In-beom",
-        "value": 1,
-        "detail": "Korea Republic"
-      },
-      {
         "name": "Hélio Varela",
         "value": 1,
         "detail": "Cabo Verde"
+      },
+      {
+        "name": "Hwang In-beom",
+        "value": 1,
+        "detail": "Korea Republic"
       },
       {
         "name": "Ibrahim Mbaye",
@@ -10278,6 +10389,11 @@
         "detail": "Netherlands"
       },
       {
+        "name": "João Neves",
+        "value": 1,
+        "detail": "Portugal"
+      },
+      {
         "name": "John McGinn",
         "value": 1,
         "detail": "Scotland"
@@ -10286,11 +10402,6 @@
         "name": "Jovo Lukić",
         "value": 1,
         "detail": "Bosnia and Herzegovina"
-      },
-      {
-        "name": "João Neves",
-        "value": 1,
-        "detail": "Portugal"
       },
       {
         "name": "Julio Enciso",
@@ -10358,6 +10469,11 @@
         "detail": "Germany"
       },
       {
+        "name": "Lisandro Martínez",
+        "value": 1,
+        "detail": "Argentina"
+      },
+      {
         "name": "Livano Comenencia",
         "value": 1,
         "detail": "Curaçao"
@@ -10408,14 +10524,14 @@
         "detail": "Mexico"
       },
       {
-        "name": "Mattias Svanberg",
-        "value": 1,
-        "detail": "Sweden"
-      },
-      {
         "name": "Matías Galarza",
         "value": 1,
         "detail": "Paraguay"
+      },
+      {
+        "name": "Mattias Svanberg",
+        "value": 1,
+        "detail": "Sweden"
       },
       {
         "name": "Maurício",
@@ -10440,12 +10556,12 @@
       {
         "name": "Mohamed Hany(OG)",
         "value": 1,
-        "detail": "Australia"
+        "detail": "Belgium"
       },
       {
         "name": "Mohamed Hany(OG)",
         "value": 1,
-        "detail": "Belgium"
+        "detail": "Australia"
       },
       {
         "name": "Mohamed Manai(OG)",
@@ -10568,6 +10684,11 @@
         "detail": "United States"
       },
       {
+        "name": "Sidny Lopes Cabral",
+        "value": 1,
+        "detail": "Cabo Verde"
+      },
+      {
         "name": "Soufiane Rahimi",
         "value": 1,
         "detail": "Morocco"
@@ -10626,308 +10747,293 @@
         "name": "Yazan Al-Arab(OG)",
         "value": 1,
         "detail": "Austria"
-      },
-      {
-        "name": "Álex Baena",
-        "value": 1,
-        "detail": "Spain"
-      },
-      {
-        "name": "Álvaro Fidalgo",
-        "value": 1,
-        "detail": "Mexico"
-      },
-      {
-        "name": "Ángel Mena",
-        "value": 1,
-        "detail": "Ecuador"
       }
     ],
     "keepers": [
       {
         "name": "Raúl Rangel",
         "value": 4,
-        "detail": "Mexico ? 0 goals conceded in 4 appearances"
+        "detail": "Mexico · 0 goals conceded in 4 appearances"
       },
       {
         "name": "Unai Simón",
         "value": 4,
-        "detail": "Spain ? 0 goals conceded in 4 appearances"
+        "detail": "Spain · 0 goals conceded in 4 appearances"
       },
       {
         "name": "Alisson Becker",
         "value": 2,
-        "detail": "Brazil ? 2 goals conceded in 4 appearances"
+        "detail": "Brazil · 2 goals conceded in 4 appearances"
       },
       {
         "name": "Camilo Vargas",
         "value": 2,
-        "detail": "Colombia ? 1 goals conceded in 3 appearances"
+        "detail": "Colombia · 1 goals conceded in 3 appearances"
       },
       {
         "name": "Diogo Costa",
         "value": 2,
-        "detail": "Portugal ? 2 goals conceded in 4 appearances"
+        "detail": "Portugal · 2 goals conceded in 4 appearances"
       },
       {
         "name": "Emiliano Martínez",
         "value": 2,
-        "detail": "Argentina ? 1 goals conceded in 3 appearances"
+        "detail": "Argentina · 1 goals conceded in 3 appearances"
       },
       {
         "name": "Jordan Pickford",
         "value": 2,
-        "detail": "England ? 3 goals conceded in 4 appearances"
+        "detail": "England · 3 goals conceded in 4 appearances"
       },
       {
         "name": "Matt Freese",
         "value": 2,
-        "detail": "United States ? 4 goals conceded in 4 appearances"
+        "detail": "United States · 4 goals conceded in 4 appearances"
       },
       {
         "name": "Maxime Crépeau",
         "value": 2,
-        "detail": "Canada ? 3 goals conceded in 4 appearances"
+        "detail": "Canada · 3 goals conceded in 4 appearances"
       },
       {
         "name": "Mike Maignan",
         "value": 2,
-        "detail": "France ? 2 goals conceded in 4 appearances"
+        "detail": "France · 2 goals conceded in 4 appearances"
       },
       {
         "name": "Orlando Gill",
         "value": 2,
-        "detail": "Paraguay ? 5 goals conceded in 4 appearances"
+        "detail": "Paraguay · 5 goals conceded in 4 appearances"
       },
       {
         "name": "Patrick Beach",
         "value": 2,
-        "detail": "Australia ? 3 goals conceded in 4 appearances"
+        "detail": "Australia · 3 goals conceded in 4 appearances"
       },
       {
         "name": "Vozinha",
         "value": 2,
-        "detail": "Cabo Verde ? 2 goals conceded in 3 appearances"
+        "detail": "Cabo Verde · 2 goals conceded in 3 appearances"
       },
       {
         "name": "Yahia Fofana",
         "value": 2,
-        "detail": "Cote d'Ivoire ? 4 goals conceded in 4 appearances"
+        "detail": "Cote d'Ivoire · 4 goals conceded in 4 appearances"
       },
       {
         "name": "Alireza Beiranvand",
         "value": 1,
-        "detail": "Iran ? 3 goals conceded in 3 appearances"
+        "detail": "Iran · 3 goals conceded in 3 appearances"
       },
       {
         "name": "Angus Gunn",
         "value": 1,
-        "detail": "Scotland ? 4 goals conceded in 3 appearances"
+        "detail": "Scotland · 4 goals conceded in 3 appearances"
       },
       {
         "name": "Benjamin Asare",
         "value": 1,
-        "detail": "Ghana ? 0 goals conceded in 1 appearance"
+        "detail": "Ghana · 0 goals conceded in 1 appearance"
       },
       {
         "name": "Dominik Livaković",
         "value": 1,
-        "detail": "Croatia ? 7 goals conceded in 4 appearances"
+        "detail": "Croatia · 7 goals conceded in 4 appearances"
       },
       {
         "name": "Eloy Room",
         "value": 1,
-        "detail": "Curaçao ? 9 goals conceded in 3 appearances"
+        "detail": "Curaçao · 9 goals conceded in 3 appearances"
       },
       {
         "name": "Gregor Kobel",
         "value": 1,
-        "detail": "Switzerland ? 3 goals conceded in 4 appearances"
+        "detail": "Switzerland · 3 goals conceded in 4 appearances"
       },
       {
         "name": "Hernán Galíndez",
         "value": 1,
-        "detail": "Ecuador ? 4 goals conceded in 4 appearances"
+        "detail": "Ecuador · 4 goals conceded in 4 appearances"
       },
       {
         "name": "Lawrence Ati-Zigi",
         "value": 1,
-        "detail": "Ghana ? 2 goals conceded in 2 appearances"
+        "detail": "Ghana · 2 goals conceded in 2 appearances"
       },
       {
         "name": "Mohammed Al-Owais",
         "value": 1,
-        "detail": "Saudi Arabia ? 5 goals conceded in 3 appearances"
+        "detail": "Saudi Arabia · 5 goals conceded in 3 appearances"
       },
       {
         "name": "Mory Diaw",
         "value": 1,
-        "detail": "Senegal ? 3 goals conceded in 2 appearances"
+        "detail": "Senegal · 3 goals conceded in 2 appearances"
       },
       {
         "name": "Ronwen Williams",
         "value": 1,
-        "detail": "South Africa ? 4 goals conceded in 4 appearances"
+        "detail": "South Africa · 4 goals conceded in 4 appearances"
       },
       {
         "name": "Thibaut Courtois",
         "value": 1,
-        "detail": "Belgium ? 4 goals conceded in 4 appearances"
+        "detail": "Belgium · 4 goals conceded in 4 appearances"
       },
       {
         "name": "Yassine Bounou",
         "value": 1,
-        "detail": "Morocco ? 4 goals conceded in 4 appearances"
+        "detail": "Morocco · 4 goals conceded in 4 appearances"
       },
       {
         "name": "Zion Suzuki",
         "value": 1,
-        "detail": "Japan ? 5 goals conceded in 4 appearances"
+        "detail": "Japan · 5 goals conceded in 4 appearances"
       },
       {
         "name": "Abduvohid Nematov",
         "value": 0,
-        "detail": "Uzbekistan ? 8 goals conceded in 2 appearances"
+        "detail": "Uzbekistan · 8 goals conceded in 2 appearances"
       },
       {
         "name": "Ahmed Basil",
         "value": 0,
-        "detail": "Iraq ? 8 goals conceded in 2 appearances"
+        "detail": "Iraq · 8 goals conceded in 2 appearances"
       },
       {
         "name": "Alexander Schlager",
         "value": 0,
-        "detail": "Austria ? 9 goals conceded in 4 appearances"
+        "detail": "Austria · 9 goals conceded in 4 appearances"
       },
       {
         "name": "Aymen Dahmen",
         "value": 0,
-        "detail": "Tunisia ? 7 goals conceded in 2 appearances"
+        "detail": "Tunisia · 7 goals conceded in 2 appearances"
       },
       {
         "name": "Bart Verbruggen",
         "value": 0,
-        "detail": "Netherlands ? 5 goals conceded in 4 appearances"
-      },
-      {
-        "name": "Egil Selvik",
-        "value": 0,
-        "detail": "Norway ? 4 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Fernando Muslera",
-        "value": 0,
-        "detail": "Uruguay ? 4 goals conceded in 3 appearances"
-      },
-      {
-        "name": "Jacob Widell Zetterström",
-        "value": 0,
-        "detail": "Sweden ? 3 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Jalal Hassan",
-        "value": 0,
-        "detail": "Iraq ? 4 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Johny Placide",
-        "value": 0,
-        "detail": "Haiti ? 8 goals conceded in 3 appearances"
-      },
-      {
-        "name": "Kim Seung-gyu",
-        "value": 0,
-        "detail": "Korea Republic ? 3 goals conceded in 3 appearances"
-      },
-      {
-        "name": "Kristoffer Nordfeldt",
-        "value": 0,
-        "detail": "Sweden ? 7 goals conceded in 3 appearances"
-      },
-      {
-        "name": "Lionel Mpasi",
-        "value": 0,
-        "detail": "DR Congo ? 5 goals conceded in 4 appearances"
-      },
-      {
-        "name": "Luca Zidane",
-        "value": 0,
-        "detail": "Algeria ? 6 goals conceded in 3 appearances"
-      },
-      {
-        "name": "Mahmoud Abunada",
-        "value": 0,
-        "detail": "Qatar ? 1 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Mahmud Abunada",
-        "value": 0,
-        "detail": "Qatar ? 9 goals conceded in 2 appearances"
-      },
-      {
-        "name": "Manuel Neuer",
-        "value": 0,
-        "detail": "Germany ? 5 goals conceded in 4 appearances"
-      },
-      {
-        "name": "Matěj Kovář",
-        "value": 0,
-        "detail": "Czechia ? 6 goals conceded in 3 appearances"
-      },
-      {
-        "name": "Max Crocombe",
-        "value": 0,
-        "detail": "New Zealand ? 10 goals conceded in 3 appearances"
-      },
-      {
-        "name": "Mostafa Shobeir",
-        "value": 0,
-        "detail": "Egypt ? 4 goals conceded in 4 appearances"
-      },
-      {
-        "name": "Mouhib Chamakh",
-        "value": 0,
-        "detail": "Tunisia ? 5 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Nikola Vasilj",
-        "value": 0,
-        "detail": "Bosnia and Herzegovina ? 8 goals conceded in 4 appearances"
-      },
-      {
-        "name": "Orlando Mosquera",
-        "value": 0,
-        "detail": "Panama ? 4 goals conceded in 3 appearances"
-      },
-      {
-        "name": "Oussama Benbot",
-        "value": 0,
-        "detail": "Algeria ? 3 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Utkir Yusupov",
-        "value": 0,
-        "detail": "Uzbekistan ? 3 goals conceded in 1 appearance"
-      },
-      {
-        "name": "Uğurcan Çakır",
-        "value": 0,
-        "detail": "Türkiye ? 5 goals conceded in 3 appearances"
-      },
-      {
-        "name": "Yazeed Abulaila",
-        "value": 0,
-        "detail": "Jordan ? 8 goals conceded in 3 appearances"
+        "detail": "Netherlands · 5 goals conceded in 4 appearances"
       },
       {
         "name": "Édouard Mendy",
         "value": 0,
-        "detail": "Senegal ? 6 goals conceded in 2 appearances"
+        "detail": "Senegal · 6 goals conceded in 2 appearances"
+      },
+      {
+        "name": "Egil Selvik",
+        "value": 0,
+        "detail": "Norway · 4 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Fernando Muslera",
+        "value": 0,
+        "detail": "Uruguay · 4 goals conceded in 3 appearances"
+      },
+      {
+        "name": "Jacob Widell Zetterström",
+        "value": 0,
+        "detail": "Sweden · 3 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Jalal Hassan",
+        "value": 0,
+        "detail": "Iraq · 4 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Johny Placide",
+        "value": 0,
+        "detail": "Haiti · 8 goals conceded in 3 appearances"
+      },
+      {
+        "name": "Kim Seung-gyu",
+        "value": 0,
+        "detail": "Korea Republic · 3 goals conceded in 3 appearances"
+      },
+      {
+        "name": "Kristoffer Nordfeldt",
+        "value": 0,
+        "detail": "Sweden · 7 goals conceded in 3 appearances"
+      },
+      {
+        "name": "Lionel Mpasi",
+        "value": 0,
+        "detail": "DR Congo · 5 goals conceded in 4 appearances"
+      },
+      {
+        "name": "Luca Zidane",
+        "value": 0,
+        "detail": "Algeria · 6 goals conceded in 3 appearances"
+      },
+      {
+        "name": "Mahmoud Abunada",
+        "value": 0,
+        "detail": "Qatar · 1 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Mahmud Abunada",
+        "value": 0,
+        "detail": "Qatar · 9 goals conceded in 2 appearances"
+      },
+      {
+        "name": "Manuel Neuer",
+        "value": 0,
+        "detail": "Germany · 5 goals conceded in 4 appearances"
+      },
+      {
+        "name": "Matěj Kovář",
+        "value": 0,
+        "detail": "Czechia · 6 goals conceded in 3 appearances"
+      },
+      {
+        "name": "Max Crocombe",
+        "value": 0,
+        "detail": "New Zealand · 10 goals conceded in 3 appearances"
+      },
+      {
+        "name": "Mostafa Shobeir",
+        "value": 0,
+        "detail": "Egypt · 4 goals conceded in 4 appearances"
+      },
+      {
+        "name": "Mouhib Chamakh",
+        "value": 0,
+        "detail": "Tunisia · 5 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Nikola Vasilj",
+        "value": 0,
+        "detail": "Bosnia and Herzegovina · 8 goals conceded in 4 appearances"
       },
       {
         "name": "Ørjan Nyland",
         "value": 0,
-        "detail": "Norway ? 4 goals conceded in 3 appearances"
+        "detail": "Norway · 4 goals conceded in 3 appearances"
+      },
+      {
+        "name": "Orlando Mosquera",
+        "value": 0,
+        "detail": "Panama · 4 goals conceded in 3 appearances"
+      },
+      {
+        "name": "Oussama Benbot",
+        "value": 0,
+        "detail": "Algeria · 3 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Uğurcan Çakır",
+        "value": 0,
+        "detail": "Türkiye · 5 goals conceded in 3 appearances"
+      },
+      {
+        "name": "Utkir Yusupov",
+        "value": 0,
+        "detail": "Uzbekistan · 3 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Yazeed Abulaila",
+        "value": 0,
+        "detail": "Jordan · 8 goals conceded in 3 appearances"
       }
     ],
     "redCards": {
@@ -12637,6 +12743,13 @@
         "yellowCards": 2,
         "penalties": 0,
         "elapsed": 128
+      },
+      {
+        "match": "Argentina vs Cabo Verde",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 136
       }
     ]
   }
