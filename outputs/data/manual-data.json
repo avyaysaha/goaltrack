@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T03:34:18.052Z",
+  "updatedAt": "2026-07-04T03:48:38.257Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -5365,35 +5365,35 @@
       ],
       "yellowCards": [
         {
+          "player": "Jefferson Lerma",
+          "team": "Colombia",
+          "match": "Colombia vs Ghana"
+        },
+        {
           "player": "Jhon Arias",
           "team": "Colombia",
           "match": "Colombia vs Ghana"
         },
         {
-          "player": "Caleb Yirenkyi",
+          "player": "Marvin Senaya",
           "team": "Ghana",
           "match": "Colombia vs Ghana"
         },
         {
-          "player": "Abdul Fatawu",
+          "player": "Jerome Opoku",
           "team": "Ghana",
           "match": "Colombia vs Ghana"
         },
         {
-          "player": "Alidu Seidu",
+          "player": "Thomas Partey",
           "team": "Ghana",
-          "match": "Colombia vs Ghana"
-        },
-        {
-          "player": "Richard Ríos",
-          "team": "Colombia",
           "match": "Colombia vs Ghana"
         }
       ],
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Camilo Vargas",
-      "awayKeeper": "Lawrence Ati Zigi"
+      "awayKeeper": "Lawrence Ati-Zigi"
     },
     {
       "date": "Saturday, July 4, 2026",
@@ -9953,28 +9953,28 @@
       ],
       "yellowCards": [
         {
+          "player": "Jefferson Lerma",
+          "team": "Colombia",
+          "match": "Colombia vs Ghana"
+        },
+        {
           "player": "Jhon Arias",
           "team": "Colombia",
           "match": "Colombia vs Ghana"
         },
         {
-          "player": "Caleb Yirenkyi",
+          "player": "Marvin Senaya",
           "team": "Ghana",
           "match": "Colombia vs Ghana"
         },
         {
-          "player": "Abdul Fatawu",
+          "player": "Jerome Opoku",
           "team": "Ghana",
           "match": "Colombia vs Ghana"
         },
         {
-          "player": "Alidu Seidu",
+          "player": "Thomas Partey",
           "team": "Ghana",
-          "match": "Colombia vs Ghana"
-        },
-        {
-          "player": "Richard Ríos",
-          "team": "Colombia",
           "match": "Colombia vs Ghana"
         }
       ],
@@ -9983,7 +9983,7 @@
       "predictedHomeScore": 2,
       "predictedAwayScore": 1,
       "homeKeeper": "Camilo Vargas",
-      "awayKeeper": "Lawrence Ati Zigi"
+      "awayKeeper": "Lawrence Ati-Zigi"
     }
   ],
   "detailedStats": {
@@ -10983,7 +10983,7 @@
       {
         "name": "Lawrence Ati-Zigi",
         "value": 1,
-        "detail": "Ghana · 2 goals conceded in 2 appearances"
+        "detail": "Ghana · 3 goals conceded in 3 appearances"
       },
       {
         "name": "Mohammed Al-Owais",
@@ -11079,11 +11079,6 @@
         "name": "Kristoffer Nordfeldt",
         "value": 0,
         "detail": "Sweden · 7 goals conceded in 3 appearances"
-      },
-      {
-        "name": "Lawrence Ati Zigi",
-        "value": 0,
-        "detail": "Ghana · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Lionel Mpasi",
@@ -12240,28 +12235,28 @@
         "match": "Argentina vs Cabo Verde"
       },
       {
+        "player": "Jefferson Lerma",
+        "team": "Colombia",
+        "match": "Colombia vs Ghana"
+      },
+      {
         "player": "Jhon Arias",
         "team": "Colombia",
         "match": "Colombia vs Ghana"
       },
       {
-        "player": "Caleb Yirenkyi",
+        "player": "Marvin Senaya",
         "team": "Ghana",
         "match": "Colombia vs Ghana"
       },
       {
-        "player": "Abdul Fatawu",
+        "player": "Jerome Opoku",
         "team": "Ghana",
         "match": "Colombia vs Ghana"
       },
       {
-        "player": "Alidu Seidu",
+        "player": "Thomas Partey",
         "team": "Ghana",
-        "match": "Colombia vs Ghana"
-      },
-      {
-        "player": "Richard Ríos",
-        "team": "Colombia",
         "match": "Colombia vs Ghana"
       }
     ],
