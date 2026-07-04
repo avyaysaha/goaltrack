@@ -110,7 +110,23 @@ function resolveTeam(value, requiredTeam = true) {
 }
 
 const extraDetails = {};
-const extraPattern = /(?:^|[\n,]\s*)(time|venue|yellow|red|penalties|winner|shootout|home_keeper|away_keeper)\s*=\s*(.*?)(?=(?:[\n,]\s*)(?:time|venue|yellow|red|penalties|winner|shootout|home_keeper|away_keeper)\s*=|$)/gis;
+const extraFields = [
+  "time", "venue", "yellow", "red", "penalties", "winner", "shootout", "home_keeper", "away_keeper",
+  "home_shots", "away_shots",
+  "home_shots_on_target", "away_shots_on_target",
+  "home_possession", "away_possession",
+  "home_passes", "away_passes",
+  "home_pass_accuracy", "away_pass_accuracy",
+  "home_dribble_accuracy", "away_dribble_accuracy",
+  "home_fouls", "away_fouls",
+  "home_offsides", "away_offsides",
+  "home_corners", "away_corners"
+];
+const extraFieldPattern = extraFields.join("|");
+const extraPattern = new RegExp(
+  `(?:^|[\\n,]\\s*)(${extraFieldPattern})\\s*=\\s*(.*?)(?=(?:[\\n,]\\s*)(?:${extraFieldPattern})\\s*=|$)`,
+  "gis"
+);
 for (const match of String(process.env.EXTRA_DETAILS || "").matchAll(extraPattern)) {
   const name = match[1].toLowerCase();
   const value = match[2].trim();
@@ -119,6 +135,41 @@ for (const match of String(process.env.EXTRA_DETAILS || "").matchAll(extraPatter
 
 function extraValue(name) {
   return extraDetails[name] || "";
+}
+
+const statInputMap = {
+  shots: "shots",
+  shots_on_target: "shotsOnTarget",
+  possession: "possession",
+  passes: "passes",
+  pass_accuracy: "passAccuracy",
+  dribble_accuracy: "dribbleAccuracy",
+  fouls: "fouls",
+  offsides: "offsides",
+  corners: "corners"
+};
+
+function optionalStat(name) {
+  if (!Object.prototype.hasOwnProperty.call(extraDetails, name)) {
+    return null;
+  }
+
+  const value = Number(extraValue(name));
+  if (!Number.isFinite(value) || value < 0) {
+    throw new Error(`${name} must be zero or greater.`);
+  }
+  return value;
+}
+
+function buildTeamStats(side, previousStats = {}) {
+  const stats = { ...(previousStats || {}) };
+  for (const [inputName, jsonName] of Object.entries(statInputMap)) {
+    const value = optionalStat(`${side}_${inputName}`);
+    if (value !== null) {
+      stats[jsonName] = value;
+    }
+  }
+  return Object.keys(stats).length ? stats : null;
 }
 
 const data = JSON.parse(fs.readFileSync(jsonPath, "utf8").replace(/^\uFEFF/, ""));
@@ -195,6 +246,8 @@ if (explicitShootoutWinner && resolvedStage !== "Knockout") {
 if (explicitShootoutWinner && homeScore !== awayScore) {
   throw new Error("winner is only needed when a knockout match is tied after play.");
 }
+const homeStats = buildTeamStats("home", previousMatch.homeStats);
+const awayStats = buildTeamStats("away", previousMatch.awayStats);
 const update = {
   date: required("MATCH_DATE").replace(/\s+/g, " ").replace(/\s+,/g, ","),
   stage: resolvedStage,
@@ -236,7 +289,9 @@ const update = {
     : (previousMatch.homeKeeper || ""),
   awayKeeper: hasExtra("away_keeper")
     ? extraValue("away_keeper")
-    : (previousMatch.awayKeeper || "")
+    : (previousMatch.awayKeeper || ""),
+  ...(homeStats ? { homeStats } : {}),
+  ...(awayStats ? { awayStats } : {})
 };
 if (!Number.isFinite(update.penalties) || update.penalties < 0) {
   throw new Error("penalties in extra details must be zero or greater.");
