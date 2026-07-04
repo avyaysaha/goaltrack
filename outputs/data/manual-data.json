@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T01:14:45.051Z",
+  "updatedAt": "2026-07-04T03:34:18.052Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -683,7 +683,8 @@
         "drawn": 1,
         "lost": 1,
         "gd": 0,
-        "points": 4
+        "points": 4,
+        "eliminated": true
       },
       {
         "name": "Panama",
@@ -5341,7 +5342,7 @@
       "date": "Friday, July 3, 2026",
       "stage": "Knockout",
       "group": "Match 87 · Round of 32",
-      "time": "8:30 PM local",
+      "time": "8:30 PM CDT (8:30 PM CDT venue local)",
       "kickoffISO": "2026-07-04T01:30:00Z",
       "home": "Colombia",
       "homeFlag": "COL",
@@ -5350,7 +5351,49 @@
       "location": "GEHA Field at Arrowhead Stadium · Kansas City",
       "venueTimeZone": "America/Chicago",
       "predictedHomeScore": 2,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "status": "FT",
+      "elapsed": 98,
+      "homeScore": 1,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Jhon Arias",
+          "team": "Colombia",
+          "match": "Colombia vs Ghana"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Jhon Arias",
+          "team": "Colombia",
+          "match": "Colombia vs Ghana"
+        },
+        {
+          "player": "Caleb Yirenkyi",
+          "team": "Ghana",
+          "match": "Colombia vs Ghana"
+        },
+        {
+          "player": "Abdul Fatawu",
+          "team": "Ghana",
+          "match": "Colombia vs Ghana"
+        },
+        {
+          "player": "Alidu Seidu",
+          "team": "Ghana",
+          "match": "Colombia vs Ghana"
+        },
+        {
+          "player": "Richard Ríos",
+          "team": "Colombia",
+          "match": "Colombia vs Ghana"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Camilo Vargas",
+      "awayKeeper": "Lawrence Ati Zigi"
     },
     {
       "date": "Saturday, July 4, 2026",
@@ -9886,6 +9929,61 @@
       "predictedAwayScore": 1,
       "homeKeeper": "Emiliano Martínez",
       "awayKeeper": "Vozinha"
+    },
+    {
+      "date": "Friday, July 3, 2026",
+      "stage": "Knockout",
+      "group": "Match 87 · Round of 32",
+      "time": "8:30 PM CDT (8:30 PM CDT venue local)",
+      "home": "Colombia",
+      "homeFlag": "COL",
+      "away": "Ghana",
+      "awayFlag": "GHA",
+      "location": "GEHA Field at Arrowhead Stadium · Kansas City",
+      "status": "FT",
+      "elapsed": 98,
+      "homeScore": 1,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Jhon Arias",
+          "team": "Colombia",
+          "match": "Colombia vs Ghana"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Jhon Arias",
+          "team": "Colombia",
+          "match": "Colombia vs Ghana"
+        },
+        {
+          "player": "Caleb Yirenkyi",
+          "team": "Ghana",
+          "match": "Colombia vs Ghana"
+        },
+        {
+          "player": "Abdul Fatawu",
+          "team": "Ghana",
+          "match": "Colombia vs Ghana"
+        },
+        {
+          "player": "Alidu Seidu",
+          "team": "Ghana",
+          "match": "Colombia vs Ghana"
+        },
+        {
+          "player": "Richard Ríos",
+          "team": "Colombia",
+          "match": "Colombia vs Ghana"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 1,
+      "homeKeeper": "Camilo Vargas",
+      "awayKeeper": "Lawrence Ati Zigi"
     }
   ],
   "detailedStats": {
@@ -10411,6 +10509,11 @@
         "detail": "Netherlands"
       },
       {
+        "name": "Jhon Arias",
+        "value": 1,
+        "detail": "Colombia"
+      },
+      {
         "name": "João Neves",
         "value": 1,
         "detail": "Portugal"
@@ -10783,14 +10886,14 @@
         "detail": "Spain · 0 goals conceded in 4 appearances"
       },
       {
+        "name": "Camilo Vargas",
+        "value": 3,
+        "detail": "Colombia · 1 goals conceded in 4 appearances"
+      },
+      {
         "name": "Alisson Becker",
         "value": 2,
         "detail": "Brazil · 2 goals conceded in 4 appearances"
-      },
-      {
-        "name": "Camilo Vargas",
-        "value": 2,
-        "detail": "Colombia · 1 goals conceded in 3 appearances"
       },
       {
         "name": "Diogo Costa",
@@ -10978,6 +11081,11 @@
         "detail": "Sweden · 7 goals conceded in 3 appearances"
       },
       {
+        "name": "Lawrence Ati Zigi",
+        "value": 0,
+        "detail": "Ghana · 1 goals conceded in 1 appearance"
+      },
+      {
         "name": "Lionel Mpasi",
         "value": 0,
         "detail": "DR Congo · 5 goals conceded in 4 appearances"
@@ -11096,9 +11204,9 @@
       "Austria": 5,
       "Portugal": 5,
       "DR Congo": 6,
-      "Ghana": 4,
+      "Ghana": 7,
       "Panama": 5,
-      "Colombia": 4,
+      "Colombia": 6,
       "Uzbekistan": 4,
       "Czechia": 1,
       "Australia": 5,
@@ -12130,6 +12238,31 @@
         "player": "Gonzalo Montiel",
         "team": "Argentina",
         "match": "Argentina vs Cabo Verde"
+      },
+      {
+        "player": "Jhon Arias",
+        "team": "Colombia",
+        "match": "Colombia vs Ghana"
+      },
+      {
+        "player": "Caleb Yirenkyi",
+        "team": "Ghana",
+        "match": "Colombia vs Ghana"
+      },
+      {
+        "player": "Abdul Fatawu",
+        "team": "Ghana",
+        "match": "Colombia vs Ghana"
+      },
+      {
+        "player": "Alidu Seidu",
+        "team": "Ghana",
+        "match": "Colombia vs Ghana"
+      },
+      {
+        "player": "Richard Ríos",
+        "team": "Colombia",
+        "match": "Colombia vs Ghana"
       }
     ],
     "penaltyEvents": [
@@ -12782,6 +12915,13 @@
         "yellowCards": 2,
         "penalties": 0,
         "elapsed": 136
+      },
+      {
+        "match": "Colombia vs Ghana",
+        "redCards": 0,
+        "yellowCards": 5,
+        "penalties": 0,
+        "elapsed": 98
       }
     ]
   }
