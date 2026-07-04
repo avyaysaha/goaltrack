@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T01:10:23.233Z",
+  "updatedAt": "2026-07-04T01:14:45.051Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -5279,7 +5279,7 @@
       "date": "Friday, July 3, 2026",
       "stage": "Knockout",
       "group": "Match 86 · Round of 32",
-      "time": "6:00 PM local",
+      "time": "5:00 PM CDT (6:00 PM EDT venue local)",
       "kickoffISO": "2026-07-03T22:00:00Z",
       "home": "Argentina",
       "homeFlag": "ARG",
@@ -5315,16 +5315,27 @@
           "match": "Argentina vs Cabo Verde"
         },
         {
-          "player": "Diney Borges(OG",
+          "player": "Diney Borges(OG)",
           "team": "Argentina",
           "match": "Argentina vs Cabo Verde"
         }
       ],
-      "yellowCards": [],
+      "yellowCards": [
+        {
+          "player": "Kevin Pina",
+          "team": "Cabo Verde",
+          "match": "Argentina vs Cabo Verde"
+        },
+        {
+          "player": "Gonzalo Montiel",
+          "team": "Argentina",
+          "match": "Argentina vs Cabo Verde"
+        }
+      ],
       "redCards": [],
       "penalties": 0,
-      "homeKeeper": "",
-      "awayKeeper": ""
+      "homeKeeper": "Emiliano Martínez",
+      "awayKeeper": "Vozinha"
     },
     {
       "date": "Friday, July 3, 2026",
@@ -9820,7 +9831,7 @@
       "date": "Friday, July 3, 2026",
       "stage": "Knockout",
       "group": "Match 86 · Round of 32",
-      "time": "6:00 PM local",
+      "time": "5:00 PM CDT (6:00 PM EDT venue local)",
       "home": "Argentina",
       "homeFlag": "ARG",
       "away": "Cabo Verde",
@@ -9852,18 +9863,29 @@
           "match": "Argentina vs Cabo Verde"
         },
         {
-          "player": "Diney Borges(OG",
+          "player": "Diney Borges(OG)",
           "team": "Argentina",
           "match": "Argentina vs Cabo Verde"
         }
       ],
-      "yellowCards": [],
+      "yellowCards": [
+        {
+          "player": "Kevin Pina",
+          "team": "Cabo Verde",
+          "match": "Argentina vs Cabo Verde"
+        },
+        {
+          "player": "Gonzalo Montiel",
+          "team": "Argentina",
+          "match": "Argentina vs Cabo Verde"
+        }
+      ],
       "redCards": [],
       "penalties": 0,
       "predictedHomeScore": 3,
       "predictedAwayScore": 1,
-      "homeKeeper": "",
-      "awayKeeper": ""
+      "homeKeeper": "Emiliano Martínez",
+      "awayKeeper": "Vozinha"
     }
   ],
   "detailedStats": {
@@ -10249,7 +10271,7 @@
         "detail": "France"
       },
       {
-        "name": "Diney Borges(OG",
+        "name": "Diney Borges(OG)",
         "value": 1,
         "detail": "Argentina"
       },
@@ -10778,7 +10800,7 @@
       {
         "name": "Emiliano Martínez",
         "value": 2,
-        "detail": "Argentina · 1 goals conceded in 3 appearances"
+        "detail": "Argentina · 3 goals conceded in 4 appearances"
       },
       {
         "name": "Jordan Pickford",
@@ -10813,7 +10835,7 @@
       {
         "name": "Vozinha",
         "value": 2,
-        "detail": "Cabo Verde · 2 goals conceded in 3 appearances"
+        "detail": "Cabo Verde · 5 goals conceded in 4 appearances"
       },
       {
         "name": "Yahia Fofana",
@@ -11066,7 +11088,7 @@
       "Ecuador": 3,
       "Tunisia": 1,
       "Spain": 2,
-      "Cabo Verde": 4,
+      "Cabo Verde": 5,
       "Egypt": 8,
       "Belgium": 7,
       "Saudi Arabia": 6,
@@ -11086,7 +11108,7 @@
       "Curaçao": 7,
       "Uruguay": 5,
       "New Zealand": 3,
-      "Argentina": 2,
+      "Argentina": 3,
       "Iraq": 1,
       "Algeria": 3,
       "Jordan": 2,
@@ -12098,6 +12120,16 @@
         "player": "Haissem Hassan",
         "team": "Egypt",
         "match": "Australia vs Egypt"
+      },
+      {
+        "player": "Kevin Pina",
+        "team": "Cabo Verde",
+        "match": "Argentina vs Cabo Verde"
+      },
+      {
+        "player": "Gonzalo Montiel",
+        "team": "Argentina",
+        "match": "Argentina vs Cabo Verde"
       }
     ],
     "penaltyEvents": [
@@ -12747,7 +12779,7 @@
       {
         "match": "Argentina vs Cabo Verde",
         "redCards": 0,
-        "yellowCards": 0,
+        "yellowCards": 2,
         "penalties": 0,
         "elapsed": 136
       }
