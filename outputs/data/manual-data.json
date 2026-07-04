@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T19:40:50.950Z",
+  "updatedAt": "2026-07-04T23:21:41.270Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -304,7 +304,8 @@
         "drawn": 1,
         "lost": 1,
         "gd": -2,
-        "points": 4
+        "points": 4,
+        "eliminated": true
       },
       {
         "name": "Türkiye",
@@ -5400,14 +5401,46 @@
       "date": "Saturday, July 4, 2026",
       "stage": "Knockout",
       "group": "Match 89 · Round of 16",
-      "time": "5:00 PM local",
+      "time": "4:00 PM CDT (5:00 PM EDT venue local)",
       "kickoffISO": "2026-07-04T21:00:00Z",
-      "home": "Winner Match 74",
-      "homeFlag": "W74",
-      "away": "Winner Match 77",
-      "awayFlag": "W77",
+      "home": "Paraguay",
+      "homeFlag": "PAR",
+      "away": "France",
+      "awayFlag": "FRA",
       "location": "Lincoln Financial Field · Philadelphia",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "status": "FT",
+      "elapsed": 103,
+      "homeScore": 0,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Kylian Mbappé",
+          "team": "France",
+          "match": "Paraguay vs France"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Bradley Barcola",
+          "team": "France",
+          "match": "Paraguay vs France"
+        },
+        {
+          "player": "Manu Koné",
+          "team": "France",
+          "match": "Paraguay vs France"
+        },
+        {
+          "player": "Michael Olise",
+          "team": "France",
+          "match": "Paraguay vs France"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Orlando Gill",
+      "awayKeeper": "Mike Maignan"
     },
     {
       "date": "Sunday, July 5, 2026",
@@ -10128,19 +10161,62 @@
       "penalties": 0,
       "homeKeeper": "Maxime Crépeau",
       "awayKeeper": "Yassine Bounou"
+    },
+    {
+      "date": "Saturday, July 4, 2026",
+      "stage": "Knockout",
+      "group": "Match 89 · Round of 16",
+      "time": "4:00 PM CDT (5:00 PM EDT venue local)",
+      "home": "Paraguay",
+      "homeFlag": "PAR",
+      "away": "France",
+      "awayFlag": "FRA",
+      "location": "Lincoln Financial Field · Philadelphia",
+      "status": "FT",
+      "elapsed": 103,
+      "homeScore": 0,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Kylian Mbappé",
+          "team": "France",
+          "match": "Paraguay vs France"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Bradley Barcola",
+          "team": "France",
+          "match": "Paraguay vs France"
+        },
+        {
+          "player": "Manu Koné",
+          "team": "France",
+          "match": "Paraguay vs France"
+        },
+        {
+          "player": "Michael Olise",
+          "team": "France",
+          "match": "Paraguay vs France"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Orlando Gill",
+      "awayKeeper": "Mike Maignan"
     }
   ],
   "detailedStats": {
     "scorers": [
       {
+        "name": "Kylian Mbappé",
+        "value": 7,
+        "detail": "France"
+      },
+      {
         "name": "Lionel Messi",
         "value": 7,
         "detail": "Argentina"
-      },
-      {
-        "name": "Kylian Mbappé",
-        "value": 6,
-        "detail": "France"
       },
       {
         "name": "Erling Haaland",
@@ -11040,6 +11116,11 @@
         "detail": "Colombia · 1 goals conceded in 4 appearances"
       },
       {
+        "name": "Mike Maignan",
+        "value": 3,
+        "detail": "France · 2 goals conceded in 5 appearances"
+      },
+      {
         "name": "Alisson Becker",
         "value": 2,
         "detail": "Brazil · 2 goals conceded in 4 appearances"
@@ -11070,14 +11151,9 @@
         "detail": "Canada · 6 goals conceded in 5 appearances"
       },
       {
-        "name": "Mike Maignan",
-        "value": 2,
-        "detail": "France · 2 goals conceded in 4 appearances"
-      },
-      {
         "name": "Orlando Gill",
         "value": 2,
-        "detail": "Paraguay · 5 goals conceded in 4 appearances"
+        "detail": "Paraguay · 6 goals conceded in 5 appearances"
       },
       {
         "name": "Patrick Beach",
@@ -11368,7 +11444,8 @@
       "Croatia": 3,
       "Norway": 2,
       "Japan": 3,
-      "Senegal": 2
+      "Senegal": 2,
+      "France": 3
     },
     "redCardEvents": [
       {
@@ -12409,6 +12486,21 @@
         "match": "Colombia vs Ghana"
       },
       {
+        "player": "Bradley Barcola",
+        "team": "France",
+        "match": "Paraguay vs France"
+      },
+      {
+        "player": "Manu Koné",
+        "team": "France",
+        "match": "Paraguay vs France"
+      },
+      {
+        "player": "Michael Olise",
+        "team": "France",
+        "match": "Paraguay vs France"
+      },
+      {
         "player": "Redouane Halhal",
         "team": "Morocco",
         "match": "Canada vs Morocco"
@@ -12488,6 +12580,9 @@
       },
       {
         "match": "Portugal vs Croatia"
+      },
+      {
+        "match": "Paraguay vs France"
       }
     ],
     "matchStats": [
@@ -13106,6 +13201,13 @@
         "yellowCards": 5,
         "penalties": 0,
         "elapsed": 98
+      },
+      {
+        "match": "Paraguay vs France",
+        "redCards": 0,
+        "yellowCards": 3,
+        "penalties": 1,
+        "elapsed": 103
       },
       {
         "match": "Canada vs Morocco",
