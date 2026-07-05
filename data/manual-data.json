@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T00:54:53.506Z",
+  "updatedAt": "2026-07-05T22:29:44.617Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -235,7 +235,8 @@
         "drawn": 1,
         "lost": 0,
         "gd": 6,
-        "points": 7
+        "points": 7,
+        "eliminated": true
       },
       {
         "name": "Morocco",
@@ -7562,14 +7563,68 @@
       "date": "Sunday, July 5, 2026",
       "stage": "Knockout",
       "group": "Match 91 · Round of 16",
-      "time": "4:00 PM local",
+      "time": "3:00 PM CDT (4:00 pm EDT venue local)",
       "kickoffISO": "2026-07-05T20:00:00Z",
-      "home": "Winner Match 76",
-      "homeFlag": "W76",
-      "away": "Winner Match 78",
-      "awayFlag": "W78",
+      "home": "Brazil",
+      "homeFlag": "BRA",
+      "away": "Norway",
+      "awayFlag": "NOR",
       "location": "MetLife Stadium · New Jersey",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "homeSource": "Winner Match 76",
+      "awaySource": "Winner Match 78",
+      "status": "FT",
+      "elapsed": 106,
+      "homeScore": 1,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Erling Haaland",
+          "team": "Norway",
+          "match": "Brazil vs Norway"
+        },
+        {
+          "player": "Erling Haaland",
+          "team": "Norway",
+          "match": "Brazil vs Norway"
+        },
+        {
+          "player": "Neymar",
+          "team": "Brazil",
+          "match": "Brazil vs Norway"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Neymar",
+          "team": "Brazil",
+          "match": "Brazil vs Norway"
+        }
+      ],
+      "redCards": [],
+      "penalties": 2,
+      "homeKeeper": "Alisson Becker",
+      "awayKeeper": "Ørjan Nyland",
+      "homeStats": {
+        "shots": 12,
+        "shotsOnTarget": 4,
+        "possession": 34,
+        "passes": 313,
+        "passAccuracy": 85,
+        "fouls": 7,
+        "offsides": 1,
+        "corners": 5
+      },
+      "awayStats": {
+        "shots": 9,
+        "shotsOnTarget": 5,
+        "possession": 66,
+        "passes": 653,
+        "passAccuracy": 91,
+        "fouls": 6,
+        "offsides": 1,
+        "corners": 5
+      }
     },
     {
       "date": "Sunday, July 5, 2026",
@@ -14464,10 +14519,80 @@
         "yellowCards": 3,
         "redCards": 0
       }
+    },
+    {
+      "date": "Sunday, July 5, 2026",
+      "stage": "Knockout",
+      "group": "Match 91 · Round of 16",
+      "time": "3:00 PM CDT (4:00 pm EDT venue local)",
+      "home": "Brazil",
+      "homeFlag": "BRA",
+      "away": "Norway",
+      "awayFlag": "NOR",
+      "homeSource": "Winner Match 76",
+      "awaySource": "Winner Match 78",
+      "location": "MetLife Stadium · New Jersey",
+      "status": "FT",
+      "elapsed": 106,
+      "homeScore": 1,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Erling Haaland",
+          "team": "Norway",
+          "match": "Brazil vs Norway"
+        },
+        {
+          "player": "Erling Haaland",
+          "team": "Norway",
+          "match": "Brazil vs Norway"
+        },
+        {
+          "player": "Neymar",
+          "team": "Brazil",
+          "match": "Brazil vs Norway"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Neymar",
+          "team": "Brazil",
+          "match": "Brazil vs Norway"
+        }
+      ],
+      "redCards": [],
+      "penalties": 2,
+      "homeKeeper": "Alisson Becker",
+      "awayKeeper": "Ørjan Nyland",
+      "homeStats": {
+        "shots": 12,
+        "shotsOnTarget": 4,
+        "possession": 34,
+        "passes": 313,
+        "passAccuracy": 85,
+        "fouls": 7,
+        "offsides": 1,
+        "corners": 5
+      },
+      "awayStats": {
+        "shots": 9,
+        "shotsOnTarget": 5,
+        "possession": 66,
+        "passes": 653,
+        "passAccuracy": 91,
+        "fouls": 6,
+        "offsides": 1,
+        "corners": 5
+      }
     }
   ],
   "detailedStats": {
     "scorers": [
+      {
+        "name": "Erling Haaland",
+        "value": 7,
+        "detail": "Norway"
+      },
       {
         "name": "Lionel Messi",
         "value": 7,
@@ -14477,11 +14602,6 @@
         "name": "Kylian Mbappé",
         "value": 6,
         "detail": "France"
-      },
-      {
-        "name": "Erling Haaland",
-        "value": 5,
-        "detail": "Norway"
       },
       {
         "name": "Harry Kane",
@@ -15224,6 +15344,11 @@
         "detail": "Australia"
       },
       {
+        "name": "Neymar",
+        "value": 1,
+        "detail": "Brazil"
+      },
+      {
         "name": "Nico Schlotterbeck",
         "value": 1,
         "detail": "Germany"
@@ -15378,7 +15503,7 @@
       {
         "name": "Alisson Becker",
         "value": 2,
-        "detail": "Brazil · 2 goals conceded in 4 appearances"
+        "detail": "Brazil · 4 goals conceded in 5 appearances"
       },
       {
         "name": "Diogo Costa",
@@ -15618,7 +15743,7 @@
       {
         "name": "Ørjan Nyland",
         "value": 0,
-        "detail": "Norway · 4 goals conceded in 3 appearances"
+        "detail": "Norway · 5 goals conceded in 4 appearances"
       },
       {
         "name": "Orlando Mosquera",
@@ -15667,7 +15792,7 @@
       "United States": 4,
       "Qatar": 4,
       "Switzerland": 3,
-      "Brazil": 7,
+      "Brazil": 8,
       "Haiti": 5,
       "Scotland": 4,
       "Türkiye": 1,
@@ -16745,6 +16870,11 @@
         "match": "Colombia vs Ghana"
       },
       {
+        "player": "Neymar",
+        "team": "Brazil",
+        "match": "Brazil vs Norway"
+      },
+      {
         "player": "Redouane Halhal",
         "team": "Morocco",
         "match": "Canada vs Morocco"
@@ -16824,6 +16954,12 @@
       },
       {
         "match": "Portugal vs Croatia"
+      },
+      {
+        "match": "Brazil vs Norway"
+      },
+      {
+        "match": "Brazil vs Norway"
       }
     ],
     "matchStats": [
@@ -17449,6 +17585,13 @@
         "yellowCards": 0,
         "penalties": 0,
         "elapsed": 90
+      },
+      {
+        "match": "Brazil vs Norway",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 2,
+        "elapsed": 106
       },
       {
         "match": "Canada vs Morocco",
