@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T00:17:48.645Z",
+  "updatedAt": "2026-07-05T00:27:55.231Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -810,18 +810,18 @@
       "awayScore": 1,
       "scorers": [
         {
+          "player": "Ladislav Krejčí",
+          "team": "Czechia",
+          "match": "Korea Republic vs Czechia"
+        },
+        {
           "player": "Hwang In-beom",
-          "team": "Korea Republic",
+          "team": "South Africa",
           "match": "Korea Republic vs Czechia"
         },
         {
           "player": "Oh Hyeon-gyu",
-          "team": "Korea Republic",
-          "match": "Korea Republic vs Czechia"
-        },
-        {
-          "player": "Ladislav Krejčí",
-          "team": "Czechia",
+          "team": "South Africa",
           "match": "Korea Republic vs Czechia"
         }
       ],
@@ -831,7 +831,29 @@
       "homeKeeper": "Kim Seung-gyu",
       "awayKeeper": "Matěj Kovář",
       "predictedHomeScore": 2,
-      "predictedAwayScore": 0
+      "predictedAwayScore": 0,
+      "homeStats": {
+        "shots": 15,
+        "shotsOnTarget": 7,
+        "possession": 62,
+        "passes": 473,
+        "passAccuracy": 87,
+        "dribbleAccuracy": 65,
+        "fouls": 9,
+        "offsides": 2,
+        "corners": 4
+      },
+      "awayStats": {
+        "shots": 8,
+        "shotsOnTarget": 4,
+        "possession": 38,
+        "passes": 314,
+        "passAccuracy": 70,
+        "dribbleAccuracy": 29,
+        "fouls": 16,
+        "offsides": 2,
+        "corners": 5
+      }
     },
     {
       "date": "Friday, June 12, 2026",
@@ -5830,26 +5852,50 @@
       "awayScore": 1,
       "scorers": [
         {
+          "player": "Ladislav Krejčí",
+          "team": "Czechia",
+          "match": "Korea Republic vs Czechia"
+        },
+        {
           "player": "Hwang In-beom",
-          "team": "Korea Republic",
+          "team": "South Africa",
           "match": "Korea Republic vs Czechia"
         },
         {
           "player": "Oh Hyeon-gyu",
-          "team": "Korea Republic",
-          "match": "Korea Republic vs Czechia"
-        },
-        {
-          "player": "Ladislav Krejčí",
-          "team": "Czechia",
+          "team": "South Africa",
           "match": "Korea Republic vs Czechia"
         }
       ],
       "yellowCards": [],
       "redCards": [],
       "penalties": 0,
+      "predictedHomeScore": 2,
+      "predictedAwayScore": 0,
       "homeKeeper": "Kim Seung-gyu",
-      "awayKeeper": "Matěj Kovář"
+      "awayKeeper": "Matěj Kovář",
+      "homeStats": {
+        "shots": 15,
+        "shotsOnTarget": 7,
+        "possession": 62,
+        "passes": 473,
+        "passAccuracy": 87,
+        "dribbleAccuracy": 65,
+        "fouls": 9,
+        "offsides": 2,
+        "corners": 4
+      },
+      "awayStats": {
+        "shots": 8,
+        "shotsOnTarget": 4,
+        "possession": 38,
+        "passes": 314,
+        "passAccuracy": 70,
+        "dribbleAccuracy": 29,
+        "fouls": 16,
+        "offsides": 2,
+        "corners": 5
+      }
     },
     {
       "date": "Friday, June 12, 2026",
@@ -10742,7 +10788,7 @@
       {
         "name": "Hwang In-beom",
         "value": 1,
-        "detail": "Korea Republic"
+        "detail": "South Africa"
       },
       {
         "name": "Ibrahim Mbaye",
@@ -11032,7 +11078,7 @@
       {
         "name": "Oh Hyeon-gyu",
         "value": 1,
-        "detail": "Korea Republic"
+        "detail": "South Africa"
       },
       {
         "name": "Omar Rekik",
