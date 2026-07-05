@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T00:27:55.231Z",
+  "updatedAt": "2026-07-05T00:39:20.292Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -304,8 +304,7 @@
         "drawn": 1,
         "lost": 1,
         "gd": -2,
-        "points": 4,
-        "eliminated": true
+        "points": 4
       },
       {
         "name": "Türkiye",
@@ -706,7 +705,7 @@
       "date": "Thursday, June 11, 2026",
       "stage": "Group Stage",
       "group": "Group A",
-      "time": "2:00 PM CDT ( 1:00 PM CST venue local)",
+      "time": "1:00 PM local",
       "kickoffISO": "2026-06-11T19:00:00Z",
       "home": "Mexico",
       "homeFlag": "MEX",
@@ -732,35 +731,35 @@
       ],
       "yellowCards": [
         {
-          "player": "One",
-          "team": "Mexico",
-          "match": "Mexico vs South Africa"
-        },
-        {
-          "player": "Two",
+          "player": "Teboho Mokoena",
           "team": "South Africa",
           "match": "Mexico vs South Africa"
         },
         {
-          "player": "Three",
+          "player": "Carlos Gutiérrez",
+          "team": "Mexico",
+          "match": "Mexico vs South Africa"
+        },
+        {
+          "player": "Nkosinathi Sibisi",
           "team": "South Africa",
           "match": "Mexico vs South Africa"
         }
       ],
       "redCards": [
         {
-          "player": "O",
+          "player": "Sphephelo Sithole",
+          "team": "South Africa",
+          "match": "Mexico vs South Africa"
+        },
+        {
+          "player": "Themba Zwane",
+          "team": "South Africa",
+          "match": "Mexico vs South Africa"
+        },
+        {
+          "player": "César Montes",
           "team": "Mexico",
-          "match": "Mexico vs South Africa"
-        },
-        {
-          "player": "T",
-          "team": "South Africa",
-          "match": "Mexico vs South Africa"
-        },
-        {
-          "player": "Th",
-          "team": "South Africa",
           "match": "Mexico vs South Africa"
         }
       ],
@@ -768,29 +767,7 @@
       "homeKeeper": "Raúl Rangel",
       "awayKeeper": "Ronwen Williams",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1,
-      "homeStats": {
-        "shots": 16,
-        "possession": 61,
-        "corners": 3,
-        "shotsOnTarget": 5,
-        "passes": 538,
-        "passAccuracy": 91,
-        "dribbleAccuracy": 56,
-        "fouls": 12,
-        "offsides": 1
-      },
-      "awayStats": {
-        "shots": 3,
-        "possession": 39,
-        "corners": 1,
-        "shotsOnTarget": 2,
-        "passes": 341,
-        "passAccuracy": 83,
-        "dribbleAccuracy": 17,
-        "fouls": 11,
-        "offsides": 1
-      }
+      "predictedAwayScore": 1
     },
     {
       "date": "Thursday, June 11, 2026",
@@ -810,18 +787,18 @@
       "awayScore": 1,
       "scorers": [
         {
-          "player": "Ladislav Krejčí",
-          "team": "Czechia",
-          "match": "Korea Republic vs Czechia"
-        },
-        {
           "player": "Hwang In-beom",
-          "team": "South Africa",
+          "team": "Korea Republic",
           "match": "Korea Republic vs Czechia"
         },
         {
           "player": "Oh Hyeon-gyu",
-          "team": "South Africa",
+          "team": "Korea Republic",
+          "match": "Korea Republic vs Czechia"
+        },
+        {
+          "player": "Ladislav Krejčí",
+          "team": "Czechia",
           "match": "Korea Republic vs Czechia"
         }
       ],
@@ -834,25 +811,27 @@
       "predictedAwayScore": 0,
       "homeStats": {
         "shots": 15,
-        "shotsOnTarget": 7,
-        "possession": 62,
-        "passes": 473,
-        "passAccuracy": 87,
-        "dribbleAccuracy": 65,
+        "shotsOnTarget": 6,
+        "possession": 61.5,
+        "passes": 541,
         "fouls": 9,
+        "yellowCards": 1,
+        "redCards": 0,
         "offsides": 2,
-        "corners": 4
+        "corners": 4,
+        "passAccuracy": 90
       },
       "awayStats": {
-        "shots": 8,
+        "shots": 7,
         "shotsOnTarget": 4,
-        "possession": 38,
-        "passes": 314,
-        "passAccuracy": 70,
-        "dribbleAccuracy": 29,
+        "possession": 38.5,
+        "passes": 327,
         "fouls": 16,
+        "yellowCards": 0,
+        "redCards": 0,
         "offsides": 2,
-        "corners": 5
+        "corners": 5,
+        "passAccuracy": 70
       }
     },
     {
@@ -910,7 +889,31 @@
       "homeKeeper": "Maxime Crépeau",
       "awayKeeper": "Nikola Vasilj",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "homeStats": {
+        "shots": 13,
+        "shotsOnTarget": 4,
+        "possession": 61.1,
+        "passes": 421,
+        "fouls": 10,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 9,
+        "passAccuracy": 70
+      },
+      "awayStats": {
+        "shots": 8,
+        "shotsOnTarget": 3,
+        "possession": 38.9,
+        "passes": 271,
+        "fouls": 20,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 4,
+        "passAccuracy": 60
+      }
     },
     {
       "date": "Friday, June 12, 2026",
@@ -992,7 +995,31 @@
       "homeKeeper": "Matt Freese",
       "awayKeeper": "Orlando Gill",
       "predictedHomeScore": 2,
-      "predictedAwayScore": 0
+      "predictedAwayScore": 0,
+      "homeStats": {
+        "shots": 16,
+        "shotsOnTarget": 6,
+        "possession": 65.3,
+        "passes": 598,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 3,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 9,
+        "shotsOnTarget": 1,
+        "possession": 34.7,
+        "passes": 319,
+        "fouls": 17,
+        "yellowCards": 5,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 1,
+        "passAccuracy": 70
+      }
     },
     {
       "date": "Saturday, June 13, 2026",
@@ -1044,7 +1071,31 @@
       "homeKeeper": "Mahmoud Abunada",
       "awayKeeper": "Gregor Kobel",
       "predictedHomeScore": 0,
-      "predictedAwayScore": 2
+      "predictedAwayScore": 2,
+      "homeStats": {
+        "shots": 6,
+        "shotsOnTarget": 3,
+        "possession": 32,
+        "passes": 278,
+        "fouls": 12,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 3,
+        "passAccuracy": 70
+      },
+      "awayStats": {
+        "shots": 26,
+        "shotsOnTarget": 7,
+        "possession": 68,
+        "passes": 576,
+        "fouls": 11,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 10,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Saturday, June 13, 2026",
@@ -1091,7 +1142,31 @@
       "homeKeeper": "Alisson Becker",
       "awayKeeper": "Yassine Bounou",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "homeStats": {
+        "shots": 12,
+        "shotsOnTarget": 5,
+        "possession": 51.4,
+        "passes": 514,
+        "fouls": 16,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 6,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 14,
+        "shotsOnTarget": 3,
+        "possession": 48.6,
+        "passes": 486,
+        "fouls": 14,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 2,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Saturday, June 13, 2026",
@@ -1143,7 +1218,31 @@
       "homeKeeper": "Johny Placide",
       "awayKeeper": "Angus Gunn",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 3
+      "predictedAwayScore": 3,
+      "homeStats": {
+        "shots": 15,
+        "shotsOnTarget": 2,
+        "possession": 53.7,
+        "passes": 431,
+        "fouls": 23,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 4,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 9,
+        "shotsOnTarget": 2,
+        "possession": 46.3,
+        "passes": 374,
+        "fouls": 21,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 3,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Saturday, June 13, 2026",
@@ -1185,7 +1284,31 @@
       "homeKeeper": "Patrick Beach",
       "awayKeeper": "Uğurcan Çakır",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "homeStats": {
+        "shots": 9,
+        "shotsOnTarget": 4,
+        "possession": 28.4,
+        "passes": 271,
+        "fouls": 12,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 5,
+        "passAccuracy": 70
+      },
+      "awayStats": {
+        "shots": 30,
+        "shotsOnTarget": 8,
+        "possession": 71.6,
+        "passes": 704,
+        "fouls": 4,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 8,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Sunday, June 14, 2026",
@@ -1251,7 +1374,31 @@
       "homeKeeper": "Manuel Neuer",
       "awayKeeper": "Eloy Room",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "homeStats": {
+        "shots": 26,
+        "shotsOnTarget": 12,
+        "possession": 64.6,
+        "passes": 637,
+        "fouls": 18,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 8,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 8,
+        "shotsOnTarget": 2,
+        "possession": 35.4,
+        "passes": 343,
+        "fouls": 11,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 1,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Sunday, June 14, 2026",
@@ -1313,7 +1460,31 @@
       "homeKeeper": "Bart Verbruggen",
       "awayKeeper": "Zion Suzuki",
       "predictedHomeScore": 2,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "homeStats": {
+        "shots": 10,
+        "shotsOnTarget": 6,
+        "possession": 59.8,
+        "passes": 524,
+        "fouls": 7,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 5,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 10,
+        "shotsOnTarget": 3,
+        "possession": 40.2,
+        "passes": 341,
+        "fouls": 7,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 4,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Sunday, June 14, 2026",
@@ -1365,7 +1536,31 @@
       "homeKeeper": "Yahia Fofana",
       "awayKeeper": "Hernán Galíndez",
       "predictedHomeScore": 0,
-      "predictedAwayScore": 2
+      "predictedAwayScore": 2,
+      "homeStats": {
+        "shots": 15,
+        "shotsOnTarget": 4,
+        "possession": 48.4,
+        "passes": 470,
+        "fouls": 10,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 3,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 12,
+        "shotsOnTarget": 1,
+        "possession": 51.6,
+        "passes": 492,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 6,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Sunday, June 14, 2026",
@@ -1427,7 +1622,31 @@
       "homeKeeper": "Kristoffer Nordfeldt",
       "awayKeeper": "Mouhib Chamakh",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "homeStats": {
+        "shots": 13,
+        "shotsOnTarget": 7,
+        "possession": 48.7,
+        "passes": 356,
+        "fouls": 10,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 6,
+        "shotsOnTarget": 2,
+        "possession": 51.3,
+        "passes": 371,
+        "fouls": 8,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 6,
+        "corners": 2,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Monday, June 15, 2026",
@@ -1463,7 +1682,31 @@
       "homeKeeper": "Unai Simón",
       "awayKeeper": "Vozinha",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "homeStats": {
+        "shots": 27,
+        "shotsOnTarget": 7,
+        "possession": 74.3,
+        "passes": 800,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 11,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 6,
+        "shotsOnTarget": 1,
+        "possession": 25.7,
+        "passes": 278,
+        "fouls": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 1,
+        "passAccuracy": 70
+      }
     },
     {
       "date": "Monday, June 15, 2026",
@@ -1520,7 +1763,31 @@
       "homeKeeper": "Thibaut Courtois",
       "awayKeeper": "Mostafa Shobeir",
       "predictedHomeScore": 2,
-      "predictedAwayScore": 0
+      "predictedAwayScore": 0,
+      "homeStats": {
+        "shots": 15,
+        "shotsOnTarget": 3,
+        "possession": 53.6,
+        "passes": 455,
+        "fouls": 15,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 2,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 14,
+        "shotsOnTarget": 3,
+        "possession": 46.4,
+        "passes": 398,
+        "fouls": 15,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 7,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Monday, June 15, 2026",
@@ -1562,7 +1829,31 @@
       "homeKeeper": "Mohammed Al-Owais",
       "awayKeeper": "Fernando Muslera",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 3
+      "predictedAwayScore": 3,
+      "homeStats": {
+        "shots": 7,
+        "shotsOnTarget": 3,
+        "possession": 33.2,
+        "passes": 322,
+        "fouls": 11,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 4,
+        "passAccuracy": 70
+      },
+      "awayStats": {
+        "shots": 27,
+        "shotsOnTarget": 10,
+        "possession": 66.8,
+        "passes": 612,
+        "fouls": 6,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 6,
+        "corners": 14,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Monday, June 15, 2026",
@@ -1614,7 +1905,31 @@
       "homeKeeper": "Alireza Beiranvand",
       "awayKeeper": "Max Crocombe",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "homeStats": {
+        "shots": 17,
+        "shotsOnTarget": 4,
+        "possession": 48.5,
+        "passes": 409,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 14,
+        "shotsOnTarget": 8,
+        "possession": 51.5,
+        "passes": 446,
+        "fouls": 8,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 1,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Tuesday, June 16, 2026",
@@ -1660,7 +1975,31 @@
       "homeKeeper": "Mike Maignan",
       "awayKeeper": "Édouard Mendy",
       "predictedHomeScore": 2,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "homeStats": {
+        "shots": 11,
+        "shotsOnTarget": 8,
+        "possession": 53.4,
+        "passes": 575,
+        "fouls": 5,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 6,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 6,
+        "shotsOnTarget": 2,
+        "possession": 46.6,
+        "passes": 502,
+        "fouls": 9,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 4,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Tuesday, June 16, 2026",
@@ -1711,7 +2050,31 @@
       "predictedHomeScore": 0,
       "predictedAwayScore": 2,
       "homeKeeper": "Jalal Hassan",
-      "awayKeeper": "Ørjan Nyland"
+      "awayKeeper": "Ørjan Nyland",
+      "homeStats": {
+        "shots": 11,
+        "shotsOnTarget": 1,
+        "possession": 38.7,
+        "passes": 334,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 2,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 12,
+        "shotsOnTarget": 5,
+        "possession": 61.3,
+        "passes": 537,
+        "fouls": 13,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 5,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Tuesday, June 16, 2026",
@@ -1752,7 +2115,31 @@
       "homeKeeper": "Emiliano Martínez",
       "awayKeeper": "Luca Zidane",
       "predictedHomeScore": 2,
-      "predictedAwayScore": 0
+      "predictedAwayScore": 0,
+      "homeStats": {
+        "shots": 10,
+        "shotsOnTarget": 6,
+        "possession": 47.8,
+        "passes": 561,
+        "fouls": 13,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 2,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 7,
+        "shotsOnTarget": 1,
+        "possession": 52.2,
+        "passes": 609,
+        "fouls": 8,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 2,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Tuesday, June 16, 2026",
@@ -1804,7 +2191,31 @@
       "homeKeeper": "Alexander Schlager",
       "awayKeeper": "Yazeed Abulaila",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "homeStats": {
+        "shots": 11,
+        "shotsOnTarget": 4,
+        "possession": 63.2,
+        "passes": 580,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 11,
+        "shotsOnTarget": 4,
+        "possession": 36.8,
+        "passes": 332,
+        "fouls": 7,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 3,
+        "passAccuracy": 70
+      }
     },
     {
       "date": "Wednesday, June 17, 2026",
@@ -1861,7 +2272,31 @@
       "homeKeeper": "Diogo Costa",
       "awayKeeper": "Lionel Mpasi",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "homeStats": {
+        "shots": 7,
+        "shotsOnTarget": 1,
+        "possession": 75.4,
+        "passes": 783,
+        "fouls": 9,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 5,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 8,
+        "shotsOnTarget": 2,
+        "possession": 24.6,
+        "passes": 249,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 4,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Wednesday, June 17, 2026",
@@ -1917,7 +2352,31 @@
       "homeKeeper": "Jordan Pickford",
       "awayKeeper": "Dominik Livaković",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "homeStats": {
+        "shots": 22,
+        "shotsOnTarget": 11,
+        "possession": 51.7,
+        "passes": 474,
+        "fouls": 10,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 8,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 10,
+        "shotsOnTarget": 5,
+        "possession": 48.3,
+        "passes": 443,
+        "fouls": 12,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 2,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Wednesday, June 17, 2026",
@@ -1964,7 +2423,31 @@
       "homeKeeper": "Lawrence Ati-Zigi",
       "awayKeeper": "Orlando Mosquera",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 3
+      "predictedAwayScore": 3,
+      "homeStats": {
+        "shots": 7,
+        "shotsOnTarget": 2,
+        "possession": 38,
+        "passes": 352,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 4,
+        "corners": 2,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 11,
+        "shotsOnTarget": 4,
+        "possession": 62,
+        "passes": 583,
+        "fouls": 11,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 2,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Wednesday, June 17, 2026",
@@ -2021,7 +2504,31 @@
       "homeKeeper": "Utkir Yusupov",
       "awayKeeper": "Camilo Vargas",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 3
+      "predictedAwayScore": 3,
+      "homeStats": {
+        "shots": 8,
+        "shotsOnTarget": 2,
+        "possession": 38.6,
+        "passes": 319,
+        "fouls": 14,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 3,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 15,
+        "shotsOnTarget": 4,
+        "possession": 61.4,
+        "passes": 519,
+        "fouls": 11,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 4,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Thursday, June 18, 2026",
@@ -2068,7 +2575,31 @@
       "homeKeeper": "Matěj Kovář",
       "awayKeeper": "Ronwen Williams",
       "predictedHomeScore": 2,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "homeStats": {
+        "shots": 14,
+        "shotsOnTarget": 3,
+        "possession": 38.3,
+        "passes": 341,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 5,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 17,
+        "shotsOnTarget": 4,
+        "possession": 61.7,
+        "passes": 563,
+        "fouls": 10,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 5,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Thursday, June 18, 2026",
@@ -2141,7 +2672,31 @@
       "homeKeeper": "Gregor Kobel",
       "awayKeeper": "Nikola Vasilj",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "homeStats": {
+        "shots": 13,
+        "shotsOnTarget": 7,
+        "possession": 62.3,
+        "passes": 586,
+        "fouls": 7,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 7,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 5,
+        "shotsOnTarget": 3,
+        "possession": 37.7,
+        "passes": 354,
+        "fouls": 18,
+        "yellowCards": 2,
+        "redCards": 1,
+        "offsides": 1,
+        "corners": 3,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Thursday, June 18, 2026",
@@ -2219,7 +2774,31 @@
       "homeKeeper": "Maxime Crépeau",
       "awayKeeper": "Mahmud Abunada",
       "predictedHomeScore": 2,
-      "predictedAwayScore": 0
+      "predictedAwayScore": 0,
+      "homeStats": {
+        "shots": 32,
+        "shotsOnTarget": 10,
+        "possession": 79,
+        "passes": 567,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 19,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 2,
+        "shotsOnTarget": 0,
+        "possession": 21,
+        "passes": 162,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": 2,
+        "offsides": 1,
+        "corners": 1,
+        "passAccuracy": 60
+      }
     },
     {
       "date": "Thursday, June 18, 2026",
@@ -2261,7 +2840,31 @@
       "homeKeeper": "Raúl Rangel",
       "awayKeeper": "Kim Seung-gyu",
       "predictedHomeScore": 1,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "homeStats": {
+        "shots": 8,
+        "shotsOnTarget": 4,
+        "possession": 42.4,
+        "passes": 427,
+        "fouls": 9,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 1,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 9,
+        "shotsOnTarget": 2,
+        "possession": 57.6,
+        "passes": 578,
+        "fouls": 7,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 6,
+        "corners": 2,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Friday, June 19, 2026",
@@ -2333,7 +2936,31 @@
       "homeKeeper": "Matt Freese",
       "awayKeeper": "Patrick Beach",
       "predictedHomeScore": 2,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "homeStats": {
+        "shots": 10,
+        "shotsOnTarget": 2,
+        "possession": 61.9,
+        "passes": 523,
+        "fouls": 12,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 7,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 5,
+        "shotsOnTarget": 2,
+        "possession": 38.1,
+        "passes": 310,
+        "fouls": 16,
+        "yellowCards": 4,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 4,
+        "passAccuracy": 70
+      }
     },
     {
       "date": "Friday, June 19, 2026",
@@ -2375,7 +3002,31 @@
       "homeKeeper": "Angus Gunn",
       "awayKeeper": "Yassine Bounou",
       "predictedHomeScore": 0,
-      "predictedAwayScore": 2
+      "predictedAwayScore": 2,
+      "homeStats": {
+        "shots": 6,
+        "shotsOnTarget": 0,
+        "possession": 41.1,
+        "passes": 456,
+        "fouls": 11,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 2,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 12,
+        "shotsOnTarget": 2,
+        "possession": 58.9,
+        "passes": 670,
+        "fouls": 8,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 5,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Friday, June 19, 2026",
@@ -2437,7 +3088,31 @@
       "homeKeeper": "Alisson Becker",
       "awayKeeper": "Johny Placide",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "homeStats": {
+        "shots": 8,
+        "shotsOnTarget": 5,
+        "possession": 56.7,
+        "passes": 525,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 8,
+        "corners": 4,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 7,
+        "shotsOnTarget": 3,
+        "possession": 43.3,
+        "passes": 399,
+        "fouls": 14,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 4,
+        "corners": 4,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Friday, June 19, 2026",
@@ -2490,7 +3165,31 @@
       "homeKeeper": "Uğurcan Çakır",
       "awayKeeper": "Orlando Gill",
       "predictedHomeScore": 2,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "homeStats": {
+        "shots": 32,
+        "shotsOnTarget": 5,
+        "possession": 78.5,
+        "passes": 629,
+        "fouls": 14,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 12,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 7,
+        "shotsOnTarget": 2,
+        "possession": 21.5,
+        "passes": 178,
+        "fouls": 15,
+        "yellowCards": 1,
+        "redCards": 1,
+        "offsides": 3,
+        "corners": 0,
+        "passAccuracy": 50
+      }
     },
     {
       "date": "Saturday, June 20, 2026",
@@ -2562,7 +3261,31 @@
       "homeKeeper": "Bart Verbruggen",
       "awayKeeper": "Kristoffer Nordfeldt",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "homeStats": {
+        "shots": 10,
+        "shotsOnTarget": 7,
+        "possession": 50.9,
+        "passes": 449,
+        "fouls": 9,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 2,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 16,
+        "shotsOnTarget": 8,
+        "possession": 49.1,
+        "passes": 425,
+        "fouls": 12,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 5,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Saturday, June 20, 2026",
@@ -2614,7 +3337,31 @@
       "homeKeeper": "Manuel Neuer",
       "awayKeeper": "Yahia Fofana",
       "predictedHomeScore": 2,
-      "predictedAwayScore": 0
+      "predictedAwayScore": 0,
+      "homeStats": {
+        "shots": 16,
+        "shotsOnTarget": 7,
+        "possession": 59.5,
+        "passes": 624,
+        "fouls": 5,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 8,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 9,
+        "shotsOnTarget": 2,
+        "possession": 40.5,
+        "passes": 431,
+        "fouls": 7,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 3,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Saturday, June 20, 2026",
@@ -2670,7 +3417,31 @@
       "homeKeeper": "Hernán Galíndez",
       "awayKeeper": "Eloy Room",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "homeStats": {
+        "shots": 27,
+        "shotsOnTarget": 15,
+        "possession": 74.6,
+        "passes": 644,
+        "fouls": 7,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 9,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 10,
+        "shotsOnTarget": 3,
+        "possession": 25.4,
+        "passes": 227,
+        "fouls": 10,
+        "yellowCards": 5,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 0,
+        "passAccuracy": 70
+      }
     },
     {
       "date": "Saturday, June 20, 2026",
@@ -2716,7 +3487,31 @@
       "homeKeeper": "Aymen Dahmen",
       "awayKeeper": "Zion Suzuki",
       "predictedHomeScore": 0,
-      "predictedAwayScore": 2
+      "predictedAwayScore": 2,
+      "homeStats": {
+        "shots": 2,
+        "shotsOnTarget": 0,
+        "possession": 37.9,
+        "passes": 354,
+        "fouls": 8,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 3,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 11,
+        "shotsOnTarget": 5,
+        "possession": 62.1,
+        "passes": 583,
+        "fouls": 15,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 5,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Sunday, June 21, 2026",
@@ -2773,7 +3568,31 @@
       "homeKeeper": "Unai Simón",
       "awayKeeper": "Mohammed Al-Owais",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "homeStats": {
+        "shots": 22,
+        "shotsOnTarget": 8,
+        "possession": 67.1,
+        "passes": 726,
+        "fouls": 10,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 6,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 3,
+        "shotsOnTarget": 1,
+        "possession": 32.9,
+        "passes": 364,
+        "fouls": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 1,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Sunday, June 21, 2026",
@@ -2815,7 +3634,31 @@
           "team": "Iran",
           "match": "Belgium vs Iran"
         }
-      ]
+      ],
+      "homeStats": {
+        "shots": 23,
+        "shotsOnTarget": 7,
+        "possession": 70.1,
+        "passes": 621,
+        "fouls": 7,
+        "yellowCards": 1,
+        "redCards": 1,
+        "offsides": 3,
+        "corners": 4,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 7,
+        "shotsOnTarget": 3,
+        "possession": 29.9,
+        "passes": 270,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 4,
+        "corners": 2,
+        "passAccuracy": 70
+      }
     },
     {
       "date": "Sunday, June 21, 2026",
@@ -2882,7 +3725,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Fernando Muslera",
-      "awayKeeper": "Vozinha"
+      "awayKeeper": "Vozinha",
+      "homeStats": {
+        "shots": 17,
+        "shotsOnTarget": 2,
+        "possession": 65.2,
+        "passes": 511,
+        "fouls": 11,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 11,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 12,
+        "shotsOnTarget": 4,
+        "possession": 34.8,
+        "passes": 278,
+        "fouls": 4,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 4,
+        "passAccuracy": 70
+      }
     },
     {
       "date": "Sunday, June 21, 2026",
@@ -2944,7 +3811,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Max Crocombe",
-      "awayKeeper": "Mostafa Shobeir"
+      "awayKeeper": "Mostafa Shobeir",
+      "homeStats": {
+        "shots": 11,
+        "shotsOnTarget": 5,
+        "possession": 44.4,
+        "passes": 421,
+        "fouls": 14,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 19,
+        "shotsOnTarget": 7,
+        "possession": 55.6,
+        "passes": 526,
+        "fouls": 8,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 4,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Monday, June 22, 2026",
@@ -3001,7 +3892,31 @@
       "redCards": [],
       "penalties": 1,
       "homeKeeper": "Emiliano Martínez",
-      "awayKeeper": "Alexander Schlager"
+      "awayKeeper": "Alexander Schlager",
+      "homeStats": {
+        "shots": 12,
+        "shotsOnTarget": 5,
+        "possession": 53.6,
+        "passes": 554,
+        "fouls": 13,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 1,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 6,
+        "shotsOnTarget": 1,
+        "possession": 46.4,
+        "passes": 468,
+        "fouls": 13,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 3,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Monday, June 22, 2026",
@@ -3048,7 +3963,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Mike Maignan",
-      "awayKeeper": "Ahmed Basil"
+      "awayKeeper": "Ahmed Basil",
+      "homeStats": {
+        "shots": 19,
+        "shotsOnTarget": 5,
+        "possession": 55.6,
+        "passes": 603,
+        "fouls": 8,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 4,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 4,
+        "shotsOnTarget": 0,
+        "possession": 44.4,
+        "passes": 481,
+        "fouls": 4,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 2,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Monday, June 22, 2026",
@@ -3099,7 +4038,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Ørjan Nyland",
-      "awayKeeper": "Édouard Mendy"
+      "awayKeeper": "Édouard Mendy",
+      "homeStats": {
+        "shots": 13,
+        "shotsOnTarget": 7,
+        "possession": 41.7,
+        "passes": 353,
+        "fouls": 13,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 5,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 16,
+        "shotsOnTarget": 4,
+        "possession": 58.3,
+        "passes": 489,
+        "fouls": 5,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 4,
+        "corners": 4,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Monday, June 22, 2026",
@@ -3151,7 +4114,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Yazeed Abulaila",
-      "awayKeeper": "Luca Zidane"
+      "awayKeeper": "Luca Zidane",
+      "homeStats": {
+        "shots": 8,
+        "shotsOnTarget": 4,
+        "possession": 27.9,
+        "passes": 251,
+        "fouls": 11,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 1,
+        "passAccuracy": 70
+      },
+      "awayStats": {
+        "shots": 17,
+        "shotsOnTarget": 8,
+        "possession": 72.1,
+        "passes": 641,
+        "fouls": 6,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 10,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Tuesday, June 23, 2026",
@@ -3213,7 +4200,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Diogo Costa",
-      "awayKeeper": "Abduvohid Nematov"
+      "awayKeeper": "Abduvohid Nematov",
+      "homeStats": {
+        "shots": 17,
+        "shotsOnTarget": 9,
+        "possession": 65.9,
+        "passes": 624,
+        "fouls": 14,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 3,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 7,
+        "shotsOnTarget": 2,
+        "possession": 34.1,
+        "passes": 327,
+        "fouls": 15,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 2,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Tuesday, June 23, 2026",
@@ -3249,7 +4260,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Jordan Pickford",
-      "awayKeeper": "Benjamin Asare"
+      "awayKeeper": "Benjamin Asare",
+      "homeStats": {
+        "shots": 19,
+        "shotsOnTarget": 3,
+        "possession": 78.9,
+        "passes": 633,
+        "fouls": 14,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 9,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 2,
+        "shotsOnTarget": 1,
+        "possession": 21.1,
+        "passes": 172,
+        "fouls": 24,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 2,
+        "passAccuracy": 70
+      }
     },
     {
       "date": "Tuesday, June 23, 2026",
@@ -3291,7 +4326,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Orlando Mosquera",
-      "awayKeeper": "Dominik Livaković"
+      "awayKeeper": "Dominik Livaković",
+      "homeStats": {
+        "shots": 8,
+        "shotsOnTarget": 1,
+        "possession": 42,
+        "passes": 352,
+        "fouls": 19,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 7,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 6,
+        "shotsOnTarget": 2,
+        "possession": 58,
+        "passes": 512,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 2,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Tuesday, June 23, 2026",
@@ -3338,7 +4397,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Camilo Vargas",
-      "awayKeeper": "Lionel Mpasi"
+      "awayKeeper": "Lionel Mpasi",
+      "homeStats": {
+        "shots": 20,
+        "shotsOnTarget": 9,
+        "possession": 63.5,
+        "passes": 541,
+        "fouls": 12,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 7,
+        "corners": 5,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 7,
+        "shotsOnTarget": 1,
+        "possession": 36.5,
+        "passes": 299,
+        "fouls": 16,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 4,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -3395,7 +4478,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Gregor Kobel",
-      "awayKeeper": "Maxime Crépeau"
+      "awayKeeper": "Maxime Crépeau",
+      "homeStats": {
+        "shots": 6,
+        "shotsOnTarget": 4,
+        "possession": 55.3,
+        "passes": 443,
+        "fouls": 19,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 2,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 13,
+        "shotsOnTarget": 7,
+        "possession": 44.7,
+        "passes": 339,
+        "fouls": 13,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 7,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -3452,7 +4559,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Nikola Vasilj",
-      "awayKeeper": "Mahmud Abunada"
+      "awayKeeper": "Mahmud Abunada",
+      "homeStats": {
+        "shots": 14,
+        "shotsOnTarget": 5,
+        "possession": 54.4,
+        "passes": 515,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 5,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 9,
+        "shotsOnTarget": 3,
+        "possession": 45.6,
+        "passes": 434,
+        "fouls": 14,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 5,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -3493,7 +4624,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Angus Gunn",
-      "awayKeeper": "Alisson Becker"
+      "awayKeeper": "Alisson Becker",
+      "homeStats": {
+        "shots": 14,
+        "shotsOnTarget": 5,
+        "possession": 46,
+        "passes": 500,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 7,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 21,
+        "shotsOnTarget": 9,
+        "possession": 54,
+        "passes": 605,
+        "fouls": 11,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 7,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -3555,7 +4710,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Yassine Bounou",
-      "awayKeeper": "Johny Placide"
+      "awayKeeper": "Johny Placide",
+      "homeStats": {
+        "shots": 22,
+        "shotsOnTarget": 11,
+        "possession": 69.1,
+        "passes": 541,
+        "fouls": 10,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 5,
+        "corners": 9,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 9,
+        "shotsOnTarget": 2,
+        "possession": 30.9,
+        "passes": 247,
+        "fouls": 18,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 1,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -3602,7 +4781,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Matěj Kovář",
-      "awayKeeper": "Raúl Rangel"
+      "awayKeeper": "Raúl Rangel",
+      "homeStats": {
+        "shots": 13,
+        "shotsOnTarget": 1,
+        "possession": 51.9,
+        "passes": 398,
+        "fouls": 9,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 5,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 11,
+        "shotsOnTarget": 5,
+        "possession": 48.1,
+        "passes": 386,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 1,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -3644,7 +4847,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Ronwen Williams",
-      "awayKeeper": "Kim Seung-gyu"
+      "awayKeeper": "Kim Seung-gyu",
+      "homeStats": {
+        "shots": 13,
+        "shotsOnTarget": 4,
+        "possession": 31.6,
+        "passes": 340,
+        "fouls": 7,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 8,
+        "shotsOnTarget": 3,
+        "possession": 68.4,
+        "passes": 719,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 6,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Thursday, June 25, 2026",
@@ -3696,7 +4923,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Eloy Room",
-      "awayKeeper": "Yahia Fofana"
+      "awayKeeper": "Yahia Fofana",
+      "homeStats": {
+        "shots": 11,
+        "shotsOnTarget": 2,
+        "possession": 36.7,
+        "passes": 355,
+        "fouls": 11,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 7,
+        "shotsOnTarget": 3,
+        "possession": 63.3,
+        "passes": 624,
+        "fouls": 6,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 6,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Thursday, June 25, 2026",
@@ -3737,7 +4988,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Hernán Galíndez",
-      "awayKeeper": "Manuel Neuer"
+      "awayKeeper": "Manuel Neuer",
+      "homeStats": {
+        "shots": 7,
+        "shotsOnTarget": 3,
+        "possession": 38.9,
+        "passes": 378,
+        "fouls": 15,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 3,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 11,
+        "shotsOnTarget": 3,
+        "possession": 61.1,
+        "passes": 592,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 2,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Thursday, June 25, 2026",
@@ -3773,7 +5048,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Zion Suzuki",
-      "awayKeeper": "Kristoffer Nordfeldt"
+      "awayKeeper": "Kristoffer Nordfeldt",
+      "homeStats": {
+        "shots": 8,
+        "shotsOnTarget": 3,
+        "possession": 52.3,
+        "passes": 445,
+        "fouls": 20,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 2,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 11,
+        "shotsOnTarget": 5,
+        "possession": 47.7,
+        "passes": 395,
+        "fouls": 11,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 8,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Thursday, June 25, 2026",
@@ -3819,7 +5118,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Aymen Dahmen",
-      "awayKeeper": "Bart Verbruggen"
+      "awayKeeper": "Bart Verbruggen",
+      "homeStats": {
+        "shots": 10,
+        "shotsOnTarget": 4,
+        "possession": 28.6,
+        "passes": 258,
+        "fouls": 11,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 20,
+        "shotsOnTarget": 7,
+        "possession": 71.4,
+        "passes": 647,
+        "fouls": 10,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 6,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Thursday, June 25, 2026",
@@ -3870,7 +5193,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Uğurcan Çakır",
-      "awayKeeper": "Matt Freese"
+      "awayKeeper": "Matt Freese",
+      "homeStats": {
+        "shots": 9,
+        "shotsOnTarget": 3,
+        "possession": 47.4,
+        "passes": 434,
+        "fouls": 13,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 2,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 18,
+        "shotsOnTarget": 7,
+        "possession": 52.6,
+        "passes": 471,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 5,
+        "corners": 9,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Thursday, June 25, 2026",
@@ -3901,7 +5248,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Orlando Gill",
-      "awayKeeper": "Patrick Beach"
+      "awayKeeper": "Patrick Beach",
+      "homeStats": {
+        "shots": 7,
+        "shotsOnTarget": 2,
+        "possession": 44,
+        "passes": 426,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 1,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 12,
+        "shotsOnTarget": 5,
+        "possession": 56,
+        "passes": 537,
+        "fouls": 6,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 3,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Friday, June 26, 2026",
@@ -3958,7 +5329,31 @@
       "redCards": [],
       "penalties": 1,
       "homeKeeper": "Egil Selvik",
-      "awayKeeper": "Mike Maignan"
+      "awayKeeper": "Mike Maignan",
+      "homeStats": {
+        "shots": 10,
+        "shotsOnTarget": 4,
+        "possession": 43.3,
+        "passes": 421,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 18,
+        "shotsOnTarget": 9,
+        "possession": 56.7,
+        "passes": 555,
+        "fouls": 11,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 5,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Friday, June 26, 2026",
@@ -4015,7 +5410,31 @@
       ],
       "penalties": 0,
       "homeKeeper": "Mory Diaw",
-      "awayKeeper": "Ahmed Basil"
+      "awayKeeper": "Ahmed Basil",
+      "homeStats": {
+        "shots": 28,
+        "shotsOnTarget": 12,
+        "possession": 69.2,
+        "passes": 590,
+        "fouls": 10,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 12,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 6,
+        "shotsOnTarget": 1,
+        "possession": 30.8,
+        "passes": 266,
+        "fouls": 11,
+        "yellowCards": 2,
+        "redCards": 1,
+        "offsides": 0,
+        "corners": 3,
+        "passAccuracy": 70
+      }
     },
     {
       "date": "Friday, June 26, 2026",
@@ -4061,7 +5480,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Vozinha",
-      "awayKeeper": "Mohammed Al-Owais"
+      "awayKeeper": "Mohammed Al-Owais",
+      "homeStats": {
+        "shots": 15,
+        "shotsOnTarget": 2,
+        "possession": 51,
+        "passes": 451,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 7,
+        "shotsOnTarget": 3,
+        "possession": 49,
+        "passes": 444,
+        "fouls": 16,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 2,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Friday, June 26, 2026",
@@ -4119,7 +5562,31 @@
       ],
       "penalties": 0,
       "homeKeeper": "Fernando Muslera",
-      "awayKeeper": "Unai Simón"
+      "awayKeeper": "Unai Simón",
+      "homeStats": {
+        "shots": 5,
+        "shotsOnTarget": 1,
+        "possession": 33.1,
+        "passes": 301,
+        "fouls": 14,
+        "yellowCards": 3,
+        "redCards": 1,
+        "offsides": 5,
+        "corners": 1,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 6,
+        "shotsOnTarget": 1,
+        "possession": 66.9,
+        "passes": 622,
+        "fouls": 14,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 6,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Friday, June 26, 2026",
@@ -4191,7 +5658,31 @@
       "redCards": [],
       "penalties": 1,
       "homeKeeper": "Mostafa Shobeir",
-      "awayKeeper": "Alireza Beiranvand"
+      "awayKeeper": "Alireza Beiranvand",
+      "homeStats": {
+        "shots": 15,
+        "shotsOnTarget": 3,
+        "possession": 61.4,
+        "passes": 589,
+        "fouls": 11,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 8,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 13,
+        "shotsOnTarget": 4,
+        "possession": 38.6,
+        "passes": 367,
+        "fouls": 16,
+        "yellowCards": 4,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 2,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Friday, June 26, 2026",
@@ -4253,7 +5744,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Max Crocombe",
-      "awayKeeper": "Thibaut Courtois"
+      "awayKeeper": "Thibaut Courtois",
+      "homeStats": {
+        "shots": 6,
+        "shotsOnTarget": 2,
+        "possession": 45.5,
+        "passes": 436,
+        "fouls": 10,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 5,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 35,
+        "shotsOnTarget": 10,
+        "possession": 54.5,
+        "passes": 525,
+        "fouls": 7,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 8,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -4305,7 +5820,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Orlando Mosquera",
-      "awayKeeper": "Jordan Pickford"
+      "awayKeeper": "Jordan Pickford",
+      "homeStats": {
+        "shots": 13,
+        "shotsOnTarget": 2,
+        "possession": 32.9,
+        "passes": 268,
+        "fouls": 16,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 4,
+        "corners": 3,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 17,
+        "shotsOnTarget": 6,
+        "possession": 67.1,
+        "passes": 558,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 4,
+        "corners": 7,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -4357,7 +5896,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Dominik Livaković",
-      "awayKeeper": "Lawrence Ati-Zigi"
+      "awayKeeper": "Lawrence Ati-Zigi",
+      "homeStats": {
+        "shots": 8,
+        "shotsOnTarget": 4,
+        "possession": 53.3,
+        "passes": 523,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 3,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 6,
+        "shotsOnTarget": 1,
+        "possession": 46.7,
+        "passes": 455,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 2,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -4388,7 +5951,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Camilo Vargas",
-      "awayKeeper": "Diogo Costa"
+      "awayKeeper": "Diogo Costa",
+      "homeStats": {
+        "shots": 24,
+        "shotsOnTarget": 6,
+        "possession": 54.6,
+        "passes": 544,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 5,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 13,
+        "shotsOnTarget": 2,
+        "possession": 45.4,
+        "passes": 446,
+        "fouls": 6,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 2,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -4460,7 +6047,31 @@
       "redCards": [],
       "penalties": 1,
       "homeKeeper": "Lionel Mpasi",
-      "awayKeeper": "Abduvohid Nematov"
+      "awayKeeper": "Abduvohid Nematov",
+      "homeStats": {
+        "shots": 19,
+        "shotsOnTarget": 4,
+        "possession": 57.6,
+        "passes": 485,
+        "fouls": 6,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 2,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 3,
+        "shotsOnTarget": 1,
+        "possession": 42.4,
+        "passes": 355,
+        "fouls": 16,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 4,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -4522,7 +6133,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Oussama Benbot",
-      "awayKeeper": "Alexander Schlager"
+      "awayKeeper": "Alexander Schlager",
+      "homeStats": {
+        "shots": 12,
+        "shotsOnTarget": 5,
+        "possession": 65,
+        "passes": 754,
+        "fouls": 3,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 0,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 10,
+        "shotsOnTarget": 3,
+        "possession": 35,
+        "passes": 396,
+        "fouls": 7,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 3,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -4574,7 +6209,31 @@
       "redCards": [],
       "penalties": 1,
       "homeKeeper": "Yazeed Abulaila",
-      "awayKeeper": "Emiliano Martínez"
+      "awayKeeper": "Emiliano Martínez",
+      "homeStats": {
+        "shots": 5,
+        "shotsOnTarget": 1,
+        "possession": 26.7,
+        "passes": 285,
+        "fouls": 13,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 2,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 12,
+        "shotsOnTarget": 4,
+        "possession": 73.3,
+        "passes": 801,
+        "fouls": 7,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 6,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Sunday, June 28, 2026",
@@ -4616,7 +6275,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Ronwen Williams",
-      "awayKeeper": "Maxime Crépeau"
+      "awayKeeper": "Maxime Crépeau",
+      "homeStats": {
+        "shots": 6,
+        "shotsOnTarget": 1,
+        "possession": 58.4,
+        "passes": 554,
+        "fouls": 10,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 1,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 12,
+        "shotsOnTarget": 7,
+        "possession": 41.6,
+        "passes": 379,
+        "fouls": 16,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 4,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Monday, June 29, 2026",
@@ -4683,7 +6366,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Alisson Becker",
-      "awayKeeper": "Zion Suzuki"
+      "awayKeeper": "Zion Suzuki",
+      "homeStats": {
+        "shots": 19,
+        "shotsOnTarget": 7,
+        "possession": 68.6,
+        "passes": 682,
+        "fouls": 4,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 6,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 5,
+        "shotsOnTarget": 2,
+        "possession": 31.4,
+        "passes": 313,
+        "fouls": 13,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 2,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Monday, June 29, 2026",
@@ -4744,7 +6451,31 @@
       "shootoutWinner": "Paraguay",
       "shootout": "3-4",
       "homeKeeper": "Manuel Neuer",
-      "awayKeeper": "Orlando Gill"
+      "awayKeeper": "Orlando Gill",
+      "homeStats": {
+        "shots": 21,
+        "shotsOnTarget": 6,
+        "possession": 75.6,
+        "passes": 805,
+        "fouls": 18,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 4,
+        "corners": 16,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 7,
+        "shotsOnTarget": 3,
+        "possession": 24.4,
+        "passes": 255,
+        "fouls": 12,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 6,
+        "passAccuracy": 60
+      }
     },
     {
       "date": "Monday, June 29, 2026",
@@ -4790,7 +6521,31 @@
       "shootoutWinner": "Morocco",
       "shootout": "2-3",
       "homeKeeper": "Bart Verbruggen",
-      "awayKeeper": "Yassine Bounou"
+      "awayKeeper": "Yassine Bounou",
+      "homeStats": {
+        "shots": 6,
+        "shotsOnTarget": 2,
+        "possession": 29.9,
+        "passes": 371,
+        "fouls": 18,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 5,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 11,
+        "shotsOnTarget": 5,
+        "possession": 70.1,
+        "passes": 879,
+        "fouls": 15,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 8,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Tuesday, June 30, 2026",
@@ -4837,7 +6592,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Yahia Fofana",
-      "awayKeeper": "Ørjan Nyland"
+      "awayKeeper": "Ørjan Nyland",
+      "homeStats": {
+        "shots": 14,
+        "shotsOnTarget": 5,
+        "possession": 47,
+        "passes": 401,
+        "fouls": 6,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 14,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 9,
+        "shotsOnTarget": 4,
+        "possession": 53,
+        "passes": 474,
+        "fouls": 7,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 3,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Tuesday, June 30, 2026",
@@ -4878,7 +6657,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Mike Maignan",
-      "awayKeeper": "Jacob Widell Zetterström"
+      "awayKeeper": "Jacob Widell Zetterström",
+      "homeStats": {
+        "shots": 25,
+        "shotsOnTarget": 12,
+        "possession": 61,
+        "passes": 551,
+        "fouls": 14,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 9,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 8,
+        "shotsOnTarget": 3,
+        "possession": 39,
+        "passes": 350,
+        "fouls": 10,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 1,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Tuesday, June 30, 2026",
@@ -4931,7 +6734,31 @@
       ],
       "penalties": 0,
       "homeKeeper": "Raúl Rangel",
-      "awayKeeper": "Hernán Galíndez"
+      "awayKeeper": "Hernán Galíndez",
+      "homeStats": {
+        "shots": 15,
+        "shotsOnTarget": 3,
+        "possession": 42.8,
+        "passes": 316,
+        "fouls": 10,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 3,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 7,
+        "shotsOnTarget": 1,
+        "possession": 57.2,
+        "passes": 410,
+        "fouls": 14,
+        "yellowCards": 3,
+        "redCards": 1,
+        "offsides": 1,
+        "corners": 8,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Wednesday, July 1, 2026",
@@ -4983,7 +6810,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Jordan Pickford",
-      "awayKeeper": "Lionel Mpasi"
+      "awayKeeper": "Lionel Mpasi",
+      "homeStats": {
+        "shots": 16,
+        "shotsOnTarget": 7,
+        "possession": 59.7,
+        "passes": 517,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 5,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 7,
+        "shotsOnTarget": 2,
+        "possession": 40.3,
+        "passes": 365,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 4,
+        "corners": 3,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Wednesday, July 1, 2026",
@@ -5065,7 +6916,31 @@
       "redCards": [],
       "penalties": 1,
       "homeKeeper": "Thibaut Courtois",
-      "awayKeeper": "Mory Diaw"
+      "awayKeeper": "Mory Diaw",
+      "homeStats": {
+        "shots": 19,
+        "shotsOnTarget": 5,
+        "possession": 52.3,
+        "passes": 701,
+        "fouls": 22,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 4,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 19,
+        "shotsOnTarget": 5,
+        "possession": 47.7,
+        "passes": 639,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 2,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Wednesday, July 1, 2026",
@@ -5118,7 +6993,31 @@
       ],
       "penalties": 0,
       "homeKeeper": "Matt Freese",
-      "awayKeeper": "Nikola Vasilj"
+      "awayKeeper": "Nikola Vasilj",
+      "homeStats": {
+        "shots": 8,
+        "shotsOnTarget": 2,
+        "possession": 48.4,
+        "passes": 415,
+        "fouls": 7,
+        "yellowCards": 0,
+        "redCards": 1,
+        "offsides": 3,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 10,
+        "shotsOnTarget": 3,
+        "possession": 51.6,
+        "passes": 447,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 3,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Thursday, July 2, 2026",
@@ -5165,7 +7064,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Unai Simón",
-      "awayKeeper": "Alexander Schlager"
+      "awayKeeper": "Alexander Schlager",
+      "homeStats": {
+        "shots": 23,
+        "shotsOnTarget": 10,
+        "possession": 64.4,
+        "passes": 629,
+        "fouls": 8,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 9,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 5,
+        "shotsOnTarget": 0,
+        "possession": 35.6,
+        "passes": 347,
+        "fouls": 15,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 5,
+        "corners": 0,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Thursday, July 2, 2026",
@@ -5222,7 +7145,31 @@
       "redCards": [],
       "penalties": 1,
       "homeKeeper": "Diogo Costa",
-      "awayKeeper": "Dominik Livaković"
+      "awayKeeper": "Dominik Livaković",
+      "homeStats": {
+        "shots": 15,
+        "shotsOnTarget": 3,
+        "possession": 60.4,
+        "passes": 585,
+        "fouls": 6,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 9,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 13,
+        "shotsOnTarget": 6,
+        "possession": 39.6,
+        "passes": 370,
+        "fouls": 12,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 4,
+        "corners": 5,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Thursday, July 2, 2026",
@@ -5269,7 +7216,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Gregor Kobel",
-      "awayKeeper": "Luca Zidane"
+      "awayKeeper": "Luca Zidane",
+      "homeStats": {
+        "shots": 11,
+        "shotsOnTarget": 5,
+        "possession": 44.5,
+        "passes": 438,
+        "fouls": 10,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 8,
+        "shotsOnTarget": 2,
+        "possession": 55.5,
+        "passes": 563,
+        "fouls": 12,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 2,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Friday, July 3, 2026",
@@ -5320,7 +7291,31 @@
       "shootoutWinner": "Egypt",
       "shootout": "2-4",
       "homeKeeper": "Patrick Beach",
-      "awayKeeper": "Mostafa Shobeir"
+      "awayKeeper": "Mostafa Shobeir",
+      "homeStats": {
+        "shots": 16,
+        "shotsOnTarget": 1,
+        "possession": 41.7,
+        "passes": 505,
+        "fouls": 12,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 14,
+        "shotsOnTarget": 3,
+        "possession": 58.3,
+        "passes": 722,
+        "fouls": 14,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 7,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Friday, July 3, 2026",
@@ -5382,7 +7377,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Emiliano Martínez",
-      "awayKeeper": "Vozinha"
+      "awayKeeper": "Vozinha",
+      "homeStats": {
+        "shots": 22,
+        "shotsOnTarget": 10,
+        "possession": 63.6,
+        "passes": 850,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 8,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 16,
+        "shotsOnTarget": 5,
+        "possession": 36.4,
+        "passes": 476,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 8,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Friday, July 3, 2026",
@@ -5439,52 +7458,44 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Camilo Vargas",
-      "awayKeeper": "Lawrence Ati-Zigi"
+      "awayKeeper": "Lawrence Ati-Zigi",
+      "homeStats": {
+        "shots": 20,
+        "shotsOnTarget": 8,
+        "possession": 60.7,
+        "passes": 586,
+        "fouls": 14,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 3,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 8,
+        "shotsOnTarget": 0,
+        "possession": 39.3,
+        "passes": 376,
+        "fouls": 10,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 2,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Saturday, July 4, 2026",
       "stage": "Knockout",
       "group": "Match 89 · Round of 16",
-      "time": "4:00 PM CDT (5:00 PM EDT venue local)",
+      "time": "5:00 PM local",
       "kickoffISO": "2026-07-04T21:00:00Z",
-      "home": "Paraguay",
-      "homeFlag": "PAR",
-      "away": "France",
-      "awayFlag": "FRA",
+      "home": "Winner Match 74",
+      "homeFlag": "W74",
+      "away": "Winner Match 77",
+      "awayFlag": "W77",
       "location": "Lincoln Financial Field · Philadelphia",
-      "venueTimeZone": "America/New_York",
-      "status": "FT",
-      "elapsed": 103,
-      "homeScore": 0,
-      "awayScore": 1,
-      "scorers": [
-        {
-          "player": "Kylian Mbappé",
-          "team": "France",
-          "match": "Paraguay vs France"
-        }
-      ],
-      "yellowCards": [
-        {
-          "player": "Bradley Barcola",
-          "team": "France",
-          "match": "Paraguay vs France"
-        },
-        {
-          "player": "Manu Koné",
-          "team": "France",
-          "match": "Paraguay vs France"
-        },
-        {
-          "player": "Michael Olise",
-          "team": "France",
-          "match": "Paraguay vs France"
-        }
-      ],
-      "redCards": [],
-      "penalties": 1,
-      "homeKeeper": "Orlando Gill",
-      "awayKeeper": "Mike Maignan"
+      "venueTimeZone": "America/New_York"
     },
     {
       "date": "Sunday, July 5, 2026",
@@ -5744,7 +7755,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Maxime Crépeau",
-      "awayKeeper": "Yassine Bounou"
+      "awayKeeper": "Yassine Bounou",
+      "homeStats": {
+        "shots": 10,
+        "shotsOnTarget": 3,
+        "possession": 44.7,
+        "passes": 359,
+        "fouls": 24,
+        "yellowCards": 4,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 11,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 5,
+        "shotsOnTarget": 4,
+        "possession": 55.3,
+        "passes": 473,
+        "fouls": 14,
+        "yellowCards": 4,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 1,
+        "passAccuracy": 80
+      }
     }
   ],
   "matchUpdates": [
@@ -5752,7 +7787,7 @@
       "date": "Thursday, June 11, 2026",
       "stage": "Group Stage",
       "group": "Group A",
-      "time": "2:00 PM CDT ( 1:00 PM CST venue local)",
+      "time": "1:00 PM local",
       "home": "Mexico",
       "homeFlag": "MEX",
       "away": "South Africa",
@@ -5776,65 +7811,41 @@
       ],
       "yellowCards": [
         {
-          "player": "One",
-          "team": "Mexico",
-          "match": "Mexico vs South Africa"
-        },
-        {
-          "player": "Two",
+          "player": "Teboho Mokoena",
           "team": "South Africa",
           "match": "Mexico vs South Africa"
         },
         {
-          "player": "Three",
+          "player": "Carlos Gutiérrez",
+          "team": "Mexico",
+          "match": "Mexico vs South Africa"
+        },
+        {
+          "player": "Nkosinathi Sibisi",
           "team": "South Africa",
           "match": "Mexico vs South Africa"
         }
       ],
       "redCards": [
         {
-          "player": "O",
+          "player": "Sphephelo Sithole",
+          "team": "South Africa",
+          "match": "Mexico vs South Africa"
+        },
+        {
+          "player": "Themba Zwane",
+          "team": "South Africa",
+          "match": "Mexico vs South Africa"
+        },
+        {
+          "player": "César Montes",
           "team": "Mexico",
-          "match": "Mexico vs South Africa"
-        },
-        {
-          "player": "T",
-          "team": "South Africa",
-          "match": "Mexico vs South Africa"
-        },
-        {
-          "player": "Th",
-          "team": "South Africa",
           "match": "Mexico vs South Africa"
         }
       ],
       "penalties": 0,
-      "predictedHomeScore": 3,
-      "predictedAwayScore": 1,
       "homeKeeper": "Raúl Rangel",
-      "awayKeeper": "Ronwen Williams",
-      "homeStats": {
-        "shots": 16,
-        "possession": 61,
-        "corners": 3,
-        "shotsOnTarget": 5,
-        "passes": 538,
-        "passAccuracy": 91,
-        "dribbleAccuracy": 56,
-        "fouls": 12,
-        "offsides": 1
-      },
-      "awayStats": {
-        "shots": 3,
-        "possession": 39,
-        "corners": 1,
-        "shotsOnTarget": 2,
-        "passes": 341,
-        "passAccuracy": 83,
-        "dribbleAccuracy": 17,
-        "fouls": 11,
-        "offsides": 1
-      }
+      "awayKeeper": "Ronwen Williams"
     },
     {
       "date": "Thursday, June 11, 2026",
@@ -5852,49 +7863,49 @@
       "awayScore": 1,
       "scorers": [
         {
-          "player": "Ladislav Krejčí",
-          "team": "Czechia",
-          "match": "Korea Republic vs Czechia"
-        },
-        {
           "player": "Hwang In-beom",
-          "team": "South Africa",
+          "team": "Korea Republic",
           "match": "Korea Republic vs Czechia"
         },
         {
           "player": "Oh Hyeon-gyu",
-          "team": "South Africa",
+          "team": "Korea Republic",
+          "match": "Korea Republic vs Czechia"
+        },
+        {
+          "player": "Ladislav Krejčí",
+          "team": "Czechia",
           "match": "Korea Republic vs Czechia"
         }
       ],
       "yellowCards": [],
       "redCards": [],
       "penalties": 0,
-      "predictedHomeScore": 2,
-      "predictedAwayScore": 0,
       "homeKeeper": "Kim Seung-gyu",
       "awayKeeper": "Matěj Kovář",
       "homeStats": {
         "shots": 15,
-        "shotsOnTarget": 7,
-        "possession": 62,
-        "passes": 473,
-        "passAccuracy": 87,
-        "dribbleAccuracy": 65,
+        "shotsOnTarget": 6,
+        "possession": 61.5,
+        "passes": 541,
         "fouls": 9,
+        "yellowCards": 1,
+        "redCards": 0,
         "offsides": 2,
-        "corners": 4
+        "corners": 4,
+        "passAccuracy": 90
       },
       "awayStats": {
-        "shots": 8,
+        "shots": 7,
         "shotsOnTarget": 4,
-        "possession": 38,
-        "passes": 314,
-        "passAccuracy": 70,
-        "dribbleAccuracy": 29,
+        "possession": 38.5,
+        "passes": 327,
         "fouls": 16,
+        "yellowCards": 0,
+        "redCards": 0,
         "offsides": 2,
-        "corners": 5
+        "corners": 5,
+        "passAccuracy": 70
       }
     },
     {
@@ -5948,7 +7959,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Maxime Crépeau",
-      "awayKeeper": "Nikola Vasilj"
+      "awayKeeper": "Nikola Vasilj",
+      "homeStats": {
+        "shots": 13,
+        "shotsOnTarget": 4,
+        "possession": 61.1,
+        "passes": 421,
+        "fouls": 10,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 9,
+        "passAccuracy": 70
+      },
+      "awayStats": {
+        "shots": 8,
+        "shotsOnTarget": 3,
+        "possession": 38.9,
+        "passes": 271,
+        "fouls": 20,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 4,
+        "passAccuracy": 60
+      }
     },
     {
       "date": "Friday, June 12, 2026",
@@ -6026,7 +8061,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Matt Freese",
-      "awayKeeper": "Orlando Gill"
+      "awayKeeper": "Orlando Gill",
+      "homeStats": {
+        "shots": 16,
+        "shotsOnTarget": 6,
+        "possession": 65.3,
+        "passes": 598,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 3,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 9,
+        "shotsOnTarget": 1,
+        "possession": 34.7,
+        "passes": 319,
+        "fouls": 17,
+        "yellowCards": 5,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 1,
+        "passAccuracy": 70
+      }
     },
     {
       "date": "Saturday, June 13, 2026",
@@ -6074,7 +8133,31 @@
       "redCards": [],
       "penalties": 1,
       "homeKeeper": "Mahmoud Abunada",
-      "awayKeeper": "Gregor Kobel"
+      "awayKeeper": "Gregor Kobel",
+      "homeStats": {
+        "shots": 6,
+        "shotsOnTarget": 3,
+        "possession": 32,
+        "passes": 278,
+        "fouls": 12,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 3,
+        "passAccuracy": 70
+      },
+      "awayStats": {
+        "shots": 26,
+        "shotsOnTarget": 7,
+        "possession": 68,
+        "passes": 576,
+        "fouls": 11,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 10,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Saturday, June 13, 2026",
@@ -6117,7 +8200,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Alisson Becker",
-      "awayKeeper": "Yassine Bounou"
+      "awayKeeper": "Yassine Bounou",
+      "homeStats": {
+        "shots": 12,
+        "shotsOnTarget": 5,
+        "possession": 51.4,
+        "passes": 514,
+        "fouls": 16,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 6,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 14,
+        "shotsOnTarget": 3,
+        "possession": 48.6,
+        "passes": 486,
+        "fouls": 14,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 2,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Saturday, June 13, 2026",
@@ -6165,7 +8272,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Johny Placide",
-      "awayKeeper": "Angus Gunn"
+      "awayKeeper": "Angus Gunn",
+      "homeStats": {
+        "shots": 15,
+        "shotsOnTarget": 2,
+        "possession": 53.7,
+        "passes": 431,
+        "fouls": 23,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 4,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 9,
+        "shotsOnTarget": 2,
+        "possession": 46.3,
+        "passes": 374,
+        "fouls": 21,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 3,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Saturday, June 13, 2026",
@@ -6203,7 +8334,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Patrick Beach",
-      "awayKeeper": "Uğurcan Çakır"
+      "awayKeeper": "Uğurcan Çakır",
+      "homeStats": {
+        "shots": 9,
+        "shotsOnTarget": 4,
+        "possession": 28.4,
+        "passes": 271,
+        "fouls": 12,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 5,
+        "passAccuracy": 70
+      },
+      "awayStats": {
+        "shots": 30,
+        "shotsOnTarget": 8,
+        "possession": 71.6,
+        "passes": 704,
+        "fouls": 4,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 8,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Sunday, June 14, 2026",
@@ -6265,7 +8420,31 @@
       "redCards": [],
       "penalties": 1,
       "homeKeeper": "Manuel Neuer",
-      "awayKeeper": "Eloy Room"
+      "awayKeeper": "Eloy Room",
+      "homeStats": {
+        "shots": 26,
+        "shotsOnTarget": 12,
+        "possession": 64.6,
+        "passes": 637,
+        "fouls": 18,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 8,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 8,
+        "shotsOnTarget": 2,
+        "possession": 35.4,
+        "passes": 343,
+        "fouls": 11,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 1,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Sunday, June 14, 2026",
@@ -6323,7 +8502,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Bart Verbruggen",
-      "awayKeeper": "Zion Suzuki"
+      "awayKeeper": "Zion Suzuki",
+      "homeStats": {
+        "shots": 10,
+        "shotsOnTarget": 6,
+        "possession": 59.8,
+        "passes": 524,
+        "fouls": 7,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 5,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 10,
+        "shotsOnTarget": 3,
+        "possession": 40.2,
+        "passes": 341,
+        "fouls": 7,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 4,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Sunday, June 14, 2026",
@@ -6371,7 +8574,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Yahia Fofana",
-      "awayKeeper": "Hernán Galíndez"
+      "awayKeeper": "Hernán Galíndez",
+      "homeStats": {
+        "shots": 15,
+        "shotsOnTarget": 4,
+        "possession": 48.4,
+        "passes": 470,
+        "fouls": 10,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 3,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 12,
+        "shotsOnTarget": 1,
+        "possession": 51.6,
+        "passes": 492,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 6,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Sunday, June 14, 2026",
@@ -6429,7 +8656,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Kristoffer Nordfeldt",
-      "awayKeeper": "Mouhib Chamakh"
+      "awayKeeper": "Mouhib Chamakh",
+      "homeStats": {
+        "shots": 13,
+        "shotsOnTarget": 7,
+        "possession": 48.7,
+        "passes": 356,
+        "fouls": 10,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 6,
+        "shotsOnTarget": 2,
+        "possession": 51.3,
+        "passes": 371,
+        "fouls": 8,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 6,
+        "corners": 2,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Monday, June 15, 2026",
@@ -6461,7 +8712,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Unai Simón",
-      "awayKeeper": "Vozinha"
+      "awayKeeper": "Vozinha",
+      "homeStats": {
+        "shots": 27,
+        "shotsOnTarget": 7,
+        "possession": 74.3,
+        "passes": 800,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 11,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 6,
+        "shotsOnTarget": 1,
+        "possession": 25.7,
+        "passes": 278,
+        "fouls": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 1,
+        "passAccuracy": 70
+      }
     },
     {
       "date": "Monday, June 15, 2026",
@@ -6514,7 +8789,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Thibaut Courtois",
-      "awayKeeper": "Mostafa Shobeir"
+      "awayKeeper": "Mostafa Shobeir",
+      "homeStats": {
+        "shots": 15,
+        "shotsOnTarget": 3,
+        "possession": 53.6,
+        "passes": 455,
+        "fouls": 15,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 2,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 14,
+        "shotsOnTarget": 3,
+        "possession": 46.4,
+        "passes": 398,
+        "fouls": 15,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 7,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Monday, June 15, 2026",
@@ -6552,7 +8851,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Mohammed Al-Owais",
-      "awayKeeper": "Fernando Muslera"
+      "awayKeeper": "Fernando Muslera",
+      "homeStats": {
+        "shots": 7,
+        "shotsOnTarget": 3,
+        "possession": 33.2,
+        "passes": 322,
+        "fouls": 11,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 4,
+        "passAccuracy": 70
+      },
+      "awayStats": {
+        "shots": 27,
+        "shotsOnTarget": 10,
+        "possession": 66.8,
+        "passes": 612,
+        "fouls": 6,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 6,
+        "corners": 14,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Monday, June 15, 2026",
@@ -6600,7 +8923,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Alireza Beiranvand",
-      "awayKeeper": "Max Crocombe"
+      "awayKeeper": "Max Crocombe",
+      "homeStats": {
+        "shots": 17,
+        "shotsOnTarget": 4,
+        "possession": 48.5,
+        "passes": 409,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 14,
+        "shotsOnTarget": 8,
+        "possession": 51.5,
+        "passes": 446,
+        "fouls": 8,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 1,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Tuesday, June 16, 2026",
@@ -6637,7 +8984,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Emiliano Martínez",
-      "awayKeeper": "Luca Zidane"
+      "awayKeeper": "Luca Zidane",
+      "homeStats": {
+        "shots": 10,
+        "shotsOnTarget": 6,
+        "possession": 47.8,
+        "passes": 561,
+        "fouls": 13,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 2,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 7,
+        "shotsOnTarget": 1,
+        "possession": 52.2,
+        "passes": 609,
+        "fouls": 8,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 2,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Tuesday, June 16, 2026",
@@ -6685,7 +9056,31 @@
       "redCards": [],
       "penalties": 1,
       "homeKeeper": "Alexander Schlager",
-      "awayKeeper": "Yazeed Abulaila"
+      "awayKeeper": "Yazeed Abulaila",
+      "homeStats": {
+        "shots": 11,
+        "shotsOnTarget": 4,
+        "possession": 63.2,
+        "passes": 580,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 11,
+        "shotsOnTarget": 4,
+        "possession": 36.8,
+        "passes": 332,
+        "fouls": 7,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 3,
+        "passAccuracy": 70
+      }
     },
     {
       "date": "Wednesday, June 17, 2026",
@@ -6738,7 +9133,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Diogo Costa",
-      "awayKeeper": "Lionel Mpasi"
+      "awayKeeper": "Lionel Mpasi",
+      "homeStats": {
+        "shots": 7,
+        "shotsOnTarget": 1,
+        "possession": 75.4,
+        "passes": 783,
+        "fouls": 9,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 5,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 8,
+        "shotsOnTarget": 2,
+        "possession": 24.6,
+        "passes": 249,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 4,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Wednesday, June 17, 2026",
@@ -6790,7 +9209,31 @@
       "redCards": [],
       "penalties": 1,
       "homeKeeper": "Jordan Pickford",
-      "awayKeeper": "Dominik Livaković"
+      "awayKeeper": "Dominik Livaković",
+      "homeStats": {
+        "shots": 22,
+        "shotsOnTarget": 11,
+        "possession": 51.7,
+        "passes": 474,
+        "fouls": 10,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 8,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 10,
+        "shotsOnTarget": 5,
+        "possession": 48.3,
+        "passes": 443,
+        "fouls": 12,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 2,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Wednesday, June 17, 2026",
@@ -6833,7 +9276,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Lawrence Ati-Zigi",
-      "awayKeeper": "Orlando Mosquera"
+      "awayKeeper": "Orlando Mosquera",
+      "homeStats": {
+        "shots": 7,
+        "shotsOnTarget": 2,
+        "possession": 38,
+        "passes": 352,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 4,
+        "corners": 2,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 11,
+        "shotsOnTarget": 4,
+        "possession": 62,
+        "passes": 583,
+        "fouls": 11,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 2,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Wednesday, June 17, 2026",
@@ -6886,7 +9353,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Utkir Yusupov",
-      "awayKeeper": "Camilo Vargas"
+      "awayKeeper": "Camilo Vargas",
+      "homeStats": {
+        "shots": 8,
+        "shotsOnTarget": 2,
+        "possession": 38.6,
+        "passes": 319,
+        "fouls": 14,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 3,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 15,
+        "shotsOnTarget": 4,
+        "possession": 61.4,
+        "passes": 519,
+        "fouls": 11,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 4,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Thursday, June 18, 2026",
@@ -6929,7 +9420,31 @@
       "redCards": [],
       "penalties": 1,
       "homeKeeper": "Matěj Kovář",
-      "awayKeeper": "Ronwen Williams"
+      "awayKeeper": "Ronwen Williams",
+      "homeStats": {
+        "shots": 14,
+        "shotsOnTarget": 3,
+        "possession": 38.3,
+        "passes": 341,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 5,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 17,
+        "shotsOnTarget": 4,
+        "possession": 61.7,
+        "passes": 563,
+        "fouls": 10,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 5,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Thursday, June 18, 2026",
@@ -6998,7 +9513,31 @@
       ],
       "penalties": 1,
       "homeKeeper": "Gregor Kobel",
-      "awayKeeper": "Nikola Vasilj"
+      "awayKeeper": "Nikola Vasilj",
+      "homeStats": {
+        "shots": 13,
+        "shotsOnTarget": 7,
+        "possession": 62.3,
+        "passes": 586,
+        "fouls": 7,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 7,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 5,
+        "shotsOnTarget": 3,
+        "possession": 37.7,
+        "passes": 354,
+        "fouls": 18,
+        "yellowCards": 2,
+        "redCards": 1,
+        "offsides": 1,
+        "corners": 3,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Thursday, June 18, 2026",
@@ -7072,7 +9611,31 @@
       ],
       "penalties": 0,
       "homeKeeper": "Maxime Crépeau",
-      "awayKeeper": "Mahmud Abunada"
+      "awayKeeper": "Mahmud Abunada",
+      "homeStats": {
+        "shots": 32,
+        "shotsOnTarget": 10,
+        "possession": 79,
+        "passes": 567,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 19,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 2,
+        "shotsOnTarget": 0,
+        "possession": 21,
+        "passes": 162,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": 2,
+        "offsides": 1,
+        "corners": 1,
+        "passAccuracy": 60
+      }
     },
     {
       "date": "Thursday, June 18, 2026",
@@ -7110,7 +9673,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Raúl Rangel",
-      "awayKeeper": "Kim Seung-gyu"
+      "awayKeeper": "Kim Seung-gyu",
+      "homeStats": {
+        "shots": 8,
+        "shotsOnTarget": 4,
+        "possession": 42.4,
+        "passes": 427,
+        "fouls": 9,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 1,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 9,
+        "shotsOnTarget": 2,
+        "possession": 57.6,
+        "passes": 578,
+        "fouls": 7,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 6,
+        "corners": 2,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Friday, June 19, 2026",
@@ -7178,7 +9765,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Matt Freese",
-      "awayKeeper": "Patrick Beach"
+      "awayKeeper": "Patrick Beach",
+      "homeStats": {
+        "shots": 10,
+        "shotsOnTarget": 2,
+        "possession": 61.9,
+        "passes": 523,
+        "fouls": 12,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 7,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 5,
+        "shotsOnTarget": 2,
+        "possession": 38.1,
+        "passes": 310,
+        "fouls": 16,
+        "yellowCards": 4,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 4,
+        "passAccuracy": 70
+      }
     },
     {
       "date": "Friday, June 19, 2026",
@@ -7216,7 +9827,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Angus Gunn",
-      "awayKeeper": "Yassine Bounou"
+      "awayKeeper": "Yassine Bounou",
+      "homeStats": {
+        "shots": 6,
+        "shotsOnTarget": 0,
+        "possession": 41.1,
+        "passes": 456,
+        "fouls": 11,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 2,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 12,
+        "shotsOnTarget": 2,
+        "possession": 58.9,
+        "passes": 670,
+        "fouls": 8,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 5,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Friday, June 19, 2026",
@@ -7274,7 +9909,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Alisson Becker",
-      "awayKeeper": "Johny Placide"
+      "awayKeeper": "Johny Placide",
+      "homeStats": {
+        "shots": 8,
+        "shotsOnTarget": 5,
+        "possession": 56.7,
+        "passes": 525,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 8,
+        "corners": 4,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 7,
+        "shotsOnTarget": 3,
+        "possession": 43.3,
+        "passes": 399,
+        "fouls": 14,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 4,
+        "corners": 4,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Friday, June 19, 2026",
@@ -7323,7 +9982,31 @@
       ],
       "penalties": 0,
       "homeKeeper": "Uğurcan Çakır",
-      "awayKeeper": "Orlando Gill"
+      "awayKeeper": "Orlando Gill",
+      "homeStats": {
+        "shots": 32,
+        "shotsOnTarget": 5,
+        "possession": 78.5,
+        "passes": 629,
+        "fouls": 14,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 12,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 7,
+        "shotsOnTarget": 2,
+        "possession": 21.5,
+        "passes": 178,
+        "fouls": 15,
+        "yellowCards": 1,
+        "redCards": 1,
+        "offsides": 3,
+        "corners": 0,
+        "passAccuracy": 50
+      }
     },
     {
       "date": "Saturday, June 20, 2026",
@@ -7391,7 +10074,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Bart Verbruggen",
-      "awayKeeper": "Kristoffer Nordfeldt"
+      "awayKeeper": "Kristoffer Nordfeldt",
+      "homeStats": {
+        "shots": 10,
+        "shotsOnTarget": 7,
+        "possession": 50.9,
+        "passes": 449,
+        "fouls": 9,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 2,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 16,
+        "shotsOnTarget": 8,
+        "possession": 49.1,
+        "passes": 425,
+        "fouls": 12,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 5,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Saturday, June 20, 2026",
@@ -7439,7 +10146,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Manuel Neuer",
-      "awayKeeper": "Yahia Fofana"
+      "awayKeeper": "Yahia Fofana",
+      "homeStats": {
+        "shots": 16,
+        "shotsOnTarget": 7,
+        "possession": 59.5,
+        "passes": 624,
+        "fouls": 5,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 8,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 9,
+        "shotsOnTarget": 2,
+        "possession": 40.5,
+        "passes": 431,
+        "fouls": 7,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 3,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Saturday, June 20, 2026",
@@ -7491,7 +10222,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Hernán Galíndez",
-      "awayKeeper": "Eloy Room"
+      "awayKeeper": "Eloy Room",
+      "homeStats": {
+        "shots": 27,
+        "shotsOnTarget": 15,
+        "possession": 74.6,
+        "passes": 644,
+        "fouls": 7,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 9,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 10,
+        "shotsOnTarget": 3,
+        "possession": 25.4,
+        "passes": 227,
+        "fouls": 10,
+        "yellowCards": 5,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 0,
+        "passAccuracy": 70
+      }
     },
     {
       "date": "Saturday, June 20, 2026",
@@ -7533,7 +10288,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Aymen Dahmen",
-      "awayKeeper": "Zion Suzuki"
+      "awayKeeper": "Zion Suzuki",
+      "homeStats": {
+        "shots": 2,
+        "shotsOnTarget": 0,
+        "possession": 37.9,
+        "passes": 354,
+        "fouls": 8,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 3,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 11,
+        "shotsOnTarget": 5,
+        "possession": 62.1,
+        "passes": 583,
+        "fouls": 15,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 5,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Sunday, June 21, 2026",
@@ -7586,7 +10365,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Unai Simón",
-      "awayKeeper": "Mohammed Al-Owais"
+      "awayKeeper": "Mohammed Al-Owais",
+      "homeStats": {
+        "shots": 22,
+        "shotsOnTarget": 8,
+        "possession": 67.1,
+        "passes": 726,
+        "fouls": 10,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 6,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 3,
+        "shotsOnTarget": 1,
+        "possession": 32.9,
+        "passes": 364,
+        "fouls": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 1,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Sunday, June 21, 2026",
@@ -7624,7 +10427,31 @@
           "team": "Iran",
           "match": "Belgium vs Iran"
         }
-      ]
+      ],
+      "homeStats": {
+        "shots": 23,
+        "shotsOnTarget": 7,
+        "possession": 70.1,
+        "passes": 621,
+        "fouls": 7,
+        "yellowCards": 1,
+        "redCards": 1,
+        "offsides": 3,
+        "corners": 4,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 7,
+        "shotsOnTarget": 3,
+        "possession": 29.9,
+        "passes": 270,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 4,
+        "corners": 2,
+        "passAccuracy": 70
+      }
     },
     {
       "date": "Sunday, June 21, 2026",
@@ -7689,7 +10516,31 @@
       "predictedHomeScore": 3,
       "predictedAwayScore": 1,
       "homeKeeper": "Fernando Muslera",
-      "awayKeeper": "Vozinha"
+      "awayKeeper": "Vozinha",
+      "homeStats": {
+        "shots": 17,
+        "shotsOnTarget": 2,
+        "possession": 65.2,
+        "passes": 511,
+        "fouls": 11,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 11,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 12,
+        "shotsOnTarget": 4,
+        "possession": 34.8,
+        "passes": 278,
+        "fouls": 4,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 4,
+        "passAccuracy": 70
+      }
     },
     {
       "date": "Sunday, June 21, 2026",
@@ -7749,7 +10600,31 @@
       "predictedHomeScore": 1,
       "predictedAwayScore": 3,
       "homeKeeper": "Max Crocombe",
-      "awayKeeper": "Mostafa Shobeir"
+      "awayKeeper": "Mostafa Shobeir",
+      "homeStats": {
+        "shots": 11,
+        "shotsOnTarget": 5,
+        "possession": 44.4,
+        "passes": 421,
+        "fouls": 14,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 19,
+        "shotsOnTarget": 7,
+        "possession": 55.6,
+        "passes": 526,
+        "fouls": 8,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 4,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Monday, June 22, 2026",
@@ -7804,7 +10679,31 @@
       "predictedHomeScore": 2,
       "predictedAwayScore": 0,
       "homeKeeper": "Emiliano Martínez",
-      "awayKeeper": "Alexander Schlager"
+      "awayKeeper": "Alexander Schlager",
+      "homeStats": {
+        "shots": 12,
+        "shotsOnTarget": 5,
+        "possession": 53.6,
+        "passes": 554,
+        "fouls": 13,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 1,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 6,
+        "shotsOnTarget": 1,
+        "possession": 46.4,
+        "passes": 468,
+        "fouls": 13,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 3,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Monday, June 22, 2026",
@@ -7849,7 +10748,31 @@
       "predictedHomeScore": 3,
       "predictedAwayScore": 1,
       "homeKeeper": "Mike Maignan",
-      "awayKeeper": "Ahmed Basil"
+      "awayKeeper": "Ahmed Basil",
+      "homeStats": {
+        "shots": 19,
+        "shotsOnTarget": 5,
+        "possession": 55.6,
+        "passes": 603,
+        "fouls": 8,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 4,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 4,
+        "shotsOnTarget": 0,
+        "possession": 44.4,
+        "passes": 481,
+        "fouls": 4,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 2,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Monday, June 22, 2026",
@@ -7898,7 +10821,31 @@
       "predictedHomeScore": 1,
       "predictedAwayScore": 2,
       "homeKeeper": "Ørjan Nyland",
-      "awayKeeper": "Édouard Mendy"
+      "awayKeeper": "Édouard Mendy",
+      "homeStats": {
+        "shots": 13,
+        "shotsOnTarget": 7,
+        "possession": 41.7,
+        "passes": 353,
+        "fouls": 13,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 5,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 16,
+        "shotsOnTarget": 4,
+        "possession": 58.3,
+        "passes": 489,
+        "fouls": 5,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 4,
+        "corners": 4,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Monday, June 22, 2026",
@@ -7948,7 +10895,31 @@
       "predictedHomeScore": 0,
       "predictedAwayScore": 2,
       "homeKeeper": "Yazeed Abulaila",
-      "awayKeeper": "Luca Zidane"
+      "awayKeeper": "Luca Zidane",
+      "homeStats": {
+        "shots": 8,
+        "shotsOnTarget": 4,
+        "possession": 27.9,
+        "passes": 251,
+        "fouls": 11,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 1,
+        "passAccuracy": 70
+      },
+      "awayStats": {
+        "shots": 17,
+        "shotsOnTarget": 8,
+        "possession": 72.1,
+        "passes": 641,
+        "fouls": 6,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 10,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Tuesday, June 23, 2026",
@@ -8008,7 +10979,31 @@
       "predictedHomeScore": 3,
       "predictedAwayScore": 1,
       "homeKeeper": "Diogo Costa",
-      "awayKeeper": "Abduvohid Nematov"
+      "awayKeeper": "Abduvohid Nematov",
+      "homeStats": {
+        "shots": 17,
+        "shotsOnTarget": 9,
+        "possession": 65.9,
+        "passes": 624,
+        "fouls": 14,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 3,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 7,
+        "shotsOnTarget": 2,
+        "possession": 34.1,
+        "passes": 327,
+        "fouls": 15,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 2,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Tuesday, June 23, 2026",
@@ -8042,7 +11037,31 @@
       "predictedHomeScore": 3,
       "predictedAwayScore": 1,
       "homeKeeper": "Jordan Pickford",
-      "awayKeeper": "Benjamin Asare"
+      "awayKeeper": "Benjamin Asare",
+      "homeStats": {
+        "shots": 19,
+        "shotsOnTarget": 3,
+        "possession": 78.9,
+        "passes": 633,
+        "fouls": 14,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 9,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 2,
+        "shotsOnTarget": 1,
+        "possession": 21.1,
+        "passes": 172,
+        "fouls": 24,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 2,
+        "passAccuracy": 70
+      }
     },
     {
       "date": "Tuesday, June 23, 2026",
@@ -8082,7 +11101,31 @@
       "predictedHomeScore": 0,
       "predictedAwayScore": 2,
       "homeKeeper": "Orlando Mosquera",
-      "awayKeeper": "Dominik Livaković"
+      "awayKeeper": "Dominik Livaković",
+      "homeStats": {
+        "shots": 8,
+        "shotsOnTarget": 1,
+        "possession": 42,
+        "passes": 352,
+        "fouls": 19,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 7,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 6,
+        "shotsOnTarget": 2,
+        "possession": 58,
+        "passes": 512,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 2,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Tuesday, June 23, 2026",
@@ -8127,7 +11170,31 @@
       "predictedHomeScore": 3,
       "predictedAwayScore": 1,
       "homeKeeper": "Camilo Vargas",
-      "awayKeeper": "Lionel Mpasi"
+      "awayKeeper": "Lionel Mpasi",
+      "homeStats": {
+        "shots": 20,
+        "shotsOnTarget": 9,
+        "possession": 63.5,
+        "passes": 541,
+        "fouls": 12,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 7,
+        "corners": 5,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 7,
+        "shotsOnTarget": 1,
+        "possession": 36.5,
+        "passes": 299,
+        "fouls": 16,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 4,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -8182,7 +11249,31 @@
       "predictedHomeScore": 2,
       "predictedAwayScore": 1,
       "homeKeeper": "Gregor Kobel",
-      "awayKeeper": "Maxime Crépeau"
+      "awayKeeper": "Maxime Crépeau",
+      "homeStats": {
+        "shots": 6,
+        "shotsOnTarget": 4,
+        "possession": 55.3,
+        "passes": 443,
+        "fouls": 19,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 2,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 13,
+        "shotsOnTarget": 7,
+        "possession": 44.7,
+        "passes": 339,
+        "fouls": 13,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 7,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -8237,7 +11328,31 @@
       "predictedHomeScore": 0,
       "predictedAwayScore": 2,
       "homeKeeper": "Nikola Vasilj",
-      "awayKeeper": "Mahmud Abunada"
+      "awayKeeper": "Mahmud Abunada",
+      "homeStats": {
+        "shots": 14,
+        "shotsOnTarget": 5,
+        "possession": 54.4,
+        "passes": 515,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 5,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 9,
+        "shotsOnTarget": 3,
+        "possession": 45.6,
+        "passes": 434,
+        "fouls": 14,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 5,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -8276,7 +11391,31 @@
       "predictedHomeScore": 0,
       "predictedAwayScore": 2,
       "homeKeeper": "Angus Gunn",
-      "awayKeeper": "Alisson Becker"
+      "awayKeeper": "Alisson Becker",
+      "homeStats": {
+        "shots": 14,
+        "shotsOnTarget": 5,
+        "possession": 46,
+        "passes": 500,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 7,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 21,
+        "shotsOnTarget": 9,
+        "possession": 54,
+        "passes": 605,
+        "fouls": 11,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 7,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -8336,7 +11475,31 @@
       "predictedHomeScore": 3,
       "predictedAwayScore": 1,
       "homeKeeper": "Yassine Bounou",
-      "awayKeeper": "Johny Placide"
+      "awayKeeper": "Johny Placide",
+      "homeStats": {
+        "shots": 22,
+        "shotsOnTarget": 11,
+        "possession": 69.1,
+        "passes": 541,
+        "fouls": 10,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 5,
+        "corners": 9,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 9,
+        "shotsOnTarget": 2,
+        "possession": 30.9,
+        "passes": 247,
+        "fouls": 18,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 1,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -8381,7 +11544,31 @@
       "predictedHomeScore": 0,
       "predictedAwayScore": 2,
       "homeKeeper": "Matěj Kovář",
-      "awayKeeper": "Raúl Rangel"
+      "awayKeeper": "Raúl Rangel",
+      "homeStats": {
+        "shots": 13,
+        "shotsOnTarget": 1,
+        "possession": 51.9,
+        "passes": 398,
+        "fouls": 9,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 5,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 11,
+        "shotsOnTarget": 5,
+        "possession": 48.1,
+        "passes": 386,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 1,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Wednesday, June 24, 2026",
@@ -8421,7 +11608,31 @@
       "predictedHomeScore": 1,
       "predictedAwayScore": 3,
       "homeKeeper": "Ronwen Williams",
-      "awayKeeper": "Kim Seung-gyu"
+      "awayKeeper": "Kim Seung-gyu",
+      "homeStats": {
+        "shots": 13,
+        "shotsOnTarget": 4,
+        "possession": 31.6,
+        "passes": 340,
+        "fouls": 7,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 8,
+        "shotsOnTarget": 3,
+        "possession": 68.4,
+        "passes": 719,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 6,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Thursday, June 25, 2026",
@@ -8471,7 +11682,31 @@
       "predictedHomeScore": 1,
       "predictedAwayScore": 3,
       "homeKeeper": "Eloy Room",
-      "awayKeeper": "Yahia Fofana"
+      "awayKeeper": "Yahia Fofana",
+      "homeStats": {
+        "shots": 11,
+        "shotsOnTarget": 2,
+        "possession": 36.7,
+        "passes": 355,
+        "fouls": 11,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 7,
+        "shotsOnTarget": 3,
+        "possession": 63.3,
+        "passes": 624,
+        "fouls": 6,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 6,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Thursday, June 25, 2026",
@@ -8508,7 +11743,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Hernán Galíndez",
-      "awayKeeper": "Manuel Neuer"
+      "awayKeeper": "Manuel Neuer",
+      "homeStats": {
+        "shots": 7,
+        "shotsOnTarget": 3,
+        "possession": 38.9,
+        "passes": 378,
+        "fouls": 15,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 3,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 11,
+        "shotsOnTarget": 3,
+        "possession": 61.1,
+        "passes": 592,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 2,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Thursday, June 25, 2026",
@@ -8540,7 +11799,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Zion Suzuki",
-      "awayKeeper": "Kristoffer Nordfeldt"
+      "awayKeeper": "Kristoffer Nordfeldt",
+      "homeStats": {
+        "shots": 8,
+        "shotsOnTarget": 3,
+        "possession": 52.3,
+        "passes": 445,
+        "fouls": 20,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 2,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 11,
+        "shotsOnTarget": 5,
+        "possession": 47.7,
+        "passes": 395,
+        "fouls": 11,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 8,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Thursday, June 25, 2026",
@@ -8582,7 +11865,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Aymen Dahmen",
-      "awayKeeper": "Bart Verbruggen"
+      "awayKeeper": "Bart Verbruggen",
+      "homeStats": {
+        "shots": 10,
+        "shotsOnTarget": 4,
+        "possession": 28.6,
+        "passes": 258,
+        "fouls": 11,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 20,
+        "shotsOnTarget": 7,
+        "possession": 71.4,
+        "passes": 647,
+        "fouls": 10,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 6,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Thursday, June 25, 2026",
@@ -8609,7 +11916,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Orlando Gill",
-      "awayKeeper": "Patrick Beach"
+      "awayKeeper": "Patrick Beach",
+      "homeStats": {
+        "shots": 7,
+        "shotsOnTarget": 2,
+        "possession": 44,
+        "passes": 426,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 1,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 12,
+        "shotsOnTarget": 5,
+        "possession": 56,
+        "passes": 537,
+        "fouls": 6,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 3,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Thursday, June 25, 2026",
@@ -8656,7 +11987,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Uğurcan Çakır",
-      "awayKeeper": "Matt Freese"
+      "awayKeeper": "Matt Freese",
+      "homeStats": {
+        "shots": 9,
+        "shotsOnTarget": 3,
+        "possession": 47.4,
+        "passes": 434,
+        "fouls": 13,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 2,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 18,
+        "shotsOnTarget": 7,
+        "possession": 52.6,
+        "passes": 471,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 5,
+        "corners": 9,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Tuesday, June 16, 2026",
@@ -8703,7 +12058,31 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Jalal Hassan",
-      "awayKeeper": "Ørjan Nyland"
+      "awayKeeper": "Ørjan Nyland",
+      "homeStats": {
+        "shots": 11,
+        "shotsOnTarget": 1,
+        "possession": 38.7,
+        "passes": 334,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 2,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 12,
+        "shotsOnTarget": 5,
+        "possession": 61.3,
+        "passes": 537,
+        "fouls": 13,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 5,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Friday, June 26, 2026",
@@ -8758,7 +12137,31 @@
       "predictedHomeScore": 0,
       "predictedAwayScore": 2,
       "homeKeeper": "Egil Selvik",
-      "awayKeeper": "Mike Maignan"
+      "awayKeeper": "Mike Maignan",
+      "homeStats": {
+        "shots": 10,
+        "shotsOnTarget": 4,
+        "possession": 43.3,
+        "passes": 421,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 18,
+        "shotsOnTarget": 9,
+        "possession": 56.7,
+        "passes": 555,
+        "fouls": 11,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 5,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Friday, June 26, 2026",
@@ -8813,7 +12216,31 @@
       "predictedHomeScore": 3,
       "predictedAwayScore": 1,
       "homeKeeper": "Mory Diaw",
-      "awayKeeper": "Ahmed Basil"
+      "awayKeeper": "Ahmed Basil",
+      "homeStats": {
+        "shots": 28,
+        "shotsOnTarget": 12,
+        "possession": 69.2,
+        "passes": 590,
+        "fouls": 10,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 12,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 6,
+        "shotsOnTarget": 1,
+        "possession": 30.8,
+        "passes": 266,
+        "fouls": 11,
+        "yellowCards": 2,
+        "redCards": 1,
+        "offsides": 0,
+        "corners": 3,
+        "passAccuracy": 70
+      }
     },
     {
       "date": "Friday, June 26, 2026",
@@ -8857,7 +12284,31 @@
       "predictedHomeScore": 1,
       "predictedAwayScore": 2,
       "homeKeeper": "Vozinha",
-      "awayKeeper": "Mohammed Al-Owais"
+      "awayKeeper": "Mohammed Al-Owais",
+      "homeStats": {
+        "shots": 15,
+        "shotsOnTarget": 2,
+        "possession": 51,
+        "passes": 451,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 7,
+        "shotsOnTarget": 3,
+        "possession": 49,
+        "passes": 444,
+        "fouls": 16,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 2,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Friday, June 26, 2026",
@@ -8913,7 +12364,31 @@
       "predictedHomeScore": 1,
       "predictedAwayScore": 2,
       "homeKeeper": "Fernando Muslera",
-      "awayKeeper": "Unai Simón"
+      "awayKeeper": "Unai Simón",
+      "homeStats": {
+        "shots": 5,
+        "shotsOnTarget": 1,
+        "possession": 33.1,
+        "passes": 301,
+        "fouls": 14,
+        "yellowCards": 3,
+        "redCards": 1,
+        "offsides": 5,
+        "corners": 1,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 6,
+        "shotsOnTarget": 1,
+        "possession": 66.9,
+        "passes": 622,
+        "fouls": 14,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 6,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Friday, June 26, 2026",
@@ -8983,7 +12458,31 @@
       "predictedHomeScore": 1,
       "predictedAwayScore": 2,
       "homeKeeper": "Mostafa Shobeir",
-      "awayKeeper": "Alireza Beiranvand"
+      "awayKeeper": "Alireza Beiranvand",
+      "homeStats": {
+        "shots": 15,
+        "shotsOnTarget": 3,
+        "possession": 61.4,
+        "passes": 589,
+        "fouls": 11,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 8,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 13,
+        "shotsOnTarget": 4,
+        "possession": 38.6,
+        "passes": 367,
+        "fouls": 16,
+        "yellowCards": 4,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 2,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Friday, June 26, 2026",
@@ -9043,7 +12542,31 @@
       "predictedHomeScore": 1,
       "predictedAwayScore": 3,
       "homeKeeper": "Max Crocombe",
-      "awayKeeper": "Thibaut Courtois"
+      "awayKeeper": "Thibaut Courtois",
+      "homeStats": {
+        "shots": 6,
+        "shotsOnTarget": 2,
+        "possession": 45.5,
+        "passes": 436,
+        "fouls": 10,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 5,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 35,
+        "shotsOnTarget": 10,
+        "possession": 54.5,
+        "passes": 525,
+        "fouls": 7,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 8,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -9093,7 +12616,31 @@
       "predictedHomeScore": 0,
       "predictedAwayScore": 2,
       "homeKeeper": "Orlando Mosquera",
-      "awayKeeper": "Jordan Pickford"
+      "awayKeeper": "Jordan Pickford",
+      "homeStats": {
+        "shots": 13,
+        "shotsOnTarget": 2,
+        "possession": 32.9,
+        "passes": 268,
+        "fouls": 16,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 4,
+        "corners": 3,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 17,
+        "shotsOnTarget": 6,
+        "possession": 67.1,
+        "passes": 558,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 4,
+        "corners": 7,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -9143,7 +12690,31 @@
       "predictedHomeScore": 3,
       "predictedAwayScore": 1,
       "homeKeeper": "Dominik Livaković",
-      "awayKeeper": "Lawrence Ati-Zigi"
+      "awayKeeper": "Lawrence Ati-Zigi",
+      "homeStats": {
+        "shots": 8,
+        "shotsOnTarget": 4,
+        "possession": 53.3,
+        "passes": 523,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 3,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 6,
+        "shotsOnTarget": 1,
+        "possession": 46.7,
+        "passes": 455,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 2,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -9172,7 +12743,31 @@
       "predictedHomeScore": 1,
       "predictedAwayScore": 1,
       "homeKeeper": "Camilo Vargas",
-      "awayKeeper": "Diogo Costa"
+      "awayKeeper": "Diogo Costa",
+      "homeStats": {
+        "shots": 24,
+        "shotsOnTarget": 6,
+        "possession": 54.6,
+        "passes": 544,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 5,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 13,
+        "shotsOnTarget": 2,
+        "possession": 45.4,
+        "passes": 446,
+        "fouls": 6,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 2,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -9242,7 +12837,31 @@
       "predictedHomeScore": 1,
       "predictedAwayScore": 1,
       "homeKeeper": "Lionel Mpasi",
-      "awayKeeper": "Abduvohid Nematov"
+      "awayKeeper": "Abduvohid Nematov",
+      "homeStats": {
+        "shots": 19,
+        "shotsOnTarget": 4,
+        "possession": 57.6,
+        "passes": 485,
+        "fouls": 6,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 2,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 3,
+        "shotsOnTarget": 1,
+        "possession": 42.4,
+        "passes": 355,
+        "fouls": 16,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 4,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -9302,7 +12921,31 @@
       "predictedHomeScore": 1,
       "predictedAwayScore": 2,
       "homeKeeper": "Oussama Benbot",
-      "awayKeeper": "Alexander Schlager"
+      "awayKeeper": "Alexander Schlager",
+      "homeStats": {
+        "shots": 12,
+        "shotsOnTarget": 5,
+        "possession": 65,
+        "passes": 754,
+        "fouls": 3,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 0,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 10,
+        "shotsOnTarget": 3,
+        "possession": 35,
+        "passes": 396,
+        "fouls": 7,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 3,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Saturday, June 27, 2026",
@@ -9352,7 +12995,31 @@
       "predictedHomeScore": 1,
       "predictedAwayScore": 3,
       "homeKeeper": "Yazeed Abulaila",
-      "awayKeeper": "Emiliano Martínez"
+      "awayKeeper": "Emiliano Martínez",
+      "homeStats": {
+        "shots": 5,
+        "shotsOnTarget": 1,
+        "possession": 26.7,
+        "passes": 285,
+        "fouls": 13,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 2,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 12,
+        "shotsOnTarget": 4,
+        "possession": 73.3,
+        "passes": 801,
+        "fouls": 7,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 6,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Sunday, June 28, 2026",
@@ -9392,7 +13059,31 @@
       "predictedHomeScore": 1,
       "predictedAwayScore": 1,
       "homeKeeper": "Ronwen Williams",
-      "awayKeeper": "Maxime Crépeau"
+      "awayKeeper": "Maxime Crépeau",
+      "homeStats": {
+        "shots": 6,
+        "shotsOnTarget": 1,
+        "possession": 58.4,
+        "passes": 554,
+        "fouls": 10,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 1,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 12,
+        "shotsOnTarget": 7,
+        "possession": 41.6,
+        "passes": 379,
+        "fouls": 16,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 4,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Monday, June 29, 2026",
@@ -9457,7 +13148,31 @@
       "predictedHomeScore": 2,
       "predictedAwayScore": 1,
       "homeKeeper": "Alisson Becker",
-      "awayKeeper": "Zion Suzuki"
+      "awayKeeper": "Zion Suzuki",
+      "homeStats": {
+        "shots": 19,
+        "shotsOnTarget": 7,
+        "possession": 68.6,
+        "passes": 682,
+        "fouls": 4,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 6,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 5,
+        "shotsOnTarget": 2,
+        "possession": 31.4,
+        "passes": 313,
+        "fouls": 13,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 2,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Monday, June 29, 2026",
@@ -9516,7 +13231,31 @@
       "predictedHomeScore": 2,
       "predictedAwayScore": 0,
       "homeKeeper": "Manuel Neuer",
-      "awayKeeper": "Orlando Gill"
+      "awayKeeper": "Orlando Gill",
+      "homeStats": {
+        "shots": 21,
+        "shotsOnTarget": 6,
+        "possession": 75.6,
+        "passes": 805,
+        "fouls": 18,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 4,
+        "corners": 16,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 7,
+        "shotsOnTarget": 3,
+        "possession": 24.4,
+        "passes": 255,
+        "fouls": 12,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 6,
+        "passAccuracy": 60
+      }
     },
     {
       "date": "Monday, June 29, 2026",
@@ -9560,7 +13299,31 @@
       "predictedHomeScore": 2,
       "predictedAwayScore": 1,
       "homeKeeper": "Bart Verbruggen",
-      "awayKeeper": "Yassine Bounou"
+      "awayKeeper": "Yassine Bounou",
+      "homeStats": {
+        "shots": 6,
+        "shotsOnTarget": 2,
+        "possession": 29.9,
+        "passes": 371,
+        "fouls": 18,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 5,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 11,
+        "shotsOnTarget": 5,
+        "possession": 70.1,
+        "passes": 879,
+        "fouls": 15,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 8,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Tuesday, June 30, 2026",
@@ -9605,7 +13368,31 @@
       "predictedHomeScore": 1,
       "predictedAwayScore": 2,
       "homeKeeper": "Yahia Fofana",
-      "awayKeeper": "Ørjan Nyland"
+      "awayKeeper": "Ørjan Nyland",
+      "homeStats": {
+        "shots": 14,
+        "shotsOnTarget": 5,
+        "possession": 47,
+        "passes": 401,
+        "fouls": 6,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 14,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 9,
+        "shotsOnTarget": 4,
+        "possession": 53,
+        "passes": 474,
+        "fouls": 7,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 3,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Tuesday, June 30, 2026",
@@ -9644,7 +13431,31 @@
       "predictedHomeScore": 3,
       "predictedAwayScore": 1,
       "homeKeeper": "Mike Maignan",
-      "awayKeeper": "Jacob Widell Zetterström"
+      "awayKeeper": "Jacob Widell Zetterström",
+      "homeStats": {
+        "shots": 25,
+        "shotsOnTarget": 12,
+        "possession": 61,
+        "passes": 551,
+        "fouls": 14,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 9,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 8,
+        "shotsOnTarget": 3,
+        "possession": 39,
+        "passes": 350,
+        "fouls": 10,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 1,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Tuesday, June 30, 2026",
@@ -9695,7 +13506,31 @@
       "predictedHomeScore": 2,
       "predictedAwayScore": 1,
       "homeKeeper": "Raúl Rangel",
-      "awayKeeper": "Hernán Galíndez"
+      "awayKeeper": "Hernán Galíndez",
+      "homeStats": {
+        "shots": 15,
+        "shotsOnTarget": 3,
+        "possession": 42.8,
+        "passes": 316,
+        "fouls": 10,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 3,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 7,
+        "shotsOnTarget": 1,
+        "possession": 57.2,
+        "passes": 410,
+        "fouls": 14,
+        "yellowCards": 3,
+        "redCards": 1,
+        "offsides": 1,
+        "corners": 8,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Wednesday, July 1, 2026",
@@ -9745,7 +13580,31 @@
       "predictedHomeScore": 2,
       "predictedAwayScore": 0,
       "homeKeeper": "Jordan Pickford",
-      "awayKeeper": "Lionel Mpasi"
+      "awayKeeper": "Lionel Mpasi",
+      "homeStats": {
+        "shots": 16,
+        "shotsOnTarget": 7,
+        "possession": 59.7,
+        "passes": 517,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 5,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 7,
+        "shotsOnTarget": 2,
+        "possession": 40.3,
+        "passes": 365,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 4,
+        "corners": 3,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Wednesday, July 1, 2026",
@@ -9825,7 +13684,31 @@
       "predictedHomeScore": 2,
       "predictedAwayScore": 1,
       "homeKeeper": "Thibaut Courtois",
-      "awayKeeper": "Mory Diaw"
+      "awayKeeper": "Mory Diaw",
+      "homeStats": {
+        "shots": 19,
+        "shotsOnTarget": 5,
+        "possession": 52.3,
+        "passes": 701,
+        "fouls": 22,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 4,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 19,
+        "shotsOnTarget": 5,
+        "possession": 47.7,
+        "passes": 639,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 2,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Wednesday, July 1, 2026",
@@ -9876,7 +13759,31 @@
       "predictedHomeScore": 2,
       "predictedAwayScore": 1,
       "homeKeeper": "Matt Freese",
-      "awayKeeper": "Nikola Vasilj"
+      "awayKeeper": "Nikola Vasilj",
+      "homeStats": {
+        "shots": 8,
+        "shotsOnTarget": 2,
+        "possession": 48.4,
+        "passes": 415,
+        "fouls": 7,
+        "yellowCards": 0,
+        "redCards": 1,
+        "offsides": 3,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 10,
+        "shotsOnTarget": 3,
+        "possession": 51.6,
+        "passes": 447,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 3,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Thursday, July 2, 2026",
@@ -9921,7 +13828,31 @@
       "predictedHomeScore": 3,
       "predictedAwayScore": 0,
       "homeKeeper": "Unai Simón",
-      "awayKeeper": "Alexander Schlager"
+      "awayKeeper": "Alexander Schlager",
+      "homeStats": {
+        "shots": 23,
+        "shotsOnTarget": 10,
+        "possession": 64.4,
+        "passes": 629,
+        "fouls": 8,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 9,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 5,
+        "shotsOnTarget": 0,
+        "possession": 35.6,
+        "passes": 347,
+        "fouls": 15,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 5,
+        "corners": 0,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Thursday, July 2, 2026",
@@ -9976,7 +13907,31 @@
       "predictedHomeScore": 1,
       "predictedAwayScore": 1,
       "homeKeeper": "Diogo Costa",
-      "awayKeeper": "Dominik Livaković"
+      "awayKeeper": "Dominik Livaković",
+      "homeStats": {
+        "shots": 15,
+        "shotsOnTarget": 3,
+        "possession": 60.4,
+        "passes": 585,
+        "fouls": 6,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 9,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 13,
+        "shotsOnTarget": 6,
+        "possession": 39.6,
+        "passes": 370,
+        "fouls": 12,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 4,
+        "corners": 5,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Thursday, July 2, 2026",
@@ -10021,7 +13976,31 @@
       "predictedHomeScore": 2,
       "predictedAwayScore": 0,
       "homeKeeper": "Gregor Kobel",
-      "awayKeeper": "Luca Zidane"
+      "awayKeeper": "Luca Zidane",
+      "homeStats": {
+        "shots": 11,
+        "shotsOnTarget": 5,
+        "possession": 44.5,
+        "passes": 438,
+        "fouls": 10,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 8,
+        "shotsOnTarget": 2,
+        "possession": 55.5,
+        "passes": 563,
+        "fouls": 12,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 2,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Friday, July 3, 2026",
@@ -10059,7 +14038,31 @@
       "predictedHomeScore": 1,
       "predictedAwayScore": 2,
       "homeKeeper": "Patrick Beach",
-      "awayKeeper": "Mostafa Shobeir"
+      "awayKeeper": "Mostafa Shobeir",
+      "homeStats": {
+        "shots": 16,
+        "shotsOnTarget": 1,
+        "possession": 41.7,
+        "passes": 505,
+        "fouls": 12,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 4,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 14,
+        "shotsOnTarget": 3,
+        "possession": 58.3,
+        "passes": 722,
+        "fouls": 14,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 7,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Friday, July 3, 2026",
@@ -10119,7 +14122,31 @@
       "predictedHomeScore": 3,
       "predictedAwayScore": 1,
       "homeKeeper": "Emiliano Martínez",
-      "awayKeeper": "Vozinha"
+      "awayKeeper": "Vozinha",
+      "homeStats": {
+        "shots": 22,
+        "shotsOnTarget": 10,
+        "possession": 63.6,
+        "passes": 850,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 8,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 16,
+        "shotsOnTarget": 5,
+        "possession": 36.4,
+        "passes": 476,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 8,
+        "passAccuracy": 90
+      }
     },
     {
       "date": "Friday, July 3, 2026",
@@ -10174,7 +14201,31 @@
       "predictedHomeScore": 2,
       "predictedAwayScore": 1,
       "homeKeeper": "Camilo Vargas",
-      "awayKeeper": "Lawrence Ati-Zigi"
+      "awayKeeper": "Lawrence Ati-Zigi",
+      "homeStats": {
+        "shots": 20,
+        "shotsOnTarget": 8,
+        "possession": 60.7,
+        "passes": 586,
+        "fouls": 14,
+        "yellowCards": 2,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 3,
+        "passAccuracy": 90
+      },
+      "awayStats": {
+        "shots": 8,
+        "shotsOnTarget": 0,
+        "possession": 39.3,
+        "passes": 376,
+        "fouls": 10,
+        "yellowCards": 3,
+        "redCards": 0,
+        "offsides": 0,
+        "corners": 2,
+        "passAccuracy": 80
+      }
     },
     {
       "date": "Saturday, July 4, 2026",
@@ -10252,63 +14303,44 @@
       "redCards": [],
       "penalties": 0,
       "homeKeeper": "Maxime Crépeau",
-      "awayKeeper": "Yassine Bounou"
-    },
-    {
-      "date": "Saturday, July 4, 2026",
-      "stage": "Knockout",
-      "group": "Match 89 · Round of 16",
-      "time": "4:00 PM CDT (5:00 PM EDT venue local)",
-      "home": "Paraguay",
-      "homeFlag": "PAR",
-      "away": "France",
-      "awayFlag": "FRA",
-      "location": "Lincoln Financial Field · Philadelphia",
-      "status": "FT",
-      "elapsed": 103,
-      "homeScore": 0,
-      "awayScore": 1,
-      "scorers": [
-        {
-          "player": "Kylian Mbappé",
-          "team": "France",
-          "match": "Paraguay vs France"
-        }
-      ],
-      "yellowCards": [
-        {
-          "player": "Bradley Barcola",
-          "team": "France",
-          "match": "Paraguay vs France"
-        },
-        {
-          "player": "Manu Koné",
-          "team": "France",
-          "match": "Paraguay vs France"
-        },
-        {
-          "player": "Michael Olise",
-          "team": "France",
-          "match": "Paraguay vs France"
-        }
-      ],
-      "redCards": [],
-      "penalties": 1,
-      "homeKeeper": "Orlando Gill",
-      "awayKeeper": "Mike Maignan"
+      "awayKeeper": "Yassine Bounou",
+      "homeStats": {
+        "shots": 10,
+        "shotsOnTarget": 3,
+        "possession": 44.7,
+        "passes": 359,
+        "fouls": 24,
+        "yellowCards": 4,
+        "redCards": 0,
+        "offsides": 2,
+        "corners": 11,
+        "passAccuracy": 80
+      },
+      "awayStats": {
+        "shots": 5,
+        "shotsOnTarget": 4,
+        "possession": 55.3,
+        "passes": 473,
+        "fouls": 14,
+        "yellowCards": 4,
+        "redCards": 0,
+        "offsides": 3,
+        "corners": 1,
+        "passAccuracy": 80
+      }
     }
   ],
   "detailedStats": {
     "scorers": [
       {
-        "name": "Kylian Mbappé",
-        "value": 7,
-        "detail": "France"
-      },
-      {
         "name": "Lionel Messi",
         "value": 7,
         "detail": "Argentina"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "value": 6,
+        "detail": "France"
       },
       {
         "name": "Erling Haaland",
@@ -10788,7 +14820,7 @@
       {
         "name": "Hwang In-beom",
         "value": 1,
-        "detail": "South Africa"
+        "detail": "Korea Republic"
       },
       {
         "name": "Ibrahim Mbaye",
@@ -11078,7 +15110,7 @@
       {
         "name": "Oh Hyeon-gyu",
         "value": 1,
-        "detail": "South Africa"
+        "detail": "Korea Republic"
       },
       {
         "name": "Omar Rekik",
@@ -11208,11 +15240,6 @@
         "detail": "Colombia · 1 goals conceded in 4 appearances"
       },
       {
-        "name": "Mike Maignan",
-        "value": 3,
-        "detail": "France · 2 goals conceded in 5 appearances"
-      },
-      {
         "name": "Alisson Becker",
         "value": 2,
         "detail": "Brazil · 2 goals conceded in 4 appearances"
@@ -11243,9 +15270,14 @@
         "detail": "Canada · 6 goals conceded in 5 appearances"
       },
       {
+        "name": "Mike Maignan",
+        "value": 2,
+        "detail": "France · 2 goals conceded in 4 appearances"
+      },
+      {
         "name": "Orlando Gill",
         "value": 2,
-        "detail": "Paraguay · 6 goals conceded in 5 appearances"
+        "detail": "Paraguay · 5 goals conceded in 4 appearances"
       },
       {
         "name": "Patrick Beach",
@@ -11479,8 +15511,8 @@
       }
     ],
     "redCards": {
-      "Mexico": 1,
       "South Africa": 2,
+      "Mexico": 1,
       "Bosnia and Herzegovina": 1,
       "Qatar": 2,
       "Paraguay": 1,
@@ -11491,8 +15523,8 @@
       "Iran": 1
     },
     "yellowCards": {
-      "Mexico": 3,
       "South Africa": 7,
+      "Mexico": 3,
       "Canada": 10,
       "Bosnia and Herzegovina": 6,
       "Paraguay": 10,
@@ -11536,23 +15568,22 @@
       "Croatia": 3,
       "Norway": 2,
       "Japan": 3,
-      "Senegal": 2,
-      "France": 3
+      "Senegal": 2
     },
     "redCardEvents": [
       {
-        "player": "O",
+        "player": "Sphephelo Sithole",
+        "team": "South Africa",
+        "match": "Mexico vs South Africa"
+      },
+      {
+        "player": "Themba Zwane",
+        "team": "South Africa",
+        "match": "Mexico vs South Africa"
+      },
+      {
+        "player": "César Montes",
         "team": "Mexico",
-        "match": "Mexico vs South Africa"
-      },
-      {
-        "player": "T",
-        "team": "South Africa",
-        "match": "Mexico vs South Africa"
-      },
-      {
-        "player": "Th",
-        "team": "South Africa",
         "match": "Mexico vs South Africa"
       },
       {
@@ -11603,17 +15634,17 @@
     ],
     "yellowCardEvents": [
       {
-        "player": "One",
-        "team": "Mexico",
-        "match": "Mexico vs South Africa"
-      },
-      {
-        "player": "Two",
+        "player": "Teboho Mokoena",
         "team": "South Africa",
         "match": "Mexico vs South Africa"
       },
       {
-        "player": "Three",
+        "player": "Carlos Gutiérrez",
+        "team": "Mexico",
+        "match": "Mexico vs South Africa"
+      },
+      {
+        "player": "Nkosinathi Sibisi",
         "team": "South Africa",
         "match": "Mexico vs South Africa"
       },
@@ -12578,21 +16609,6 @@
         "match": "Colombia vs Ghana"
       },
       {
-        "player": "Bradley Barcola",
-        "team": "France",
-        "match": "Paraguay vs France"
-      },
-      {
-        "player": "Manu Koné",
-        "team": "France",
-        "match": "Paraguay vs France"
-      },
-      {
-        "player": "Michael Olise",
-        "team": "France",
-        "match": "Paraguay vs France"
-      },
-      {
         "player": "Redouane Halhal",
         "team": "Morocco",
         "match": "Canada vs Morocco"
@@ -12672,9 +16688,6 @@
       },
       {
         "match": "Portugal vs Croatia"
-      },
-      {
-        "match": "Paraguay vs France"
       }
     ],
     "matchStats": [
@@ -13293,13 +17306,6 @@
         "yellowCards": 5,
         "penalties": 0,
         "elapsed": 98
-      },
-      {
-        "match": "Paraguay vs France",
-        "redCards": 0,
-        "yellowCards": 3,
-        "penalties": 1,
-        "elapsed": 103
       },
       {
         "match": "Canada vs Morocco",
