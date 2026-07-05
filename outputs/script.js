@@ -1388,7 +1388,6 @@ const matchStatRows = [
   { label: "Possession", keys: ["possession", "possessionPercentage", "possessionPercent"], suffix: "%" },
   { label: "Passes", keys: ["passes", "totalPasses"] },
   { label: "Pass Accuracy", keys: ["passAccuracy", "passingAccuracy", "passAccuracyPercentage"], suffix: "%" },
-  { label: "Dribble Accuracy", keys: ["dribbleAccuracy", "dribblingAccuracy", "dribbleAccuracyPercentage"], suffix: "%" },
   { label: "Fouls", keys: ["fouls", "foulsCommitted"] },
   { label: "Yellow Cards", keys: ["yellowCards"], eventKey: "yellowCards" },
   { label: "Red Cards", keys: ["redCards"], eventKey: "redCards" },
