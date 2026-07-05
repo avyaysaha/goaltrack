@@ -1371,10 +1371,12 @@ function formatMatchStat(value, suffix = "") {
 function getTeamMatchStat(match, statsRecord, side, row) {
   const teamName = side === "home" ? match.home : match.away;
   if (row.eventKey === "yellowCards") {
-    return countTeamEvents(match.yellowCards, teamName);
+    return statFromSideObjects(match, statsRecord, side, row.keys) ??
+      countTeamEvents(match.yellowCards, teamName);
   }
   if (row.eventKey === "redCards") {
-    return countTeamEvents(match.redCards, teamName);
+    return statFromSideObjects(match, statsRecord, side, row.keys) ??
+      countTeamEvents(match.redCards, teamName);
   }
 
   return statFromSideObjects(match, statsRecord, side, row.keys);
