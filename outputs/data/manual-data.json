@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T00:48:23.234Z",
+  "updatedAt": "2026-07-05T00:54:53.543Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -768,7 +768,31 @@
       "homeKeeper": "Raúl Rangel",
       "awayKeeper": "Ronwen Williams",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "homeStats": {
+        "shots": 16,
+        "shotsOnTarget": 4,
+        "possession": 60.5,
+        "passes": 520,
+        "passAccuracy": 90,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": 1,
+        "offsides": 1,
+        "corners": 3
+      },
+      "awayStats": {
+        "shots": 3,
+        "shotsOnTarget": 2,
+        "possession": 39.5,
+        "passes": 334,
+        "passAccuracy": 80,
+        "fouls": 11,
+        "yellowCards": 2,
+        "redCards": 2,
+        "offsides": 1,
+        "corners": 1
+      }
     },
     {
       "date": "Thursday, June 11, 2026",
@@ -7884,7 +7908,31 @@
       ],
       "penalties": 0,
       "homeKeeper": "Raúl Rangel",
-      "awayKeeper": "Ronwen Williams"
+      "awayKeeper": "Ronwen Williams",
+      "homeStats": {
+        "shots": 16,
+        "shotsOnTarget": 4,
+        "possession": 60.5,
+        "passes": 520,
+        "passAccuracy": 90,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": 1,
+        "offsides": 1,
+        "corners": 3
+      },
+      "awayStats": {
+        "shots": 3,
+        "shotsOnTarget": 2,
+        "possession": 39.5,
+        "passes": 334,
+        "passAccuracy": 80,
+        "fouls": 11,
+        "yellowCards": 2,
+        "redCards": 2,
+        "offsides": 1,
+        "corners": 1
+      }
     },
     {
       "date": "Thursday, June 11, 2026",
