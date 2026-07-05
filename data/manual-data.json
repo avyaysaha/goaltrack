@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T23:21:41.270Z",
+  "updatedAt": "2026-07-05T00:03:47.210Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -706,7 +706,7 @@
       "date": "Thursday, June 11, 2026",
       "stage": "Group Stage",
       "group": "Group A",
-      "time": "1:00 PM local",
+      "time": "2:00 pm CDT (1:00 PM CST venue local)",
       "kickoffISO": "2026-06-11T19:00:00Z",
       "home": "Mexico",
       "homeFlag": "MEX",
@@ -732,35 +732,35 @@
       ],
       "yellowCards": [
         {
-          "player": "Teboho Mokoena",
-          "team": "South Africa",
-          "match": "Mexico vs South Africa"
-        },
-        {
-          "player": "Carlos Gutiérrez",
+          "player": "One",
           "team": "Mexico",
           "match": "Mexico vs South Africa"
         },
         {
-          "player": "Nkosinathi Sibisi",
+          "player": "Two",
           "team": "South Africa",
+          "match": "Mexico vs South Africa"
+        },
+        {
+          "player": "Three",
+          "team": "Mexico",
           "match": "Mexico vs South Africa"
         }
       ],
       "redCards": [
         {
-          "player": "Sphephelo Sithole",
-          "team": "South Africa",
-          "match": "Mexico vs South Africa"
-        },
-        {
-          "player": "Themba Zwane",
-          "team": "South Africa",
-          "match": "Mexico vs South Africa"
-        },
-        {
-          "player": "César Montes",
+          "player": "O",
           "team": "Mexico",
+          "match": "Mexico vs South Africa"
+        },
+        {
+          "player": "T",
+          "team": "South Africa",
+          "match": "Mexico vs South Africa"
+        },
+        {
+          "player": "TH",
+          "team": "South Africa",
           "match": "Mexico vs South Africa"
         }
       ],
@@ -768,7 +768,17 @@
       "homeKeeper": "Raúl Rangel",
       "awayKeeper": "Ronwen Williams",
       "predictedHomeScore": 3,
-      "predictedAwayScore": 1
+      "predictedAwayScore": 1,
+      "homeStats": {
+        "shots": 16,
+        "possession": 61,
+        "corners": 3
+      },
+      "awayStats": {
+        "shots": 3,
+        "possession": 39,
+        "corners": 1
+      }
     },
     {
       "date": "Thursday, June 11, 2026",
@@ -5708,7 +5718,7 @@
       "date": "Thursday, June 11, 2026",
       "stage": "Group Stage",
       "group": "Group A",
-      "time": "1:00 PM local",
+      "time": "2:00 pm CDT (1:00 PM CST venue local)",
       "home": "Mexico",
       "homeFlag": "MEX",
       "away": "South Africa",
@@ -5732,41 +5742,53 @@
       ],
       "yellowCards": [
         {
-          "player": "Teboho Mokoena",
-          "team": "South Africa",
-          "match": "Mexico vs South Africa"
-        },
-        {
-          "player": "Carlos Gutiérrez",
+          "player": "One",
           "team": "Mexico",
           "match": "Mexico vs South Africa"
         },
         {
-          "player": "Nkosinathi Sibisi",
+          "player": "Two",
           "team": "South Africa",
+          "match": "Mexico vs South Africa"
+        },
+        {
+          "player": "Three",
+          "team": "Mexico",
           "match": "Mexico vs South Africa"
         }
       ],
       "redCards": [
         {
-          "player": "Sphephelo Sithole",
-          "team": "South Africa",
-          "match": "Mexico vs South Africa"
-        },
-        {
-          "player": "Themba Zwane",
-          "team": "South Africa",
-          "match": "Mexico vs South Africa"
-        },
-        {
-          "player": "César Montes",
+          "player": "O",
           "team": "Mexico",
+          "match": "Mexico vs South Africa"
+        },
+        {
+          "player": "T",
+          "team": "South Africa",
+          "match": "Mexico vs South Africa"
+        },
+        {
+          "player": "TH",
+          "team": "South Africa",
           "match": "Mexico vs South Africa"
         }
       ],
       "penalties": 0,
+      "predictedHomeScore": 3,
+      "predictedAwayScore": 1,
       "homeKeeper": "Raúl Rangel",
-      "awayKeeper": "Ronwen Williams"
+      "awayKeeper": "Ronwen Williams",
+      "homeStats": {
+        "shots": 16,
+        "possession": 61,
+        "corners": 3
+      },
+      "awayStats": {
+        "shots": 3,
+        "possession": 39,
+        "corners": 1
+      }
     },
     {
       "date": "Thursday, June 11, 2026",
@@ -11387,8 +11409,8 @@
       }
     ],
     "redCards": {
-      "South Africa": 2,
       "Mexico": 1,
+      "South Africa": 2,
       "Bosnia and Herzegovina": 1,
       "Qatar": 2,
       "Paraguay": 1,
@@ -11399,8 +11421,8 @@
       "Iran": 1
     },
     "yellowCards": {
-      "South Africa": 7,
-      "Mexico": 3,
+      "Mexico": 4,
+      "South Africa": 6,
       "Canada": 10,
       "Bosnia and Herzegovina": 6,
       "Paraguay": 10,
@@ -11449,18 +11471,18 @@
     },
     "redCardEvents": [
       {
-        "player": "Sphephelo Sithole",
-        "team": "South Africa",
-        "match": "Mexico vs South Africa"
-      },
-      {
-        "player": "Themba Zwane",
-        "team": "South Africa",
-        "match": "Mexico vs South Africa"
-      },
-      {
-        "player": "César Montes",
+        "player": "O",
         "team": "Mexico",
+        "match": "Mexico vs South Africa"
+      },
+      {
+        "player": "T",
+        "team": "South Africa",
+        "match": "Mexico vs South Africa"
+      },
+      {
+        "player": "TH",
+        "team": "South Africa",
         "match": "Mexico vs South Africa"
       },
       {
@@ -11511,18 +11533,18 @@
     ],
     "yellowCardEvents": [
       {
-        "player": "Teboho Mokoena",
-        "team": "South Africa",
-        "match": "Mexico vs South Africa"
-      },
-      {
-        "player": "Carlos Gutiérrez",
+        "player": "One",
         "team": "Mexico",
         "match": "Mexico vs South Africa"
       },
       {
-        "player": "Nkosinathi Sibisi",
+        "player": "Two",
         "team": "South Africa",
+        "match": "Mexico vs South Africa"
+      },
+      {
+        "player": "Three",
+        "team": "Mexico",
         "match": "Mexico vs South Africa"
       },
       {
