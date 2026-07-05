@@ -488,7 +488,7 @@ function bracketTeamRow(name, score, winner, shootoutScore = null) {
 }
 
 function getSourceMatchNumbers(match) {
-  return [match.home, match.away]
+  return [match.homeSource || match.home, match.awaySource || match.away]
     .map((teamName) => String(teamName || "").match(/^Winner Match\s+(\d+)$/i))
     .filter(Boolean)
     .map((matchNumber) => Number(matchNumber[1]));
