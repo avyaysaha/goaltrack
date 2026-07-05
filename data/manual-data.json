@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T00:03:47.210Z",
+  "updatedAt": "2026-07-05T00:17:48.645Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -706,7 +706,7 @@
       "date": "Thursday, June 11, 2026",
       "stage": "Group Stage",
       "group": "Group A",
-      "time": "2:00 pm CDT (1:00 PM CST venue local)",
+      "time": "2:00 PM CDT ( 1:00 PM CST venue local)",
       "kickoffISO": "2026-06-11T19:00:00Z",
       "home": "Mexico",
       "homeFlag": "MEX",
@@ -743,7 +743,7 @@
         },
         {
           "player": "Three",
-          "team": "Mexico",
+          "team": "South Africa",
           "match": "Mexico vs South Africa"
         }
       ],
@@ -759,7 +759,7 @@
           "match": "Mexico vs South Africa"
         },
         {
-          "player": "TH",
+          "player": "Th",
           "team": "South Africa",
           "match": "Mexico vs South Africa"
         }
@@ -772,12 +772,24 @@
       "homeStats": {
         "shots": 16,
         "possession": 61,
-        "corners": 3
+        "corners": 3,
+        "shotsOnTarget": 5,
+        "passes": 538,
+        "passAccuracy": 91,
+        "dribbleAccuracy": 56,
+        "fouls": 12,
+        "offsides": 1
       },
       "awayStats": {
         "shots": 3,
         "possession": 39,
-        "corners": 1
+        "corners": 1,
+        "shotsOnTarget": 2,
+        "passes": 341,
+        "passAccuracy": 83,
+        "dribbleAccuracy": 17,
+        "fouls": 11,
+        "offsides": 1
       }
     },
     {
@@ -5718,7 +5730,7 @@
       "date": "Thursday, June 11, 2026",
       "stage": "Group Stage",
       "group": "Group A",
-      "time": "2:00 pm CDT (1:00 PM CST venue local)",
+      "time": "2:00 PM CDT ( 1:00 PM CST venue local)",
       "home": "Mexico",
       "homeFlag": "MEX",
       "away": "South Africa",
@@ -5753,7 +5765,7 @@
         },
         {
           "player": "Three",
-          "team": "Mexico",
+          "team": "South Africa",
           "match": "Mexico vs South Africa"
         }
       ],
@@ -5769,7 +5781,7 @@
           "match": "Mexico vs South Africa"
         },
         {
-          "player": "TH",
+          "player": "Th",
           "team": "South Africa",
           "match": "Mexico vs South Africa"
         }
@@ -5782,12 +5794,24 @@
       "homeStats": {
         "shots": 16,
         "possession": 61,
-        "corners": 3
+        "corners": 3,
+        "shotsOnTarget": 5,
+        "passes": 538,
+        "passAccuracy": 91,
+        "dribbleAccuracy": 56,
+        "fouls": 12,
+        "offsides": 1
       },
       "awayStats": {
         "shots": 3,
         "possession": 39,
-        "corners": 1
+        "corners": 1,
+        "shotsOnTarget": 2,
+        "passes": 341,
+        "passAccuracy": 83,
+        "dribbleAccuracy": 17,
+        "fouls": 11,
+        "offsides": 1
       }
     },
     {
@@ -11421,8 +11445,8 @@
       "Iran": 1
     },
     "yellowCards": {
-      "Mexico": 4,
-      "South Africa": 6,
+      "Mexico": 3,
+      "South Africa": 7,
       "Canada": 10,
       "Bosnia and Herzegovina": 6,
       "Paraguay": 10,
@@ -11481,7 +11505,7 @@
         "match": "Mexico vs South Africa"
       },
       {
-        "player": "TH",
+        "player": "Th",
         "team": "South Africa",
         "match": "Mexico vs South Africa"
       },
@@ -11544,7 +11568,7 @@
       },
       {
         "player": "Three",
-        "team": "Mexico",
+        "team": "South Africa",
         "match": "Mexico vs South Africa"
       },
       {
