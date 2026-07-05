@@ -117,7 +117,6 @@ const extraFields = [
   "home_possession", "away_possession",
   "home_passes", "away_passes",
   "home_pass_accuracy", "away_pass_accuracy",
-  "home_dribble_accuracy", "away_dribble_accuracy",
   "home_fouls", "away_fouls",
   "home_offsides", "away_offsides",
   "home_corners", "away_corners"
@@ -143,7 +142,6 @@ const statInputMap = {
   possession: "possession",
   passes: "passes",
   pass_accuracy: "passAccuracy",
-  dribble_accuracy: "dribbleAccuracy",
   fouls: "fouls",
   offsides: "offsides",
   corners: "corners"
