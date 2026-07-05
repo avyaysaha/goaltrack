@@ -213,6 +213,16 @@ const enteredStage = String(process.env.STAGE || "Group Stage");
 const enteredRound = String(process.env.GROUP_OR_ROUND || "");
 const looksLikeKnockout = /\b(round of|quarter|semi|final|third|match\s+\d+)/i.test(enteredRound);
 const resolvedStage = looksLikeKnockout ? "Knockout" : enteredStage;
+const sourceHome = previousMatch.homeSource || (
+  resolvedStage === "Knockout" && /^Winner Match\s+\d+$/i.test(String(scheduledMatch.home || ""))
+    ? scheduledMatch.home
+    : ""
+);
+const sourceAway = previousMatch.awaySource || (
+  resolvedStage === "Knockout" && /^Winner Match\s+\d+$/i.test(String(scheduledMatch.away || ""))
+    ? scheduledMatch.away
+    : ""
+);
 const hasShootoutScores = homeScoreInput.shootout !== null || awayScoreInput.shootout !== null;
 if (hasShootoutScores && (homeScoreInput.shootout === null || awayScoreInput.shootout === null)) {
   throw new Error("Enter penalty scores for both teams, like 1(4) and 1(3).");
@@ -257,6 +267,8 @@ const update = {
   homeFlag: teams[home][1],
   away,
   awayFlag: teams[away][1],
+  ...(sourceHome ? { homeSource: sourceHome } : {}),
+  ...(sourceAway ? { awaySource: sourceAway } : {}),
   location: hasExtra("venue") ? extraValue("venue") : (previousMatch.location || "Venue TBD"),
   status: "FT",
   elapsed: number("ELAPSED", 90),
