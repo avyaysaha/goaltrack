@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T22:29:44.617Z",
+  "updatedAt": "2026-07-06T03:53:56.893Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -140,7 +140,8 @@
         "drawn": 0,
         "lost": 0,
         "gd": 6,
-        "points": 9
+        "points": 9,
+        "eliminated": true
       },
       {
         "name": "South Africa",
@@ -7630,14 +7631,109 @@
       "date": "Sunday, July 5, 2026",
       "stage": "Knockout",
       "group": "Match 92 · Round of 16",
-      "time": "6:00 PM local",
+      "time": "7:00 PM CDT (6:00 PM CST venue local)",
       "kickoffISO": "2026-07-06T00:00:00Z",
-      "home": "Winner Match 79",
-      "homeFlag": "W79",
-      "away": "Winner Match 80",
-      "awayFlag": "W80",
+      "home": "Mexico",
+      "homeFlag": "MEX",
+      "away": "England",
+      "awayFlag": "ENG",
       "location": "Estadio Azteca · Mexico City",
-      "venueTimeZone": "America/Mexico_City"
+      "venueTimeZone": "America/Mexico_City",
+      "homeSource": "Winner Match 79",
+      "awaySource": "Winner Match 80",
+      "status": "FT",
+      "elapsed": 108,
+      "homeScore": 2,
+      "awayScore": 3,
+      "scorers": [
+        {
+          "player": "Jude Bellingham",
+          "team": "England",
+          "match": "Mexico vs England"
+        },
+        {
+          "player": "Jude Bellingham",
+          "team": "England",
+          "match": "Mexico vs England"
+        },
+        {
+          "player": "Julián Quiñones",
+          "team": "Mexico",
+          "match": "Mexico vs England"
+        },
+        {
+          "player": "Harry Kane",
+          "team": "England",
+          "match": "Mexico vs England"
+        },
+        {
+          "player": "Raúl Jiménez",
+          "team": "Mexico",
+          "match": "Mexico vs England"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Declan Rice",
+          "team": "England",
+          "match": "Mexico vs England"
+        },
+        {
+          "player": "Harry Kane",
+          "team": "England",
+          "match": "Mexico vs England"
+        },
+        {
+          "player": "Nico O'Reilly",
+          "team": "England",
+          "match": "Mexico vs England"
+        },
+        {
+          "player": "Jordan Henderson",
+          "team": "England",
+          "match": "Mexico vs England"
+        },
+        {
+          "player": "Jorge Sánchez",
+          "team": "Mexico",
+          "match": "Mexico vs England"
+        },
+        {
+          "player": "Johan Vásquez",
+          "team": "Mexico",
+          "match": "Mexico vs England"
+        }
+      ],
+      "redCards": [
+        {
+          "player": "Jarell Quansah",
+          "team": "England",
+          "match": "Mexico vs England"
+        }
+      ],
+      "penalties": 2,
+      "homeKeeper": "Raúl Rangel",
+      "awayKeeper": "Jordan Pickford",
+      "homeStats": {
+        "shots": 20,
+        "shotsOnTarget": 5,
+        "possession": 67,
+        "passes": 455,
+        "passAccuracy": 92,
+        "fouls": 14,
+        "offsides": 1,
+        "corners": 12
+      },
+      "awayStats": {
+        "shots": 6,
+        "shotsOnTarget": 5,
+        "possession": 33,
+        "passes": 244,
+        "passAccuracy": 80,
+        "fouls": 7,
+        "offsides": 0,
+        "corners": 2
+      }
     },
     {
       "date": "Monday, July 6, 2026",
@@ -14584,6 +14680,112 @@
         "offsides": 1,
         "corners": 5
       }
+    },
+    {
+      "date": "Sunday, July 5, 2026",
+      "stage": "Knockout",
+      "group": "Match 92 · Round of 16",
+      "time": "7:00 PM CDT (6:00 PM CST venue local)",
+      "home": "Mexico",
+      "homeFlag": "MEX",
+      "away": "England",
+      "awayFlag": "ENG",
+      "homeSource": "Winner Match 79",
+      "awaySource": "Winner Match 80",
+      "location": "Estadio Azteca · Mexico City",
+      "status": "FT",
+      "elapsed": 108,
+      "homeScore": 2,
+      "awayScore": 3,
+      "scorers": [
+        {
+          "player": "Jude Bellingham",
+          "team": "England",
+          "match": "Mexico vs England"
+        },
+        {
+          "player": "Jude Bellingham",
+          "team": "England",
+          "match": "Mexico vs England"
+        },
+        {
+          "player": "Julián Quiñones",
+          "team": "Mexico",
+          "match": "Mexico vs England"
+        },
+        {
+          "player": "Harry Kane",
+          "team": "England",
+          "match": "Mexico vs England"
+        },
+        {
+          "player": "Raúl Jiménez",
+          "team": "Mexico",
+          "match": "Mexico vs England"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Declan Rice",
+          "team": "England",
+          "match": "Mexico vs England"
+        },
+        {
+          "player": "Harry Kane",
+          "team": "England",
+          "match": "Mexico vs England"
+        },
+        {
+          "player": "Nico O'Reilly",
+          "team": "England",
+          "match": "Mexico vs England"
+        },
+        {
+          "player": "Jordan Henderson",
+          "team": "England",
+          "match": "Mexico vs England"
+        },
+        {
+          "player": "Jorge Sánchez",
+          "team": "Mexico",
+          "match": "Mexico vs England"
+        },
+        {
+          "player": "Johan Vásquez",
+          "team": "Mexico",
+          "match": "Mexico vs England"
+        }
+      ],
+      "redCards": [
+        {
+          "player": "Jarell Quansah",
+          "team": "England",
+          "match": "Mexico vs England"
+        }
+      ],
+      "penalties": 2,
+      "homeKeeper": "Raúl Rangel",
+      "awayKeeper": "Jordan Pickford",
+      "homeStats": {
+        "shots": 20,
+        "shotsOnTarget": 5,
+        "possession": 67,
+        "passes": 455,
+        "passAccuracy": 92,
+        "fouls": 14,
+        "offsides": 1,
+        "corners": 12
+      },
+      "awayStats": {
+        "shots": 6,
+        "shotsOnTarget": 5,
+        "possession": 33,
+        "passes": 244,
+        "passAccuracy": 80,
+        "fouls": 7,
+        "offsides": 0,
+        "corners": 2
+      }
     }
   ],
   "detailedStats": {
@@ -14599,19 +14801,29 @@
         "detail": "Argentina"
       },
       {
+        "name": "Harry Kane",
+        "value": 6,
+        "detail": "England"
+      },
+      {
         "name": "Kylian Mbappé",
         "value": 6,
         "detail": "France"
       },
       {
-        "name": "Harry Kane",
-        "value": 5,
-        "detail": "England"
-      },
-      {
         "name": "Ismaïla Sarr",
         "value": 4,
         "detail": "Senegal"
+      },
+      {
+        "name": "Jude Bellingham",
+        "value": 4,
+        "detail": "England"
+      },
+      {
+        "name": "Julián Quiñones",
+        "value": 4,
+        "detail": "Mexico"
       },
       {
         "name": "Mikel Oyarzabal",
@@ -14669,11 +14881,6 @@
         "detail": "Canada"
       },
       {
-        "name": "Julián Quiñones",
-        "value": 3,
-        "detail": "Mexico"
-      },
-      {
         "name": "Kai Havertz",
         "value": 3,
         "detail": "Germany"
@@ -14682,6 +14889,11 @@
         "name": "Matheus Cunha",
         "value": 3,
         "detail": "Brazil"
+      },
+      {
+        "name": "Raúl Jiménez",
+        "value": 3,
+        "detail": "Mexico"
       },
       {
         "name": "Yoane Wissa",
@@ -14759,11 +14971,6 @@
         "detail": "Senegal"
       },
       {
-        "name": "Jude Bellingham",
-        "value": 2,
-        "detail": "England"
-      },
-      {
         "name": "Leandro Trossard",
         "value": 2,
         "detail": "Belgium"
@@ -14787,11 +14994,6 @@
         "name": "Ramin Rezaeian",
         "value": 2,
         "detail": "Iran"
-      },
-      {
-        "name": "Raúl Jiménez",
-        "value": 2,
-        "detail": "Mexico"
       },
       {
         "name": "Riyad Mahrez",
@@ -15488,7 +15690,7 @@
       {
         "name": "Raúl Rangel",
         "value": 4,
-        "detail": "Mexico · 0 goals conceded in 4 appearances"
+        "detail": "Mexico · 3 goals conceded in 5 appearances"
       },
       {
         "name": "Unai Simón",
@@ -15518,7 +15720,7 @@
       {
         "name": "Jordan Pickford",
         "value": 2,
-        "detail": "England · 3 goals conceded in 4 appearances"
+        "detail": "England · 5 goals conceded in 5 appearances"
       },
       {
         "name": "Matt Freese",
@@ -15781,11 +15983,12 @@
       "Iraq": 1,
       "Uruguay": 1,
       "Ecuador": 1,
-      "Iran": 1
+      "Iran": 1,
+      "England": 1
     },
     "yellowCards": {
       "South Africa": 7,
-      "Mexico": 3,
+      "Mexico": 5,
       "Canada": 10,
       "Bosnia and Herzegovina": 6,
       "Paraguay": 10,
@@ -15825,7 +16028,7 @@
       "Iraq": 1,
       "Algeria": 3,
       "Jordan": 2,
-      "England": 3,
+      "England": 7,
       "Croatia": 3,
       "Norway": 2,
       "Japan": 3,
@@ -15891,6 +16094,11 @@
         "player": "Folarin Balogun",
         "team": "Iran",
         "match": "United States vs Bosnia and Herzegovina"
+      },
+      {
+        "player": "Jarell Quansah",
+        "team": "England",
+        "match": "Mexico vs England"
       }
     ],
     "yellowCardEvents": [
@@ -16875,6 +17083,36 @@
         "match": "Brazil vs Norway"
       },
       {
+        "player": "Declan Rice",
+        "team": "England",
+        "match": "Mexico vs England"
+      },
+      {
+        "player": "Harry Kane",
+        "team": "England",
+        "match": "Mexico vs England"
+      },
+      {
+        "player": "Nico O'Reilly",
+        "team": "England",
+        "match": "Mexico vs England"
+      },
+      {
+        "player": "Jordan Henderson",
+        "team": "England",
+        "match": "Mexico vs England"
+      },
+      {
+        "player": "Jorge Sánchez",
+        "team": "Mexico",
+        "match": "Mexico vs England"
+      },
+      {
+        "player": "Johan Vásquez",
+        "team": "Mexico",
+        "match": "Mexico vs England"
+      },
+      {
         "player": "Redouane Halhal",
         "team": "Morocco",
         "match": "Canada vs Morocco"
@@ -16960,6 +17198,12 @@
       },
       {
         "match": "Brazil vs Norway"
+      },
+      {
+        "match": "Mexico vs England"
+      },
+      {
+        "match": "Mexico vs England"
       }
     ],
     "matchStats": [
@@ -17592,6 +17836,13 @@
         "yellowCards": 1,
         "penalties": 2,
         "elapsed": 106
+      },
+      {
+        "match": "Mexico vs England",
+        "redCards": 1,
+        "yellowCards": 6,
+        "penalties": 2,
+        "elapsed": 108
       },
       {
         "match": "Canada vs Morocco",
