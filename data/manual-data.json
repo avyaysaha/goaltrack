@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T04:04:45.633Z",
+  "updatedAt": "2026-07-06T21:37:19.380Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -628,7 +628,8 @@
         "drawn": 2,
         "lost": 0,
         "gd": 5,
-        "points": 5
+        "points": 5,
+        "eliminated": true
       },
       {
         "name": "DR Congo",
@@ -7739,14 +7740,68 @@
       "date": "Monday, July 6, 2026",
       "stage": "Knockout",
       "group": "Match 93 · Round of 16",
-      "time": "2:00 PM local",
+      "time": "2:00 PM CDT (2:00 PM venue local)",
       "kickoffISO": "2026-07-06T19:00:00Z",
-      "home": "Winner Match 83",
-      "homeFlag": "W83",
-      "away": "Winner Match 84",
-      "awayFlag": "W84",
+      "home": "Portugal",
+      "homeFlag": "POR",
+      "away": "Spain",
+      "awayFlag": "ESP",
       "location": "AT&T Stadium · Dallas",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "homeSource": "Winner Match 83",
+      "awaySource": "Winner Match 84",
+      "status": "FT",
+      "elapsed": 96,
+      "homeScore": 0,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Mikel Merino",
+          "team": "Spain",
+          "match": "Portugal vs Spain"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Bernardo Silva",
+          "team": "Portugal",
+          "match": "Portugal vs Spain"
+        },
+        {
+          "player": "Renato Veiga",
+          "team": "Portugal",
+          "match": "Portugal vs Spain"
+        },
+        {
+          "player": "Ferran Torres",
+          "team": "Spain",
+          "match": "Portugal vs Spain"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Diogo Costa",
+      "awayKeeper": "Unai Simón",
+      "homeStats": {
+        "shots": 10,
+        "shotsOnTarget": 2,
+        "possession": 44,
+        "passes": 426,
+        "passAccuracy": 84,
+        "fouls": 9,
+        "offsides": 2,
+        "corners": 3
+      },
+      "awayStats": {
+        "shots": 15,
+        "shotsOnTarget": 6,
+        "possession": 56,
+        "passes": 531,
+        "passAccuracy": 88,
+        "fouls": 13,
+        "offsides": 1,
+        "corners": 7
+      }
     },
     {
       "date": "Monday, July 6, 2026",
@@ -14786,6 +14841,71 @@
         "offsides": 0,
         "corners": 2
       }
+    },
+    {
+      "date": "Monday, July 6, 2026",
+      "stage": "Knockout",
+      "group": "Match 93 · Round of 16",
+      "time": "2:00 PM CDT (2:00 PM venue local)",
+      "home": "Portugal",
+      "homeFlag": "POR",
+      "away": "Spain",
+      "awayFlag": "ESP",
+      "homeSource": "Winner Match 83",
+      "awaySource": "Winner Match 84",
+      "location": "AT&T Stadium · Dallas",
+      "status": "FT",
+      "elapsed": 96,
+      "homeScore": 0,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Mikel Merino",
+          "team": "Spain",
+          "match": "Portugal vs Spain"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Bernardo Silva",
+          "team": "Portugal",
+          "match": "Portugal vs Spain"
+        },
+        {
+          "player": "Renato Veiga",
+          "team": "Portugal",
+          "match": "Portugal vs Spain"
+        },
+        {
+          "player": "Ferran Torres",
+          "team": "Spain",
+          "match": "Portugal vs Spain"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Diogo Costa",
+      "awayKeeper": "Unai Simón",
+      "homeStats": {
+        "shots": 10,
+        "shotsOnTarget": 2,
+        "possession": 44,
+        "passes": 426,
+        "passAccuracy": 84,
+        "fouls": 9,
+        "offsides": 2,
+        "corners": 3
+      },
+      "awayStats": {
+        "shots": 15,
+        "shotsOnTarget": 6,
+        "possession": 56,
+        "passes": 531,
+        "passAccuracy": 88,
+        "fouls": 13,
+        "offsides": 1,
+        "corners": 7
+      }
     }
   ],
   "detailedStats": {
@@ -15491,6 +15611,11 @@
         "detail": "Czechia"
       },
       {
+        "name": "Mikel Merino",
+        "value": 1,
+        "detail": "Spain"
+      },
+      {
         "name": "Mohamed Hany(OG)",
         "value": 1,
         "detail": "Belgium"
@@ -15688,14 +15813,14 @@
     ],
     "keepers": [
       {
+        "name": "Unai Simón",
+        "value": 5,
+        "detail": "Spain · 0 goals conceded in 5 appearances"
+      },
+      {
         "name": "Raúl Rangel",
         "value": 4,
         "detail": "Mexico · 3 goals conceded in 5 appearances"
-      },
-      {
-        "name": "Unai Simón",
-        "value": 4,
-        "detail": "Spain · 0 goals conceded in 4 appearances"
       },
       {
         "name": "Camilo Vargas",
@@ -15710,7 +15835,7 @@
       {
         "name": "Diogo Costa",
         "value": 2,
-        "detail": "Portugal · 2 goals conceded in 4 appearances"
+        "detail": "Portugal · 3 goals conceded in 5 appearances"
       },
       {
         "name": "Emiliano Martínez",
@@ -16003,14 +16128,14 @@
       "Cote d'Ivoire": 5,
       "Ecuador": 3,
       "Tunisia": 1,
-      "Spain": 2,
+      "Spain": 3,
       "Cabo Verde": 5,
       "Egypt": 8,
       "Belgium": 7,
       "Saudi Arabia": 6,
       "Iran": 6,
       "Austria": 5,
-      "Portugal": 5,
+      "Portugal": 7,
       "DR Congo": 6,
       "Ghana": 7,
       "Panama": 5,
@@ -17113,6 +17238,21 @@
         "match": "Mexico vs England"
       },
       {
+        "player": "Bernardo Silva",
+        "team": "Portugal",
+        "match": "Portugal vs Spain"
+      },
+      {
+        "player": "Renato Veiga",
+        "team": "Portugal",
+        "match": "Portugal vs Spain"
+      },
+      {
+        "player": "Ferran Torres",
+        "team": "Spain",
+        "match": "Portugal vs Spain"
+      },
+      {
         "player": "Redouane Halhal",
         "team": "Morocco",
         "match": "Canada vs Morocco"
@@ -17843,6 +17983,13 @@
         "yellowCards": 6,
         "penalties": 2,
         "elapsed": 108
+      },
+      {
+        "match": "Portugal vs Spain",
+        "redCards": 0,
+        "yellowCards": 3,
+        "penalties": 0,
+        "elapsed": 96
       },
       {
         "match": "Canada vs Morocco",
