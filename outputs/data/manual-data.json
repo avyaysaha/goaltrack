@@ -15001,7 +15001,7 @@
         },
         {
           "player": "Malik Tillman",
-          "team": "Iran",
+          "team": "United States",
           "match": "United States vs Belgium"
         },
         {
@@ -15023,12 +15023,12 @@
       "yellowCards": [
         {
           "player": "Malik Tillman",
-          "team": "Iran",
+          "team": "United States",
           "match": "United States vs Belgium"
         },
         {
           "player": "Weston McKennie",
-          "team": "Iran",
+          "team": "United States",
           "match": "United States vs Belgium"
         }
       ],
@@ -15258,7 +15258,7 @@
       {
         "name": "Malik Tillman",
         "value": 2,
-        "detail": "Iran"
+        "detail": "United States"
       },
       {
         "name": "Marko Arnautović",
@@ -15489,11 +15489,6 @@
         "name": "Fiston Mayele",
         "value": 1,
         "detail": "DR Congo"
-      },
-      {
-        "name": "Folarin Balogun",
-        "value": 1,
-        "detail": "Iran"
       },
       {
         "name": "Franck Kessié",
