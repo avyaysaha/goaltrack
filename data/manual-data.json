@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T02:46:35.058Z",
+  "updatedAt": "2026-07-07T03:13:34.379Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -1054,13 +1054,13 @@
       "date": "Saturday, June 13, 2026",
       "stage": "Group Stage",
       "group": "Group B",
-      "time": "12:00 PM local",
+      "time": "2:00",
       "kickoffISO": "2026-06-13T19:00:00Z",
       "home": "Qatar",
       "homeFlag": "QAT",
       "away": "Switzerland",
       "awayFlag": "SUI",
-      "location": "Levi's Stadium · San Francisco Bay Area",
+      "location": "Levi's Stadium",
       "venueTimeZone": "America/Los_Angeles",
       "status": "FT",
       "elapsed": 94,
@@ -1277,7 +1277,7 @@
       "date": "Saturday, June 13, 2026",
       "stage": "Group Stage",
       "group": "Group D",
-      "time": "9:00 PM local",
+      "time": "11:00",
       "kickoffISO": "2026-06-14T04:00:00Z",
       "home": "Australia",
       "homeFlag": "AUS",
@@ -3627,7 +3627,7 @@
       "date": "Sunday, June 21, 2026",
       "stage": "Group Stage",
       "group": "Group G",
-      "time": "12:00 PM local",
+      "time": "2:00 PM CDT (12:00 PM PDT venue local)",
       "kickoffISO": "2026-06-21T19:00:00Z",
       "home": "Belgium",
       "homeFlag": "BEL",
@@ -7303,18 +7303,7 @@
           "match": "Australia vs Egypt"
         }
       ],
-      "yellowCards": [
-        {
-          "player": "Yasser Ibrahim",
-          "team": "Egypt",
-          "match": "Australia vs Egypt"
-        },
-        {
-          "player": "Haissem Hassan",
-          "team": "Egypt",
-          "match": "Australia vs Egypt"
-        }
-      ],
+      "yellowCards": [],
       "redCards": [],
       "penalties": 0,
       "shootoutWinner": "Egypt",
@@ -7830,7 +7819,7 @@
         },
         {
           "player": "Malik Tillman",
-          "team": "Iran",
+          "team": "United States",
           "match": "United States vs Belgium"
         },
         {
@@ -7852,12 +7841,12 @@
       "yellowCards": [
         {
           "player": "Malik Tillman",
-          "team": "Iran",
+          "team": "United States",
           "match": "United States vs Belgium"
         },
         {
           "player": "Weston McKennie",
-          "team": "Iran",
+          "team": "United States",
           "match": "United States vs Belgium"
         }
       ],
