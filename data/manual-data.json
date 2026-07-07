@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T03:20:50.658Z",
+  "updatedAt": "2026-07-07T19:05:18.099Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -441,7 +441,8 @@
         "drawn": 2,
         "lost": 0,
         "gd": 2,
-        "points": 5
+        "points": 5,
+        "eliminated": true
       },
       {
         "name": "Iran",
@@ -7890,14 +7891,93 @@
       "date": "Tuesday, July 7, 2026",
       "stage": "Knockout",
       "group": "Match 95 · Round of 16",
-      "time": "12:00 PM local",
+      "time": "11:00 AM CDT (12:00 PM EDT venue local)",
       "kickoffISO": "2026-07-07T16:00:00Z",
-      "home": "Winner Match 86",
-      "homeFlag": "W86",
-      "away": "Winner Match 88",
-      "awayFlag": "W88",
+      "home": "Argentina",
+      "homeFlag": "ARG",
+      "away": "Egypt",
+      "awayFlag": "EGY",
       "location": "Mercedes-Benz Stadium · Atlanta",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "homeSource": "Winner Match 86",
+      "awaySource": "Winner Match 88",
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 3,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Yasser Ibrahim",
+          "team": "Egypt",
+          "match": "Argentina vs Egypt"
+        },
+        {
+          "player": "Mostafa Ziko",
+          "team": "Egypt",
+          "match": "Argentina vs Egypt"
+        },
+        {
+          "player": "Cristian Romero",
+          "team": "Argentina",
+          "match": "Argentina vs Egypt"
+        },
+        {
+          "player": "Lionel Messi",
+          "team": "Argentina",
+          "match": "Argentina vs Egypt"
+        },
+        {
+          "player": "Enzo Fernández",
+          "team": "Argentina",
+          "match": "Argentina vs Egypt"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Mostafa Shobeir",
+          "team": "Egypt",
+          "match": "Argentina vs Egypt"
+        },
+        {
+          "player": "Hamdy Fathy",
+          "team": "Egypt",
+          "match": "Argentina vs Egypt"
+        },
+        {
+          "player": "Marwan Attia",
+          "team": "Egypt",
+          "match": "Argentina vs Egypt"
+        },
+        {
+          "player": "Haissem Hassan",
+          "team": "Egypt",
+          "match": "Argentina vs Egypt"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Mostafa Shobeir",
+      "awayKeeper": "Emiliano Martínez",
+      "homeStats": {
+        "shots": 19,
+        "shotsOnTarget": 7,
+        "possession": 64,
+        "passes": 602,
+        "passAccuracy": 90,
+        "fouls": 13,
+        "offsides": 3,
+        "corners": 6
+      },
+      "awayStats": {
+        "shots": 5,
+        "shotsOnTarget": 2,
+        "possession": 36,
+        "passes": 349,
+        "passAccuracy": 83,
+        "fouls": 11,
+        "offsides": 0,
+        "corners": 1
+      }
     },
     {
       "date": "Tuesday, July 7, 2026",
@@ -15067,19 +15147,109 @@
         "offsides": 1,
         "corners": 5
       }
+    },
+    {
+      "date": "Tuesday, July 7, 2026",
+      "stage": "Knockout",
+      "group": "Match 95 · Round of 16",
+      "time": "11:00 AM CDT (12:00 PM EDT venue local)",
+      "home": "Argentina",
+      "homeFlag": "ARG",
+      "away": "Egypt",
+      "awayFlag": "EGY",
+      "homeSource": "Winner Match 86",
+      "awaySource": "Winner Match 88",
+      "location": "Mercedes-Benz Stadium · Atlanta",
+      "status": "FT",
+      "elapsed": 101,
+      "homeScore": 3,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Yasser Ibrahim",
+          "team": "Egypt",
+          "match": "Argentina vs Egypt"
+        },
+        {
+          "player": "Mostafa Ziko",
+          "team": "Egypt",
+          "match": "Argentina vs Egypt"
+        },
+        {
+          "player": "Cristian Romero",
+          "team": "Argentina",
+          "match": "Argentina vs Egypt"
+        },
+        {
+          "player": "Lionel Messi",
+          "team": "Argentina",
+          "match": "Argentina vs Egypt"
+        },
+        {
+          "player": "Enzo Fernández",
+          "team": "Argentina",
+          "match": "Argentina vs Egypt"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Mostafa Shobeir",
+          "team": "Egypt",
+          "match": "Argentina vs Egypt"
+        },
+        {
+          "player": "Hamdy Fathy",
+          "team": "Egypt",
+          "match": "Argentina vs Egypt"
+        },
+        {
+          "player": "Marwan Attia",
+          "team": "Egypt",
+          "match": "Argentina vs Egypt"
+        },
+        {
+          "player": "Haissem Hassan",
+          "team": "Egypt",
+          "match": "Argentina vs Egypt"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Mostafa Shobeir",
+      "awayKeeper": "Emiliano Martínez",
+      "homeStats": {
+        "shots": 19,
+        "shotsOnTarget": 7,
+        "possession": 64,
+        "passes": 602,
+        "passAccuracy": 90,
+        "fouls": 13,
+        "offsides": 3,
+        "corners": 6
+      },
+      "awayStats": {
+        "shots": 5,
+        "shotsOnTarget": 2,
+        "possession": 36,
+        "passes": 349,
+        "passAccuracy": 83,
+        "fouls": 11,
+        "offsides": 0,
+        "corners": 1
+      }
     }
   ],
   "detailedStats": {
     "scorers": [
       {
+        "name": "Lionel Messi",
+        "value": 8,
+        "detail": "Argentina"
+      },
+      {
         "name": "Erling Haaland",
         "value": 7,
         "detail": "Norway"
-      },
-      {
-        "name": "Lionel Messi",
-        "value": 7,
-        "detail": "Argentina"
       },
       {
         "name": "Harry Kane",
@@ -15253,7 +15423,7 @@
       },
       {
         "name": "Folarin Balogun",
-        "value": 3,
+        "value": 2,
         "detail": "United States"
       },
       {
@@ -15267,14 +15437,14 @@
         "detail": "Belgium"
       },
       {
-        "name": "Malik Tillman",
-        "value": 2,
-        "detail": "United States"
-      },
-      {
         "name": "Marko Arnautović",
         "value": 2,
         "detail": "Austria"
+      },
+      {
+        "name": "Mostafa Ziko",
+        "value": 2,
+        "detail": "Egypt"
       },
       {
         "name": "Nicolas Pépé",
@@ -15442,6 +15612,11 @@
         "detail": "Australia"
       },
       {
+        "name": "Cristian Romero",
+        "value": 1,
+        "detail": "Argentina"
+      },
+      {
         "name": "Daizen Maeda",
         "value": 1,
         "detail": "Japan"
@@ -15487,6 +15662,11 @@
         "detail": "Netherlands"
       },
       {
+        "name": "Enzo Fernández",
+        "value": 1,
+        "detail": "Argentina"
+      },
+      {
         "name": "Felix Nmecha",
         "value": 1,
         "detail": "Germany"
@@ -15500,6 +15680,11 @@
         "name": "Fiston Mayele",
         "value": 1,
         "detail": "DR Congo"
+      },
+      {
+        "name": "Folarin Balogun",
+        "value": 1,
+        "detail": "Iran"
       },
       {
         "name": "Franck Kessié",
@@ -15722,6 +15907,16 @@
         "detail": "Egypt"
       },
       {
+        "name": "Malik Tillman",
+        "value": 1,
+        "detail": "Iran"
+      },
+      {
+        "name": "Malik Tillman",
+        "value": 1,
+        "detail": "United States"
+      },
+      {
         "name": "Marcel Sabitzer",
         "value": 1,
         "detail": "Austria"
@@ -15805,11 +16000,6 @@
         "name": "Mohammad Mohebi",
         "value": 1,
         "detail": "Iran"
-      },
-      {
-        "name": "Mostafa Ziko",
-        "value": 1,
-        "detail": "Egypt"
       },
       {
         "name": "Mousa Al-Tamari",
@@ -15965,6 +16155,11 @@
         "name": "Wilson Isidor",
         "value": 1,
         "detail": "Haiti"
+      },
+      {
+        "name": "Yasser Ibrahim",
+        "value": 1,
+        "detail": "Egypt"
       },
       {
         "name": "Yassine Bounou (Own Goal)",
@@ -16154,6 +16349,11 @@
         "detail": "Norway · 4 goals conceded in 1 appearance"
       },
       {
+        "name": "Emiliano Martínez",
+        "value": 0,
+        "detail": "Egypt · 3 goals conceded in 1 appearance"
+      },
+      {
         "name": "Fernando Muslera",
         "value": 0,
         "detail": "Uruguay · 4 goals conceded in 3 appearances"
@@ -16224,6 +16424,11 @@
         "detail": "Egypt · 4 goals conceded in 4 appearances"
       },
       {
+        "name": "Mostafa Shobeir",
+        "value": 0,
+        "detail": "Argentina · 2 goals conceded in 1 appearance"
+      },
+      {
         "name": "Mouhib Chamakh",
         "value": 0,
         "detail": "Tunisia · 5 goals conceded in 1 appearance"
@@ -16283,7 +16488,7 @@
       "Canada": 10,
       "Bosnia and Herzegovina": 6,
       "Paraguay": 10,
-      "United States": 4,
+      "United States": 6,
       "Qatar": 4,
       "Switzerland": 3,
       "Brazil": 8,
@@ -16296,10 +16501,10 @@
       "Tunisia": 1,
       "Spain": 3,
       "Cabo Verde": 5,
-      "Egypt": 8,
+      "Egypt": 12,
       "Belgium": 7,
       "Saudi Arabia": 6,
-      "Iran": 8,
+      "Iran": 6,
       "Austria": 5,
       "Portugal": 7,
       "DR Congo": 6,
@@ -17324,6 +17529,16 @@
         "match": "Switzerland vs Algeria"
       },
       {
+        "player": "Yasser Ibrahim",
+        "team": "Egypt",
+        "match": "Australia vs Egypt"
+      },
+      {
+        "player": "Haissem Hassan",
+        "team": "Egypt",
+        "match": "Australia vs Egypt"
+      },
+      {
         "player": "Kevin Pina",
         "team": "Cabo Verde",
         "match": "Argentina vs Cabo Verde"
@@ -17410,13 +17625,33 @@
       },
       {
         "player": "Malik Tillman",
-        "team": "Iran",
+        "team": "United States",
         "match": "United States vs Belgium"
       },
       {
         "player": "Weston McKennie",
-        "team": "Iran",
+        "team": "United States",
         "match": "United States vs Belgium"
+      },
+      {
+        "player": "Mostafa Shobeir",
+        "team": "Egypt",
+        "match": "Argentina vs Egypt"
+      },
+      {
+        "player": "Hamdy Fathy",
+        "team": "Egypt",
+        "match": "Argentina vs Egypt"
+      },
+      {
+        "player": "Marwan Attia",
+        "team": "Egypt",
+        "match": "Argentina vs Egypt"
+      },
+      {
+        "player": "Haissem Hassan",
+        "team": "Egypt",
+        "match": "Argentina vs Egypt"
       },
       {
         "player": "Redouane Halhal",
@@ -17457,16 +17692,6 @@
         "player": "Cyle Larin",
         "team": "Canada",
         "match": "Canada vs Morocco"
-      },
-      {
-        "player": "Yasser Ibrahim",
-        "team": "Egypt",
-        "match": "Australia vs Egypt"
-      },
-      {
-        "player": "Haissem Hassan",
-        "team": "Egypt",
-        "match": "Australia vs Egypt"
       }
     ],
     "penaltyEvents": [
@@ -17520,6 +17745,9 @@
       },
       {
         "match": "Mexico vs England"
+      },
+      {
+        "match": "Argentina vs Egypt"
       }
     ],
     "matchStats": [
@@ -18173,6 +18401,13 @@
         "yellowCards": 2,
         "penalties": 0,
         "elapsed": 100
+      },
+      {
+        "match": "Argentina vs Egypt",
+        "redCards": 0,
+        "yellowCards": 4,
+        "penalties": 1,
+        "elapsed": 101
       },
       {
         "match": "Canada vs Morocco",
