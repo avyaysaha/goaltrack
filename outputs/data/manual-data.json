@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T21:37:19.380Z",
+  "updatedAt": "2026-07-07T02:46:35.058Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -283,7 +283,8 @@
         "drawn": 0,
         "lost": 1,
         "gd": 4,
-        "points": 6
+        "points": 6,
+        "eliminated": true
       },
       {
         "name": "Australia",
@@ -7807,14 +7808,83 @@
       "date": "Monday, July 6, 2026",
       "stage": "Knockout",
       "group": "Match 94 · Round of 16",
-      "time": "5:00 PM local",
+      "time": "7:00 PM CDT (5:00 PM PDT venue local)",
       "kickoffISO": "2026-07-07T00:00:00Z",
-      "home": "Winner Match 81",
-      "homeFlag": "W81",
-      "away": "Winner Match 82",
-      "awayFlag": "W82",
+      "home": "United States",
+      "homeFlag": "USA",
+      "away": "Belgium",
+      "awayFlag": "BEL",
       "location": "Lumen Field · Seattle",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "homeSource": "Winner Match 81",
+      "awaySource": "Winner Match 82",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 1,
+      "awayScore": 4,
+      "scorers": [
+        {
+          "player": "Charles De Ketelaere",
+          "team": "Belgium",
+          "match": "United States vs Belgium"
+        },
+        {
+          "player": "Malik Tillman",
+          "team": "Iran",
+          "match": "United States vs Belgium"
+        },
+        {
+          "player": "Charles De Ketelaere",
+          "team": "Belgium",
+          "match": "United States vs Belgium"
+        },
+        {
+          "player": "Hans Vanaken",
+          "team": "Belgium",
+          "match": "United States vs Belgium"
+        },
+        {
+          "player": "Romelu Lukaku",
+          "team": "Belgium",
+          "match": "United States vs Belgium"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Malik Tillman",
+          "team": "Iran",
+          "match": "United States vs Belgium"
+        },
+        {
+          "player": "Weston McKennie",
+          "team": "Iran",
+          "match": "United States vs Belgium"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Matt Freese",
+      "awayKeeper": "Thibaut Courtois",
+      "homeStats": {
+        "shots": 7,
+        "shotsOnTarget": 2,
+        "possession": 56,
+        "passes": 527,
+        "passAccuracy": 87,
+        "fouls": 11,
+        "offsides": 0,
+        "corners": 3
+      },
+      "awayStats": {
+        "shots": 15,
+        "shotsOnTarget": 7,
+        "possession": 44,
+        "passes": 410,
+        "passAccuracy": 81,
+        "fouls": 9,
+        "offsides": 1,
+        "corners": 5
+      }
     },
     {
       "date": "Tuesday, July 7, 2026",
@@ -14906,6 +14976,86 @@
         "offsides": 1,
         "corners": 7
       }
+    },
+    {
+      "date": "Monday, July 6, 2026",
+      "stage": "Knockout",
+      "group": "Match 94 · Round of 16",
+      "time": "7:00 PM CDT (5:00 PM PDT venue local)",
+      "home": "United States",
+      "homeFlag": "USA",
+      "away": "Belgium",
+      "awayFlag": "BEL",
+      "homeSource": "Winner Match 81",
+      "awaySource": "Winner Match 82",
+      "location": "Lumen Field · Seattle",
+      "status": "FT",
+      "elapsed": 100,
+      "homeScore": 1,
+      "awayScore": 4,
+      "scorers": [
+        {
+          "player": "Charles De Ketelaere",
+          "team": "Belgium",
+          "match": "United States vs Belgium"
+        },
+        {
+          "player": "Malik Tillman",
+          "team": "Iran",
+          "match": "United States vs Belgium"
+        },
+        {
+          "player": "Charles De Ketelaere",
+          "team": "Belgium",
+          "match": "United States vs Belgium"
+        },
+        {
+          "player": "Hans Vanaken",
+          "team": "Belgium",
+          "match": "United States vs Belgium"
+        },
+        {
+          "player": "Romelu Lukaku",
+          "team": "Belgium",
+          "match": "United States vs Belgium"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Malik Tillman",
+          "team": "Iran",
+          "match": "United States vs Belgium"
+        },
+        {
+          "player": "Weston McKennie",
+          "team": "Iran",
+          "match": "United States vs Belgium"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Matt Freese",
+      "awayKeeper": "Thibaut Courtois",
+      "homeStats": {
+        "shots": 7,
+        "shotsOnTarget": 2,
+        "possession": 56,
+        "passes": 527,
+        "passAccuracy": 87,
+        "fouls": 11,
+        "offsides": 0,
+        "corners": 3
+      },
+      "awayStats": {
+        "shots": 15,
+        "shotsOnTarget": 7,
+        "possession": 44,
+        "passes": 410,
+        "passAccuracy": 81,
+        "fouls": 9,
+        "offsides": 1,
+        "corners": 5
+      }
     }
   ],
   "detailedStats": {
@@ -15016,6 +15166,11 @@
         "detail": "Mexico"
       },
       {
+        "name": "Romelu Lukaku",
+        "value": 3,
+        "detail": "Belgium"
+      },
+      {
         "name": "Yoane Wissa",
         "value": 3,
         "detail": "DR Congo"
@@ -15049,6 +15204,11 @@
         "name": "Breel Embolo",
         "value": 2,
         "detail": "Switzerland"
+      },
+      {
+        "name": "Charles De Ketelaere",
+        "value": 2,
+        "detail": "Belgium"
       },
       {
         "name": "Crysencio Summerville",
@@ -15096,6 +15256,11 @@
         "detail": "Belgium"
       },
       {
+        "name": "Malik Tillman",
+        "value": 2,
+        "detail": "Iran"
+      },
+      {
         "name": "Marko Arnautović",
         "value": 2,
         "detail": "Austria"
@@ -15119,11 +15284,6 @@
         "name": "Riyad Mahrez",
         "value": 2,
         "detail": "Algeria"
-      },
-      {
-        "name": "Romelu Lukaku",
-        "value": 2,
-        "detail": "Belgium"
       },
       {
         "name": "Rubén Vargas",
@@ -15376,6 +15536,11 @@
         "detail": "Switzerland"
       },
       {
+        "name": "Hans Vanaken",
+        "value": 1,
+        "detail": "Belgium"
+      },
+      {
         "name": "Hassan Al-Haydos",
         "value": 1,
         "detail": "Qatar"
@@ -15549,11 +15714,6 @@
         "name": "Mahmoud Saber",
         "value": 1,
         "detail": "Egypt"
-      },
-      {
-        "name": "Malik Tillman",
-        "value": 1,
-        "detail": "Iran"
       },
       {
         "name": "Marcel Sabitzer",
@@ -15850,7 +16010,7 @@
       {
         "name": "Matt Freese",
         "value": 2,
-        "detail": "United States · 4 goals conceded in 4 appearances"
+        "detail": "United States · 8 goals conceded in 5 appearances"
       },
       {
         "name": "Maxime Crépeau",
@@ -15945,7 +16105,7 @@
       {
         "name": "Thibaut Courtois",
         "value": 1,
-        "detail": "Belgium · 4 goals conceded in 4 appearances"
+        "detail": "Belgium · 5 goals conceded in 5 appearances"
       },
       {
         "name": "Zion Suzuki",
@@ -16133,7 +16293,7 @@
       "Egypt": 8,
       "Belgium": 7,
       "Saudi Arabia": 6,
-      "Iran": 6,
+      "Iran": 8,
       "Austria": 5,
       "Portugal": 7,
       "DR Congo": 6,
@@ -17253,6 +17413,16 @@
         "match": "Portugal vs Spain"
       },
       {
+        "player": "Malik Tillman",
+        "team": "Iran",
+        "match": "United States vs Belgium"
+      },
+      {
+        "player": "Weston McKennie",
+        "team": "Iran",
+        "match": "United States vs Belgium"
+      },
+      {
         "player": "Redouane Halhal",
         "team": "Morocco",
         "match": "Canada vs Morocco"
@@ -17990,6 +18160,13 @@
         "yellowCards": 3,
         "penalties": 0,
         "elapsed": 96
+      },
+      {
+        "match": "United States vs Belgium",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 100
       },
       {
         "match": "Canada vs Morocco",
