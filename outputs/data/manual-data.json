@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T03:13:34.440Z",
+  "updatedAt": "2026-07-07T03:20:50.681Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -1054,13 +1054,13 @@
       "date": "Saturday, June 13, 2026",
       "stage": "Group Stage",
       "group": "Group B",
-      "time": "2:00",
+      "time": "12:00 PM local",
       "kickoffISO": "2026-06-13T19:00:00Z",
       "home": "Qatar",
       "homeFlag": "QAT",
       "away": "Switzerland",
       "awayFlag": "SUI",
-      "location": "Levi's Stadium",
+      "location": "Levi's Stadium · San Francisco Bay Area",
       "venueTimeZone": "America/Los_Angeles",
       "status": "FT",
       "elapsed": 94,
@@ -3627,7 +3627,7 @@
       "date": "Sunday, June 21, 2026",
       "stage": "Group Stage",
       "group": "Group G",
-      "time": "2:00 PM CDT (12:00 PM PDT venue local)",
+      "time": "12:00 PM local",
       "kickoffISO": "2026-06-21T19:00:00Z",
       "home": "Belgium",
       "homeFlag": "BEL",
@@ -7303,7 +7303,18 @@
           "match": "Australia vs Egypt"
         }
       ],
-      "yellowCards": [],
+      "yellowCards": [
+        {
+          "player": "Yasser Ibrahim",
+          "team": "Egypt",
+          "match": "Australia vs Egypt"
+        },
+        {
+          "player": "Haissem Hassan",
+          "team": "Egypt",
+          "match": "Australia vs Egypt"
+        }
+      ],
       "redCards": [],
       "penalties": 0,
       "shootoutWinner": "Egypt",
@@ -8443,12 +8454,12 @@
       "date": "Saturday, June 13, 2026",
       "stage": "Group Stage",
       "group": "Group B",
-      "time": "2:00",
+      "time": "12:00 PM local",
       "home": "Qatar",
       "homeFlag": "QAT",
       "away": "Switzerland",
       "awayFlag": "SUI",
-      "location": "Levi's Stadium",
+      "location": "Levi's Stadium · San Francisco Bay Area",
       "status": "FT",
       "elapsed": 94,
       "homeScore": 1,
@@ -10747,7 +10758,7 @@
       "date": "Sunday, June 21, 2026",
       "stage": "Group Stage",
       "group": "Group G",
-      "time": "2:00 PM CDT (12:00 PM PDT venue local)",
+      "time": "12:00 PM local",
       "home": "Belgium",
       "homeFlag": "BEL",
       "away": "Iran",
@@ -14382,7 +14393,18 @@
           "match": "Australia vs Egypt"
         }
       ],
-      "yellowCards": [],
+      "yellowCards": [
+        {
+          "player": "Yasser Ibrahim",
+          "team": "Egypt",
+          "match": "Australia vs Egypt"
+        },
+        {
+          "player": "Haissem Hassan",
+          "team": "Egypt",
+          "match": "Australia vs Egypt"
+        }
+      ],
       "redCards": [],
       "penalties": 0,
       "shootoutWinner": "Egypt",
@@ -17302,16 +17324,6 @@
         "match": "Switzerland vs Algeria"
       },
       {
-        "player": "Yasser Ibrahim",
-        "team": "Egypt",
-        "match": "Australia vs Egypt"
-      },
-      {
-        "player": "Haissem Hassan",
-        "team": "Egypt",
-        "match": "Australia vs Egypt"
-      },
-      {
         "player": "Kevin Pina",
         "team": "Cabo Verde",
         "match": "Argentina vs Cabo Verde"
@@ -17445,6 +17457,16 @@
         "player": "Cyle Larin",
         "team": "Canada",
         "match": "Canada vs Morocco"
+      },
+      {
+        "player": "Yasser Ibrahim",
+        "team": "Egypt",
+        "match": "Australia vs Egypt"
+      },
+      {
+        "player": "Haissem Hassan",
+        "team": "Egypt",
+        "match": "Australia vs Egypt"
       }
     ],
     "penaltyEvents": [
