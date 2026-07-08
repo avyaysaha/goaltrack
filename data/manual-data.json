@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T19:05:18.099Z",
+  "updatedAt": "2026-07-08T03:03:19.397Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -619,7 +619,8 @@
         "drawn": 1,
         "lost": 0,
         "gd": 3,
-        "points": 7
+        "points": 7,
+        "eliminated": true
       },
       {
         "name": "Portugal",
@@ -7983,14 +7984,76 @@
       "date": "Tuesday, July 7, 2026",
       "stage": "Knockout",
       "group": "Match 96 · Round of 16",
-      "time": "1:00 PM local",
+      "time": "3:00 PM CDT (1:00 PM PDT venue local)",
       "kickoffISO": "2026-07-07T20:00:00Z",
-      "home": "Winner Match 85",
-      "homeFlag": "W85",
-      "away": "Winner Match 87",
-      "awayFlag": "W87",
+      "home": "Switzerland",
+      "homeFlag": "SUI",
+      "away": "Colombia",
+      "awayFlag": "COL",
       "location": "BC Place · Vancouver",
-      "venueTimeZone": "America/Vancouver"
+      "venueTimeZone": "America/Vancouver",
+      "homeSource": "Winner Match 85",
+      "awaySource": "Winner Match 87",
+      "status": "FT",
+      "elapsed": 131,
+      "homeScore": 0,
+      "awayScore": 0,
+      "homeShootoutScore": 4,
+      "awayShootoutScore": 3,
+      "scorers": [],
+      "yellowCards": [
+        {
+          "player": "Granit Xhaka",
+          "team": "Switzerland",
+          "match": "Switzerland vs Colombia"
+        },
+        {
+          "player": "Denis Zakaria",
+          "team": "Switzerland",
+          "match": "Switzerland vs Colombia"
+        },
+        {
+          "player": "Miro Muheim",
+          "team": "Switzerland",
+          "match": "Switzerland vs Colombia"
+        },
+        {
+          "player": "Luis Suárez",
+          "team": "Colombia",
+          "match": "Switzerland vs Colombia"
+        },
+        {
+          "player": "Davinson Sánchez",
+          "team": "Colombia",
+          "match": "Switzerland vs Colombia"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "shootoutWinner": "Switzerland",
+      "shootout": "4-3",
+      "homeKeeper": "Gregor Kobel",
+      "awayKeeper": "Camilo Vargas",
+      "homeStats": {
+        "shots": 7,
+        "shotsOnTarget": 2,
+        "possession": 53,
+        "passes": 631,
+        "passAccuracy": 87,
+        "fouls": 22,
+        "offsides": 5,
+        "corners": 3
+      },
+      "awayStats": {
+        "shots": 15,
+        "shotsOnTarget": 3,
+        "possession": 47,
+        "passes": 547,
+        "passAccuracy": 83,
+        "fouls": 21,
+        "offsides": 4,
+        "corners": 7
+      }
     },
     {
       "date": "Thursday, July 9, 2026",
@@ -15237,6 +15300,79 @@
         "offsides": 0,
         "corners": 1
       }
+    },
+    {
+      "date": "Tuesday, July 7, 2026",
+      "stage": "Knockout",
+      "group": "Match 96 · Round of 16",
+      "time": "3:00 PM CDT (1:00 PM PDT venue local)",
+      "home": "Switzerland",
+      "homeFlag": "SUI",
+      "away": "Colombia",
+      "awayFlag": "COL",
+      "homeSource": "Winner Match 85",
+      "awaySource": "Winner Match 87",
+      "location": "BC Place · Vancouver",
+      "status": "FT",
+      "elapsed": 131,
+      "homeScore": 0,
+      "awayScore": 0,
+      "homeShootoutScore": 4,
+      "awayShootoutScore": 3,
+      "scorers": [],
+      "yellowCards": [
+        {
+          "player": "Granit Xhaka",
+          "team": "Switzerland",
+          "match": "Switzerland vs Colombia"
+        },
+        {
+          "player": "Denis Zakaria",
+          "team": "Switzerland",
+          "match": "Switzerland vs Colombia"
+        },
+        {
+          "player": "Miro Muheim",
+          "team": "Switzerland",
+          "match": "Switzerland vs Colombia"
+        },
+        {
+          "player": "Luis Suárez",
+          "team": "Colombia",
+          "match": "Switzerland vs Colombia"
+        },
+        {
+          "player": "Davinson Sánchez",
+          "team": "Colombia",
+          "match": "Switzerland vs Colombia"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "shootoutWinner": "Switzerland",
+      "shootout": "4-3",
+      "homeKeeper": "Gregor Kobel",
+      "awayKeeper": "Camilo Vargas",
+      "homeStats": {
+        "shots": 7,
+        "shotsOnTarget": 2,
+        "possession": 53,
+        "passes": 631,
+        "passAccuracy": 87,
+        "fouls": 22,
+        "offsides": 5,
+        "corners": 3
+      },
+      "awayStats": {
+        "shots": 15,
+        "shotsOnTarget": 3,
+        "possession": 47,
+        "passes": 547,
+        "passAccuracy": 83,
+        "fouls": 21,
+        "offsides": 4,
+        "corners": 7
+      }
     }
   ],
   "detailedStats": {
@@ -16179,14 +16315,14 @@
         "detail": "Spain · 0 goals conceded in 5 appearances"
       },
       {
+        "name": "Camilo Vargas",
+        "value": 4,
+        "detail": "Colombia · 1 goals conceded in 5 appearances"
+      },
+      {
         "name": "Raúl Rangel",
         "value": 4,
         "detail": "Mexico · 3 goals conceded in 5 appearances"
-      },
-      {
-        "name": "Camilo Vargas",
-        "value": 3,
-        "detail": "Colombia · 1 goals conceded in 4 appearances"
       },
       {
         "name": "Alisson Becker",
@@ -16202,6 +16338,11 @@
         "name": "Emiliano Martínez",
         "value": 2,
         "detail": "Argentina · 3 goals conceded in 4 appearances"
+      },
+      {
+        "name": "Gregor Kobel",
+        "value": 2,
+        "detail": "Switzerland · 3 goals conceded in 5 appearances"
       },
       {
         "name": "Jordan Pickford",
@@ -16272,11 +16413,6 @@
         "name": "Eloy Room",
         "value": 1,
         "detail": "Curaçao · 9 goals conceded in 3 appearances"
-      },
-      {
-        "name": "Gregor Kobel",
-        "value": 1,
-        "detail": "Switzerland · 3 goals conceded in 4 appearances"
       },
       {
         "name": "Hernán Galíndez",
@@ -16490,7 +16626,7 @@
       "Paraguay": 10,
       "United States": 6,
       "Qatar": 4,
-      "Switzerland": 3,
+      "Switzerland": 6,
       "Brazil": 8,
       "Haiti": 5,
       "Scotland": 4,
@@ -16510,7 +16646,7 @@
       "DR Congo": 6,
       "Ghana": 7,
       "Panama": 5,
-      "Colombia": 6,
+      "Colombia": 8,
       "Uzbekistan": 4,
       "Czechia": 1,
       "Australia": 5,
@@ -17654,6 +17790,31 @@
         "match": "Argentina vs Egypt"
       },
       {
+        "player": "Granit Xhaka",
+        "team": "Switzerland",
+        "match": "Switzerland vs Colombia"
+      },
+      {
+        "player": "Denis Zakaria",
+        "team": "Switzerland",
+        "match": "Switzerland vs Colombia"
+      },
+      {
+        "player": "Miro Muheim",
+        "team": "Switzerland",
+        "match": "Switzerland vs Colombia"
+      },
+      {
+        "player": "Luis Suárez",
+        "team": "Colombia",
+        "match": "Switzerland vs Colombia"
+      },
+      {
+        "player": "Davinson Sánchez",
+        "team": "Colombia",
+        "match": "Switzerland vs Colombia"
+      },
+      {
         "player": "Redouane Halhal",
         "team": "Morocco",
         "match": "Canada vs Morocco"
@@ -18408,6 +18569,13 @@
         "yellowCards": 4,
         "penalties": 1,
         "elapsed": 101
+      },
+      {
+        "match": "Switzerland vs Colombia",
+        "redCards": 0,
+        "yellowCards": 5,
+        "penalties": 0,
+        "elapsed": 131
       },
       {
         "match": "Canada vs Morocco",
