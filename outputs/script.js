@@ -1382,16 +1382,39 @@ function getTeamMatchStat(match, statsRecord, side, row) {
   return statFromSideObjects(match, statsRecord, side, row.keys);
 }
 
+function numericStatValue(value) {
+  if (value === null || value === undefined || value === "") {
+    return null;
+  }
+
+  const number = Number(value);
+  return Number.isFinite(number) ? number : null;
+}
+
+function betterStatSide(row, homeValue, awayValue) {
+  const homeNumber = numericStatValue(homeValue);
+  const awayNumber = numericStatValue(awayValue);
+  if (homeNumber === null || awayNumber === null || homeNumber === awayNumber) {
+    return "";
+  }
+
+  if (row.lowerIsBetter) {
+    return homeNumber < awayNumber ? "home" : "away";
+  }
+
+  return homeNumber > awayNumber ? "home" : "away";
+}
+
 const matchStatRows = [
   { label: "Shots", keys: ["shots", "totalShots"] },
   { label: "Shots on Target", keys: ["shotsOnTarget", "onTarget", "shotOnTarget"] },
   { label: "Possession", keys: ["possession", "possessionPercentage", "possessionPercent"], suffix: "%" },
   { label: "Passes", keys: ["passes", "totalPasses"] },
   { label: "Pass Accuracy", keys: ["passAccuracy", "passingAccuracy", "passAccuracyPercentage"], suffix: "%" },
-  { label: "Fouls", keys: ["fouls", "foulsCommitted"] },
-  { label: "Yellow Cards", keys: ["yellowCards"], eventKey: "yellowCards" },
-  { label: "Red Cards", keys: ["redCards"], eventKey: "redCards" },
-  { label: "Offsides", keys: ["offsides", "offside"] },
+  { label: "Fouls", keys: ["fouls", "foulsCommitted"], lowerIsBetter: true },
+  { label: "Yellow Cards", keys: ["yellowCards"], eventKey: "yellowCards", lowerIsBetter: true },
+  { label: "Red Cards", keys: ["redCards"], eventKey: "redCards", lowerIsBetter: true },
+  { label: "Offsides", keys: ["offsides", "offside"], lowerIsBetter: true },
   { label: "Corners", keys: ["corners", "cornerKicks"] }
 ];
 
@@ -1445,11 +1468,12 @@ function openMatchStatsDialog(matchKey) {
         ${matchStatRows.map(function (row) {
           const homeValue = getTeamMatchStat(match, statsRecord, "home", row);
           const awayValue = getTeamMatchStat(match, statsRecord, "away", row);
+          const betterSide = betterStatSide(row, homeValue, awayValue);
           return `
             <div class="match-stats-row" role="row">
-              <span role="cell">${escapeHtml(formatMatchStat(homeValue, row.suffix || ""))}</span>
+              <span class="match-stats-value ${betterSide === "home" ? "stat-better" : ""}" role="cell">${escapeHtml(formatMatchStat(homeValue, row.suffix || ""))}</span>
               <strong role="cell">${escapeHtml(row.label)}</strong>
-              <span role="cell">${escapeHtml(formatMatchStat(awayValue, row.suffix || ""))}</span>
+              <span class="match-stats-value ${betterSide === "away" ? "stat-better" : ""}" role="cell">${escapeHtml(formatMatchStat(awayValue, row.suffix || ""))}</span>
             </div>
           `;
         }).join("")}
