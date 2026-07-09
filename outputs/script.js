@@ -2249,7 +2249,311 @@ function renderStatsDashboard() {
 
 renderStatsDashboard();
 
-// ---------- 6. GoalTrack site-data assistant ----------
+// ---------- 6. Home-page tournament overview ----------
+const overviewSection = document.querySelector("#tournament-overview");
+const overviewLastMatch = document.querySelector("#overview-last-match");
+const overviewLastDetail = document.querySelector("#overview-last-detail");
+const overviewNextMatch = document.querySelector("#overview-next-match");
+const overviewNextDetail = document.querySelector("#overview-next-detail");
+const overviewTotals = document.querySelector("#overview-totals");
+const overviewScorerTitle = document.querySelector("#overview-scorer-title");
+const overviewTeamTitle = document.querySelector("#overview-team-title");
+const overviewKeeperTitle = document.querySelector("#overview-keeper-title");
+
+function getMatchTimestamp(match) {
+  const kickoff = match.kickoffISO
+    ? new Date(match.kickoffISO)
+    : venueLocalToDate(match.date, match.time, match.venueTimeZone || getVenueTimeZone(match.location));
+  const timestamp = kickoff?.getTime();
+  return Number.isFinite(timestamp) ? timestamp : Number.MAX_SAFE_INTEGER;
+}
+
+function getUpcomingMatches() {
+  return matches
+    .filter(function (match) {
+      return !isFinishedMatch(match);
+    })
+    .sort(function (a, b) {
+      return getMatchTimestamp(a) - getMatchTimestamp(b);
+    });
+}
+
+function getOverviewMatchDisplay(match) {
+  if (!match) {
+    return null;
+  }
+
+  if (match.stage !== "Knockout") {
+    return { ...match };
+  }
+
+  const matchByNumber = new Map(
+    matches
+      .filter((entry) => entry.stage === "Knockout")
+      .map((entry) => [getMatchNumber(entry), entry])
+  );
+  const displayTeams = getScheduleTeamDisplay(match, matchByNumber);
+  return {
+    ...match,
+    home: displayTeams.home,
+    away: displayTeams.away
+  };
+}
+
+function formatOverviewMatch(match) {
+  if (!match) {
+    return "No match found";
+  }
+
+  if (isFinishedMatch(match)) {
+    return `${match.home} ${match.homeScore}-${match.awayScore} ${match.away}`;
+  }
+
+  return `${match.home} vs ${match.away}`;
+}
+
+function formatOverviewDetail(match) {
+  if (!match) {
+    return "";
+  }
+
+  const dateTime = getMatchDateTime(match);
+  const venue = cleanMatchLocation(match.location);
+  return [dateTime.date, dateTime.time, venue].filter(Boolean).join(" · ");
+}
+
+function countMatchEvents(match, statsRecord, eventName, recordKey) {
+  if (Array.isArray(match[eventName])) {
+    return match[eventName].length;
+  }
+  if (Number.isFinite(Number(match[eventName]))) {
+    return Number(match[eventName]);
+  }
+  if (statsRecord && Number.isFinite(Number(statsRecord[recordKey || eventName]))) {
+    return Number(statsRecord[recordKey || eventName]);
+  }
+  return 0;
+}
+
+function getTournamentOverviewTotals(stats) {
+  const totals = {
+    goals: 0,
+    redCards: 0,
+    yellowCards: 0,
+    penalties: 0,
+    shots: 0,
+    shotsOnTarget: 0,
+    passes: 0,
+    fouls: 0,
+    offsides: 0,
+    corners: 0
+  };
+
+  getCompletedMatches().forEach(function (match) {
+    const statsRecord = findDetailedMatchStats(match);
+    totals.goals += (match.homeScore || 0) + (match.awayScore || 0);
+    totals.redCards += countMatchEvents(match, statsRecord, "redCards");
+    totals.yellowCards += countMatchEvents(match, statsRecord, "yellowCards");
+    totals.penalties += countMatchEvents(match, statsRecord, "penalties");
+
+    [
+      ["shots", "Shots"],
+      ["shotsOnTarget", "Shots on Target"],
+      ["passes", "Passes"],
+      ["fouls", "Fouls"],
+      ["offsides", "Offsides"],
+      ["corners", "Corners"]
+    ].forEach(function ([key, label]) {
+      const row = matchStatRows.find(function (entry) {
+        return entry.label === label;
+      });
+      totals[key] += Number(getTeamMatchStat(match, statsRecord, "home", row)) || 0;
+      totals[key] += Number(getTeamMatchStat(match, statsRecord, "away", row)) || 0;
+    });
+  });
+
+  if (!totals.redCards) {
+    totals.redCards = Object.values(stats.redCards || {}).reduce(function (sum, value) {
+      return sum + (Number(value) || 0);
+    }, 0);
+  }
+  if (!totals.yellowCards) {
+    totals.yellowCards = Object.values(stats.yellowCards || {}).reduce(function (sum, value) {
+      return sum + (Number(value) || 0);
+    }, 0);
+  }
+  if (!totals.penalties) {
+    totals.penalties = Object.values(stats.penalties || {}).reduce(function (sum, value) {
+      return sum + (Number(value) || 0);
+    }, 0);
+  }
+
+  return totals;
+}
+
+const overviewTotalIcons = {
+  Goals: { className: "icon-golden-cleat" },
+  "Red cards": { className: "icon-red-card" },
+  "Yellow cards": { className: "icon-yellow-card" },
+  PKs: { className: "icon-golden-goal" },
+  Shots: { className: "icon-kick-ball" },
+  "Shots on target": { className: "icon-kick-ball" },
+  Passes: { className: "icon-kick-ball" },
+  Fouls: { className: "icon-slide-tackle" },
+  Offsides: { className: "icon-checkered-flag" },
+  Corners: { className: "icon-corner-flag" }
+};
+
+function overviewIconMarkup(config) {
+  if (!config) {
+    return "";
+  }
+
+  const svgIcons = {
+    "icon-golden-cleat": `
+      <svg viewBox="0 0 64 64" focusable="false">
+        <path class="cleat-upper" d="M10 34 L24 34 L29 23 L40 23 L43 31 L58 37 C60 38 60 42 57 44 L43 50 L18 50 C12 50 8 45 8 39 C8 36 9 35 10 34 Z"></path>
+        <path class="cleat-sole" d="M13 49 H46"></path>
+        <path class="cleat-laces" d="M30 29 H40 M29 34 H42 M27 39 H44"></path>
+        <path class="cleat-stud" d="M19 50 L16 57 M31 50 L29 57 M43 50 L45 57"></path>
+      </svg>
+    `,
+    "icon-golden-goal": `
+      <svg viewBox="0 0 64 64" focusable="false">
+        <path class="goal-frame" d="M13 49 V18 H51 V49"></path>
+        <path class="goal-net" d="M13 29 H51 M13 39 H51 M25 18 V49 M38 18 V49"></path>
+        <circle class="goal-ball" cx="46" cy="43" r="7"></circle>
+      </svg>
+    `,
+    "icon-kick-ball": `
+      <svg viewBox="0 0 64 64" focusable="false">
+        <path class="shot-motion" d="M9 21 H25 M7 32 H23 M11 43 H27"></path>
+        <circle class="shot-ball" cx="43" cy="32" r="15"></circle>
+        <path class="soccer-panel" d="M43 24 L50 29 L47 38 H39 L36 29 Z"></path>
+        <path class="soccer-seams" d="M43 24 L43 17 M50 29 L57 27 M47 38 L52 45 M39 38 L34 45 M36 29 L29 27"></path>
+      </svg>
+    `,
+    "icon-golden-ball": `
+      <svg viewBox="0 0 64 64" focusable="false">
+        <circle class="gold-ball" cx="32" cy="32" r="22"></circle>
+        <path class="soccer-panel" d="M32 21 L42 28 L38 40 H26 L22 28 Z"></path>
+        <path class="soccer-seams" d="M32 21 L32 10 M42 28 L53 24 M38 40 L45 50 M26 40 L19 50 M22 28 L11 24"></path>
+      </svg>
+    `,
+    "icon-golden-glove": `
+      <svg viewBox="0 0 64 64" focusable="false">
+        <path class="glove-fingers" d="M19 31 V15 C19 11 25 11 25 15 V29 M25 28 V12 C25 8 31 8 31 12 V28 M31 28 V12 C31 8 37 8 37 12 V29 M37 30 V16 C37 12 43 12 43 16 V34"></path>
+        <path class="glove-palm" d="M18 31 C14 28 10 33 14 38 L24 51 H43 C49 51 53 47 53 40 V30 C53 26 47 26 47 30 V36 C44 34 41 34 38 37 L34 41 L27 34 C24 31 21 31 18 31 Z"></path>
+        <path class="glove-cuff" d="M25 51 H45 V58 H25 Z"></path>
+      </svg>
+    `,
+    "icon-slide-tackle": `
+      <svg viewBox="0 0 64 64" focusable="false">
+        <path class="foul-lanyard" d="M18 20 C23 10 40 10 45 22"></path>
+        <rect class="foul-whistle" x="12" y="27" width="34" height="20" rx="10"></rect>
+        <path class="foul-mouth" d="M44 31 H57 V41 H44 Z"></path>
+        <circle class="foul-hole" cx="25" cy="37" r="5"></circle>
+      </svg>
+    `,
+    "icon-checkered-flag": `
+      <svg viewBox="0 0 64 64" focusable="false">
+        <path class="flag-pole" d="M18 10 V56"></path>
+        <path class="flag-border" d="M20 12 H54 V36 H20 Z"></path>
+        <path class="flag-black" d="M20 12 H31 V24 H20 Z M42 12 H54 V24 H42 Z M31 24 H42 V36 H31 Z"></path>
+      </svg>
+    `
+  };
+
+  if (svgIcons[config.className]) {
+    return `
+      <span class="overview-icon ${config.className}" aria-hidden="true">
+        ${svgIcons[config.className]}
+      </span>
+    `;
+  }
+
+  return `<span class="overview-icon ${config.className}" aria-hidden="true">${config.icon || ""}</span>`;
+}
+
+function renderTournamentOverview() {
+  if (!overviewSection) {
+    return;
+  }
+
+  const stats = getDetailedStats();
+  const completedMatches = getCompletedMatches();
+  const lastMatch = getOverviewMatchDisplay(completedMatches[completedMatches.length - 1]);
+  const nextMatch = getOverviewMatchDisplay(getUpcomingMatches()[0]);
+
+  overviewLastMatch.textContent = formatOverviewMatch(lastMatch);
+  overviewLastDetail.textContent = formatOverviewDetail(lastMatch);
+  overviewNextMatch.textContent = formatOverviewMatch(nextMatch);
+  overviewNextDetail.textContent = formatOverviewDetail(nextMatch);
+
+  let totals;
+  try {
+    totals = getTournamentOverviewTotals(stats);
+  } catch (error) {
+    console.error("Tournament overview totals failed:", error);
+    totals = {
+      goals: getGoalTrendData().at(-1)?.cumulativeValue || 0,
+      redCards: 0,
+      yellowCards: 0,
+      penalties: 0,
+      shots: 0,
+      shotsOnTarget: 0,
+      passes: 0,
+      fouls: 0,
+      offsides: 0,
+      corners: 0
+    };
+  }
+
+  const totalCards = [
+    ["Goals", totals.goals],
+    ["Red cards", totals.redCards],
+    ["Yellow cards", totals.yellowCards],
+    ["PKs", totals.penalties],
+    ["Shots", totals.shots],
+    ["Shots on target", totals.shotsOnTarget],
+    ["Passes", totals.passes],
+    ["Fouls", totals.fouls],
+    ["Offsides", totals.offsides],
+    ["Corners", totals.corners]
+  ];
+
+  overviewTotals.innerHTML = totalCards.map(function ([label, value]) {
+    const icon = overviewIconMarkup(overviewTotalIcons[label]);
+    return `
+      <article>
+        <span>${icon}${escapeHtml(label)}</span>
+        <strong>${Number(value).toLocaleString("en-US")}</strong>
+      </article>
+    `;
+  }).join("");
+
+  const teamGoalRows = topEntries(stats.goals).map(function ([name, value]) {
+    const team = getAllTeams().find(function (entry) {
+      return normalizeTeamName(entry.name) === normalizeTeamName(name);
+    });
+    return { name, value, detail: `Group ${team?.group || "-"}` };
+  });
+
+  if (overviewScorerTitle) {
+    overviewScorerTitle.textContent = stats.scorers?.[0]?.name || "Most goals";
+  }
+  if (overviewTeamTitle) {
+    overviewTeamTitle.textContent = teamGoalRows[0]?.name || "Most team goals";
+  }
+  if (overviewKeeperTitle) {
+    overviewKeeperTitle.textContent = stats.keepers?.[0]?.name || "Best keeper";
+  }
+
+}
+
+renderTournamentOverview();
+
+// ---------- 7. GoalTrack site-data assistant ----------
 const chatToggle = document.querySelector("#chat-toggle");
 const chatPanel = document.querySelector("#chat-panel");
 const chatClose = document.querySelector("#chat-close");
