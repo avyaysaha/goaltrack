@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T03:03:19.397Z",
+  "updatedAt": "2026-07-09T15:00:05.977Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -7537,8 +7537,8 @@
       "yellowCards": [],
       "redCards": [],
       "penalties": 0,
-      "homeKeeper": "",
-      "awayKeeper": "",
+      "homeKeeper": "Roberto Fernandez",
+      "awayKeeper": "Mike Maignan",
       "homeStats": {
         "shots": 5,
         "shotsOnTarget": 1,
@@ -14868,8 +14868,8 @@
       "yellowCards": [],
       "redCards": [],
       "penalties": 0,
-      "homeKeeper": "",
-      "awayKeeper": "",
+      "homeKeeper": "Roberto Fernandez",
+      "awayKeeper": "Mike Maignan",
       "homeStats": {
         "shots": 5,
         "shotsOnTarget": 1,
@@ -16361,8 +16361,9 @@
       },
       {
         "name": "Mike Maignan",
-        "value": 2,
-        "detail": "France · 2 goals conceded in 4 appearances"
+        "value": 3,
+        "detail": "France · 2 goals conceded in 5 appearances",
+        "goalsConceded": 2
       },
       {
         "name": "Orlando Gill",
