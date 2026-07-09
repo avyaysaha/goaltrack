@@ -1558,6 +1558,11 @@ tbody tr:hover {
   font-weight: 900;
 }
 
+.match-stats-value.stat-better {
+  color: var(--green-dark);
+  background: rgba(25, 189, 104, 0.14);
+}
+
 .match-stats-row strong {
   color: var(--muted);
   font-size: 0.74rem;
