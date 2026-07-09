@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="A beginner-friendly FIFA World Cup tracker made with HTML, CSS, and JavaScript.">
   <title>GoalTrack | World Cup Tracker</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=overview-blue">
 </head>
 <body>
   <!-- The header is shared across all three pages so navigation feels consistent. -->
@@ -71,6 +71,46 @@
         <div><strong id="hours">00</strong><span>Hours</span></div>
         <div><strong id="minutes">00</strong><span>Mins</span></div>
         <div><strong id="seconds">00</strong><span>Secs</span></div>
+      </div>
+    </section>
+
+    <section id="tournament-overview" class="tournament-overview" aria-labelledby="overview-title">
+      <div class="overview-heading">
+        <div>
+          <p class="section-kicker">TOURNAMENT OVERVIEW</p>
+          <h2 id="overview-title">The story so far</h2>
+        </div>
+      </div>
+
+      <div class="overview-grid">
+        <article class="overview-match-card">
+          <span>Last match played</span>
+          <strong id="overview-last-match">Loading...</strong>
+          <p id="overview-last-detail">Checking completed matches.</p>
+        </article>
+
+        <article class="overview-match-card">
+          <span>Next match coming up</span>
+          <strong id="overview-next-match">France vs Morocco</strong>
+          <p id="overview-next-detail">Thursday, July 9, 2026 · 4:00 PM · Gillette Stadium · Boston</p>
+        </article>
+      </div>
+
+      <div id="overview-totals" class="overview-totals" aria-label="Whole tournament totals"></div>
+
+      <div class="overview-leaders">
+        <article>
+          <h3><span class="overview-icon icon-golden-cleat" aria-hidden="true"><svg viewBox="0 0 64 64" focusable="false"><path class="cleat-upper" d="M10 34 L24 34 L29 23 L40 23 L43 31 L58 37 C60 38 60 42 57 44 L43 50 L18 50 C12 50 8 45 8 39 C8 36 9 35 10 34 Z"></path><path class="cleat-sole" d="M13 49 H46"></path><path class="cleat-laces" d="M30 29 H40 M29 34 H42 M27 39 H44"></path><path class="cleat-stud" d="M19 50 L16 57 M31 50 L29 57 M43 50 L45 57"></path></svg></span> Most Goals</h3>
+          <strong id="overview-scorer-title" class="overview-leader-name">Lionel Messi</strong>
+        </article>
+        <article>
+          <h3><span class="overview-icon icon-golden-ball" aria-hidden="true"><svg viewBox="0 0 64 64" focusable="false"><circle class="gold-ball" cx="32" cy="32" r="22"></circle><path class="soccer-panel" d="M32 21 L42 28 L38 40 H26 L22 28 Z"></path><path class="soccer-seams" d="M32 21 L32 10 M42 28 L53 24 M38 40 L45 50 M26 40 L19 50 M22 28 L11 24"></path></svg></span> Most Team Goals</h3>
+          <strong id="overview-team-title" class="overview-leader-name">Argentina</strong>
+        </article>
+        <article>
+          <h3><span class="overview-icon icon-golden-glove" aria-hidden="true"><svg viewBox="0 0 64 64" focusable="false"><path class="glove-fingers" d="M19 31 V15 C19 11 25 11 25 15 V29 M25 28 V12 C25 8 31 8 31 12 V28 M31 28 V12 C31 8 37 8 37 12 V29 M37 30 V16 C37 12 43 12 43 16 V34"></path><path class="glove-palm" d="M18 31 C14 28 10 33 14 38 L24 51 H43 C49 51 53 47 53 40 V30 C53 26 47 26 47 30 V36 C44 34 41 34 38 37 L34 41 L27 34 C24 31 21 31 18 31 Z"></path><path class="glove-cuff" d="M25 51 H45 V58 H25 Z"></path></svg></span> Best Keeper</h3>
+          <strong id="overview-keeper-title" class="overview-leader-name">Unai Simón</strong>
+        </article>
       </div>
     </section>
 
