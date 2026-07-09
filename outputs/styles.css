@@ -1559,8 +1559,7 @@ tbody tr:hover {
 }
 
 .match-stats-value.stat-better {
-  color: var(--green-dark);
-  background: rgba(25, 189, 104, 0.14);
+  color: var(--green-dark) !important;
 }
 
 .match-stats-row strong {
