@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T15:00:05.977Z",
+  "updatedAt": "2026-07-09T15:06:45.776Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -7533,7 +7533,13 @@
       "elapsed": 90,
       "homeScore": 0,
       "awayScore": 1,
-      "scorers": [],
+      "scorers": [
+        {
+          "player": "Kylian Mbappé",
+          "team": "France",
+          "match": "Paraguay vs France"
+        }
+      ],
       "yellowCards": [],
       "redCards": [],
       "penalties": 0,
@@ -14864,7 +14870,13 @@
       "elapsed": 90,
       "homeScore": 0,
       "awayScore": 1,
-      "scorers": [],
+      "scorers": [
+        {
+          "player": "Kylian Mbappé",
+          "team": "France",
+          "match": "Paraguay vs France"
+        }
+      ],
       "yellowCards": [],
       "redCards": [],
       "penalties": 0,
@@ -15394,7 +15406,7 @@
       },
       {
         "name": "Kylian Mbappé",
-        "value": 6,
+        "value": 7,
         "detail": "France"
       },
       {
