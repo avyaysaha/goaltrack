@@ -1469,11 +1469,14 @@ function openMatchStatsDialog(matchKey) {
           const homeValue = getTeamMatchStat(match, statsRecord, "home", row);
           const awayValue = getTeamMatchStat(match, statsRecord, "away", row);
           const betterSide = betterStatSide(row, homeValue, awayValue);
+          const homeHighlight = betterSide === "home" ? "stat-better" : "";
+          const awayHighlight = betterSide === "away" ? "stat-better" : "";
+          const highlightStyle = "color:#08794a;";
           return `
             <div class="match-stats-row" role="row">
-              <span class="match-stats-value ${betterSide === "home" ? "stat-better" : ""}" role="cell">${escapeHtml(formatMatchStat(homeValue, row.suffix || ""))}</span>
+              <span class="match-stats-value ${homeHighlight}" ${homeHighlight ? `style="${highlightStyle}"` : ""} role="cell">${escapeHtml(formatMatchStat(homeValue, row.suffix || ""))}</span>
               <strong role="cell">${escapeHtml(row.label)}</strong>
-              <span class="match-stats-value ${betterSide === "away" ? "stat-better" : ""}" role="cell">${escapeHtml(formatMatchStat(awayValue, row.suffix || ""))}</span>
+              <span class="match-stats-value ${awayHighlight}" ${awayHighlight ? `style="${highlightStyle}"` : ""} role="cell">${escapeHtml(formatMatchStat(awayValue, row.suffix || ""))}</span>
             </div>
           `;
         }).join("")}
