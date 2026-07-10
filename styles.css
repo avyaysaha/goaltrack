@@ -148,6 +148,7 @@ a {
   top: 76px;
   z-index: 19;
   padding: 10px 5vw;
+  background: rgba(16, 28, 50, 0.97);
   font-size: clamp(1.25rem, 2.5vw, 2.15rem);
   font-weight: 900;
   line-height: 0.95;
@@ -165,7 +166,7 @@ a {
 }
 
 .tagline-green {
-  color: var(--green-dark);
+  color: var(--green);
 }
 
 /* ---------- 3. Home hero ---------- */
