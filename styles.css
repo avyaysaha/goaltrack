@@ -148,8 +148,6 @@ a {
   top: 76px;
   z-index: 19;
   padding: 10px 5vw;
-  background: var(--white);
-  border-bottom: 1px solid var(--line);
   font-size: clamp(1.25rem, 2.5vw, 2.15rem);
   font-weight: 900;
   line-height: 0.95;
