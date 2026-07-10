@@ -8082,7 +8082,7 @@
       "awayScore": 0,
       "scorers": [
         {
-          "player": "Kylian Mbappe",
+          "player": "Kylian Mbappé",
           "team": "France",
           "match": "France vs Morocco"
         },
@@ -15454,7 +15454,7 @@
       "awayScore": 0,
       "scorers": [
         {
-          "player": "Kylian Mbappe",
+          "player": "Kylian Mbappé",
           "team": "France",
           "match": "France vs Morocco"
         },
@@ -15505,14 +15505,14 @@
         "detail": "Argentina"
       },
       {
+        "name": "Kylian Mbappé",
+        "value": 8,
+        "detail": "France"
+      },
+      {
         "name": "Erling Haaland",
         "value": 7,
         "detail": "Norway"
-      },
-      {
-        "name": "Kylian Mbappé",
-        "value": 7,
-        "detail": "France"
       },
       {
         "name": "Harry Kane",
@@ -16113,11 +16113,6 @@
         "name": "Kevin Pina",
         "value": 1,
         "detail": "Cabo Verde"
-      },
-      {
-        "name": "Kylian Mbappe",
-        "value": 1,
-        "detail": "France"
       },
       {
         "name": "Ladislav Krejčí",
