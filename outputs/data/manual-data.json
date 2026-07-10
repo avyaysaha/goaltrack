@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T15:06:45.803Z",
+  "updatedAt": "2026-07-10T02:44:59.841Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -248,7 +248,8 @@
         "drawn": 1,
         "lost": 0,
         "gd": 3,
-        "points": 7
+        "points": 7,
+        "eliminated": true
       },
       {
         "name": "Scotland",
@@ -8067,12 +8068,24 @@
       "group": "Match 97 · Quarter-final",
       "time": "4:00 PM local",
       "kickoffISO": "2026-07-09T20:00:00Z",
-      "home": "Winner Match 89",
-      "homeFlag": "W89",
-      "away": "Winner Match 90",
-      "awayFlag": "W90",
+      "home": "France",
+      "homeFlag": "FRA",
+      "away": "Morocco",
+      "awayFlag": "MAR",
       "location": "Gillette Stadium · Boston",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "homeSource": "Winner Match 89",
+      "awaySource": "Winner Match 90",
+      "status": "FT",
+      "elapsed": 95,
+      "homeScore": 2,
+      "awayScore": 0,
+      "scorers": [],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "",
+      "awayKeeper": ""
     },
     {
       "date": "Friday, July 10, 2026",
@@ -15385,6 +15398,29 @@
         "offsides": 4,
         "corners": 7
       }
+    },
+    {
+      "date": "Thursday, July 9, 2026",
+      "stage": "Knockout",
+      "group": "Match 97 · Quarter-final",
+      "time": "4:00 PM local",
+      "home": "France",
+      "homeFlag": "FRA",
+      "away": "Morocco",
+      "awayFlag": "MAR",
+      "homeSource": "Winner Match 89",
+      "awaySource": "Winner Match 90",
+      "location": "Gillette Stadium · Boston",
+      "status": "FT",
+      "elapsed": 95,
+      "homeScore": 2,
+      "awayScore": 0,
+      "scorers": [],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "",
+      "awayKeeper": ""
     }
   ],
   "detailedStats": {
@@ -15400,14 +15436,14 @@
         "detail": "Norway"
       },
       {
-        "name": "Harry Kane",
-        "value": 6,
-        "detail": "England"
-      },
-      {
         "name": "Kylian Mbappé",
         "value": 7,
         "detail": "France"
+      },
+      {
+        "name": "Harry Kane",
+        "value": 6,
+        "detail": "England"
       },
       {
         "name": "Ismaïla Sarr",
@@ -16337,6 +16373,11 @@
         "detail": "Mexico · 3 goals conceded in 5 appearances"
       },
       {
+        "name": "Mike Maignan",
+        "value": 3,
+        "detail": "France · 2 goals conceded in 5 appearances"
+      },
+      {
         "name": "Alisson Becker",
         "value": 2,
         "detail": "Brazil · 4 goals conceded in 5 appearances"
@@ -16370,12 +16411,6 @@
         "name": "Maxime Crépeau",
         "value": 2,
         "detail": "Canada · 6 goals conceded in 5 appearances"
-      },
-      {
-        "name": "Mike Maignan",
-        "value": 3,
-        "detail": "France · 2 goals conceded in 5 appearances",
-        "goalsConceded": 2
       },
       {
         "name": "Orlando Gill",
@@ -16601,6 +16636,11 @@
         "name": "Oussama Benbot",
         "value": 0,
         "detail": "Algeria · 3 goals conceded in 1 appearance"
+      },
+      {
+        "name": "Roberto Fernandez",
+        "value": 0,
+        "detail": "Paraguay · 1 goals conceded in 1 appearance"
       },
       {
         "name": "Uğurcan Çakır",
@@ -18589,6 +18629,13 @@
         "yellowCards": 5,
         "penalties": 0,
         "elapsed": 131
+      },
+      {
+        "match": "France vs Morocco",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 95
       },
       {
         "match": "Canada vs Morocco",
