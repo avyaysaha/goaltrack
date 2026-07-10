@@ -147,15 +147,27 @@ a {
   position: sticky;
   top: 76px;
   z-index: 19;
-  padding: 8px 5vw;
+  padding: 10px 5vw;
   background: var(--white);
-  color: var(--ink);
   border-bottom: 1px solid var(--line);
-  font-size: 0.76rem;
+  font-size: clamp(1.25rem, 2.5vw, 2.15rem);
   font-weight: 900;
-  letter-spacing: 0.12em;
+  line-height: 0.95;
+  letter-spacing: -0.06em;
   text-align: center;
   text-transform: uppercase;
+}
+
+.tagline-red {
+  color: var(--red);
+}
+
+.tagline-blue {
+  color: var(--blue);
+}
+
+.tagline-green {
+  color: var(--green-dark);
 }
 
 /* ---------- 3. Home hero ---------- */
@@ -2870,9 +2882,9 @@ tbody tr:hover {
 
   .tournament-tagline {
     top: 66px;
-    padding: 7px 6vw;
-    font-size: 0.64rem;
-    letter-spacing: 0.08em;
+    padding: 8px 6vw;
+    font-size: clamp(0.95rem, 5vw, 1.35rem);
+    letter-spacing: -0.04em;
   }
 
   .chat-toggle {
