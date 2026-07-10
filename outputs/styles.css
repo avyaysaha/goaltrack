@@ -143,6 +143,21 @@ a {
   background: var(--white);
 }
 
+.tournament-tagline {
+  position: sticky;
+  top: 76px;
+  z-index: 19;
+  padding: 8px 5vw;
+  background: var(--white);
+  color: var(--ink);
+  border-bottom: 1px solid var(--line);
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /* ---------- 3. Home hero ---------- */
 .hero {
   min-height: 610px;
@@ -2851,6 +2866,13 @@ tbody tr:hover {
 @media (max-width: 640px) {
   .site-header {
     min-height: 66px;
+  }
+
+  .tournament-tagline {
+    top: 66px;
+    padding: 7px 6vw;
+    font-size: 0.64rem;
+    letter-spacing: 0.08em;
   }
 
   .chat-toggle {
