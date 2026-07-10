@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T02:50:56.964Z",
+  "updatedAt": "2026-07-10T21:38:07.199Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -431,7 +431,8 @@
         "drawn": 2,
         "lost": 0,
         "gd": 4,
-        "points": 5
+        "points": 5,
+        "eliminated": true
       },
       {
         "name": "Egypt",
@@ -8128,14 +8129,83 @@
       "date": "Friday, July 10, 2026",
       "stage": "Knockout",
       "group": "Match 98 · Quarter-final",
-      "time": "12:00 PM local",
+      "time": "2:00 PM CDT (12:00 PM PDT venue local)",
       "kickoffISO": "2026-07-10T19:00:00Z",
-      "home": "Winner Match 93",
-      "homeFlag": "W93",
-      "away": "Winner Match 94",
-      "awayFlag": "W94",
+      "home": "Spain",
+      "homeFlag": "ESP",
+      "away": "Belgium",
+      "awayFlag": "BEL",
       "location": "SoFi Stadium · Los Angeles",
-      "venueTimeZone": "America/Los_Angeles"
+      "venueTimeZone": "America/Los_Angeles",
+      "homeSource": "Winner Match 93",
+      "awaySource": "Winner Match 94",
+      "status": "FT",
+      "elapsed": 97,
+      "homeScore": 2,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Fabián Ruiz",
+          "team": "Spain",
+          "match": "Spain vs Belgium"
+        },
+        {
+          "player": "Charles De Ketelaere",
+          "team": "Belgium",
+          "match": "Spain vs Belgium"
+        },
+        {
+          "player": "Mikel Merino",
+          "team": "Spain",
+          "match": "Spain vs Belgium"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Pau Cubarsí",
+          "team": "Spain",
+          "match": "Spain vs Belgium"
+        },
+        {
+          "player": "Aymeric Laporte",
+          "team": "Spain",
+          "match": "Spain vs Belgium"
+        },
+        {
+          "player": "Kevin De Bruyne",
+          "team": "Belgium",
+          "match": "Spain vs Belgium"
+        },
+        {
+          "player": "Axel Witsel",
+          "team": "Belgium",
+          "match": "Spain vs Belgium"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Unai Simón",
+      "awayKeeper": "Thibaut Courtois",
+      "homeStats": {
+        "shots": 17,
+        "shotsOnTarget": 8,
+        "possession": 68,
+        "passes": 665,
+        "passAccuracy": 90,
+        "fouls": 13,
+        "offsides": 3,
+        "corners": 5
+      },
+      "awayStats": {
+        "shots": 5,
+        "shotsOnTarget": 2,
+        "possession": 32,
+        "passes": 314,
+        "passAccuracy": 78,
+        "fouls": 18,
+        "offsides": 1,
+        "corners": 1
+      }
     },
     {
       "date": "Saturday, July 11, 2026",
@@ -15495,19 +15565,99 @@
         "offsides": 0,
         "corners": 5
       }
+    },
+    {
+      "date": "Friday, July 10, 2026",
+      "stage": "Knockout",
+      "group": "Match 98 · Quarter-final",
+      "time": "2:00 PM CDT (12:00 PM PDT venue local)",
+      "home": "Spain",
+      "homeFlag": "ESP",
+      "away": "Belgium",
+      "awayFlag": "BEL",
+      "homeSource": "Winner Match 93",
+      "awaySource": "Winner Match 94",
+      "location": "SoFi Stadium · Los Angeles",
+      "status": "FT",
+      "elapsed": 97,
+      "homeScore": 2,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Fabián Ruiz",
+          "team": "Spain",
+          "match": "Spain vs Belgium"
+        },
+        {
+          "player": "Charles De Ketelaere",
+          "team": "Belgium",
+          "match": "Spain vs Belgium"
+        },
+        {
+          "player": "Mikel Merino",
+          "team": "Spain",
+          "match": "Spain vs Belgium"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Pau Cubarsí",
+          "team": "Spain",
+          "match": "Spain vs Belgium"
+        },
+        {
+          "player": "Aymeric Laporte",
+          "team": "Spain",
+          "match": "Spain vs Belgium"
+        },
+        {
+          "player": "Kevin De Bruyne",
+          "team": "Belgium",
+          "match": "Spain vs Belgium"
+        },
+        {
+          "player": "Axel Witsel",
+          "team": "Belgium",
+          "match": "Spain vs Belgium"
+        }
+      ],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Unai Simón",
+      "awayKeeper": "Thibaut Courtois",
+      "homeStats": {
+        "shots": 17,
+        "shotsOnTarget": 8,
+        "possession": 68,
+        "passes": 665,
+        "passAccuracy": 90,
+        "fouls": 13,
+        "offsides": 3,
+        "corners": 5
+      },
+      "awayStats": {
+        "shots": 5,
+        "shotsOnTarget": 2,
+        "possession": 32,
+        "passes": 314,
+        "passAccuracy": 78,
+        "fouls": 18,
+        "offsides": 1,
+        "corners": 1
+      }
     }
   ],
   "detailedStats": {
     "scorers": [
       {
-        "name": "Lionel Messi",
-        "value": 8,
-        "detail": "Argentina"
-      },
-      {
         "name": "Kylian Mbappé",
         "value": 8,
         "detail": "France"
+      },
+      {
+        "name": "Lionel Messi",
+        "value": 8,
+        "detail": "Argentina"
       },
       {
         "name": "Erling Haaland",
@@ -15553,6 +15703,11 @@
         "name": "Brian Brobbey",
         "value": 3,
         "detail": "Netherlands"
+      },
+      {
+        "name": "Charles De Ketelaere",
+        "value": 3,
+        "detail": "Belgium"
       },
       {
         "name": "Cody Gakpo",
@@ -15645,11 +15800,6 @@
         "detail": "Switzerland"
       },
       {
-        "name": "Charles De Ketelaere",
-        "value": 2,
-        "detail": "Belgium"
-      },
-      {
         "name": "Crysencio Summerville",
         "value": 2,
         "detail": "Netherlands"
@@ -15698,6 +15848,11 @@
         "name": "Marko Arnautović",
         "value": 2,
         "detail": "Austria"
+      },
+      {
+        "name": "Mikel Merino",
+        "value": 2,
+        "detail": "Spain"
       },
       {
         "name": "Mostafa Ziko",
@@ -15923,6 +16078,11 @@
         "name": "Enzo Fernández",
         "value": 1,
         "detail": "Argentina"
+      },
+      {
+        "name": "Fabián Ruiz",
+        "value": 1,
+        "detail": "Spain"
       },
       {
         "name": "Felix Nmecha",
@@ -16230,11 +16390,6 @@
         "detail": "Czechia"
       },
       {
-        "name": "Mikel Merino",
-        "value": 1,
-        "detail": "Spain"
-      },
-      {
         "name": "Mohamed Hany(OG)",
         "value": 1,
         "detail": "Belgium"
@@ -16434,7 +16589,7 @@
       {
         "name": "Unai Simón",
         "value": 5,
-        "detail": "Spain · 0 goals conceded in 5 appearances"
+        "detail": "Spain · 1 goals conceded in 6 appearances"
       },
       {
         "name": "Camilo Vargas",
@@ -16564,7 +16719,7 @@
       {
         "name": "Thibaut Courtois",
         "value": 1,
-        "detail": "Belgium · 5 goals conceded in 5 appearances"
+        "detail": "Belgium · 7 goals conceded in 6 appearances"
       },
       {
         "name": "Zion Suzuki",
@@ -16762,10 +16917,10 @@
       "Cote d'Ivoire": 5,
       "Ecuador": 3,
       "Tunisia": 1,
-      "Spain": 3,
+      "Spain": 5,
       "Cabo Verde": 5,
       "Egypt": 12,
-      "Belgium": 7,
+      "Belgium": 9,
       "Saudi Arabia": 6,
       "Iran": 6,
       "Austria": 5,
@@ -17947,6 +18102,26 @@
         "match": "France vs Morocco"
       },
       {
+        "player": "Pau Cubarsí",
+        "team": "Spain",
+        "match": "Spain vs Belgium"
+      },
+      {
+        "player": "Aymeric Laporte",
+        "team": "Spain",
+        "match": "Spain vs Belgium"
+      },
+      {
+        "player": "Kevin De Bruyne",
+        "team": "Belgium",
+        "match": "Spain vs Belgium"
+      },
+      {
+        "player": "Axel Witsel",
+        "team": "Belgium",
+        "match": "Spain vs Belgium"
+      },
+      {
         "player": "Redouane Halhal",
         "team": "Morocco",
         "match": "Canada vs Morocco"
@@ -18718,6 +18893,13 @@
         "yellowCards": 1,
         "penalties": 1,
         "elapsed": 95
+      },
+      {
+        "match": "Spain vs Belgium",
+        "redCards": 0,
+        "yellowCards": 4,
+        "penalties": 0,
+        "elapsed": 97
       },
       {
         "match": "Canada vs Morocco",
