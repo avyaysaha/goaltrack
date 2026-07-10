@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T02:44:59.841Z",
+  "updatedAt": "2026-07-10T02:50:56.964Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -8066,7 +8066,7 @@
       "date": "Thursday, July 9, 2026",
       "stage": "Knockout",
       "group": "Match 97 · Quarter-final",
-      "time": "4:00 PM local",
+      "time": "3:00 PM CDT (4:00 PM EDT venue local)",
       "kickoffISO": "2026-07-09T20:00:00Z",
       "home": "France",
       "homeFlag": "FRA",
@@ -8080,12 +8080,49 @@
       "elapsed": 95,
       "homeScore": 2,
       "awayScore": 0,
-      "scorers": [],
-      "yellowCards": [],
+      "scorers": [
+        {
+          "player": "Kylian Mbappe",
+          "team": "France",
+          "match": "France vs Morocco"
+        },
+        {
+          "player": "Ousmane Dembélé",
+          "team": "France",
+          "match": "France vs Morocco"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Issa Diop",
+          "team": "Morocco",
+          "match": "France vs Morocco"
+        }
+      ],
       "redCards": [],
-      "penalties": 0,
-      "homeKeeper": "",
-      "awayKeeper": ""
+      "penalties": 1,
+      "homeKeeper": "Mike Maignan",
+      "awayKeeper": "Yassine Bounou",
+      "homeStats": {
+        "shots": 22,
+        "shotsOnTarget": 8,
+        "possession": 48,
+        "passes": 485,
+        "passAccuracy": 89,
+        "fouls": 10,
+        "offsides": 0,
+        "corners": 5
+      },
+      "awayStats": {
+        "shots": 5,
+        "shotsOnTarget": 1,
+        "possession": 52,
+        "passes": 524,
+        "passAccuracy": 86,
+        "fouls": 13,
+        "offsides": 0,
+        "corners": 5
+      }
     },
     {
       "date": "Friday, July 10, 2026",
@@ -15403,7 +15440,7 @@
       "date": "Thursday, July 9, 2026",
       "stage": "Knockout",
       "group": "Match 97 · Quarter-final",
-      "time": "4:00 PM local",
+      "time": "3:00 PM CDT (4:00 PM EDT venue local)",
       "home": "France",
       "homeFlag": "FRA",
       "away": "Morocco",
@@ -15415,12 +15452,49 @@
       "elapsed": 95,
       "homeScore": 2,
       "awayScore": 0,
-      "scorers": [],
-      "yellowCards": [],
+      "scorers": [
+        {
+          "player": "Kylian Mbappe",
+          "team": "France",
+          "match": "France vs Morocco"
+        },
+        {
+          "player": "Ousmane Dembélé",
+          "team": "France",
+          "match": "France vs Morocco"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Issa Diop",
+          "team": "Morocco",
+          "match": "France vs Morocco"
+        }
+      ],
       "redCards": [],
-      "penalties": 0,
-      "homeKeeper": "",
-      "awayKeeper": ""
+      "penalties": 1,
+      "homeKeeper": "Mike Maignan",
+      "awayKeeper": "Yassine Bounou",
+      "homeStats": {
+        "shots": 22,
+        "shotsOnTarget": 8,
+        "possession": 48,
+        "passes": 485,
+        "passAccuracy": 89,
+        "fouls": 10,
+        "offsides": 0,
+        "corners": 5
+      },
+      "awayStats": {
+        "shots": 5,
+        "shotsOnTarget": 1,
+        "possession": 52,
+        "passes": 524,
+        "passAccuracy": 86,
+        "fouls": 13,
+        "offsides": 0,
+        "corners": 5
+      }
     }
   ],
   "detailedStats": {
@@ -15446,6 +15520,11 @@
         "detail": "England"
       },
       {
+        "name": "Ousmane Dembélé",
+        "value": 5,
+        "detail": "France"
+      },
+      {
         "name": "Ismaïla Sarr",
         "value": 4,
         "detail": "Senegal"
@@ -15464,11 +15543,6 @@
         "name": "Mikel Oyarzabal",
         "value": 4,
         "detail": "Spain"
-      },
-      {
-        "name": "Ousmane Dembélé",
-        "value": 4,
-        "detail": "France"
       },
       {
         "name": "Vinícius Júnior",
@@ -16041,6 +16115,11 @@
         "detail": "Cabo Verde"
       },
       {
+        "name": "Kylian Mbappe",
+        "value": 1,
+        "detail": "France"
+      },
+      {
         "name": "Ladislav Krejčí",
         "value": 1,
         "detail": "Czechia"
@@ -16368,14 +16447,14 @@
         "detail": "Colombia · 1 goals conceded in 5 appearances"
       },
       {
+        "name": "Mike Maignan",
+        "value": 4,
+        "detail": "France · 2 goals conceded in 6 appearances"
+      },
+      {
         "name": "Raúl Rangel",
         "value": 4,
         "detail": "Mexico · 3 goals conceded in 5 appearances"
-      },
-      {
-        "name": "Mike Maignan",
-        "value": 3,
-        "detail": "France · 2 goals conceded in 5 appearances"
       },
       {
         "name": "Alisson Becker",
@@ -16435,7 +16514,7 @@
       {
         "name": "Yassine Bounou",
         "value": 2,
-        "detail": "Morocco · 4 goals conceded in 5 appearances"
+        "detail": "Morocco · 6 goals conceded in 6 appearances"
       },
       {
         "name": "Alireza Beiranvand",
@@ -16703,7 +16782,7 @@
       "Uzbekistan": 4,
       "Czechia": 1,
       "Australia": 5,
-      "Morocco": 6,
+      "Morocco": 7,
       "Sweden": 3,
       "Germany": 3,
       "Curaçao": 7,
@@ -17868,6 +17947,11 @@
         "match": "Switzerland vs Colombia"
       },
       {
+        "player": "Issa Diop",
+        "team": "Morocco",
+        "match": "France vs Morocco"
+      },
+      {
         "player": "Redouane Halhal",
         "team": "Morocco",
         "match": "Canada vs Morocco"
@@ -17962,6 +18046,9 @@
       },
       {
         "match": "Argentina vs Egypt"
+      },
+      {
+        "match": "France vs Morocco"
       }
     ],
     "matchStats": [
@@ -18633,8 +18720,8 @@
       {
         "match": "France vs Morocco",
         "redCards": 0,
-        "yellowCards": 0,
-        "penalties": 0,
+        "yellowCards": 1,
+        "penalties": 1,
         "elapsed": 95
       },
       {
