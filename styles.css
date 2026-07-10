@@ -1,4 +1,4 @@
-﻿/* ---------- 1. Basic setup and reusable colors ---------- */
+/* ---------- 1. Basic setup and reusable colors ---------- */
 :root {
   --ink: #101c32;
   --red: #ed334e;
@@ -2770,6 +2770,19 @@ tbody tr:hover {
   color: var(--white);
 }
 
+.chat-action-button {
+  display: block;
+  margin-top: 10px;
+  padding: 9px 12px;
+  border: 0;
+  border-radius: 12px;
+  background: var(--red);
+  color: var(--white);
+  font-size: 0.74rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
 .chat-suggestions {
   padding: 10px 14px;
   display: flex;
@@ -2820,6 +2833,300 @@ tbody tr:hover {
   cursor: pointer;
 }
 
+.edit-dialog {
+  width: min(760px, 94vw);
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.edit-dialog::backdrop {
+  background: rgba(16, 28, 50, 0.62);
+}
+
+.edit-dialog-card {
+  position: relative;
+  padding: 26px;
+  border: 1px solid var(--line);
+  background: var(--white);
+  box-shadow: 0 30px 80px rgba(16, 28, 50, 0.28);
+}
+
+.edit-dialog-card h2 {
+  margin: 0;
+  font-size: 1.7rem;
+  letter-spacing: -0.05em;
+}
+
+.edit-dialog-card p {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.edit-dialog-card label {
+  display: grid;
+  gap: 7px;
+  color: var(--ink);
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.edit-password-input,
+.leaderboard-edit-panel textarea,
+.match-edit-form input {
+  width: 100%;
+  border: 1px solid var(--line);
+  outline: 0;
+  font: inherit;
+}
+
+.edit-password-input {
+  min-height: 44px;
+  padding: 0 12px;
+}
+
+.edit-password-input:focus,
+.leaderboard-edit-panel textarea:focus,
+.match-edit-form input:focus {
+  border-color: var(--blue);
+}
+
+.edit-dialog-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 34px;
+  height: 34px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--cream);
+  color: var(--ink);
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.edit-error {
+  min-height: 20px;
+  margin: 10px 0;
+  color: var(--red-dark) !important;
+  font-weight: 900;
+}
+
+.edit-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.danger-button {
+  color: var(--red-dark);
+}
+
+.edit-mode-toolbar {
+  position: fixed;
+  left: 50%;
+  bottom: 18px;
+  z-index: 85;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: min(620px, calc(100vw - 32px));
+  padding: 10px;
+  border: 1px solid rgba(14, 53, 105, 0.18);
+  background: var(--white);
+  box-shadow: 0 18px 50px rgba(16, 28, 50, 0.18);
+  transform: translateX(-50%);
+}
+
+.edit-mode-toolbar strong {
+  margin-right: auto;
+  color: var(--blue);
+  font-size: 0.82rem;
+  font-weight: 950;
+}
+
+.edit-mode-toolbar button {
+  border: 0;
+  padding: 8px 10px;
+  background: var(--blue);
+  color: var(--white);
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.edit-mode-toolbar .edit-mode-delete {
+  background: var(--cream);
+  color: var(--red-dark);
+}
+
+.match-edit-form {
+  display: grid;
+  gap: 10px;
+  margin-top: 16px;
+  padding: 14px;
+  border: 1px solid rgba(14, 53, 105, 0.18);
+  background: rgba(14, 53, 105, 0.06);
+}
+
+.match-edit-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.match-edit-section-title {
+  display: grid;
+  gap: 3px;
+  padding-top: 4px;
+  color: var(--ink);
+}
+
+.match-edit-section-title:not(:first-child) {
+  margin-top: 8px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(14, 53, 105, 0.16);
+}
+
+.match-edit-section-title strong {
+  color: var(--blue);
+  font-size: 0.78rem;
+  font-weight: 950;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.match-edit-section-title span {
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.match-edit-team-labels {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: -2px;
+}
+
+.match-edit-team-labels span {
+  padding: 7px 9px;
+  background: rgba(237, 51, 78, 0.08);
+  color: var(--red-dark);
+  font-size: 0.72rem;
+  font-weight: 950;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.match-edit-form label {
+  display: grid;
+  gap: 5px;
+  color: var(--ink);
+  font-size: 0.68rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.match-edit-field {
+  padding: 8px;
+  border: 1px solid rgba(14, 53, 105, 0.14);
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.match-edit-label-text {
+  display: block;
+  color: var(--blue);
+  font-size: 0.72rem;
+  font-weight: 950;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.match-edit-form input {
+  min-height: 34px;
+  padding: 0 8px;
+  background: var(--white);
+  color: var(--ink);
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.match-edit-save {
+  justify-self: start;
+  border: 0;
+  padding: 9px 13px;
+  background: var(--blue);
+  color: var(--white);
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.leaderboard-edit-panel {
+  margin-top: 24px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  background: var(--white);
+  box-shadow: var(--shadow);
+}
+
+.leaderboard-edit-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 16px;
+}
+
+.leaderboard-edit-heading span {
+  color: var(--red);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.leaderboard-edit-heading h2 {
+  margin: 4px 0 0;
+  font-size: 1.6rem;
+  letter-spacing: -0.05em;
+}
+
+.leaderboard-edit-heading p {
+  max-width: 470px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.leaderboard-edit-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.leaderboard-edit-form label {
+  display: grid;
+  gap: 8px;
+  color: var(--ink);
+  font-weight: 900;
+}
+
+.leaderboard-edit-panel textarea {
+  min-height: 180px;
+  padding: 12px;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 0.8rem;
+  line-height: 1.45;
+  resize: vertical;
+}
+
+.leaderboard-edit-form .edit-actions {
+  grid-column: 1 / -1;
+}
+
 /* ---------- 11. Responsive styles for phones and tablets ---------- */
 @media (max-width: 850px) {
   .hero {
@@ -2846,6 +3153,26 @@ tbody tr:hover {
 
   .overview-totals {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .match-edit-row,
+  .match-edit-team-labels,
+  .leaderboard-edit-form {
+    grid-template-columns: 1fr;
+  }
+
+  .leaderboard-edit-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .edit-mode-toolbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .edit-mode-toolbar strong {
+    margin-right: 0;
   }
 
   .stat-chart-card:first-child {

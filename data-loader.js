@@ -11,6 +11,15 @@ fetch("data/manual-data.json", { cache: "no-store" })
     return response.json();
   })
   .then(function (data) {
+    const savedOverride = localStorage.getItem("goalTrackManualDataOverride");
+    if (savedOverride) {
+      try {
+        data = JSON.parse(savedOverride);
+      } catch (error) {
+        console.error("Saved edit-mode data could not be read.", error);
+        localStorage.removeItem("goalTrackManualDataOverride");
+      }
+    }
     window.GOALTRACK_DATA = data;
     const applicationScript = document.createElement("script");
     applicationScript.src = `script.js?v=${Date.now()}`;

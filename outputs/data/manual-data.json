@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T21:38:07.199Z",
+  "updatedAt": "2026-07-10T22:49:06.197Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -787,7 +787,8 @@
         "yellowCards": 1,
         "redCards": 1,
         "offsides": 1,
-        "corners": 3
+        "corners": 3,
+        "performance": 4.4
       },
       "awayStats": {
         "shots": 3,
@@ -799,7 +800,8 @@
         "yellowCards": 2,
         "redCards": 2,
         "offsides": 1,
-        "corners": 1
+        "corners": 1,
+        "performance": 2
       }
     },
     {
@@ -852,7 +854,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 4,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4
       },
       "awayStats": {
         "shots": 7,
@@ -864,7 +867,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 5,
-        "passAccuracy": 70
+        "passAccuracy": 70,
+        "performance": 3
       }
     },
     {
@@ -933,7 +937,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 9,
-        "passAccuracy": 70
+        "passAccuracy": 70,
+        "performance": 3.9
       },
       "awayStats": {
         "shots": 8,
@@ -945,7 +950,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 4,
-        "passAccuracy": 60
+        "passAccuracy": 60,
+        "performance": 2.5
       }
     },
     {
@@ -1039,7 +1045,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 3,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.5
       },
       "awayStats": {
         "shots": 9,
@@ -1051,7 +1058,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 1,
-        "passAccuracy": 70
+        "passAccuracy": 70,
+        "performance": 1.9
       }
     },
     {
@@ -1115,7 +1123,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 3,
-        "passAccuracy": 70
+        "passAccuracy": 70,
+        "performance": 2.5
       },
       "awayStats": {
         "shots": 26,
@@ -1127,7 +1136,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 10,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.9
       }
     },
     {
@@ -1186,7 +1196,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 6,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.3
       },
       "awayStats": {
         "shots": 14,
@@ -1198,7 +1209,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 2,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 2.9
       }
     },
     {
@@ -1262,7 +1274,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 4,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.2
       },
       "awayStats": {
         "shots": 9,
@@ -1274,7 +1287,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 3,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3.2
       }
     },
     {
@@ -1328,7 +1342,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 5,
-        "passAccuracy": 70
+        "passAccuracy": 70,
+        "performance": 3.2
       },
       "awayStats": {
         "shots": 30,
@@ -1340,7 +1355,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 8,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.2
       }
     },
     {
@@ -1418,7 +1434,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 8,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.7
       },
       "awayStats": {
         "shots": 8,
@@ -1430,7 +1447,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 1,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 1.8
       }
     },
     {
@@ -1504,7 +1522,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 5,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.4
       },
       "awayStats": {
         "shots": 10,
@@ -1516,7 +1535,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 4,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2.8
       }
     },
     {
@@ -1580,7 +1600,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 3,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3.4
       },
       "awayStats": {
         "shots": 12,
@@ -1592,7 +1613,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 6,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3
       }
     },
     {
@@ -1666,7 +1688,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 4,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 4.1
       },
       "awayStats": {
         "shots": 6,
@@ -1678,7 +1701,8 @@
         "redCards": 0,
         "offsides": 6,
         "corners": 2,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2.3
       }
     },
     {
@@ -1726,7 +1750,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 11,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.7
       },
       "awayStats": {
         "shots": 6,
@@ -1738,7 +1763,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 1,
-        "passAccuracy": 70
+        "passAccuracy": 70,
+        "performance": 2.5
       }
     },
     {
@@ -1807,7 +1833,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 2,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.4
       },
       "awayStats": {
         "shots": 14,
@@ -1819,7 +1846,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 7,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2.6
       }
     },
     {
@@ -1873,7 +1901,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 4,
-        "passAccuracy": 70
+        "passAccuracy": 70,
+        "performance": 2.5
       },
       "awayStats": {
         "shots": 27,
@@ -1885,7 +1914,8 @@
         "redCards": 0,
         "offsides": 6,
         "corners": 14,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.9
       }
     },
     {
@@ -1949,7 +1979,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 4,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2.7
       },
       "awayStats": {
         "shots": 14,
@@ -1961,7 +1992,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 1,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3.5
       }
     },
     {
@@ -2019,7 +2051,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 6,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.3
       },
       "awayStats": {
         "shots": 6,
@@ -2031,7 +2064,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 4,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 1.9
       }
     },
     {
@@ -2094,7 +2128,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 2,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 1.9
       },
       "awayStats": {
         "shots": 12,
@@ -2106,7 +2141,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 5,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.5
       }
     },
     {
@@ -2159,7 +2195,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 2,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.5
       },
       "awayStats": {
         "shots": 7,
@@ -2171,7 +2208,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 2,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 2.7
       }
     },
     {
@@ -2235,7 +2273,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 4,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3.7
       },
       "awayStats": {
         "shots": 11,
@@ -2247,7 +2286,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 3,
-        "passAccuracy": 70
+        "passAccuracy": 70,
+        "performance": 3
       }
     },
     {
@@ -2316,7 +2356,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 5,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.3
       },
       "awayStats": {
         "shots": 8,
@@ -2328,7 +2369,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 4,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3.1
       }
     },
     {
@@ -2396,7 +2438,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 8,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.3
       },
       "awayStats": {
         "shots": 10,
@@ -2408,7 +2451,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 2,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 1.9
       }
     },
     {
@@ -2467,7 +2511,8 @@
         "redCards": 0,
         "offsides": 4,
         "corners": 2,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3.2
       },
       "awayStats": {
         "shots": 11,
@@ -2479,7 +2524,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 2,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.2
       }
     },
     {
@@ -2548,7 +2594,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 3,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2.1
       },
       "awayStats": {
         "shots": 15,
@@ -2560,7 +2607,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 4,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.3
       }
     },
     {
@@ -2619,7 +2667,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 5,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2.7
       },
       "awayStats": {
         "shots": 17,
@@ -2631,7 +2680,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 5,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.5
       }
     },
     {
@@ -2716,7 +2766,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 7,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.7
       },
       "awayStats": {
         "shots": 5,
@@ -2728,7 +2779,8 @@
         "redCards": 1,
         "offsides": 1,
         "corners": 3,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 1.9
       }
     },
     {
@@ -2818,7 +2870,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 19,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.8
       },
       "awayStats": {
         "shots": 2,
@@ -2830,7 +2883,8 @@
         "redCards": 2,
         "offsides": 1,
         "corners": 1,
-        "passAccuracy": 60
+        "passAccuracy": 60,
+        "performance": 1
       }
     },
     {
@@ -2884,7 +2938,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 1,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3.4
       },
       "awayStats": {
         "shots": 9,
@@ -2896,7 +2951,8 @@
         "redCards": 0,
         "offsides": 6,
         "corners": 2,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3
       }
     },
     {
@@ -2980,7 +3036,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 7,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 4.3
       },
       "awayStats": {
         "shots": 5,
@@ -2992,7 +3049,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 4,
-        "passAccuracy": 70
+        "passAccuracy": 70,
+        "performance": 2.1
       }
     },
     {
@@ -3046,7 +3104,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 2,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 2
       },
       "awayStats": {
         "shots": 12,
@@ -3058,7 +3117,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 5,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.2
       }
     },
     {
@@ -3132,7 +3192,8 @@
         "redCards": 0,
         "offsides": 8,
         "corners": 4,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.4
       },
       "awayStats": {
         "shots": 7,
@@ -3144,7 +3205,8 @@
         "redCards": 0,
         "offsides": 4,
         "corners": 4,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2
       }
     },
     {
@@ -3209,7 +3271,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 12,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.7
       },
       "awayStats": {
         "shots": 7,
@@ -3221,7 +3284,8 @@
         "redCards": 1,
         "offsides": 3,
         "corners": 0,
-        "passAccuracy": 50
+        "passAccuracy": 50,
+        "performance": 2.7
       }
     },
     {
@@ -3305,7 +3369,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 2,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.1
       },
       "awayStats": {
         "shots": 16,
@@ -3317,7 +3382,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 5,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2.3
       }
     },
     {
@@ -3381,7 +3447,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 8,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.2
       },
       "awayStats": {
         "shots": 9,
@@ -3393,7 +3460,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 3,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 2
       }
     },
     {
@@ -3461,7 +3529,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 9,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.1
       },
       "awayStats": {
         "shots": 10,
@@ -3473,7 +3542,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 0,
-        "passAccuracy": 70
+        "passAccuracy": 70,
+        "performance": 2.3
       }
     },
     {
@@ -3531,7 +3601,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 3,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 1.9
       },
       "awayStats": {
         "shots": 11,
@@ -3543,7 +3614,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 5,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.3
       }
     },
     {
@@ -3612,7 +3684,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 6,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.6
       },
       "awayStats": {
         "shots": 3,
@@ -3624,7 +3697,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 1,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 1.8
       }
     },
     {
@@ -3678,7 +3752,8 @@
         "redCards": 1,
         "offsides": 3,
         "corners": 4,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.9
       },
       "awayStats": {
         "shots": 7,
@@ -3690,7 +3765,8 @@
         "redCards": 0,
         "offsides": 4,
         "corners": 2,
-        "passAccuracy": 70
+        "passAccuracy": 70,
+        "performance": 2.5
       }
     },
     {
@@ -3769,7 +3845,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 11,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3.3
       },
       "awayStats": {
         "shots": 12,
@@ -3781,7 +3858,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 4,
-        "passAccuracy": 70
+        "passAccuracy": 70,
+        "performance": 2.9
       }
     },
     {
@@ -3855,7 +3933,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 4,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 1.9
       },
       "awayStats": {
         "shots": 19,
@@ -3867,7 +3946,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 4,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.5
       }
     },
     {
@@ -3936,7 +4016,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 1,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.8
       },
       "awayStats": {
         "shots": 6,
@@ -3948,7 +4029,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 3,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 2.4
       }
     },
     {
@@ -4007,7 +4089,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 4,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.2
       },
       "awayStats": {
         "shots": 4,
@@ -4019,7 +4102,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 2,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 2.2
       }
     },
     {
@@ -4082,7 +4166,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 5,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3.4
       },
       "awayStats": {
         "shots": 16,
@@ -4094,7 +4179,8 @@
         "redCards": 0,
         "offsides": 4,
         "corners": 4,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3
       }
     },
     {
@@ -4158,7 +4244,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 1,
-        "passAccuracy": 70
+        "passAccuracy": 70,
+        "performance": 2
       },
       "awayStats": {
         "shots": 17,
@@ -4170,7 +4257,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 10,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.4
       }
     },
     {
@@ -4244,7 +4332,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 3,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.6
       },
       "awayStats": {
         "shots": 7,
@@ -4256,7 +4345,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 2,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 1.6
       }
     },
     {
@@ -4304,7 +4394,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 9,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.8
       },
       "awayStats": {
         "shots": 2,
@@ -4316,7 +4407,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 2,
-        "passAccuracy": 70
+        "passAccuracy": 70,
+        "performance": 2.4
       }
     },
     {
@@ -4370,7 +4462,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 7,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3
       },
       "awayStats": {
         "shots": 6,
@@ -4382,7 +4475,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 2,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3.6
       }
     },
     {
@@ -4441,7 +4535,8 @@
         "redCards": 0,
         "offsides": 7,
         "corners": 5,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.1
       },
       "awayStats": {
         "shots": 7,
@@ -4453,7 +4548,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 4,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3
       }
     },
     {
@@ -4522,7 +4618,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 2,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3.6
       },
       "awayStats": {
         "shots": 13,
@@ -4534,7 +4631,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 7,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3
       }
     },
     {
@@ -4603,7 +4701,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 5,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.2
       },
       "awayStats": {
         "shots": 9,
@@ -4615,7 +4714,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 5,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 2
       }
     },
     {
@@ -4668,7 +4768,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 7,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 2.4
       },
       "awayStats": {
         "shots": 21,
@@ -4680,7 +4781,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 7,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.8
       }
     },
     {
@@ -4754,7 +4856,8 @@
         "redCards": 0,
         "offsides": 5,
         "corners": 9,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.4
       },
       "awayStats": {
         "shots": 9,
@@ -4766,7 +4869,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 1,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2
       }
     },
     {
@@ -4825,7 +4929,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 5,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2.9
       },
       "awayStats": {
         "shots": 11,
@@ -4837,7 +4942,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 1,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.5
       }
     },
     {
@@ -4891,7 +4997,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 4,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3.4
       },
       "awayStats": {
         "shots": 8,
@@ -4903,7 +5010,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 6,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3
       }
     },
     {
@@ -4967,7 +5075,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 4,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2
       },
       "awayStats": {
         "shots": 7,
@@ -4979,7 +5088,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 6,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.4
       }
     },
     {
@@ -5032,7 +5142,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 3,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3
       },
       "awayStats": {
         "shots": 11,
@@ -5044,7 +5155,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 2,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.4
       }
     },
     {
@@ -5092,7 +5204,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 2,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2.9
       },
       "awayStats": {
         "shots": 11,
@@ -5104,7 +5217,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 8,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3.3
       }
     },
     {
@@ -5162,7 +5276,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 4,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 1.9
       },
       "awayStats": {
         "shots": 20,
@@ -5174,7 +5289,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 6,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.5
       }
     },
     {
@@ -5237,7 +5353,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 2,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3.2
       },
       "awayStats": {
         "shots": 18,
@@ -5249,7 +5366,8 @@
         "redCards": 0,
         "offsides": 5,
         "corners": 9,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3
       }
     },
     {
@@ -5292,7 +5410,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 1,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2.4
       },
       "awayStats": {
         "shots": 12,
@@ -5304,7 +5423,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 3,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3.6
       }
     },
     {
@@ -5373,7 +5493,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 4,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2.2
       },
       "awayStats": {
         "shots": 18,
@@ -5385,7 +5506,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 5,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.2
       }
     },
     {
@@ -5454,7 +5576,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 12,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.7
       },
       "awayStats": {
         "shots": 6,
@@ -5466,7 +5589,8 @@
         "redCards": 1,
         "offsides": 0,
         "corners": 3,
-        "passAccuracy": 70
+        "passAccuracy": 70,
+        "performance": 1.7
       }
     },
     {
@@ -5524,7 +5648,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 4,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3.5
       },
       "awayStats": {
         "shots": 7,
@@ -5536,7 +5661,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 2,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2.7
       }
     },
     {
@@ -5606,7 +5732,8 @@
         "redCards": 1,
         "offsides": 5,
         "corners": 1,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2
       },
       "awayStats": {
         "shots": 6,
@@ -5618,7 +5745,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 6,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.4
       }
     },
     {
@@ -5702,7 +5830,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 8,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.9
       },
       "awayStats": {
         "shots": 13,
@@ -5714,7 +5843,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 2,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2.5
       }
     },
     {
@@ -5788,7 +5918,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 5,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 1.7
       },
       "awayStats": {
         "shots": 35,
@@ -5800,7 +5931,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 8,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.7
       }
     },
     {
@@ -5864,7 +5996,8 @@
         "redCards": 0,
         "offsides": 4,
         "corners": 3,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 1.9
       },
       "awayStats": {
         "shots": 17,
@@ -5876,7 +6009,8 @@
         "redCards": 0,
         "offsides": 4,
         "corners": 7,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.5
       }
     },
     {
@@ -5940,7 +6074,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 3,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.2
       },
       "awayStats": {
         "shots": 6,
@@ -5952,7 +6087,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 2,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 2
       }
     },
     {
@@ -5995,7 +6131,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 5,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.3
       },
       "awayStats": {
         "shots": 13,
@@ -6007,7 +6144,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 2,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 2.9
       }
     },
     {
@@ -6091,7 +6229,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 2,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3.9
       },
       "awayStats": {
         "shots": 3,
@@ -6103,7 +6242,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 4,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3
       }
     },
     {
@@ -6177,7 +6317,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 0,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.7
       },
       "awayStats": {
         "shots": 10,
@@ -6189,7 +6330,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 3,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 2.5
       }
     },
     {
@@ -6253,7 +6395,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 2,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2
       },
       "awayStats": {
         "shots": 12,
@@ -6265,7 +6408,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 6,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.4
       }
     },
     {
@@ -6319,7 +6463,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 1,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3
       },
       "awayStats": {
         "shots": 12,
@@ -6331,7 +6476,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 4,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3.6
       }
     },
     {
@@ -6410,7 +6556,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 6,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.3
       },
       "awayStats": {
         "shots": 5,
@@ -6422,7 +6569,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 2,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2.1
       }
     },
     {
@@ -6495,7 +6643,8 @@
         "redCards": 0,
         "offsides": 4,
         "corners": 16,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.5
       },
       "awayStats": {
         "shots": 7,
@@ -6507,7 +6656,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 6,
-        "passAccuracy": 60
+        "passAccuracy": 60,
+        "performance": 2.7
       }
     },
     {
@@ -6565,7 +6715,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 5,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2.5
       },
       "awayStats": {
         "shots": 11,
@@ -6577,7 +6728,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 8,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.9
       }
     },
     {
@@ -6636,7 +6788,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 14,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3
       },
       "awayStats": {
         "shots": 9,
@@ -6648,7 +6801,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 3,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.4
       }
     },
     {
@@ -6701,7 +6855,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 9,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.2
       },
       "awayStats": {
         "shots": 8,
@@ -6713,7 +6868,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 1,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2.2
       }
     },
     {
@@ -6778,7 +6934,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 3,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 4
       },
       "awayStats": {
         "shots": 7,
@@ -6790,7 +6947,8 @@
         "redCards": 1,
         "offsides": 1,
         "corners": 8,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3
       }
     },
     {
@@ -6854,7 +7012,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 5,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.4
       },
       "awayStats": {
         "shots": 7,
@@ -6866,7 +7025,8 @@
         "redCards": 0,
         "offsides": 4,
         "corners": 3,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2
       }
     },
     {
@@ -6960,7 +7120,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 4,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.8
       },
       "awayStats": {
         "shots": 19,
@@ -6972,7 +7133,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 2,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2.4
       }
     },
     {
@@ -7037,7 +7199,8 @@
         "redCards": 1,
         "offsides": 3,
         "corners": 4,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3.4
       },
       "awayStats": {
         "shots": 10,
@@ -7049,7 +7212,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 3,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3
       }
     },
     {
@@ -7108,7 +7272,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 9,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.7
       },
       "awayStats": {
         "shots": 5,
@@ -7120,7 +7285,8 @@
         "redCards": 0,
         "offsides": 5,
         "corners": 0,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 1.7
       }
     },
     {
@@ -7189,7 +7355,8 @@
         "redCards": 0,
         "offsides": 1,
         "corners": 9,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.3
       },
       "awayStats": {
         "shots": 13,
@@ -7201,7 +7368,8 @@
         "redCards": 0,
         "offsides": 4,
         "corners": 5,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2.1
       }
     },
     {
@@ -7260,7 +7428,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 4,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 4.1
       },
       "awayStats": {
         "shots": 8,
@@ -7272,7 +7441,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 2,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2.3
       }
     },
     {
@@ -7335,7 +7505,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 4,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3.1
       },
       "awayStats": {
         "shots": 14,
@@ -7347,7 +7518,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 7,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3.1
       }
     },
     {
@@ -7421,7 +7593,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 8,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3.7
       },
       "awayStats": {
         "shots": 16,
@@ -7433,7 +7606,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 8,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 3
       }
     },
     {
@@ -7502,7 +7676,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 3,
-        "passAccuracy": 90
+        "passAccuracy": 90,
+        "performance": 4.1
       },
       "awayStats": {
         "shots": 8,
@@ -7514,7 +7689,8 @@
         "redCards": 0,
         "offsides": 0,
         "corners": 2,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3
       }
     },
     {
@@ -7557,7 +7733,8 @@
         "offsides": 0,
         "corners": 2,
         "yellowCards": 0,
-        "redCards": 0
+        "redCards": 0,
+        "performance": 2.2
       },
       "awayStats": {
         "shots": 15,
@@ -7569,7 +7746,8 @@
         "offsides": 0,
         "corners": 12,
         "yellowCards": 3,
-        "redCards": 0
+        "redCards": 0,
+        "performance": 4.2
       }
     },
     {
@@ -7626,7 +7804,8 @@
         "passAccuracy": 85,
         "fouls": 7,
         "offsides": 1,
-        "corners": 5
+        "corners": 5,
+        "performance": 2.3
       },
       "awayStats": {
         "shots": 9,
@@ -7636,7 +7815,8 @@
         "passAccuracy": 91,
         "fouls": 6,
         "offsides": 1,
-        "corners": 5
+        "corners": 5,
+        "performance": 3.9
       }
     },
     {
@@ -7734,7 +7914,8 @@
         "passAccuracy": 92,
         "fouls": 14,
         "offsides": 1,
-        "corners": 12
+        "corners": 12,
+        "performance": 3.1
       },
       "awayStats": {
         "shots": 6,
@@ -7744,7 +7925,8 @@
         "passAccuracy": 80,
         "fouls": 7,
         "offsides": 0,
-        "corners": 2
+        "corners": 2,
+        "performance": 3.3
       }
     },
     {
@@ -7801,7 +7983,8 @@
         "passAccuracy": 84,
         "fouls": 9,
         "offsides": 2,
-        "corners": 3
+        "corners": 3,
+        "performance": 2.2
       },
       "awayStats": {
         "shots": 15,
@@ -7811,7 +7994,8 @@
         "passAccuracy": 88,
         "fouls": 13,
         "offsides": 1,
-        "corners": 7
+        "corners": 7,
+        "performance": 4.2
       }
     },
     {
@@ -7883,7 +8067,8 @@
         "passAccuracy": 87,
         "fouls": 11,
         "offsides": 0,
-        "corners": 3
+        "corners": 3,
+        "performance": 2.6
       },
       "awayStats": {
         "shots": 15,
@@ -7893,7 +8078,8 @@
         "passAccuracy": 81,
         "fouls": 9,
         "offsides": 1,
-        "corners": 5
+        "corners": 5,
+        "performance": 3.8
       }
     },
     {
@@ -7975,7 +8161,8 @@
         "passAccuracy": 90,
         "fouls": 13,
         "offsides": 3,
-        "corners": 6
+        "corners": 6,
+        "performance": 4
       },
       "awayStats": {
         "shots": 5,
@@ -7985,7 +8172,8 @@
         "passAccuracy": 83,
         "fouls": 11,
         "offsides": 0,
-        "corners": 1
+        "corners": 1,
+        "performance": 3
       }
     },
     {
@@ -8050,7 +8238,8 @@
         "passAccuracy": 87,
         "fouls": 22,
         "offsides": 5,
-        "corners": 3
+        "corners": 3,
+        "performance": 3
       },
       "awayStats": {
         "shots": 15,
@@ -8060,7 +8249,8 @@
         "passAccuracy": 83,
         "fouls": 21,
         "offsides": 4,
-        "corners": 7
+        "corners": 7,
+        "performance": 3.4
       }
     },
     {
@@ -8112,7 +8302,8 @@
         "passAccuracy": 89,
         "fouls": 10,
         "offsides": 0,
-        "corners": 5
+        "corners": 5,
+        "performance": 3.8
       },
       "awayStats": {
         "shots": 5,
@@ -8122,7 +8313,8 @@
         "passAccuracy": 86,
         "fouls": 13,
         "offsides": 0,
-        "corners": 5
+        "corners": 5,
+        "performance": 2.4
       }
     },
     {
@@ -8194,7 +8386,8 @@
         "passAccuracy": 90,
         "fouls": 13,
         "offsides": 3,
-        "corners": 5
+        "corners": 5,
+        "performance": 4.2
       },
       "awayStats": {
         "shots": 5,
@@ -8204,7 +8397,8 @@
         "passAccuracy": 78,
         "fouls": 18,
         "offsides": 1,
-        "corners": 1
+        "corners": 1,
+        "performance": 2.2
       }
     },
     {
@@ -8372,7 +8566,8 @@
         "redCards": 0,
         "offsides": 2,
         "corners": 11,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 2.4
       },
       "awayStats": {
         "shots": 5,
@@ -8384,7 +8579,8 @@
         "redCards": 0,
         "offsides": 3,
         "corners": 1,
-        "passAccuracy": 80
+        "passAccuracy": 80,
+        "performance": 3.8
       },
       "homeSource": "Winner Match 73",
       "awaySource": "Winner Match 75"
