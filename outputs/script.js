@@ -1,4 +1,4 @@
-/*
+﻿/*
   GoalTrack JavaScript
   --------------------
   This file is shared by all three pages. Each section first checks whether
@@ -469,6 +469,17 @@ function escapeHtml(value) {
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#039;");
+}
+
+function cleanDisplayText(value) {
+  return String(value ?? "")
+    .replace(/Ãƒâ€šÃ‚Â·|Ã‚Â·|Â·/g, " · ")
+    .replace(/ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢/g, " · ")
+    .replace(/Ãƒâ€šÃ‚Â|Ã‚Â|Â/g, "")
+    .replace(/\s*[•]\s*/gu, " · ")
+    .replace(/\s*·\s*/g, " · ")
+    .replace(/\s{2,}/g, " ")
+    .trim();
 }
 
 function isEditModeEnabled() {
@@ -1387,13 +1398,11 @@ function showUpdateTime(isoTime) {
 }
 
 function cleanMatchLocation(location) {
-  return String(location || "Venue TBD")
+  return cleanDisplayText(String(location || "Venue TBD")
     .replace(/^\s*⌖\s*/u, "")
     .replace(/\s*,?\s*You said:.*$/i, "")
     .replace(/\s*,?\s*yellow=Player\|Team.*$/i, "")
-    .replace(/\s*[•]\s*/gu, " · ")
-    .replace(/\s*·\s*/g, " · ")
-    .trim();
+  );
 }
 
 function getDisplayGroup(match) {
@@ -2771,10 +2780,10 @@ function formatOverviewMatch(match) {
   }
 
   if (isFinishedMatch(match)) {
-    return `${match.home} ${match.homeScore}-${match.awayScore} ${match.away}`;
+    return cleanDisplayText(`${match.home} ${match.homeScore}-${match.awayScore} ${match.away}`);
   }
 
-  return `${match.home} vs ${match.away}`;
+  return cleanDisplayText(`${match.home} vs ${match.away}`);
 }
 
 function formatOverviewDetail(match) {
@@ -2784,7 +2793,7 @@ function formatOverviewDetail(match) {
 
   const dateTime = getMatchDateTime(match);
   const venue = cleanMatchLocation(match.location);
-  return [dateTime.date, dateTime.time, venue].filter(Boolean).join(" · ");
+  return cleanDisplayText([dateTime.date, dateTime.time, venue].filter(Boolean).join(" · "));
 }
 
 function countMatchEvents(match, statsRecord, eventName, recordKey) {
