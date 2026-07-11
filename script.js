@@ -336,6 +336,7 @@ function renderBadgeAnimation() {
   };
 
   const renderTeamBadge = function (team) {
+    const displayName = cleanDisplayText(team.name);
     const code = getTeamCountryCode(team.name, team.flag || team.name.slice(0, 3).toUpperCase());
     const badgeUrl = getShirtBadgeUrl(team.name);
     const color = nationalColors[team.name] || "#1769e0";
@@ -352,7 +353,7 @@ function renderBadgeAnimation() {
       <div
         class="shirt-badge-background badge-${animationType} ${normalizeTeamName(team.name).includes("switzerland") ? "badge-needs-white-backdrop" : ""}"
         style="--badge-color:${color};"
-        title="${escapeHtml(team.name)}">
+        title="${escapeHtml(displayName)}">
         ${badgeContent}
       </div>
     `;
@@ -380,6 +381,7 @@ function showGroup(groupLetter) {
   // map() changes every team object into a string of HTML.
   standingsBody.innerHTML = standingsData[groupLetter].map(function (team, index) {
     const position = index + 1;
+    const displayName = cleanDisplayText(team.name);
     // Do not visually declare qualifiers until matches have been completed.
     const hasResults = standingsData[groupLetter].some(function (entry) {
       return entry.played > 0;
@@ -394,8 +396,8 @@ function showGroup(groupLetter) {
         <td class="position">${position}</td>
         <td>
           <div class="team-cell">
-            <span class="team-flag ${/^[A-Z0-9]{2,3}$/.test(team.flag) ? "team-code" : ""}">${team.flag}</span>
-            <span>${team.name}</span>
+            <span class="team-flag ${/^[A-Z0-9]{2,3}$/.test(team.flag) ? "team-code" : ""}">${escapeHtml(team.flag)}</span>
+            <span>${escapeHtml(displayName)}</span>
           </div>
         </td>
         <td class="fifa-rank">${team.fifaRank}</td>
@@ -472,7 +474,35 @@ function escapeHtml(value) {
 }
 
 function cleanDisplayText(value) {
-  return String(value ?? "")
+  const text = String(value ?? "")
+    .replace(/ÃƒÆ’Ã‚Â/g, "Á")
+    .replace(/ÃƒÆ’Ã‚Â¡/g, "á")
+    .replace(/ÃƒÆ’Ã‚Â©/g, "é")
+    .replace(/ÃƒÆ’Ã‚Â­/g, "í")
+    .replace(/ÃƒÆ’Ã‚Â³/g, "ó")
+    .replace(/ÃƒÆ’Ã‚Âº/g, "ú")
+    .replace(/ÃƒÆ’Ã‚Â±/g, "ñ")
+    .replace(/ÃƒÆ’Ã‚Â£/g, "ã")
+    .replace(/ÃƒÆ’Ã‚Â§/g, "ç")
+    .replace(/ÃƒÆ’Ã‚Â¨/g, "è")
+    .replace(/ÃƒÆ’Ã‚Â«/g, "ë")
+    .replace(/ÃƒÆ’Ã‚Â¯/g, "ï")
+    .replace(/ÃƒÆ’Ã‚Â¶/g, "ö")
+    .replace(/ÃƒÆ’Ã‚Â¼/g, "ü")
+    .replace(/ÃƒÆ’Ã¢â‚¬Â¡/g, "Ç")
+    .replace(/ÃƒÆ’Ã‹Å“/g, "Ø")
+    .replace(/Ãƒâ€žÃ‚Â/g, "č")
+    .replace(/Ãƒâ€žÃ‚Â±/g, "ı")
+    .replace(/Ãƒâ€žÃ¢â‚¬Â¡/g, "ć")
+    .replace(/Ãƒâ€žÃ¢â‚¬Âº/g, "ě")
+    .replace(/Ãƒâ€žÃ…Â¸/g, "ğ")
+    .replace(/Ãƒâ€¦Ã…Â¸/g, "ş")
+    .replace(/Ãƒâ€¦Ã‚Â¡/g, "š")
+    .replace(/Ãƒâ€¦Ã‚Â¾/g, "ž")
+    .replace(/Ãƒâ€¦Ã‚Â«/g, "ū")
+    .replace(/Ãƒâ€¦Ã¢â€žÂ¢/g, "ř");
+
+  return text
     .replace(/Ãƒâ€šÃ‚Â·|Ã‚Â·|Â·/g, " · ")
     .replace(/ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢/g, " · ")
     .replace(/Ãƒâ€šÃ‚Â|Ã‚Â|Â/g, "")
@@ -643,6 +673,7 @@ function knockoutRoundName(match) {
 }
 
 function bracketTeamRow(name, score, winner, shootoutScore = null) {
+  const displayName = cleanDisplayText(name);
   const code = getTeamCountryCode(name, "");
   const codeMarkup = /^[A-Z0-9]{2,3}$/.test(code)
     ? `<span class="bracket-team-code">${code}</span>`
@@ -651,7 +682,7 @@ function bracketTeamRow(name, score, winner, shootoutScore = null) {
     ? `${score}${Number.isInteger(shootoutScore) ? `(${shootoutScore})` : ""}`
     : "";
   const scoreMarkup = displayScore ? `<span class="bracket-score">${displayScore}</span>` : "";
-  return `<div class="bracket-team${winner ? " bracket-team-winner" : ""}">${codeMarkup}<span>${name}</span>${scoreMarkup}</div>`;
+  return `<div class="bracket-team${winner ? " bracket-team-winner" : ""}">${codeMarkup}<span>${escapeHtml(displayName)}</span>${scoreMarkup}</div>`;
 }
 
 function getSourceMatchNumbers(match) {
@@ -667,6 +698,8 @@ function renderBracketMatchCard(match, matchByNumber) {
   const finished = isFinishedMatch(match);
   const homeName = resolveKnockoutSlot(match.home, matchByNumber);
   const awayName = resolveKnockoutSlot(match.away, matchByNumber);
+  const displayHomeName = cleanDisplayText(homeName);
+  const displayAwayName = cleanDisplayText(awayName);
   const homeWinner = finished && (match.shootoutWinner === match.home || (!match.shootoutWinner && match.homeScore > match.awayScore));
   const awayWinner = finished && (match.shootoutWinner === match.away || (!match.shootoutWinner && match.awayScore > match.homeScore));
   const roundLabel = knockoutRoundName(match);
@@ -675,7 +708,7 @@ function renderBracketMatchCard(match, matchByNumber) {
   scheduleMatchDetails.set(matchKey, { ...match, matchKey });
 
   return `
-    <article class="bracket-match${finished ? " bracket-match-finished" : ""}" tabindex="0" role="button" data-match-key="${escapeHtml(matchKey)}" aria-label="Open team stats for ${escapeHtml(homeName)} vs ${escapeHtml(awayName)}">
+    <article class="bracket-match${finished ? " bracket-match-finished" : ""}" tabindex="0" role="button" data-match-key="${escapeHtml(matchKey)}" aria-label="Open team stats for ${escapeHtml(displayHomeName)} vs ${escapeHtml(displayAwayName)}">
       <div class="bracket-round-label">${roundLabel}</div>
       <div class="bracket-match-meta"><span>Match ${matchNumber}</span></div>
       ${bracketTeamRow(homeName, finished ? match.homeScore : null, homeWinner, match.homeShootoutScore)}
@@ -1547,18 +1580,18 @@ function renderMatchEditForm(match) {
 }
 
 function getScheduleTeamDisplay(match, matchByNumber) {
-  const home = match.stage === "Knockout"
+  const rawHome = match.stage === "Knockout"
     ? resolveKnockoutSlot(match.home, matchByNumber)
     : match.home;
-  const away = match.stage === "Knockout"
+  const rawAway = match.stage === "Knockout"
     ? resolveKnockoutSlot(match.away, matchByNumber)
     : match.away;
 
   return {
-    home,
-    away,
-    homeFlag: getTeamCountryCode(home, match.homeFlag),
-    awayFlag: getTeamCountryCode(away, match.awayFlag)
+    home: cleanDisplayText(rawHome),
+    away: cleanDisplayText(rawAway),
+    homeFlag: getTeamCountryCode(rawHome, match.homeFlag),
+    awayFlag: getTeamCountryCode(rawAway, match.awayFlag)
   };
 }
 
@@ -1748,20 +1781,23 @@ function openMatchStatsDialog(matchKey) {
   const scoreText = hasScore
     ? `${match.homeScore}${Number.isInteger(match.homeShootoutScore) ? `(${match.homeShootoutScore})` : ""} - ${match.awayScore}${Number.isInteger(match.awayShootoutScore) ? `(${match.awayShootoutScore})` : ""}`
     : "VS";
+  const displayHome = cleanDisplayText(match.home);
+  const displayAway = cleanDisplayText(match.away);
+  const displayGroup = cleanDisplayText(match.group || match.stage || "Match");
 
   dialog.innerHTML = `
     <div class="match-stats-modal">
       <button class="match-stats-close" type="button" aria-label="Close match stats">×</button>
       <div class="match-stats-heading">
-        <span>${escapeHtml(match.group || match.stage || "Match")}</span>
-        <h2>${escapeHtml(match.home)} <b>${escapeHtml(scoreText)}</b> ${escapeHtml(match.away)}</h2>
+        <span>${escapeHtml(displayGroup)}</span>
+        <h2>${escapeHtml(displayHome)} <b>${escapeHtml(scoreText)}</b> ${escapeHtml(displayAway)}</h2>
         <p>${escapeHtml(match.date)} · ${escapeHtml(match.time || "")} · ${escapeHtml(cleanMatchLocation(match.location))}</p>
       </div>
       <div class="match-stats-table" role="table" aria-label="Team stats for ${escapeHtml(getMatchLabel(match))}">
         <div class="match-stats-row match-stats-head" role="row">
-          <span role="columnheader">${escapeHtml(getTeamCountryCode(match.home, match.homeFlag))} ${escapeHtml(match.home)}</span>
+          <span role="columnheader">${escapeHtml(getTeamCountryCode(match.home, match.homeFlag))} ${escapeHtml(displayHome)}</span>
           <strong role="columnheader">Team Stat</strong>
-          <span role="columnheader">${escapeHtml(match.away)} ${escapeHtml(getTeamCountryCode(match.away, match.awayFlag))}</span>
+          <span role="columnheader">${escapeHtml(displayAway)} ${escapeHtml(getTeamCountryCode(match.away, match.awayFlag))}</span>
         </div>
         ${matchStatRows.map(function (row) {
           const homeValue = getTeamMatchStat(match, statsRecord, "home", row);
@@ -2526,7 +2562,7 @@ function renderLeaderboard(container, entries, valueLabel, emptyText, padToFive 
     return `
       <div class="leaderboard-row">
         <span class="leader-position">${index + 1}</span>
-        <div><strong>${entry.name}</strong><span>${entry.detail || ""}</span></div>
+        <div><strong>${escapeHtml(cleanDisplayText(entry.name))}</strong><span>${escapeHtml(cleanDisplayText(entry.detail || ""))}</span></div>
         <b>${entry.value} ${valueLabel}</b>
       </div>
     `;
@@ -3014,13 +3050,13 @@ function renderTournamentOverview() {
   });
 
   if (overviewScorerTitle) {
-    overviewScorerTitle.textContent = stats.scorers?.[0]?.name || "Most goals";
+    overviewScorerTitle.textContent = cleanDisplayText(stats.scorers?.[0]?.name || "Most goals");
   }
   if (overviewTeamTitle) {
-    overviewTeamTitle.textContent = teamGoalRows[0]?.name || "Most team goals";
+    overviewTeamTitle.textContent = cleanDisplayText(teamGoalRows[0]?.name || "Most team goals");
   }
   if (overviewKeeperTitle) {
-    overviewKeeperTitle.textContent = stats.keepers?.[0]?.name || "Best keeper";
+    overviewKeeperTitle.textContent = cleanDisplayText(stats.keepers?.[0]?.name || "Best keeper");
   }
 
 }
