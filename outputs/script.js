@@ -148,6 +148,8 @@ const groupLabel = document.querySelector("#group-label");
 const groupName = document.querySelector("#group-name");
 const groupStatus = document.querySelector("#group-status");
 const teamOrbitDots = document.querySelector("#team-orbit-dots");
+const badgeAnimationStage = document.querySelector("#badge-animation-stage");
+let badgeAnimationTimer = null;
 
 function getGroupStageSurvivorNames() {
   const groupEntries = Object.entries(standingsData);
@@ -298,6 +300,64 @@ function positionTeamOrbitDots() {
   });
 }
 
+function renderBadgeAnimation() {
+  if (!badgeAnimationStage) {
+    return;
+  }
+
+  const allTeams = Object.entries(standingsData).flatMap(function ([group, teams]) {
+    return teams.map(function (entry) {
+      return { ...entry, group };
+    });
+  });
+  const shirtBadgeUrls = siteData.shirtBadgeUrls || {};
+  const nationalColors = siteData.nationalColors || {};
+  const badgeDuration = 5000;
+
+  const getShirtBadgeUrl = function (teamName) {
+    const normalizedTeam = normalizeTeamName(teamName);
+    const directUrl = shirtBadgeUrls[teamName];
+    if (directUrl) {
+      return directUrl;
+    }
+
+    const matchingEntry = Object.entries(shirtBadgeUrls).find(function ([name]) {
+      return normalizeTeamName(name) === normalizedTeam;
+    });
+    return matchingEntry ? matchingEntry[1] : "";
+  };
+
+  const renderTeamBadge = function (team) {
+    const code = getTeamCountryCode(team.name, team.flag || team.name.slice(0, 3).toUpperCase());
+    const badgeUrl = getShirtBadgeUrl(team.name);
+    const color = nationalColors[team.name] || "#1769e0";
+    const badgeContent = badgeUrl
+      ? `<img src="${escapeHtml(badgeUrl)}" alt="">`
+      : `
+        <div class="shirt-crest-fallback" style="--badge-color:${color};">
+          <span>${escapeHtml(code)}</span>
+        </div>
+      `;
+
+    badgeAnimationStage.innerHTML = `
+      <div
+        class="shirt-badge-background"
+        style="--badge-color:${color};"
+        title="${escapeHtml(team.name)}">
+        ${badgeContent}
+      </div>
+    `;
+  };
+
+  let activeIndex = 0;
+  renderTeamBadge(allTeams[activeIndex]);
+  clearInterval(badgeAnimationTimer);
+  badgeAnimationTimer = setInterval(function () {
+    activeIndex = (activeIndex + 1) % allTeams.length;
+    renderTeamBadge(allTeams[activeIndex]);
+  }, badgeDuration);
+}
+
 function showGroup(groupLetter) {
   if (!standingsBody) {
     return;
@@ -365,6 +425,7 @@ if (groupTabs) {
 }
 
 renderTeamOrbit();
+renderBadgeAnimation();
 window.addEventListener("resize", positionTeamOrbitDots);
 
 // ---------- 4. Match schedule loaded from manual-data.json ----------
@@ -1339,6 +1400,57 @@ function renderEditField(label, inputMarkup) {
   `;
 }
 
+function clampStarRating(value) {
+  const number = Number(value);
+  if (!Number.isFinite(number)) {
+    return null;
+  }
+  return Math.max(0, Math.min(5, Math.round(number * 10) / 10));
+}
+
+function starSvgMarkup(className) {
+  const starPath = "M10 1.5 12.6 7 18.6 7.4 14.1 11.3 15.5 17.2 10 14.1 4.5 17.2 5.9 11.3 1.4 7.4 7.4 7Z";
+  return `
+    <svg class="${className}" viewBox="0 0 100 20" aria-hidden="true" focusable="false">
+      ${[0, 1, 2, 3, 4].map(function (index) {
+        return `<path d="${starPath}" transform="translate(${index * 20} 0)"></path>`;
+      }).join("")}
+    </svg>
+  `;
+}
+
+function renderStarRating(value) {
+  const rating = clampStarRating(value);
+  if (rating === null) {
+    return `<span class="star-rating-empty">--</span>`;
+  }
+
+  return `
+    <span class="star-rating" style="--rating-percent:${rating * 20}%;" role="img" aria-label="${rating.toFixed(1)} out of 5 stars">
+      <span class="star-rating-back">${starSvgMarkup("star-rating-svg")}</span>
+      <span class="star-rating-front">${starSvgMarkup("star-rating-svg")}</span>
+    </span>
+  `;
+}
+
+function renderPerformanceEditField(label, inputName, value) {
+  const rating = clampStarRating(value) ?? 0;
+  return `
+    <div class="match-edit-field performance-edit-field">
+      <span class="match-edit-label-text">${label}</span>
+      <input type="hidden" name="${inputName}" value="${rating ? rating.toFixed(1) : ""}">
+      <button
+        class="performance-star-editor"
+        type="button"
+        data-target-name="${inputName}"
+        aria-label="Set ${label} by tenths of a star">
+        ${renderStarRating(rating)}
+      </button>
+      <span class="performance-edit-help">Click anywhere on the stars. Each tiny step is 0.1 star.</span>
+    </div>
+  `;
+}
+
 function renderMatchEditForm(match) {
   if (!isEditModeEnabled()) {
     return "";
@@ -1390,6 +1502,14 @@ function renderMatchEditForm(match) {
         <span>${awayName}</span>
       </div>
       ${statFields.map(function ([key, label]) {
+        if (key === "performance") {
+          return `
+            <div class="match-edit-row">
+              ${renderPerformanceEditField(`${homeName} ${label}`, `home_${key}`, homeStats[key])}
+              ${renderPerformanceEditField(`${awayName} ${label}`, `away_${key}`, awayStats[key])}
+            </div>
+          `;
+        }
         const numberRules = key === "performance" ? `min="0" max="5" step="0.1"` : `min="0"`;
         return `
           <div class="match-edit-row">
@@ -1629,9 +1749,9 @@ function openMatchStatsDialog(matchKey) {
           const highlightStyle = "color:#08794a;";
           return `
             <div class="match-stats-row" role="row">
-              <span class="match-stats-value ${homeHighlight}" ${homeHighlight ? `style="${highlightStyle}"` : ""} role="cell">${escapeHtml(formatMatchStat(homeValue, row.suffix || ""))}</span>
+              <span class="match-stats-value ${homeHighlight}" ${homeHighlight ? `style="${highlightStyle}"` : ""} role="cell">${row.label === "Performance" ? renderStarRating(homeValue) : escapeHtml(formatMatchStat(homeValue, row.suffix || ""))}</span>
               <strong role="cell">${escapeHtml(row.label)}</strong>
-              <span class="match-stats-value ${awayHighlight}" ${awayHighlight ? `style="${highlightStyle}"` : ""} role="cell">${escapeHtml(formatMatchStat(awayValue, row.suffix || ""))}</span>
+              <span class="match-stats-value ${awayHighlight}" ${awayHighlight ? `style="${highlightStyle}"` : ""} role="cell">${row.label === "Performance" ? renderStarRating(awayValue) : escapeHtml(formatMatchStat(awayValue, row.suffix || ""))}</span>
             </div>
           `;
         }).join("")}
@@ -1782,6 +1902,27 @@ if (scheduleList) {
       event.preventDefault();
       openMatchStatsDialog(card.dataset.matchKey);
     }
+  });
+
+  scheduleList.addEventListener("click", function (event) {
+    const editor = event.target.closest(".performance-star-editor");
+    if (!editor) {
+      return;
+    }
+
+    event.preventDefault();
+    const starStrip = editor.querySelector(".star-rating");
+    const rect = (starStrip || editor).getBoundingClientRect();
+    const position = Math.max(0, Math.min(event.clientX - rect.left, rect.width));
+    const rating = Math.max(0.1, Math.min(5, Math.ceil((position / rect.width) * 50) / 10));
+    const form = editor.closest(".match-edit-form");
+    const input = form?.elements[editor.dataset.targetName];
+    if (!input) {
+      return;
+    }
+
+    input.value = rating.toFixed(1);
+    editor.innerHTML = renderStarRating(rating);
   });
 
   scheduleList.addEventListener("submit", function (event) {
