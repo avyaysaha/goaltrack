@@ -305,14 +305,22 @@ function renderBadgeAnimation() {
     return;
   }
 
-  const allTeams = Object.entries(standingsData).flatMap(function ([group, teams]) {
+  let allTeams = Object.entries(standingsData).flatMap(function ([group, teams]) {
     return teams.map(function (entry) {
       return { ...entry, group };
     });
   });
+  allTeams = allTeams.sort(function () {
+    return Math.random() - 0.5;
+  });
   const shirtBadgeUrls = siteData.shirtBadgeUrls || {};
   const nationalColors = siteData.nationalColors || {};
   const badgeDuration = 5000;
+  const animationTypes = ["from-right", "from-left", "from-top", "from-bottom", "from-middle", "split-replace", "close-in"];
+
+  const randomAnimationType = function () {
+    return animationTypes[Math.floor(Math.random() * animationTypes.length)];
+  };
 
   const getShirtBadgeUrl = function (teamName) {
     const normalizedTeam = normalizeTeamName(teamName);
@@ -331,6 +339,7 @@ function renderBadgeAnimation() {
     const code = getTeamCountryCode(team.name, team.flag || team.name.slice(0, 3).toUpperCase());
     const badgeUrl = getShirtBadgeUrl(team.name);
     const color = nationalColors[team.name] || "#1769e0";
+    const animationType = randomAnimationType();
     const badgeContent = badgeUrl
       ? `<img src="${escapeHtml(badgeUrl)}" alt="">`
       : `
@@ -341,7 +350,7 @@ function renderBadgeAnimation() {
 
     badgeAnimationStage.innerHTML = `
       <div
-        class="shirt-badge-background"
+        class="shirt-badge-background badge-${animationType} ${normalizeTeamName(team.name).includes("switzerland") ? "badge-needs-white-backdrop" : ""}"
         style="--badge-color:${color};"
         title="${escapeHtml(team.name)}">
         ${badgeContent}
@@ -354,6 +363,11 @@ function renderBadgeAnimation() {
   clearInterval(badgeAnimationTimer);
   badgeAnimationTimer = setInterval(function () {
     activeIndex = (activeIndex + 1) % allTeams.length;
+    if (activeIndex === 0) {
+      allTeams = allTeams.sort(function () {
+        return Math.random() - 0.5;
+      });
+    }
     renderTeamBadge(allTeams[activeIndex]);
   }, badgeDuration);
 }
