@@ -11,28 +11,8 @@ fetch("data/manual-data.json", { cache: "no-store" })
     return response.json();
   })
   .then(function (data) {
-    const fileData = data;
-    const savedOverride = localStorage.getItem("goalTrackManualDataOverride");
-    if (savedOverride) {
-      try {
-        data = JSON.parse(savedOverride);
-        data.shirtBadgeUrls = {
-          ...(data.shirtBadgeUrls || {}),
-          ...(fileData.shirtBadgeUrls || {})
-        };
-        data.teamCountryCodes = {
-          ...(data.teamCountryCodes || {}),
-          ...(fileData.teamCountryCodes || {})
-        };
-        data.nationalColors = {
-          ...(data.nationalColors || {}),
-          ...(fileData.nationalColors || {})
-        };
-      } catch (error) {
-        console.error("Saved edit-mode data could not be read.", error);
-        localStorage.removeItem("goalTrackManualDataOverride");
-      }
-    }
+    localStorage.removeItem("goalTrackManualDataOverride");
+    localStorage.removeItem("goalTrackEditMode");
     window.GOALTRACK_DATA = data;
     const applicationScript = document.createElement("script");
     applicationScript.src = `script.js?v=${Date.now()}`;

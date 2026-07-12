@@ -565,7 +565,7 @@ function cleanDisplayText(value) {
 }
 
 function isEditModeEnabled() {
-  return localStorage.getItem("goalTrackEditMode") === "unlocked";
+  return false;
 }
 
 function syncEditModeClass() {
@@ -573,7 +573,7 @@ function syncEditModeClass() {
 }
 
 function saveEditedSiteData() {
-  localStorage.setItem("goalTrackManualDataOverride", JSON.stringify(window.GOALTRACK_DATA));
+  return;
 }
 
 function parseEditableNumber(value) {
@@ -605,6 +605,7 @@ function setOptionalValue(target, key, value) {
 
 function exitEditModeOnly() {
   localStorage.removeItem("goalTrackEditMode");
+  localStorage.removeItem("goalTrackManualDataOverride");
   location.reload();
 }
 
@@ -616,29 +617,7 @@ function deleteBrowserEdits() {
 
 function renderEditModeToolbar() {
   const existingToolbar = document.querySelector("#edit-mode-toolbar");
-  if (!isEditModeEnabled()) {
-    existingToolbar?.remove();
-    return;
-  }
-  if (existingToolbar) {
-    return;
-  }
-
-  const toolbar = document.createElement("div");
-  toolbar.id = "edit-mode-toolbar";
-  toolbar.className = "edit-mode-toolbar";
-  toolbar.innerHTML = `
-    <strong>Edit mode is on</strong>
-    <button class="edit-mode-exit" type="button">Exit edit mode</button>
-    <button class="edit-mode-delete" type="button">Delete browser edits</button>
-  `;
-  document.body.appendChild(toolbar);
-  toolbar.querySelector(".edit-mode-exit").addEventListener("click", exitEditModeOnly);
-  toolbar.querySelector(".edit-mode-delete").addEventListener("click", function () {
-    if (confirm("Delete the edits saved in this browser?")) {
-      deleteBrowserEdits();
-    }
-  });
+  existingToolbar?.remove();
 }
 
 syncEditModeClass();
@@ -1560,83 +1539,7 @@ function renderPerformanceEditField(label, inputName, value) {
 }
 
 function renderMatchEditForm(match) {
-  if (!isEditModeEnabled()) {
-    return "";
-  }
-
-  const homeStats = match.homeStats || {};
-  const awayStats = match.awayStats || {};
-  const homeYellowCards = homeStats.yellowCards ?? (Array.isArray(match.yellowCards) ? countTeamEvents(match.yellowCards, match.home) : "");
-  const awayYellowCards = awayStats.yellowCards ?? (Array.isArray(match.yellowCards) ? countTeamEvents(match.yellowCards, match.away) : "");
-  const homeRedCards = homeStats.redCards ?? (Array.isArray(match.redCards) ? countTeamEvents(match.redCards, match.home) : "");
-  const awayRedCards = awayStats.redCards ?? (Array.isArray(match.redCards) ? countTeamEvents(match.redCards, match.away) : "");
-  const status = match.status || "";
-  const homeName = escapeHtml(match.home);
-  const awayName = escapeHtml(match.away);
-  const statFields = [
-    ["shots", "Shots"],
-    ["shotsOnTarget", "Shots OT"],
-    ["performance", "Performance /5"],
-    ["possession", "Possession %"],
-    ["passes", "Passes"],
-    ["passAccuracy", "Pass accuracy %"],
-    ["fouls", "Fouls"],
-    ["yellowCards", "Yellow cards"],
-    ["redCards", "Red cards"],
-    ["offsides", "Offsides"],
-    ["corners", "Corners"]
-  ];
-
-  return `
-    <form class="match-edit-form" data-match-key="${escapeHtml(match.matchKey)}">
-      <div class="match-edit-section-title">
-        <strong>Match result</strong>
-        <span>Use status like FT, AET, PEN, or Upcoming.</span>
-      </div>
-      <div class="match-edit-row">
-        ${renderEditField("Match status", `<input name="status" value="${escapeHtml(status)}" placeholder="FT">`)}
-        ${renderEditField(`${homeName} score`, `<input name="homeScore" type="number" value="${Number.isInteger(match.homeScore) ? match.homeScore : ""}">`)}
-        ${renderEditField(`${awayName} score`, `<input name="awayScore" type="number" value="${Number.isInteger(match.awayScore) ? match.awayScore : ""}">`)}
-      </div>
-      <div class="match-edit-section-title">
-        <strong>Cards and penalties</strong>
-        <span>Enter total cards and penalty kicks for this match.</span>
-      </div>
-      <div class="match-edit-row">
-        ${renderEditField("Total yellow cards", `<input name="yellowCards" type="number" min="0" value="${Array.isArray(match.yellowCards) ? match.yellowCards.length : (Number.isFinite(Number(match.yellowCards)) ? Number(match.yellowCards) : "")}">`)}
-        ${renderEditField("Total red cards", `<input name="redCards" type="number" min="0" value="${Array.isArray(match.redCards) ? match.redCards.length : (Number.isFinite(Number(match.redCards)) ? Number(match.redCards) : "")}">`)}
-        ${renderEditField("Total penalty kicks", `<input name="penalties" type="number" min="0" value="${Number.isFinite(Number(match.penalties)) ? Number(match.penalties) : ""}">`)}
-      </div>
-      <div class="match-edit-section-title">
-        <strong>Team stats</strong>
-        <span>Compare the home team and away team numbers. Card totals above will follow these boxes when filled.</span>
-      </div>
-      <div class="match-edit-team-labels" aria-hidden="true">
-        <span>${homeName}</span>
-        <span>${awayName}</span>
-      </div>
-      ${statFields.map(function ([key, label]) {
-        if (key === "performance") {
-          return `
-            <div class="match-edit-row">
-              ${renderPerformanceEditField(`${homeName} ${label}`, `home_${key}`, homeStats[key])}
-              ${renderPerformanceEditField(`${awayName} ${label}`, `away_${key}`, awayStats[key])}
-            </div>
-          `;
-        }
-        const numberRules = key === "performance" ? `min="0" max="5" step="0.1"` : `min="0"`;
-        const homeValue = key === "yellowCards" ? homeYellowCards : key === "redCards" ? homeRedCards : homeStats[key];
-        const awayValue = key === "yellowCards" ? awayYellowCards : key === "redCards" ? awayRedCards : awayStats[key];
-        return `
-          <div class="match-edit-row">
-            ${renderEditField(`${homeName} ${label}`, `<input name="home_${key}" type="number" ${numberRules} value="${homeValue ?? ""}">`)}
-            ${renderEditField(`${awayName} ${label}`, `<input name="away_${key}" type="number" ${numberRules} value="${awayValue ?? ""}">`)}
-          </div>
-        `;
-      }).join("")}
-      <button class="match-edit-save" type="submit">Save match</button>
-    </form>
-  `;
+  return "";
 }
 
 function getScheduleTeamDisplay(match, matchByNumber) {
@@ -2036,9 +1939,6 @@ function renderSchedule() {
 
 if (scheduleList) {
   scheduleList.addEventListener("click", function (event) {
-    if (event.target.closest(".match-edit-form")) {
-      return;
-    }
     const card = event.target.closest(".match-card");
     if (card) {
       openMatchStatsDialog(card.dataset.matchKey);
@@ -2046,9 +1946,6 @@ if (scheduleList) {
   });
 
   scheduleList.addEventListener("keydown", function (event) {
-    if (event.target.closest(".match-edit-form")) {
-      return;
-    }
     if (event.key !== "Enter" && event.key !== " ") {
       return;
     }
@@ -2057,95 +1954,6 @@ if (scheduleList) {
       event.preventDefault();
       openMatchStatsDialog(card.dataset.matchKey);
     }
-  });
-
-  scheduleList.addEventListener("click", function (event) {
-    const editor = event.target.closest(".performance-star-editor");
-    if (!editor) {
-      return;
-    }
-
-    event.preventDefault();
-    const starStrip = editor.querySelector(".star-rating");
-    const rect = (starStrip || editor).getBoundingClientRect();
-    const position = Math.max(0, Math.min(event.clientX - rect.left, rect.width));
-    const rating = Math.max(0.1, Math.min(5, Math.ceil((position / rect.width) * 50) / 10));
-    const form = editor.closest(".match-edit-form");
-    const input = form?.elements[editor.dataset.targetName];
-    if (!input) {
-      return;
-    }
-
-    input.value = rating.toFixed(1);
-    editor.innerHTML = renderStarRating(rating);
-  });
-
-  scheduleList.addEventListener("submit", function (event) {
-    const form = event.target.closest(".match-edit-form");
-    if (!form) {
-      return;
-    }
-
-    event.preventDefault();
-    const match = findScheduleMatchByKey(form.dataset.matchKey);
-    const sourceMatch = findSourceMatchForEdit(match, form.dataset.matchKey);
-    if (!sourceMatch) {
-      console.warn("No source match found for edit key:", form.dataset.matchKey);
-      return;
-    }
-
-    const formData = new FormData(form);
-    const homeScore = parseEditableNumber(formData.get("homeScore"));
-    const awayScore = parseEditableNumber(formData.get("awayScore"));
-    const status = String(formData.get("status") || "").trim();
-    sourceMatch.status = status || "Upcoming";
-    sourceMatch.homeScore = homeScore;
-    sourceMatch.awayScore = awayScore;
-
-    sourceMatch.homeStats = sourceMatch.homeStats || {};
-    sourceMatch.awayStats = sourceMatch.awayStats || {};
-    [
-      "shots",
-      "shotsOnTarget",
-      "performance",
-      "possession",
-      "passes",
-      "passAccuracy",
-      "fouls",
-      "yellowCards",
-      "redCards",
-      "offsides",
-      "corners"
-    ].forEach(function (key) {
-      setOptionalNumber(sourceMatch.homeStats, key, formData.get(`home_${key}`));
-      setOptionalNumber(sourceMatch.awayStats, key, formData.get(`away_${key}`));
-    });
-
-    const sideYellowCards = numericStatValue(sourceMatch.homeStats.yellowCards) !== null &&
-      numericStatValue(sourceMatch.awayStats.yellowCards) !== null
-      ? numericStatValue(sourceMatch.homeStats.yellowCards) + numericStatValue(sourceMatch.awayStats.yellowCards)
-      : null;
-    const sideRedCards = numericStatValue(sourceMatch.homeStats.redCards) !== null &&
-      numericStatValue(sourceMatch.awayStats.redCards) !== null
-      ? numericStatValue(sourceMatch.homeStats.redCards) + numericStatValue(sourceMatch.awayStats.redCards)
-      : null;
-
-    if (sideYellowCards !== null) {
-      sourceMatch.yellowCards = sideYellowCards;
-    } else {
-      setOptionalNumber(sourceMatch, "yellowCards", formData.get("yellowCards"));
-    }
-
-    if (sideRedCards !== null) {
-      sourceMatch.redCards = sideRedCards;
-    } else {
-      setOptionalNumber(sourceMatch, "redCards", formData.get("redCards"));
-    }
-
-    setOptionalNumber(sourceMatch, "penalties", formData.get("penalties"));
-
-    saveEditedSiteData();
-    location.reload();
   });
 
   if (knockoutBracket) {
@@ -2732,80 +2540,7 @@ function parseLeaderboardLines(value) {
 }
 
 function renderLeaderboardEditor(stats) {
-  const leaderboardGrid = document.querySelector(".leaderboard-grid");
-  if (!leaderboardGrid) {
-    return;
-  }
-
-  const existingPanel = document.querySelector("#leaderboard-edit-panel");
-  if (!isEditModeEnabled()) {
-    existingPanel?.remove();
-    return;
-  }
-
-  const panel = existingPanel || document.createElement("section");
-  panel.id = "leaderboard-edit-panel";
-  panel.className = "leaderboard-edit-panel";
-  panel.innerHTML = `
-    <div class="leaderboard-edit-heading">
-      <div>
-        <span>Edit mode</span>
-        <h2>Edit leaderboards</h2>
-      </div>
-      <p>Use one line per entry: <strong>Name | Number | Detail</strong>. Team goals can be changed here, or by editing match scores on the Match Schedule page.</p>
-    </div>
-    <form class="leaderboard-edit-form">
-      <label>
-        Player goals
-        <textarea name="scorers" spellcheck="false">${escapeHtml(leaderboardLines(stats.scorers || []))}</textarea>
-      </label>
-      <label>
-        Team goals
-        <textarea name="teamGoals" spellcheck="false">${escapeHtml(leaderboardLines(topEntries(stats.goals).map(function ([name, value]) {
-          const team = getAllTeams().find(function (entry) {
-            return normalizeTeamName(entry.name) === normalizeTeamName(name);
-          });
-          return { name, value, detail: `Group ${team?.group || "—"}` };
-        })))}</textarea>
-      </label>
-      <label>
-        Keepers
-        <textarea name="keepers" spellcheck="false">${escapeHtml(leaderboardLines(stats.keepers || []))}</textarea>
-      </label>
-      <div class="edit-actions">
-        <button class="button button-primary" type="submit">Save leaderboards</button>
-        <button class="button button-secondary" type="button" data-exit-edit-mode>Exit edit mode</button>
-        <button class="button button-secondary danger-button" type="button" data-delete-browser-edits>Delete browser edits</button>
-      </div>
-    </form>
-  `;
-
-  if (!existingPanel) {
-    leaderboardGrid.insertAdjacentElement("afterend", panel);
-  }
-
-  panel.querySelector(".leaderboard-edit-form").addEventListener("submit", function (event) {
-    event.preventDefault();
-    const formData = new FormData(event.currentTarget);
-    window.GOALTRACK_DATA.detailedStats = window.GOALTRACK_DATA.detailedStats || {};
-    window.GOALTRACK_DATA.detailedStats.scorers = parseLeaderboardLines(formData.get("scorers"));
-    window.GOALTRACK_DATA.detailedStats.goals = Object.fromEntries(
-      parseLeaderboardLines(formData.get("teamGoals")).map(function (entry) {
-        return [entry.name, entry.value];
-      })
-    );
-    window.GOALTRACK_DATA.detailedStats.keepers = parseLeaderboardLines(formData.get("keepers"));
-    saveEditedSiteData();
-    location.reload();
-  }, { once: true });
-
-  panel.querySelector("[data-exit-edit-mode]").addEventListener("click", exitEditModeOnly, { once: true });
-
-  panel.querySelector("[data-delete-browser-edits]").addEventListener("click", function () {
-    if (confirm("Delete the edits saved in this browser?")) {
-      deleteBrowserEdits();
-    }
-  }, { once: true });
+  return;
 }
 
 function renderStatsDashboard() {
@@ -3220,89 +2955,17 @@ function addChatMessage(text, role) {
 function addEditModePrompt() {
   const message = document.createElement("div");
   message.className = "chat-message assistant";
-  const text = document.createElement("span");
-  text.textContent = isEditModeEnabled()
-    ? "Edit mode is on. You can exit edit mode without deleting your saved browser edits."
-    : "Edit mode is locked. Unlock it to type scores and match stats on Match Schedule, and edit player/keeper leaderboards on Stats.";
-  const button = document.createElement("button");
-  button.className = "chat-action-button";
-  button.type = "button";
-  button.textContent = isEditModeEnabled() ? "Exit edit mode" : "Unlock edit mode";
-  button.addEventListener("click", isEditModeEnabled() ? exitEditModeOnly : openEditPasswordDialog);
-  message.append(text, button);
+  message.textContent = "Edit mode has been removed. Update match data through the GitHub workflow or manual-data.json.";
   chatMessages.appendChild(message);
   chatMessages.scrollTop = chatMessages.scrollHeight;
 }
 
 function ensureEditPasswordDialog() {
-  let dialog = document.querySelector("#edit-password-dialog");
-  if (dialog) {
-    return dialog;
-  }
-
-  dialog = document.createElement("dialog");
-  dialog.id = "edit-password-dialog";
-  dialog.className = "edit-dialog";
-  dialog.innerHTML = `
-    <div class="edit-dialog-card">
-      <button class="edit-dialog-close" type="button" aria-label="Close password dialog">×</button>
-      <h2>Edit mode</h2>
-      <p>Enter the password to unlock schedule and leaderboard editing.</p>
-      <label>
-        Password
-        <input class="edit-password-input" type="password" autocomplete="off">
-      </label>
-      <p class="edit-error" role="alert"></p>
-      <button class="button button-primary edit-unlock-button" type="button">Unlock</button>
-    </div>
-  `;
-  document.body.appendChild(dialog);
-
-  const closeButton = dialog.querySelector(".edit-dialog-close");
-  const input = dialog.querySelector(".edit-password-input");
-  const error = dialog.querySelector(".edit-error");
-  const unlockButton = dialog.querySelector(".edit-unlock-button");
-
-  closeButton.addEventListener("click", function () {
-    dialog.close();
-  });
-  dialog.addEventListener("click", function (event) {
-    if (event.target === dialog) {
-      dialog.close();
-    }
-  });
-
-  function unlock() {
-    if (input.value === "1 Trophy") {
-      input.value = "";
-      error.textContent = "";
-      dialog.close();
-      localStorage.setItem("goalTrackEditMode", "unlocked");
-      syncEditModeClass();
-      renderEditModeToolbar();
-      addChatMessage("Edit mode is on. Go to Match Schedule to edit scores and stats, or Stats to edit player goals and keepers.", "assistant");
-      renderSchedule();
-      renderStatsDashboard();
-      return;
-    }
-    error.textContent = "Incorrect password.";
-    input.select();
-  }
-
-  unlockButton.addEventListener("click", unlock);
-  input.addEventListener("keydown", function (event) {
-    if (event.key === "Enter") {
-      unlock();
-    }
-  });
-
-  return dialog;
+  return null;
 }
 
 function openEditPasswordDialog() {
-  const dialog = ensureEditPasswordDialog();
-  dialog.showModal();
-  dialog.querySelector(".edit-password-input").focus();
+  addChatMessage("Edit mode has been removed. Update match data through the GitHub workflow or manual-data.json.", "assistant");
 }
 
 function getAllTeams() {
@@ -3468,10 +3131,6 @@ if (chatToggle && chatPanel) {
     }
     addChatMessage(question, "user");
     chatInput.value = "";
-    if (question.toLowerCase() === "edit") {
-      window.setTimeout(addEditModePrompt, 180);
-      return;
-    }
     window.setTimeout(function () {
       addChatMessage(answerTrackerQuestion(question), "assistant");
     }, 180);
