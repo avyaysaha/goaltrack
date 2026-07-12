@@ -416,7 +416,6 @@ function renderBadgeAnimation() {
     clearInterval(badgeAnimationTimer);
     badgeAnimationStage.innerHTML = `
       <div class="featured-badge-match" aria-label="${escapeHtml(featuredLabel)}">
-        <div class="featured-score featured-score-home">${escapeHtml(homeScoreText)}</div>
         <div class="featured-split-badge">
           <div class="featured-badge-half featured-badge-half-home ${normalizeTeamName(homeName).includes("switzerland") ? "badge-needs-white-backdrop" : ""}" title="${escapeHtml(homeName)}">
             ${renderBadgeContent(homeTeam)}
@@ -427,7 +426,13 @@ function renderBadgeAnimation() {
           </div>
           ${hasFeaturedScore ? "" : `<div class="featured-badge-vs">VS</div>`}
         </div>
-        <div class="featured-score featured-score-away">${escapeHtml(awayScoreText)}</div>
+        ${hasFeaturedScore ? `
+          <div class="featured-scoreboard">
+            <span>${escapeHtml(homeScoreText)}</span>
+            <span class="featured-score-dash">-</span>
+            <span>${escapeHtml(awayScoreText)}</span>
+          </div>
+        ` : ""}
       </div>
     `;
     return;

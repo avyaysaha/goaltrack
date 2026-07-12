@@ -334,10 +334,10 @@ a {
   position: absolute;
   inset: -10%;
   display: grid;
-  grid-template-columns: minmax(72px, 1fr) auto minmax(72px, 1fr);
+  place-items: center;
+  grid-template-columns: 1fr;
   align-items: center;
   justify-content: center;
-  gap: clamp(12px, 3vw, 46px);
   animation: featuredBadgeFadeIn 900ms ease-out both;
 }
 
@@ -413,7 +413,7 @@ a {
   box-shadow: 0 0 22px rgba(255, 255, 255, 0.28);
 }
 
-.featured-score,
+.featured-scoreboard,
 .featured-badge-vs {
   position: absolute;
   z-index: 3;
@@ -425,19 +425,26 @@ a {
   text-shadow: 0 20px 45px rgba(0, 0, 0, 0.7);
 }
 
-.featured-score-home {
-  left: clamp(18px, 6vw, 110px);
-  top: 50%;
-  transform: translateY(-50%);
+.featured-scoreboard {
+  top: clamp(28px, 8vh, 82px);
+  left: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(8px, 1.6vw, 18px);
+  min-width: clamp(116px, 18vw, 210px);
+  padding: 6px 18px 10px;
+  transform: translateX(-50%);
+  border-radius: 999px;
+  background: rgba(7, 17, 38, 0.62);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.28);
 }
 
-.featured-score-away {
-  right: clamp(18px, 6vw, 110px);
-  top: 50%;
-  transform: translateY(-50%);
+.featured-score-dash {
+  opacity: 0.62;
 }
 
-.featured-score:empty {
+.featured-scoreboard:empty {
   display: none;
 }
 
