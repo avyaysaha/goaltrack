@@ -330,9 +330,10 @@ a {
   position: absolute;
   inset: -10%;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  grid-template-columns: minmax(0, 0.82fr) auto minmax(0, 0.82fr);
   align-items: center;
-  gap: clamp(18px, 4vw, 54px);
+  justify-content: center;
+  gap: clamp(8px, 1.7vw, 24px);
   opacity: 0.32;
   animation: featuredBadgeFadeIn 900ms ease-out both;
 }
