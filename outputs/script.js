@@ -224,10 +224,62 @@ function getTournamentRecord(teamName) {
   }, { won: 0, drawn: 0, lost: 0 });
 }
 
+function getKnockoutStageLevel(match) {
+  const text = String(`${match.group || ""} ${match.stage || ""}`);
+  if (/round of 32/i.test(text)) return 1;
+  if (/round of 16/i.test(text)) return 2;
+  if (/quarter/i.test(text)) return 3;
+  if (/semi/i.test(text)) return 4;
+  if (/third place/i.test(text)) return 4;
+  if (/final/i.test(text)) return 5;
+  return 0;
+}
+
+function findTeamEntryByName(teamName) {
+  const normalized = normalizeTeamName(cleanDisplayText(teamName));
+  return Object.values(standingsData).flat().find(function (team) {
+    return normalizeTeamName(cleanDisplayText(team.name)) === normalized;
+  });
+}
+
+function recalculateOrbitProgressFromMatches() {
+  Object.values(standingsData).flat().forEach(function (team) {
+    team.stageProgress = 0;
+    team.eliminated = false;
+  });
+
+  (siteData.matches || []).forEach(function (match) {
+    if (match.stage !== "Knockout" || !isFinishedMatch(match)) {
+      return;
+    }
+
+    const stageLevel = getKnockoutStageLevel(match);
+    if (!stageLevel) {
+      return;
+    }
+
+    const winnerName = getKnockoutResult(match, "winner");
+    const loserName = getKnockoutResult(match, "runner-up");
+    const winner = findTeamEntryByName(winnerName);
+    const loser = findTeamEntryByName(loserName);
+
+    if (winner) {
+      winner.stageProgress = Math.max(winner.stageProgress || 0, stageLevel + 1);
+      winner.eliminated = false;
+    }
+    if (loser) {
+      loser.stageProgress = Math.max(loser.stageProgress || 0, stageLevel);
+      loser.eliminated = true;
+    }
+  });
+}
+
 function renderTeamOrbit() {
   if (!teamOrbitDots) {
     return;
   }
+
+  recalculateOrbitProgressFromMatches();
 
   const allTeams = Object.entries(standingsData).flatMap(function ([group, teams]) {
     return teams.map(function (entry, index) {
