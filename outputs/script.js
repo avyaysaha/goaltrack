@@ -1514,6 +1514,10 @@ function renderMatchEditForm(match) {
 
   const homeStats = match.homeStats || {};
   const awayStats = match.awayStats || {};
+  const homeYellowCards = homeStats.yellowCards ?? (Array.isArray(match.yellowCards) ? countTeamEvents(match.yellowCards, match.home) : "");
+  const awayYellowCards = awayStats.yellowCards ?? (Array.isArray(match.yellowCards) ? countTeamEvents(match.yellowCards, match.away) : "");
+  const homeRedCards = homeStats.redCards ?? (Array.isArray(match.redCards) ? countTeamEvents(match.redCards, match.home) : "");
+  const awayRedCards = awayStats.redCards ?? (Array.isArray(match.redCards) ? countTeamEvents(match.redCards, match.away) : "");
   const status = match.status || "";
   const homeName = escapeHtml(match.home);
   const awayName = escapeHtml(match.away);
@@ -1525,6 +1529,8 @@ function renderMatchEditForm(match) {
     ["passes", "Passes"],
     ["passAccuracy", "Pass accuracy %"],
     ["fouls", "Fouls"],
+    ["yellowCards", "Yellow cards"],
+    ["redCards", "Red cards"],
     ["offsides", "Offsides"],
     ["corners", "Corners"]
   ];
@@ -1551,7 +1557,7 @@ function renderMatchEditForm(match) {
       </div>
       <div class="match-edit-section-title">
         <strong>Team stats</strong>
-        <span>Compare the home team and away team numbers.</span>
+        <span>Compare the home team and away team numbers. Card totals above will follow these boxes when filled.</span>
       </div>
       <div class="match-edit-team-labels" aria-hidden="true">
         <span>${homeName}</span>
@@ -1567,10 +1573,12 @@ function renderMatchEditForm(match) {
           `;
         }
         const numberRules = key === "performance" ? `min="0" max="5" step="0.1"` : `min="0"`;
+        const homeValue = key === "yellowCards" ? homeYellowCards : key === "redCards" ? homeRedCards : homeStats[key];
+        const awayValue = key === "yellowCards" ? awayYellowCards : key === "redCards" ? awayRedCards : awayStats[key];
         return `
           <div class="match-edit-row">
-            ${renderEditField(`${homeName} ${label}`, `<input name="home_${key}" type="number" ${numberRules} value="${homeStats[key] ?? ""}">`)}
-            ${renderEditField(`${awayName} ${label}`, `<input name="away_${key}" type="number" ${numberRules} value="${awayStats[key] ?? ""}">`)}
+            ${renderEditField(`${homeName} ${label}`, `<input name="home_${key}" type="number" ${numberRules} value="${homeValue ?? ""}">`)}
+            ${renderEditField(`${awayName} ${label}`, `<input name="away_${key}" type="number" ${numberRules} value="${awayValue ?? ""}">`)}
           </div>
         `;
       }).join("")}
@@ -1769,9 +1777,45 @@ function ensureMatchStatsDialog() {
   return dialog;
 }
 
+function findScheduleMatchByKey(matchKey) {
+  const key = String(matchKey || "");
+  if (!key) {
+    return null;
+  }
+
+  const renderedMatch = scheduleMatchDetails.get(key);
+  if (renderedMatch) {
+    return renderedMatch;
+  }
+
+  return matches.find(function (match) {
+    return String(match.matchKey || "") === key ||
+      String(match.fixtureId || "") === key ||
+      getScheduleMatchKey(match) === key;
+  }) || null;
+}
+
+function findSourceMatchForEdit(displayMatch, matchKey) {
+  if (!displayMatch) {
+    return null;
+  }
+
+  if (Number.isInteger(displayMatch.dataIndex) && window.GOALTRACK_DATA.matches?.[displayMatch.dataIndex]) {
+    return window.GOALTRACK_DATA.matches[displayMatch.dataIndex];
+  }
+
+  const sourceMatches = window.GOALTRACK_DATA.matches || [];
+  return sourceMatches.find(function (sourceMatch) {
+    return String(sourceMatch.matchKey || "") === String(matchKey || "") ||
+      String(sourceMatch.fixtureId || "") === String(displayMatch.fixtureId || "") ||
+      getScheduleMatchKey(sourceMatch) === getScheduleMatchKey(displayMatch);
+  }) || null;
+}
+
 function openMatchStatsDialog(matchKey) {
-  const match = scheduleMatchDetails.get(matchKey);
+  const match = findScheduleMatchByKey(matchKey);
   if (!match) {
+    console.warn("No match found for popup key:", matchKey);
     return;
   }
 
@@ -1991,9 +2035,10 @@ if (scheduleList) {
     }
 
     event.preventDefault();
-    const match = scheduleMatchDetails.get(form.dataset.matchKey);
-    const sourceMatch = window.GOALTRACK_DATA.matches?.[match?.dataIndex];
+    const match = findScheduleMatchByKey(form.dataset.matchKey);
+    const sourceMatch = findSourceMatchForEdit(match, form.dataset.matchKey);
     if (!sourceMatch) {
+      console.warn("No source match found for edit key:", form.dataset.matchKey);
       return;
     }
 
@@ -2004,9 +2049,6 @@ if (scheduleList) {
     sourceMatch.status = status || "Upcoming";
     sourceMatch.homeScore = homeScore;
     sourceMatch.awayScore = awayScore;
-    setOptionalNumber(sourceMatch, "yellowCards", formData.get("yellowCards"));
-    setOptionalNumber(sourceMatch, "redCards", formData.get("redCards"));
-    setOptionalNumber(sourceMatch, "penalties", formData.get("penalties"));
 
     sourceMatch.homeStats = sourceMatch.homeStats || {};
     sourceMatch.awayStats = sourceMatch.awayStats || {};
@@ -2018,12 +2060,37 @@ if (scheduleList) {
       "passes",
       "passAccuracy",
       "fouls",
+      "yellowCards",
+      "redCards",
       "offsides",
       "corners"
     ].forEach(function (key) {
       setOptionalNumber(sourceMatch.homeStats, key, formData.get(`home_${key}`));
       setOptionalNumber(sourceMatch.awayStats, key, formData.get(`away_${key}`));
     });
+
+    const sideYellowCards = numericStatValue(sourceMatch.homeStats.yellowCards) !== null &&
+      numericStatValue(sourceMatch.awayStats.yellowCards) !== null
+      ? numericStatValue(sourceMatch.homeStats.yellowCards) + numericStatValue(sourceMatch.awayStats.yellowCards)
+      : null;
+    const sideRedCards = numericStatValue(sourceMatch.homeStats.redCards) !== null &&
+      numericStatValue(sourceMatch.awayStats.redCards) !== null
+      ? numericStatValue(sourceMatch.homeStats.redCards) + numericStatValue(sourceMatch.awayStats.redCards)
+      : null;
+
+    if (sideYellowCards !== null) {
+      sourceMatch.yellowCards = sideYellowCards;
+    } else {
+      setOptionalNumber(sourceMatch, "yellowCards", formData.get("yellowCards"));
+    }
+
+    if (sideRedCards !== null) {
+      sourceMatch.redCards = sideRedCards;
+    } else {
+      setOptionalNumber(sourceMatch, "redCards", formData.get("redCards"));
+    }
+
+    setOptionalNumber(sourceMatch, "penalties", formData.get("penalties"));
 
     saveEditedSiteData();
     location.reload();
@@ -2292,6 +2359,10 @@ function topEntries(values, limit = 5) {
     .slice(0, limit);
 }
 
+function formatCleanScoreLabel(match) {
+  return cleanDisplayText(`${match.home} ${match.homeScore}-${match.awayScore} ${match.away}`);
+}
+
 function renderCoordinateChart(config) {
   const entries = topEntries(config.values);
   const highestValue = Math.max(...entries.map(function (entry) { return entry[1]; }), 1);
@@ -2307,10 +2378,11 @@ function renderCoordinateChart(config) {
         <div class="chart-axis-label">Teams</div>
         ${entries.map(function ([teamName, value], index) {
           const team = findBundledTeam(teamName);
+          const displayTeamName = cleanDisplayText(teamName);
           const width = value === 0 ? 2 : Math.max((value / highestValue) * 100, 8);
           return `
             <div class="chart-row">
-              <div class="chart-team"><span>${team?.flag || teamName.slice(0, 2).toUpperCase()}</span>${teamName}</div>
+              <div class="chart-team"><span>${escapeHtml(team?.flag || teamName.slice(0, 2).toUpperCase())}</span>${escapeHtml(displayTeamName)}</div>
               <div class="chart-track">
                 <div class="chart-bar color-${(index % 3) + 1}" style="width:${width}%"></div>
                 <strong>${value}</strong>
@@ -2341,7 +2413,7 @@ function getGoalTrendData() {
       matchValue: matchGoals,
       cumulativeValue: cumulativeGoals,
       date: match.date.replace(/^[A-Za-z]+, /, ""),
-      label: `${match.home} ${match.homeScore}-${match.awayScore} ${match.away}`
+      label: formatCleanScoreLabel(match)
     };
   });
 }
@@ -2359,7 +2431,7 @@ function getTimePlayedTrendData() {
       matchValue: matchMinutes,
       cumulativeValue: cumulativeMinutes,
       date: match.date.replace(/^[A-Za-z]+, /, ""),
-      label: `${match.home} ${match.homeScore}-${match.awayScore} ${match.away}`
+      label: formatCleanScoreLabel(match)
     };
   });
 }
@@ -2459,7 +2531,7 @@ function getDetailedTrendData(stats, config) {
       matchValue,
       cumulativeValue,
       date: match.date.replace(/^[A-Za-z]+, /, ""),
-      label: `${match.home} ${match.homeScore}-${match.awayScore} ${match.away}`
+      label: formatCleanScoreLabel(match)
     };
   });
 
@@ -2497,15 +2569,15 @@ function renderTrendChart(config, trendData, hasTimelineData = true) {
   const labelIndexes = new Set([0, Math.floor((points.length - 1) / 2), points.length - 1]);
 
   return `
-    <article class="stat-chart-card trend-chart-card ${config.className || ""}">
+    <article class="stat-chart-card trend-chart-card ${escapeHtml(config.className || "")}">
       <div class="stat-chart-heading">
-        <div><span>${config.number}</span><h3>${config.title}</h3></div>
-        <b>${hasTimelineData ? `${total} ${config.summaryLabel}` : (config.unavailableLabel || "Awaiting event timeline")}</b>
+        <div><span>${escapeHtml(config.number)}</span><h3>${escapeHtml(config.title)}</h3></div>
+        <b>${escapeHtml(hasTimelineData ? `${total} ${config.summaryLabel}` : (config.unavailableLabel || "Awaiting event timeline"))}</b>
       </div>
       <div class="goal-trend-wrap">
-        <svg class="goal-trend-chart" viewBox="0 0 ${width} ${height}" role="img" aria-label="${config.ariaLabel}">
-          <title>${config.ariaLabel}</title>
-          <desc>The line rises as ${config.descriptionLabel} are added after each completed match.</desc>
+        <svg class="goal-trend-chart" viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeHtml(config.ariaLabel)}">
+          <title>${escapeHtml(config.ariaLabel)}</title>
+          <desc>${escapeHtml(`The line rises as ${config.descriptionLabel} are added after each completed match.`)}</desc>
           ${tickValues.map(function (value) {
             const y = padding.top + chartHeight - (value / maximum) * chartHeight;
             return `
@@ -2524,13 +2596,13 @@ function renderTrendChart(config, trendData, hasTimelineData = true) {
             return `
               <g class="trend-point">
                 <circle cx="${point.x}" cy="${point.y}" r="${index === 0 ? 5 : 7}">
-                  <title>${detail}</title>
+                  <title>${escapeHtml(cleanDisplayText(detail))}</title>
                 </circle>
                 ${labelIndexes.has(index) ? `<text class="trend-x-label" x="${point.x}" y="${height - 18}">${index === 0 ? "Start" : `Match ${point.number}`}</text>` : ""}
               </g>
             `;
           }).join("")}
-          <text class="trend-axis-title trend-axis-title-y" x="16" y="${height / 2}">${config.axisLabel}</text>
+          <text class="trend-axis-title trend-axis-title-y" x="16" y="${height / 2}">${escapeHtml(config.axisLabel)}</text>
           <text class="trend-axis-title" x="${padding.left + chartWidth / 2}" y="${height - 1}">Completed matches in chronological order</text>
         </svg>
         ${trendData.length && hasTimelineData ? "" : `<p class="trend-empty">${trendData.length ? config.waitingText : "The trend will begin when the first match reaches full time."}</p>`}
