@@ -419,7 +419,6 @@ a {
 .featured-badge-vs {
   position: absolute;
   z-index: 3;
-  color: rgba(255, 255, 255, 0.92);
   font-family: var(--display-font);
   font-size: clamp(2.4rem, 6vw, 6rem);
   font-weight: 900;
@@ -430,6 +429,7 @@ a {
 .featured-scoreboard {
   top: clamp(20px, 6vw, 52px);
   left: 50%;
+  color: #050505;
   display: inline-flex;
   align-items: center;
   justify-content: center;
