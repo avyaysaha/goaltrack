@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T03:42:25.315Z",
+  "updatedAt": "2026-07-12T04:16:51.816Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -188,7 +188,8 @@
         "drawn": 1,
         "lost": 0,
         "gd": 4,
-        "points": 7
+        "points": 7,
+        "eliminated": true
       },
       {
         "name": "Canada",
@@ -537,7 +538,8 @@
         "drawn": 0,
         "lost": 1,
         "gd": 1,
-        "points": 6
+        "points": 6,
+        "eliminated": true
       },
       {
         "name": "Senegal",
@@ -8473,17 +8475,96 @@
       "date": "Saturday, July 11, 2026",
       "stage": "Knockout",
       "group": "Match 100 · Quarter-final",
-      "time": "8:00 PM local",
+      "time": "9:00 PM CDT (8:00 PM CST venue local)",
       "kickoffISO": "2026-07-12T01:00:00Z",
-      "home": "Winner Match 95",
-      "homeFlag": "W95",
-      "away": "Winner Match 96",
-      "awayFlag": "W96",
+      "home": "Argentina",
+      "homeFlag": "ARG",
+      "away": "Switzerland",
+      "awayFlag": "SUI",
       "location": "GEHA Field at Arrowhead Stadium · Kansas City",
       "venueTimeZone": "America/Chicago",
-      "status": "LIVE",
+      "status": "FT",
       "homeScore": 3,
-      "awayScore": 1
+      "awayScore": 1,
+      "homeSource": "Winner Match 95",
+      "awaySource": "Winner Match 96",
+      "elapsed": 134,
+      "scorers": [
+        {
+          "player": "Alexis Mac Allister",
+          "team": "Argentina",
+          "match": "Argentina vs Switzerland"
+        },
+        {
+          "player": "Dan Ndoye",
+          "team": "Switzerland",
+          "match": "Argentina vs Switzerland"
+        },
+        {
+          "player": "Julián Álvarez",
+          "team": "Argentina",
+          "match": "Argentina vs Switzerland"
+        },
+        {
+          "player": "Lautaro Martínez",
+          "team": "Argentina",
+          "match": "Argentina vs Switzerland"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Thiago Almada",
+          "team": "Argentina",
+          "match": "Argentina vs Switzerland"
+        },
+        {
+          "player": "José Manuel López",
+          "team": "Argentina",
+          "match": "Argentina vs Switzerland"
+        },
+        {
+          "player": "Lautaro Martínez",
+          "team": "Argentina",
+          "match": "Argentina vs Switzerland"
+        },
+        {
+          "player": "Breel Embolo",
+          "team": "Switzerland",
+          "match": "Argentina vs Switzerland"
+        }
+      ],
+      "redCards": [
+        {
+          "player": "Breel Embolo",
+          "team": "Switzerland",
+          "match": "Argentina vs Switzerland"
+        }
+      ],
+      "penalties": 0,
+      "homeKeeper": "Emiliano Martínez",
+      "awayKeeper": "Gregor Kobel",
+      "homeStats": {
+        "shots": 22,
+        "shotsOnTarget": 7,
+        "possession": 59,
+        "passes": 692,
+        "passAccuracy": 89,
+        "performance": 3.75,
+        "fouls": 14,
+        "offsides": 4,
+        "corners": 8
+      },
+      "awayStats": {
+        "shots": 11,
+        "shotsOnTarget": 5,
+        "possession": 41,
+        "passes": 474,
+        "passAccuracy": 84,
+        "performance": 3.5,
+        "fouls": 18,
+        "offsides": 3,
+        "corners": 2
+      }
     },
     {
       "date": "Tuesday, July 14, 2026",
@@ -15983,6 +16064,99 @@
       "status": "LIVE",
       "homeScore": 3,
       "awayScore": 1
+    },
+    {
+      "date": "Saturday, July 11, 2026",
+      "stage": "Knockout",
+      "group": "Match 100 · Quarter-final",
+      "time": "9:00 PM CDT (8:00 PM CST venue local)",
+      "home": "Argentina",
+      "homeFlag": "ARG",
+      "away": "Switzerland",
+      "awayFlag": "SUI",
+      "homeSource": "Winner Match 95",
+      "awaySource": "Winner Match 96",
+      "location": "GEHA Field at Arrowhead Stadium · Kansas City",
+      "status": "FT",
+      "elapsed": 134,
+      "homeScore": 3,
+      "awayScore": 1,
+      "scorers": [
+        {
+          "player": "Alexis Mac Allister",
+          "team": "Argentina",
+          "match": "Argentina vs Switzerland"
+        },
+        {
+          "player": "Dan Ndoye",
+          "team": "Switzerland",
+          "match": "Argentina vs Switzerland"
+        },
+        {
+          "player": "Julián Álvarez",
+          "team": "Argentina",
+          "match": "Argentina vs Switzerland"
+        },
+        {
+          "player": "Lautaro Martínez",
+          "team": "Argentina",
+          "match": "Argentina vs Switzerland"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Thiago Almada",
+          "team": "Argentina",
+          "match": "Argentina vs Switzerland"
+        },
+        {
+          "player": "José Manuel López",
+          "team": "Argentina",
+          "match": "Argentina vs Switzerland"
+        },
+        {
+          "player": "Lautaro Martínez",
+          "team": "Argentina",
+          "match": "Argentina vs Switzerland"
+        },
+        {
+          "player": "Breel Embolo",
+          "team": "Switzerland",
+          "match": "Argentina vs Switzerland"
+        }
+      ],
+      "redCards": [
+        {
+          "player": "Breel Embolo",
+          "team": "Switzerland",
+          "match": "Argentina vs Switzerland"
+        }
+      ],
+      "penalties": 0,
+      "homeKeeper": "Emiliano Martínez",
+      "awayKeeper": "Gregor Kobel",
+      "homeStats": {
+        "shots": 22,
+        "shotsOnTarget": 7,
+        "possession": 59,
+        "passes": 692,
+        "passAccuracy": 89,
+        "performance": 3.75,
+        "fouls": 14,
+        "offsides": 4,
+        "corners": 8
+      },
+      "awayStats": {
+        "shots": 11,
+        "shotsOnTarget": 5,
+        "possession": 41,
+        "passes": 474,
+        "passAccuracy": 84,
+        "performance": 3.5,
+        "fouls": 18,
+        "offsides": 3,
+        "corners": 2
+      }
     }
   ],
   "detailedStats": {
@@ -16153,6 +16327,11 @@
         "detail": "Japan"
       },
       {
+        "name": "Dan Ndoye",
+        "value": 2,
+        "detail": "Switzerland"
+      },
+      {
         "name": "Daniel Muñoz",
         "value": 2,
         "detail": "Colombia"
@@ -16176,6 +16355,11 @@
         "name": "Habib Diarra",
         "value": 2,
         "detail": "Senegal"
+      },
+      {
+        "name": "Lautaro Martínez",
+        "value": 2,
+        "detail": "Argentina"
       },
       {
         "name": "Leandro Trossard",
@@ -16258,24 +16442,14 @@
         "detail": "Morocco"
       },
       {
-        "name": "Álex Baena",
-        "value": 1,
-        "detail": "Spain"
-      },
-      {
-        "name": "Álvaro Fidalgo",
-        "value": 1,
-        "detail": "Mexico"
-      },
-      {
-        "name": "Ángel Mena",
-        "value": 1,
-        "detail": "Ecuador"
-      },
-      {
         "name": "Agustín Canobbio",
         "value": 1,
         "detail": "Uruguay"
+      },
+      {
+        "name": "Álex Baena",
+        "value": 1,
+        "detail": "Spain"
       },
       {
         "name": "Alex Freeman",
@@ -16288,6 +16462,11 @@
         "detail": "Sweden"
       },
       {
+        "name": "Alexis Mac Allister",
+        "value": 1,
+        "detail": "Argentina"
+      },
+      {
         "name": "Alexis Saelemaekers",
         "value": 1,
         "detail": "Belgium"
@@ -16298,6 +16477,11 @@
         "detail": "Jordan"
       },
       {
+        "name": "Álvaro Fidalgo",
+        "value": 1,
+        "detail": "Mexico"
+      },
+      {
         "name": "Amine Gouiri",
         "value": 1,
         "detail": "Algeria"
@@ -16306,6 +16490,11 @@
         "name": "Andreas Schjelderup",
         "value": 1,
         "detail": "Norway"
+      },
+      {
+        "name": "Ángel Mena",
+        "value": 1,
+        "detail": "Ecuador"
       },
       {
         "name": "Ante Budimir",
@@ -16373,11 +16562,6 @@
         "detail": "Argentina"
       },
       {
-        "name": "Désiré Doué",
-        "value": 1,
-        "detail": "France"
-      },
-      {
         "name": "Daizen Maeda",
         "value": 1,
         "detail": "Japan"
@@ -16388,11 +16572,6 @@
         "detail": "United States"
       },
       {
-        "name": "Dan Ndoye",
-        "value": 1,
-        "detail": "Switzerland"
-      },
-      {
         "name": "Deroy Duarte",
         "value": 1,
         "detail": "Cabo Verde"
@@ -16401,6 +16580,11 @@
         "name": "Derrick Luckassen",
         "value": 1,
         "detail": "Ghana"
+      },
+      {
+        "name": "Désiré Doué",
+        "value": 1,
+        "detail": "France"
       },
       {
         "name": "Diney Borges(OG)",
@@ -16488,11 +16672,6 @@
         "detail": "Switzerland"
       },
       {
-        "name": "Hélio Varela",
-        "value": 1,
-        "detail": "Cabo Verde"
-      },
-      {
         "name": "Hans Vanaken",
         "value": 1,
         "detail": "Belgium"
@@ -16511,6 +16690,11 @@
         "name": "Hazem Mastouri",
         "value": 1,
         "detail": "Tunisia"
+      },
+      {
+        "name": "Hélio Varela",
+        "value": 1,
+        "detail": "Cabo Verde"
       },
       {
         "name": "Hwang In-beom",
@@ -16578,6 +16762,11 @@
         "detail": "Bosnia and Herzegovina"
       },
       {
+        "name": "Julián Álvarez",
+        "value": 1,
+        "detail": "Argentina"
+      },
+      {
         "name": "Julio Enciso",
         "value": 1,
         "detail": "Paraguay"
@@ -16626,11 +16815,6 @@
         "name": "Lamine Yamal",
         "value": 1,
         "detail": "Spain"
-      },
-      {
-        "name": "Lautaro Martínez",
-        "value": 1,
-        "detail": "Argentina"
       },
       {
         "name": "Leo Østigård",
@@ -16698,14 +16882,14 @@
         "detail": "Croatia"
       },
       {
-        "name": "Matías Galarza",
-        "value": 1,
-        "detail": "Paraguay"
-      },
-      {
         "name": "Mateo Chávez",
         "value": 1,
         "detail": "Mexico"
+      },
+      {
+        "name": "Matías Galarza",
+        "value": 1,
+        "detail": "Paraguay"
       },
       {
         "name": "Mattias Svanberg",
@@ -16962,12 +17146,12 @@
       {
         "name": "Emiliano Martínez",
         "value": 2,
-        "detail": "Argentina · 3 goals conceded in 4 appearances"
+        "detail": "Argentina · 4 goals conceded in 5 appearances"
       },
       {
         "name": "Gregor Kobel",
         "value": 2,
-        "detail": "Switzerland · 3 goals conceded in 5 appearances"
+        "detail": "Switzerland · 6 goals conceded in 6 appearances"
       },
       {
         "name": "Jordan Pickford",
@@ -17070,19 +17254,9 @@
         "detail": "Japan · 5 goals conceded in 4 appearances"
       },
       {
-        "name": "Ørjan Nyland",
-        "value": 0,
-        "detail": "Norway · 7 goals conceded in 5 appearances"
-      },
-      {
         "name": "Abduvohid Nematov",
         "value": 0,
         "detail": "Uzbekistan · 8 goals conceded in 2 appearances"
-      },
-      {
-        "name": "Édouard Mendy",
-        "value": 0,
-        "detail": "Senegal · 6 goals conceded in 2 appearances"
       },
       {
         "name": "Ahmed Basil",
@@ -17103,6 +17277,11 @@
         "name": "Bart Verbruggen",
         "value": 0,
         "detail": "Netherlands · 5 goals conceded in 4 appearances"
+      },
+      {
+        "name": "Édouard Mendy",
+        "value": 0,
+        "detail": "Senegal · 6 goals conceded in 2 appearances"
       },
       {
         "name": "Egil Selvik",
@@ -17200,6 +17379,11 @@
         "detail": "Bosnia and Herzegovina · 8 goals conceded in 4 appearances"
       },
       {
+        "name": "Ørjan Nyland",
+        "value": 0,
+        "detail": "Norway · 7 goals conceded in 5 appearances"
+      },
+      {
         "name": "Orlando Mosquera",
         "value": 0,
         "detail": "Panama · 4 goals conceded in 3 appearances"
@@ -17241,7 +17425,8 @@
       "Uruguay": 1,
       "Ecuador": 1,
       "Iran": 1,
-      "England": 1
+      "England": 1,
+      "Switzerland": 1
     },
     "yellowCards": {
       "South Africa": 7,
@@ -17251,7 +17436,7 @@
       "Paraguay": 10,
       "United States": 6,
       "Qatar": 4,
-      "Switzerland": 6,
+      "Switzerland": 7,
       "Brazil": 8,
       "Haiti": 5,
       "Scotland": 4,
@@ -17281,7 +17466,7 @@
       "Curaçao": 7,
       "Uruguay": 5,
       "New Zealand": 3,
-      "Argentina": 3,
+      "Argentina": 6,
       "Iraq": 1,
       "Algeria": 3,
       "Jordan": 2,
@@ -17356,6 +17541,11 @@
         "player": "Jarell Quansah",
         "team": "England",
         "match": "Mexico vs England"
+      },
+      {
+        "player": "Breel Embolo",
+        "team": "Switzerland",
+        "match": "Argentina vs Switzerland"
       }
     ],
     "yellowCardEvents": [
@@ -18465,6 +18655,26 @@
         "match": "Spain vs Belgium"
       },
       {
+        "player": "Thiago Almada",
+        "team": "Argentina",
+        "match": "Argentina vs Switzerland"
+      },
+      {
+        "player": "José Manuel López",
+        "team": "Argentina",
+        "match": "Argentina vs Switzerland"
+      },
+      {
+        "player": "Lautaro Martínez",
+        "team": "Argentina",
+        "match": "Argentina vs Switzerland"
+      },
+      {
+        "player": "Breel Embolo",
+        "team": "Switzerland",
+        "match": "Argentina vs Switzerland"
+      },
+      {
         "player": "Redouane Halhal",
         "team": "Morocco",
         "match": "Canada vs Morocco"
@@ -19245,44 +19455,25 @@
         "elapsed": 97
       },
       {
+        "match": "Norway vs England",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 120
+      },
+      {
+        "match": "Argentina vs Switzerland",
+        "redCards": 1,
+        "yellowCards": 4,
+        "penalties": 0,
+        "elapsed": 134
+      },
+      {
         "match": "Canada vs Morocco",
         "redCards": 0,
         "yellowCards": 8,
         "penalties": 0,
         "elapsed": 100
-      },
-      {
-        "match": "Norway vs England",
-        "redCards": 0,
-        "yellowCards": 1,
-        "penalties": 0,
-        "elapsed": 120,
-        "homeStats": {
-          "shots": 13,
-          "shotsOnTarget": 4,
-          "possession": 47.6,
-          "passes": 576,
-          "passAccuracy": 90,
-          "fouls": 10,
-          "yellowCards": 1,
-          "redCards": 0,
-          "offsides": 1,
-          "corners": 7,
-          "performance": 4
-        },
-        "awayStats": {
-          "shots": 14,
-          "shotsOnTarget": 8,
-          "possession": 52.4,
-          "passes": 628,
-          "passAccuracy": 90,
-          "fouls": 8,
-          "yellowCards": 0,
-          "redCards": 0,
-          "offsides": 5,
-          "corners": 4,
-          "performance": 4
-        }
       }
     ]
   },
@@ -19336,13 +19527,5 @@
     "Senegal": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Senegalese_Football_Federation_logo.svg/960px-Senegalese_Football_Federation_logo.svg.png",
     "Panama": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/Panamanian_Football_Federation_logo_2024.svg/960px-Panamanian_Football_Federation_logo_2024.svg.png",
     "Uruguay": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Uruguay_national_football_team_seal.svg/960px-Uruguay_national_football_team_seal.svg.png"
-  },
-  "featuredBadgeMatch": {
-    "home": "Argentina",
-    "away": "Switzerland",
-    "homeScore": 3,
-    "awayScore": 1,
-    "label": "Argentina vs Switzerland",
-    "updatedAt": "2026-07-12T03:42:25.311Z"
   }
 }
