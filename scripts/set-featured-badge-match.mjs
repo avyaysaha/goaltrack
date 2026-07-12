@@ -48,6 +48,44 @@ function editDistance(left, right) {
   return rows[left.length][right.length];
 }
 
+function matchKey(match) {
+  return `${normalize(match.home)}|${normalize(match.away)}`;
+}
+
+function sameFixture(match, home, away) {
+  return matchKey(match) === `${normalize(home)}|${normalize(away)}` ||
+    matchKey(match) === `${normalize(away)}|${normalize(home)}`;
+}
+
+function updateScheduleScore(fileData, home, away, homeScore, awayScore) {
+  if (homeScore === null) {
+    return;
+  }
+
+  const applyScore = function (match) {
+    const homeIsStoredHome = normalize(match.home) === normalize(home);
+    match.status = match.status === "FT" || match.status === "AET" || match.status === "PEN"
+      ? match.status
+      : "LIVE";
+    match.homeScore = homeIsStoredHome ? homeScore : awayScore;
+    match.awayScore = homeIsStoredHome ? awayScore : homeScore;
+    return match;
+  };
+
+  const scheduleMatch = (fileData.matches || []).find((match) => sameFixture(match, home, away));
+  if (scheduleMatch) {
+    applyScore(scheduleMatch);
+  }
+
+  fileData.matchUpdates ||= [];
+  const updateMatch = fileData.matchUpdates.find((match) => sameFixture(match, home, away));
+  if (updateMatch) {
+    applyScore(updateMatch);
+  } else if (scheduleMatch) {
+    fileData.matchUpdates.push({ ...scheduleMatch });
+  }
+}
+
 const data = JSON.parse(fs.readFileSync(jsonPaths[0], "utf8").replace(/^\uFEFF/, ""));
 const teamNames = Object.values(data.standings || {})
   .flat()
@@ -76,6 +114,7 @@ if ((homeScore === null) !== (awayScore === null)) {
 
 for (const jsonPath of jsonPaths) {
   const fileData = JSON.parse(fs.readFileSync(jsonPath, "utf8").replace(/^\uFEFF/, ""));
+  updateScheduleScore(fileData, home, away, homeScore, awayScore);
   fileData.featuredBadgeMatch = {
     home,
     away,

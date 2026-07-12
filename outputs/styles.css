@@ -342,8 +342,6 @@ a {
   position: relative;
   width: min(50vw, 470px);
   height: min(50vw, 470px);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   overflow: hidden;
   border: clamp(8px, 1.4vw, 16px) solid rgba(255, 255, 255, 0.24);
   border-radius: 22% 22% 44% 44%;
@@ -354,11 +352,21 @@ a {
 }
 
 .featured-badge-half {
+  position: absolute;
+  inset: 0;
   min-width: 0;
   height: 100%;
   display: grid;
   place-items: center;
   overflow: hidden;
+}
+
+.featured-badge-half-home {
+  clip-path: polygon(0 0, 63% 0, 37% 100%, 0 100%);
+}
+
+.featured-badge-half-away {
+  clip-path: polygon(63% 0, 100% 0, 100% 100%, 37% 100%);
 }
 
 .featured-badge-half img,
@@ -371,12 +379,12 @@ a {
 
 .featured-badge-half-home img,
 .featured-badge-half-home .shirt-crest-fallback {
-  transform: translateX(18%);
+  transform: translateX(-8%);
 }
 
 .featured-badge-half-away img,
 .featured-badge-half-away .shirt-crest-fallback {
-  transform: translateX(-18%);
+  transform: translateX(8%);
 }
 
 .featured-badge-half .shirt-crest-fallback {
@@ -391,9 +399,12 @@ a {
 
 .featured-badge-divider {
   position: absolute;
-  inset: 6% auto 6% 50%;
-  width: 2px;
-  transform: translateX(-50%);
+  top: 5%;
+  left: 50%;
+  width: 3px;
+  height: 90%;
+  transform: translateX(-50%) skewX(-14deg);
+  transform-origin: center;
   background: linear-gradient(transparent, rgba(255, 255, 255, 0.84), transparent);
   box-shadow: 0 0 22px rgba(255, 255, 255, 0.28);
 }
