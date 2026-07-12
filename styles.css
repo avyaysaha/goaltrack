@@ -273,6 +273,10 @@ a {
   pointer-events: none;
 }
 
+.badge-animation-stage.has-featured-badge-match {
+  z-index: 7;
+}
+
 .shirt-badge-background {
   position: absolute;
   inset: -14%;
@@ -330,11 +334,10 @@ a {
   position: absolute;
   inset: -10%;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: minmax(72px, 1fr) auto minmax(72px, 1fr);
   align-items: center;
   justify-content: center;
   gap: clamp(12px, 3vw, 46px);
-  opacity: 0.32;
   animation: featuredBadgeFadeIn 900ms ease-out both;
 }
 
@@ -342,6 +345,7 @@ a {
   position: relative;
   width: min(50vw, 470px);
   height: min(50vw, 470px);
+  opacity: 0.32;
   overflow: hidden;
   border: clamp(8px, 1.4vw, 16px) solid rgba(255, 255, 255, 0.24);
   border-radius: 22% 22% 44% 44%;
@@ -411,12 +415,22 @@ a {
 
 .featured-score,
 .featured-badge-vs {
-  color: rgba(255, 255, 255, 0.82);
+  position: relative;
+  z-index: 3;
+  color: rgba(255, 255, 255, 0.92);
   font-family: var(--display-font);
-  font-size: clamp(2.8rem, 8vw, 7rem);
+  font-size: clamp(2.4rem, 6vw, 6rem);
   font-weight: 900;
   letter-spacing: -0.08em;
-  text-shadow: 0 20px 45px rgba(0, 0, 0, 0.42);
+  text-shadow: 0 20px 45px rgba(0, 0, 0, 0.7);
+}
+
+.featured-score-home {
+  justify-self: end;
+}
+
+.featured-score-away {
+  justify-self: start;
 }
 
 .featured-score:empty {

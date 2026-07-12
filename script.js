@@ -402,6 +402,7 @@ function renderBadgeAnimation() {
 
   const featuredBadgeMatch = siteData.featuredBadgeMatch;
   if (featuredBadgeMatch?.home && featuredBadgeMatch?.away) {
+    badgeAnimationStage.classList.add("has-featured-badge-match");
     const homeTeam = findBundledTeam(featuredBadgeMatch.home) || { name: featuredBadgeMatch.home };
     const awayTeam = findBundledTeam(featuredBadgeMatch.away) || { name: featuredBadgeMatch.away };
     const homeName = cleanDisplayText(homeTeam.name);
@@ -431,6 +432,7 @@ function renderBadgeAnimation() {
     `;
     return;
   }
+  badgeAnimationStage.classList.remove("has-featured-badge-match");
 
   const renderTeamBadge = function (team) {
     const displayName = cleanDisplayText(team.name);
