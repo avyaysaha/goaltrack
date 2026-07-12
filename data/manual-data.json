@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T02:01:34.020Z",
+  "updatedAt": "2026-07-12T02:22:13.578Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -8480,7 +8480,10 @@
       "away": "Winner Match 96",
       "awayFlag": "W96",
       "location": "GEHA Field at Arrowhead Stadium · Kansas City",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "status": "LIVE",
+      "homeScore": 1,
+      "awayScore": 0
     },
     {
       "date": "Tuesday, July 14, 2026",
@@ -15964,6 +15967,22 @@
         "corners": 4,
         "performance": 4
       }
+    },
+    {
+      "date": "Saturday, July 11, 2026",
+      "stage": "Knockout",
+      "group": "Match 100 · Quarter-final",
+      "time": "8:00 PM local",
+      "kickoffISO": "2026-07-12T01:00:00Z",
+      "home": "Winner Match 95",
+      "homeFlag": "W95",
+      "away": "Winner Match 96",
+      "awayFlag": "W96",
+      "location": "GEHA Field at Arrowhead Stadium · Kansas City",
+      "venueTimeZone": "America/Chicago",
+      "status": "LIVE",
+      "homeScore": 1,
+      "awayScore": 0
     }
   ],
   "detailedStats": {
@@ -19324,6 +19343,6 @@
     "homeScore": 1,
     "awayScore": 0,
     "label": "Argentina vs Switzerland",
-    "updatedAt": "2026-07-12T02:01:34.016Z"
+    "updatedAt": "2026-07-12T02:22:13.576Z"
   }
 }

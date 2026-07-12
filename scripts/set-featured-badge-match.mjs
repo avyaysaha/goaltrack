@@ -57,13 +57,67 @@ function sameFixture(match, home, away) {
     matchKey(match) === `${normalize(away)}|${normalize(home)}`;
 }
 
+function getMatchNumber(match) {
+  const text = `${match.matchNumber || ""} ${match.group || ""}`;
+  const found = text.match(/match\s*(\d+)/i);
+  return found ? Number(found[1]) : Number(match.matchNumber) || null;
+}
+
+function getKnockoutResult(match, kind) {
+  if (!match || !["FT", "AET", "PEN"].includes(match.status)) {
+    return "";
+  }
+
+  if (match.shootoutWinner) {
+    if (kind === "winner") return match.shootoutWinner;
+    if (match.shootoutWinner === match.home) return match.away;
+    if (match.shootoutWinner === match.away) return match.home;
+    return "";
+  }
+
+  if (!Number.isInteger(match.homeScore) || !Number.isInteger(match.awayScore) || match.homeScore === match.awayScore) {
+    return "";
+  }
+
+  const homeWon = match.homeScore > match.awayScore;
+  return kind === "winner"
+    ? (homeWon ? match.home : match.away)
+    : (homeWon ? match.away : match.home);
+}
+
+function resolveBracketSlot(teamName, matchByNumber) {
+  const winner = String(teamName || "").match(/^Winner Match (\d+)$/i);
+  if (winner) {
+    return getKnockoutResult(matchByNumber.get(Number(winner[1])), "winner") || teamName;
+  }
+
+  const runnerUp = String(teamName || "").match(/^Runner-up Match (\d+)$/i);
+  if (runnerUp) {
+    return getKnockoutResult(matchByNumber.get(Number(runnerUp[1])), "runnerUp") || teamName;
+  }
+
+  return teamName;
+}
+
+function displayedFixture(match, matchByNumber) {
+  return {
+    home: resolveBracketSlot(match.home, matchByNumber),
+    away: resolveBracketSlot(match.away, matchByNumber)
+  };
+}
+
 function updateScheduleScore(fileData, home, away, homeScore, awayScore) {
   if (homeScore === null) {
     return;
   }
 
+  const matchByNumber = new Map((fileData.matches || [])
+    .map((match) => [getMatchNumber(match), match])
+    .filter(([number]) => Number.isInteger(number)));
+
   const applyScore = function (match) {
-    const homeIsStoredHome = normalize(match.home) === normalize(home);
+    const displayed = displayedFixture(match, matchByNumber);
+    const homeIsStoredHome = normalize(displayed.home) === normalize(home);
     match.status = match.status === "FT" || match.status === "AET" || match.status === "PEN"
       ? match.status
       : "LIVE";
@@ -72,13 +126,21 @@ function updateScheduleScore(fileData, home, away, homeScore, awayScore) {
     return match;
   };
 
-  const scheduleMatch = (fileData.matches || []).find((match) => sameFixture(match, home, away));
+  const scheduleMatch = (fileData.matches || []).find((match) => {
+    if (sameFixture(match, home, away)) return true;
+    const displayed = displayedFixture(match, matchByNumber);
+    return sameFixture(displayed, home, away);
+  });
   if (scheduleMatch) {
     applyScore(scheduleMatch);
   }
 
   fileData.matchUpdates ||= [];
-  const updateMatch = fileData.matchUpdates.find((match) => sameFixture(match, home, away));
+  const updateMatch = fileData.matchUpdates.find((match) => {
+    if (sameFixture(match, home, away)) return true;
+    const displayed = displayedFixture(match, matchByNumber);
+    return sameFixture(displayed, home, away);
+  });
   if (updateMatch) {
     applyScore(updateMatch);
   } else if (scheduleMatch) {
