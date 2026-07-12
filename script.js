@@ -424,15 +424,14 @@ function renderBadgeAnimation() {
           <div class="featured-badge-half featured-badge-half-away ${normalizeTeamName(awayName).includes("switzerland") ? "badge-needs-white-backdrop" : ""}" title="${escapeHtml(awayName)}">
             ${renderBadgeContent(awayTeam)}
           </div>
-          ${hasFeaturedScore ? "" : `<div class="featured-badge-vs">VS</div>`}
+          ${hasFeaturedScore ? `
+            <div class="featured-scoreboard">
+              <span>${escapeHtml(homeScoreText)}</span>
+              <span class="featured-score-dash">-</span>
+              <span>${escapeHtml(awayScoreText)}</span>
+            </div>
+          ` : `<div class="featured-badge-vs">VS</div>`}
         </div>
-        ${hasFeaturedScore ? `
-          <div class="featured-scoreboard">
-            <span>${escapeHtml(homeScoreText)}</span>
-            <span class="featured-score-dash">-</span>
-            <span>${escapeHtml(awayScoreText)}</span>
-          </div>
-        ` : ""}
       </div>
     `;
     return;
