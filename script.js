@@ -407,22 +407,26 @@ function renderBadgeAnimation() {
     const homeName = cleanDisplayText(homeTeam.name);
     const awayName = cleanDisplayText(awayTeam.name);
     const hasFeaturedScore = Number.isInteger(featuredBadgeMatch.homeScore) && Number.isInteger(featuredBadgeMatch.awayScore);
-    const featuredScoreText = hasFeaturedScore
-      ? `${featuredBadgeMatch.homeScore} - ${featuredBadgeMatch.awayScore}`
-      : "VS";
+    const homeScoreText = hasFeaturedScore ? String(featuredBadgeMatch.homeScore) : "";
+    const awayScoreText = hasFeaturedScore ? String(featuredBadgeMatch.awayScore) : "";
     const featuredLabel = hasFeaturedScore
       ? `${homeName} ${featuredBadgeMatch.homeScore}-${featuredBadgeMatch.awayScore} ${awayName}`
       : `${homeName} vs ${awayName}`;
     clearInterval(badgeAnimationTimer);
     badgeAnimationStage.innerHTML = `
       <div class="featured-badge-match" aria-label="${escapeHtml(featuredLabel)}">
-        <div class="featured-badge-side ${normalizeTeamName(homeName).includes("switzerland") ? "badge-needs-white-backdrop" : ""}" title="${escapeHtml(homeName)}">
-          ${renderBadgeContent(homeTeam)}
+        <div class="featured-score featured-score-home">${escapeHtml(homeScoreText)}</div>
+        <div class="featured-split-badge">
+          <div class="featured-badge-half featured-badge-half-home ${normalizeTeamName(homeName).includes("switzerland") ? "badge-needs-white-backdrop" : ""}" title="${escapeHtml(homeName)}">
+            ${renderBadgeContent(homeTeam)}
+          </div>
+          <div class="featured-badge-divider" aria-hidden="true"></div>
+          <div class="featured-badge-half featured-badge-half-away ${normalizeTeamName(awayName).includes("switzerland") ? "badge-needs-white-backdrop" : ""}" title="${escapeHtml(awayName)}">
+            ${renderBadgeContent(awayTeam)}
+          </div>
+          ${hasFeaturedScore ? "" : `<div class="featured-badge-vs">VS</div>`}
         </div>
-        <div class="featured-badge-score">${escapeHtml(featuredScoreText)}</div>
-        <div class="featured-badge-side ${normalizeTeamName(awayName).includes("switzerland") ? "badge-needs-white-backdrop" : ""}" title="${escapeHtml(awayName)}">
-          ${renderBadgeContent(awayTeam)}
-        </div>
+        <div class="featured-score featured-score-away">${escapeHtml(awayScoreText)}</div>
       </div>
     `;
     return;
