@@ -415,7 +415,7 @@ a {
 
 .featured-score,
 .featured-badge-vs {
-  position: relative;
+  position: absolute;
   z-index: 3;
   color: rgba(255, 255, 255, 0.92);
   font-family: var(--display-font);
@@ -426,11 +426,15 @@ a {
 }
 
 .featured-score-home {
-  justify-self: end;
+  left: clamp(18px, 6vw, 110px);
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .featured-score-away {
-  justify-self: start;
+  right: clamp(18px, 6vw, 110px);
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .featured-score:empty {
