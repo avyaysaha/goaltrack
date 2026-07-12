@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T03:34:02.426Z",
+  "updatedAt": "2026-07-12T03:42:25.324Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -8482,7 +8482,7 @@
       "location": "GEHA Field at Arrowhead Stadium · Kansas City",
       "venueTimeZone": "America/Chicago",
       "status": "LIVE",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 1
     },
     {
@@ -15981,7 +15981,7 @@
       "location": "GEHA Field at Arrowhead Stadium · Kansas City",
       "venueTimeZone": "America/Chicago",
       "status": "LIVE",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 1
     }
   ],
@@ -19340,9 +19340,9 @@
   "featuredBadgeMatch": {
     "home": "Argentina",
     "away": "Switzerland",
-    "homeScore": 2,
+    "homeScore": 3,
     "awayScore": 1,
     "label": "Argentina vs Switzerland",
-    "updatedAt": "2026-07-12T03:34:02.426Z"
+    "updatedAt": "2026-07-12T03:42:25.324Z"
   }
 }
