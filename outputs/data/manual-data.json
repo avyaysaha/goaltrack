@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T20:41:01.734Z",
+  "updatedAt": "2026-07-12T00:48:50.931Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -8404,15 +8404,70 @@
     {
       "date": "Saturday, July 11, 2026",
       "stage": "Knockout",
-      "group": "Match 99 Ãƒâ€šÃ‚Â· Quarter-final",
+      "group": "Match 99 · Quarter-final",
       "time": "5:00 PM local",
       "kickoffISO": "2026-07-11T21:00:00Z",
-      "home": "Winner Match 91",
-      "homeFlag": "W91",
-      "away": "Winner Match 92",
-      "awayFlag": "W92",
-      "location": "Hard Rock Stadium Ãƒâ€šÃ‚Â· Miami",
-      "venueTimeZone": "America/New_York"
+      "home": "Norway",
+      "homeFlag": "NOR",
+      "away": "England",
+      "awayFlag": "ENG",
+      "location": "Hard Rock Stadium · Miami",
+      "venueTimeZone": "America/New_York",
+      "homeSource": "Winner Match 91",
+      "awaySource": "Winner Match 92",
+      "status": "AET",
+      "elapsed": 120,
+      "homeScore": 1,
+      "awayScore": 2,
+      "shootoutWinner": null,
+      "scorers": [
+        {
+          "player": "Andreas Schjelderup",
+          "team": "Norway",
+          "match": "Norway vs England"
+        },
+        {
+          "player": "Jude Bellingham",
+          "team": "England",
+          "match": "Norway vs England"
+        },
+        {
+          "player": "Jude Bellingham",
+          "team": "England",
+          "match": "Norway vs England"
+        }
+      ],
+      "yellowCards": 1,
+      "redCards": 0,
+      "penalties": 0,
+      "homeKeeper": "Ørjan Nyland",
+      "awayKeeper": "Jordan Pickford",
+      "homeStats": {
+        "shots": 13,
+        "shotsOnTarget": 4,
+        "possession": 47.6,
+        "passes": 576,
+        "passAccuracy": 90,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 7,
+        "performance": 4
+      },
+      "awayStats": {
+        "shots": 14,
+        "shotsOnTarget": 8,
+        "possession": 52.4,
+        "passes": 628,
+        "passAccuracy": 90,
+        "fouls": 8,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 5,
+        "corners": 4,
+        "performance": 4
+      }
     },
     {
       "date": "Saturday, July 11, 2026",
@@ -15841,6 +15896,74 @@
         "offsides": 1,
         "corners": 1
       }
+    },
+    {
+      "date": "Saturday, July 11, 2026",
+      "stage": "Knockout",
+      "group": "Match 99 · Quarter-final",
+      "time": "5:00 PM local",
+      "kickoffISO": "2026-07-11T21:00:00Z",
+      "home": "Norway",
+      "homeFlag": "NOR",
+      "away": "England",
+      "awayFlag": "ENG",
+      "location": "Hard Rock Stadium · Miami",
+      "venueTimeZone": "America/New_York",
+      "homeSource": "Winner Match 91",
+      "awaySource": "Winner Match 92",
+      "status": "AET",
+      "elapsed": 120,
+      "homeScore": 1,
+      "awayScore": 2,
+      "shootoutWinner": null,
+      "scorers": [
+        {
+          "player": "Andreas Schjelderup",
+          "team": "Norway",
+          "match": "Norway vs England"
+        },
+        {
+          "player": "Jude Bellingham",
+          "team": "England",
+          "match": "Norway vs England"
+        },
+        {
+          "player": "Jude Bellingham",
+          "team": "England",
+          "match": "Norway vs England"
+        }
+      ],
+      "yellowCards": 1,
+      "redCards": 0,
+      "penalties": 0,
+      "homeKeeper": "Ørjan Nyland",
+      "awayKeeper": "Jordan Pickford",
+      "homeStats": {
+        "shots": 13,
+        "shotsOnTarget": 4,
+        "possession": 47.6,
+        "passes": 576,
+        "passAccuracy": 90,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": 0,
+        "offsides": 1,
+        "corners": 7,
+        "performance": 4
+      },
+      "awayStats": {
+        "shots": 14,
+        "shotsOnTarget": 8,
+        "possession": 52.4,
+        "passes": 628,
+        "passAccuracy": 90,
+        "fouls": 8,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 5,
+        "corners": 4,
+        "performance": 4
+      }
     }
   ],
   "detailedStats": {
@@ -15866,6 +15989,11 @@
         "detail": "England"
       },
       {
+        "name": "Jude Bellingham",
+        "value": 6,
+        "detail": "England"
+      },
+      {
         "name": "Ousmane DembÃƒÆ’Ã‚Â©lÃƒÆ’Ã‚Â©",
         "value": 5,
         "detail": "France"
@@ -15874,11 +16002,6 @@
         "name": "IsmaÃƒÆ’Ã‚Â¯la Sarr",
         "value": 4,
         "detail": "Senegal"
-      },
-      {
-        "name": "Jude Bellingham",
-        "value": 4,
-        "detail": "England"
       },
       {
         "name": "JuliÃƒÆ’Ã‚Â¡n QuiÃƒÆ’Ã‚Â±ones",
@@ -16116,14 +16239,24 @@
         "detail": "Morocco"
       },
       {
-        "name": "AgustÃƒÆ’Ã‚Â­n Canobbio",
-        "value": 1,
-        "detail": "Uruguay"
-      },
-      {
         "name": "ÃƒÆ’Ã‚Âlex Baena",
         "value": 1,
         "detail": "Spain"
+      },
+      {
+        "name": "ÃƒÆ’Ã‚Âlvaro Fidalgo",
+        "value": 1,
+        "detail": "Mexico"
+      },
+      {
+        "name": "ÃƒÆ’Ã‚Ângel Mena",
+        "value": 1,
+        "detail": "Ecuador"
+      },
+      {
+        "name": "AgustÃƒÆ’Ã‚Â­n Canobbio",
+        "value": 1,
+        "detail": "Uruguay"
       },
       {
         "name": "Alex Freeman",
@@ -16146,19 +16279,14 @@
         "detail": "Jordan"
       },
       {
-        "name": "ÃƒÆ’Ã‚Âlvaro Fidalgo",
-        "value": 1,
-        "detail": "Mexico"
-      },
-      {
         "name": "Amine Gouiri",
         "value": 1,
         "detail": "Algeria"
       },
       {
-        "name": "ÃƒÆ’Ã‚Ângel Mena",
+        "name": "Andreas Schjelderup",
         "value": 1,
-        "detail": "Ecuador"
+        "detail": "Norway"
       },
       {
         "name": "Ante Budimir",
@@ -16226,6 +16354,11 @@
         "detail": "Argentina"
       },
       {
+        "name": "DÃƒÆ’Ã‚Â©sirÃƒÆ’Ã‚Â© DouÃƒÆ’Ã‚Â©",
+        "value": 1,
+        "detail": "France"
+      },
+      {
         "name": "Daizen Maeda",
         "value": 1,
         "detail": "Japan"
@@ -16249,11 +16382,6 @@
         "name": "Derrick Luckassen",
         "value": 1,
         "detail": "Ghana"
-      },
-      {
-        "name": "DÃƒÆ’Ã‚Â©sirÃƒÆ’Ã‚Â© DouÃƒÆ’Ã‚Â©",
-        "value": 1,
-        "detail": "France"
       },
       {
         "name": "Diney Borges(OG)",
@@ -16341,6 +16469,11 @@
         "detail": "Switzerland"
       },
       {
+        "name": "HÃƒÆ’Ã‚Â©lio Varela",
+        "value": 1,
+        "detail": "Cabo Verde"
+      },
+      {
         "name": "Hans Vanaken",
         "value": 1,
         "detail": "Belgium"
@@ -16359,11 +16492,6 @@
         "name": "Hazem Mastouri",
         "value": 1,
         "detail": "Tunisia"
-      },
-      {
-        "name": "HÃƒÆ’Ã‚Â©lio Varela",
-        "value": 1,
-        "detail": "Cabo Verde"
       },
       {
         "name": "Hwang In-beom",
@@ -16551,14 +16679,14 @@
         "detail": "Croatia"
       },
       {
-        "name": "Mateo ChÃƒÆ’Ã‚Â¡vez",
-        "value": 1,
-        "detail": "Mexico"
-      },
-      {
         "name": "MatÃƒÆ’Ã‚Â­as Galarza",
         "value": 1,
         "detail": "Paraguay"
+      },
+      {
+        "name": "Mateo ChÃƒÆ’Ã‚Â¡vez",
+        "value": 1,
+        "detail": "Mexico"
       },
       {
         "name": "Mattias Svanberg",
@@ -16825,7 +16953,7 @@
       {
         "name": "Jordan Pickford",
         "value": 2,
-        "detail": "England Ãƒâ€šÃ‚Â· 5 goals conceded in 5 appearances"
+        "detail": "England · 6 goals conceded in 6 appearances"
       },
       {
         "name": "Matt Freese",
@@ -16923,9 +17051,19 @@
         "detail": "Japan Ãƒâ€šÃ‚Â· 5 goals conceded in 4 appearances"
       },
       {
+        "name": "Ørjan Nyland",
+        "value": 0,
+        "detail": "Norway · 7 goals conceded in 5 appearances"
+      },
+      {
         "name": "Abduvohid Nematov",
         "value": 0,
         "detail": "Uzbekistan Ãƒâ€šÃ‚Â· 8 goals conceded in 2 appearances"
+      },
+      {
+        "name": "ÃƒÆ’Ã¢â‚¬Â°douard Mendy",
+        "value": 0,
+        "detail": "Senegal Ãƒâ€šÃ‚Â· 6 goals conceded in 2 appearances"
       },
       {
         "name": "Ahmed Basil",
@@ -16946,11 +17084,6 @@
         "name": "Bart Verbruggen",
         "value": 0,
         "detail": "Netherlands Ãƒâ€šÃ‚Â· 5 goals conceded in 4 appearances"
-      },
-      {
-        "name": "ÃƒÆ’Ã¢â‚¬Â°douard Mendy",
-        "value": 0,
-        "detail": "Senegal Ãƒâ€šÃ‚Â· 6 goals conceded in 2 appearances"
       },
       {
         "name": "Egil Selvik",
@@ -17046,11 +17179,6 @@
         "name": "Nikola Vasilj",
         "value": 0,
         "detail": "Bosnia and Herzegovina Ãƒâ€šÃ‚Â· 8 goals conceded in 4 appearances"
-      },
-      {
-        "name": "ÃƒÆ’Ã‹Å“rjan Nyland",
-        "value": 0,
-        "detail": "Norway Ãƒâ€šÃ‚Â· 5 goals conceded in 4 appearances"
       },
       {
         "name": "Orlando Mosquera",
@@ -19103,6 +19231,39 @@
         "yellowCards": 8,
         "penalties": 0,
         "elapsed": 100
+      },
+      {
+        "match": "Norway vs England",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 120,
+        "homeStats": {
+          "shots": 13,
+          "shotsOnTarget": 4,
+          "possession": 47.6,
+          "passes": 576,
+          "passAccuracy": 90,
+          "fouls": 10,
+          "yellowCards": 1,
+          "redCards": 0,
+          "offsides": 1,
+          "corners": 7,
+          "performance": 4
+        },
+        "awayStats": {
+          "shots": 14,
+          "shotsOnTarget": 8,
+          "possession": 52.4,
+          "passes": 628,
+          "passAccuracy": 90,
+          "fouls": 8,
+          "yellowCards": 0,
+          "redCards": 0,
+          "offsides": 5,
+          "corners": 4,
+          "performance": 4
+        }
       }
     ]
   },
