@@ -1,0 +1,53 @@
+name: Set Featured Badge Match
+
+on:
+  workflow_dispatch:
+    inputs:
+      home_team:
+        description: "Home team badge to show"
+        required: true
+        type: string
+      away_team:
+        description: "Away team badge to show"
+        required: true
+        type: string
+      home_score:
+        description: "Optional home score to show between the badges"
+        required: false
+        type: string
+      away_score:
+        description: "Optional away score to show between the badges"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: featured-badge-match
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the website
+        uses: actions/checkout@v4
+
+      - name: Set featured badge match
+        env:
+          HOME_TEAM: ${{ inputs.home_team }}
+          AWAY_TEAM: ${{ inputs.away_team }}
+          HOME_SCORE: ${{ inputs.home_score }}
+          AWAY_SCORE: ${{ inputs.away_score }}
+        run: node scripts/set-featured-badge-match.mjs
+
+      - name: Publish the featured badge match
+        run: |
+          git config user.name "goaltrack-update"
+          git config user.email "actions@users.noreply.github.com"
+          git add outputs/data/manual-data.json data/manual-data.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Set featured badge match ${{ inputs.home_team }} vs ${{ inputs.away_team }}"
+          git pull --rebase origin main
+          git push

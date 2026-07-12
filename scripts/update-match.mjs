@@ -171,6 +171,7 @@ function buildTeamStats(side, previousStats = {}) {
 }
 
 const data = JSON.parse(fs.readFileSync(jsonPath, "utf8").replace(/^\uFEFF/, ""));
+delete data.featuredBadgeMatch;
 const home = resolveTeam(required("HOME_TEAM"));
 const away = resolveTeam(required("AWAY_TEAM"));
 if (home === away) throw new Error("Home and away teams must be different.");

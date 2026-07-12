@@ -387,26 +387,58 @@ function renderBadgeAnimation() {
     return matchingEntry ? matchingEntry[1] : "";
   };
 
-  const renderTeamBadge = function (team) {
-    const displayName = cleanDisplayText(team.name);
-    const code = getTeamCountryCode(team.name, team.flag || team.name.slice(0, 3).toUpperCase());
+  const renderBadgeContent = function (team) {
     const badgeUrl = getShirtBadgeUrl(team.name);
     const color = nationalColors[team.name] || "#1769e0";
-    const animationType = randomAnimationType();
-    const badgeContent = badgeUrl
+    const code = getTeamCountryCode(team.name, team.flag || team.name.slice(0, 3).toUpperCase());
+    return badgeUrl
       ? `<img src="${escapeHtml(badgeUrl)}" alt="">`
       : `
         <div class="shirt-crest-fallback" style="--badge-color:${color};">
           <span>${escapeHtml(code)}</span>
         </div>
       `;
+  };
+
+  const featuredBadgeMatch = siteData.featuredBadgeMatch;
+  if (featuredBadgeMatch?.home && featuredBadgeMatch?.away) {
+    const homeTeam = findBundledTeam(featuredBadgeMatch.home) || { name: featuredBadgeMatch.home };
+    const awayTeam = findBundledTeam(featuredBadgeMatch.away) || { name: featuredBadgeMatch.away };
+    const homeName = cleanDisplayText(homeTeam.name);
+    const awayName = cleanDisplayText(awayTeam.name);
+    const hasFeaturedScore = Number.isInteger(featuredBadgeMatch.homeScore) && Number.isInteger(featuredBadgeMatch.awayScore);
+    const featuredScoreText = hasFeaturedScore
+      ? `${featuredBadgeMatch.homeScore} - ${featuredBadgeMatch.awayScore}`
+      : "VS";
+    const featuredLabel = hasFeaturedScore
+      ? `${homeName} ${featuredBadgeMatch.homeScore}-${featuredBadgeMatch.awayScore} ${awayName}`
+      : `${homeName} vs ${awayName}`;
+    clearInterval(badgeAnimationTimer);
+    badgeAnimationStage.innerHTML = `
+      <div class="featured-badge-match" aria-label="${escapeHtml(featuredLabel)}">
+        <div class="featured-badge-side ${normalizeTeamName(homeName).includes("switzerland") ? "badge-needs-white-backdrop" : ""}" title="${escapeHtml(homeName)}">
+          ${renderBadgeContent(homeTeam)}
+        </div>
+        <div class="featured-badge-score">${escapeHtml(featuredScoreText)}</div>
+        <div class="featured-badge-side ${normalizeTeamName(awayName).includes("switzerland") ? "badge-needs-white-backdrop" : ""}" title="${escapeHtml(awayName)}">
+          ${renderBadgeContent(awayTeam)}
+        </div>
+      </div>
+    `;
+    return;
+  }
+
+  const renderTeamBadge = function (team) {
+    const displayName = cleanDisplayText(team.name);
+    const color = nationalColors[team.name] || "#1769e0";
+    const animationType = randomAnimationType();
 
     badgeAnimationStage.innerHTML = `
       <div
         class="shirt-badge-background badge-${animationType} ${normalizeTeamName(team.name).includes("switzerland") ? "badge-needs-white-backdrop" : ""}"
         style="--badge-color:${color};"
         title="${escapeHtml(displayName)}">
-        ${badgeContent}
+        ${renderBadgeContent(team)}
       </div>
     `;
   };

@@ -1,4 +1,4 @@
-/* ---------- 1. Basic setup and reusable colors ---------- */
+﻿/* ---------- 1. Basic setup and reusable colors ---------- */
 :root {
   --ink: #101c32;
   --red: #ed334e;
@@ -326,6 +326,46 @@ a {
   box-shadow: 0 24px 50px rgba(0, 0, 0, 0.32);
 }
 
+.featured-badge-match {
+  position: absolute;
+  inset: -10%;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(18px, 4vw, 54px);
+  opacity: 0.32;
+  animation: featuredBadgeFadeIn 900ms ease-out both;
+}
+
+.featured-badge-side {
+  min-width: 0;
+  display: grid;
+  place-items: center;
+}
+
+.featured-badge-side img,
+.featured-badge-side .shirt-crest-fallback {
+  width: min(34vw, 360px);
+  height: min(34vw, 360px);
+  object-fit: contain;
+  filter: drop-shadow(0 26px 50px rgba(0, 0, 0, 0.46));
+}
+
+.featured-badge-side.badge-needs-white-backdrop img {
+  padding: clamp(16px, 2.5vw, 30px);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.32);
+}
+
+.featured-badge-score {
+  color: rgba(255, 255, 255, 0.82);
+  font-family: var(--display-font);
+  font-size: clamp(2.8rem, 8vw, 7rem);
+  font-weight: 900;
+  letter-spacing: -0.08em;
+  text-shadow: 0 20px 45px rgba(0, 0, 0, 0.42);
+}
+
 .shirt-crest-fallback {
   width: min(46vw, 430px);
   height: min(46vw, 430px);
@@ -467,6 +507,17 @@ a {
     opacity: 0;
     transform: translate(0, 0) scale(1) rotate(0);
     filter: blur(0);
+  }
+}
+
+@keyframes featuredBadgeFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(1.08);
+  }
+  to {
+    opacity: 0.32;
+    transform: scale(1);
   }
 }
 
