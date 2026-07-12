@@ -345,8 +345,10 @@ a {
   position: relative;
   width: min(50vw, 470px);
   height: min(50vw, 470px);
-  opacity: 0.32;
+  opacity: 0.52;
   overflow: hidden;
+  display: grid;
+  place-items: center;
   border: clamp(8px, 1.4vw, 16px) solid rgba(255, 255, 255, 0.24);
   border-radius: 22% 22% 44% 44%;
   background: rgba(255, 255, 255, 0.07);
@@ -426,18 +428,16 @@ a {
 }
 
 .featured-scoreboard {
-  top: 50%;
+  top: clamp(20px, 6vw, 52px);
   left: 50%;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: clamp(8px, 1.6vw, 18px);
-  min-width: clamp(116px, 18vw, 210px);
-  padding: 6px 18px 10px;
-  transform: translate(-50%, -50%);
-  border-radius: 999px;
-  background: rgba(7, 17, 38, 0.76);
-  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.28);
+  padding: 0;
+  transform: translateX(-50%);
+  background: transparent;
+  box-shadow: none;
 }
 
 .featured-score-dash {
