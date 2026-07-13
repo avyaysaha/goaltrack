@@ -744,9 +744,9 @@ a {
   opacity: 1;
   border-color: var(--white);
   box-shadow:
-    0 0 0 5px color-mix(in srgb, var(--team-color) 22%, transparent),
-    0 0 18px var(--team-color),
-    0 0 34px color-mix(in srgb, var(--team-color) 70%, transparent);
+    0 0 0 3px color-mix(in srgb, var(--team-color) 14%, transparent),
+    0 0 12px color-mix(in srgb, var(--team-color) 70%, transparent),
+    0 0 22px color-mix(in srgb, var(--team-color) 45%, transparent);
   animation: featuredOrbitFade 5s ease-in-out both;
 }
 
@@ -755,14 +755,14 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: min(72vw, 660px);
-  height: min(72vw, 660px);
+  width: min(56vw, 500px);
+  height: min(56vw, 500px);
   pointer-events: none;
   background:
-    linear-gradient(90deg, transparent 0 4%, color-mix(in srgb, var(--team-color) 80%, white) 4.7% 5.2%, transparent 6.3% 47.8%, color-mix(in srgb, var(--team-color) 82%, white) 49.85% 50.15%, transparent 52.2% 93.7%, color-mix(in srgb, var(--team-color) 80%, white) 94.8% 95.3%, transparent 96% 100%),
-    linear-gradient(0deg, transparent 0 4%, color-mix(in srgb, var(--team-color) 80%, white) 4.7% 5.2%, transparent 6.3% 47.8%, color-mix(in srgb, var(--team-color) 82%, white) 49.85% 50.15%, transparent 52.2% 93.7%, color-mix(in srgb, var(--team-color) 80%, white) 94.8% 95.3%, transparent 96% 100%);
+    linear-gradient(90deg, transparent 0 8%, color-mix(in srgb, var(--team-color) 62%, white) 8.7% 9.1%, transparent 10.3% 48.4%, color-mix(in srgb, var(--team-color) 66%, white) 49.9% 50.1%, transparent 51.6% 89.7%, color-mix(in srgb, var(--team-color) 62%, white) 90.9% 91.3%, transparent 92% 100%),
+    linear-gradient(0deg, transparent 0 8%, color-mix(in srgb, var(--team-color) 62%, white) 8.7% 9.1%, transparent 10.3% 48.4%, color-mix(in srgb, var(--team-color) 66%, white) 49.9% 50.1%, transparent 51.6% 89.7%, color-mix(in srgb, var(--team-color) 62%, white) 90.9% 91.3%, transparent 92% 100%);
   clip-path: polygon(50% 0, 51.4% 4%, 50.2% 46%, 96% 48.6%, 100% 50%, 96% 51.4%, 50.2% 54%, 51.4% 96%, 50% 100%, 48.6% 96%, 49.8% 54%, 4% 51.4%, 0 50%, 4% 48.6%, 49.8% 46%, 48.6% 4%);
-  filter: drop-shadow(0 0 7px var(--team-color));
+  filter: drop-shadow(0 0 4px color-mix(in srgb, var(--team-color) 65%, transparent));
   opacity: 0;
   transform: translate(-50%, -50%);
   animation: featuredOrbitFade 5s ease-in-out both;
@@ -800,7 +800,7 @@ a {
   }
 
   18%, 78% {
-    opacity: 1;
+    opacity: 0.48;
   }
 
   100% {
