@@ -339,6 +339,7 @@ function renderTeamOrbit() {
           --team-color: ${color};
         "
         data-label="${labelText}"
+        data-team="${escapeHtml(entry.name)}"
         aria-label="${ariaLabel}">
       </button>
     `;
@@ -367,6 +368,21 @@ function positionTeamOrbitDots() {
     );
     dot.style.setProperty("--dot-x", `${Math.cos(angle) * radius}px`);
     dot.style.setProperty("--dot-y", `${Math.sin(angle) * radius}px`);
+  });
+}
+
+function highlightOrbitTeams(teamNames = []) {
+  if (!teamOrbitDots) {
+    return;
+  }
+
+  const highlightedTeams = new Set(teamNames.map(function (teamName) {
+    return normalizeTeamName(cleanDisplayText(teamName));
+  }));
+
+  teamOrbitDots.querySelectorAll(".team-orbit-dot").forEach(function (dot) {
+    const dotTeam = normalizeTeamName(cleanDisplayText(dot.dataset.team || ""));
+    dot.classList.toggle("is-featured", highlightedTeams.has(dotTeam));
   });
 }
 
@@ -431,6 +447,7 @@ function renderBadgeAnimation() {
     const featuredLabel = hasFeaturedScore
       ? `${homeName} ${featuredBadgeMatch.homeScore}-${featuredBadgeMatch.awayScore} ${awayName}`
       : `${homeName} vs ${awayName}`;
+    highlightOrbitTeams([homeName, awayName]);
     clearInterval(badgeAnimationTimer);
     badgeAnimationStage.innerHTML = `
       <div class="featured-badge-match" aria-label="${escapeHtml(featuredLabel)}">
@@ -460,6 +477,7 @@ function renderBadgeAnimation() {
     const displayName = cleanDisplayText(team.name);
     const color = nationalColors[team.name] || "#1769e0";
     const animationType = randomAnimationType();
+    highlightOrbitTeams([team.name]);
 
     badgeAnimationStage.innerHTML = `
       <div

@@ -737,6 +737,24 @@ a {
   opacity: 0.72;
 }
 
+.team-orbit-dot.is-featured {
+  z-index: 9;
+  width: 18px;
+  height: 18px;
+  opacity: 1;
+  border-color: var(--white);
+  box-shadow:
+    0 0 0 7px color-mix(in srgb, var(--team-color) 26%, transparent),
+    0 0 24px var(--team-color),
+    0 0 44px color-mix(in srgb, var(--team-color) 70%, transparent);
+  animation: featuredOrbitGlow 1.3s ease-in-out infinite alternate;
+}
+
+.team-orbit-dot.is-featured::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
 .team-orbit-dot::after {
   position: absolute;
   bottom: calc(100% + 8px);
@@ -761,6 +779,16 @@ a {
 .team-orbit-dot:focus-visible::after {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
+}
+
+@keyframes featuredOrbitGlow {
+  from {
+    filter: brightness(1);
+  }
+
+  to {
+    filter: brightness(1.4);
+  }
 }
 
 .country-chip {
