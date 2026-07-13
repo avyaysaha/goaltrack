@@ -151,6 +151,14 @@ const teamOrbitDots = document.querySelector("#team-orbit-dots");
 const badgeAnimationStage = document.querySelector("#badge-animation-stage");
 let badgeAnimationTimer = null;
 
+function compareStandingRows(a, b) {
+  return b.points - a.points ||
+    b.gd - a.gd ||
+    b.won - a.won ||
+    Number(a.fifaRank) - Number(b.fifaRank) ||
+    a.name.localeCompare(b.name, "en", { sensitivity: "base" });
+}
+
 function getGroupStageSurvivorNames() {
   const groupEntries = Object.entries(standingsData);
   const groupsAreComplete = groupEntries.length > 0 && groupEntries.every(function ([, teams]) {
@@ -177,19 +185,29 @@ function getGroupStageSurvivorNames() {
   });
 
   thirdPlaceTeams
-    .sort(function (a, b) {
-      return b.points - a.points ||
-        b.gd - a.gd ||
-        b.won - a.won ||
-        Number(a.fifaRank) - Number(b.fifaRank) ||
-        a.name.localeCompare(b.name, "en", { sensitivity: "base" });
-    })
+    .sort(compareStandingRows)
     .slice(0, 8)
     .forEach(function (team) {
       survivorNames.add(team.name);
     });
 
   return survivorNames;
+}
+
+function getCurrentThirdPlaceAdvancers() {
+  const thirdPlaceTeams = Object.entries(standingsData)
+    .map(function ([group, teams]) {
+      return teams[2] ? { ...teams[2], group } : null;
+    })
+    .filter(function (team) {
+      return team && team.played > 0;
+    })
+    .sort(compareStandingRows)
+    .slice(0, 8);
+
+  return new Set(thirdPlaceTeams.map(function (team) {
+    return team.name;
+  }));
 }
 
 function getTournamentRecord(teamName) {
@@ -472,6 +490,7 @@ function showGroup(groupLetter) {
     return;
   }
 
+  const thirdPlaceAdvancers = getCurrentThirdPlaceAdvancers();
   // map() changes every team object into a string of HTML.
   standingsBody.innerHTML = standingsData[groupLetter].map(function (team, index) {
     const position = index + 1;
@@ -482,7 +501,9 @@ function showGroup(groupLetter) {
     });
     let rowClass = "";
     if (hasResults && position <= 2) rowClass = "advances";
-    if (hasResults && position === 3) rowClass = "third";
+    if (hasResults && position === 3) {
+      rowClass = thirdPlaceAdvancers.has(team.name) ? "advances" : "third";
+    }
     const goalDifference = team.gd > 0 ? `+${team.gd}` : team.gd;
 
     return `
