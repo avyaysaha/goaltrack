@@ -261,9 +261,16 @@ function findTeamEntryByName(teamName) {
 }
 
 function recalculateOrbitProgressFromMatches() {
+  const knockoutRecords = new Map();
+
   Object.values(standingsData).flat().forEach(function (team) {
     team.stageProgress = 0;
     team.eliminated = false;
+    knockoutRecords.set(normalizeTeamName(team.name), {
+      team,
+      deepestWinProgress: 0,
+      deepestLossProgress: 0
+    });
   });
 
   (siteData.matches || []).forEach(function (match) {
@@ -278,17 +285,21 @@ function recalculateOrbitProgressFromMatches() {
 
     const winnerName = getKnockoutResult(match, "winner");
     const loserName = getKnockoutResult(match, "runner-up");
-    const winner = findTeamEntryByName(winnerName);
-    const loser = findTeamEntryByName(loserName);
+    const winnerRecord = knockoutRecords.get(normalizeTeamName(winnerName));
+    const loserRecord = knockoutRecords.get(normalizeTeamName(loserName));
 
-    if (winner) {
-      winner.stageProgress = Math.max(winner.stageProgress || 0, stageLevel + 1);
-      winner.eliminated = false;
+    if (winnerRecord) {
+      winnerRecord.deepestWinProgress = Math.max(winnerRecord.deepestWinProgress, stageLevel + 1);
     }
-    if (loser) {
-      loser.stageProgress = Math.max(loser.stageProgress || 0, stageLevel);
-      loser.eliminated = true;
+    if (loserRecord) {
+      loserRecord.deepestLossProgress = Math.max(loserRecord.deepestLossProgress, stageLevel);
     }
+  });
+
+  knockoutRecords.forEach(function (record) {
+    record.team.stageProgress = Math.max(record.deepestWinProgress, record.deepestLossProgress);
+    record.team.eliminated = record.deepestLossProgress > 0 &&
+      record.deepestLossProgress >= record.deepestWinProgress;
   });
 }
 
