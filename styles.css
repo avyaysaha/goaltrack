@@ -1397,7 +1397,8 @@ a.feature-card:hover {
 }
 
 .qualified { background: var(--green); }
-.third-place { background: #f0b429; }
+.third-place-qualified { background: var(--green); }
+.third-place { background: #d4d8d5; }
 .eliminated { background: #d4d8d5; }
 
 .group-tabs {
@@ -1536,6 +1537,10 @@ tbody tr:hover {
 }
 
 .advances .position::before {
+  background: var(--green);
+}
+
+.third-advances .position::before {
   background: var(--green);
 }
 

@@ -520,7 +520,7 @@ function showGroup(groupLetter) {
     let rowClass = "";
     if (hasResults && position <= 2) rowClass = "advances";
     if (hasResults && position === 3) {
-      rowClass = thirdPlaceAdvancers.has(team.name) ? "advances" : "third";
+      rowClass = thirdPlaceAdvancers.has(team.name) ? "third-advances" : "";
     }
     const goalDifference = team.gd > 0 ? `+${team.gd}` : team.gd;
 
