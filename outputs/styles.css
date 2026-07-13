@@ -744,10 +744,27 @@ a {
   opacity: 1;
   border-color: var(--white);
   box-shadow:
-    0 0 0 7px color-mix(in srgb, var(--team-color) 26%, transparent),
-    0 0 24px var(--team-color),
-    0 0 44px color-mix(in srgb, var(--team-color) 70%, transparent);
+    0 0 0 5px color-mix(in srgb, var(--team-color) 22%, transparent),
+    0 0 18px var(--team-color),
+    0 0 34px color-mix(in srgb, var(--team-color) 70%, transparent);
   animation: featuredOrbitGlow 1.3s ease-in-out infinite alternate;
+}
+
+.team-orbit-dot.is-featured::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: min(78vw, 720px);
+  height: min(78vw, 720px);
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, transparent 0 47%, color-mix(in srgb, var(--team-color) 75%, white) 49.5% 50.5%, transparent 53% 100%),
+    linear-gradient(0deg, transparent 0 47%, color-mix(in srgb, var(--team-color) 75%, white) 49.5% 50.5%, transparent 53% 100%);
+  filter: drop-shadow(0 0 10px var(--team-color));
+  opacity: 0.74;
+  transform: translate(-50%, -50%);
+  animation: featuredOrbitStar 1.3s ease-in-out infinite alternate;
 }
 
 .team-orbit-dot::after {
@@ -783,6 +800,18 @@ a {
 
   to {
     filter: brightness(1.4);
+  }
+}
+
+@keyframes featuredOrbitStar {
+  from {
+    opacity: 0.45;
+    transform: translate(-50%, -50%) scale(0.96);
+  }
+
+  to {
+    opacity: 0.82;
+    transform: translate(-50%, -50%) scale(1.04);
   }
 }
 
