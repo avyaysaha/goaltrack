@@ -747,7 +747,7 @@ a {
     0 0 0 5px color-mix(in srgb, var(--team-color) 22%, transparent),
     0 0 18px var(--team-color),
     0 0 34px color-mix(in srgb, var(--team-color) 70%, transparent);
-  animation: featuredOrbitGlow 1.3s ease-in-out infinite alternate;
+  animation: featuredOrbitFade 5s ease-in-out both;
 }
 
 .team-orbit-dot.is-featured::before {
@@ -755,16 +755,17 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: min(78vw, 720px);
-  height: min(78vw, 720px);
+  width: min(72vw, 660px);
+  height: min(72vw, 660px);
   pointer-events: none;
   background:
-    linear-gradient(90deg, transparent 0 47%, color-mix(in srgb, var(--team-color) 75%, white) 49.5% 50.5%, transparent 53% 100%),
-    linear-gradient(0deg, transparent 0 47%, color-mix(in srgb, var(--team-color) 75%, white) 49.5% 50.5%, transparent 53% 100%);
-  filter: drop-shadow(0 0 10px var(--team-color));
-  opacity: 0.74;
+    linear-gradient(90deg, transparent 0 4%, color-mix(in srgb, var(--team-color) 80%, white) 4.7% 5.2%, transparent 6.3% 47.8%, color-mix(in srgb, var(--team-color) 82%, white) 49.85% 50.15%, transparent 52.2% 93.7%, color-mix(in srgb, var(--team-color) 80%, white) 94.8% 95.3%, transparent 96% 100%),
+    linear-gradient(0deg, transparent 0 4%, color-mix(in srgb, var(--team-color) 80%, white) 4.7% 5.2%, transparent 6.3% 47.8%, color-mix(in srgb, var(--team-color) 82%, white) 49.85% 50.15%, transparent 52.2% 93.7%, color-mix(in srgb, var(--team-color) 80%, white) 94.8% 95.3%, transparent 96% 100%);
+  clip-path: polygon(50% 0, 51.4% 4%, 50.2% 46%, 96% 48.6%, 100% 50%, 96% 51.4%, 50.2% 54%, 51.4% 96%, 50% 100%, 48.6% 96%, 49.8% 54%, 4% 51.4%, 0 50%, 4% 48.6%, 49.8% 46%, 48.6% 4%);
+  filter: drop-shadow(0 0 7px var(--team-color));
+  opacity: 0;
   transform: translate(-50%, -50%);
-  animation: featuredOrbitStar 1.3s ease-in-out infinite alternate;
+  animation: featuredOrbitFade 5s ease-in-out both;
 }
 
 .team-orbit-dot::after {
@@ -793,25 +794,17 @@ a {
   transform: translateX(-50%) translateY(0);
 }
 
-@keyframes featuredOrbitGlow {
-  from {
-    filter: brightness(1);
+@keyframes featuredOrbitFade {
+  0% {
+    opacity: 0;
   }
 
-  to {
-    filter: brightness(1.4);
-  }
-}
-
-@keyframes featuredOrbitStar {
-  from {
-    opacity: 0.45;
-    transform: translate(-50%, -50%) scale(0.96);
+  18%, 78% {
+    opacity: 1;
   }
 
-  to {
-    opacity: 0.82;
-    transform: translate(-50%, -50%) scale(1.04);
+  100% {
+    opacity: 0;
   }
 }
 
