@@ -6,7 +6,7 @@
   <meta name="description" content="A beginner-friendly FIFA World Cup tracker made with HTML, CSS, and JavaScript.">
   <title>GoalTrack | World Cup Tracker</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=orbit-star-soft">
+  <link rel="stylesheet" href="styles.css?v=overview-countdown-box">
 </head>
 <body>
   <!-- The header is shared across all three pages so navigation feels consistent. -->
@@ -89,11 +89,13 @@
           <span>Last match played</span>
           <strong id="overview-last-match">Loading...</strong>
           <p id="overview-last-detail">Checking completed matches.</p>
+          <p id="overview-last-countdown" class="overview-match-countdown"><span>KICKOFF COUNTDOWN</span><strong>--</strong></p>
         </article>
 
         <article class="overview-match-card">
           <span>Next match coming up</span>
           <strong id="overview-next-match">France vs Morocco</strong>
+          <p id="overview-next-countdown" class="overview-match-countdown"><span>KICKOFF COUNTDOWN</span><strong>--</strong></p>
           <p id="overview-next-detail">Thursday, July 9, 2026 · 4:00 PM · Gillette Stadium · Boston</p>
         </article>
       </div>
@@ -180,6 +182,6 @@
       <button type="submit">Send</button>
     </form>
   </aside>
-  <script src="data-loader.js"></script>
+  <script src="data-loader.js?v=overview-countdown-box"></script>
 </body>
 </html>

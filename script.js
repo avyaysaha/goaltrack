@@ -2714,12 +2714,16 @@ renderStatsDashboard();
 const overviewSection = document.querySelector("#tournament-overview");
 const overviewLastMatch = document.querySelector("#overview-last-match");
 const overviewLastDetail = document.querySelector("#overview-last-detail");
+const overviewLastCountdown = document.querySelector("#overview-last-countdown");
 const overviewNextMatch = document.querySelector("#overview-next-match");
 const overviewNextDetail = document.querySelector("#overview-next-detail");
+const overviewNextCountdown = document.querySelector("#overview-next-countdown");
 const overviewTotals = document.querySelector("#overview-totals");
 const overviewScorerTitle = document.querySelector("#overview-scorer-title");
 const overviewTeamTitle = document.querySelector("#overview-team-title");
 const overviewKeeperTitle = document.querySelector("#overview-keeper-title");
+let overviewLastCountdownMatch = null;
+let overviewNextCountdownMatch = null;
 
 function getMatchTimestamp(match) {
   const kickoff = match.kickoffISO
@@ -2781,6 +2785,41 @@ function formatOverviewDetail(match) {
   const dateTime = getMatchDateTime(match);
   const venue = cleanMatchLocation(match.location);
   return cleanDisplayText([dateTime.date, dateTime.time, venue].filter(Boolean).join(" · "));
+}
+
+function formatSignedOverviewCountdown(match) {
+  if (!match) {
+    return "<span>KICKOFF COUNTDOWN</span><strong>--</strong>";
+  }
+
+  const timestamp = getMatchTimestamp(match);
+  if (!Number.isFinite(timestamp) || timestamp === Number.MAX_SAFE_INTEGER) {
+    return "<span>KICKOFF COUNTDOWN</span><strong>--</strong>";
+  }
+
+  const difference = timestamp - Date.now();
+  const sign = difference < 0 ? "-" : "";
+  let remainingSeconds = Math.floor(Math.abs(difference) / 1000);
+  const days = Math.floor(remainingSeconds / 86400);
+  remainingSeconds %= 86400;
+  const hours = Math.floor(remainingSeconds / 3600);
+  remainingSeconds %= 3600;
+  const minutes = Math.floor(remainingSeconds / 60);
+  const seconds = remainingSeconds % 60;
+  const padded = [hours, minutes, seconds].map(function (value) {
+    return String(value).padStart(2, "0");
+  });
+
+  return `<span>KICKOFF COUNTDOWN</span><strong>${sign}${days}D ${padded[0]}H ${padded[1]}M ${padded[2]}S</strong>`;
+}
+
+function updateOverviewCountdowns() {
+  if (overviewLastCountdown) {
+    overviewLastCountdown.innerHTML = formatSignedOverviewCountdown(overviewLastCountdownMatch);
+  }
+  if (overviewNextCountdown) {
+    overviewNextCountdown.innerHTML = formatSignedOverviewCountdown(overviewNextCountdownMatch);
+  }
 }
 
 function countMatchEvents(match, statsRecord, eventName, recordKey) {
@@ -2945,11 +2984,14 @@ function renderTournamentOverview() {
   const completedMatches = getCompletedMatches();
   const lastMatch = getOverviewMatchDisplay(completedMatches[completedMatches.length - 1]);
   const nextMatch = getOverviewMatchDisplay(getUpcomingMatches()[0]);
+  overviewLastCountdownMatch = lastMatch;
+  overviewNextCountdownMatch = nextMatch;
 
   overviewLastMatch.textContent = formatOverviewMatch(lastMatch);
   overviewLastDetail.textContent = formatOverviewDetail(lastMatch);
   overviewNextMatch.textContent = formatOverviewMatch(nextMatch);
   overviewNextDetail.textContent = formatOverviewDetail(nextMatch);
+  updateOverviewCountdowns();
 
   let totals;
   try {
@@ -3013,6 +3055,7 @@ function renderTournamentOverview() {
 }
 
 renderTournamentOverview();
+setInterval(updateOverviewCountdowns, 1000);
 
 // ---------- 7. GoalTrack site-data assistant ----------
 const chatToggle = document.querySelector("#chat-toggle");
