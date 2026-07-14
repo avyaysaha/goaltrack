@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T20:21:44.183Z",
+  "updatedAt": "2026-07-14T21:38:24.412Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -527,7 +527,8 @@
         "drawn": 0,
         "lost": 0,
         "gd": 8,
-        "points": 9
+        "points": 9,
+        "eliminated": true
       },
       {
         "name": "Norway",
@@ -8572,15 +8573,73 @@
       "group": "Match 101 · Semi-final",
       "time": "2:00 PM local",
       "kickoffISO": "2026-07-14T19:00:00Z",
-      "home": "Winner Match 97",
-      "homeFlag": "W97",
-      "away": "Winner Match 98",
-      "awayFlag": "W98",
+      "home": "France",
+      "homeFlag": "FRA",
+      "away": "Spain",
+      "awayFlag": "ESP",
       "location": "AT&T Stadium · Dallas",
       "venueTimeZone": "America/Chicago",
-      "status": "LIVE",
+      "status": "FT",
       "homeScore": 0,
-      "awayScore": 2
+      "awayScore": 2,
+      "homeSource": "Winner Match 97",
+      "awaySource": "Winner Match 98",
+      "elapsed": 103,
+      "scorers": [
+        {
+          "player": "Mikel Oyarzabal",
+          "team": "Spain",
+          "match": "France vs Spain"
+        },
+        {
+          "player": "Pedro Porro",
+          "team": "Spain",
+          "match": "France vs Spain"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Adrien Rabiot",
+          "team": "France",
+          "match": "France vs Spain"
+        },
+        {
+          "player": "Marc Cucurella",
+          "team": "Spain",
+          "match": "France vs Spain"
+        },
+        {
+          "player": "Kylian Mbappé",
+          "team": "France",
+          "match": "France vs Spain"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Mike Maignan",
+      "awayKeeper": "Unai Simón",
+      "homeStats": {
+        "shots": 10,
+        "shotsOnTarget": 3,
+        "possession": 49,
+        "passes": 472,
+        "passAccuracy": 84,
+        "performance": 1.75,
+        "fouls": 11,
+        "offsides": 4,
+        "corners": 7
+      },
+      "awayStats": {
+        "shots": 10,
+        "shotsOnTarget": 2,
+        "possession": 51,
+        "passes": 500,
+        "passAccuracy": 86,
+        "performance": 3.5,
+        "fouls": 12,
+        "offsides": 5,
+        "corners": 1
+      }
     },
     {
       "date": "Wednesday, July 15, 2026",
@@ -16176,6 +16235,78 @@
       "status": "LIVE",
       "homeScore": 0,
       "awayScore": 2
+    },
+    {
+      "date": "Tuesday, July 14, 2026",
+      "stage": "Knockout",
+      "group": "Match 101 · Semi-final",
+      "time": "2:00 PM local",
+      "home": "France",
+      "homeFlag": "FRA",
+      "away": "Spain",
+      "awayFlag": "ESP",
+      "homeSource": "Winner Match 97",
+      "awaySource": "Winner Match 98",
+      "location": "AT&T Stadium · Dallas",
+      "status": "FT",
+      "elapsed": 103,
+      "homeScore": 0,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Mikel Oyarzabal",
+          "team": "Spain",
+          "match": "France vs Spain"
+        },
+        {
+          "player": "Pedro Porro",
+          "team": "Spain",
+          "match": "France vs Spain"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Adrien Rabiot",
+          "team": "France",
+          "match": "France vs Spain"
+        },
+        {
+          "player": "Marc Cucurella",
+          "team": "Spain",
+          "match": "France vs Spain"
+        },
+        {
+          "player": "Kylian Mbappé",
+          "team": "France",
+          "match": "France vs Spain"
+        }
+      ],
+      "redCards": [],
+      "penalties": 1,
+      "homeKeeper": "Mike Maignan",
+      "awayKeeper": "Unai Simón",
+      "homeStats": {
+        "shots": 10,
+        "shotsOnTarget": 3,
+        "possession": 49,
+        "passes": 472,
+        "passAccuracy": 84,
+        "performance": 1.75,
+        "fouls": 11,
+        "offsides": 4,
+        "corners": 7
+      },
+      "awayStats": {
+        "shots": 10,
+        "shotsOnTarget": 2,
+        "possession": 51,
+        "passes": 500,
+        "passAccuracy": 86,
+        "performance": 3.5,
+        "fouls": 12,
+        "offsides": 5,
+        "corners": 1
+      }
     }
   ],
   "detailedStats": {
@@ -16206,6 +16337,11 @@
         "detail": "England"
       },
       {
+        "name": "Mikel Oyarzabal",
+        "value": 5,
+        "detail": "Spain"
+      },
+      {
         "name": "Ousmane Dembélé",
         "value": 5,
         "detail": "France"
@@ -16219,11 +16355,6 @@
         "name": "Julián Quiñones",
         "value": 4,
         "detail": "Mexico"
-      },
-      {
-        "name": "Mikel Oyarzabal",
-        "value": 4,
-        "detail": "Spain"
       },
       {
         "name": "Vinícius Júnior",
@@ -16409,6 +16540,11 @@
         "name": "Pape Gueye",
         "value": 2,
         "detail": "Senegal"
+      },
+      {
+        "name": "Pedro Porro",
+        "value": 2,
+        "detail": "Spain"
       },
       {
         "name": "Ramin Rezaeian",
@@ -17021,11 +17157,6 @@
         "detail": "Tunisia"
       },
       {
-        "name": "Pedro Porro",
-        "value": 1,
-        "detail": "Spain"
-      },
-      {
         "name": "Petar Musa",
         "value": 1,
         "detail": "Croatia"
@@ -17134,8 +17265,8 @@
     "keepers": [
       {
         "name": "Unai Simón",
-        "value": 5,
-        "detail": "Spain · 1 goals conceded in 6 appearances"
+        "value": 6,
+        "detail": "Spain · 1 goals conceded in 7 appearances"
       },
       {
         "name": "Camilo Vargas",
@@ -17145,7 +17276,7 @@
       {
         "name": "Mike Maignan",
         "value": 4,
-        "detail": "France · 2 goals conceded in 6 appearances"
+        "detail": "France · 4 goals conceded in 7 appearances"
       },
       {
         "name": "Raúl Rangel",
@@ -17464,7 +17595,7 @@
       "Cote d'Ivoire": 5,
       "Ecuador": 3,
       "Tunisia": 1,
-      "Spain": 5,
+      "Spain": 6,
       "Cabo Verde": 5,
       "Egypt": 12,
       "Belgium": 9,
@@ -17493,7 +17624,8 @@
       "Croatia": 3,
       "Norway": 2,
       "Japan": 3,
-      "Senegal": 2
+      "Senegal": 2,
+      "France": 2
     },
     "redCardEvents": [
       {
@@ -18694,6 +18826,21 @@
         "match": "Argentina vs Switzerland"
       },
       {
+        "player": "Adrien Rabiot",
+        "team": "France",
+        "match": "France vs Spain"
+      },
+      {
+        "player": "Marc Cucurella",
+        "team": "Spain",
+        "match": "France vs Spain"
+      },
+      {
+        "player": "Kylian Mbappé",
+        "team": "France",
+        "match": "France vs Spain"
+      },
+      {
         "player": "Redouane Halhal",
         "team": "Morocco",
         "match": "Canada vs Morocco"
@@ -18791,6 +18938,9 @@
       },
       {
         "match": "France vs Morocco"
+      },
+      {
+        "match": "France vs Spain"
       }
     ],
     "matchStats": [
@@ -19488,6 +19638,13 @@
         "elapsed": 134
       },
       {
+        "match": "France vs Spain",
+        "redCards": 0,
+        "yellowCards": 3,
+        "penalties": 1,
+        "elapsed": 103
+      },
+      {
         "match": "Canada vs Morocco",
         "redCards": 0,
         "yellowCards": 8,
@@ -19546,13 +19703,5 @@
     "Senegal": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Senegalese_Football_Federation_logo.svg/960px-Senegalese_Football_Federation_logo.svg.png",
     "Panama": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/Panamanian_Football_Federation_logo_2024.svg/960px-Panamanian_Football_Federation_logo_2024.svg.png",
     "Uruguay": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Uruguay_national_football_team_seal.svg/960px-Uruguay_national_football_team_seal.svg.png"
-  },
-  "featuredBadgeMatch": {
-    "home": "France",
-    "away": "Spain",
-    "homeScore": 0,
-    "awayScore": 2,
-    "label": "France vs Spain",
-    "updatedAt": "2026-07-14T20:21:44.183Z"
   }
 }
