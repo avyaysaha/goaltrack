@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T19:02:57.817Z",
+  "updatedAt": "2026-07-14T19:24:18.325Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -8577,7 +8577,10 @@
       "away": "Winner Match 98",
       "awayFlag": "W98",
       "location": "AT&T Stadium · Dallas",
-      "venueTimeZone": "America/Chicago"
+      "venueTimeZone": "America/Chicago",
+      "status": "LIVE",
+      "homeScore": 0,
+      "awayScore": 1
     },
     {
       "date": "Wednesday, July 15, 2026",
@@ -16157,6 +16160,22 @@
         "offsides": 3,
         "corners": 2
       }
+    },
+    {
+      "date": "Tuesday, July 14, 2026",
+      "stage": "Knockout",
+      "group": "Match 101 · Semi-final",
+      "time": "2:00 PM local",
+      "kickoffISO": "2026-07-14T19:00:00Z",
+      "home": "Winner Match 97",
+      "homeFlag": "W97",
+      "away": "Winner Match 98",
+      "awayFlag": "W98",
+      "location": "AT&T Stadium · Dallas",
+      "venueTimeZone": "America/Chicago",
+      "status": "LIVE",
+      "homeScore": 0,
+      "awayScore": 1
     }
   ],
   "detailedStats": {
@@ -19531,7 +19550,9 @@
   "featuredBadgeMatch": {
     "home": "France",
     "away": "Spain",
+    "homeScore": 0,
+    "awayScore": 1,
     "label": "France vs Spain",
-    "updatedAt": "2026-07-14T19:02:57.817Z"
+    "updatedAt": "2026-07-14T19:24:18.325Z"
   }
 }
