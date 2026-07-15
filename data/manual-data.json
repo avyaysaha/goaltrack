@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T20:48:05.747Z",
+  "updatedAt": "2026-07-15T20:54:40.747Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -8655,7 +8655,7 @@
       "venueTimeZone": "America/New_York",
       "status": "LIVE",
       "homeScore": 1,
-      "awayScore": 1
+      "awayScore": 2
     },
     {
       "date": "Saturday, July 18, 2026",
@@ -16325,7 +16325,7 @@
       "venueTimeZone": "America/New_York",
       "status": "LIVE",
       "homeScore": 1,
-      "awayScore": 1
+      "awayScore": 2
     }
   ],
   "detailedStats": {
@@ -19727,8 +19727,8 @@
     "home": "England",
     "away": "Argentina",
     "homeScore": 1,
-    "awayScore": 1,
+    "awayScore": 2,
     "label": "England vs Argentina",
-    "updatedAt": "2026-07-15T20:48:05.743Z"
+    "updatedAt": "2026-07-15T20:54:40.740Z"
   }
 }
