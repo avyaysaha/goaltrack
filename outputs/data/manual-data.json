@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T21:38:24.412Z",
+  "updatedAt": "2026-07-15T19:01:41.292Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -19703,5 +19703,11 @@
     "Senegal": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Senegalese_Football_Federation_logo.svg/960px-Senegalese_Football_Federation_logo.svg.png",
     "Panama": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/Panamanian_Football_Federation_logo_2024.svg/960px-Panamanian_Football_Federation_logo_2024.svg.png",
     "Uruguay": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Uruguay_national_football_team_seal.svg/960px-Uruguay_national_football_team_seal.svg.png"
+  },
+  "featuredBadgeMatch": {
+    "home": "England",
+    "away": "Argentina",
+    "label": "England vs Argentina",
+    "updatedAt": "2026-07-15T19:01:41.292Z"
   }
 }
