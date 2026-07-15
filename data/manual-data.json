@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T20:54:40.747Z",
+  "updatedAt": "2026-07-15T21:31:18.776Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -673,7 +673,8 @@
         "drawn": 1,
         "lost": 0,
         "gd": 4,
-        "points": 7
+        "points": 7,
+        "eliminated": true
       },
       {
         "name": "Croatia",
@@ -8645,17 +8646,42 @@
       "date": "Wednesday, July 15, 2026",
       "stage": "Knockout",
       "group": "Match 102 · Semi-final",
-      "time": "3:00 PM local",
+      "time": "2:00 PM CDT",
       "kickoffISO": "2026-07-15T19:00:00Z",
-      "home": "Winner Match 99",
-      "homeFlag": "W99",
-      "away": "Winner Match 100",
-      "awayFlag": "W100",
+      "home": "England",
+      "homeFlag": "ENG",
+      "away": "Argentina",
+      "awayFlag": "ARG",
       "location": "Mercedes-Benz Stadium · Atlanta",
       "venueTimeZone": "America/New_York",
-      "status": "LIVE",
+      "status": "FT",
       "homeScore": 1,
-      "awayScore": 2
+      "awayScore": 2,
+      "homeSource": "Winner Match 99",
+      "awaySource": "Winner Match 100",
+      "elapsed": 102,
+      "scorers": [
+        {
+          "player": "Anthony Gordon",
+          "team": "England",
+          "match": "England vs Argentina"
+        },
+        {
+          "player": "Enzo Fernández",
+          "team": "Argentina",
+          "match": "England vs Argentina"
+        },
+        {
+          "player": "Lautaro Martínez",
+          "team": "Argentina",
+          "match": "England vs Argentina"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "",
+      "awayKeeper": ""
     },
     {
       "date": "Saturday, July 18, 2026",
@@ -16326,6 +16352,45 @@
       "status": "LIVE",
       "homeScore": 1,
       "awayScore": 2
+    },
+    {
+      "date": "Wednesday, July 15, 2026",
+      "stage": "Knockout",
+      "group": "Match 102 · Semi-final",
+      "time": "2:00 PM CDT",
+      "home": "England",
+      "homeFlag": "ENG",
+      "away": "Argentina",
+      "awayFlag": "ARG",
+      "homeSource": "Winner Match 99",
+      "awaySource": "Winner Match 100",
+      "location": "Mercedes-Benz Stadium · Atlanta",
+      "status": "FT",
+      "elapsed": 102,
+      "homeScore": 1,
+      "awayScore": 2,
+      "scorers": [
+        {
+          "player": "Anthony Gordon",
+          "team": "England",
+          "match": "England vs Argentina"
+        },
+        {
+          "player": "Enzo Fernández",
+          "team": "Argentina",
+          "match": "England vs Argentina"
+        },
+        {
+          "player": "Lautaro Martínez",
+          "team": "Argentina",
+          "match": "England vs Argentina"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "",
+      "awayKeeper": ""
     }
   ],
   "detailedStats": {
@@ -16431,6 +16496,11 @@
         "detail": "Germany"
       },
       {
+        "name": "Lautaro Martínez",
+        "value": 3,
+        "detail": "Argentina"
+      },
+      {
         "name": "Matheus Cunha",
         "value": 3,
         "detail": "Brazil"
@@ -16511,6 +16581,11 @@
         "detail": "Egypt"
       },
       {
+        "name": "Enzo Fernández",
+        "value": 2,
+        "detail": "Argentina"
+      },
+      {
         "name": "Ermin Mahmić",
         "value": 2,
         "detail": "Bosnia and Herzegovina"
@@ -16524,11 +16599,6 @@
         "name": "Habib Diarra",
         "value": 2,
         "detail": "Senegal"
-      },
-      {
-        "name": "Lautaro Martínez",
-        "value": 2,
-        "detail": "Argentina"
       },
       {
         "name": "Leandro Trossard",
@@ -16676,6 +16746,11 @@
         "detail": "Croatia"
       },
       {
+        "name": "Anthony Gordon",
+        "value": 1,
+        "detail": "England"
+      },
+      {
         "name": "Antonio Nusa",
         "value": 1,
         "detail": "Norway"
@@ -16774,11 +16849,6 @@
         "name": "Ellyes Skhiri (OG)",
         "value": 1,
         "detail": "Netherlands"
-      },
-      {
-        "name": "Enzo Fernández",
-        "value": 1,
-        "detail": "Argentina"
       },
       {
         "name": "Fabián Ruiz",
@@ -19664,6 +19734,13 @@
         "elapsed": 103
       },
       {
+        "match": "England vs Argentina",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 102
+      },
+      {
         "match": "Canada vs Morocco",
         "redCards": 0,
         "yellowCards": 8,
@@ -19722,13 +19799,5 @@
     "Senegal": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Senegalese_Football_Federation_logo.svg/960px-Senegalese_Football_Federation_logo.svg.png",
     "Panama": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/Panamanian_Football_Federation_logo_2024.svg/960px-Panamanian_Football_Federation_logo_2024.svg.png",
     "Uruguay": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Uruguay_national_football_team_seal.svg/960px-Uruguay_national_football_team_seal.svg.png"
-  },
-  "featuredBadgeMatch": {
-    "home": "England",
-    "away": "Argentina",
-    "homeScore": 1,
-    "awayScore": 2,
-    "label": "England vs Argentina",
-    "updatedAt": "2026-07-15T20:54:40.740Z"
   }
 }
