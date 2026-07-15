@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T21:31:18.776Z",
+  "updatedAt": "2026-07-15T21:43:28.980Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -8646,7 +8646,7 @@
       "date": "Wednesday, July 15, 2026",
       "stage": "Knockout",
       "group": "Match 102 · Semi-final",
-      "time": "2:00 PM CDT",
+      "time": "2:00 PM CDT (3:00 PM EDT venue local)",
       "kickoffISO": "2026-07-15T19:00:00Z",
       "home": "England",
       "homeFlag": "ENG",
@@ -8677,11 +8677,54 @@
           "match": "England vs Argentina"
         }
       ],
-      "yellowCards": [],
+      "yellowCards": [
+        {
+          "player": "Elliot Anderson",
+          "team": "England",
+          "match": "England vs Argentina"
+        },
+        {
+          "player": "Cristian Romero",
+          "team": "Argentina",
+          "match": "England vs Argentina"
+        },
+        {
+          "player": "Enzo Fernández",
+          "team": "Argentina",
+          "match": "England vs Argentina"
+        },
+        {
+          "player": "Lisandro Martínez",
+          "team": "Argentina",
+          "match": "England vs Argentina"
+        }
+      ],
       "redCards": [],
       "penalties": 0,
-      "homeKeeper": "",
-      "awayKeeper": ""
+      "homeKeeper": "Jordan Pickford",
+      "awayKeeper": "Emiliano Martínez",
+      "homeStats": {
+        "shots": 5,
+        "shotsOnTarget": 2,
+        "possession": 36,
+        "passes": 325,
+        "passAccuracy": 84,
+        "performance": 1.75,
+        "fouls": 11,
+        "offsides": 1,
+        "corners": 2
+      },
+      "awayStats": {
+        "shots": 15,
+        "shotsOnTarget": 5,
+        "possession": 64,
+        "passes": 590,
+        "passAccuracy": 91,
+        "performance": 3.6,
+        "fouls": 15,
+        "offsides": 3,
+        "corners": 6
+      }
     },
     {
       "date": "Saturday, July 18, 2026",
@@ -16357,7 +16400,7 @@
       "date": "Wednesday, July 15, 2026",
       "stage": "Knockout",
       "group": "Match 102 · Semi-final",
-      "time": "2:00 PM CDT",
+      "time": "2:00 PM CDT (3:00 PM EDT venue local)",
       "home": "England",
       "homeFlag": "ENG",
       "away": "Argentina",
@@ -16386,11 +16429,54 @@
           "match": "England vs Argentina"
         }
       ],
-      "yellowCards": [],
+      "yellowCards": [
+        {
+          "player": "Elliot Anderson",
+          "team": "England",
+          "match": "England vs Argentina"
+        },
+        {
+          "player": "Cristian Romero",
+          "team": "Argentina",
+          "match": "England vs Argentina"
+        },
+        {
+          "player": "Enzo Fernández",
+          "team": "Argentina",
+          "match": "England vs Argentina"
+        },
+        {
+          "player": "Lisandro Martínez",
+          "team": "Argentina",
+          "match": "England vs Argentina"
+        }
+      ],
       "redCards": [],
       "penalties": 0,
-      "homeKeeper": "",
-      "awayKeeper": ""
+      "homeKeeper": "Jordan Pickford",
+      "awayKeeper": "Emiliano Martínez",
+      "homeStats": {
+        "shots": 5,
+        "shotsOnTarget": 2,
+        "possession": 36,
+        "passes": 325,
+        "passAccuracy": 84,
+        "performance": 1.75,
+        "fouls": 11,
+        "offsides": 1,
+        "corners": 2
+      },
+      "awayStats": {
+        "shots": 15,
+        "shotsOnTarget": 5,
+        "possession": 64,
+        "passes": 590,
+        "passAccuracy": 91,
+        "performance": 3.6,
+        "fouls": 15,
+        "offsides": 3,
+        "corners": 6
+      }
     }
   ],
   "detailedStats": {
@@ -17385,7 +17471,7 @@
       {
         "name": "Emiliano Martínez",
         "value": 2,
-        "detail": "Argentina · 4 goals conceded in 5 appearances"
+        "detail": "Argentina · 5 goals conceded in 6 appearances"
       },
       {
         "name": "Gregor Kobel",
@@ -17395,7 +17481,7 @@
       {
         "name": "Jordan Pickford",
         "value": 2,
-        "detail": "England · 6 goals conceded in 6 appearances"
+        "detail": "England · 8 goals conceded in 7 appearances"
       },
       {
         "name": "Matt Freese",
@@ -17705,11 +17791,11 @@
       "Curaçao": 7,
       "Uruguay": 5,
       "New Zealand": 3,
-      "Argentina": 6,
+      "Argentina": 9,
       "Iraq": 1,
       "Algeria": 3,
       "Jordan": 2,
-      "England": 7,
+      "England": 8,
       "Croatia": 3,
       "Norway": 2,
       "Japan": 3,
@@ -18930,6 +19016,26 @@
         "match": "France vs Spain"
       },
       {
+        "player": "Elliot Anderson",
+        "team": "England",
+        "match": "England vs Argentina"
+      },
+      {
+        "player": "Cristian Romero",
+        "team": "Argentina",
+        "match": "England vs Argentina"
+      },
+      {
+        "player": "Enzo Fernández",
+        "team": "Argentina",
+        "match": "England vs Argentina"
+      },
+      {
+        "player": "Lisandro Martínez",
+        "team": "Argentina",
+        "match": "England vs Argentina"
+      },
+      {
         "player": "Redouane Halhal",
         "team": "Morocco",
         "match": "Canada vs Morocco"
@@ -19736,7 +19842,7 @@
       {
         "match": "England vs Argentina",
         "redCards": 0,
-        "yellowCards": 0,
+        "yellowCards": 4,
         "penalties": 0,
         "elapsed": 102
       },
