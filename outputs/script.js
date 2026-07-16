@@ -1884,6 +1884,13 @@ function openMatchStatsDialog(matchKey) {
         <h2>${escapeHtml(displayHome)} <b>${escapeHtml(scoreText)}</b> ${escapeHtml(displayAway)}</h2>
         <p>${escapeHtml(match.date)} · ${escapeHtml(match.time || "")} · ${escapeHtml(cleanMatchLocation(match.location))}</p>
       </div>
+      ${renderGoalMinuteGrid(getGoalMinuteEvents(match), {
+        title: "Match Goal Timeline",
+        number: "GOALS",
+        compact: true,
+        teams: [match.home, match.away],
+        emptyText: "Goal minutes for this match have not been added yet."
+      })}
       <div class="match-stats-table" role="table" aria-label="Team stats for ${escapeHtml(getMatchLabel(match))}">
         <div class="match-stats-row match-stats-head" role="row">
           <span role="columnheader">${escapeHtml(getTeamCountryCode(match.home, match.homeFlag))} ${escapeHtml(displayHome)}</span>
@@ -2238,6 +2245,195 @@ function getFallbackGoalEvents() {
     }
   });
   return events;
+}
+
+function parseGoalMinute(value) {
+  if (value === null || value === undefined || value === "") {
+    return null;
+  }
+
+  const rawMinuteText = String(value).trim();
+  const minuteText = rawMinuteText.replace(/'/g, "");
+  const stoppageMatch = minuteText.match(/^(\d+)\s*\+\s*(\d+)$/);
+  if (stoppageMatch) {
+    return {
+      value: Number(stoppageMatch[1]) + Number(stoppageMatch[2]),
+      label: `${stoppageMatch[1]}+${stoppageMatch[2]}'`
+    };
+  }
+
+  const numericMinute = Number(minuteText.replace(/[^\d.]/g, ""));
+  if (!Number.isFinite(numericMinute)) {
+    return null;
+  }
+
+  return {
+    value: numericMinute,
+    label: `${minuteText}'`
+  };
+}
+
+function readGoalMinute(goal) {
+  return parseGoalMinute(
+    goal.minute ??
+    goal.matchMinute ??
+    goal.elapsed ??
+    goal.time ??
+    goal.goalMinute
+  );
+}
+
+function splitGoalScorerEntry(goal) {
+  const playerText = String(goal.player || goal.name || "").trim();
+  const parts = playerText.split(/\s+-\s+/);
+  if (parts.length < 2) {
+    return [goal];
+  }
+
+  const player = parts[0].trim();
+  const minuteText = parts.slice(1).join(" - ");
+  const minuteMatches = minuteText.match(/\d+(?:\s*\+\s*\d+)?'?/g) || [];
+  if (!minuteMatches.length) {
+    return [{ ...goal, player }];
+  }
+
+  return minuteMatches.map(function (minute) {
+    return {
+      ...goal,
+      player,
+      minute
+    };
+  });
+}
+
+function getGoalMinuteEvents(matchFilter = null) {
+  const events = [];
+  const completedMatches = matchFilter ? [matchFilter] : getCompletedMatches();
+  const detailedStats = getDetailedStats();
+
+  completedMatches.forEach(function (match) {
+    const matchLabel = getMatchLabel(match);
+    const sourceGoals = Array.isArray(match.scorers) && match.scorers.length
+      ? match.scorers
+      : detailedStats.goalEvents.filter(function (event) {
+        return eventBelongsToMatch(event, match);
+      });
+
+    sourceGoals.flatMap(splitGoalScorerEntry).forEach(function (goal, index) {
+      const minute = readGoalMinute(goal);
+      events.push({
+        player: goal.player || goal.name || `Goal ${index + 1}`,
+        team: goal.team || goal.side || "",
+        match: goal.match || matchLabel,
+        minute: minute?.value ?? null,
+        minuteLabel: minute?.label || "",
+        home: match.home,
+        away: match.away
+      });
+    });
+  });
+
+  return events;
+}
+
+function renderGoalMinuteGrid(goalEvents, options = {}) {
+  const maximumMatchMinute = 131;
+  const plottedGoals = goalEvents.filter(function (goal) {
+    const minute = Number(goal.minute);
+    return Number.isFinite(minute) && minute >= 0 && minute <= maximumMatchMinute && goal.team;
+  });
+  const invalidMinuteGoals = goalEvents.filter(function (goal) {
+    const minute = Number(goal.minute);
+    return goal.team && Number.isFinite(minute) && (minute < 0 || minute > maximumMatchMinute);
+  }).length;
+  const missingMinuteCount = goalEvents.length - plottedGoals.length - invalidMinuteGoals;
+  const teams = options.teams?.length
+    ? options.teams
+    : [...new Set(plottedGoals.map(function (goal) { return goal.team; }))].sort(function (a, b) {
+      return a.localeCompare(b, "en", { sensitivity: "base" });
+    });
+  const maxMinute = maximumMatchMinute;
+  const width = options.compact ? 620 : 900;
+  const rowGap = options.compact ? 38 : 42;
+  const padding = {
+    top: options.compact ? 34 : 42,
+    right: 32,
+    bottom: options.compact ? 42 : 50,
+    left: options.compact ? 92 : 132
+  };
+  const chartWidth = width - padding.left - padding.right;
+  const chartHeight = Math.max(rowGap, teams.length * rowGap);
+  const height = padding.top + chartHeight + padding.bottom;
+  const tickStep = 15;
+  const ticks = [];
+
+  for (let minute = 0; minute <= maxMinute; minute += tickStep) {
+    ticks.push(minute);
+  }
+  if (ticks.at(-1) !== maxMinute) {
+    ticks.push(maxMinute);
+  }
+
+  const emptyText = options.emptyText || "Add goal minutes to manual-data.json to plot goals by time.";
+  const title = options.title || "Goal-Scoring Minutes";
+  const summary = plottedGoals.length
+    ? `${plottedGoals.length} plotted · ${missingMinuteCount} missing minute`
+    : "Awaiting goal minutes";
+
+  return `
+    <article class="stat-chart-card goal-minute-card ${options.compact ? "goal-minute-card-mini" : ""}">
+      <div class="stat-chart-heading">
+        <div><span>${escapeHtml(options.number || "01")}</span><h3>${escapeHtml(title)}</h3></div>
+        <b>${escapeHtml(summary)}</b>
+      </div>
+      <div class="goal-minute-wrap">
+        <svg class="goal-minute-grid" viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeHtml(title)}">
+          <title>${escapeHtml(title)}</title>
+          <desc>Goal minutes are shown on the x-axis and teams are shown on the y-axis.</desc>
+          ${ticks.map(function (minute) {
+            const x = padding.left + (minute / maxMinute) * chartWidth;
+            return `
+              <line class="goal-minute-grid-line" x1="${x}" y1="${padding.top - 12}" x2="${x}" y2="${padding.top + chartHeight - rowGap / 2}"></line>
+              <text class="goal-minute-x-label" x="${x}" y="${height - 18}">${minute}'</text>
+            `;
+          }).join("")}
+          ${teams.map(function (team, index) {
+            const y = padding.top + index * rowGap;
+            return `
+              <line class="goal-minute-row-line" x1="${padding.left}" y1="${y}" x2="${padding.left + chartWidth}" y2="${y}"></line>
+              <text class="goal-minute-team-label" x="${padding.left - 12}" y="${y + 5}">${escapeHtml(getTeamCountryCode(team, cleanDisplayText(team)))}</text>
+            `;
+          }).join("")}
+          ${plottedGoals.map(function (goal, goalIndex) {
+            const teamIndex = Math.max(teams.indexOf(goal.team), 0);
+            const x = padding.left + (Number(goal.minute) / maxMinute) * chartWidth;
+            const samePointIndex = plottedGoals
+              .slice(0, goalIndex)
+              .filter(function (otherGoal) {
+                return otherGoal.team === goal.team && Number(otherGoal.minute) === Number(goal.minute);
+              }).length;
+            const y = padding.top + teamIndex * rowGap + (samePointIndex * 6);
+            const color = getNationalColor(goal.team);
+            const label = `${goal.minuteLabel || `${goal.minute}'`} · ${goal.match}`;
+            return `
+              <circle class="goal-minute-dot" cx="${x}" cy="${y}" r="${options.compact ? 6 : 8}" style="--goal-color:${escapeHtml(color)}">
+                <title>${escapeHtml(cleanDisplayText(label))}</title>
+              </circle>
+            `;
+          }).join("")}
+          <line class="goal-minute-axis" x1="${padding.left}" y1="${padding.top + chartHeight - rowGap / 2}" x2="${padding.left + chartWidth}" y2="${padding.top + chartHeight - rowGap / 2}"></line>
+          <text class="goal-minute-axis-title" x="${padding.left + chartWidth / 2}" y="${height - 1}">Minute of match</text>
+          <text class="goal-minute-axis-title goal-minute-axis-title-y" x="16" y="${padding.top + chartHeight / 2}">Team</text>
+        </svg>
+        ${plottedGoals.length ? "" : `<p class="trend-empty">${escapeHtml(emptyText)}</p>`}
+        ${missingMinuteCount || invalidMinuteGoals ? `
+          <p class="goal-minute-note">
+            ${escapeHtml(`${missingMinuteCount} goals need minutes before they can be plotted${invalidMinuteGoals ? `; ${invalidMinuteGoals} goals are outside the 0-131 minute range` : ""}.`)}
+          </p>
+        ` : ""}
+      </div>
+    </article>
+  `;
 }
 
 function renderGoalCoordinateMap(goalEvents) {
@@ -2645,19 +2841,19 @@ function renderStatsDashboard() {
   const timePlayedTrendData = getTimePlayedTrendData();
   const chartConfigs = [
     {
-      number: "02", title: "Red Cards", eventsKey: "redCardEvents", matchKey: "redCards",
+      number: "03", title: "Red Cards", eventsKey: "redCardEvents", matchKey: "redCards",
       summaryLabel: "red cards", axisLabel: "Cumulative red cards", descriptionLabel: "red cards",
       ariaLabel: "Cumulative red cards during the tournament", minimumScale: 5,
       className: "red-card-trend", waitingText: "Red-card totals are not available from the current data source."
     },
     {
-      number: "03", title: "Yellow Cards", eventsKey: "yellowCardEvents", matchKey: "yellowCards",
+      number: "04", title: "Yellow Cards", eventsKey: "yellowCardEvents", matchKey: "yellowCards",
       summaryLabel: "yellow cards", axisLabel: "Cumulative yellow cards", descriptionLabel: "yellow cards",
       ariaLabel: "Cumulative yellow cards during the tournament", minimumScale: 5,
       className: "yellow-card-trend", waitingText: "Yellow-card totals are not available from the current data source."
     },
     {
-      number: "04", title: "Penalty Kicks", eventsKey: "penaltyEvents", matchKey: "penalties",
+      number: "05", title: "Penalty Kicks", eventsKey: "penaltyEvents", matchKey: "penalties",
       summaryLabel: "penalty kicks", axisLabel: "Cumulative penalty kicks", descriptionLabel: "penalty kicks",
       ariaLabel: "Cumulative penalty kicks during the tournament", minimumScale: 5,
       className: "penalty-trend", waitingText: "Penalty-kick totals are not available from the current data source."
@@ -2670,12 +2866,17 @@ function renderStatsDashboard() {
     minimumScale: 5, className: "goal-trend-card"
   };
   const timePlayedConfig = {
-    number: "05", title: "Time Played", summaryLabel: "minutes",
+    number: "06", title: "Time Played", summaryLabel: "minutes",
     axisLabel: "Cumulative minutes", descriptionLabel: "minutes played",
     ariaLabel: "Cumulative minutes played during the tournament",
     minimumScale: 90, className: "time-played-trend"
   };
-  statsChartGrid.innerHTML = renderTrendChart(goalsConfig, goalTrendData) +
+  statsChartGrid.innerHTML = renderGoalMinuteGrid(getGoalMinuteEvents(), {
+    number: "01",
+    title: "Goal-Scoring Minutes",
+    emptyText: "Add goal minutes from ESPN match reports to manual-data.json to plot every goal."
+  }) +
+    renderTrendChart({ ...goalsConfig, number: "02" }, goalTrendData) +
     chartConfigs.map(function (config) {
       const detailedTrend = getDetailedTrendData(stats, config);
       return renderTrendChart(config, detailedTrend.trend, detailedTrend.hasTimelineData);

@@ -2908,6 +2908,93 @@ tbody tr:hover {
   text-transform: uppercase;
 }
 
+.goal-minute-card {
+  grid-column: span 2;
+}
+
+.goal-minute-wrap {
+  position: relative;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  scrollbar-color: var(--blue) var(--cream);
+}
+
+.goal-minute-grid {
+  display: block;
+  width: 100%;
+  min-width: 720px;
+  height: auto;
+  overflow: visible;
+}
+
+.goal-minute-grid-line,
+.goal-minute-row-line {
+  stroke: rgba(16, 28, 50, 0.12);
+  stroke-width: 1;
+}
+
+.goal-minute-axis {
+  stroke: var(--ink);
+  stroke-width: 2;
+}
+
+.goal-minute-dot {
+  fill: var(--goal-color, var(--red));
+  stroke: var(--white);
+  stroke-width: 3;
+  filter: drop-shadow(0 5px 8px rgba(16, 28, 50, 0.2));
+}
+
+.goal-minute-team-label,
+.goal-minute-x-label,
+.goal-minute-axis-title {
+  fill: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.goal-minute-team-label {
+  text-anchor: end;
+}
+
+.goal-minute-x-label,
+.goal-minute-axis-title {
+  text-anchor: middle;
+}
+
+.goal-minute-axis-title-y {
+  transform: rotate(-90deg);
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.goal-minute-note {
+  margin: 12px 0 0;
+  padding: 10px 12px;
+  color: #6a3a00;
+  background: #fff4d5;
+  border: 1px solid #f0d38a;
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.match-stats-modal .goal-minute-card {
+  margin-top: 20px;
+  padding: 18px;
+  grid-column: auto;
+  border-radius: 18px;
+  box-shadow: none;
+}
+
+.match-stats-modal .goal-minute-card .stat-chart-heading {
+  margin-bottom: 12px;
+}
+
+.match-stats-modal .goal-minute-grid {
+  min-width: 420px;
+}
+
 .coordinate-chart {
   position: relative;
   padding: 18px 0 29px 82px;

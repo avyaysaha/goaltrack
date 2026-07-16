@@ -734,11 +734,13 @@
         {
           "player": "Julián Quiñones",
           "team": "Mexico",
+          "minute": "9'",
           "match": "Mexico vs South Africa"
         },
         {
           "player": "Raúl Jiménez",
           "team": "Mexico",
+          "minute": "67'",
           "match": "Mexico vs South Africa"
         }
       ],
@@ -826,18 +828,21 @@
       "awayScore": 1,
       "scorers": [
         {
-          "player": "Hwang In-beom",
-          "team": "Korea Republic",
-          "match": "Korea Republic vs Czechia"
-        },
-        {
-          "player": "Oh Hyeon-gyu",
-          "team": "Korea Republic",
-          "match": "Korea Republic vs Czechia"
-        },
-        {
-          "player": "Ladislav Krejčí",
+          "player": "Ladislav Krejcí",
           "team": "Czechia",
+          "minute": "59'",
+          "match": "Korea Republic vs Czechia"
+        },
+        {
+          "player": "Hwang In-Beom",
+          "team": "Korea Republic",
+          "minute": "67'",
+          "match": "Korea Republic vs Czechia"
+        },
+        {
+          "player": "Oh Hyeon-Gyu",
+          "team": "Korea Republic",
+          "minute": "80'",
           "match": "Korea Republic vs Czechia"
         }
       ],
@@ -893,13 +898,15 @@
       "awayScore": 1,
       "scorers": [
         {
-          "player": "Cyle Larin",
-          "team": "Canada",
+          "player": "Jovo Lukic",
+          "team": "Bosnia and Herzegovina",
+          "minute": "21'",
           "match": "Canada vs Bosnia and Herzegovina"
         },
         {
-          "player": "Jovo Lukić",
-          "team": "Bosnia and Herzegovina",
+          "player": "Cyle Larin",
+          "team": "Canada",
+          "minute": "78'",
           "match": "Canada vs Bosnia and Herzegovina"
         }
       ],
@@ -976,28 +983,33 @@
       "awayScore": 1,
       "scorers": [
         {
-          "player": "Damián Bobadilla (OG)",
+          "player": "Damián Bobadilla",
           "team": "United States",
+          "minute": "7'",
           "match": "United States vs Paraguay"
         },
         {
           "player": "Folarin Balogun",
           "team": "United States",
+          "minute": "31'",
           "match": "United States vs Paraguay"
         },
         {
           "player": "Folarin Balogun",
           "team": "United States",
+          "minute": "45+5'",
           "match": "United States vs Paraguay"
         },
         {
           "player": "Maurício",
           "team": "Paraguay",
+          "minute": "73'",
           "match": "United States vs Paraguay"
         },
         {
-          "player": "Gio Reyna",
+          "player": "Giovanni Reyna",
           "team": "United States",
+          "minute": "90+8'",
           "match": "United States vs Paraguay"
         }
       ],
@@ -1086,11 +1098,13 @@
         {
           "player": "Breel Embolo",
           "team": "Switzerland",
+          "minute": "17'",
           "match": "Qatar vs Switzerland"
         },
         {
-          "player": "Boulem Khouki",
+          "player": "Miro Muheim",
           "team": "Qatar",
+          "minute": "90+4'",
           "match": "Qatar vs Switzerland"
         }
       ],
@@ -1164,11 +1178,13 @@
         {
           "player": "Ismael Saibari",
           "team": "Morocco",
+          "minute": "21'",
           "match": "Brazil vs Morocco"
         },
         {
           "player": "Vinícius Júnior",
           "team": "Brazil",
+          "minute": "32'",
           "match": "Brazil vs Morocco"
         }
       ],
@@ -1237,6 +1253,7 @@
         {
           "player": "John McGinn",
           "team": "Scotland",
+          "minute": "28'",
           "match": "Haiti vs Scotland"
         }
       ],
@@ -1315,11 +1332,13 @@
         {
           "player": "Nestory Irankunda",
           "team": "Australia",
+          "minute": "27'",
           "match": "Australia vs Türkiye"
         },
         {
           "player": "Connor Metcalfe",
           "team": "Australia",
+          "minute": "75'",
           "match": "Australia vs Türkiye"
         }
       ],
@@ -1383,41 +1402,49 @@
         {
           "player": "Felix Nmecha",
           "team": "Germany",
+          "minute": "6'",
           "match": "Germany vs Curaçao"
         },
         {
           "player": "Livano Comenencia",
           "team": "Curaçao",
+          "minute": "21'",
           "match": "Germany vs Curaçao"
         },
         {
           "player": "Nico Schlotterbeck",
           "team": "Germany",
+          "minute": "38'",
           "match": "Germany vs Curaçao"
         },
         {
           "player": "Kai Havertz",
           "team": "Germany",
+          "minute": "45+5'",
           "match": "Germany vs Curaçao"
         },
         {
           "player": "Jamal Musiala",
           "team": "Germany",
+          "minute": "47'",
           "match": "Germany vs Curaçao"
         },
         {
           "player": "Nathaniel Brown",
           "team": "Germany",
+          "minute": "68'",
           "match": "Germany vs Curaçao"
         },
         {
           "player": "Deniz Undav",
           "team": "Germany",
+          "minute": "78'",
           "match": "Germany vs Curaçao"
         },
         {
           "player": "Kai Havertz",
           "team": "Germany",
+          "minute": "88'",
           "match": "Germany vs Curaçao"
         }
       ],
@@ -1475,21 +1502,25 @@
         {
           "player": "Virgil van Dijk",
           "team": "Netherlands",
+          "minute": "51'",
           "match": "Netherlands vs Japan"
         },
         {
           "player": "Keito Nakamura",
           "team": "Japan",
+          "minute": "57'",
           "match": "Netherlands vs Japan"
         },
         {
           "player": "Crysencio Summerville",
           "team": "Netherlands",
+          "minute": "64'",
           "match": "Netherlands vs Japan"
         },
         {
           "player": "Daichi Kamada",
           "team": "Japan",
+          "minute": "89'",
           "match": "Netherlands vs Japan"
         }
       ],
@@ -1563,6 +1594,7 @@
         {
           "player": "Amad Diallo",
           "team": "Cote d'Ivoire",
+          "minute": "90'",
           "match": "Cote d'Ivoire vs Ecuador"
         }
       ],
@@ -1641,31 +1673,37 @@
         {
           "player": "Yasin Ayari",
           "team": "Sweden",
+          "minute": "7'",
           "match": "Sweden vs Tunisia"
         },
         {
           "player": "Alexander Isak",
           "team": "Sweden",
-          "match": "Sweden vs Tunisia"
-        },
-        {
-          "player": "Viktor Gyökeres",
-          "team": "Sweden",
-          "match": "Sweden vs Tunisia"
-        },
-        {
-          "player": "Mattias Svanberg",
-          "team": "Sweden",
-          "match": "Sweden vs Tunisia"
-        },
-        {
-          "player": "Yasin Ayari",
-          "team": "Sweden",
+          "minute": "30'",
           "match": "Sweden vs Tunisia"
         },
         {
           "player": "Omar Rekik",
           "team": "Tunisia",
+          "minute": "43'",
+          "match": "Sweden vs Tunisia"
+        },
+        {
+          "player": "Viktor Gyökeres",
+          "team": "Sweden",
+          "minute": "59'",
+          "match": "Sweden vs Tunisia"
+        },
+        {
+          "player": "Mattias Svanberg",
+          "team": "Sweden",
+          "minute": "84'",
+          "match": "Sweden vs Tunisia"
+        },
+        {
+          "player": "Yasin Ayari",
+          "team": "Sweden",
+          "minute": "90+6'",
           "match": "Sweden vs Tunisia"
         }
       ],
@@ -1791,11 +1829,13 @@
         {
           "player": "Emam Ashour",
           "team": "Egypt",
+          "minute": "20'",
           "match": "Belgium vs Egypt"
         },
         {
-          "player": "Mohamed Hany(OG)",
+          "player": "Mohamed Hany",
           "team": "Belgium",
+          "minute": "66'",
           "match": "Belgium vs Egypt"
         }
       ],
@@ -1874,11 +1914,13 @@
         {
           "player": "Abdulelah Al-Amri",
           "team": "Saudi Arabia",
+          "minute": "41'",
           "match": "Saudi Arabia vs Uruguay"
         },
         {
           "player": "Maxi Araújo",
           "team": "Uruguay",
+          "minute": "80'",
           "match": "Saudi Arabia vs Uruguay"
         }
       ],
@@ -1942,21 +1984,25 @@
         {
           "player": "Elijah Just",
           "team": "New Zealand",
-          "match": "Iran vs New Zealand"
-        },
-        {
-          "player": "Elijah Just",
-          "team": "New Zealand",
+          "minute": "7'",
           "match": "Iran vs New Zealand"
         },
         {
           "player": "Ramin Rezaeian",
           "team": "Iran",
+          "minute": "32'",
           "match": "Iran vs New Zealand"
         },
         {
-          "player": "Mohammad Mohebi",
+          "player": "Elijah Just",
+          "team": "New Zealand",
+          "minute": "54'",
+          "match": "Iran vs New Zealand"
+        },
+        {
+          "player": "Mohammad Mohebbi",
           "team": "Iran",
+          "minute": "64'",
           "match": "Iran vs New Zealand"
         }
       ],
@@ -2020,21 +2066,25 @@
         {
           "player": "Kylian Mbappé",
           "team": "France",
+          "minute": "66'",
           "match": "France vs Senegal"
         },
         {
           "player": "Bradley Barcola",
           "team": "France",
+          "minute": "82'",
           "match": "France vs Senegal"
         },
         {
           "player": "Ibrahim Mbaye",
           "team": "Senegal",
+          "minute": "90+5'",
           "match": "France vs Senegal"
         },
         {
           "player": "Kylian Mbappé",
           "team": "France",
+          "minute": "90+6'",
           "match": "France vs Senegal"
         }
       ],
@@ -2090,28 +2140,33 @@
       "awayScore": 4,
       "scorers": [
         {
+          "player": "Erling Haaland",
+          "team": "Norway",
+          "minute": "29'",
+          "match": "Iraq vs Norway"
+        },
+        {
           "player": "Aymen Hussein",
           "team": "Iraq",
+          "minute": "39'",
           "match": "Iraq vs Norway"
         },
         {
           "player": "Erling Haaland",
           "team": "Norway",
+          "minute": "43'",
           "match": "Iraq vs Norway"
         },
         {
-          "player": "Erling Haaland",
+          "player": "Leo Østigard",
           "team": "Norway",
+          "minute": "76'",
           "match": "Iraq vs Norway"
         },
         {
-          "player": "Leo Østigård",
+          "player": "Aymen Hussein",
           "team": "Norway",
-          "match": "Iraq vs Norway"
-        },
-        {
-          "player": "Iraq own goal (OG)",
-          "team": "Norway",
+          "minute": "90+6'",
           "match": "Iraq vs Norway"
         }
       ],
@@ -2169,16 +2224,19 @@
         {
           "player": "Lionel Messi",
           "team": "Argentina",
+          "minute": "17'",
           "match": "Argentina vs Algeria"
         },
         {
           "player": "Lionel Messi",
           "team": "Argentina",
+          "minute": "60'",
           "match": "Argentina vs Algeria"
         },
         {
           "player": "Lionel Messi",
           "team": "Argentina",
+          "minute": "76'",
           "match": "Argentina vs Algeria"
         }
       ],
@@ -2236,21 +2294,25 @@
         {
           "player": "Romano Schmid",
           "team": "Austria",
-          "match": "Austria vs Jordan"
-        },
-        {
-          "player": "Yazan Al-Arab(OG)",
-          "team": "Austria",
-          "match": "Austria vs Jordan"
-        },
-        {
-          "player": "Marko Arnautović",
-          "team": "Austria",
+          "minute": "21'",
           "match": "Austria vs Jordan"
         },
         {
           "player": "Ali Olwan",
           "team": "Jordan",
+          "minute": "50'",
+          "match": "Austria vs Jordan"
+        },
+        {
+          "player": "Yazan Al-Arab",
+          "team": "Austria",
+          "minute": "76'",
+          "match": "Austria vs Jordan"
+        },
+        {
+          "player": "Marko Arnautovic",
+          "team": "Austria",
+          "minute": "90+12'",
           "match": "Austria vs Jordan"
         }
       ],
@@ -2314,11 +2376,13 @@
         {
           "player": "João Neves",
           "team": "Portugal",
+          "minute": "6'",
           "match": "Portugal vs DR Congo"
         },
         {
           "player": "Yoane Wissa",
           "team": "DR Congo",
+          "minute": "45+5'",
           "match": "Portugal vs DR Congo"
         }
       ],
@@ -2397,31 +2461,37 @@
         {
           "player": "Harry Kane",
           "team": "England",
-          "match": "England vs Croatia"
-        },
-        {
-          "player": "Harry Kane",
-          "team": "England",
-          "match": "England vs Croatia"
-        },
-        {
-          "player": "Jude Bellingham",
-          "team": "England",
-          "match": "England vs Croatia"
-        },
-        {
-          "player": "Marcus Rashford",
-          "team": "England",
+          "minute": "12'",
           "match": "England vs Croatia"
         },
         {
           "player": "Martin Baturina",
           "team": "Croatia",
+          "minute": "36'",
+          "match": "England vs Croatia"
+        },
+        {
+          "player": "Harry Kane",
+          "team": "England",
+          "minute": "42'",
           "match": "England vs Croatia"
         },
         {
           "player": "Petar Musa",
           "team": "Croatia",
+          "minute": "45+5'",
+          "match": "England vs Croatia"
+        },
+        {
+          "player": "Jude Bellingham",
+          "team": "England",
+          "minute": "47'",
+          "match": "England vs Croatia"
+        },
+        {
+          "player": "Marcus Rashford",
+          "team": "England",
+          "minute": "85'",
           "match": "England vs Croatia"
         }
       ],
@@ -2479,6 +2549,7 @@
         {
           "player": "Caleb Yirenkyi",
           "team": "Ghana",
+          "minute": "90+5'",
           "match": "Ghana vs Panama"
         }
       ],
@@ -2550,23 +2621,27 @@
       "awayScore": 3,
       "scorers": [
         {
-          "player": "Abbosbek Fayzullaev",
-          "team": "Uzbekistan",
+          "player": "Daniel Muñoz",
+          "team": "Colombia",
+          "minute": "40'",
           "match": "Uzbekistan vs Colombia"
         },
         {
-          "player": "Daniel Muñoz",
-          "team": "Colombia",
+          "player": "Abbosbek Fayzullaev",
+          "team": "Uzbekistan",
+          "minute": "60'",
           "match": "Uzbekistan vs Colombia"
         },
         {
           "player": "Luis Díaz",
           "team": "Colombia",
+          "minute": "65'",
           "match": "Uzbekistan vs Colombia"
         },
         {
-          "player": "Jaminton Campaz",
+          "player": "Jáminton Campaz",
           "team": "Colombia",
+          "minute": "90+9'",
           "match": "Uzbekistan vs Colombia"
         }
       ],
@@ -2635,11 +2710,13 @@
         {
           "player": "Michal Sadílek",
           "team": "Czechia",
+          "minute": "6'",
           "match": "Czechia vs South Africa"
         },
         {
           "player": "Teboho Mokoena",
           "team": "South Africa",
+          "minute": "83'",
           "match": "Czechia vs South Africa"
         }
       ],
@@ -2708,26 +2785,31 @@
         {
           "player": "Johan Manzambi",
           "team": "Switzerland",
-          "match": "Switzerland vs Bosnia and Herzegovina"
-        },
-        {
-          "player": "Johan Manzambi",
-          "team": "Switzerland",
+          "minute": "74'",
           "match": "Switzerland vs Bosnia and Herzegovina"
         },
         {
           "player": "Rubén Vargas",
           "team": "Switzerland",
+          "minute": "84'",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Johan Manzambi",
+          "team": "Switzerland",
+          "minute": "90'",
+          "match": "Switzerland vs Bosnia and Herzegovina"
+        },
+        {
+          "player": "Ermin Mahmic",
+          "team": "Bosnia and Herzegovina",
+          "minute": "90+3'",
           "match": "Switzerland vs Bosnia and Herzegovina"
         },
         {
           "player": "Granit Xhaka",
           "team": "Switzerland",
-          "match": "Switzerland vs Bosnia and Herzegovina"
-        },
-        {
-          "player": "Ermin Mahmić",
-          "team": "Bosnia and Herzegovina",
+          "minute": "90+7'",
           "match": "Switzerland vs Bosnia and Herzegovina"
         }
       ],
@@ -2805,33 +2887,39 @@
       "awayScore": 0,
       "scorers": [
         {
-          "player": "Jonathan David",
-          "team": "Canada",
-          "match": "Canada vs Qatar"
-        },
-        {
-          "player": "Jonathan David",
-          "team": "Canada",
-          "match": "Canada vs Qatar"
-        },
-        {
-          "player": "Jonathan David",
-          "team": "Canada",
-          "match": "Canada vs Qatar"
-        },
-        {
           "player": "Cyle Larin",
           "team": "Canada",
+          "minute": "16'",
+          "match": "Canada vs Qatar"
+        },
+        {
+          "player": "Jonathan David",
+          "team": "Canada",
+          "minute": "29'",
+          "match": "Canada vs Qatar"
+        },
+        {
+          "player": "Jonathan David",
+          "team": "Canada",
+          "minute": "45+3'",
           "match": "Canada vs Qatar"
         },
         {
           "player": "Nathan Saliba",
           "team": "Canada",
+          "minute": "64'",
           "match": "Canada vs Qatar"
         },
         {
-          "player": "Mohamed Manai(OG)",
+          "player": "Mohamed Manai",
           "team": "Canada",
+          "minute": "75'",
+          "match": "Canada vs Qatar"
+        },
+        {
+          "player": "Jonathan David",
+          "team": "Canada",
+          "minute": "90+2'",
           "match": "Canada vs Qatar"
         }
       ],
@@ -2911,6 +2999,7 @@
         {
           "player": "Luis Romo",
           "team": "Mexico",
+          "minute": "50'",
           "match": "Mexico vs Korea Republic"
         }
       ],
@@ -2977,13 +3066,15 @@
       "awayScore": 0,
       "scorers": [
         {
-          "player": "Cameron Burgess(OG)",
+          "player": "Cameron Burgess",
           "team": "United States",
+          "minute": "11'",
           "match": "United States vs Australia"
         },
         {
           "player": "Alex Freeman",
           "team": "United States",
+          "minute": "43'",
           "match": "United States vs Australia"
         }
       ],
@@ -3077,6 +3168,7 @@
         {
           "player": "Ismael Saibari",
           "team": "Morocco",
+          "minute": "2'",
           "match": "Scotland vs Morocco"
         }
       ],
@@ -3145,16 +3237,19 @@
         {
           "player": "Matheus Cunha",
           "team": "Brazil",
+          "minute": "23'",
           "match": "Brazil vs Haiti"
         },
         {
           "player": "Matheus Cunha",
           "team": "Brazil",
+          "minute": "36'",
           "match": "Brazil vs Haiti"
         },
         {
           "player": "Vinícius Júnior",
           "team": "Brazil",
+          "minute": "45+3'",
           "match": "Brazil vs Haiti"
         }
       ],
@@ -3233,6 +3328,7 @@
         {
           "player": "Matías Galarza",
           "team": "Paraguay",
+          "minute": "2'",
           "match": "Türkiye vs Paraguay"
         }
       ],
@@ -3312,31 +3408,37 @@
         {
           "player": "Brian Brobbey",
           "team": "Netherlands",
+          "minute": "5'",
           "match": "Netherlands vs Sweden"
         },
         {
           "player": "Brian Brobbey",
           "team": "Netherlands",
+          "minute": "17'",
           "match": "Netherlands vs Sweden"
         },
         {
           "player": "Cody Gakpo",
           "team": "Netherlands",
+          "minute": "47'",
           "match": "Netherlands vs Sweden"
         },
         {
           "player": "Cody Gakpo",
           "team": "Netherlands",
-          "match": "Netherlands vs Sweden"
-        },
-        {
-          "player": "Crysencio Summerville",
-          "team": "Netherlands",
+          "minute": "54'",
           "match": "Netherlands vs Sweden"
         },
         {
           "player": "Anthony Elanga",
           "team": "Sweden",
+          "minute": "59'",
+          "match": "Netherlands vs Sweden"
+        },
+        {
+          "player": "Crysencio Summerville",
+          "team": "Netherlands",
+          "minute": "89'",
           "match": "Netherlands vs Sweden"
         }
       ],
@@ -3410,16 +3512,19 @@
         {
           "player": "Franck Kessié",
           "team": "Cote d'Ivoire",
+          "minute": "30'",
           "match": "Germany vs Cote d'Ivoire"
         },
         {
           "player": "Deniz Undav",
           "team": "Germany",
+          "minute": "68'",
           "match": "Germany vs Cote d'Ivoire"
         },
         {
           "player": "Deniz Undav",
           "team": "Germany",
+          "minute": "90+4'",
           "match": "Germany vs Cote d'Ivoire"
         }
       ],
@@ -3570,21 +3675,25 @@
         {
           "player": "Daichi Kamada",
           "team": "Japan",
+          "minute": "4'",
           "match": "Tunisia vs Japan"
         },
         {
           "player": "Ayase Ueda",
           "team": "Japan",
+          "minute": "31'",
           "match": "Tunisia vs Japan"
         },
         {
           "player": "Junya Ito",
           "team": "Japan",
+          "minute": "69'",
           "match": "Tunisia vs Japan"
         },
         {
           "player": "Ayase Ueda",
           "team": "Japan",
+          "minute": "83'",
           "match": "Tunisia vs Japan"
         }
       ],
@@ -3642,21 +3751,25 @@
         {
           "player": "Lamine Yamal",
           "team": "Spain",
+          "minute": "10'",
           "match": "Spain vs Saudi Arabia"
         },
         {
           "player": "Mikel Oyarzabal",
           "team": "Spain",
+          "minute": "21'",
           "match": "Spain vs Saudi Arabia"
         },
         {
           "player": "Mikel Oyarzabal",
           "team": "Spain",
+          "minute": "24'",
           "match": "Spain vs Saudi Arabia"
         },
         {
-          "player": "Hassan Al-Tambakti(OG)",
+          "player": "Hassan Al-Tambakti",
           "team": "Spain",
+          "minute": "49'",
           "match": "Spain vs Saudi Arabia"
         }
       ],
@@ -3795,21 +3908,25 @@
         {
           "player": "Kevin Pina",
           "team": "Cabo Verde",
+          "minute": "21'",
           "match": "Uruguay vs Cabo Verde"
         },
         {
-          "player": "Maximiliano Araújo",
+          "player": "Maxi Araújo",
           "team": "Uruguay",
+          "minute": "44'",
           "match": "Uruguay vs Cabo Verde"
         },
         {
           "player": "Agustín Canobbio",
           "team": "Uruguay",
+          "minute": "45+6'",
           "match": "Uruguay vs Cabo Verde"
         },
         {
           "player": "Hélio Varela",
           "team": "Cabo Verde",
+          "minute": "61'",
           "match": "Uruguay vs Cabo Verde"
         }
       ],
@@ -3888,21 +4005,25 @@
         {
           "player": "Finn Surman",
           "team": "New Zealand",
+          "minute": "15'",
           "match": "New Zealand vs Egypt"
         },
         {
-          "player": "Mostafa Ziko",
+          "player": "Mostafa Zico",
           "team": "Egypt",
+          "minute": "58'",
           "match": "New Zealand vs Egypt"
         },
         {
           "player": "Mohamed Salah",
           "team": "Egypt",
+          "minute": "67'",
           "match": "New Zealand vs Egypt"
         },
         {
           "player": "Trézéguet",
           "team": "Egypt",
+          "minute": "82'",
           "match": "New Zealand vs Egypt"
         }
       ],
@@ -3976,11 +4097,13 @@
         {
           "player": "Lionel Messi",
           "team": "Argentina",
+          "minute": "38'",
           "match": "Argentina vs Austria"
         },
         {
           "player": "Lionel Messi",
           "team": "Argentina",
+          "minute": "90+5'",
           "match": "Argentina vs Austria"
         }
       ],
@@ -4059,16 +4182,19 @@
         {
           "player": "Kylian Mbappé",
           "team": "France",
+          "minute": "14'",
           "match": "France vs Iraq"
         },
         {
           "player": "Kylian Mbappé",
           "team": "France",
+          "minute": "54'",
           "match": "France vs Iraq"
         },
         {
           "player": "Ousmane Dembélé",
           "team": "France",
+          "minute": "66'",
           "match": "France vs Iraq"
         }
       ],
@@ -4132,26 +4258,31 @@
         {
           "player": "Marcus Holmgren Pedersen",
           "team": "Norway",
+          "minute": "43'",
           "match": "Norway vs Senegal"
         },
         {
           "player": "Erling Haaland",
           "team": "Norway",
+          "minute": "48'",
           "match": "Norway vs Senegal"
         },
         {
           "player": "Ismaïla Sarr",
           "team": "Senegal",
+          "minute": "53'",
           "match": "Norway vs Senegal"
         },
         {
           "player": "Erling Haaland",
           "team": "Norway",
+          "minute": "58'",
           "match": "Norway vs Senegal"
         },
         {
           "player": "Ismaïla Sarr",
           "team": "Senegal",
+          "minute": "90+3'",
           "match": "Norway vs Senegal"
         }
       ],
@@ -4209,16 +4340,19 @@
         {
           "player": "Nizar Al-Rashdan",
           "team": "Jordan",
+          "minute": "36'",
           "match": "Jordan vs Algeria"
         },
         {
           "player": "Nadhir Benbouali",
           "team": "Algeria",
+          "minute": "69'",
           "match": "Jordan vs Algeria"
         },
         {
           "player": "Amine Gouiri",
           "team": "Algeria",
+          "minute": "82'",
           "match": "Jordan vs Algeria"
         }
       ],
@@ -4287,26 +4421,31 @@
         {
           "player": "Cristiano Ronaldo",
           "team": "Portugal",
+          "minute": "6'",
           "match": "Portugal vs Uzbekistan"
         },
         {
           "player": "Nuno Mendes",
           "team": "Portugal",
+          "minute": "17'",
           "match": "Portugal vs Uzbekistan"
         },
         {
           "player": "Cristiano Ronaldo",
           "team": "Portugal",
+          "minute": "39'",
           "match": "Portugal vs Uzbekistan"
         },
         {
-          "player": "Abduvohid Nematov (OG)",
+          "player": "Abduvohid Nematov",
           "team": "Portugal",
+          "minute": "60'",
           "match": "Portugal vs Uzbekistan"
         },
         {
           "player": "Rafael Leão",
           "team": "Portugal",
+          "minute": "87'",
           "match": "Portugal vs Uzbekistan"
         }
       ],
@@ -4437,6 +4576,7 @@
         {
           "player": "Ante Budimir",
           "team": "Croatia",
+          "minute": "54'",
           "match": "Panama vs Croatia"
         }
       ],
@@ -4505,6 +4645,7 @@
         {
           "player": "Daniel Muñoz",
           "team": "Colombia",
+          "minute": "76'",
           "match": "Colombia vs DR Congo"
         }
       ],
@@ -4578,16 +4719,19 @@
         {
           "player": "Rubén Vargas",
           "team": "Switzerland",
+          "minute": "46'",
           "match": "Switzerland vs Canada"
         },
         {
           "player": "Johan Manzambi",
           "team": "Switzerland",
+          "minute": "57'",
           "match": "Switzerland vs Canada"
         },
         {
           "player": "Promise David",
           "team": "Canada",
+          "minute": "76'",
           "match": "Switzerland vs Canada"
         }
       ],
@@ -4659,23 +4803,27 @@
       "awayScore": 1,
       "scorers": [
         {
-          "player": "Kerim Alajbegović",
+          "player": "Kerim Alajbegovic",
           "team": "Bosnia and Herzegovina",
+          "minute": "29'",
           "match": "Bosnia and Herzegovina vs Qatar"
         },
         {
-          "player": "Sultan Al-Brake (Own Goal)",
+          "player": "Mahmoud Abunada",
           "team": "Bosnia and Herzegovina",
+          "minute": "34'",
           "match": "Bosnia and Herzegovina vs Qatar"
         },
         {
           "player": "Hassan Al-Haydos",
           "team": "Qatar",
+          "minute": "42'",
           "match": "Bosnia and Herzegovina vs Qatar"
         },
         {
-          "player": "Ermin Mahmić",
+          "player": "Ermin Mahmic",
           "team": "Bosnia and Herzegovina",
+          "minute": "80'",
           "match": "Bosnia and Herzegovina vs Qatar"
         }
       ],
@@ -4744,16 +4892,19 @@
         {
           "player": "Vinícius Júnior",
           "team": "Brazil",
+          "minute": "7'",
           "match": "Scotland vs Brazil"
         },
         {
           "player": "Vinícius Júnior",
           "team": "Brazil",
+          "minute": "45+3'",
           "match": "Scotland vs Brazil"
         },
         {
           "player": "Matheus Cunha",
           "team": "Brazil",
+          "minute": "60'",
           "match": "Scotland vs Brazil"
         }
       ],
@@ -4809,33 +4960,39 @@
       "awayScore": 2,
       "scorers": [
         {
-          "player": "Yassine Bounou (Own Goal)",
+          "player": "Yassine Bounou",
           "team": "Haiti",
+          "minute": "10'",
           "match": "Morocco vs Haiti"
         },
         {
           "player": "Achraf Hakimi",
           "team": "Morocco",
+          "minute": "39'",
           "match": "Morocco vs Haiti"
         },
         {
           "player": "Wilson Isidor",
           "team": "Haiti",
+          "minute": "43'",
           "match": "Morocco vs Haiti"
         },
         {
           "player": "Ismael Saibari",
           "team": "Morocco",
+          "minute": "45+1'",
           "match": "Morocco vs Haiti"
         },
         {
           "player": "Soufiane Rahimi",
           "team": "Morocco",
+          "minute": "78'",
           "match": "Morocco vs Haiti"
         },
         {
           "player": "Gessime Yassine",
           "team": "Morocco",
+          "minute": "89'",
           "match": "Morocco vs Haiti"
         }
       ],
@@ -4899,16 +5056,19 @@
         {
           "player": "Mateo Chávez",
           "team": "Mexico",
+          "minute": "55'",
           "match": "Czechia vs Mexico"
         },
         {
           "player": "Julián Quiñones",
           "team": "Mexico",
+          "minute": "61'",
           "match": "Czechia vs Mexico"
         },
         {
           "player": "Álvaro Fidalgo",
           "team": "Mexico",
+          "minute": "90+4'",
           "match": "Czechia vs Mexico"
         }
       ],
@@ -4972,6 +5132,7 @@
         {
           "player": "Thapelo Maseko",
           "team": "South Africa",
+          "minute": "63'",
           "match": "South Africa vs Korea Republic"
         }
       ],
@@ -5040,11 +5201,13 @@
         {
           "player": "Nicolas Pépé",
           "team": "Cote d'Ivoire",
+          "minute": "7'",
           "match": "Curaçao vs Cote d'Ivoire"
         },
         {
           "player": "Nicolas Pépé",
           "team": "Cote d'Ivoire",
+          "minute": "64'",
           "match": "Curaçao vs Cote d'Ivoire"
         }
       ],
@@ -5116,18 +5279,21 @@
       "awayScore": 1,
       "scorers": [
         {
-          "player": "Ángel Mena",
+          "player": "Leroy Sané",
+          "team": "Germany",
+          "minute": "2'",
+          "match": "Ecuador vs Germany"
+        },
+        {
+          "player": "Nilson Angulo",
           "team": "Ecuador",
+          "minute": "9'",
           "match": "Ecuador vs Germany"
         },
         {
           "player": "Gonzalo Plata",
           "team": "Ecuador",
-          "match": "Ecuador vs Germany"
-        },
-        {
-          "player": "Leroy Sané",
-          "team": "Germany",
+          "minute": "77'",
           "match": "Ecuador vs Germany"
         }
       ],
@@ -5185,11 +5351,13 @@
         {
           "player": "Daizen Maeda",
           "team": "Japan",
+          "minute": "56'",
           "match": "Japan vs Sweden"
         },
         {
           "player": "Anthony Elanga",
           "team": "Sweden",
+          "minute": "62'",
           "match": "Japan vs Sweden"
         }
       ],
@@ -5245,23 +5413,27 @@
       "awayScore": 3,
       "scorers": [
         {
-          "player": "Ellyes Skhiri (OG)",
+          "player": "Ellyes Skhiri",
           "team": "Netherlands",
+          "minute": "3'",
           "match": "Tunisia vs Netherlands"
         },
         {
           "player": "Brian Brobbey",
           "team": "Netherlands",
-          "match": "Tunisia vs Netherlands"
-        },
-        {
-          "player": "Jan-Paul van Hecke",
-          "team": "Netherlands",
+          "minute": "7'",
           "match": "Tunisia vs Netherlands"
         },
         {
           "player": "Hazem Mastouri",
           "team": "Tunisia",
+          "minute": "54'",
+          "match": "Tunisia vs Netherlands"
+        },
+        {
+          "player": "Jan Paul van Hecke",
+          "team": "Netherlands",
+          "minute": "62'",
           "match": "Tunisia vs Netherlands"
         }
       ],
@@ -5317,28 +5489,33 @@
       "awayScore": 2,
       "scorers": [
         {
-          "player": "Arda Güler",
-          "team": "Türkiye",
-          "match": "Türkiye vs United States"
-        },
-        {
-          "player": "Barış Alper Yılmaz",
-          "team": "Türkiye",
-          "match": "Türkiye vs United States"
-        },
-        {
-          "player": "Kaan Ayhan",
-          "team": "Türkiye",
-          "match": "Türkiye vs United States"
-        },
-        {
           "player": "Auston Trusty",
           "team": "United States",
+          "minute": "3'",
+          "match": "Türkiye vs United States"
+        },
+        {
+          "player": "Arda Güler",
+          "team": "Türkiye",
+          "minute": "10'",
+          "match": "Türkiye vs United States"
+        },
+        {
+          "player": "Baris Alper Yilmaz",
+          "team": "Türkiye",
+          "minute": "31'",
           "match": "Türkiye vs United States"
         },
         {
           "player": "Sebastian Berhalter",
           "team": "United States",
+          "minute": "49'",
+          "match": "Türkiye vs United States"
+        },
+        {
+          "player": "Kaan Ayhan",
+          "team": "Türkiye",
+          "minute": "90+8'",
           "match": "Türkiye vs United States"
         }
       ],
@@ -5453,26 +5630,31 @@
         {
           "player": "Ousmane Dembélé",
           "team": "France",
+          "minute": "7'",
           "match": "Norway vs France"
         },
         {
           "player": "Ousmane Dembélé",
           "team": "France",
+          "minute": "20'",
           "match": "Norway vs France"
         },
         {
           "player": "Thelo Aasgaard",
           "team": "Norway",
+          "minute": "21'",
           "match": "Norway vs France"
         },
         {
           "player": "Ousmane Dembélé",
           "team": "France",
+          "minute": "32'",
           "match": "Norway vs France"
         },
         {
           "player": "Désiré Doué",
           "team": "France",
+          "minute": "90+4'",
           "match": "Norway vs France"
         }
       ],
@@ -5536,26 +5718,31 @@
         {
           "player": "Habib Diarra",
           "team": "Senegal",
+          "minute": "4'",
           "match": "Senegal vs Iraq"
         },
         {
           "player": "Ismaïla Sarr",
           "team": "Senegal",
+          "minute": "56'",
           "match": "Senegal vs Iraq"
         },
         {
           "player": "Pape Gueye",
           "team": "Senegal",
+          "minute": "59'",
           "match": "Senegal vs Iraq"
         },
         {
           "player": "Pape Gueye",
           "team": "Senegal",
+          "minute": "71'",
           "match": "Senegal vs Iraq"
         },
         {
           "player": "Iliman Ndiaye",
           "team": "Senegal",
+          "minute": "82'",
           "match": "Senegal vs Iraq"
         }
       ],
@@ -5691,6 +5878,7 @@
         {
           "player": "Álex Baena",
           "team": "Spain",
+          "minute": "42'",
           "match": "Uruguay vs Spain"
         }
       ],
@@ -5775,11 +5963,13 @@
         {
           "player": "Mahmoud Saber",
           "team": "Egypt",
+          "minute": "5'",
           "match": "Egypt vs Iran"
         },
         {
           "player": "Ramin Rezaeian",
           "team": "Iran",
+          "minute": "14'",
           "match": "Egypt vs Iran"
         }
       ],
@@ -5873,31 +6063,37 @@
         {
           "player": "Leandro Trossard",
           "team": "Belgium",
+          "minute": "28'",
           "match": "New Zealand vs Belgium"
         },
         {
           "player": "Leandro Trossard",
           "team": "Belgium",
+          "minute": "50'",
           "match": "New Zealand vs Belgium"
         },
         {
           "player": "Kevin De Bruyne",
           "team": "Belgium",
+          "minute": "66'",
           "match": "New Zealand vs Belgium"
         },
         {
           "player": "Elijah Just",
           "team": "New Zealand",
+          "minute": "84'",
           "match": "New Zealand vs Belgium"
         },
         {
           "player": "Romelu Lukaku",
           "team": "Belgium",
+          "minute": "86'",
           "match": "New Zealand vs Belgium"
         },
         {
           "player": "Alexis Saelemaekers",
           "team": "Belgium",
+          "minute": "90+4'",
           "match": "New Zealand vs Belgium"
         }
       ],
@@ -5961,11 +6157,13 @@
         {
           "player": "Jude Bellingham",
           "team": "England",
+          "minute": "62'",
           "match": "Panama vs England"
         },
         {
           "player": "Harry Kane",
           "team": "England",
+          "minute": "67'",
           "match": "Panama vs England"
         }
       ],
@@ -6037,18 +6235,21 @@
       "awayScore": 1,
       "scorers": [
         {
-          "player": "Petar Sučić",
+          "player": "Petar Sucic",
           "team": "Croatia",
+          "minute": "31'",
           "match": "Croatia vs Ghana"
         },
         {
           "player": "Derrick Luckassen",
           "team": "Ghana",
+          "minute": "73'",
           "match": "Croatia vs Ghana"
         },
         {
-          "player": "Nikola Vlašić",
+          "player": "Nikola Vlasic",
           "team": "Croatia",
+          "minute": "83'",
           "match": "Croatia vs Ghana"
         }
       ],
@@ -6174,21 +6375,25 @@
         {
           "player": "Eldor Shomurodov",
           "team": "Uzbekistan",
+          "minute": "10'",
           "match": "DR Congo vs Uzbekistan"
         },
         {
           "player": "Yoane Wissa",
           "team": "DR Congo",
+          "minute": "68'",
           "match": "DR Congo vs Uzbekistan"
         },
         {
           "player": "Fiston Mayele",
           "team": "DR Congo",
+          "minute": "78'",
           "match": "DR Congo vs Uzbekistan"
         },
         {
           "player": "Yoane Wissa",
           "team": "DR Congo",
+          "minute": "90+1'",
           "match": "DR Congo vs Uzbekistan"
         }
       ],
@@ -6270,33 +6475,39 @@
       "awayScore": 3,
       "scorers": [
         {
-          "player": "Marko Arnautović",
+          "player": "Marko Arnautovic",
           "team": "Austria",
+          "minute": "28'",
           "match": "Algeria vs Austria"
         },
         {
           "player": "Rafik Belghali",
           "team": "Algeria",
+          "minute": "45'",
           "match": "Algeria vs Austria"
         },
         {
           "player": "Marcel Sabitzer",
           "team": "Austria",
+          "minute": "55'",
           "match": "Algeria vs Austria"
         },
         {
           "player": "Riyad Mahrez",
           "team": "Algeria",
+          "minute": "60'",
           "match": "Algeria vs Austria"
         },
         {
           "player": "Riyad Mahrez",
           "team": "Algeria",
+          "minute": "90+3'",
           "match": "Algeria vs Austria"
         },
         {
-          "player": "Saša Kalajdžić",
+          "player": "Sasa Kalajdzic",
           "team": "Austria",
+          "minute": "90+6'",
           "match": "Algeria vs Austria"
         }
       ],
@@ -6360,21 +6571,25 @@
         {
           "player": "Giovani Lo Celso",
           "team": "Argentina",
+          "minute": "19'",
           "match": "Jordan vs Argentina"
         },
         {
           "player": "Lautaro Martínez",
           "team": "Argentina",
+          "minute": "31'",
           "match": "Jordan vs Argentina"
         },
         {
           "player": "Mousa Al-Tamari",
           "team": "Jordan",
+          "minute": "55'",
           "match": "Jordan vs Argentina"
         },
         {
           "player": "Lionel Messi",
           "team": "Argentina",
+          "minute": "80'",
           "match": "Jordan vs Argentina"
         }
       ],
@@ -6438,6 +6653,7 @@
         {
           "player": "Stephen Eustáquio",
           "team": "Canada",
+          "minute": "90+2'",
           "match": "South Africa vs Canada"
         }
       ],
@@ -6504,18 +6720,21 @@
       "awayScore": 1,
       "scorers": [
         {
-          "player": "Kaishū Sano",
+          "player": "Kaishu Sano",
           "team": "Japan",
+          "minute": "29'",
           "match": "Brazil vs Japan"
         },
         {
           "player": "Casemiro",
           "team": "Brazil",
+          "minute": "56'",
           "match": "Brazil vs Japan"
         },
         {
           "player": "Gabriel Martinelli",
           "team": "Brazil",
+          "minute": "90+5'",
           "match": "Brazil vs Japan"
         }
       ],
@@ -6601,11 +6820,13 @@
         {
           "player": "Julio Enciso",
           "team": "Paraguay",
+          "minute": "42'",
           "match": "Germany vs Paraguay"
         },
         {
           "player": "Kai Havertz",
           "team": "Germany",
+          "minute": "54'",
           "match": "Germany vs Paraguay"
         }
       ],
@@ -6688,11 +6909,13 @@
         {
           "player": "Cody Gakpo",
           "team": "Netherlands",
+          "minute": "72'",
           "match": "Netherlands vs Morocco"
         },
         {
           "player": "Issa Diop",
           "team": "Morocco",
+          "minute": "90+1'",
           "match": "Netherlands vs Morocco"
         }
       ],
@@ -6758,16 +6981,19 @@
         {
           "player": "Antonio Nusa",
           "team": "Norway",
+          "minute": "39'",
           "match": "Cote d'Ivoire vs Norway"
         },
         {
           "player": "Amad Diallo",
           "team": "Cote d'Ivoire",
+          "minute": "74'",
           "match": "Cote d'Ivoire vs Norway"
         },
         {
           "player": "Erling Haaland",
           "team": "Norway",
+          "minute": "86'",
           "match": "Cote d'Ivoire vs Norway"
         }
       ],
@@ -6831,16 +7057,19 @@
         {
           "player": "Kylian Mbappé",
           "team": "France",
+          "minute": "45'",
           "match": "France vs Sweden"
         },
         {
           "player": "Bradley Barcola",
           "team": "France",
+          "minute": "53'",
           "match": "France vs Sweden"
         },
         {
           "player": "Kylian Mbappé",
           "team": "France",
+          "minute": "74'",
           "match": "France vs Sweden"
         }
       ],
@@ -6898,11 +7127,13 @@
         {
           "player": "Julián Quiñones",
           "team": "Mexico",
+          "minute": "22'",
           "match": "Mexico vs Ecuador"
         },
         {
           "player": "Raúl Jiménez",
           "team": "Mexico",
+          "minute": "31'",
           "match": "Mexico vs Ecuador"
         }
       ],
@@ -6977,16 +7208,19 @@
         {
           "player": "Brian Cipenga",
           "team": "DR Congo",
+          "minute": "7'",
           "match": "England vs DR Congo"
         },
         {
           "player": "Harry Kane",
           "team": "England",
+          "minute": "75'",
           "match": "England vs DR Congo"
         },
         {
           "player": "Harry Kane",
           "team": "England",
+          "minute": "86'",
           "match": "England vs DR Congo"
         }
       ],
@@ -7055,26 +7289,31 @@
         {
           "player": "Habib Diarra",
           "team": "Senegal",
+          "minute": "24'",
           "match": "Belgium vs Senegal"
         },
         {
           "player": "Ismaïla Sarr",
           "team": "Senegal",
+          "minute": "51'",
           "match": "Belgium vs Senegal"
         },
         {
           "player": "Romelu Lukaku",
           "team": "Belgium",
+          "minute": "86'",
           "match": "Belgium vs Senegal"
         },
         {
           "player": "Youri Tielemans",
           "team": "Belgium",
+          "minute": "89'",
           "match": "Belgium vs Senegal"
         },
         {
           "player": "Youri Tielemans",
           "team": "Belgium",
+          "minute": "120+5'",
           "match": "Belgium vs Senegal"
         }
       ],
@@ -7162,12 +7401,14 @@
       "scorers": [
         {
           "player": "Folarin Balogun",
-          "team": "Iran",
+          "team": "United States",
+          "minute": "45'",
           "match": "United States vs Bosnia and Herzegovina"
         },
         {
           "player": "Malik Tillman",
-          "team": "Iran",
+          "team": "United States",
+          "minute": "82'",
           "match": "United States vs Bosnia and Herzegovina"
         }
       ],
@@ -7242,16 +7483,19 @@
         {
           "player": "Mikel Oyarzabal",
           "team": "Spain",
+          "minute": "36'",
           "match": "Spain vs Austria"
         },
         {
           "player": "Pedro Porro",
           "team": "Spain",
+          "minute": "66'",
           "match": "Spain vs Austria"
         },
         {
           "player": "Mikel Oyarzabal",
           "team": "Spain",
+          "minute": "89'",
           "match": "Spain vs Austria"
         }
       ],
@@ -7313,18 +7557,21 @@
       "awayScore": 1,
       "scorers": [
         {
-          "player": "Ivan Perišić",
+          "player": "Ivan Perisic",
           "team": "Croatia",
+          "minute": "53'",
           "match": "Portugal vs Croatia"
         },
         {
           "player": "Cristiano Ronaldo",
           "team": "Portugal",
+          "minute": "68'",
           "match": "Portugal vs Croatia"
         },
         {
           "player": "Gonçalo Ramos",
           "team": "Portugal",
+          "minute": "90+4'",
           "match": "Portugal vs Croatia"
         }
       ],
@@ -7398,11 +7645,13 @@
         {
           "player": "Breel Embolo",
           "team": "Switzerland",
+          "minute": "10'",
           "match": "Switzerland vs Algeria"
         },
         {
           "player": "Dan Ndoye",
           "team": "Switzerland",
+          "minute": "46'",
           "match": "Switzerland vs Algeria"
         }
       ],
@@ -7473,11 +7722,13 @@
         {
           "player": "Emam Ashour",
           "team": "Egypt",
+          "minute": "13'",
           "match": "Australia vs Egypt"
         },
         {
-          "player": "Mohamed Hany(OG)",
+          "player": "Mohamed Hany",
           "team": "Australia",
+          "minute": "55'",
           "match": "Australia vs Egypt"
         }
       ],
@@ -7548,26 +7799,31 @@
         {
           "player": "Lionel Messi",
           "team": "Argentina",
+          "minute": "29'",
           "match": "Argentina vs Cabo Verde"
         },
         {
           "player": "Deroy Duarte",
           "team": "Cabo Verde",
+          "minute": "59'",
           "match": "Argentina vs Cabo Verde"
         },
         {
           "player": "Lisandro Martínez",
           "team": "Argentina",
+          "minute": "92'",
           "match": "Argentina vs Cabo Verde"
         },
         {
           "player": "Sidny Lopes Cabral",
           "team": "Cabo Verde",
+          "minute": "103'",
           "match": "Argentina vs Cabo Verde"
         },
         {
-          "player": "Diney Borges(OG)",
+          "player": "Diney Borges",
           "team": "Argentina",
+          "minute": "111'",
           "match": "Argentina vs Cabo Verde"
         }
       ],
@@ -7636,6 +7892,7 @@
         {
           "player": "Jhon Arias",
           "team": "Colombia",
+          "minute": "14'",
           "match": "Colombia vs Ghana"
         }
       ],
@@ -7719,6 +7976,7 @@
         {
           "player": "Kylian Mbappé",
           "team": "France",
+          "minute": "70'",
           "match": "Paraguay vs France"
         }
       ],
@@ -7776,16 +8034,19 @@
         {
           "player": "Erling Haaland",
           "team": "Norway",
+          "minute": "79'",
           "match": "Brazil vs Norway"
         },
         {
           "player": "Erling Haaland",
           "team": "Norway",
+          "minute": "90'",
           "match": "Brazil vs Norway"
         },
         {
           "player": "Neymar",
           "team": "Brazil",
+          "minute": "90+10'",
           "match": "Brazil vs Norway"
         }
       ],
@@ -7845,26 +8106,31 @@
         {
           "player": "Jude Bellingham",
           "team": "England",
+          "minute": "36'",
           "match": "Mexico vs England"
         },
         {
           "player": "Jude Bellingham",
           "team": "England",
+          "minute": "38'",
           "match": "Mexico vs England"
         },
         {
           "player": "Julián Quiñones",
           "team": "Mexico",
+          "minute": "42'",
           "match": "Mexico vs England"
         },
         {
           "player": "Harry Kane",
           "team": "England",
+          "minute": "60'",
           "match": "Mexico vs England"
         },
         {
           "player": "Raúl Jiménez",
           "team": "Mexico",
+          "minute": "69'",
           "match": "Mexico vs England"
         }
       ],
@@ -7955,6 +8221,7 @@
         {
           "player": "Mikel Merino",
           "team": "Spain",
+          "minute": "90+1'",
           "match": "Portugal vs Spain"
         }
       ],
@@ -8024,26 +8291,31 @@
         {
           "player": "Charles De Ketelaere",
           "team": "Belgium",
+          "minute": "9'",
           "match": "United States vs Belgium"
         },
         {
           "player": "Malik Tillman",
           "team": "United States",
+          "minute": "31'",
           "match": "United States vs Belgium"
         },
         {
           "player": "Charles De Ketelaere",
           "team": "Belgium",
+          "minute": "33'",
           "match": "United States vs Belgium"
         },
         {
           "player": "Hans Vanaken",
           "team": "Belgium",
+          "minute": "57'",
           "match": "United States vs Belgium"
         },
         {
           "player": "Romelu Lukaku",
           "team": "Belgium",
+          "minute": "90+3'",
           "match": "United States vs Belgium"
         }
       ],
@@ -8108,26 +8380,31 @@
         {
           "player": "Yasser Ibrahim",
           "team": "Egypt",
+          "minute": "15'",
           "match": "Argentina vs Egypt"
         },
         {
-          "player": "Mostafa Ziko",
+          "player": "Mostafa Zico",
           "team": "Egypt",
+          "minute": "67'",
           "match": "Argentina vs Egypt"
         },
         {
           "player": "Cristian Romero",
           "team": "Argentina",
+          "minute": "79'",
           "match": "Argentina vs Egypt"
         },
         {
           "player": "Lionel Messi",
           "team": "Argentina",
+          "minute": "83'",
           "match": "Argentina vs Egypt"
         },
         {
           "player": "Enzo Fernández",
           "team": "Argentina",
+          "minute": "90+2'",
           "match": "Argentina vs Egypt"
         }
       ],
@@ -8279,11 +8556,13 @@
         {
           "player": "Kylian Mbappé",
           "team": "France",
+          "minute": "60'",
           "match": "France vs Morocco"
         },
         {
           "player": "Ousmane Dembélé",
           "team": "France",
+          "minute": "66'",
           "match": "France vs Morocco"
         }
       ],
@@ -8343,16 +8622,19 @@
         {
           "player": "Fabián Ruiz",
           "team": "Spain",
+          "minute": "30'",
           "match": "Spain vs Belgium"
         },
         {
           "player": "Charles De Ketelaere",
           "team": "Belgium",
+          "minute": "41'",
           "match": "Spain vs Belgium"
         },
         {
           "player": "Mikel Merino",
           "team": "Spain",
+          "minute": "88'",
           "match": "Spain vs Belgium"
         }
       ],
@@ -8428,16 +8710,19 @@
         {
           "player": "Andreas Schjelderup",
           "team": "Norway",
+          "minute": "36'",
           "match": "Norway vs England"
         },
         {
           "player": "Jude Bellingham",
           "team": "England",
+          "minute": "45+2'",
           "match": "Norway vs England"
         },
         {
           "player": "Jude Bellingham",
           "team": "England",
+          "minute": "93'",
           "match": "Norway vs England"
         }
       ],
@@ -8495,21 +8780,25 @@
         {
           "player": "Alexis Mac Allister",
           "team": "Argentina",
+          "minute": "10'",
           "match": "Argentina vs Switzerland"
         },
         {
           "player": "Dan Ndoye",
           "team": "Switzerland",
+          "minute": "67'",
           "match": "Argentina vs Switzerland"
         },
         {
           "player": "Julián Álvarez",
           "team": "Argentina",
+          "minute": "112'",
           "match": "Argentina vs Switzerland"
         },
         {
           "player": "Lautaro Martínez",
           "team": "Argentina",
+          "minute": "120+1'",
           "match": "Argentina vs Switzerland"
         }
       ],
@@ -8590,11 +8879,13 @@
         {
           "player": "Mikel Oyarzabal",
           "team": "Spain",
+          "minute": "22'",
           "match": "France vs Spain"
         },
         {
           "player": "Pedro Porro",
           "team": "Spain",
+          "minute": "58'",
           "match": "France vs Spain"
         }
       ],
@@ -8664,16 +8955,19 @@
         {
           "player": "Anthony Gordon",
           "team": "England",
+          "minute": "55'",
           "match": "England vs Argentina"
         },
         {
           "player": "Enzo Fernández",
           "team": "Argentina",
+          "minute": "85'",
           "match": "England vs Argentina"
         },
         {
           "player": "Lautaro Martínez",
           "team": "Argentina",
+          "minute": "90+2'",
           "match": "England vs Argentina"
         }
       ],
@@ -8770,16 +9064,19 @@
         {
           "player": "Azzedine Ounahi",
           "team": "Morocco",
+          "minute": "50'",
           "match": "Canada vs Morocco"
         },
         {
           "player": "Azzedine Ounahi",
           "team": "Morocco",
+          "minute": "82'",
           "match": "Canada vs Morocco"
         },
         {
           "player": "Soufiane Rahimi",
           "team": "Morocco",
+          "minute": "90+8'",
           "match": "Canada vs Morocco"
         }
       ],
@@ -19852,6 +20149,1790 @@
         "yellowCards": 8,
         "penalties": 0,
         "elapsed": 100
+      }
+    ],
+    "goalEvents": [
+      {
+        "player": "Julián Quiñones",
+        "team": "Mexico",
+        "minute": "9'",
+        "match": "Mexico vs South Africa"
+      },
+      {
+        "player": "Raúl Jiménez",
+        "team": "Mexico",
+        "minute": "67'",
+        "match": "Mexico vs South Africa"
+      },
+      {
+        "player": "Ladislav Krejcí",
+        "team": "Czechia",
+        "minute": "59'",
+        "match": "Korea Republic vs Czechia"
+      },
+      {
+        "player": "Hwang In-Beom",
+        "team": "Korea Republic",
+        "minute": "67'",
+        "match": "Korea Republic vs Czechia"
+      },
+      {
+        "player": "Oh Hyeon-Gyu",
+        "team": "Korea Republic",
+        "minute": "80'",
+        "match": "Korea Republic vs Czechia"
+      },
+      {
+        "player": "Jovo Lukic",
+        "team": "Bosnia and Herzegovina",
+        "minute": "21'",
+        "match": "Canada vs Bosnia and Herzegovina"
+      },
+      {
+        "player": "Cyle Larin",
+        "team": "Canada",
+        "minute": "78'",
+        "match": "Canada vs Bosnia and Herzegovina"
+      },
+      {
+        "player": "Damián Bobadilla",
+        "team": "United States",
+        "minute": "7'",
+        "match": "United States vs Paraguay"
+      },
+      {
+        "player": "Folarin Balogun",
+        "team": "United States",
+        "minute": "31'",
+        "match": "United States vs Paraguay"
+      },
+      {
+        "player": "Folarin Balogun",
+        "team": "United States",
+        "minute": "45+5'",
+        "match": "United States vs Paraguay"
+      },
+      {
+        "player": "Maurício",
+        "team": "Paraguay",
+        "minute": "73'",
+        "match": "United States vs Paraguay"
+      },
+      {
+        "player": "Giovanni Reyna",
+        "team": "United States",
+        "minute": "90+8'",
+        "match": "United States vs Paraguay"
+      },
+      {
+        "player": "Breel Embolo",
+        "team": "Switzerland",
+        "minute": "17'",
+        "match": "Qatar vs Switzerland"
+      },
+      {
+        "player": "Miro Muheim",
+        "team": "Qatar",
+        "minute": "90+4'",
+        "match": "Qatar vs Switzerland"
+      },
+      {
+        "player": "Ismael Saibari",
+        "team": "Morocco",
+        "minute": "21'",
+        "match": "Brazil vs Morocco"
+      },
+      {
+        "player": "Vinícius Júnior",
+        "team": "Brazil",
+        "minute": "32'",
+        "match": "Brazil vs Morocco"
+      },
+      {
+        "player": "John McGinn",
+        "team": "Scotland",
+        "minute": "28'",
+        "match": "Haiti vs Scotland"
+      },
+      {
+        "player": "Nestory Irankunda",
+        "team": "Australia",
+        "minute": "27'",
+        "match": "Australia vs Türkiye"
+      },
+      {
+        "player": "Connor Metcalfe",
+        "team": "Australia",
+        "minute": "75'",
+        "match": "Australia vs Türkiye"
+      },
+      {
+        "player": "Felix Nmecha",
+        "team": "Germany",
+        "minute": "6'",
+        "match": "Germany vs Curaçao"
+      },
+      {
+        "player": "Livano Comenencia",
+        "team": "Curaçao",
+        "minute": "21'",
+        "match": "Germany vs Curaçao"
+      },
+      {
+        "player": "Nico Schlotterbeck",
+        "team": "Germany",
+        "minute": "38'",
+        "match": "Germany vs Curaçao"
+      },
+      {
+        "player": "Kai Havertz",
+        "team": "Germany",
+        "minute": "45+5'",
+        "match": "Germany vs Curaçao"
+      },
+      {
+        "player": "Jamal Musiala",
+        "team": "Germany",
+        "minute": "47'",
+        "match": "Germany vs Curaçao"
+      },
+      {
+        "player": "Nathaniel Brown",
+        "team": "Germany",
+        "minute": "68'",
+        "match": "Germany vs Curaçao"
+      },
+      {
+        "player": "Deniz Undav",
+        "team": "Germany",
+        "minute": "78'",
+        "match": "Germany vs Curaçao"
+      },
+      {
+        "player": "Kai Havertz",
+        "team": "Germany",
+        "minute": "88'",
+        "match": "Germany vs Curaçao"
+      },
+      {
+        "player": "Virgil van Dijk",
+        "team": "Netherlands",
+        "minute": "51'",
+        "match": "Netherlands vs Japan"
+      },
+      {
+        "player": "Keito Nakamura",
+        "team": "Japan",
+        "minute": "57'",
+        "match": "Netherlands vs Japan"
+      },
+      {
+        "player": "Crysencio Summerville",
+        "team": "Netherlands",
+        "minute": "64'",
+        "match": "Netherlands vs Japan"
+      },
+      {
+        "player": "Daichi Kamada",
+        "team": "Japan",
+        "minute": "89'",
+        "match": "Netherlands vs Japan"
+      },
+      {
+        "player": "Amad Diallo",
+        "team": "Cote d'Ivoire",
+        "minute": "90'",
+        "match": "Cote d'Ivoire vs Ecuador"
+      },
+      {
+        "player": "Yasin Ayari",
+        "team": "Sweden",
+        "minute": "7'",
+        "match": "Sweden vs Tunisia"
+      },
+      {
+        "player": "Alexander Isak",
+        "team": "Sweden",
+        "minute": "30'",
+        "match": "Sweden vs Tunisia"
+      },
+      {
+        "player": "Omar Rekik",
+        "team": "Tunisia",
+        "minute": "43'",
+        "match": "Sweden vs Tunisia"
+      },
+      {
+        "player": "Viktor Gyökeres",
+        "team": "Sweden",
+        "minute": "59'",
+        "match": "Sweden vs Tunisia"
+      },
+      {
+        "player": "Mattias Svanberg",
+        "team": "Sweden",
+        "minute": "84'",
+        "match": "Sweden vs Tunisia"
+      },
+      {
+        "player": "Yasin Ayari",
+        "team": "Sweden",
+        "minute": "90+6'",
+        "match": "Sweden vs Tunisia"
+      },
+      {
+        "player": "Emam Ashour",
+        "team": "Egypt",
+        "minute": "20'",
+        "match": "Belgium vs Egypt"
+      },
+      {
+        "player": "Mohamed Hany",
+        "team": "Belgium",
+        "minute": "66'",
+        "match": "Belgium vs Egypt"
+      },
+      {
+        "player": "Abdulelah Al-Amri",
+        "team": "Saudi Arabia",
+        "minute": "41'",
+        "match": "Saudi Arabia vs Uruguay"
+      },
+      {
+        "player": "Maxi Araújo",
+        "team": "Uruguay",
+        "minute": "80'",
+        "match": "Saudi Arabia vs Uruguay"
+      },
+      {
+        "player": "Elijah Just",
+        "team": "New Zealand",
+        "minute": "7'",
+        "match": "Iran vs New Zealand"
+      },
+      {
+        "player": "Ramin Rezaeian",
+        "team": "Iran",
+        "minute": "32'",
+        "match": "Iran vs New Zealand"
+      },
+      {
+        "player": "Elijah Just",
+        "team": "New Zealand",
+        "minute": "54'",
+        "match": "Iran vs New Zealand"
+      },
+      {
+        "player": "Mohammad Mohebbi",
+        "team": "Iran",
+        "minute": "64'",
+        "match": "Iran vs New Zealand"
+      },
+      {
+        "player": "Kylian Mbappé",
+        "team": "France",
+        "minute": "66'",
+        "match": "France vs Senegal"
+      },
+      {
+        "player": "Bradley Barcola",
+        "team": "France",
+        "minute": "82'",
+        "match": "France vs Senegal"
+      },
+      {
+        "player": "Ibrahim Mbaye",
+        "team": "Senegal",
+        "minute": "90+5'",
+        "match": "France vs Senegal"
+      },
+      {
+        "player": "Kylian Mbappé",
+        "team": "France",
+        "minute": "90+6'",
+        "match": "France vs Senegal"
+      },
+      {
+        "player": "Erling Haaland",
+        "team": "Norway",
+        "minute": "29'",
+        "match": "Iraq vs Norway"
+      },
+      {
+        "player": "Aymen Hussein",
+        "team": "Iraq",
+        "minute": "39'",
+        "match": "Iraq vs Norway"
+      },
+      {
+        "player": "Erling Haaland",
+        "team": "Norway",
+        "minute": "43'",
+        "match": "Iraq vs Norway"
+      },
+      {
+        "player": "Leo Østigard",
+        "team": "Norway",
+        "minute": "76'",
+        "match": "Iraq vs Norway"
+      },
+      {
+        "player": "Aymen Hussein",
+        "team": "Norway",
+        "minute": "90+6'",
+        "match": "Iraq vs Norway"
+      },
+      {
+        "player": "Lionel Messi",
+        "team": "Argentina",
+        "minute": "17'",
+        "match": "Argentina vs Algeria"
+      },
+      {
+        "player": "Lionel Messi",
+        "team": "Argentina",
+        "minute": "60'",
+        "match": "Argentina vs Algeria"
+      },
+      {
+        "player": "Lionel Messi",
+        "team": "Argentina",
+        "minute": "76'",
+        "match": "Argentina vs Algeria"
+      },
+      {
+        "player": "Romano Schmid",
+        "team": "Austria",
+        "minute": "21'",
+        "match": "Austria vs Jordan"
+      },
+      {
+        "player": "Ali Olwan",
+        "team": "Jordan",
+        "minute": "50'",
+        "match": "Austria vs Jordan"
+      },
+      {
+        "player": "Yazan Al-Arab",
+        "team": "Austria",
+        "minute": "76'",
+        "match": "Austria vs Jordan"
+      },
+      {
+        "player": "Marko Arnautovic",
+        "team": "Austria",
+        "minute": "90+12'",
+        "match": "Austria vs Jordan"
+      },
+      {
+        "player": "João Neves",
+        "team": "Portugal",
+        "minute": "6'",
+        "match": "Portugal vs DR Congo"
+      },
+      {
+        "player": "Yoane Wissa",
+        "team": "DR Congo",
+        "minute": "45+5'",
+        "match": "Portugal vs DR Congo"
+      },
+      {
+        "player": "Harry Kane",
+        "team": "England",
+        "minute": "12'",
+        "match": "England vs Croatia"
+      },
+      {
+        "player": "Martin Baturina",
+        "team": "Croatia",
+        "minute": "36'",
+        "match": "England vs Croatia"
+      },
+      {
+        "player": "Harry Kane",
+        "team": "England",
+        "minute": "42'",
+        "match": "England vs Croatia"
+      },
+      {
+        "player": "Petar Musa",
+        "team": "Croatia",
+        "minute": "45+5'",
+        "match": "England vs Croatia"
+      },
+      {
+        "player": "Jude Bellingham",
+        "team": "England",
+        "minute": "47'",
+        "match": "England vs Croatia"
+      },
+      {
+        "player": "Marcus Rashford",
+        "team": "England",
+        "minute": "85'",
+        "match": "England vs Croatia"
+      },
+      {
+        "player": "Caleb Yirenkyi",
+        "team": "Ghana",
+        "minute": "90+5'",
+        "match": "Ghana vs Panama"
+      },
+      {
+        "player": "Daniel Muñoz",
+        "team": "Colombia",
+        "minute": "40'",
+        "match": "Uzbekistan vs Colombia"
+      },
+      {
+        "player": "Abbosbek Fayzullaev",
+        "team": "Uzbekistan",
+        "minute": "60'",
+        "match": "Uzbekistan vs Colombia"
+      },
+      {
+        "player": "Luis Díaz",
+        "team": "Colombia",
+        "minute": "65'",
+        "match": "Uzbekistan vs Colombia"
+      },
+      {
+        "player": "Jáminton Campaz",
+        "team": "Colombia",
+        "minute": "90+9'",
+        "match": "Uzbekistan vs Colombia"
+      },
+      {
+        "player": "Michal Sadílek",
+        "team": "Czechia",
+        "minute": "6'",
+        "match": "Czechia vs South Africa"
+      },
+      {
+        "player": "Teboho Mokoena",
+        "team": "South Africa",
+        "minute": "83'",
+        "match": "Czechia vs South Africa"
+      },
+      {
+        "player": "Johan Manzambi",
+        "team": "Switzerland",
+        "minute": "74'",
+        "match": "Switzerland vs Bosnia and Herzegovina"
+      },
+      {
+        "player": "Rubén Vargas",
+        "team": "Switzerland",
+        "minute": "84'",
+        "match": "Switzerland vs Bosnia and Herzegovina"
+      },
+      {
+        "player": "Johan Manzambi",
+        "team": "Switzerland",
+        "minute": "90'",
+        "match": "Switzerland vs Bosnia and Herzegovina"
+      },
+      {
+        "player": "Ermin Mahmic",
+        "team": "Bosnia and Herzegovina",
+        "minute": "90+3'",
+        "match": "Switzerland vs Bosnia and Herzegovina"
+      },
+      {
+        "player": "Granit Xhaka",
+        "team": "Switzerland",
+        "minute": "90+7'",
+        "match": "Switzerland vs Bosnia and Herzegovina"
+      },
+      {
+        "player": "Cyle Larin",
+        "team": "Canada",
+        "minute": "16'",
+        "match": "Canada vs Qatar"
+      },
+      {
+        "player": "Jonathan David",
+        "team": "Canada",
+        "minute": "29'",
+        "match": "Canada vs Qatar"
+      },
+      {
+        "player": "Jonathan David",
+        "team": "Canada",
+        "minute": "45+3'",
+        "match": "Canada vs Qatar"
+      },
+      {
+        "player": "Nathan Saliba",
+        "team": "Canada",
+        "minute": "64'",
+        "match": "Canada vs Qatar"
+      },
+      {
+        "player": "Mohamed Manai",
+        "team": "Canada",
+        "minute": "75'",
+        "match": "Canada vs Qatar"
+      },
+      {
+        "player": "Jonathan David",
+        "team": "Canada",
+        "minute": "90+2'",
+        "match": "Canada vs Qatar"
+      },
+      {
+        "player": "Luis Romo",
+        "team": "Mexico",
+        "minute": "50'",
+        "match": "Mexico vs Korea Republic"
+      },
+      {
+        "player": "Cameron Burgess",
+        "team": "United States",
+        "minute": "11'",
+        "match": "United States vs Australia"
+      },
+      {
+        "player": "Alex Freeman",
+        "team": "United States",
+        "minute": "43'",
+        "match": "United States vs Australia"
+      },
+      {
+        "player": "Ismael Saibari",
+        "team": "Morocco",
+        "minute": "2'",
+        "match": "Scotland vs Morocco"
+      },
+      {
+        "player": "Matheus Cunha",
+        "team": "Brazil",
+        "minute": "23'",
+        "match": "Brazil vs Haiti"
+      },
+      {
+        "player": "Matheus Cunha",
+        "team": "Brazil",
+        "minute": "36'",
+        "match": "Brazil vs Haiti"
+      },
+      {
+        "player": "Vinícius Júnior",
+        "team": "Brazil",
+        "minute": "45+3'",
+        "match": "Brazil vs Haiti"
+      },
+      {
+        "player": "Matías Galarza",
+        "team": "Paraguay",
+        "minute": "2'",
+        "match": "Türkiye vs Paraguay"
+      },
+      {
+        "player": "Brian Brobbey",
+        "team": "Netherlands",
+        "minute": "5'",
+        "match": "Netherlands vs Sweden"
+      },
+      {
+        "player": "Brian Brobbey",
+        "team": "Netherlands",
+        "minute": "17'",
+        "match": "Netherlands vs Sweden"
+      },
+      {
+        "player": "Cody Gakpo",
+        "team": "Netherlands",
+        "minute": "47'",
+        "match": "Netherlands vs Sweden"
+      },
+      {
+        "player": "Cody Gakpo",
+        "team": "Netherlands",
+        "minute": "54'",
+        "match": "Netherlands vs Sweden"
+      },
+      {
+        "player": "Anthony Elanga",
+        "team": "Sweden",
+        "minute": "59'",
+        "match": "Netherlands vs Sweden"
+      },
+      {
+        "player": "Crysencio Summerville",
+        "team": "Netherlands",
+        "minute": "89'",
+        "match": "Netherlands vs Sweden"
+      },
+      {
+        "player": "Franck Kessié",
+        "team": "Cote d'Ivoire",
+        "minute": "30'",
+        "match": "Germany vs Cote d'Ivoire"
+      },
+      {
+        "player": "Deniz Undav",
+        "team": "Germany",
+        "minute": "68'",
+        "match": "Germany vs Cote d'Ivoire"
+      },
+      {
+        "player": "Deniz Undav",
+        "team": "Germany",
+        "minute": "90+4'",
+        "match": "Germany vs Cote d'Ivoire"
+      },
+      {
+        "player": "Daichi Kamada",
+        "team": "Japan",
+        "minute": "4'",
+        "match": "Tunisia vs Japan"
+      },
+      {
+        "player": "Ayase Ueda",
+        "team": "Japan",
+        "minute": "31'",
+        "match": "Tunisia vs Japan"
+      },
+      {
+        "player": "Junya Ito",
+        "team": "Japan",
+        "minute": "69'",
+        "match": "Tunisia vs Japan"
+      },
+      {
+        "player": "Ayase Ueda",
+        "team": "Japan",
+        "minute": "83'",
+        "match": "Tunisia vs Japan"
+      },
+      {
+        "player": "Lamine Yamal",
+        "team": "Spain",
+        "minute": "10'",
+        "match": "Spain vs Saudi Arabia"
+      },
+      {
+        "player": "Mikel Oyarzabal",
+        "team": "Spain",
+        "minute": "21'",
+        "match": "Spain vs Saudi Arabia"
+      },
+      {
+        "player": "Mikel Oyarzabal",
+        "team": "Spain",
+        "minute": "24'",
+        "match": "Spain vs Saudi Arabia"
+      },
+      {
+        "player": "Hassan Al-Tambakti",
+        "team": "Spain",
+        "minute": "49'",
+        "match": "Spain vs Saudi Arabia"
+      },
+      {
+        "player": "Kevin Pina",
+        "team": "Cabo Verde",
+        "minute": "21'",
+        "match": "Uruguay vs Cabo Verde"
+      },
+      {
+        "player": "Maxi Araújo",
+        "team": "Uruguay",
+        "minute": "44'",
+        "match": "Uruguay vs Cabo Verde"
+      },
+      {
+        "player": "Agustín Canobbio",
+        "team": "Uruguay",
+        "minute": "45+6'",
+        "match": "Uruguay vs Cabo Verde"
+      },
+      {
+        "player": "Hélio Varela",
+        "team": "Cabo Verde",
+        "minute": "61'",
+        "match": "Uruguay vs Cabo Verde"
+      },
+      {
+        "player": "Finn Surman",
+        "team": "New Zealand",
+        "minute": "15'",
+        "match": "New Zealand vs Egypt"
+      },
+      {
+        "player": "Mostafa Zico",
+        "team": "Egypt",
+        "minute": "58'",
+        "match": "New Zealand vs Egypt"
+      },
+      {
+        "player": "Mohamed Salah",
+        "team": "Egypt",
+        "minute": "67'",
+        "match": "New Zealand vs Egypt"
+      },
+      {
+        "player": "Trézéguet",
+        "team": "Egypt",
+        "minute": "82'",
+        "match": "New Zealand vs Egypt"
+      },
+      {
+        "player": "Lionel Messi",
+        "team": "Argentina",
+        "minute": "38'",
+        "match": "Argentina vs Austria"
+      },
+      {
+        "player": "Lionel Messi",
+        "team": "Argentina",
+        "minute": "90+5'",
+        "match": "Argentina vs Austria"
+      },
+      {
+        "player": "Kylian Mbappé",
+        "team": "France",
+        "minute": "14'",
+        "match": "France vs Iraq"
+      },
+      {
+        "player": "Kylian Mbappé",
+        "team": "France",
+        "minute": "54'",
+        "match": "France vs Iraq"
+      },
+      {
+        "player": "Ousmane Dembélé",
+        "team": "France",
+        "minute": "66'",
+        "match": "France vs Iraq"
+      },
+      {
+        "player": "Marcus Holmgren Pedersen",
+        "team": "Norway",
+        "minute": "43'",
+        "match": "Norway vs Senegal"
+      },
+      {
+        "player": "Erling Haaland",
+        "team": "Norway",
+        "minute": "48'",
+        "match": "Norway vs Senegal"
+      },
+      {
+        "player": "Ismaïla Sarr",
+        "team": "Senegal",
+        "minute": "53'",
+        "match": "Norway vs Senegal"
+      },
+      {
+        "player": "Erling Haaland",
+        "team": "Norway",
+        "minute": "58'",
+        "match": "Norway vs Senegal"
+      },
+      {
+        "player": "Ismaïla Sarr",
+        "team": "Senegal",
+        "minute": "90+3'",
+        "match": "Norway vs Senegal"
+      },
+      {
+        "player": "Nizar Al-Rashdan",
+        "team": "Jordan",
+        "minute": "36'",
+        "match": "Jordan vs Algeria"
+      },
+      {
+        "player": "Nadhir Benbouali",
+        "team": "Algeria",
+        "minute": "69'",
+        "match": "Jordan vs Algeria"
+      },
+      {
+        "player": "Amine Gouiri",
+        "team": "Algeria",
+        "minute": "82'",
+        "match": "Jordan vs Algeria"
+      },
+      {
+        "player": "Cristiano Ronaldo",
+        "team": "Portugal",
+        "minute": "6'",
+        "match": "Portugal vs Uzbekistan"
+      },
+      {
+        "player": "Nuno Mendes",
+        "team": "Portugal",
+        "minute": "17'",
+        "match": "Portugal vs Uzbekistan"
+      },
+      {
+        "player": "Cristiano Ronaldo",
+        "team": "Portugal",
+        "minute": "39'",
+        "match": "Portugal vs Uzbekistan"
+      },
+      {
+        "player": "Abduvohid Nematov",
+        "team": "Portugal",
+        "minute": "60'",
+        "match": "Portugal vs Uzbekistan"
+      },
+      {
+        "player": "Rafael Leão",
+        "team": "Portugal",
+        "minute": "87'",
+        "match": "Portugal vs Uzbekistan"
+      },
+      {
+        "player": "Ante Budimir",
+        "team": "Croatia",
+        "minute": "54'",
+        "match": "Panama vs Croatia"
+      },
+      {
+        "player": "Daniel Muñoz",
+        "team": "Colombia",
+        "minute": "76'",
+        "match": "Colombia vs DR Congo"
+      },
+      {
+        "player": "Kerim Alajbegovic",
+        "team": "Bosnia and Herzegovina",
+        "minute": "29'",
+        "match": "Bosnia and Herzegovina vs Qatar"
+      },
+      {
+        "player": "Mahmoud Abunada",
+        "team": "Bosnia and Herzegovina",
+        "minute": "34'",
+        "match": "Bosnia and Herzegovina vs Qatar"
+      },
+      {
+        "player": "Hassan Al-Haydos",
+        "team": "Qatar",
+        "minute": "42'",
+        "match": "Bosnia and Herzegovina vs Qatar"
+      },
+      {
+        "player": "Ermin Mahmic",
+        "team": "Bosnia and Herzegovina",
+        "minute": "80'",
+        "match": "Bosnia and Herzegovina vs Qatar"
+      },
+      {
+        "player": "Rubén Vargas",
+        "team": "Switzerland",
+        "minute": "46'",
+        "match": "Switzerland vs Canada"
+      },
+      {
+        "player": "Johan Manzambi",
+        "team": "Switzerland",
+        "minute": "57'",
+        "match": "Switzerland vs Canada"
+      },
+      {
+        "player": "Promise David",
+        "team": "Canada",
+        "minute": "76'",
+        "match": "Switzerland vs Canada"
+      },
+      {
+        "player": "Yassine Bounou",
+        "team": "Haiti",
+        "minute": "10'",
+        "match": "Morocco vs Haiti"
+      },
+      {
+        "player": "Achraf Hakimi",
+        "team": "Morocco",
+        "minute": "39'",
+        "match": "Morocco vs Haiti"
+      },
+      {
+        "player": "Wilson Isidor",
+        "team": "Haiti",
+        "minute": "43'",
+        "match": "Morocco vs Haiti"
+      },
+      {
+        "player": "Ismael Saibari",
+        "team": "Morocco",
+        "minute": "45+1'",
+        "match": "Morocco vs Haiti"
+      },
+      {
+        "player": "Soufiane Rahimi",
+        "team": "Morocco",
+        "minute": "78'",
+        "match": "Morocco vs Haiti"
+      },
+      {
+        "player": "Gessime Yassine",
+        "team": "Morocco",
+        "minute": "89'",
+        "match": "Morocco vs Haiti"
+      },
+      {
+        "player": "Vinícius Júnior",
+        "team": "Brazil",
+        "minute": "7'",
+        "match": "Scotland vs Brazil"
+      },
+      {
+        "player": "Vinícius Júnior",
+        "team": "Brazil",
+        "minute": "45+3'",
+        "match": "Scotland vs Brazil"
+      },
+      {
+        "player": "Matheus Cunha",
+        "team": "Brazil",
+        "minute": "60'",
+        "match": "Scotland vs Brazil"
+      },
+      {
+        "player": "Mateo Chávez",
+        "team": "Mexico",
+        "minute": "55'",
+        "match": "Czechia vs Mexico"
+      },
+      {
+        "player": "Julián Quiñones",
+        "team": "Mexico",
+        "minute": "61'",
+        "match": "Czechia vs Mexico"
+      },
+      {
+        "player": "Álvaro Fidalgo",
+        "team": "Mexico",
+        "minute": "90+4'",
+        "match": "Czechia vs Mexico"
+      },
+      {
+        "player": "Thapelo Maseko",
+        "team": "South Africa",
+        "minute": "63'",
+        "match": "South Africa vs Korea Republic"
+      },
+      {
+        "player": "Nicolas Pépé",
+        "team": "Cote d'Ivoire",
+        "minute": "7'",
+        "match": "Curaçao vs Cote d'Ivoire"
+      },
+      {
+        "player": "Nicolas Pépé",
+        "team": "Cote d'Ivoire",
+        "minute": "64'",
+        "match": "Curaçao vs Cote d'Ivoire"
+      },
+      {
+        "player": "Leroy Sané",
+        "team": "Germany",
+        "minute": "2'",
+        "match": "Ecuador vs Germany"
+      },
+      {
+        "player": "Nilson Angulo",
+        "team": "Ecuador",
+        "minute": "9'",
+        "match": "Ecuador vs Germany"
+      },
+      {
+        "player": "Gonzalo Plata",
+        "team": "Ecuador",
+        "minute": "77'",
+        "match": "Ecuador vs Germany"
+      },
+      {
+        "player": "Daizen Maeda",
+        "team": "Japan",
+        "minute": "56'",
+        "match": "Japan vs Sweden"
+      },
+      {
+        "player": "Anthony Elanga",
+        "team": "Sweden",
+        "minute": "62'",
+        "match": "Japan vs Sweden"
+      },
+      {
+        "player": "Ellyes Skhiri",
+        "team": "Netherlands",
+        "minute": "3'",
+        "match": "Tunisia vs Netherlands"
+      },
+      {
+        "player": "Brian Brobbey",
+        "team": "Netherlands",
+        "minute": "7'",
+        "match": "Tunisia vs Netherlands"
+      },
+      {
+        "player": "Hazem Mastouri",
+        "team": "Tunisia",
+        "minute": "54'",
+        "match": "Tunisia vs Netherlands"
+      },
+      {
+        "player": "Jan Paul van Hecke",
+        "team": "Netherlands",
+        "minute": "62'",
+        "match": "Tunisia vs Netherlands"
+      },
+      {
+        "player": "Auston Trusty",
+        "team": "United States",
+        "minute": "3'",
+        "match": "Türkiye vs United States"
+      },
+      {
+        "player": "Arda Güler",
+        "team": "Türkiye",
+        "minute": "10'",
+        "match": "Türkiye vs United States"
+      },
+      {
+        "player": "Baris Alper Yilmaz",
+        "team": "Türkiye",
+        "minute": "31'",
+        "match": "Türkiye vs United States"
+      },
+      {
+        "player": "Sebastian Berhalter",
+        "team": "United States",
+        "minute": "49'",
+        "match": "Türkiye vs United States"
+      },
+      {
+        "player": "Kaan Ayhan",
+        "team": "Türkiye",
+        "minute": "90+8'",
+        "match": "Türkiye vs United States"
+      },
+      {
+        "player": "Ousmane Dembélé",
+        "team": "France",
+        "minute": "7'",
+        "match": "Norway vs France"
+      },
+      {
+        "player": "Ousmane Dembélé",
+        "team": "France",
+        "minute": "20'",
+        "match": "Norway vs France"
+      },
+      {
+        "player": "Thelo Aasgaard",
+        "team": "Norway",
+        "minute": "21'",
+        "match": "Norway vs France"
+      },
+      {
+        "player": "Ousmane Dembélé",
+        "team": "France",
+        "minute": "32'",
+        "match": "Norway vs France"
+      },
+      {
+        "player": "Désiré Doué",
+        "team": "France",
+        "minute": "90+4'",
+        "match": "Norway vs France"
+      },
+      {
+        "player": "Habib Diarra",
+        "team": "Senegal",
+        "minute": "4'",
+        "match": "Senegal vs Iraq"
+      },
+      {
+        "player": "Ismaïla Sarr",
+        "team": "Senegal",
+        "minute": "56'",
+        "match": "Senegal vs Iraq"
+      },
+      {
+        "player": "Pape Gueye",
+        "team": "Senegal",
+        "minute": "59'",
+        "match": "Senegal vs Iraq"
+      },
+      {
+        "player": "Pape Gueye",
+        "team": "Senegal",
+        "minute": "71'",
+        "match": "Senegal vs Iraq"
+      },
+      {
+        "player": "Iliman Ndiaye",
+        "team": "Senegal",
+        "minute": "82'",
+        "match": "Senegal vs Iraq"
+      },
+      {
+        "player": "Álex Baena",
+        "team": "Spain",
+        "minute": "42'",
+        "match": "Uruguay vs Spain"
+      },
+      {
+        "player": "Mahmoud Saber",
+        "team": "Egypt",
+        "minute": "5'",
+        "match": "Egypt vs Iran"
+      },
+      {
+        "player": "Ramin Rezaeian",
+        "team": "Iran",
+        "minute": "14'",
+        "match": "Egypt vs Iran"
+      },
+      {
+        "player": "Leandro Trossard",
+        "team": "Belgium",
+        "minute": "28'",
+        "match": "New Zealand vs Belgium"
+      },
+      {
+        "player": "Leandro Trossard",
+        "team": "Belgium",
+        "minute": "50'",
+        "match": "New Zealand vs Belgium"
+      },
+      {
+        "player": "Kevin De Bruyne",
+        "team": "Belgium",
+        "minute": "66'",
+        "match": "New Zealand vs Belgium"
+      },
+      {
+        "player": "Elijah Just",
+        "team": "New Zealand",
+        "minute": "84'",
+        "match": "New Zealand vs Belgium"
+      },
+      {
+        "player": "Romelu Lukaku",
+        "team": "Belgium",
+        "minute": "86'",
+        "match": "New Zealand vs Belgium"
+      },
+      {
+        "player": "Alexis Saelemaekers",
+        "team": "Belgium",
+        "minute": "90+4'",
+        "match": "New Zealand vs Belgium"
+      },
+      {
+        "player": "Petar Sucic",
+        "team": "Croatia",
+        "minute": "31'",
+        "match": "Croatia vs Ghana"
+      },
+      {
+        "player": "Derrick Luckassen",
+        "team": "Ghana",
+        "minute": "73'",
+        "match": "Croatia vs Ghana"
+      },
+      {
+        "player": "Nikola Vlasic",
+        "team": "Croatia",
+        "minute": "83'",
+        "match": "Croatia vs Ghana"
+      },
+      {
+        "player": "Jude Bellingham",
+        "team": "England",
+        "minute": "62'",
+        "match": "Panama vs England"
+      },
+      {
+        "player": "Harry Kane",
+        "team": "England",
+        "minute": "67'",
+        "match": "Panama vs England"
+      },
+      {
+        "player": "Eldor Shomurodov",
+        "team": "Uzbekistan",
+        "minute": "10'",
+        "match": "DR Congo vs Uzbekistan"
+      },
+      {
+        "player": "Yoane Wissa",
+        "team": "DR Congo",
+        "minute": "68'",
+        "match": "DR Congo vs Uzbekistan"
+      },
+      {
+        "player": "Fiston Mayele",
+        "team": "DR Congo",
+        "minute": "78'",
+        "match": "DR Congo vs Uzbekistan"
+      },
+      {
+        "player": "Yoane Wissa",
+        "team": "DR Congo",
+        "minute": "90+1'",
+        "match": "DR Congo vs Uzbekistan"
+      },
+      {
+        "player": "Marko Arnautovic",
+        "team": "Austria",
+        "minute": "28'",
+        "match": "Algeria vs Austria"
+      },
+      {
+        "player": "Rafik Belghali",
+        "team": "Algeria",
+        "minute": "45'",
+        "match": "Algeria vs Austria"
+      },
+      {
+        "player": "Marcel Sabitzer",
+        "team": "Austria",
+        "minute": "55'",
+        "match": "Algeria vs Austria"
+      },
+      {
+        "player": "Riyad Mahrez",
+        "team": "Algeria",
+        "minute": "60'",
+        "match": "Algeria vs Austria"
+      },
+      {
+        "player": "Riyad Mahrez",
+        "team": "Algeria",
+        "minute": "90+3'",
+        "match": "Algeria vs Austria"
+      },
+      {
+        "player": "Sasa Kalajdzic",
+        "team": "Austria",
+        "minute": "90+6'",
+        "match": "Algeria vs Austria"
+      },
+      {
+        "player": "Giovani Lo Celso",
+        "team": "Argentina",
+        "minute": "19'",
+        "match": "Jordan vs Argentina"
+      },
+      {
+        "player": "Lautaro Martínez",
+        "team": "Argentina",
+        "minute": "31'",
+        "match": "Jordan vs Argentina"
+      },
+      {
+        "player": "Mousa Al-Tamari",
+        "team": "Jordan",
+        "minute": "55'",
+        "match": "Jordan vs Argentina"
+      },
+      {
+        "player": "Lionel Messi",
+        "team": "Argentina",
+        "minute": "80'",
+        "match": "Jordan vs Argentina"
+      },
+      {
+        "player": "Stephen Eustáquio",
+        "team": "Canada",
+        "minute": "90+2'",
+        "match": "South Africa vs Canada"
+      },
+      {
+        "player": "Kaishu Sano",
+        "team": "Japan",
+        "minute": "29'",
+        "match": "Brazil vs Japan"
+      },
+      {
+        "player": "Casemiro",
+        "team": "Brazil",
+        "minute": "56'",
+        "match": "Brazil vs Japan"
+      },
+      {
+        "player": "Gabriel Martinelli",
+        "team": "Brazil",
+        "minute": "90+5'",
+        "match": "Brazil vs Japan"
+      },
+      {
+        "player": "Julio Enciso",
+        "team": "Paraguay",
+        "minute": "42'",
+        "match": "Germany vs Paraguay"
+      },
+      {
+        "player": "Kai Havertz",
+        "team": "Germany",
+        "minute": "54'",
+        "match": "Germany vs Paraguay"
+      },
+      {
+        "player": "Cody Gakpo",
+        "team": "Netherlands",
+        "minute": "72'",
+        "match": "Netherlands vs Morocco"
+      },
+      {
+        "player": "Issa Diop",
+        "team": "Morocco",
+        "minute": "90+1'",
+        "match": "Netherlands vs Morocco"
+      },
+      {
+        "player": "Antonio Nusa",
+        "team": "Norway",
+        "minute": "39'",
+        "match": "Cote d'Ivoire vs Norway"
+      },
+      {
+        "player": "Amad Diallo",
+        "team": "Cote d'Ivoire",
+        "minute": "74'",
+        "match": "Cote d'Ivoire vs Norway"
+      },
+      {
+        "player": "Erling Haaland",
+        "team": "Norway",
+        "minute": "86'",
+        "match": "Cote d'Ivoire vs Norway"
+      },
+      {
+        "player": "Kylian Mbappé",
+        "team": "France",
+        "minute": "45'",
+        "match": "France vs Sweden"
+      },
+      {
+        "player": "Bradley Barcola",
+        "team": "France",
+        "minute": "53'",
+        "match": "France vs Sweden"
+      },
+      {
+        "player": "Kylian Mbappé",
+        "team": "France",
+        "minute": "74'",
+        "match": "France vs Sweden"
+      },
+      {
+        "player": "Julián Quiñones",
+        "team": "Mexico",
+        "minute": "22'",
+        "match": "Mexico vs Ecuador"
+      },
+      {
+        "player": "Raúl Jiménez",
+        "team": "Mexico",
+        "minute": "31'",
+        "match": "Mexico vs Ecuador"
+      },
+      {
+        "player": "Brian Cipenga",
+        "team": "DR Congo",
+        "minute": "7'",
+        "match": "England vs DR Congo"
+      },
+      {
+        "player": "Harry Kane",
+        "team": "England",
+        "minute": "75'",
+        "match": "England vs DR Congo"
+      },
+      {
+        "player": "Harry Kane",
+        "team": "England",
+        "minute": "86'",
+        "match": "England vs DR Congo"
+      },
+      {
+        "player": "Habib Diarra",
+        "team": "Senegal",
+        "minute": "24'",
+        "match": "Belgium vs Senegal"
+      },
+      {
+        "player": "Ismaïla Sarr",
+        "team": "Senegal",
+        "minute": "51'",
+        "match": "Belgium vs Senegal"
+      },
+      {
+        "player": "Romelu Lukaku",
+        "team": "Belgium",
+        "minute": "86'",
+        "match": "Belgium vs Senegal"
+      },
+      {
+        "player": "Youri Tielemans",
+        "team": "Belgium",
+        "minute": "89'",
+        "match": "Belgium vs Senegal"
+      },
+      {
+        "player": "Youri Tielemans",
+        "team": "Belgium",
+        "minute": "120+5'",
+        "match": "Belgium vs Senegal"
+      },
+      {
+        "player": "Folarin Balogun",
+        "team": "United States",
+        "minute": "45'",
+        "match": "United States vs Bosnia and Herzegovina"
+      },
+      {
+        "player": "Malik Tillman",
+        "team": "United States",
+        "minute": "82'",
+        "match": "United States vs Bosnia and Herzegovina"
+      },
+      {
+        "player": "Mikel Oyarzabal",
+        "team": "Spain",
+        "minute": "36'",
+        "match": "Spain vs Austria"
+      },
+      {
+        "player": "Pedro Porro",
+        "team": "Spain",
+        "minute": "66'",
+        "match": "Spain vs Austria"
+      },
+      {
+        "player": "Mikel Oyarzabal",
+        "team": "Spain",
+        "minute": "89'",
+        "match": "Spain vs Austria"
+      },
+      {
+        "player": "Ivan Perisic",
+        "team": "Croatia",
+        "minute": "53'",
+        "match": "Portugal vs Croatia"
+      },
+      {
+        "player": "Cristiano Ronaldo",
+        "team": "Portugal",
+        "minute": "68'",
+        "match": "Portugal vs Croatia"
+      },
+      {
+        "player": "Gonçalo Ramos",
+        "team": "Portugal",
+        "minute": "90+4'",
+        "match": "Portugal vs Croatia"
+      },
+      {
+        "player": "Breel Embolo",
+        "team": "Switzerland",
+        "minute": "10'",
+        "match": "Switzerland vs Algeria"
+      },
+      {
+        "player": "Dan Ndoye",
+        "team": "Switzerland",
+        "minute": "46'",
+        "match": "Switzerland vs Algeria"
+      },
+      {
+        "player": "Emam Ashour",
+        "team": "Egypt",
+        "minute": "13'",
+        "match": "Australia vs Egypt"
+      },
+      {
+        "player": "Mohamed Hany",
+        "team": "Australia",
+        "minute": "55'",
+        "match": "Australia vs Egypt"
+      },
+      {
+        "player": "Lionel Messi",
+        "team": "Argentina",
+        "minute": "29'",
+        "match": "Argentina vs Cabo Verde"
+      },
+      {
+        "player": "Deroy Duarte",
+        "team": "Cabo Verde",
+        "minute": "59'",
+        "match": "Argentina vs Cabo Verde"
+      },
+      {
+        "player": "Lisandro Martínez",
+        "team": "Argentina",
+        "minute": "92'",
+        "match": "Argentina vs Cabo Verde"
+      },
+      {
+        "player": "Sidny Lopes Cabral",
+        "team": "Cabo Verde",
+        "minute": "103'",
+        "match": "Argentina vs Cabo Verde"
+      },
+      {
+        "player": "Diney Borges",
+        "team": "Argentina",
+        "minute": "111'",
+        "match": "Argentina vs Cabo Verde"
+      },
+      {
+        "player": "Jhon Arias",
+        "team": "Colombia",
+        "minute": "14'",
+        "match": "Colombia vs Ghana"
+      },
+      {
+        "player": "Azzedine Ounahi",
+        "team": "Morocco",
+        "minute": "50'",
+        "match": "Canada vs Morocco"
+      },
+      {
+        "player": "Azzedine Ounahi",
+        "team": "Morocco",
+        "minute": "82'",
+        "match": "Canada vs Morocco"
+      },
+      {
+        "player": "Soufiane Rahimi",
+        "team": "Morocco",
+        "minute": "90+8'",
+        "match": "Canada vs Morocco"
+      },
+      {
+        "player": "Kylian Mbappé",
+        "team": "France",
+        "minute": "70'",
+        "match": "Paraguay vs France"
+      },
+      {
+        "player": "Erling Haaland",
+        "team": "Norway",
+        "minute": "79'",
+        "match": "Brazil vs Norway"
+      },
+      {
+        "player": "Erling Haaland",
+        "team": "Norway",
+        "minute": "90'",
+        "match": "Brazil vs Norway"
+      },
+      {
+        "player": "Neymar",
+        "team": "Brazil",
+        "minute": "90+10'",
+        "match": "Brazil vs Norway"
+      },
+      {
+        "player": "Jude Bellingham",
+        "team": "England",
+        "minute": "36'",
+        "match": "Mexico vs England"
+      },
+      {
+        "player": "Jude Bellingham",
+        "team": "England",
+        "minute": "38'",
+        "match": "Mexico vs England"
+      },
+      {
+        "player": "Julián Quiñones",
+        "team": "Mexico",
+        "minute": "42'",
+        "match": "Mexico vs England"
+      },
+      {
+        "player": "Harry Kane",
+        "team": "England",
+        "minute": "60'",
+        "match": "Mexico vs England"
+      },
+      {
+        "player": "Raúl Jiménez",
+        "team": "Mexico",
+        "minute": "69'",
+        "match": "Mexico vs England"
+      },
+      {
+        "player": "Mikel Merino",
+        "team": "Spain",
+        "minute": "90+1'",
+        "match": "Portugal vs Spain"
+      },
+      {
+        "player": "Charles De Ketelaere",
+        "team": "Belgium",
+        "minute": "9'",
+        "match": "United States vs Belgium"
+      },
+      {
+        "player": "Malik Tillman",
+        "team": "United States",
+        "minute": "31'",
+        "match": "United States vs Belgium"
+      },
+      {
+        "player": "Charles De Ketelaere",
+        "team": "Belgium",
+        "minute": "33'",
+        "match": "United States vs Belgium"
+      },
+      {
+        "player": "Hans Vanaken",
+        "team": "Belgium",
+        "minute": "57'",
+        "match": "United States vs Belgium"
+      },
+      {
+        "player": "Romelu Lukaku",
+        "team": "Belgium",
+        "minute": "90+3'",
+        "match": "United States vs Belgium"
+      },
+      {
+        "player": "Yasser Ibrahim",
+        "team": "Egypt",
+        "minute": "15'",
+        "match": "Argentina vs Egypt"
+      },
+      {
+        "player": "Mostafa Zico",
+        "team": "Egypt",
+        "minute": "67'",
+        "match": "Argentina vs Egypt"
+      },
+      {
+        "player": "Cristian Romero",
+        "team": "Argentina",
+        "minute": "79'",
+        "match": "Argentina vs Egypt"
+      },
+      {
+        "player": "Lionel Messi",
+        "team": "Argentina",
+        "minute": "83'",
+        "match": "Argentina vs Egypt"
+      },
+      {
+        "player": "Enzo Fernández",
+        "team": "Argentina",
+        "minute": "90+2'",
+        "match": "Argentina vs Egypt"
+      },
+      {
+        "player": "Kylian Mbappé",
+        "team": "France",
+        "minute": "60'",
+        "match": "France vs Morocco"
+      },
+      {
+        "player": "Ousmane Dembélé",
+        "team": "France",
+        "minute": "66'",
+        "match": "France vs Morocco"
+      },
+      {
+        "player": "Fabián Ruiz",
+        "team": "Spain",
+        "minute": "30'",
+        "match": "Spain vs Belgium"
+      },
+      {
+        "player": "Charles De Ketelaere",
+        "team": "Belgium",
+        "minute": "41'",
+        "match": "Spain vs Belgium"
+      },
+      {
+        "player": "Mikel Merino",
+        "team": "Spain",
+        "minute": "88'",
+        "match": "Spain vs Belgium"
+      },
+      {
+        "player": "Andreas Schjelderup",
+        "team": "Norway",
+        "minute": "36'",
+        "match": "Norway vs England"
+      },
+      {
+        "player": "Jude Bellingham",
+        "team": "England",
+        "minute": "45+2'",
+        "match": "Norway vs England"
+      },
+      {
+        "player": "Jude Bellingham",
+        "team": "England",
+        "minute": "93'",
+        "match": "Norway vs England"
+      },
+      {
+        "player": "Alexis Mac Allister",
+        "team": "Argentina",
+        "minute": "10'",
+        "match": "Argentina vs Switzerland"
+      },
+      {
+        "player": "Dan Ndoye",
+        "team": "Switzerland",
+        "minute": "67'",
+        "match": "Argentina vs Switzerland"
+      },
+      {
+        "player": "Julián Álvarez",
+        "team": "Argentina",
+        "minute": "112'",
+        "match": "Argentina vs Switzerland"
+      },
+      {
+        "player": "Lautaro Martínez",
+        "team": "Argentina",
+        "minute": "120+1'",
+        "match": "Argentina vs Switzerland"
+      },
+      {
+        "player": "Mikel Oyarzabal",
+        "team": "Spain",
+        "minute": "22'",
+        "match": "France vs Spain"
+      },
+      {
+        "player": "Pedro Porro",
+        "team": "Spain",
+        "minute": "58'",
+        "match": "France vs Spain"
+      },
+      {
+        "player": "Anthony Gordon",
+        "team": "England",
+        "minute": "55'",
+        "match": "England vs Argentina"
+      },
+      {
+        "player": "Enzo Fernández",
+        "team": "Argentina",
+        "minute": "85'",
+        "match": "England vs Argentina"
+      },
+      {
+        "player": "Lautaro Martínez",
+        "team": "Argentina",
+        "minute": "90+2'",
+        "match": "England vs Argentina"
       }
     ]
   },
