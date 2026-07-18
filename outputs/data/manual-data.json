@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T21:47:39.182Z",
+  "updatedAt": "2026-07-18T22:12:26.777Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -9033,7 +9033,7 @@
       "location": "Hard Rock Stadium · Miami",
       "venueTimeZone": "America/New_York",
       "status": "LIVE",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 4
     },
     {
@@ -16791,7 +16791,7 @@
       "location": "Hard Rock Stadium · Miami",
       "venueTimeZone": "America/New_York",
       "status": "LIVE",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 4
     }
   ],
@@ -22009,9 +22009,9 @@
   "featuredBadgeMatch": {
     "home": "France",
     "away": "England",
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 4,
     "label": "France vs England",
-    "updatedAt": "2026-07-18T21:47:39.182Z"
+    "updatedAt": "2026-07-18T22:12:26.777Z"
   }
 }
