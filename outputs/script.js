@@ -2871,12 +2871,8 @@ function renderStatsDashboard() {
     ariaLabel: "Cumulative minutes played during the tournament",
     minimumScale: 90, className: "time-played-trend"
   };
-  statsChartGrid.innerHTML = renderGoalMinuteGrid(getGoalMinuteEvents(), {
-    number: "01",
-    title: "Goal-Scoring Minutes",
-    emptyText: "Add goal minutes from ESPN match reports to manual-data.json to plot every goal."
-  }) +
-    renderTrendChart({ ...goalsConfig, number: "02" }, goalTrendData) +
+  statsChartGrid.innerHTML =
+    renderTrendChart({ ...goalsConfig, number: "01" }, goalTrendData) +
     chartConfigs.map(function (config) {
       const detailedTrend = getDetailedTrendData(stats, config);
       return renderTrendChart(config, detailedTrend.trend, detailedTrend.hasTimelineData);
