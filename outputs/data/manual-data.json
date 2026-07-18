@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T22:59:53.930Z",
+  "updatedAt": "2026-07-18T23:01:03.035Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -9034,7 +9034,7 @@
       "venueTimeZone": "America/New_York",
       "status": "LIVE",
       "homeScore": 4,
-      "awayScore": 5
+      "awayScore": 6
     },
     {
       "date": "Sunday, July 19, 2026",
@@ -16792,7 +16792,7 @@
       "venueTimeZone": "America/New_York",
       "status": "LIVE",
       "homeScore": 4,
-      "awayScore": 5
+      "awayScore": 6
     }
   ],
   "detailedStats": {
@@ -22010,8 +22010,8 @@
     "home": "France",
     "away": "England",
     "homeScore": 4,
-    "awayScore": 5,
+    "awayScore": 6,
     "label": "France vs England",
-    "updatedAt": "2026-07-18T22:59:53.930Z"
+    "updatedAt": "2026-07-18T23:01:03.035Z"
   }
 }
