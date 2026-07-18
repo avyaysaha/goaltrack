@@ -41,7 +41,7 @@ on:
         default: "90"
         type: string
       scorers:
-        description: "Player|Team; Player|Team (repeat a player for each goal)"
+        description: "Player|Team(time); Player|Team(time). Example: Lionel Messi|Argentina(83')"
         required: false
         type: string
       extra_details:

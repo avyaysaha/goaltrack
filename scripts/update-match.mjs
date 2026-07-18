@@ -63,11 +63,29 @@ function list(value) {
   return String(value || "").split(/[;,]/).map((item) => item.trim()).filter(Boolean);
 }
 
+function parseNamedEvent(item) {
+  const parts = item.split("|").map((part) => part.trim());
+  const player = parts[0] || "";
+  let team = parts[1] || "";
+  let minute = parts[2] || "";
+  const teamMinuteMatch = team.match(/^(.*?)\s*\(([^)]+)\)\s*$/);
+
+  if (teamMinuteMatch) {
+    team = teamMinuteMatch[1].trim();
+    minute = minute || teamMinuteMatch[2].trim();
+  }
+
+  return { player, team, minute };
+}
+
 function namedEvents(value, match) {
   return list(value).map((item) => {
-    const [player = "", team = ""] = item.split("|").map((part) => part.trim());
+    const { player, team, minute } = parseNamedEvent(item);
     const resolvedTeam = resolveTeam(team, false);
-    return player && resolvedTeam ? { player, team: resolvedTeam, match } : null;
+    if (!player || !resolvedTeam) return null;
+    return minute
+      ? { player, team: resolvedTeam, match, minute }
+      : { player, team: resolvedTeam, match };
   }).filter(Boolean);
 }
 
@@ -451,6 +469,13 @@ function asEventList(value) {
   return Array.isArray(value) ? value : [];
 }
 
+const goalEvents = completedStatsMatches.flatMap((match) =>
+  asEventList(match.scorers).map((event) => ({
+    ...event,
+    match: event.match || `${match.home} vs ${match.away}`
+  }))
+);
+
 const keepers = [...keeperTotals.values()].map((keeper) => ({
   name: keeper.name,
   value: keeper.cleanSheets,
@@ -466,6 +491,7 @@ data.detailedStats = {
   yellowCards: countEventsByTeam("yellowCards"),
   redCardEvents: completedStatsMatches.flatMap((match) => asEventList(match.redCards)),
   yellowCardEvents: completedStatsMatches.flatMap((match) => asEventList(match.yellowCards)),
+  goalEvents,
   penaltyEvents: completedStatsMatches.flatMap((match) =>
     Array.from({ length: match.penalties || 0 }, () => ({ match: `${match.home} vs ${match.away}` }))
   ),
