@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T21:43:28.980Z",
+  "updatedAt": "2026-07-18T21:06:43.460Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -9031,7 +9031,10 @@
       "away": "Runner-up Match 102",
       "awayFlag": "RU102",
       "location": "Hard Rock Stadium · Miami",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "status": "LIVE",
+      "homeScore": 0,
+      "awayScore": 1
     },
     {
       "date": "Sunday, July 19, 2026",
@@ -16774,6 +16777,22 @@
         "offsides": 3,
         "corners": 6
       }
+    },
+    {
+      "date": "Saturday, July 18, 2026",
+      "stage": "Knockout",
+      "group": "Match 103 · Play-off for third place",
+      "time": "5:00 PM local",
+      "kickoffISO": "2026-07-18T21:00:00Z",
+      "home": "Runner-up Match 101",
+      "homeFlag": "RU101",
+      "away": "Runner-up Match 102",
+      "awayFlag": "RU102",
+      "location": "Hard Rock Stadium · Miami",
+      "venueTimeZone": "America/New_York",
+      "status": "LIVE",
+      "homeScore": 0,
+      "awayScore": 1
     }
   ],
   "detailedStats": {
@@ -21986,5 +22005,13 @@
     "Senegal": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Senegalese_Football_Federation_logo.svg/960px-Senegalese_Football_Federation_logo.svg.png",
     "Panama": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/Panamanian_Football_Federation_logo_2024.svg/960px-Panamanian_Football_Federation_logo_2024.svg.png",
     "Uruguay": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Uruguay_national_football_team_seal.svg/960px-Uruguay_national_football_team_seal.svg.png"
+  },
+  "featuredBadgeMatch": {
+    "home": "France",
+    "away": "England",
+    "homeScore": 0,
+    "awayScore": 1,
+    "label": "France vs England",
+    "updatedAt": "2026-07-18T21:06:43.460Z"
   }
 }
