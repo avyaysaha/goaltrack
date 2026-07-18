@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T23:01:03.035Z",
+  "updatedAt": "2026-07-18T23:27:03.513Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -9024,17 +9024,107 @@
       "date": "Saturday, July 18, 2026",
       "stage": "Knockout",
       "group": "Match 103 · Play-off for third place",
-      "time": "5:00 PM local",
+      "time": "4:00 PM CDT (5:00 PM EDT venue local)",
       "kickoffISO": "2026-07-18T21:00:00Z",
-      "home": "Runner-up Match 101",
-      "homeFlag": "RU101",
-      "away": "Runner-up Match 102",
-      "awayFlag": "RU102",
+      "home": "France",
+      "homeFlag": "FRA",
+      "away": "England",
+      "awayFlag": "ENG",
       "location": "Hard Rock Stadium · Miami",
       "venueTimeZone": "America/New_York",
-      "status": "LIVE",
+      "status": "FT",
       "homeScore": 4,
-      "awayScore": 6
+      "awayScore": 6,
+      "elapsed": 102,
+      "scorers": [
+        {
+          "player": "Declan Rice",
+          "team": "England",
+          "match": "France vs England",
+          "minute": "3'"
+        },
+        {
+          "player": "Ezri Konsa",
+          "team": "England",
+          "match": "France vs England",
+          "minute": "18'"
+        },
+        {
+          "player": "Bukayo Saka",
+          "team": "England",
+          "match": "France vs England",
+          "minute": "37'"
+        },
+        {
+          "player": "Bukayo Saka",
+          "team": "England",
+          "match": "France vs England",
+          "minute": "45+1'"
+        },
+        {
+          "player": "Kylian Mbappé",
+          "team": "France",
+          "match": "France vs England",
+          "minute": "48'"
+        },
+        {
+          "player": "Bradley Barcola",
+          "team": "France",
+          "match": "France vs England",
+          "minute": "54'"
+        },
+        {
+          "player": "Kylian Mbappé",
+          "team": "France",
+          "match": "France vs England",
+          "minute": "66'"
+        },
+        {
+          "player": "Bukayo Saka",
+          "team": "England",
+          "match": "France vs England",
+          "minute": "87'"
+        },
+        {
+          "player": "Ousmane Dembélé",
+          "team": "France",
+          "match": "France vs England",
+          "minute": "90+6'"
+        },
+        {
+          "player": "Jude Bellingham",
+          "team": "England",
+          "match": "France vs England",
+          "minute": "90+8'"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Mike Maignan",
+      "awayKeeper": "Dean Henderson",
+      "homeStats": {
+        "shots": 19,
+        "shotsOnTarget": 9,
+        "possession": 46,
+        "passes": 444,
+        "passAccuracy": 91,
+        "performance": 2.5,
+        "fouls": 14,
+        "offsides": 3,
+        "corners": 3
+      },
+      "awayStats": {
+        "shots": 19,
+        "shotsOnTarget": 11,
+        "possession": 54,
+        "passes": 516,
+        "passAccuracy": 90,
+        "performance": 3.2,
+        "fouls": 8,
+        "offsides": 3,
+        "corners": 4
+      }
     },
     {
       "date": "Sunday, July 19, 2026",
@@ -16793,13 +16883,117 @@
       "status": "LIVE",
       "homeScore": 4,
       "awayScore": 6
+    },
+    {
+      "date": "Saturday, July 18, 2026",
+      "stage": "Knockout",
+      "group": "Match 103 · Play-off for third place",
+      "time": "4:00 PM CDT (5:00 PM EDT venue local)",
+      "home": "France",
+      "homeFlag": "FRA",
+      "away": "England",
+      "awayFlag": "ENG",
+      "location": "Hard Rock Stadium · Miami",
+      "status": "FT",
+      "elapsed": 102,
+      "homeScore": 4,
+      "awayScore": 6,
+      "scorers": [
+        {
+          "player": "Declan Rice",
+          "team": "England",
+          "match": "France vs England",
+          "minute": "3'"
+        },
+        {
+          "player": "Ezri Konsa",
+          "team": "England",
+          "match": "France vs England",
+          "minute": "18'"
+        },
+        {
+          "player": "Bukayo Saka",
+          "team": "England",
+          "match": "France vs England",
+          "minute": "37'"
+        },
+        {
+          "player": "Bukayo Saka",
+          "team": "England",
+          "match": "France vs England",
+          "minute": "45+1'"
+        },
+        {
+          "player": "Kylian Mbappé",
+          "team": "France",
+          "match": "France vs England",
+          "minute": "48'"
+        },
+        {
+          "player": "Bradley Barcola",
+          "team": "France",
+          "match": "France vs England",
+          "minute": "54'"
+        },
+        {
+          "player": "Kylian Mbappé",
+          "team": "France",
+          "match": "France vs England",
+          "minute": "66'"
+        },
+        {
+          "player": "Bukayo Saka",
+          "team": "England",
+          "match": "France vs England",
+          "minute": "87'"
+        },
+        {
+          "player": "Ousmane Dembélé",
+          "team": "France",
+          "match": "France vs England",
+          "minute": "90+6'"
+        },
+        {
+          "player": "Jude Bellingham",
+          "team": "England",
+          "match": "France vs England",
+          "minute": "90+8'"
+        }
+      ],
+      "yellowCards": [],
+      "redCards": [],
+      "penalties": 0,
+      "homeKeeper": "Mike Maignan",
+      "awayKeeper": "Dean Henderson",
+      "homeStats": {
+        "shots": 19,
+        "shotsOnTarget": 9,
+        "possession": 46,
+        "passes": 444,
+        "passAccuracy": 91,
+        "performance": 2.5,
+        "fouls": 14,
+        "offsides": 3,
+        "corners": 3
+      },
+      "awayStats": {
+        "shots": 19,
+        "shotsOnTarget": 11,
+        "possession": 54,
+        "passes": 516,
+        "passAccuracy": 90,
+        "performance": 3.2,
+        "fouls": 8,
+        "offsides": 3,
+        "corners": 4
+      }
     }
   ],
   "detailedStats": {
     "scorers": [
       {
         "name": "Kylian Mbappé",
-        "value": 8,
+        "value": 10,
         "detail": "France"
       },
       {
@@ -16813,24 +17007,24 @@
         "detail": "Norway"
       },
       {
+        "name": "Jude Bellingham",
+        "value": 7,
+        "detail": "England"
+      },
+      {
         "name": "Harry Kane",
         "value": 6,
         "detail": "England"
       },
       {
-        "name": "Jude Bellingham",
+        "name": "Ousmane Dembélé",
         "value": 6,
-        "detail": "England"
+        "detail": "France"
       },
       {
         "name": "Mikel Oyarzabal",
         "value": 5,
         "detail": "Spain"
-      },
-      {
-        "name": "Ousmane Dembélé",
-        "value": 5,
-        "detail": "France"
       },
       {
         "name": "Ismaïla Sarr",
@@ -16848,9 +17042,19 @@
         "detail": "Brazil"
       },
       {
+        "name": "Bradley Barcola",
+        "value": 3,
+        "detail": "France"
+      },
+      {
         "name": "Brian Brobbey",
         "value": 3,
         "detail": "Netherlands"
+      },
+      {
+        "name": "Bukayo Saka",
+        "value": 3,
+        "detail": "England"
       },
       {
         "name": "Charles De Ketelaere",
@@ -16876,6 +17080,11 @@
         "name": "Elijah Just",
         "value": 3,
         "detail": "New Zealand"
+      },
+      {
+        "name": "Folarin Balogun",
+        "value": 3,
+        "detail": "United States"
       },
       {
         "name": "Ismael Saibari",
@@ -16943,11 +17152,6 @@
         "detail": "Morocco"
       },
       {
-        "name": "Bradley Barcola",
-        "value": 2,
-        "detail": "France"
-      },
-      {
         "name": "Breel Embolo",
         "value": 2,
         "detail": "Switzerland"
@@ -16988,14 +17192,9 @@
         "detail": "Argentina"
       },
       {
-        "name": "Ermin Mahmić",
+        "name": "Ermin Mahmic",
         "value": 2,
         "detail": "Bosnia and Herzegovina"
-      },
-      {
-        "name": "Folarin Balogun",
-        "value": 2,
-        "detail": "United States"
       },
       {
         "name": "Habib Diarra",
@@ -17008,9 +17207,19 @@
         "detail": "Belgium"
       },
       {
-        "name": "Marko Arnautović",
+        "name": "Malik Tillman",
+        "value": 2,
+        "detail": "United States"
+      },
+      {
+        "name": "Marko Arnautovic",
         "value": 2,
         "detail": "Austria"
+      },
+      {
+        "name": "Maxi Araújo",
+        "value": 2,
+        "detail": "Uruguay"
       },
       {
         "name": "Mikel Merino",
@@ -17018,7 +17227,7 @@
         "detail": "Spain"
       },
       {
-        "name": "Mostafa Ziko",
+        "name": "Mostafa Zico",
         "value": 2,
         "detail": "Egypt"
       },
@@ -17078,7 +17287,7 @@
         "detail": "Saudi Arabia"
       },
       {
-        "name": "Abduvohid Nematov (OG)",
+        "name": "Abduvohid Nematov",
         "value": 1,
         "detail": "Portugal"
       },
@@ -17138,11 +17347,6 @@
         "detail": "Norway"
       },
       {
-        "name": "Ángel Mena",
-        "value": 1,
-        "detail": "Ecuador"
-      },
-      {
         "name": "Ante Budimir",
         "value": 1,
         "detail": "Croatia"
@@ -17173,14 +17377,14 @@
         "detail": "Iraq"
       },
       {
-        "name": "Barış Alper Yılmaz",
+        "name": "Aymen Hussein",
         "value": 1,
-        "detail": "Türkiye"
+        "detail": "Norway"
       },
       {
-        "name": "Boulem Khouki",
+        "name": "Baris Alper Yilmaz",
         "value": 1,
-        "detail": "Qatar"
+        "detail": "Türkiye"
       },
       {
         "name": "Brian Cipenga",
@@ -17193,7 +17397,7 @@
         "detail": "Ghana"
       },
       {
-        "name": "Cameron Burgess(OG)",
+        "name": "Cameron Burgess",
         "value": 1,
         "detail": "United States"
       },
@@ -17218,9 +17422,14 @@
         "detail": "Japan"
       },
       {
-        "name": "Damián Bobadilla (OG)",
+        "name": "Damián Bobadilla",
         "value": 1,
         "detail": "United States"
+      },
+      {
+        "name": "Declan Rice",
+        "value": 1,
+        "detail": "England"
       },
       {
         "name": "Deroy Duarte",
@@ -17238,7 +17447,7 @@
         "detail": "France"
       },
       {
-        "name": "Diney Borges(OG)",
+        "name": "Diney Borges",
         "value": 1,
         "detail": "Argentina"
       },
@@ -17248,9 +17457,14 @@
         "detail": "Uzbekistan"
       },
       {
-        "name": "Ellyes Skhiri (OG)",
+        "name": "Ellyes Skhiri",
         "value": 1,
         "detail": "Netherlands"
+      },
+      {
+        "name": "Ezri Konsa",
+        "value": 1,
+        "detail": "England"
       },
       {
         "name": "Fabián Ruiz",
@@ -17273,11 +17487,6 @@
         "detail": "DR Congo"
       },
       {
-        "name": "Folarin Balogun",
-        "value": 1,
-        "detail": "Iran"
-      },
-      {
         "name": "Franck Kessié",
         "value": 1,
         "detail": "Cote d'Ivoire"
@@ -17293,14 +17502,14 @@
         "detail": "Morocco"
       },
       {
-        "name": "Gio Reyna",
-        "value": 1,
-        "detail": "United States"
-      },
-      {
         "name": "Giovani Lo Celso",
         "value": 1,
         "detail": "Argentina"
+      },
+      {
+        "name": "Giovanni Reyna",
+        "value": 1,
+        "detail": "United States"
       },
       {
         "name": "Gonçalo Ramos",
@@ -17328,7 +17537,7 @@
         "detail": "Qatar"
       },
       {
-        "name": "Hassan Al-Tambakti(OG)",
+        "name": "Hassan Al-Tambakti",
         "value": 1,
         "detail": "Spain"
       },
@@ -17343,7 +17552,7 @@
         "detail": "Cabo Verde"
       },
       {
-        "name": "Hwang In-beom",
+        "name": "Hwang In-Beom",
         "value": 1,
         "detail": "Korea Republic"
       },
@@ -17358,17 +17567,12 @@
         "detail": "Senegal"
       },
       {
-        "name": "Iraq own goal (OG)",
-        "value": 1,
-        "detail": "Norway"
-      },
-      {
         "name": "Issa Diop",
         "value": 1,
         "detail": "Morocco"
       },
       {
-        "name": "Ivan Perišić",
+        "name": "Ivan Perisic",
         "value": 1,
         "detail": "Croatia"
       },
@@ -17378,12 +17582,12 @@
         "detail": "Germany"
       },
       {
-        "name": "Jaminton Campaz",
+        "name": "Jáminton Campaz",
         "value": 1,
         "detail": "Colombia"
       },
       {
-        "name": "Jan-Paul van Hecke",
+        "name": "Jan Paul van Hecke",
         "value": 1,
         "detail": "Netherlands"
       },
@@ -17403,7 +17607,7 @@
         "detail": "Scotland"
       },
       {
-        "name": "Jovo Lukić",
+        "name": "Jovo Lukic",
         "value": 1,
         "detail": "Bosnia and Herzegovina"
       },
@@ -17428,7 +17632,7 @@
         "detail": "Türkiye"
       },
       {
-        "name": "Kaishū Sano",
+        "name": "Kaishu Sano",
         "value": 1,
         "detail": "Japan"
       },
@@ -17438,7 +17642,7 @@
         "detail": "Japan"
       },
       {
-        "name": "Kerim Alajbegović",
+        "name": "Kerim Alajbegovic",
         "value": 1,
         "detail": "Bosnia and Herzegovina"
       },
@@ -17453,7 +17657,7 @@
         "detail": "Cabo Verde"
       },
       {
-        "name": "Ladislav Krejčí",
+        "name": "Ladislav Krejcí",
         "value": 1,
         "detail": "Czechia"
       },
@@ -17463,7 +17667,7 @@
         "detail": "Spain"
       },
       {
-        "name": "Leo Østigård",
+        "name": "Leo Østigard",
         "value": 1,
         "detail": "Norway"
       },
@@ -17493,19 +17697,14 @@
         "detail": "Mexico"
       },
       {
+        "name": "Mahmoud Abunada",
+        "value": 1,
+        "detail": "Bosnia and Herzegovina"
+      },
+      {
         "name": "Mahmoud Saber",
         "value": 1,
         "detail": "Egypt"
-      },
-      {
-        "name": "Malik Tillman",
-        "value": 1,
-        "detail": "Iran"
-      },
-      {
-        "name": "Malik Tillman",
-        "value": 1,
-        "detail": "United States"
       },
       {
         "name": "Marcel Sabitzer",
@@ -17548,32 +17747,27 @@
         "detail": "Paraguay"
       },
       {
-        "name": "Maxi Araújo",
-        "value": 1,
-        "detail": "Uruguay"
-      },
-      {
-        "name": "Maximiliano Araújo",
-        "value": 1,
-        "detail": "Uruguay"
-      },
-      {
         "name": "Michal Sadílek",
         "value": 1,
         "detail": "Czechia"
       },
       {
-        "name": "Mohamed Hany(OG)",
+        "name": "Miro Muheim",
+        "value": 1,
+        "detail": "Qatar"
+      },
+      {
+        "name": "Mohamed Hany",
         "value": 1,
         "detail": "Belgium"
       },
       {
-        "name": "Mohamed Hany(OG)",
+        "name": "Mohamed Hany",
         "value": 1,
         "detail": "Australia"
       },
       {
-        "name": "Mohamed Manai(OG)",
+        "name": "Mohamed Manai",
         "value": 1,
         "detail": "Canada"
       },
@@ -17583,7 +17777,7 @@
         "detail": "Egypt"
       },
       {
-        "name": "Mohammad Mohebi",
+        "name": "Mohammad Mohebbi",
         "value": 1,
         "detail": "Iran"
       },
@@ -17623,9 +17817,14 @@
         "detail": "Germany"
       },
       {
-        "name": "Nikola Vlašić",
+        "name": "Nikola Vlasic",
         "value": 1,
         "detail": "Croatia"
+      },
+      {
+        "name": "Nilson Angulo",
+        "value": 1,
+        "detail": "Ecuador"
       },
       {
         "name": "Nizar Al-Rashdan",
@@ -17638,7 +17837,7 @@
         "detail": "Portugal"
       },
       {
-        "name": "Oh Hyeon-gyu",
+        "name": "Oh Hyeon-Gyu",
         "value": 1,
         "detail": "Korea Republic"
       },
@@ -17653,7 +17852,7 @@
         "detail": "Croatia"
       },
       {
-        "name": "Petar Sučić",
+        "name": "Petar Sucic",
         "value": 1,
         "detail": "Croatia"
       },
@@ -17678,7 +17877,7 @@
         "detail": "Austria"
       },
       {
-        "name": "Saša Kalajdžić",
+        "name": "Sasa Kalajdzic",
         "value": 1,
         "detail": "Austria"
       },
@@ -17696,11 +17895,6 @@
         "name": "Stephen Eustáquio",
         "value": 1,
         "detail": "Canada"
-      },
-      {
-        "name": "Sultan Al-Brake (Own Goal)",
-        "value": 1,
-        "detail": "Bosnia and Herzegovina"
       },
       {
         "name": "Teboho Mokoena",
@@ -17743,12 +17937,12 @@
         "detail": "Egypt"
       },
       {
-        "name": "Yassine Bounou (Own Goal)",
+        "name": "Yassine Bounou",
         "value": 1,
         "detail": "Haiti"
       },
       {
-        "name": "Yazan Al-Arab(OG)",
+        "name": "Yazan Al-Arab",
         "value": 1,
         "detail": "Austria"
       }
@@ -17767,7 +17961,7 @@
       {
         "name": "Mike Maignan",
         "value": 4,
-        "detail": "France · 4 goals conceded in 7 appearances"
+        "detail": "France · 10 goals conceded in 8 appearances"
       },
       {
         "name": "Raúl Rangel",
@@ -17918,6 +18112,11 @@
         "name": "Bart Verbruggen",
         "value": 0,
         "detail": "Netherlands · 5 goals conceded in 4 appearances"
+      },
+      {
+        "name": "Dean Henderson",
+        "value": 0,
+        "detail": "England · 4 goals conceded in 1 appearance"
       },
       {
         "name": "Édouard Mendy",
@@ -19392,784 +19591,6 @@
         "match": "Canada vs Morocco"
       }
     ],
-    "penaltyEvents": [
-      {
-        "match": "Qatar vs Switzerland"
-      },
-      {
-        "match": "Germany vs Curaçao"
-      },
-      {
-        "match": "Austria vs Jordan"
-      },
-      {
-        "match": "England vs Croatia"
-      },
-      {
-        "match": "Czechia vs South Africa"
-      },
-      {
-        "match": "Switzerland vs Bosnia and Herzegovina"
-      },
-      {
-        "match": "Argentina vs Austria"
-      },
-      {
-        "match": "Norway vs France"
-      },
-      {
-        "match": "Egypt vs Iran"
-      },
-      {
-        "match": "DR Congo vs Uzbekistan"
-      },
-      {
-        "match": "Jordan vs Argentina"
-      },
-      {
-        "match": "Belgium vs Senegal"
-      },
-      {
-        "match": "Portugal vs Croatia"
-      },
-      {
-        "match": "Brazil vs Norway"
-      },
-      {
-        "match": "Brazil vs Norway"
-      },
-      {
-        "match": "Mexico vs England"
-      },
-      {
-        "match": "Mexico vs England"
-      },
-      {
-        "match": "Argentina vs Egypt"
-      },
-      {
-        "match": "France vs Morocco"
-      },
-      {
-        "match": "France vs Spain"
-      }
-    ],
-    "matchStats": [
-      {
-        "match": "Mexico vs South Africa",
-        "redCards": 3,
-        "yellowCards": 3,
-        "penalties": 0,
-        "elapsed": 97
-      },
-      {
-        "match": "Korea Republic vs Czechia",
-        "redCards": 0,
-        "yellowCards": 0,
-        "penalties": 0,
-        "elapsed": 96
-      },
-      {
-        "match": "Canada vs Bosnia and Herzegovina",
-        "redCards": 0,
-        "yellowCards": 4,
-        "penalties": 0,
-        "elapsed": 96
-      },
-      {
-        "match": "United States vs Paraguay",
-        "redCards": 0,
-        "yellowCards": 6,
-        "penalties": 0,
-        "elapsed": 102
-      },
-      {
-        "match": "Qatar vs Switzerland",
-        "redCards": 0,
-        "yellowCards": 3,
-        "penalties": 1,
-        "elapsed": 94
-      },
-      {
-        "match": "Brazil vs Morocco",
-        "redCards": 0,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 104
-      },
-      {
-        "match": "Haiti vs Scotland",
-        "redCards": 0,
-        "yellowCards": 4,
-        "penalties": 0,
-        "elapsed": 100
-      },
-      {
-        "match": "Australia vs Türkiye",
-        "redCards": 0,
-        "yellowCards": 1,
-        "penalties": 0,
-        "elapsed": 100
-      },
-      {
-        "match": "Germany vs Curaçao",
-        "redCards": 0,
-        "yellowCards": 0,
-        "penalties": 1,
-        "elapsed": 100
-      },
-      {
-        "match": "Netherlands vs Japan",
-        "redCards": 0,
-        "yellowCards": 3,
-        "penalties": 0,
-        "elapsed": 100
-      },
-      {
-        "match": "Cote d'Ivoire vs Ecuador",
-        "redCards": 0,
-        "yellowCards": 4,
-        "penalties": 0,
-        "elapsed": 102
-      },
-      {
-        "match": "Sweden vs Tunisia",
-        "redCards": 0,
-        "yellowCards": 1,
-        "penalties": 0,
-        "elapsed": 100
-      },
-      {
-        "match": "Spain vs Cabo Verde",
-        "redCards": 0,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 99
-      },
-      {
-        "match": "Belgium vs Egypt",
-        "redCards": 0,
-        "yellowCards": 4,
-        "penalties": 0,
-        "elapsed": 99
-      },
-      {
-        "match": "Saudi Arabia vs Uruguay",
-        "redCards": 0,
-        "yellowCards": 1,
-        "penalties": 0,
-        "elapsed": 99
-      },
-      {
-        "match": "Iran vs New Zealand",
-        "redCards": 0,
-        "yellowCards": 1,
-        "penalties": 0,
-        "elapsed": 99
-      },
-      {
-        "match": "France vs Senegal",
-        "redCards": 0,
-        "yellowCards": 0,
-        "penalties": 0,
-        "elapsed": 100
-      },
-      {
-        "match": "Iraq vs Norway",
-        "redCards": 0,
-        "yellowCards": 0,
-        "penalties": 0,
-        "elapsed": 99
-      },
-      {
-        "match": "Argentina vs Algeria",
-        "redCards": 0,
-        "yellowCards": 0,
-        "penalties": 0,
-        "elapsed": 100
-      },
-      {
-        "match": "Austria vs Jordan",
-        "redCards": 0,
-        "yellowCards": 1,
-        "penalties": 1,
-        "elapsed": 108
-      },
-      {
-        "match": "Portugal vs DR Congo",
-        "redCards": 0,
-        "yellowCards": 4,
-        "penalties": 0,
-        "elapsed": 99
-      },
-      {
-        "match": "England vs Croatia",
-        "redCards": 0,
-        "yellowCards": 0,
-        "penalties": 1,
-        "elapsed": 101
-      },
-      {
-        "match": "Ghana vs Panama",
-        "redCards": 0,
-        "yellowCards": 3,
-        "penalties": 0,
-        "elapsed": 99
-      },
-      {
-        "match": "Uzbekistan vs Colombia",
-        "redCards": 0,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 103
-      },
-      {
-        "match": "Czechia vs South Africa",
-        "redCards": 0,
-        "yellowCards": 2,
-        "penalties": 1,
-        "elapsed": 101
-      },
-      {
-        "match": "Switzerland vs Bosnia and Herzegovina",
-        "redCards": 1,
-        "yellowCards": 3,
-        "penalties": 1,
-        "elapsed": 99
-      },
-      {
-        "match": "Canada vs Qatar",
-        "redCards": 2,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 105
-      },
-      {
-        "match": "Mexico vs Korea Republic",
-        "redCards": 0,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 100
-      },
-      {
-        "match": "United States vs Australia",
-        "redCards": 0,
-        "yellowCards": 7,
-        "penalties": 0,
-        "elapsed": 103
-      },
-      {
-        "match": "Scotland vs Morocco",
-        "redCards": 0,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 100
-      },
-      {
-        "match": "Brazil vs Haiti",
-        "redCards": 0,
-        "yellowCards": 4,
-        "penalties": 0,
-        "elapsed": 101
-      },
-      {
-        "match": "Türkiye vs Paraguay",
-        "redCards": 1,
-        "yellowCards": 3,
-        "penalties": 0,
-        "elapsed": 103
-      },
-      {
-        "match": "Netherlands vs Sweden",
-        "redCards": 0,
-        "yellowCards": 3,
-        "penalties": 0,
-        "elapsed": 97
-      },
-      {
-        "match": "Germany vs Cote d'Ivoire",
-        "redCards": 0,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 100
-      },
-      {
-        "match": "Ecuador vs Curaçao",
-        "redCards": 0,
-        "yellowCards": 6,
-        "penalties": 0,
-        "elapsed": 99
-      },
-      {
-        "match": "Tunisia vs Japan",
-        "redCards": 0,
-        "yellowCards": 0,
-        "penalties": 0,
-        "elapsed": 100
-      },
-      {
-        "match": "Spain vs Saudi Arabia",
-        "redCards": 0,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 101
-      },
-      {
-        "match": "Belgium vs Iran",
-        "redCards": 1,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 98
-      },
-      {
-        "match": "Uruguay vs Cabo Verde",
-        "redCards": 0,
-        "yellowCards": 4,
-        "penalties": 0,
-        "elapsed": 105
-      },
-      {
-        "match": "New Zealand vs Egypt",
-        "redCards": 0,
-        "yellowCards": 3,
-        "penalties": 0,
-        "elapsed": 102
-      },
-      {
-        "match": "Argentina vs Austria",
-        "redCards": 0,
-        "yellowCards": 4,
-        "penalties": 1,
-        "elapsed": 102
-      },
-      {
-        "match": "France vs Iraq",
-        "redCards": 0,
-        "yellowCards": 1,
-        "penalties": 0,
-        "elapsed": 94
-      },
-      {
-        "match": "Norway vs Senegal",
-        "redCards": 0,
-        "yellowCards": 0,
-        "penalties": 0,
-        "elapsed": 102
-      },
-      {
-        "match": "Jordan vs Algeria",
-        "redCards": 0,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 102
-      },
-      {
-        "match": "Portugal vs Uzbekistan",
-        "redCards": 0,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 97
-      },
-      {
-        "match": "England vs Ghana",
-        "redCards": 0,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 98
-      },
-      {
-        "match": "Panama vs Croatia",
-        "redCards": 0,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 98
-      },
-      {
-        "match": "Colombia vs DR Congo",
-        "redCards": 0,
-        "yellowCards": 3,
-        "penalties": 0,
-        "elapsed": 101
-      },
-      {
-        "match": "Switzerland vs Canada",
-        "redCards": 0,
-        "yellowCards": 3,
-        "penalties": 0,
-        "elapsed": 99
-      },
-      {
-        "match": "Bosnia and Herzegovina vs Qatar",
-        "redCards": 0,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 101
-      },
-      {
-        "match": "Scotland vs Brazil",
-        "redCards": 0,
-        "yellowCards": 0,
-        "penalties": 0,
-        "elapsed": 96
-      },
-      {
-        "match": "Morocco vs Haiti",
-        "redCards": 0,
-        "yellowCards": 1,
-        "penalties": 0,
-        "elapsed": 104
-      },
-      {
-        "match": "Czechia vs Mexico",
-        "redCards": 0,
-        "yellowCards": 1,
-        "penalties": 0,
-        "elapsed": 96
-      },
-      {
-        "match": "South Africa vs Korea Republic",
-        "redCards": 0,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 98
-      },
-      {
-        "match": "Curaçao vs Cote d'Ivoire",
-        "redCards": 0,
-        "yellowCards": 3,
-        "penalties": 0,
-        "elapsed": 97
-      },
-      {
-        "match": "Ecuador vs Germany",
-        "redCards": 0,
-        "yellowCards": 0,
-        "penalties": 0,
-        "elapsed": 98
-      },
-      {
-        "match": "Japan vs Sweden",
-        "redCards": 0,
-        "yellowCards": 0,
-        "penalties": 0,
-        "elapsed": 97
-      },
-      {
-        "match": "Tunisia vs Netherlands",
-        "redCards": 0,
-        "yellowCards": 0,
-        "penalties": 0,
-        "elapsed": 96
-      },
-      {
-        "match": "Türkiye vs United States",
-        "redCards": 0,
-        "yellowCards": 0,
-        "penalties": 0,
-        "elapsed": 99
-      },
-      {
-        "match": "Paraguay vs Australia",
-        "redCards": 0,
-        "yellowCards": 1,
-        "penalties": 0,
-        "elapsed": 97
-      },
-      {
-        "match": "Norway vs France",
-        "redCards": 0,
-        "yellowCards": 1,
-        "penalties": 1,
-        "elapsed": 100
-      },
-      {
-        "match": "Senegal vs Iraq",
-        "redCards": 1,
-        "yellowCards": 0,
-        "penalties": 0,
-        "elapsed": 102
-      },
-      {
-        "match": "Cabo Verde vs Saudi Arabia",
-        "redCards": 0,
-        "yellowCards": 4,
-        "penalties": 0,
-        "elapsed": 101
-      },
-      {
-        "match": "Uruguay vs Spain",
-        "redCards": 1,
-        "yellowCards": 4,
-        "penalties": 0,
-        "elapsed": 102
-      },
-      {
-        "match": "Egypt vs Iran",
-        "redCards": 0,
-        "yellowCards": 7,
-        "penalties": 1,
-        "elapsed": 101
-      },
-      {
-        "match": "New Zealand vs Belgium",
-        "redCards": 0,
-        "yellowCards": 1,
-        "penalties": 0,
-        "elapsed": 95
-      },
-      {
-        "match": "Panama vs England",
-        "redCards": 0,
-        "yellowCards": 3,
-        "penalties": 0,
-        "elapsed": 98
-      },
-      {
-        "match": "Croatia vs Ghana",
-        "redCards": 0,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 100
-      },
-      {
-        "match": "Colombia vs Portugal",
-        "redCards": 0,
-        "yellowCards": 1,
-        "penalties": 0,
-        "elapsed": 90
-      },
-      {
-        "match": "DR Congo vs Uzbekistan",
-        "redCards": 0,
-        "yellowCards": 5,
-        "penalties": 1,
-        "elapsed": 100
-      },
-      {
-        "match": "Algeria vs Austria",
-        "redCards": 0,
-        "yellowCards": 1,
-        "penalties": 0,
-        "elapsed": 99
-      },
-      {
-        "match": "Jordan vs Argentina",
-        "redCards": 0,
-        "yellowCards": 1,
-        "penalties": 1,
-        "elapsed": 102
-      },
-      {
-        "match": "South Africa vs Canada",
-        "redCards": 0,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 98
-      },
-      {
-        "match": "Brazil vs Japan",
-        "redCards": 0,
-        "yellowCards": 5,
-        "penalties": 0,
-        "elapsed": 99
-      },
-      {
-        "match": "Germany vs Paraguay",
-        "redCards": 0,
-        "yellowCards": 4,
-        "penalties": 0,
-        "elapsed": 132
-      },
-      {
-        "match": "Netherlands vs Morocco",
-        "redCards": 0,
-        "yellowCards": 1,
-        "penalties": 0,
-        "elapsed": 129
-      },
-      {
-        "match": "Cote d'Ivoire vs Norway",
-        "redCards": 0,
-        "yellowCards": 1,
-        "penalties": 0,
-        "elapsed": 101
-      },
-      {
-        "match": "France vs Sweden",
-        "redCards": 0,
-        "yellowCards": 0,
-        "penalties": 0,
-        "elapsed": 97
-      },
-      {
-        "match": "Mexico vs Ecuador",
-        "redCards": 1,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 101
-      },
-      {
-        "match": "England vs DR Congo",
-        "redCards": 0,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 96
-      },
-      {
-        "match": "Belgium vs Senegal",
-        "redCards": 0,
-        "yellowCards": 6,
-        "penalties": 1,
-        "elapsed": 134
-      },
-      {
-        "match": "United States vs Bosnia and Herzegovina",
-        "redCards": 1,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 105
-      },
-      {
-        "match": "Spain vs Austria",
-        "redCards": 0,
-        "yellowCards": 1,
-        "penalties": 0,
-        "elapsed": 100
-      },
-      {
-        "match": "Portugal vs Croatia",
-        "redCards": 0,
-        "yellowCards": 3,
-        "penalties": 1,
-        "elapsed": 106
-      },
-      {
-        "match": "Switzerland vs Algeria",
-        "redCards": 0,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 101
-      },
-      {
-        "match": "Australia vs Egypt",
-        "redCards": 0,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 128
-      },
-      {
-        "match": "Argentina vs Cabo Verde",
-        "redCards": 0,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 136
-      },
-      {
-        "match": "Colombia vs Ghana",
-        "redCards": 0,
-        "yellowCards": 5,
-        "penalties": 0,
-        "elapsed": 98
-      },
-      {
-        "match": "Paraguay vs France",
-        "redCards": 0,
-        "yellowCards": 0,
-        "penalties": 0,
-        "elapsed": 90
-      },
-      {
-        "match": "Brazil vs Norway",
-        "redCards": 0,
-        "yellowCards": 1,
-        "penalties": 2,
-        "elapsed": 106
-      },
-      {
-        "match": "Mexico vs England",
-        "redCards": 1,
-        "yellowCards": 6,
-        "penalties": 2,
-        "elapsed": 108
-      },
-      {
-        "match": "Portugal vs Spain",
-        "redCards": 0,
-        "yellowCards": 3,
-        "penalties": 0,
-        "elapsed": 96
-      },
-      {
-        "match": "United States vs Belgium",
-        "redCards": 0,
-        "yellowCards": 2,
-        "penalties": 0,
-        "elapsed": 100
-      },
-      {
-        "match": "Argentina vs Egypt",
-        "redCards": 0,
-        "yellowCards": 4,
-        "penalties": 1,
-        "elapsed": 101
-      },
-      {
-        "match": "Switzerland vs Colombia",
-        "redCards": 0,
-        "yellowCards": 5,
-        "penalties": 0,
-        "elapsed": 131
-      },
-      {
-        "match": "France vs Morocco",
-        "redCards": 0,
-        "yellowCards": 1,
-        "penalties": 1,
-        "elapsed": 95
-      },
-      {
-        "match": "Spain vs Belgium",
-        "redCards": 0,
-        "yellowCards": 4,
-        "penalties": 0,
-        "elapsed": 97
-      },
-      {
-        "match": "Norway vs England",
-        "redCards": 0,
-        "yellowCards": 0,
-        "penalties": 0,
-        "elapsed": 120
-      },
-      {
-        "match": "Argentina vs Switzerland",
-        "redCards": 1,
-        "yellowCards": 4,
-        "penalties": 0,
-        "elapsed": 134
-      },
-      {
-        "match": "France vs Spain",
-        "redCards": 0,
-        "yellowCards": 3,
-        "penalties": 1,
-        "elapsed": 103
-      },
-      {
-        "match": "England vs Argentina",
-        "redCards": 0,
-        "yellowCards": 4,
-        "penalties": 0,
-        "elapsed": 102
-      },
-      {
-        "match": "Canada vs Morocco",
-        "redCards": 0,
-        "yellowCards": 8,
-        "penalties": 0,
-        "elapsed": 100
-      }
-    ],
     "goalEvents": [
       {
         "player": "Julián Quiñones",
@@ -21018,6 +20439,24 @@
         "match": "Colombia vs DR Congo"
       },
       {
+        "player": "Rubén Vargas",
+        "team": "Switzerland",
+        "minute": "46'",
+        "match": "Switzerland vs Canada"
+      },
+      {
+        "player": "Johan Manzambi",
+        "team": "Switzerland",
+        "minute": "57'",
+        "match": "Switzerland vs Canada"
+      },
+      {
+        "player": "Promise David",
+        "team": "Canada",
+        "minute": "76'",
+        "match": "Switzerland vs Canada"
+      },
+      {
         "player": "Kerim Alajbegovic",
         "team": "Bosnia and Herzegovina",
         "minute": "29'",
@@ -21042,22 +20481,22 @@
         "match": "Bosnia and Herzegovina vs Qatar"
       },
       {
-        "player": "Rubén Vargas",
-        "team": "Switzerland",
-        "minute": "46'",
-        "match": "Switzerland vs Canada"
+        "player": "Vinícius Júnior",
+        "team": "Brazil",
+        "minute": "7'",
+        "match": "Scotland vs Brazil"
       },
       {
-        "player": "Johan Manzambi",
-        "team": "Switzerland",
-        "minute": "57'",
-        "match": "Switzerland vs Canada"
+        "player": "Vinícius Júnior",
+        "team": "Brazil",
+        "minute": "45+3'",
+        "match": "Scotland vs Brazil"
       },
       {
-        "player": "Promise David",
-        "team": "Canada",
-        "minute": "76'",
-        "match": "Switzerland vs Canada"
+        "player": "Matheus Cunha",
+        "team": "Brazil",
+        "minute": "60'",
+        "match": "Scotland vs Brazil"
       },
       {
         "player": "Yassine Bounou",
@@ -21094,24 +20533,6 @@
         "team": "Morocco",
         "minute": "89'",
         "match": "Morocco vs Haiti"
-      },
-      {
-        "player": "Vinícius Júnior",
-        "team": "Brazil",
-        "minute": "7'",
-        "match": "Scotland vs Brazil"
-      },
-      {
-        "player": "Vinícius Júnior",
-        "team": "Brazil",
-        "minute": "45+3'",
-        "match": "Scotland vs Brazil"
-      },
-      {
-        "player": "Matheus Cunha",
-        "team": "Brazil",
-        "minute": "60'",
-        "match": "Scotland vs Brazil"
       },
       {
         "player": "Mateo Chávez",
@@ -21348,6 +20769,18 @@
         "match": "New Zealand vs Belgium"
       },
       {
+        "player": "Jude Bellingham",
+        "team": "England",
+        "minute": "62'",
+        "match": "Panama vs England"
+      },
+      {
+        "player": "Harry Kane",
+        "team": "England",
+        "minute": "67'",
+        "match": "Panama vs England"
+      },
+      {
         "player": "Petar Sucic",
         "team": "Croatia",
         "minute": "31'",
@@ -21364,18 +20797,6 @@
         "team": "Croatia",
         "minute": "83'",
         "match": "Croatia vs Ghana"
-      },
-      {
-        "player": "Jude Bellingham",
-        "team": "England",
-        "minute": "62'",
-        "match": "Panama vs England"
-      },
-      {
-        "player": "Harry Kane",
-        "team": "England",
-        "minute": "67'",
-        "match": "Panama vs England"
       },
       {
         "player": "Eldor Shomurodov",
@@ -21714,24 +21135,6 @@
         "match": "Colombia vs Ghana"
       },
       {
-        "player": "Azzedine Ounahi",
-        "team": "Morocco",
-        "minute": "50'",
-        "match": "Canada vs Morocco"
-      },
-      {
-        "player": "Azzedine Ounahi",
-        "team": "Morocco",
-        "minute": "82'",
-        "match": "Canada vs Morocco"
-      },
-      {
-        "player": "Soufiane Rahimi",
-        "team": "Morocco",
-        "minute": "90+8'",
-        "match": "Canada vs Morocco"
-      },
-      {
         "player": "Kylian Mbappé",
         "team": "France",
         "minute": "70'",
@@ -21952,6 +21355,869 @@
         "team": "Argentina",
         "minute": "90+2'",
         "match": "England vs Argentina"
+      },
+      {
+        "player": "Declan Rice",
+        "team": "England",
+        "match": "France vs England",
+        "minute": "3'"
+      },
+      {
+        "player": "Ezri Konsa",
+        "team": "England",
+        "match": "France vs England",
+        "minute": "18'"
+      },
+      {
+        "player": "Bukayo Saka",
+        "team": "England",
+        "match": "France vs England",
+        "minute": "37'"
+      },
+      {
+        "player": "Bukayo Saka",
+        "team": "England",
+        "match": "France vs England",
+        "minute": "45+1'"
+      },
+      {
+        "player": "Kylian Mbappé",
+        "team": "France",
+        "match": "France vs England",
+        "minute": "48'"
+      },
+      {
+        "player": "Bradley Barcola",
+        "team": "France",
+        "match": "France vs England",
+        "minute": "54'"
+      },
+      {
+        "player": "Kylian Mbappé",
+        "team": "France",
+        "match": "France vs England",
+        "minute": "66'"
+      },
+      {
+        "player": "Bukayo Saka",
+        "team": "England",
+        "match": "France vs England",
+        "minute": "87'"
+      },
+      {
+        "player": "Ousmane Dembélé",
+        "team": "France",
+        "match": "France vs England",
+        "minute": "90+6'"
+      },
+      {
+        "player": "Jude Bellingham",
+        "team": "England",
+        "match": "France vs England",
+        "minute": "90+8'"
+      },
+      {
+        "player": "Azzedine Ounahi",
+        "team": "Morocco",
+        "minute": "50'",
+        "match": "Canada vs Morocco"
+      },
+      {
+        "player": "Azzedine Ounahi",
+        "team": "Morocco",
+        "minute": "82'",
+        "match": "Canada vs Morocco"
+      },
+      {
+        "player": "Soufiane Rahimi",
+        "team": "Morocco",
+        "minute": "90+8'",
+        "match": "Canada vs Morocco"
+      }
+    ],
+    "penaltyEvents": [
+      {
+        "match": "Qatar vs Switzerland"
+      },
+      {
+        "match": "Germany vs Curaçao"
+      },
+      {
+        "match": "Austria vs Jordan"
+      },
+      {
+        "match": "England vs Croatia"
+      },
+      {
+        "match": "Czechia vs South Africa"
+      },
+      {
+        "match": "Switzerland vs Bosnia and Herzegovina"
+      },
+      {
+        "match": "Argentina vs Austria"
+      },
+      {
+        "match": "Norway vs France"
+      },
+      {
+        "match": "Egypt vs Iran"
+      },
+      {
+        "match": "DR Congo vs Uzbekistan"
+      },
+      {
+        "match": "Jordan vs Argentina"
+      },
+      {
+        "match": "Belgium vs Senegal"
+      },
+      {
+        "match": "Portugal vs Croatia"
+      },
+      {
+        "match": "Brazil vs Norway"
+      },
+      {
+        "match": "Brazil vs Norway"
+      },
+      {
+        "match": "Mexico vs England"
+      },
+      {
+        "match": "Mexico vs England"
+      },
+      {
+        "match": "Argentina vs Egypt"
+      },
+      {
+        "match": "France vs Morocco"
+      },
+      {
+        "match": "France vs Spain"
+      }
+    ],
+    "matchStats": [
+      {
+        "match": "Mexico vs South Africa",
+        "redCards": 3,
+        "yellowCards": 3,
+        "penalties": 0,
+        "elapsed": 97
+      },
+      {
+        "match": "Korea Republic vs Czechia",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 96
+      },
+      {
+        "match": "Canada vs Bosnia and Herzegovina",
+        "redCards": 0,
+        "yellowCards": 4,
+        "penalties": 0,
+        "elapsed": 96
+      },
+      {
+        "match": "United States vs Paraguay",
+        "redCards": 0,
+        "yellowCards": 6,
+        "penalties": 0,
+        "elapsed": 102
+      },
+      {
+        "match": "Qatar vs Switzerland",
+        "redCards": 0,
+        "yellowCards": 3,
+        "penalties": 1,
+        "elapsed": 94
+      },
+      {
+        "match": "Brazil vs Morocco",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 104
+      },
+      {
+        "match": "Haiti vs Scotland",
+        "redCards": 0,
+        "yellowCards": 4,
+        "penalties": 0,
+        "elapsed": 100
+      },
+      {
+        "match": "Australia vs Türkiye",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 100
+      },
+      {
+        "match": "Germany vs Curaçao",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 1,
+        "elapsed": 100
+      },
+      {
+        "match": "Netherlands vs Japan",
+        "redCards": 0,
+        "yellowCards": 3,
+        "penalties": 0,
+        "elapsed": 100
+      },
+      {
+        "match": "Cote d'Ivoire vs Ecuador",
+        "redCards": 0,
+        "yellowCards": 4,
+        "penalties": 0,
+        "elapsed": 102
+      },
+      {
+        "match": "Sweden vs Tunisia",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 100
+      },
+      {
+        "match": "Spain vs Cabo Verde",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 99
+      },
+      {
+        "match": "Belgium vs Egypt",
+        "redCards": 0,
+        "yellowCards": 4,
+        "penalties": 0,
+        "elapsed": 99
+      },
+      {
+        "match": "Saudi Arabia vs Uruguay",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 99
+      },
+      {
+        "match": "Iran vs New Zealand",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 99
+      },
+      {
+        "match": "France vs Senegal",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 100
+      },
+      {
+        "match": "Iraq vs Norway",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 99
+      },
+      {
+        "match": "Argentina vs Algeria",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 100
+      },
+      {
+        "match": "Austria vs Jordan",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 1,
+        "elapsed": 108
+      },
+      {
+        "match": "Portugal vs DR Congo",
+        "redCards": 0,
+        "yellowCards": 4,
+        "penalties": 0,
+        "elapsed": 99
+      },
+      {
+        "match": "England vs Croatia",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 1,
+        "elapsed": 101
+      },
+      {
+        "match": "Ghana vs Panama",
+        "redCards": 0,
+        "yellowCards": 3,
+        "penalties": 0,
+        "elapsed": 99
+      },
+      {
+        "match": "Uzbekistan vs Colombia",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 103
+      },
+      {
+        "match": "Czechia vs South Africa",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 1,
+        "elapsed": 101
+      },
+      {
+        "match": "Switzerland vs Bosnia and Herzegovina",
+        "redCards": 1,
+        "yellowCards": 3,
+        "penalties": 1,
+        "elapsed": 99
+      },
+      {
+        "match": "Canada vs Qatar",
+        "redCards": 2,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 105
+      },
+      {
+        "match": "Mexico vs Korea Republic",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 100
+      },
+      {
+        "match": "United States vs Australia",
+        "redCards": 0,
+        "yellowCards": 7,
+        "penalties": 0,
+        "elapsed": 103
+      },
+      {
+        "match": "Scotland vs Morocco",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 100
+      },
+      {
+        "match": "Brazil vs Haiti",
+        "redCards": 0,
+        "yellowCards": 4,
+        "penalties": 0,
+        "elapsed": 101
+      },
+      {
+        "match": "Türkiye vs Paraguay",
+        "redCards": 1,
+        "yellowCards": 3,
+        "penalties": 0,
+        "elapsed": 103
+      },
+      {
+        "match": "Netherlands vs Sweden",
+        "redCards": 0,
+        "yellowCards": 3,
+        "penalties": 0,
+        "elapsed": 97
+      },
+      {
+        "match": "Germany vs Cote d'Ivoire",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 100
+      },
+      {
+        "match": "Ecuador vs Curaçao",
+        "redCards": 0,
+        "yellowCards": 6,
+        "penalties": 0,
+        "elapsed": 99
+      },
+      {
+        "match": "Tunisia vs Japan",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 100
+      },
+      {
+        "match": "Spain vs Saudi Arabia",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 101
+      },
+      {
+        "match": "Belgium vs Iran",
+        "redCards": 1,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 98
+      },
+      {
+        "match": "Uruguay vs Cabo Verde",
+        "redCards": 0,
+        "yellowCards": 4,
+        "penalties": 0,
+        "elapsed": 105
+      },
+      {
+        "match": "New Zealand vs Egypt",
+        "redCards": 0,
+        "yellowCards": 3,
+        "penalties": 0,
+        "elapsed": 102
+      },
+      {
+        "match": "Argentina vs Austria",
+        "redCards": 0,
+        "yellowCards": 4,
+        "penalties": 1,
+        "elapsed": 102
+      },
+      {
+        "match": "France vs Iraq",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 94
+      },
+      {
+        "match": "Norway vs Senegal",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 102
+      },
+      {
+        "match": "Jordan vs Algeria",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 102
+      },
+      {
+        "match": "Portugal vs Uzbekistan",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 97
+      },
+      {
+        "match": "England vs Ghana",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 98
+      },
+      {
+        "match": "Panama vs Croatia",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 98
+      },
+      {
+        "match": "Colombia vs DR Congo",
+        "redCards": 0,
+        "yellowCards": 3,
+        "penalties": 0,
+        "elapsed": 101
+      },
+      {
+        "match": "Switzerland vs Canada",
+        "redCards": 0,
+        "yellowCards": 3,
+        "penalties": 0,
+        "elapsed": 99
+      },
+      {
+        "match": "Bosnia and Herzegovina vs Qatar",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 101
+      },
+      {
+        "match": "Scotland vs Brazil",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 96
+      },
+      {
+        "match": "Morocco vs Haiti",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 104
+      },
+      {
+        "match": "Czechia vs Mexico",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 96
+      },
+      {
+        "match": "South Africa vs Korea Republic",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 98
+      },
+      {
+        "match": "Curaçao vs Cote d'Ivoire",
+        "redCards": 0,
+        "yellowCards": 3,
+        "penalties": 0,
+        "elapsed": 97
+      },
+      {
+        "match": "Ecuador vs Germany",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 98
+      },
+      {
+        "match": "Japan vs Sweden",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 97
+      },
+      {
+        "match": "Tunisia vs Netherlands",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 96
+      },
+      {
+        "match": "Türkiye vs United States",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 99
+      },
+      {
+        "match": "Paraguay vs Australia",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 97
+      },
+      {
+        "match": "Norway vs France",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 1,
+        "elapsed": 100
+      },
+      {
+        "match": "Senegal vs Iraq",
+        "redCards": 1,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 102
+      },
+      {
+        "match": "Cabo Verde vs Saudi Arabia",
+        "redCards": 0,
+        "yellowCards": 4,
+        "penalties": 0,
+        "elapsed": 101
+      },
+      {
+        "match": "Uruguay vs Spain",
+        "redCards": 1,
+        "yellowCards": 4,
+        "penalties": 0,
+        "elapsed": 102
+      },
+      {
+        "match": "Egypt vs Iran",
+        "redCards": 0,
+        "yellowCards": 7,
+        "penalties": 1,
+        "elapsed": 101
+      },
+      {
+        "match": "New Zealand vs Belgium",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 95
+      },
+      {
+        "match": "Panama vs England",
+        "redCards": 0,
+        "yellowCards": 3,
+        "penalties": 0,
+        "elapsed": 98
+      },
+      {
+        "match": "Croatia vs Ghana",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 100
+      },
+      {
+        "match": "Colombia vs Portugal",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 90
+      },
+      {
+        "match": "DR Congo vs Uzbekistan",
+        "redCards": 0,
+        "yellowCards": 5,
+        "penalties": 1,
+        "elapsed": 100
+      },
+      {
+        "match": "Algeria vs Austria",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 99
+      },
+      {
+        "match": "Jordan vs Argentina",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 1,
+        "elapsed": 102
+      },
+      {
+        "match": "South Africa vs Canada",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 98
+      },
+      {
+        "match": "Brazil vs Japan",
+        "redCards": 0,
+        "yellowCards": 5,
+        "penalties": 0,
+        "elapsed": 99
+      },
+      {
+        "match": "Germany vs Paraguay",
+        "redCards": 0,
+        "yellowCards": 4,
+        "penalties": 0,
+        "elapsed": 132
+      },
+      {
+        "match": "Netherlands vs Morocco",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 129
+      },
+      {
+        "match": "Cote d'Ivoire vs Norway",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 101
+      },
+      {
+        "match": "France vs Sweden",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 97
+      },
+      {
+        "match": "Mexico vs Ecuador",
+        "redCards": 1,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 101
+      },
+      {
+        "match": "England vs DR Congo",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 96
+      },
+      {
+        "match": "Belgium vs Senegal",
+        "redCards": 0,
+        "yellowCards": 6,
+        "penalties": 1,
+        "elapsed": 134
+      },
+      {
+        "match": "United States vs Bosnia and Herzegovina",
+        "redCards": 1,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 105
+      },
+      {
+        "match": "Spain vs Austria",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 0,
+        "elapsed": 100
+      },
+      {
+        "match": "Portugal vs Croatia",
+        "redCards": 0,
+        "yellowCards": 3,
+        "penalties": 1,
+        "elapsed": 106
+      },
+      {
+        "match": "Switzerland vs Algeria",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 101
+      },
+      {
+        "match": "Australia vs Egypt",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 128
+      },
+      {
+        "match": "Argentina vs Cabo Verde",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 136
+      },
+      {
+        "match": "Colombia vs Ghana",
+        "redCards": 0,
+        "yellowCards": 5,
+        "penalties": 0,
+        "elapsed": 98
+      },
+      {
+        "match": "Paraguay vs France",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 90
+      },
+      {
+        "match": "Brazil vs Norway",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 2,
+        "elapsed": 106
+      },
+      {
+        "match": "Mexico vs England",
+        "redCards": 1,
+        "yellowCards": 6,
+        "penalties": 2,
+        "elapsed": 108
+      },
+      {
+        "match": "Portugal vs Spain",
+        "redCards": 0,
+        "yellowCards": 3,
+        "penalties": 0,
+        "elapsed": 96
+      },
+      {
+        "match": "United States vs Belgium",
+        "redCards": 0,
+        "yellowCards": 2,
+        "penalties": 0,
+        "elapsed": 100
+      },
+      {
+        "match": "Argentina vs Egypt",
+        "redCards": 0,
+        "yellowCards": 4,
+        "penalties": 1,
+        "elapsed": 101
+      },
+      {
+        "match": "Switzerland vs Colombia",
+        "redCards": 0,
+        "yellowCards": 5,
+        "penalties": 0,
+        "elapsed": 131
+      },
+      {
+        "match": "France vs Morocco",
+        "redCards": 0,
+        "yellowCards": 1,
+        "penalties": 1,
+        "elapsed": 95
+      },
+      {
+        "match": "Spain vs Belgium",
+        "redCards": 0,
+        "yellowCards": 4,
+        "penalties": 0,
+        "elapsed": 97
+      },
+      {
+        "match": "Norway vs England",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 120
+      },
+      {
+        "match": "Argentina vs Switzerland",
+        "redCards": 1,
+        "yellowCards": 4,
+        "penalties": 0,
+        "elapsed": 134
+      },
+      {
+        "match": "France vs Spain",
+        "redCards": 0,
+        "yellowCards": 3,
+        "penalties": 1,
+        "elapsed": 103
+      },
+      {
+        "match": "England vs Argentina",
+        "redCards": 0,
+        "yellowCards": 4,
+        "penalties": 0,
+        "elapsed": 102
+      },
+      {
+        "match": "France vs England",
+        "redCards": 0,
+        "yellowCards": 0,
+        "penalties": 0,
+        "elapsed": 102
+      },
+      {
+        "match": "Canada vs Morocco",
+        "redCards": 0,
+        "yellowCards": 8,
+        "penalties": 0,
+        "elapsed": 100
       }
     ]
   },
@@ -22005,13 +22271,5 @@
     "Senegal": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Senegalese_Football_Federation_logo.svg/960px-Senegalese_Football_Federation_logo.svg.png",
     "Panama": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/Panamanian_Football_Federation_logo_2024.svg/960px-Panamanian_Football_Federation_logo_2024.svg.png",
     "Uruguay": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Uruguay_national_football_team_seal.svg/960px-Uruguay_national_football_team_seal.svg.png"
-  },
-  "featuredBadgeMatch": {
-    "home": "France",
-    "away": "England",
-    "homeScore": 4,
-    "awayScore": 6,
-    "label": "France vs England",
-    "updatedAt": "2026-07-18T23:01:03.035Z"
   }
 }
