@@ -260,6 +260,34 @@ function findTeamEntryByName(teamName) {
   });
 }
 
+function getEliminationStageLabel(teamName, groupStageSurvivors) {
+  const normalizedTeam = normalizeTeamName(cleanDisplayText(teamName));
+  const knockoutLoss = (siteData.matches || [])
+    .filter(function (match) {
+      return match.stage === "Knockout" &&
+        isFinishedMatch(match) &&
+        normalizeTeamName(getKnockoutResult(match, "runner-up")) === normalizedTeam;
+    })
+    .sort(function (a, b) {
+      return getKnockoutStageLevel(b) - getKnockoutStageLevel(a);
+    })[0];
+
+  if (knockoutLoss) {
+    const text = String(`${knockoutLoss.group || ""} ${knockoutLoss.stage || ""}`);
+    if (/round of 32/i.test(text)) return "ELIMINATED IN ROUND OF 32";
+    if (/round of 16/i.test(text)) return "ELIMINATED IN ROUND OF 16";
+    if (/quarter/i.test(text)) return "ELIMINATED IN QUARTER-FINALS";
+    if (/semi/i.test(text)) return "ELIMINATED IN SEMI-FINALS";
+    if (/final/i.test(text)) return "RUNNER-UP";
+  }
+
+  if (groupStageSurvivors && !groupStageSurvivors.has(teamName)) {
+    return "ELIMINATED IN GROUP STAGE";
+  }
+
+  return "";
+}
+
 function recalculateOrbitProgressFromMatches() {
   const knockoutRecords = new Map();
 
@@ -318,6 +346,10 @@ function renderTeamOrbit() {
   const groupStageSurvivors = getGroupStageSurvivorNames();
   // Each dot uses a recognizable national team or flag color.
   const nationalColors = siteData.nationalColors;
+  const finalPlacementLabels = {
+    England: "3RD PLACE",
+    France: "4TH PLACE"
+  };
 
   teamOrbitDots.innerHTML = allTeams.map(function (entry, index) {
     const angle = (index / allTeams.length) * Math.PI * 2 - Math.PI / 2;
@@ -333,12 +365,18 @@ function renderTeamOrbit() {
     const orbitScore = inwardProgress - lossPenalty;
     const color = nationalColors[entry.name] || "#ffffff";
     const isEliminated = entry.eliminated || (groupStageSurvivors && !groupStageSurvivors.has(entry.name));
-    const labelText = isEliminated
-      ? `${entry.name} · ELIMINATED`
-      : `${entry.name} · ${tournamentRecord.won}W ${tournamentRecord.lost}L`;
-    const ariaLabel = isEliminated
-      ? `${entry.name}, eliminated`
-      : `${entry.name}, ${tournamentRecord.won} wins, ${tournamentRecord.lost} losses`;
+    const placementLabel = finalPlacementLabels[entry.name];
+    const eliminationLabel = getEliminationStageLabel(entry.name, groupStageSurvivors);
+    const labelText = placementLabel
+      ? `${entry.name} · ${placementLabel}`
+      : eliminationLabel
+        ? `${entry.name} · ${eliminationLabel}`
+        : `${entry.name} · ${tournamentRecord.won}W ${tournamentRecord.lost}L`;
+    const ariaLabel = placementLabel
+      ? `${entry.name}, ${placementLabel.toLowerCase()}`
+      : eliminationLabel
+        ? `${entry.name}, ${eliminationLabel.toLowerCase()}`
+        : `${entry.name}, ${tournamentRecord.won} wins, ${tournamentRecord.lost} losses`;
 
     return `
       <button
