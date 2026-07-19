@@ -326,10 +326,11 @@ function renderTeamOrbit() {
     const tournamentRecord = getTournamentRecord(entry.name);
     const stageProgress = entry.stageProgress || 0;
     const inwardProgress =
-      stageProgress * 24 +
-      Math.min(entry.points || 0, 9) * 2 +
-      (tournamentRecord.won || 0) * 7;
-    const lossPenalty = (tournamentRecord.lost || 0) * 12;
+      stageProgress * 38 +
+      Math.min(entry.points || 0, 9) * 5 +
+      (tournamentRecord.won || 0) * 14;
+    const lossPenalty = (tournamentRecord.lost || 0) * 22;
+    const orbitScore = inwardProgress - lossPenalty;
     const color = nationalColors[entry.name] || "#ffffff";
     const isEliminated = entry.eliminated || (groupStageSurvivors && !groupStageSurvivors.has(entry.name));
     const labelText = isEliminated
@@ -347,6 +348,7 @@ function renderTeamOrbit() {
           --dot-angle: ${angle};
           --dot-progress: ${inwardProgress};
           --loss-penalty: ${lossPenalty};
+          --orbit-score: ${orbitScore};
           --team-color: ${color};
         "
         data-label="${labelText}"
@@ -357,6 +359,7 @@ function renderTeamOrbit() {
   }).join("");
 
   positionTeamOrbitDots();
+  window.setTimeout(positionTeamOrbitDots, 250);
 }
 
 function positionTeamOrbitDots() {
@@ -365,18 +368,23 @@ function positionTeamOrbitDots() {
   }
 
   const bounds = teamOrbitDots.getBoundingClientRect();
-  const outerRadius = Math.max(Math.min(bounds.width, bounds.height) / 2 - 12, 110);
-  const startingRadius = Math.max(outerRadius - 30, 95);
-  const minimumRadius = Math.min(outerRadius, 135);
+  const outerRadius = Math.max(Math.min(bounds.width, bounds.height) / 2 - 8, 125);
+  // Let top teams reach the ball, but keep them outside the trophy core.
+  // The trophy image sits above the dots, so it still visually owns the center.
+  const minimumRadius = Math.min(outerRadius, 54);
+  const dots = [...teamOrbitDots.querySelectorAll(".team-orbit-dot")];
+  const scores = dots.map(function (dot) {
+    return Number(dot.style.getPropertyValue("--orbit-score")) || 0;
+  });
+  const lowestScore = Math.min(...scores);
+  const highestScore = Math.max(...scores);
+  const scoreRange = Math.max(highestScore - lowestScore, 1);
 
-  teamOrbitDots.querySelectorAll(".team-orbit-dot").forEach(function (dot) {
+  dots.forEach(function (dot) {
     const angle = Number(dot.style.getPropertyValue("--dot-angle"));
-    const progress = Number(dot.style.getPropertyValue("--dot-progress"));
-    const lossPenalty = Number(dot.style.getPropertyValue("--loss-penalty"));
-    const radius = Math.min(
-      Math.max(startingRadius - progress + lossPenalty, minimumRadius),
-      outerRadius
-    );
+    const score = Number(dot.style.getPropertyValue("--orbit-score")) || 0;
+    const progressTowardTrophy = (score - lowestScore) / scoreRange;
+    const radius = outerRadius - progressTowardTrophy * (outerRadius - minimumRadius);
     dot.style.setProperty("--dot-x", `${Math.cos(angle) * radius}px`);
     dot.style.setProperty("--dot-y", `${Math.sin(angle) * radius}px`);
   });
