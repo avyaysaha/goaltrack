@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T23:27:03.513Z",
+  "updatedAt": "2026-07-20T00:51:12.206Z",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "finalKickoff": "2026-07-19T15:00:00-04:00"
@@ -9100,7 +9100,7 @@
       ],
       "yellowCards": [],
       "redCards": [],
-      "penalties": 0,
+      "penalties": 1,
       "homeKeeper": "Mike Maignan",
       "awayKeeper": "Dean Henderson",
       "homeStats": {
@@ -9132,12 +9132,92 @@
       "group": "Match 104 · Final",
       "time": "3:00 PM local",
       "kickoffISO": "2026-07-19T19:00:00Z",
-      "home": "Winner Match 101",
-      "homeFlag": "W101",
-      "away": "Winner Match 102",
-      "awayFlag": "W102",
+      "home": "Spain",
+      "homeFlag": "ESP",
+      "away": "Argentina",
+      "awayFlag": "ARG",
       "location": "MetLife Stadium · New Jersey",
-      "venueTimeZone": "America/New_York"
+      "venueTimeZone": "America/New_York",
+      "status": "AET",
+      "homeScore": 1,
+      "awayScore": 0,
+      "scorers": [
+        {
+          "player": "Ferran Torres",
+          "team": "Spain",
+          "match": "Spain vs Argentina",
+          "minute": "106'"
+        }
+      ],
+      "yellowCards": [
+        {
+          "player": "Lisandro Martínez",
+          "team": "Argentina",
+          "match": "Spain vs Argentina",
+          "minute": "41'"
+        },
+        {
+          "player": "Leandro Paredes",
+          "team": "Argentina",
+          "match": "Spain vs Argentina",
+          "minute": "52'"
+        },
+        {
+          "player": "Enzo Fernández",
+          "team": "Argentina",
+          "match": "Spain vs Argentina",
+          "minute": "82'"
+        },
+        {
+          "player": "Cristian Romero",
+          "team": "Argentina",
+          "match": "Spain vs Argentina",
+          "minute": "90+2'"
+        },
+        {
+          "player": "Alexis Mac Allister",
+          "team": "Argentina",
+          "match": "Spain vs Argentina",
+          "minute": "111'"
+        }
+      ],
+      "redCards": [
+        {
+          "player": "Enzo Fernández",
+          "team": "Argentina",
+          "match": "Spain vs Argentina",
+          "minute": "90+3'"
+        }
+      ],
+      "penalties": 0,
+      "homeKeeper": "Unai Simón",
+      "awayKeeper": "Emiliano Martínez",
+      "homeStats": {
+        "shots": 20,
+        "shotsOnTarget": 12,
+        "possession": 65.1,
+        "passes": 852,
+        "passAccuracy": 90,
+        "performance": 4.8,
+        "fouls": 21,
+        "yellowCards": 0,
+        "redCards": 0,
+        "offsides": 4,
+        "corners": 9
+      },
+      "awayStats": {
+        "shots": 2,
+        "shotsOnTarget": 0,
+        "possession": 34.9,
+        "passes": 464,
+        "passAccuracy": 80,
+        "performance": 2.1,
+        "fouls": 25,
+        "yellowCards": 4,
+        "redCards": 1,
+        "offsides": 1,
+        "corners": 4
+      }
     },
     {
       "date": "Saturday, July 4, 2026",
@@ -17477,6 +17557,11 @@
         "detail": "Germany"
       },
       {
+        "name": "Ferran Torres",
+        "value": 1,
+        "detail": "Spain"
+      },
+      {
         "name": "Finn Surman",
         "value": 1,
         "detail": "New Zealand"
@@ -17950,8 +18035,8 @@
     "keepers": [
       {
         "name": "Unai Simón",
-        "value": 6,
-        "detail": "Spain · 1 goals conceded in 7 appearances"
+        "value": 7,
+        "detail": "Spain · 1 goals conceded in 8 appearances"
       },
       {
         "name": "Camilo Vargas",
@@ -17981,7 +18066,7 @@
       {
         "name": "Emiliano Martínez",
         "value": 2,
-        "detail": "Argentina · 5 goals conceded in 6 appearances"
+        "detail": "Argentina · 6 goals conceded in 7 appearances"
       },
       {
         "name": "Gregor Kobel",
@@ -18266,7 +18351,8 @@
       "Ecuador": 1,
       "Iran": 1,
       "England": 1,
-      "Switzerland": 1
+      "Switzerland": 1,
+      "Argentina": 1
     },
     "yellowCards": {
       "South Africa": 7,
@@ -18306,7 +18392,7 @@
       "Curaçao": 7,
       "Uruguay": 5,
       "New Zealand": 3,
-      "Argentina": 9,
+      "Argentina": 14,
       "Iraq": 1,
       "Algeria": 3,
       "Jordan": 2,
@@ -18387,6 +18473,12 @@
         "player": "Breel Embolo",
         "team": "Switzerland",
         "match": "Argentina vs Switzerland"
+      },
+      {
+        "player": "Enzo Fernández",
+        "team": "Argentina",
+        "match": "Spain vs Argentina",
+        "minute": "90+3'"
       }
     ],
     "yellowCardEvents": [
@@ -19549,6 +19641,36 @@
         "player": "Lisandro Martínez",
         "team": "Argentina",
         "match": "England vs Argentina"
+      },
+      {
+        "player": "Lisandro Martínez",
+        "team": "Argentina",
+        "match": "Spain vs Argentina",
+        "minute": "41'"
+      },
+      {
+        "player": "Leandro Paredes",
+        "team": "Argentina",
+        "match": "Spain vs Argentina",
+        "minute": "52'"
+      },
+      {
+        "player": "Enzo Fernández",
+        "team": "Argentina",
+        "match": "Spain vs Argentina",
+        "minute": "82'"
+      },
+      {
+        "player": "Cristian Romero",
+        "team": "Argentina",
+        "match": "Spain vs Argentina",
+        "minute": "90+2'"
+      },
+      {
+        "player": "Alexis Mac Allister",
+        "team": "Argentina",
+        "match": "Spain vs Argentina",
+        "minute": "111'"
       },
       {
         "player": "Redouane Halhal",
@@ -21417,6 +21539,12 @@
         "minute": "90+8'"
       },
       {
+        "player": "Ferran Torres",
+        "team": "Spain",
+        "match": "Spain vs Argentina",
+        "minute": "106'"
+      },
+      {
         "player": "Azzedine Ounahi",
         "team": "Morocco",
         "minute": "50'",
@@ -21495,6 +21623,9 @@
       },
       {
         "match": "France vs Spain"
+      },
+      {
+        "match": "France vs England"
       }
     ],
     "matchStats": [
@@ -22209,8 +22340,15 @@
         "match": "France vs England",
         "redCards": 0,
         "yellowCards": 0,
-        "penalties": 0,
+        "penalties": 1,
         "elapsed": 102
+      },
+      {
+        "match": "Spain vs Argentina",
+        "redCards": 1,
+        "yellowCards": 5,
+        "penalties": 0,
+        "elapsed": 120
       },
       {
         "match": "Canada vs Morocco",
@@ -22219,7 +22357,57 @@
         "penalties": 0,
         "elapsed": 100
       }
-    ]
+    ],
+    "goals": {
+      "Mexico": 10,
+      "South Africa": 2,
+      "Korea Republic": 2,
+      "Czechia": 2,
+      "Canada": 9,
+      "Bosnia and Herzegovina": 5,
+      "United States": 11,
+      "Paraguay": 3,
+      "Qatar": 2,
+      "Switzerland": 10,
+      "Brazil": 10,
+      "Morocco": 10,
+      "Haiti": 2,
+      "Scotland": 1,
+      "Australia": 3,
+      "Türkiye": 3,
+      "Germany": 11,
+      "Curaçao": 1,
+      "Netherlands": 11,
+      "Japan": 8,
+      "Cote d'Ivoire": 5,
+      "Ecuador": 2,
+      "Sweden": 7,
+      "Tunisia": 2,
+      "Spain": 14,
+      "Cabo Verde": 4,
+      "Belgium": 14,
+      "Egypt": 8,
+      "Saudi Arabia": 1,
+      "Uruguay": 3,
+      "Iran": 3,
+      "New Zealand": 4,
+      "France": 20,
+      "Senegal": 10,
+      "Iraq": 1,
+      "Norway": 13,
+      "Argentina": 19,
+      "Algeria": 5,
+      "Austria": 6,
+      "Jordan": 3,
+      "Portugal": 8,
+      "DR Congo": 5,
+      "England": 20,
+      "Croatia": 6,
+      "Ghana": 2,
+      "Panama": 0,
+      "Uzbekistan": 2,
+      "Colombia": 5
+    }
   },
   "shirtBadgeUrls": {
     "Mexico": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Mexico_national_football_team_crest.svg/960px-Mexico_national_football_team_crest.svg.png",
@@ -22271,5 +22459,12 @@
     "Senegal": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Senegalese_Football_Federation_logo.svg/960px-Senegalese_Football_Federation_logo.svg.png",
     "Panama": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/Panamanian_Football_Federation_logo_2024.svg/960px-Panamanian_Football_Federation_logo_2024.svg.png",
     "Uruguay": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Uruguay_national_football_team_seal.svg/960px-Uruguay_national_football_team_seal.svg.png"
+  },
+  "featuredBadgeMatch": {
+    "home": "Spain",
+    "away": "Argentina",
+    "homeScore": 1,
+    "awayScore": 0,
+    "label": "Spain vs Argentina"
   }
 }
