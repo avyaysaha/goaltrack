@@ -2599,14 +2599,14 @@ function getGoalMinuteEvents(matchFilter = null) {
 }
 
 function renderGoalMinuteGrid(goalEvents, options = {}) {
-  const maximumMatchMinute = 131;
+  const absoluteMaximumMatchMinute = 131;
   const plottedGoals = goalEvents.filter(function (goal) {
     const minute = Number(goal.minute);
-    return Number.isFinite(minute) && minute >= 0 && minute <= maximumMatchMinute && goal.team;
+    return Number.isFinite(minute) && minute >= 0 && minute <= absoluteMaximumMatchMinute && goal.team;
   });
   const invalidMinuteGoals = goalEvents.filter(function (goal) {
     const minute = Number(goal.minute);
-    return goal.team && Number.isFinite(minute) && (minute < 0 || minute > maximumMatchMinute);
+    return goal.team && Number.isFinite(minute) && (minute < 0 || minute > absoluteMaximumMatchMinute);
   }).length;
   const missingMinuteCount = goalEvents.length - plottedGoals.length - invalidMinuteGoals;
   const teams = options.teams?.length
@@ -2614,7 +2614,12 @@ function renderGoalMinuteGrid(goalEvents, options = {}) {
     : [...new Set(plottedGoals.map(function (goal) { return goal.team; }))].sort(function (a, b) {
       return a.localeCompare(b, "en", { sensitivity: "base" });
     });
-  const maxMinute = maximumMatchMinute;
+  const latestPlottedMinute = plottedGoals.reduce(function (latest, goal) {
+    return Math.max(latest, Number(goal.minute));
+  }, 0);
+  const maxMinute = options.compact && latestPlottedMinute
+    ? latestPlottedMinute
+    : absoluteMaximumMatchMinute;
   const width = options.compact ? 620 : 900;
   const rowGap = options.compact ? 38 : 42;
   const padding = {
