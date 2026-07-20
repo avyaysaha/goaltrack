@@ -481,13 +481,75 @@ function getBadgeAnimationStage(teamName, groupStageSurvivors) {
 }
 
 function getBadgeAnimationOrder(teams) {
-  const groupStageSurvivors = getGroupStageSurvivorNames();
+  const stageByTeam = new Map();
+  const knockoutTeamNames = new Set();
+  const setStage = function (teamName, stage) {
+    const normalized = normalizeTeamName(teamName);
+    if (!normalized) {
+      return;
+    }
+    stageByTeam.set(normalized, Math.max(stageByTeam.get(normalized) ?? 0, stage));
+  };
+
+  (siteData.matches || []).forEach(function (match) {
+    if (match.stage !== "Knockout") {
+      return;
+    }
+
+    knockoutTeamNames.add(normalizeTeamName(match.home));
+    knockoutTeamNames.add(normalizeTeamName(match.away));
+
+    if (!isFinishedMatch(match)) {
+      return;
+    }
+
+    const winner = getKnockoutResult(match, "winner");
+    const loser = getKnockoutResult(match, "runner-up");
+    const text = String(match.group || "");
+
+    if (/final/i.test(text) && !/third|play-off/i.test(text)) {
+      setStage(loser, 7);
+      setStage(winner, 8);
+      return;
+    }
+
+    if (/third|play-off/i.test(text)) {
+      setStage(loser, 5);
+      setStage(winner, 6);
+      return;
+    }
+
+    if (/semi/i.test(text)) {
+      setStage(loser, 4);
+      setStage(winner, 4.5);
+      return;
+    }
+
+    if (/quarter/i.test(text)) {
+      setStage(loser, 3);
+      setStage(winner, 3.5);
+      return;
+    }
+
+    if (/round of 16/i.test(text)) {
+      setStage(loser, 2);
+      setStage(winner, 2.5);
+      return;
+    }
+
+    if (/round of 32/i.test(text)) {
+      setStage(loser, 1);
+      setStage(winner, 1.5);
+    }
+  });
+
   return teams
     .map(function (team) {
       const standing = findTeamEntryByName(team.name) || team;
+      const normalized = normalizeTeamName(team.name);
       return {
         ...team,
-        animationStage: getBadgeAnimationStage(team.name, groupStageSurvivors),
+        animationStage: stageByTeam.get(normalized) ?? (knockoutTeamNames.has(normalized) ? 1 : 0),
         sortWins: Number(standing.won) || 0,
         sortGoalDifference: Number(standing.gd) || 0,
         sortRank: Number(standing.fifaRank) || 999
@@ -610,6 +672,7 @@ function renderBadgeAnimation() {
     const color = nationalColors[team.name] || "#1769e0";
     const animationType = randomAnimationType();
     const isChampion = normalizeTeamName(team.name) === normalizeTeamName(getKnockoutResult(getFinalMatch(), "winner"));
+    document.querySelector(".hero-visual")?.classList.toggle("champion-moment", isChampion);
     highlightOrbitTeams([team.name]);
 
     badgeAnimationStage.innerHTML = `

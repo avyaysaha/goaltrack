@@ -728,6 +728,19 @@ a {
   text-transform: uppercase;
 }
 
+.hero-visual.champion-moment .champion-badge-card {
+  animation: centerChampionMoment 5s ease-in-out both;
+}
+
+@keyframes centerChampionMoment {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  22%, 100% {
+    transform: translate(-50%, -50%) scale(1.18);
+  }
+}
+
 .trophy-overlay {
   position: absolute;
   top: 50%;
