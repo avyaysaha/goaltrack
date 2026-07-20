@@ -2150,6 +2150,7 @@ function openMatchStatsDialog(matchKey) {
         title: "Match Goal Timeline",
         number: "GOALS",
         compact: true,
+        maxMinute: getMatchTimelineMinuteLimit(match),
         teams: [match.home, match.away],
         emptyText: "Goal minutes for this match have not been added yet."
       })}
@@ -2568,6 +2569,44 @@ function splitGoalScorerEntry(goal) {
   });
 }
 
+function readMatchMinuteLimit(value) {
+  if (value === null || value === undefined || value === "") {
+    return null;
+  }
+
+  if (Number.isFinite(Number(value))) {
+    return Number(value);
+  }
+
+  const text = String(value).replace(/'/g, "").trim();
+  const stoppageTime = text.match(/^(\d+)\s*\+\s*(\d+)$/);
+  if (stoppageTime) {
+    return Number(stoppageTime[1]) + Number(stoppageTime[2]);
+  }
+
+  const firstNumber = text.match(/\d+/);
+  return firstNumber ? Number(firstNumber[0]) : null;
+}
+
+function getMatchTimelineMinuteLimit(match) {
+  const minuteLimit = [
+    match.elapsed,
+    match.minutesPlayed,
+    match.minutes_played,
+    match.matchMinutes,
+    match.totalMinutes,
+    match.duration,
+    match.fullTimeMinute,
+    match.matchStats?.minutesPlayed,
+    match.matchStats?.minutes_played,
+    match.matchStats?.elapsed
+  ].map(readMatchMinuteLimit).find(function (minute) {
+    return Number.isFinite(minute) && minute > 0;
+  });
+
+  return minuteLimit || 131;
+}
+
 function getGoalMinuteEvents(matchFilter = null) {
   const events = [];
   const completedMatches = matchFilter ? [matchFilter] : getCompletedMatches();
@@ -2617,9 +2656,15 @@ function renderGoalMinuteGrid(goalEvents, options = {}) {
   const latestPlottedMinute = plottedGoals.reduce(function (latest, goal) {
     return Math.max(latest, Number(goal.minute));
   }, 0);
-  const maxMinute = options.compact && latestPlottedMinute
-    ? latestPlottedMinute
-    : absoluteMaximumMatchMinute;
+  const requestedMaxMinute = readMatchMinuteLimit(options.maxMinute);
+  const maxMinute = Math.min(
+    absoluteMaximumMatchMinute,
+    Math.max(
+      1,
+      Number.isFinite(requestedMaxMinute) ? requestedMaxMinute : absoluteMaximumMatchMinute,
+      latestPlottedMinute
+    )
+  );
   const width = options.compact ? 620 : 900;
   const rowGap = options.compact ? 38 : 42;
   const padding = {
