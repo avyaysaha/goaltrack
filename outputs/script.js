@@ -443,6 +443,65 @@ function highlightOrbitTeams(teamNames = []) {
   });
 }
 
+function getFinalMatch() {
+  return (siteData.matches || []).find(function (match) {
+    const text = String(match.group || "");
+    return match.stage === "Knockout" && /final/i.test(text) && !/third|play-off/i.test(text);
+  });
+}
+
+function getThirdPlaceMatch() {
+  return (siteData.matches || []).find(function (match) {
+    const text = String(match.group || "");
+    return match.stage === "Knockout" && /third|play-off/i.test(text);
+  });
+}
+
+function getBadgeAnimationStage(teamName, groupStageSurvivors) {
+  const normalizedTeam = normalizeTeamName(teamName);
+  const finalMatch = getFinalMatch();
+  const finalWinner = normalizeTeamName(getKnockoutResult(finalMatch, "winner"));
+  const finalRunnerUp = normalizeTeamName(getKnockoutResult(finalMatch, "runner-up"));
+  const thirdPlaceMatch = getThirdPlaceMatch();
+  const thirdPlaceWinner = normalizeTeamName(getKnockoutResult(thirdPlaceMatch, "winner"));
+
+  if (finalWinner && normalizedTeam === finalWinner) return 7;
+  if (finalRunnerUp && normalizedTeam === finalRunnerUp) return 6;
+  if (thirdPlaceWinner && normalizedTeam === thirdPlaceWinner) return 5;
+
+  const eliminationLabel = getEliminationStageLabel(teamName, groupStageSurvivors);
+  if (/group stage/i.test(eliminationLabel)) return 0;
+  if (/round of 32/i.test(eliminationLabel)) return 1;
+  if (/round of 16/i.test(eliminationLabel)) return 2;
+  if (/quarter/i.test(eliminationLabel)) return 3;
+  if (/semi/i.test(eliminationLabel)) return 4;
+
+  return 0;
+}
+
+function getBadgeAnimationOrder(teams) {
+  const groupStageSurvivors = getGroupStageSurvivorNames();
+  return teams
+    .map(function (team) {
+      const standing = findTeamEntryByName(team.name) || team;
+      return {
+        ...team,
+        animationStage: getBadgeAnimationStage(team.name, groupStageSurvivors),
+        sortWins: Number(standing.won) || 0,
+        sortGoalDifference: Number(standing.gd) || 0,
+        sortRank: Number(standing.fifaRank) || 999
+      };
+    })
+    .sort(function (a, b) {
+      return a.animationStage - b.animationStage ||
+        a.sortWins - b.sortWins ||
+        a.sortGoalDifference - b.sortGoalDifference ||
+        b.points - a.points ||
+        a.sortRank - b.sortRank ||
+        a.name.localeCompare(b.name, "en", { sensitivity: "base" });
+    });
+}
+
 function renderBadgeAnimation() {
   if (!badgeAnimationStage) {
     return;
@@ -453,9 +512,7 @@ function renderBadgeAnimation() {
       return { ...entry, group };
     });
   });
-  allTeams = allTeams.sort(function () {
-    return Math.random() - 0.5;
-  });
+  allTeams = getBadgeAnimationOrder(allTeams);
   const shirtBadgeUrls = siteData.shirtBadgeUrls || {};
   const nationalColors = siteData.nationalColors || {};
   const badgeDuration = 5000;
@@ -489,6 +546,23 @@ function renderBadgeAnimation() {
           <span>${escapeHtml(code)}</span>
         </div>
       `;
+  };
+
+  const replaceBrokenBadgeImages = function (container, team) {
+    const image = container.querySelector("img");
+    if (!image) {
+      return;
+    }
+
+    image.addEventListener("error", function () {
+      const color = nationalColors[team.name] || "#1769e0";
+      const code = getTeamCountryCode(team.name, team.flag || team.name.slice(0, 3).toUpperCase());
+      const fallback = document.createElement("div");
+      fallback.className = "shirt-crest-fallback";
+      fallback.style.setProperty("--badge-color", color);
+      fallback.innerHTML = `<span>${escapeHtml(code)}</span>`;
+      image.replaceWith(fallback);
+    }, { once: true });
   };
 
   const featuredBadgeMatch = siteData.featuredBadgeMatch;
@@ -534,16 +608,18 @@ function renderBadgeAnimation() {
     const displayName = cleanDisplayText(team.name);
     const color = nationalColors[team.name] || "#1769e0";
     const animationType = randomAnimationType();
+    const isChampion = normalizeTeamName(team.name) === normalizeTeamName(getKnockoutResult(getFinalMatch(), "winner"));
     highlightOrbitTeams([team.name]);
 
     badgeAnimationStage.innerHTML = `
       <div
-        class="shirt-badge-background badge-${animationType} ${normalizeTeamName(team.name).includes("switzerland") ? "badge-needs-white-backdrop" : ""}"
+        class="shirt-badge-background badge-${animationType} ${isChampion ? "badge-champion-final" : ""} ${normalizeTeamName(team.name).includes("switzerland") ? "badge-needs-white-backdrop" : ""}"
         style="--badge-color:${color};"
         title="${escapeHtml(displayName)}">
         ${renderBadgeContent(team)}
       </div>
     `;
+    replaceBrokenBadgeImages(badgeAnimationStage, team);
   };
 
   let activeIndex = 0;
@@ -551,11 +627,6 @@ function renderBadgeAnimation() {
   clearInterval(badgeAnimationTimer);
   badgeAnimationTimer = setInterval(function () {
     activeIndex = (activeIndex + 1) % allTeams.length;
-    if (activeIndex === 0) {
-      allTeams = allTeams.sort(function () {
-        return Math.random() - 0.5;
-      });
-    }
     renderTeamBadge(allTeams[activeIndex]);
   }, badgeDuration);
 }
@@ -665,6 +736,32 @@ function escapeHtml(value) {
 
 function cleanDisplayText(value) {
   const text = String(value ?? "")
+    .replace(/Ã/g, "Á")
+    .replace(/Ã¡/g, "á")
+    .replace(/Ã©/g, "é")
+    .replace(/Ã­/g, "í")
+    .replace(/Ã³/g, "ó")
+    .replace(/Ãº/g, "ú")
+    .replace(/Ã±/g, "ñ")
+    .replace(/Ã£/g, "ã")
+    .replace(/Ã§/g, "ç")
+    .replace(/Ã¨/g, "è")
+    .replace(/Ã«/g, "ë")
+    .replace(/Ã¯/g, "ï")
+    .replace(/Ã¶/g, "ö")
+    .replace(/Ã¼/g, "ü")
+    .replace(/Ã‡/g, "Ç")
+    .replace(/Ã‰/g, "É")
+    .replace(/Ã˜/g, "Ø")
+    .replace(/Ä|Äč/g, "č")
+    .replace(/Ä±/g, "ı")
+    .replace(/Ä‡/g, "ć")
+    .replace(/Ä›/g, "ě")
+    .replace(/ÄŸ/g, "ğ")
+    .replace(/ÅŸ/g, "ş")
+    .replace(/Å¡/g, "š")
+    .replace(/Å¾/g, "ž")
+    .replace(/Å™/g, "ř")
     .replace(/ÃƒÆ’Ã‚Â/g, "Á")
     .replace(/ÃƒÆ’Ã‚Â¡/g, "á")
     .replace(/ÃƒÆ’Ã‚Â©/g, "é")

@@ -315,6 +315,11 @@ a {
   animation-name: shirtBadgeCloseIn;
 }
 
+.badge-champion-final {
+  z-index: 1;
+  animation-name: shirtBadgeChampionFinal;
+}
+
 .shirt-badge-background img {
   width: min(46vw, 430px);
   height: min(46vw, 430px);
@@ -601,6 +606,29 @@ a {
   }
 }
 
+@keyframes shirtBadgeChampionFinal {
+  0% {
+    opacity: 0;
+    transform: translateY(18vh) scale(0.65) rotate(-16deg);
+    filter: blur(8px);
+  }
+  24% {
+    opacity: 1;
+    transform: translateY(0) scale(1.18) rotate(0);
+    filter: blur(0);
+  }
+  76% {
+    opacity: 1;
+    transform: translateY(0) scale(1.18) rotate(0);
+    filter: blur(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(0) scale(1.18) rotate(0);
+    filter: blur(0);
+  }
+}
+
 @keyframes featuredBadgeFadeIn {
   from {
     opacity: 0;
@@ -666,24 +694,23 @@ a {
 }
 
 .champion-badge-card {
-  width: 235px;
-  height: 270px;
+  width: 210px;
+  height: 210px;
   display: grid;
   place-items: center;
   align-content: center;
-  gap: 12px;
-  border: 0;
-  border-radius: 28px;
-  background: rgba(255, 255, 255, 0.08);
+  gap: 6px;
+  border: 12px solid rgba(255, 255, 255, 0.08);
+  border-radius: 50%;
+  background: rgba(7, 15, 28, 0.72);
   box-shadow:
-    0 35px 60px rgba(0, 0, 0, 0.35),
-    inset 0 0 0 1px rgba(255, 255, 255, 0.16);
+    0 35px 60px rgba(0, 0, 0, 0.35);
   transform: translate(-50%, -50%);
 }
 
 .champion-badge-card img {
-  width: 155px;
-  height: 155px;
+  width: 118px;
+  height: 118px;
   border-radius: 0;
   object-fit: contain;
   mix-blend-mode: normal;
@@ -692,9 +719,11 @@ a {
 
 .champion-badge-card span {
   color: var(--white);
-  font-size: 0.78rem;
+  width: 150px;
+  font-size: 0.58rem;
   font-weight: 1000;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
+  line-height: 1.15;
   text-align: center;
   text-transform: uppercase;
 }
