@@ -352,6 +352,7 @@ function renderTeamOrbit() {
   };
 
   teamOrbitDots.innerHTML = allTeams.map(function (entry, index) {
+    const displayName = cleanDisplayText(entry.name);
     const angle = (index / allTeams.length) * Math.PI * 2 - Math.PI / 2;
     // Wins, points, and later rounds move a team inward. Losses push the dot
     // farther back, so eliminated teams remain visible instead of disappearing.
@@ -368,15 +369,15 @@ function renderTeamOrbit() {
     const placementLabel = finalPlacementLabels[entry.name];
     const eliminationLabel = getEliminationStageLabel(entry.name, groupStageSurvivors);
     const labelText = placementLabel
-      ? `${entry.name} · ${placementLabel}`
+      ? `${displayName} · ${placementLabel}`
       : eliminationLabel
-        ? `${entry.name} · ${eliminationLabel}`
-        : `${entry.name} · ${tournamentRecord.won}W ${tournamentRecord.lost}L`;
+        ? `${displayName} · ${eliminationLabel}`
+        : `${displayName} · ${tournamentRecord.won}W ${tournamentRecord.lost}L`;
     const ariaLabel = placementLabel
-      ? `${entry.name}, ${placementLabel.toLowerCase()}`
+      ? `${displayName}, ${placementLabel.toLowerCase()}`
       : eliminationLabel
-        ? `${entry.name}, ${eliminationLabel.toLowerCase()}`
-        : `${entry.name}, ${tournamentRecord.won} wins, ${tournamentRecord.lost} losses`;
+        ? `${displayName}, ${eliminationLabel.toLowerCase()}`
+        : `${displayName}, ${tournamentRecord.won} wins, ${tournamentRecord.lost} losses`;
 
     return `
       <button
@@ -389,9 +390,9 @@ function renderTeamOrbit() {
           --orbit-score: ${orbitScore};
           --team-color: ${color};
         "
-        data-label="${labelText}"
-        data-team="${escapeHtml(entry.name)}"
-        aria-label="${ariaLabel}">
+        data-label="${escapeHtml(labelText)}"
+        data-team="${escapeHtml(displayName)}"
+        aria-label="${escapeHtml(ariaLabel)}">
       </button>
     `;
   }).join("");
