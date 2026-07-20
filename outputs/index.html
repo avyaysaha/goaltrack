@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -6,13 +6,13 @@
   <meta name="description" content="A beginner-friendly FIFA World Cup tracker made with HTML, CSS, and JavaScript.">
   <title>GoalTrack | World Cup Tracker</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=overview-countdown-box">
+  <link rel="stylesheet" href="styles.css?v=champions-home-bracket">
 </head>
 <body>
   <!-- The header is shared across all three pages so navigation feels consistent. -->
   <header class="site-header">
     <a class="brand" href="index.html" aria-label="GoalTrack home">
-      <span class="brand-ball" aria-hidden="true">⚽</span>
+      <span class="brand-ball" aria-hidden="true">âš½</span>
       <span>Goal<span>Track</span></span>
     </a>
 
@@ -42,7 +42,7 @@
           browse upcoming fixtures, and learn how the competition works.
         </p>
         <div class="hero-actions">
-          <a class="button button-primary" href="schedule.html">View Matches <span>→</span></a>
+          <a class="button button-primary" href="schedule.html">View Matches <span>â†’</span></a>
           <a class="button button-secondary" href="standings.html">Check Standings</a>
           <a class="button button-secondary" href="stats.html">View Stats</a>
         </div>
@@ -53,26 +53,30 @@
         <div class="orbit orbit-two"></div>
         <!-- JavaScript adds one progress dot for every tournament team here. -->
         <div id="team-orbit-dots" class="team-orbit-dots" aria-label="Team progress orbit"></div>
-        <!-- This image is stored locally so it continues to work offline. -->
-        <div class="football">
-          <img src="trionda-ball.png" alt="Official adidas Trionda FIFA World Cup 2026 football">
+        <div class="football champion-badge-card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Spain_national_football_team_crest.svg/960px-Spain_national_football_team_crest.svg.png" alt="Spain national football team badge">
+          <span>World Champions 2026</span>
         </div>
-        <img class="trophy-overlay" src="world-cup-trophy.png" alt="" aria-hidden="true">
       </div>
     </section>
 
     <!-- JavaScript fills in the countdown to the tournament final. -->
-    <section class="countdown-section" aria-labelledby="countdown-title">
+    <section class="countdown-section final-result-section" aria-labelledby="countdown-title">
       <div>
-        <p class="section-kicker">COUNTDOWN TO THE FINAL</p>
-        <h2 id="countdown-title">World Cup <span>Final</span></h2>
+        <p class="section-kicker">WORLD CUP FINAL</p>
+        <h2 id="countdown-title">Spain <span>are champions</span></h2>
         <p>July 19, 2026 · MetLife Stadium · New York/New Jersey</p>
       </div>
-      <div class="countdown" aria-label="Countdown to the World Cup final">
-        <div><strong id="days">00</strong><span>Days</span></div>
-        <div><strong id="hours">00</strong><span>Hours</span></div>
-        <div><strong id="minutes">00</strong><span>Mins</span></div>
-        <div><strong id="seconds">00</strong><span>Secs</span></div>
+      <div class="final-score-strip" aria-label="World Cup final score: Spain 1, Argentina 0">
+        <div class="final-score-team">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Spain_national_football_team_crest.svg/960px-Spain_national_football_team_crest.svg.png" alt="Spain badge">
+          <strong>1</strong>
+        </div>
+        <span class="final-score-divider">-</span>
+        <div class="final-score-team">
+          <strong>0</strong>
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Argentina_national_football_team_logo.svg/960px-Argentina_national_football_team_logo.svg.png" alt="Argentina badge">
+        </div>
       </div>
     </section>
 
@@ -80,24 +84,8 @@
       <div class="overview-heading">
         <div>
           <p class="section-kicker">TOURNAMENT OVERVIEW</p>
-          <h2 id="overview-title">The Story so Far</h2>
+          <h2 id="overview-title" class="story-title">The Story <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/We_Are_26.svg" alt="WE ARE 26 emblem"></h2>
         </div>
-      </div>
-
-      <div class="overview-grid">
-        <article class="overview-match-card">
-          <span>Last match played</span>
-          <strong id="overview-last-match">Loading...</strong>
-          <p id="overview-last-detail">Checking completed matches.</p>
-          <p id="overview-last-countdown" class="overview-match-countdown"><span>KICKOFF COUNTDOWN</span><strong>--</strong></p>
-        </article>
-
-        <article class="overview-match-card">
-          <span>Next match coming up</span>
-          <strong id="overview-next-match">France vs Morocco</strong>
-          <p id="overview-next-countdown" class="overview-match-countdown"><span>KICKOFF COUNTDOWN</span><strong>--</strong></p>
-          <p id="overview-next-detail">Thursday, July 9, 2026 · 4:00 PM · Gillette Stadium · Boston</p>
-        </article>
       </div>
 
       <div id="overview-totals" class="overview-totals" aria-label="Whole tournament totals"></div>
@@ -113,7 +101,7 @@
         </article>
         <article>
           <h3><span class="overview-icon icon-golden-glove" aria-hidden="true"><svg viewBox="0 0 64 64" focusable="false"><path class="glove-fingers" d="M19 31 V15 C19 11 25 11 25 15 V29 M25 28 V12 C25 8 31 8 31 12 V28 M31 28 V12 C31 8 37 8 37 12 V29 M37 30 V16 C37 12 43 12 43 16 V34"></path><path class="glove-palm" d="M18 31 C14 28 10 33 14 38 L24 51 H43 C49 51 53 47 53 40 V30 C53 26 47 26 47 30 V36 C44 34 41 34 38 37 L34 41 L27 34 C24 31 21 31 18 31 Z"></path><path class="glove-cuff" d="M25 51 H45 V58 H25 Z"></path></svg></span> Best Keeper</h3>
-          <strong id="overview-keeper-title" class="overview-leader-name">Unai Simón</strong>
+          <strong id="overview-keeper-title" class="overview-leader-name">Unai SimÃ³n</strong>
         </article>
       </div>
     </section>
@@ -130,33 +118,33 @@
       <div class="feature-grid">
         <a class="feature-card card-dark" href="standings.html">
           <span class="card-number">01</span>
-          <div class="feature-icon">▥</div>
+          <div class="feature-icon">â–¥</div>
           <h3>Group Standings</h3>
           <p>See points, wins, draws, losses, and goal difference for every team.</p>
-          <span class="text-link">Explore groups →</span>
+          <span class="text-link">Explore groups â†’</span>
         </a>
 
         <a class="feature-card card-green" href="schedule.html">
           <span class="card-number">02</span>
-          <div class="feature-icon">▦</div>
+          <div class="feature-icon">â–¦</div>
           <h3>Match Schedule</h3>
           <p>Browse fixtures by date and filter the list to find the matches you want.</p>
-          <span class="text-link">See fixtures →</span>
+          <span class="text-link">See fixtures â†’</span>
         </a>
 
         <a class="feature-card card-light" href="stats.html">
           <span class="card-number">03</span>
-          <div class="feature-icon">↗</div>
+          <div class="feature-icon">â†—</div>
           <h3>Stats</h3>
           <p>Follow tournament trends, player goals, team goals, cards, and goalkeepers.</p>
-          <span class="text-link">View stats →</span>
+          <span class="text-link">View stats â†’</span>
         </a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p><strong>GoalTrack</strong> · A sample learning project</p>
+    <p><strong>GoalTrack</strong> Â· A sample learning project</p>
     <p>Not affiliated with FIFA.</p>
   </footer>
 
@@ -166,7 +154,7 @@
   <aside id="chat-panel" class="chat-panel" aria-label="GoalTrack data assistant" aria-hidden="true">
     <div class="chat-header">
       <div><strong>Track</strong><span>Answers from this tracker</span></div>
-      <button id="chat-close" type="button" aria-label="Close assistant">×</button>
+      <button id="chat-close" type="button" aria-label="Close assistant">Ã—</button>
     </div>
     <div id="chat-messages" class="chat-messages" aria-live="polite">
       <div class="chat-message assistant">Ask me about groups, standings, rankings, fixtures, results, or venues.</div>
@@ -182,6 +170,7 @@
       <button type="submit">Send</button>
     </form>
   </aside>
-  <script src="data-loader.js?v=overview-countdown-box"></script>
+  <script src="data-loader.js?v=champions-home-bracket"></script>
 </body>
 </html>
+

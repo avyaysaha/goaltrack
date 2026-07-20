@@ -665,6 +665,40 @@ a {
   mix-blend-mode: multiply;
 }
 
+.champion-badge-card {
+  width: 235px;
+  height: 270px;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 12px;
+  border: 0;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 35px 60px rgba(0, 0, 0, 0.35),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.16);
+  transform: translate(-50%, -50%);
+}
+
+.champion-badge-card img {
+  width: 155px;
+  height: 155px;
+  border-radius: 0;
+  object-fit: contain;
+  mix-blend-mode: normal;
+  filter: drop-shadow(0 16px 24px rgba(0, 0, 0, 0.36));
+}
+
+.champion-badge-card span {
+  color: var(--white);
+  font-size: 0.78rem;
+  font-weight: 1000;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .trophy-overlay {
   position: absolute;
   top: 50%;
@@ -894,6 +928,44 @@ a {
   text-transform: uppercase;
 }
 
+.final-result-section {
+  background: linear-gradient(105deg, #aa151b 0 34%, #f1bf00 34% 52%, #75aadb 52% 100%);
+}
+
+.final-score-strip {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: var(--ink);
+  color: var(--white);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.22);
+}
+
+.final-score-team {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.final-score-team img {
+  width: 54px;
+  height: 54px;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.35));
+}
+
+.final-score-team strong,
+.final-score-divider {
+  font-size: clamp(2rem, 5vw, 3.8rem);
+  font-weight: 1000;
+  line-height: 1;
+}
+
+.final-score-divider {
+  color: rgba(255, 255, 255, 0.58);
+}
+
 .tournament-overview {
   width: min(1180px, 90vw);
   margin: 55px auto 0;
@@ -915,6 +987,18 @@ a {
   margin: 0;
   font-size: clamp(1.8rem, 3vw, 2.8rem);
   letter-spacing: -0.05em;
+}
+
+.story-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.story-title img {
+  width: clamp(58px, 9vw, 96px);
+  height: auto;
+  object-fit: contain;
 }
 
 .overview-heading > p {

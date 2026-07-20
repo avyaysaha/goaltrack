@@ -855,10 +855,35 @@ function bracketTeamRow(name, score, winner, shootoutScore = null) {
 }
 
 function getSourceMatchNumbers(match) {
-  return [match.homeSource || match.home, match.awaySource || match.away]
+  const sourceNumbers = [match.homeSource || match.home, match.awaySource || match.away]
     .map((teamName) => String(teamName || "").match(/^Winner Match\s+(\d+)$/i))
     .filter(Boolean)
     .map((matchNumber) => Number(matchNumber[1]));
+
+  if (sourceNumbers.length) {
+    return sourceNumbers;
+  }
+
+  const knockoutSourceFallback = {
+    89: [74, 77],
+    90: [73, 75],
+    91: [76, 78],
+    92: [79, 80],
+    93: [83, 84],
+    94: [81, 82],
+    95: [86, 88],
+    96: [85, 87],
+    97: [89, 90],
+    98: [93, 94],
+    99: [91, 92],
+    100: [95, 96],
+    101: [97, 98],
+    102: [99, 100],
+    103: [101, 102],
+    104: [101, 102],
+  };
+
+  return knockoutSourceFallback[getMatchNumber(match)] || [];
 }
 
 function renderBracketMatchCard(match, matchByNumber) {
@@ -3230,10 +3255,18 @@ function renderTournamentOverview() {
   overviewLastCountdownMatch = lastMatch;
   overviewNextCountdownMatch = nextMatch;
 
-  overviewLastMatch.textContent = formatOverviewMatch(lastMatch);
-  overviewLastDetail.textContent = formatOverviewDetail(lastMatch);
-  overviewNextMatch.textContent = formatOverviewMatch(nextMatch);
-  overviewNextDetail.textContent = formatOverviewDetail(nextMatch);
+  if (overviewLastMatch) {
+    overviewLastMatch.textContent = formatOverviewMatch(lastMatch);
+  }
+  if (overviewLastDetail) {
+    overviewLastDetail.textContent = formatOverviewDetail(lastMatch);
+  }
+  if (overviewNextMatch) {
+    overviewNextMatch.textContent = formatOverviewMatch(nextMatch);
+  }
+  if (overviewNextDetail) {
+    overviewNextDetail.textContent = formatOverviewDetail(nextMatch);
+  }
   updateOverviewCountdowns();
 
   let totals;
