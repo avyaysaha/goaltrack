@@ -627,6 +627,10 @@ function renderBadgeAnimation() {
   renderTeamBadge(allTeams[activeIndex]);
   clearInterval(badgeAnimationTimer);
   badgeAnimationTimer = setInterval(function () {
+    if (activeIndex >= allTeams.length - 1) {
+      clearInterval(badgeAnimationTimer);
+      return;
+    }
     activeIndex = (activeIndex + 1) % allTeams.length;
     renderTeamBadge(allTeams[activeIndex]);
   }, badgeDuration);
