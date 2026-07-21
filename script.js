@@ -447,15 +447,24 @@ function highlightOrbitTeams(teamNames = []) {
 function getFinalMatch() {
   return (siteData.matches || []).find(function (match) {
     const text = String(match.group || "");
-    return match.stage === "Knockout" && /final/i.test(text) && !/third|play-off/i.test(text);
+    return match.stage === "Knockout" && isFinalMatchLabel(text);
   });
 }
 
 function getThirdPlaceMatch() {
   return (siteData.matches || []).find(function (match) {
     const text = String(match.group || "");
-    return match.stage === "Knockout" && /third|play-off/i.test(text);
+    return match.stage === "Knockout" && isThirdPlaceMatchLabel(text);
   });
+}
+
+function isFinalMatchLabel(text) {
+  const label = String(text || "");
+  return /\bfinals?\b/i.test(label) && !/semi|quarter|third|play-off/i.test(label);
+}
+
+function isThirdPlaceMatchLabel(text) {
+  return /third|play-off/i.test(String(text || ""));
 }
 
 function getBadgeAnimationStage(teamName, groupStageSurvivors) {
@@ -507,13 +516,13 @@ function getBadgeAnimationOrder(teams) {
     const loser = getKnockoutResult(match, "runner-up");
     const text = String(match.group || "");
 
-    if (/final/i.test(text) && !/third|play-off/i.test(text)) {
+    if (isFinalMatchLabel(text)) {
       setStage(loser, 7);
       setStage(winner, 8);
       return;
     }
 
-    if (/third|play-off/i.test(text)) {
+    if (isThirdPlaceMatchLabel(text)) {
       setStage(loser, 5);
       setStage(winner, 6);
       return;
